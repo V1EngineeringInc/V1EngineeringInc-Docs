@@ -1,6 +1,7 @@
 site_name: V1 Engineering Inc Docs
 
 repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
+edit_uri: 'tree/master/docs/'
 
 theme: 'windmill'
 extra_css: [v1.css]
@@ -18,17 +19,16 @@ nav:
      - Assembly:
          - Step1: pg1.md
      - Electronics:
-         - Step1: pg2.md
+         - Step2: pg2.md
      - Madness: 
          - Laser Stuff: 
             - laser1: pg1.md
             - Laser2: pg2.md
          - Plasma Stuff:
-            - plasma1: pg1.md
-            - plasma2: pg2.md
+            - plasma3: pg3.md
+            - plasma4: pg4.md
  - LowRider:
      - Assembly:
-         - Step1: pg3.md
+         - Step3: pg3.md
      - Electronics:
-         - Step1: pg4.md
-
+         - Step4: pg4.md
