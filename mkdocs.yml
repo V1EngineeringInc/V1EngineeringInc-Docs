@@ -2,14 +2,15 @@ site_name: V1 Engineering Inc Docs
 theme: 'windmill'
 extra_css: [v1.css]
 
-extra:
-  logo: "https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png"
-
+# This doesn't seem to work. It looks like it's abusing the address:
+#     404 GET /https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png
+# extra:
+#   logo: "https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png"
 
 copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2019 V1Engineering Inc."
 nav:
  - Index: index.md
- - Foobar: about.md
+ - Editing mkdocs: mkdocs_info.md
  - MPCNC:
      - Assembly:
          - Step1: pg1.md
