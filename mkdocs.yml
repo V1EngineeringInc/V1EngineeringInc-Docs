@@ -1,0 +1,30 @@
+site_name: V1 Engineering Inc Docs
+theme: 'windmill'
+extra_css: [v1.css]
+
+extra:
+extra.logo: https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png
+
+
+copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2019 V1Engineering Inc."
+nav:
+ - Index: index.md
+ - Foobar: about.md
+ - MPCNC:
+     - Assembly:
+         - Step1: pg1.md
+     - Electronics:
+         - Step1: pg2.md
+     - Madness:
+         - Laser Stuff:
+            - laser1: pg1.md
+            - Laser2: pg2.md
+         - Plasma Stuff:
+            - plasma1: pg1.md
+            - plasma2: pg2.md
+ - LowRider:
+     - Assembly:
+         - Step1: pg3.md
+     - Electronics:
+         - Step1: pg4.md
+
