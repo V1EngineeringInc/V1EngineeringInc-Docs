@@ -2,7 +2,7 @@
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
- - Pipeline figured out from .md files to webpage (github.io page).
+ - DONE Pipeline figured out from .md files to webpage (github.io page).
 
  - DONE Some kind of images posted, and also images from v1engineering.com.
 
