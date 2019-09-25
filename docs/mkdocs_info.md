@@ -105,8 +105,6 @@ This helps a lot: [Table Generator](https://www.tablesgenerator.com/markdown_tab
     | col 2 is |    centered   |   $12 |
     | col 3 is | right-aligned |    $1 |
 
-For some reason, the style is all messed up here.
-
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
