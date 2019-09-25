@@ -1,4 +1,7 @@
 site_name: V1 Engineering Inc Docs
+
+repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
+
 theme: 'windmill'
 extra_css: [v1.css]
 
@@ -16,8 +19,8 @@ nav:
          - Step1: pg1.md
      - Electronics:
          - Step1: pg2.md
-     - Madness:
-         - Laser Stuff:
+     - Madness: pg4.md
+         - Laser Stuff: pg3.md
             - laser1: pg1.md
             - Laser2: pg2.md
          - Plasma Stuff:
