@@ -3,7 +3,7 @@ theme: 'windmill'
 extra_css: [v1.css]
 
 extra:
-extra.logo: https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png
+  logo: "https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png"
 
 
 copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2019 V1Engineering Inc."
