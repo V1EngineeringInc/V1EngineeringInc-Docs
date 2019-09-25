@@ -20,7 +20,7 @@ nav:
      - Electronics:
          - Step1: pg2.md
      - Madness: pg4.md
-         - Laser Stuff: pg3.md
+         - Laser Stuff: 
             - laser1: pg1.md
             - Laser2: pg2.md
          - Plasma Stuff:
