@@ -21,6 +21,10 @@ Here's a link to a specific section in the documentation:
 
 ## Images
 
+!!! note
+    It's preferable to use the syntax in [Image Resizing](#image-resizing) to this basic syntax for
+    the v1 instructions.
+
 If the image is on v1engineering.com, and it's the right size, then it can be placed here with
 markdown like this:
 
@@ -42,20 +46,24 @@ docs/media folder and linked like this:
 
 ### Image Resizing
 
-This markdown doesn't support size hints (that I could find). But you can put basic html into
-markdown, so if you have an image and you need it to be a certain size, I found this works:
+In these instructions, it's helpful to allow a really big image to see detail. But also only show a
+smaller version, to show the overview. To accomplish this, we want the images to be big in their
+original format, and then smaller in the documentation. Then, when the user clicks the image, they
+should get a bigger view.
 
-```html
-<img src="../media/filename.png" width="400" height="320"/>
+Using these features is done like this:
+
+```
+![!Backup Text](imageLocation "Hover text"){: width="400" }
 ```
 
-The `height` is optional, and if you omit it, it will keep the original aspect ratio.
+Notice the extra `!` in the `[]` brackets. That makes this a link to the image. Notice also the
+`{: width="400" }`. That adds attributes to the image, and width limits the size, without changing
+the aspect ratio. You can also add `height=""` and set the height.
 
-The `src` might need a '../' if this isn't the main page.
+![!Example Picture](media/pic.png){: width="400" }
 
-<img src="../media/pic.png" width="400"/>
-
-<img src="../media/pic.png" width="400" height="120"/>
+![!Example Picture](media/pic.png){: width="400" height="100" }
 
 ## Organization
 
@@ -111,10 +119,6 @@ This helps a lot: [Table Generator](https://www.tablesgenerator.com/markdown_tab
 | col 2 is    |    centered   |   $12 |
 | column 3 is | right-aligned |    $1 |
 
-### Favicon
-
-TODO: https://www.mkdocs.org/#changing-the-favicon-icon
-
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
@@ -122,6 +126,18 @@ TODO: https://www.mkdocs.org/#changing-the-favicon-icon
 * `mkdocs build` - Build the documentation site.
 * `mkdocs gh-deploy` - Deploy the docs to github pages.
 * `mkdocs help` - Print this help message.
+
+## Installing dependencies
+
+Since this no longer only requires mkdocs as a dependency, there is a requirements.txt.
+
+To make sure you have the requirements, and you're trying to build the docs on your computer, you
+can do this:
+
+    pip install -r requirements.txt
+
+I recommend doing this in a virtualenv environment, which will let you easily remove the things
+you've installed if you've made a mistake.
 
 ## Project layout
 
