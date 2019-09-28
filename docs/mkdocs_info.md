@@ -83,25 +83,47 @@ and nesting more than two is funky. Also, top levels can't be pages, so it's rea
 
 ### Embed videos
 
-Doesn't seem to work :(
-
-[[embed url=http://www.youtube.com/watch?v=6YbBmqUnoQM]]
-
-[!embed](https://www.youtube.com/watch?v=vq2jYFZVMDA)
-
-Raw html works:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xIGre_E2_og"
-frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-
-You can get this html by clicking the share button on a video, then clicking the `<>` symbol.
+[!embed](https://www.youtube.com/watch?v=xIGre_E2_og)
 
 ### Emojis?
 
+https://facelessuser.github.io/pymdown-extensions/extensions/emoji://facelessuser.github.io/pymdown-extensions/extensions/emoji/
+
 :smile:
 
-Nope. :(
+https://facelessuser.github.io/pymdown-extensions/extensions/smartsymbols/
+
+Symbols too, like (tm), (c), -->, +/-, 1/4, 1/8
+
+### Equations?
+
+https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/
+
+$p(x|y) = \frac{p(y|x)p(x)}{p(y)}$, \(p(x|y) = \frac{p(y|x)p(x)}{p(y)}\).$$
+ 
+### Details
+
+https://facelessuser.github.io/pymdown-extensions/extensions/details/
+
+??? More details here
+    Here are some more details
+
+### Task Lists
+
+https://facelessuser.github.io/pymdown-extensions/extensions/tasklist/
+
+Task Lists are static. They don't let users click through them.
+
+- [X] item 1
+    * [X] item A
+    * [ ] item B
+        more text
+        + [x] item a
+        + [ ] item b
+        + [x] item c
+    * [X] item C
+- [ ] item 2
+- [ ] item 3
 
 ### Tables
 
@@ -118,6 +140,45 @@ This helps a lot: [Table Generator](https://www.tablesgenerator.com/markdown_tab
 | col 1 is    |  left-aligned | $1600 |
 | col 2 is    |    centered   |   $12 |
 | column 3 is | right-aligned |    $1 |
+
+### Definitions
+
+Doe
+:   A deer, a female deer
+
+Ray
+:   A drop of golden sun
+
+Me
+:   A name I call myself
+
+Far
+:   A long long way to run
+
+Sew
+:   A needle pulling thread
+
+La
+:   A note to follow Sew
+
+Tea
+:   A drink with jam and bread
+
+### Favicon
+
+TODO: https://www.mkdocs.org/#changing-the-favicon-icon
+
+### Code Highlighting
+
+https://python-markdown.github.io/extensions/code_hilite/
+
+```python
+import tensorflow as tf
+```
+
+https://facelessuser.github.io/pymdown-extensions/extensions/inlinehilite/
+
+inlinehilite allows inline code syntax highlighting like this: `#!python import tensorflow as tf`.
 
 ## Commands
 
