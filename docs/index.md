@@ -10,10 +10,9 @@ github.io](https://v1engineeringinc.github.io/V1EngineeringInc-Docs)
 
 [The source code is on github](https://github.com/V1EngineeringInc/V1EngineeringInc-Docs)
 
-## Note
-
-Most of these pages are just filler to play with navigation. The actual documentation is still at
-[v1engineering.com](https://www.v1engineering.com/assembly/)
+!!! note
+    Most of these pages are just filler to play with navigation. The actual documentation is still at
+    [v1engineering.com](https://www.v1engineering.com/assembly/)
 
 ## Editing
 

@@ -1,9 +1,20 @@
 site_name: V1 Engineering Inc Docs
 
+repo_name: V1EngineeringInc/V1EngineeringInc-Docs
 repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
 edit_uri: 'tree/master/docs/'
 
-theme: 'windmill'
+theme:
+  name: 'material'
+  palette:
+    primary: 'black'
+    accent: 'red'
+  # This actually works with material
+  # logo: "https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png"
+  logo: "img/favicon.ico"
+  favicon: "img/favicon.ico"
+
+
 extra_css: [v1.css]
 
 # This doesn't seem to work. It looks like it's abusing the address:
@@ -12,6 +23,14 @@ extra_css: [v1.css]
 #   logo: "https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png"
 
 copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2019 V1Engineering Inc."
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
 nav:
  - Index: index.md
  - Editing mkdocs: mkdocs_info.md
@@ -20,7 +39,7 @@ nav:
          - Step1: pg1.md
      - Electronics:
          - Step2: pg2.md
-     - Madness: 
+     - Madness:
          - Plasma Stuff:
             - plasma3: pg3.md
  - LowRider:
