@@ -23,5 +23,5 @@ nav:
      - Madness: 
          - Plasma Stuff:
             - plasma3: pg3.md
-    - LowRider:
-         - plasma4: pg4.md   
+ - LowRider:
+     - Assembly: pg4.md
