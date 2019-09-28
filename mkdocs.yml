@@ -21,14 +21,7 @@ nav:
      - Electronics:
          - Step2: pg2.md
      - Madness: 
-         - Laser Stuff: 
-            - laser1: pg1.md
-            - Laser2: pg2.md
          - Plasma Stuff:
             - plasma3: pg3.md
-            - plasma4: pg4.md
- - LowRider:
-     - Assembly:
-         - Step3: pg3.md
-     - Electronics:
-         - Step4: pg4.md
+    - LowRider:
+         - plasma4: pg4.md   
