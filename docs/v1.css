@@ -1,35 +1,12 @@
-.wm-top-link, .wm-top-link:hover, .wm-top-link:active, .wm-top-link:visited, .wm-top-link:focus {
-  color: #ea1717;
+
+h1, h2, h3, h4, h5 {
+  color: #ea1717
 }
 
-.navbar {
-  background-color: #ffffff;
+.md-header {
+  color: #ea1717
 }
 
-.wm-toc-pane {
-  background-color: #42413d;
-}
-
-.wm-toctree a, .wm-toctree a:visited, .wm-toctree a:hover, .wm-toctree a:focus {
-  color: #fff;
-}
-
-.wm-toc-text {
-  color: #fff; 
-}
-
-.wm-toc-li.wm-current, .wm-toc-li.wm-current:hover {
-  background-color: #000000;
-}
-
-.wm-toc-li-nested.wm-page-toc {
-   border-left: 1px solid #000000;
-}
-
-.wm-page-content a {
-  color: #ea1717;
-}
-
-.wm-article-nav > a, .wm-article-nav > a:visited, .wm-article-nav > a:hover, .wm-article-nav > a:focus {
-  color: #ea1717;
+.md-typeset h1 {
+  color: #ea1717
 }
