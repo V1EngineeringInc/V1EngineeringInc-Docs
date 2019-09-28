@@ -4,6 +4,8 @@
     These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
     instructions.
 
+[Base at v1engineering.com](https://www.v1engineering.com/base/)
+
 ## Feet
 
 ![foot apart](https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_115308-400x300.jpg)
@@ -75,13 +77,13 @@
     
 ## Corner Lower Assembly
 
-![corner parts](https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_125433-400x300.jpg)
+<img src="https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_125433-400x300.jpg" width="800"/>
 
-![rail on corner bottom](https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_125615-200x150.jpg)
+<img src="https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_125615-200x150.jpg" width="800"/>
 
-![spacer placement](https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_125701-200x150.jpg)
+<img src="https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_125701-200x150.jpg" width="800"/>
 
-![upper rail on spacer](https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_125736-200x150.jpg)
+<img src="https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_125736-200x150.jpg" width="800"/>
 
 * Add your Y rails and rollers to the corner assemblies (front to back).
 * Make sure the angled belt brackets face out, and the angles are pointed towards each other.
