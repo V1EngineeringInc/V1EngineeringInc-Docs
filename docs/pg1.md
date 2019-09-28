@@ -1,5 +1,9 @@
 # Base
 
+!!! warning
+    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
+    instructions.
+
 ## Feet
 
 ![foot apart](https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_115308-400x300.jpg)
