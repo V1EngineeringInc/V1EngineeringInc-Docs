@@ -30,6 +30,8 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: true
+  - lightgallery
+  - pymdownx.extra
 
 nav:
  - Index: index.md
