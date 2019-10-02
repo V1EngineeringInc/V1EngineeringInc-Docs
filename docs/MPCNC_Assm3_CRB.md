@@ -151,6 +151,6 @@ ___
 
 * Set all your outer dimensions from corner to corner, Usually this is the same as your x and Y Rail length that was entered into the [calculator](https://www.v1engineering.com/assembly/conduit-rails-tubes-pipes/).
 * Lightly snug up the Top_Corner screws trying to keep the spacing even on all four sides of the part. **The parts do not require very much torque** the design holds the rails well.
-* There will be a 2mm+ gap all teh way around.
+* There will be a 2mm+ gap all the way around.
 * Double check your dimensions, Be as accurate as possible.
 ___
