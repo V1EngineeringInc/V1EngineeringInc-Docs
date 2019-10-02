@@ -63,6 +63,7 @@ nav:
  - MPCNC:
      - Assembly:
          - Step1: pg1.md
+         - 3-Corners, Rollers, Base: MPCNC_Assm3_CRB.md
      - Electronics:
          - Step2: pg2.md
      - Madness:
