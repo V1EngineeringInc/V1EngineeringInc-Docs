@@ -14,13 +14,17 @@ theme:
   logo: "img/favicon.ico"
   favicon: "img/favicon.ico"
 
+extra:
+  social:
+    - type: 'globe'
+      link: 'https://v1engineering.com'
+    - type: 'shopping-cart'
+      link: 'https://shop.v1engineering.com'
 
 extra_css: [v1.css]
 
-# This doesn't seem to work. It looks like it's abusing the address:
-#     404 GET /https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png
-# extra:
-#   logo: "https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png"
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
 copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2019 V1Engineering Inc."
 
@@ -28,6 +32,26 @@ markdown_extensions:
   - admonition
   - codehilite:
       guess_lang: false
+  - pyembed.markdown
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.extra
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - sane_lists
+  - smarty
   - toc:
       permalink: true
   - lightgallery
