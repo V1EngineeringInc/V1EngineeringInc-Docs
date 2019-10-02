@@ -10,3 +10,7 @@ h1, h2, h3, h4, h5 {
 .md-typeset h1 {
   color: #ea1717
 }
+
+.md-nav__link--active {
+  color: #ea1717
+}
