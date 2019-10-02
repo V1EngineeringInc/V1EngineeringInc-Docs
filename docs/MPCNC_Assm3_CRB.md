@@ -147,7 +147,7 @@ ___
 
 ## Check Base Dimensions
 
-![!assembled base](https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_131408-400x277.jpg){: width="400"}
+![!assembled base](https://www.v1engineering.com/wp-content/uploads/2016/08/IMG_20160823_131408.jpg){: width="400"}
 
 * Set all your outer dimensions from corner to corner, Usually this is the same as your x and Y Rail length that was entered into the [calculator](https://www.v1engineering.com/assembly/conduit-rails-tubes-pipes/).
 * Lightly snug up the Top_Corner screws trying to keep the spacing even on all four sides of the part. **The parts do not require very much torque** the design holds the rails well.
