@@ -4,11 +4,6 @@ repo_name: V1EngineeringInc/V1EngineeringInc-Docs
 repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
 edit_uri: 'tree/master/docs/'
 
-# TODO:
-#
-# MP3DP
-#
-
 nav:
  - Index: index.md
  - Editing mkdocs: mkdocs_info.md
@@ -27,6 +22,9 @@ nav:
 
  - LowRider:
    - Assembly: lowrider/index.md
+
+ - MP3DP:
+   - Assembly: mp3dp/index.md
 
  - Software:
    - Main: software/index.md
