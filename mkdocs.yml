@@ -4,6 +4,22 @@ repo_name: V1EngineeringInc/V1EngineeringInc-Docs
 repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
 edit_uri: 'tree/master/docs/'
 
+nav:
+ - Index: index.md
+ - Editing mkdocs: mkdocs_info.md
+ - MPCNC:
+     - Assembly:
+         - Step1: pg1.md
+         - 3-Corners, Rollers, Base: MPCNC_Assm3_CRB.md
+     - Electronics:
+         - Step2: pg2.md
+     - Madness:
+         - Plasma Stuff:
+            - plasma3: pg3.md
+ - LowRider:
+     - Assembly: pg4.md
+ - ZenXY: ZenXY.md
+
 theme:
   name: 'material'
   palette:
@@ -57,18 +73,3 @@ markdown_extensions:
   - lightgallery
   - pymdownx.extra
 
-nav:
- - Index: index.md
- - Editing mkdocs: mkdocs_info.md
- - MPCNC:
-     - Assembly:
-         - Step1: pg1.md
-         - 3-Corners, Rollers, Base: MPCNC_Assm3_CRB.md
-     - Electronics:
-         - Step2: pg2.md
-     - Madness:
-         - Plasma Stuff:
-            - plasma3: pg3.md
- - LowRider:
-     - Assembly: pg4.md
- - ZenXY: ZenXY.md
