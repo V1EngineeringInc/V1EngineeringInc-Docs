@@ -16,12 +16,36 @@ github.io](https://v1engineeringinc.github.io/V1EngineeringInc-Docs)
 
 ## Editing
 
-I've put some info [here](mkdocs_info.md)
+On any page, you can click on the little pencil in the top right.
+
+That will take you to github to the source for the page you want to edit.
+
+??? "But wait, I don't want to edit source code, I'm not a programmer"
+
+    *Great!* Programmers aren't always the best writers. We're using *MarkDown* which is more like word
+    than a programming language. For the most part, the text is just text, and things like titles and
+    pictures just need a few goofy characters to turn into titles and pictures.
+
+![Github edit button](img/github_edit.png){width="300"}
+
+In github, there is a little bar at the top of the file with another pencil. If you click on that,
+you will be guided to make the change and submit the changes back to the project. This is a
+"Pull Request". After that, your changes will be approved and merged into the documentation, and
+others can avoid the same problems you had.
+
+Before you go, make sure you add yourself to the [about page](about.md) so that everyone knows how
+awesome you are for making a contribution.
+
+I've put some more markdown info [here](mkdocs_info.md)
+
+??? "I want to develop more, faster, better, stronger"
+
+    You can do some powerful things if you want to mkdocs on your computer while editing the
+    documents. There are some basic instructions in the [mkdocs info
+    page](mkdocs_info.md#local-mkdocs)
 
 ## Next Steps
 
-We need a guide on making simple edits, then we need a few people of different skill sets to try
-them out. If that all goes well, then we can decide on an initial layout and take volunteers to do
-the formatting to convert the existing documentation over here, or volunteer to write new sections.
-
+We have a skeleton that matches the bones of v1engineering.com's documentation. We need to convert
+the files over to flesh it out, and then we can move on to editing the documentation.
 

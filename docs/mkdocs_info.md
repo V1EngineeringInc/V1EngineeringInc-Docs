@@ -180,6 +180,24 @@ https://facelessuser.github.io/pymdown-extensions/extensions/inlinehilite/
 
 inlinehilite allows inline code syntax highlighting like this: `#!python import tensorflow as tf`.
 
+# Local mkdocs
+
+Running mkdocs locally is great if you're making a lot of edits, or you're trying to refine the
+style of the deployed website.
+
+It basically works like this:
+
+1. The source files are written in markdown, with a few extra pieces of syntax going to specialized
+markdown parts.
+1. mkdocs uses the mkdocs.yml file to configure itself for this project.
+1. mkdocs configures and runs our markdown files through python-markdown.
+1. If you're running `mkdocs serve`, then the html output is immediately served locally and you can
+get to it at http://localhost:8000 .
+1. As soon as you change a file, the mkdocs serve will reload the page in your browser, which
+immediately shows the change. *Cool!*.
+1. When things are all working great, mkdocs will build the documentaton and deploy it to the
+github.io site.
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
