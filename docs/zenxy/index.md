@@ -1,5 +1,11 @@
 # ZenXY
 
+!!! warning
+    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
+    instructions.
+
+[at v1engineering.com](https://www.v1engineering.com/zenxy/)
+
 Inspired by the awesome Sisyphus Table by Bruce Shapiro, [http://www.sisyphus-industries.com/](http://www.sisyphus-industries.com/), Zen gardens that my mom used to love, and the crazy CoreXY belting system.
 
 This is my attempt at an easily sourced automated Zen Table.

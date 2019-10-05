@@ -13,11 +13,11 @@ Here's a link to the forums:
 
 Here's a link to another page in the documentation:
 
-[About link](pg1.md)
+[Corners, Rollers, Base](mpcnc/base.md)
 
 Here's a link to a specific section in the documentation:
 
-[About link subsection link](pg1.md#nautae-laeva)
+[Base subsection link](mpcnc/base.md#feet)
 
 ## Images
 
@@ -35,13 +35,13 @@ markdown like this:
 ![V1Engineering.com's logo](https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png "This logo is linked from v1engineering.com")
 
 If the image is something you want to share, and it's the right size, then it can be added to the
-docs/media folder and linked like this:
+docs/img folder and linked like this:
 
 ```markdown
-![Backup Text](media/filename.png "Hover text")
+![Backup Text](img/filename.png "Hover text")
 ```
 
-![images image](media/pic.png "This is linked here in this github")
+![images image](img/pic.png "This is linked here in this github")
 
 
 ### Image Resizing
@@ -61,9 +61,9 @@ Notice the extra `!` in the `[]` brackets. That makes this a link to the image. 
 `{: width="400" }`. That adds attributes to the image, and width limits the size, without changing
 the aspect ratio. You can also add `height=""` and set the height.
 
-![!Example Picture](media/pic.png){: width="400" }
+![!Example Picture](img/pic.png){: width="400" }
 
-![!Example Picture](media/pic.png){: width="400" height="100" }
+![!Example Picture](img/pic.png){: width="400" height="100" }
 
 ## Organization
 
