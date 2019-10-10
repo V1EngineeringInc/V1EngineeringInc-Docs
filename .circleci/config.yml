@@ -4,6 +4,9 @@ jobs:
     docker:
      - image: circleci/python:3.6-jessie-browsers
     steps:
+     - add_ssh_keys:
+        fingerprints:
+         - "b8:7b:4b:cd:5c:c0:29:9e:fe:dd:9a:55:c9:03:45:d3"
      - checkout
      - run:
         name: Pip install
