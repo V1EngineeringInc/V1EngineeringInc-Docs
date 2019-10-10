@@ -41,7 +41,7 @@ indicate it is connected.
 
 !!! note 
     If you are using a dual end stop firmware flashed board, you have to have the end stops
-    properly connected first, Info. If you have a series flashed board no end stops are needed.
+    properly connected first, [Info](https://www.v1engineering.com/auto-square-dual-endstops/). If you have a series flashed board no end stops are needed.
 
 You can now use the control in the manual tab to move the machine. The arrows allow for .1, 1, 10, 50mm 
 movements. Start small 1 mm at a time. The arrows should move it in that direction.
