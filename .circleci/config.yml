@@ -1,0 +1,21 @@
+jobs:
+  build:
+    executor: python/default
+    steps:
+      - checkout
+      - python/load-cache
+      - python/install-deps
+      - python/save-cache:
+          paths:
+           - /home/circleci/.local/lib
+           - /home/circleci/.local/bin
+      - run:
+          name: Test
+          command: mkdocs build --clean --strict
+orbs:
+  python: circleci/python@0.1
+version: 2.1
+workflows:
+  main:
+    jobs:
+      - build
