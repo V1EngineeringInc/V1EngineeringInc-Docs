@@ -19,5 +19,5 @@ jobs:
         name: mkdocs deploy
         command: |
           if [ "${CIRCLE_BRANCH}" == "master" ]; then
-          mkdocs gh-deploy --message "Deployed {sha} with CircleCI and MkDocs version: {version}"
+          mkdocs gh-deploy --message "Deployed {sha} with CircleCI and MkDocs version: {version}" "[ci skip]"
           fi
