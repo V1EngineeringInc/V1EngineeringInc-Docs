@@ -22,7 +22,7 @@ Ryan Zellars (allted, vicious1) - Jeff Eberl (jeffeb3) - fr0sty1 - Jamie (vector
 ## License
 
 The documentation here at https://v1engineeringinc.github.io/V1EngineeringInc-Docs/ is under a 
-copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2019 V1Engineering Inc."
+copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2019 V1Engineering Inc."
 
 The machine design files, logos, and images hosted on v1engineering.com have their own license
 here: https://www.v1engineering.com/license/
