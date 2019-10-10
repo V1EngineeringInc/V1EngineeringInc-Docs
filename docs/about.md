@@ -25,4 +25,4 @@ The documentation here at https://v1engineeringinc.github.io/V1EngineeringInc-Do
 copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2019 V1Engineering Inc."
 
 The machine design files, logos, and images hosted on v1engineering.com have their own license
-here: https://www.v1engineering.com/license://www.v1engineering.com/license/ 
+here: https://www.v1engineering.com/license/
