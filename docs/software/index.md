@@ -90,4 +90,4 @@ When you are ready to try and cut something, here are some [Intermediate instruc
  
 ## Step 3 – Getting Creative
 
-[This page](../tools/index.md) has all sorts of things to try.
+[This page](https://www.v1engineering.com/information/how-to/) has all sorts of things to try.
