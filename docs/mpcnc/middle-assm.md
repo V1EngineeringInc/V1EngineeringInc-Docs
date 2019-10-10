@@ -8,72 +8,128 @@
 
 Click on the images to embiggen.
 
-Middle
+# Middle
 Step by step, lots of pics, few words. Click on the pictures to enlarge them.
 
-“Snugged up” for 5/16″ bolts or M8 ≈ 5.5 NM
+“Snugged up” for 5/16″ bolts or M8 ≈ **5.5 NM**
 
-	 
-Using the XYZ part, 4 1.25″ (M8 x 30) bolts, lock nuts and 608 bearings assemble as shown.
-Make sure the bolt heads face as shown for Z-Axis clearance.
-Do this for both parts.
-These bolts can get snugged up and should not be touched again.
-YES, the outer nuts are a pain to tighten if you are using 5/16″ hardware, easy for 8mm, Pre-thread the nylocks to loosen them up a bit,  then just wedge a small flathead screwdriver in there and tighten it. No big deal. This is not going to change, we have metric and imperial hardware to account for. I do not want to maintain two sets of every part for something that gets done one time.
+## XYZ 
+
+![XYZ Part with hardware](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1556122.jpg){: width="450"}
+
+
+For each XYZ part, using 4x 1.25″ (M8 x 30) bolts, lock nuts and 608 bearings assemble as shown:
+
+![XYZ Parts assembled](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1616102.jpg){: width="450"}
+
+
+**Make sure the bolt heads face as shown for Z-Axis clearance.**
+
+*These bolts can get* **snugged up** *and should not be touched again.*
+
+YES, the outer nuts are a pain to tighten if you are using 5/16″ hardware (but easy for 8mm).  Pre-thread the nylocks to loosen them up a bitx then just wedge a small flathead screwdriver in there and tighten it. No big deal. This is not going to change, we have metric and imperial hardware to account for. I do not want to maintain two sets of every part for something that gets done one time.
  
 
-	
+## XY
+
+![XY part with hardware](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1557382.jpg){: width="450"}
+
 XY part, 4 1.25″ bolts (M8 x 30), nuts, and bearings.
+
+![XY part assembled](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1616412.jpg){: width="450"}
+
 Assemble these as shown with the heads out.
 Do it for both XY parts.
-These bolts can get snugged up and should not be touched again.
+*These bolts can get* **snugged up** *and should not be touched again.*
  
 
+![XY parts 1.5bolts](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1626022.jpg){: width="450"}
 	
 Using the 1.5″ (M8 x x40) bolts, nuts and bearings assemble these into the end of the XY parts that only have 1 hole.
-As shown on the picture on the right the heads should be put in in opposite directions (purely cosmetic), when assembling later these heads should face up.
-Tension Bolts A – Control X and Y Rail tension, slight effect on the squareness. More on this at the end.
-These should be left extremely loose, just tight enough to engage the nylock on the lock nuts.
+
+![XY parts bolts installed](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_163158.jpg){: width="450"}
+
+- As shown on the picture on the right the heads should be put in in opposite directions (purely cosmetic), when assembling later these heads should face up.
+- Tension Bolts A – Control X and Y Rail tension, slight effect on the squareness. More on this at the end.
+- **These should be left extremely loose, just tight enough to engage the nylock on the lock nuts.**
  
 
+# Step Title
 	
  
 This step uses the XY, XYZ, Lock Nut, 5″  (M8 x 130) bolt, 2 bearing, both gantry spacers, and a nut.
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
+
 The 5″ (M8 X 130) bolt goes through the XYZ plate.
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
+
 Next is a gantry spacer.
  
 
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
 	
-  
 Add the XY piece, align it with the hole on the side of the XYZ piece.
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
+
 Insert a bearing into the XY piece.
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
+
 The second XY piece is added to the stack, again lining up the side hole.
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
+
 The second bearing is then added.
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
+
  
 
 	
 
 Add the second Gantry spacer.
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
+
 The second XYZ piece is next, upside down as compared to the first. Like face to like face.
+
 Followed by the lock nut.
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
+
 The lock nut should be kept loose, just engage the nylon.
+
 This 5″ (130mm) bolt is Tension bolt B.
  
 
  	
 
  Add in the brass T8 nut and secure with 1 or more M3x10 screw
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
+
 These screws only prevent the nut from turning no need to over tighten or fill all four holes.
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
+
 It is best to actually leave these a little loose to allow the nut to have better alignment with the screw. Seat them all the way and back off a half turn.
  
 
-	
+## Tension Bolt C
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
 
 Use the 4, 2.5″ (M8 x 65) bolts, bearings and lock nuts.
+
+![XYZ Standin](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181030_1828372-400x307.jpg){: width="450"}
+
 These are Tension Bolts C.
 These should be left extremely loose, just just slightly touching the plastic.
  
 
-IMG_20160527_131137	
 Now that the assembly is complete, this is the best time to double check to make sure the rails are perpendicular.
 An inexpensive square works just fine.
 Both of the ones pictured were about $5.
