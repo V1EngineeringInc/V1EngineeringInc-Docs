@@ -1,6 +1,6 @@
 # Instruction STUB
 
-ci test
+skip gh-pages test
 
 !!! warning
     These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
