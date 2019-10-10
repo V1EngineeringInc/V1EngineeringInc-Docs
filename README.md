@@ -16,3 +16,4 @@ github.io](https://v1engineeringinc.github.io/V1EngineeringInc-Docs)
 Most of these pages are just filler to play with navigation. The actual documentation is still at
 [v1engineering.com](https://www.v1engineering.com/assembly/)
 
+[![CircleCI](https://circleci.com/gh/V1EngineeringInc/V1EngineeringInc-Docs/tree/master.svg?style=svg)](https://circleci.com/gh/V1EngineeringInc/V1EngineeringInc-Docs/tree/master)
