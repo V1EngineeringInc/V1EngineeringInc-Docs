@@ -1,9 +1,26 @@
 version: 2.1
 jobs:
+  test:
+    docker:
+     - image: circleci/python:3.6-jessie-browsers
+    steps:
+     - checkout
+     - run:
+        name: Pip install
+        # This is using sudo, because this is a test environment. Don't do that on your computer.
+        command: sudo pip install -r requirements.txt
+     - run:
+        name: mkdocs build
+        command: mkdocs build --clean --strict
   build:
     docker:
      - image: circleci/python:3.6-jessie-browsers
     steps:
      - checkout
-     - run: sudo pip install -r requirements.txt
-     - run: mkdocs build --clean --strict
+     - run:
+        name: Pip install
+        # This is using sudo, because this is a test environment. Don't do that on your computer.
+        command: sudo pip install -r requirements.txt
+     - run:
+        name: mkdocs build
+        command: mkdocs build --clean --strict
