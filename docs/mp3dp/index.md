@@ -1,5 +1,7 @@
 # Instruction STUB
 
+ci test
+
 !!! warning
     These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
     instructions.
