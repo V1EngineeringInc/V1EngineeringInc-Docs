@@ -165,17 +165,3 @@ Insert all 4 rails into the assembly  (X, Y, and The Z assembly).
 Done, looks cool right?!
 
 TODO: where is the main assembly page? Main assembly page
-
- 
-
- 
-
- 
-
- 
-
--Everything past this point is for the old (rev 2 -July 2015) center assembly- Nostalgia really….
-Middle Assembly
-IMG_20150719_141947
-
-middle middle half middle z middle end
