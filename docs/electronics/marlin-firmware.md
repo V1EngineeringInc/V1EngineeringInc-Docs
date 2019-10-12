@@ -46,13 +46,9 @@ this link for [Archim
 (series)](https://www.dropbox.com/s/ewtzsfl8irxhpsl/Marlin-c4c3fc45d198476bf22ef69800a8a3f8e18707e3.zip?dl=0) or
 [Archim (Dual)](https://www.dropbox.com/s/d3fw4rqjbb3gyqb/arch1dual.zip?dl=0) boards (for now).
 
-In case you have never used GitHub, the first drop down lets you select the firmware version you
-want.
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/select-github.jpg){: width="400"}
-
-The next step is download the firmware you selected. Click on “Clone or Download”, then click on
-“Download Zip”.
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/download-github.jpg){: width="400"}
+| In case you have never used GitHub, the first drop down lets you select the firmware version you want. | The next step is download the firmware you selected. Click on “Clone or Download”, then click on “Download Zip”. |
+|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/select-github.jpg){: width="400"}     | ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/download-github.jpg){: width="400"}             |
 
 ### Naming key
 
@@ -85,10 +81,9 @@ _Details_– 16T=16tooth pulley, T8=Leadscrew type, 16/32step=Step rate the firm
 - CNC coordinate systems enabled.
 - Added a little versioning number to the LCD boot screen or repetier connect info. This will help easily identify what firmware people are using and if there are ever issues we can flag it.
 
-[![pic](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20170411_181548-1080x702.jpg){: width="400"}
-Ultimachine Boards](../electronics/ultimachine.md)
-[![pic](https://www.v1engineering.com/wp-content/uploads/2015/04/IMG_20150418_093541-1080x810.jpg){: width="400"}
-Ramps](../electronics/ramps.md)
+| [![pic](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20170411_181548-1080x702.jpg){: width="400"}](../elecronics/ultimachine.md) | [![pic](https://www.v1engineering.com/wp-content/uploads/2015/04/IMG_20150418_093541-1080x810.jpg){: width="400"}](../electronics/ramps.md) |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+|  [Ultimachine Boards](../electronics/ultimachine.md)                                                                                             | [Ramps](../electronics/ramps.md)                                                                                                            |
 
 ## Smoothie
 
