@@ -81,9 +81,9 @@ _Details_– 16T=16tooth pulley, T8=Leadscrew type, 16/32step=Step rate the firm
 - CNC coordinate systems enabled.
 - Added a little versioning number to the LCD boot screen or repetier connect info. This will help easily identify what firmware people are using and if there are ever issues we can flag it.
 
-| [![pic](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20170411_181548-1080x702.jpg){: width="400"}](../elecronics/ultimachine.md) | [![pic](https://www.v1engineering.com/wp-content/uploads/2015/04/IMG_20150418_093541-1080x810.jpg){: width="400"}](../electronics/ramps.md) |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-|  [Ultimachine Boards](../electronics/ultimachine.md)                                                                                             | [Ramps](../electronics/ramps.md)                                                                                                            |
+| [![pic](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20170411_181548-1080x702.jpg){: width="400"}](../electronics/ultimachine.md) | [![pic](https://www.v1engineering.com/wp-content/uploads/2015/04/IMG_20150418_093541-1080x810.jpg){: width="400"}](../electronics/ramps.md) |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+|  [Ultimachine Boards](../electronics/ultimachine.md)                                                                                              | [Ramps](../electronics/ramps.md)                                                                                                            |
 
 ## Smoothie
 
