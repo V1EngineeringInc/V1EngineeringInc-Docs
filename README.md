@@ -37,19 +37,12 @@ Most of these pages are just filler to play with navigation. The actual document
  - MP3DP:
    - Assembly: mp3dp/index.md
 
-    
  - Electronics:
    - Main: electronics/index.md
    - Electrical:
      - Ultimachine Boards: electronics/ultimachine.md
      - Ramps: electronics/ramps.md
-     - Steppers: electronics/steppers.md - **Heffe**
-    
-   - Getting Started:
-     - Software: software/index.md
-     - Firmware: electronics/marlin-firmware.md - **Heffe**
-    
-   
+
  - Tools:
    - Milling Basics: tools/milling-basics.md
    - 3D Printing:
