@@ -25,7 +25,7 @@ I would like to drive that price home one more time, you can have a CNC router f
 
 Not easy to make a specs page when it can have most any specs you want. The idea behind this is to be extremely adaptable and inexpensive. Why buy a single use machine when you can have one that does it all for less than the cost of any single function machine. No proprietary hardware or software, build it any size and shape you want (more on this later), buy it from this site or source it all yourself, helpful forums, low cost, and capable. What more could you ask for?
 
-[!embed](https://youtu.be/qJfYTv88YvI)
+[!embed](https://www.youtube.com/watch?v=qJfYTv88YvI)
 
 This machine can easily do many things, how about making some coffee with Apach…(not me but I think he is my new hero).
 
