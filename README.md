@@ -21,7 +21,7 @@ Most of these pages are just filler to play with navigation. The actual document
 ## To Do
 
  - MPCNC:
-   - Main: mpcnc/index.md
+   
    - Assembly:
      - Table: mpcnc/table.md
      - Conduit: mpcnc/conduit.md
