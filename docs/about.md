@@ -1,5 +1,4 @@
 # About V1
-
 V1 Engineering Inc all started with the [MPCNC platform](mpcnc/index.md), from there it kept expanding.
 
 All the same precision as the MPCNC but in a larger form factor for sheet goods? Try the [LowRider CNC](lowrider/index.md).
@@ -12,7 +11,6 @@ If you can’t tell I like to make things and share them, If you have any questi
 
 
 # About The Community Documents
-
 These instructions are a collection of knowledge from the V1 Engineering community. They are
 designed for collaboration in mind and edits are welcome. Please help us make this documentation
 better.
@@ -24,7 +22,6 @@ building.
 
 
 # Contributors
-
 This is a community project. Ryan Zellars started the whole thing with his MPCNC, and other machine
 designs. His documentation and design is the core of these instructions. Jeff Eberl worked to create
 the documentation infrastructure.
@@ -35,7 +32,6 @@ Ryan Zellars (allted, vicious1) - Jeff Eberl (jeffeb3) - Mark Frost (fr0sty1) - 
 
 
 # License
-
 The documentation here at https://v1engineeringinc.github.io/V1EngineeringInc-Docs/ is under a 
 copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2019 V1Engineering Inc."
 
