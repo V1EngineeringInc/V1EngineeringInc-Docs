@@ -43,11 +43,11 @@ Most of these pages are just filler to play with navigation. The actual document
    - Electrical:
      - Ultimachine Boards: electronics/ultimachine.md
      - Ramps: electronics/ramps.md
-     - Steppers: electronics/steppers.md
+     - Steppers: electronics/steppers.md - **Heffe**
     
    - Getting Started:
      - Software: software/index.md
-     - Firmware: electronics/marlin-firmware.md
+     - Firmware: electronics/marlin-firmware.md - **Heffe**
     
    
  - Tools:
@@ -58,5 +58,3 @@ Most of these pages are just filler to play with navigation. The actual document
      - Main: tools/lasers.md
      - Engraving Mirrors: tools/laser-engraving-mirrors.md
    - Drag Knife/Vinyl: tools/drag-knife.md
-
-- ZenXY: zenxy/index.md - **Ryan**
