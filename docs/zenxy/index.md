@@ -7,6 +7,7 @@
 [at v1engineering.com](https://www.v1engineering.com/zenxy/)
 
 ![!FirstZenXY](https://www.v1engineering.com/wp-content/uploads/2017/07/IMG_20170717_103443.jpg){: width="450"}
+
 Inspired by the awesome Sisyphus Table by Bruce Shapiro, [http://www.sisyphus-industries.com/](http://www.sisyphus-industries.com/), Zen gardens that my mom used to love, and the crazy CoreXY belting system.
 
 This is my attempt at an easily sourced automated Zen Table.
@@ -15,7 +16,10 @@ This is my attempt at an easily sourced automated Zen Table.
 
 ### Sandify
 ![!Sandify](https://www.v1engineering.com/wp-content/uploads/2019/01/screenshot-2019-01-02-1546472560.png){: width="450"}
-Amazing patterns are easily possible by using Sandify, [Sandify on GitHub](https://github.com/jeffeb3/sandify), This table would be nothing without this tool! (feel free to show some appreciation for this amazing free piece of software).
+
+Amazing patterns are easily possible by using Sandify, [Sandify on GitHub](https://github.com/jeffeb3/sandify),
+This table would be nothing without this tool! ([feel free to show some appreciation for this amazing free piece of
+software](https://liberapay.com/jeffeb3/)).
 
 ### Karl’s EstlEgg-ify
 Karl’s way allows for some custom vector graphics to be easily drawn. Here in the [Forum](https://www.v1engineering.com/forum/topic/artistic-designs-with-inkscape-eggbot-tools-and-estlcam/).
@@ -111,5 +115,10 @@ This is running coreXY belting and requires homing Y before X, as set in the fir
 [Firmware link](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
 
 ## More Info
+
 ![!ZenXY Animation](https://www.v1engineering.com/wp-content/uploads/2017/10/ZenXY_712SpiralAnimate.gif){: width="450"}
-[!Some Old Guy Coding, Belt Routing](https://youtu.be/L_GTP3r846g){: width="450"}
+
+### Some Old Guy Coding, Belt Routing
+
+[![Some Old Guy Coding, Belt Routing](https://www.v1engineering.com/wp-content/uploads/2018/04/SOGC-routing-1080x665.jpg){: width="450"}](https://youtu.be/L_GTP3r846g)
+
