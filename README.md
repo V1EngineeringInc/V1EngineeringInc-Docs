@@ -7,7 +7,7 @@ Please wait to move actual v1engineering.com documentation over. It would be a r
 of that work and then find that this solution is not the right one in some way.
 
 [This documentation is hosted on
-github.io](https://v1engineeringinc.github.io/V1EngineeringInc-Docs)
+github.io](https://docs.v1engineering.com)
 
 [The source code is on github](https://github.com/V1EngineeringInc/V1EngineeringInc-Docs)
 
@@ -43,7 +43,4 @@ Most of these pages are just filler to play with navigation. The actual document
 
  - Tools:
    - Milling Basics: tools/milling-basics.md
-   - Lasers:
-     - Main: tools/lasers.md
-     - Engraving Mirrors: tools/laser-engraving-mirrors.md
    - Drag Knife/Vinyl: tools/drag-knife.md
