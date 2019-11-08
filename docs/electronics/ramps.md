@@ -27,22 +27,20 @@ Add 12V to the power port, and plug in the steppers. The Arduino barrel jack (th
 ## Stepper Driver Current 
 –Extremely Important– Adjust the potentiometers according to your stepper spec sheet (a good place to start is 0.7V or less).  For the DRV8825 the voltage is set between the potentiometers and the power ground.  Voltage at the pot =.9*(stepper current/2) the 90% is to cut down on the heat a bit. This needs to be done while the drivers are energized. The easiest way I have found is to move all 3 axis 1mm in repetier host and leave it connected while you adjust the POTS.
 
-The [pololu video](https://youtu.be/89BHS9hfSUk) gives a very technical walk through on driver current.
+This [pololu video](https://youtu.be/89BHS9hfSUk) gives a very technical walk through on driver current.
 
- 
+[!embed](https://youtu.be/89BHS9hfSUk)
 
 ## Firmware 
-Have you flashed the marlin [firmware](https://www.v1engineering.com/marlin-firmware/)?
+Have you flashed the marlin [firmware](marlin-firmware.md)?
 
 ## Common Issue
-[Steppers moving the wrong direction?](https://www.v1engineering.com/reversing-the-axis-direction/)
+[Steppers moving the wrong direction?](../software/reverse-motor.md)
 
 ## Add an Extruder
 If you are Adding an extruder you need more power
 
-[For example](https://www.v1engineering.com/import-extruder/).
-
- 
+[For example](../tools/import-extruder.md).
 
 ![!more power](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20151023_110317.jpg){: width="400"}
 
