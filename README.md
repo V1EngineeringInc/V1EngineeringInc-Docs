@@ -26,7 +26,6 @@ Most of these pages are just filler to play with navigation. The actual document
      - Table: mpcnc/table.md
      - Conduit: mpcnc/conduit.md
      - Z-Axis: mpcnc/z-axis.md
-     
      - Gantry: mpcnc/gantry.md
      - Final: mpcnc/final.md
      - Belts: mpcnc/belts.md
@@ -35,7 +34,7 @@ Most of these pages are just filler to play with navigation. The actual document
    - Assembly: lowrider/index.md
 
  - MP3DP:
-   - Assembly: mp3dp/index.md
+    - Assembly: mp3dp/index.md
 
  - Electronics:
    - Main: electronics/index.md
