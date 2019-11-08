@@ -72,13 +72,14 @@ following information please let me know…politely.
 
 An island is that pesky little thing in the center of a cut, like the middle on an “O”, or the center of the logo. Super easy only takes 3 steps.
 
-- Using the **Part** tool select the inner feature.
-- Next is the **Hole** tool, select the outer feature.
-- Then in the Properties box select **Island**.
+Using the **Part** tool select the inner feature.
+:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/1Part.jpg){: width="200"}
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/1Part.jpg){: width="200"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/2hole.jpg){: width="200"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/3Island.jpg){: width="200"}
+Next is the **Hole** tool, select the outer feature.
+:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/2hole.jpg){: width="200"}
+
+Then in the Properties box select **Island**.
+:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/3Island.jpg){: width="200"}
 
 ### Work offsets
 
@@ -86,8 +87,11 @@ A work offset is simply moving your origin. This is typically used when there ar
 operation in your job, multiple fixtures can be used, locating pins, or other locating methods. More
 typically for us to avoid Negative X and Y moves when using endstops.
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/Negative.jpg){: width="200"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/good.jpg){: width="200"}
+Not Offset
+:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/Negative.jpg){: width="200"}
+
+Offset (Good for Dual Endstops)
+:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/good.jpg){: width="200"}
 
 ### Finishing Pass
 
@@ -123,13 +127,17 @@ https://fswizard.com/www/
 
 ### Stepover
 
-Basic- all things being equal, this is the amount of material your tool encounters in percentage of the tool diameter. The lower the percentage the lower the force on the machine, the more accurate the cut.
+Basic
+:   All things being equal, this is the amount of material your tool encounters in percentage of the tool diameter. The lower the percentage the lower the force on the machine, the more accurate the cut.
 
-Expanded-A good thing to know is most flutes are not 50% of the diameter of the bit, usually less. Just typing in a percentage does not mean that is the actual chip load, Feedrate, RPM, and Depth of Cut all play a major part. All the numbers you enter are a fine balance of an equation giving you total chip load per tooth.
+Expanded
+:   A good thing to know is most flutes are not 50% of the diameter of the bit, usually less. Just typing in a percentage does not mean that is the actual chip load, Feedrate, RPM, and Depth of Cut all play a major part. All the numbers you enter are a fine balance of an equation giving you total chip load per tooth.
 
-Roughing is 50% or less, typically 45% depending on material density. More than 50% you will be both climb and conventional milling and should be avoided.
+Roughing
+:   is 50% or less, typically 45% depending on material density. More than 50% you will be both climb and conventional milling and should be avoided.
 
-Finishing is 20% or less depending on amount if detail and tolerances desired (I typically use 2-8% time vs. quality), ball endmills should use 10% or less to minimize scalloping.
+Finishing
+:   is 20% or less depending on amount if detail and tolerances desired (I typically use 2-8% time vs. quality), ball endmills should use 10% or less to minimize scalloping.
 
 !!! note "50% stepover"
     ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/50D.jpg){: width="200"}
@@ -227,14 +235,19 @@ All machines require a post processor.
 
 Please share your links to other PP’s. I know there are more.
 
-- Estlcam – Built in, Christian was happy to work with us to get this correct. [Here are the
-    recommended settings](../software/estlcam-basics.md)
-- Fusion360 – Guffy has really made what seems to be a feature complete PP here, [Guffy’s
-    GitHub](https://github.com/guffy1234/mpcnc_posts_processor). [Fusion CAM intro](https://www.youtube.com/watch?v=Do_C_NLH5sw).
+Estlcam
+:   Built in, Christian was happy to work with us to get this correct. [Here are the recommended
+settings](../software/estlcam-basics.md)
+
+Fusion360
+:   Guffy has really made what seems to be a feature complete PP here, [Guffy’s
+GitHub](https://github.com/guffy1234/mpcnc_posts_processor). [Fusion CAM
+intro](https://www.youtube.com/watch?v=Do_C_NLH5sw).
 
 !!! warning
     (10/23/19) Do not use arcs.
 
-- Vectric, Aspire, Vcarve – What we have so far, [Here](https://www.v1engineering.com/forum/topic/z-slip-over-large-topographical-map/#post-51193).
+Vectric, Aspire, Vcarve
+:   What we have so far, [Here](https://www.v1engineering.com/forum/topic/z-slip-over-large-topographical-map/#post-51193).
 
 
