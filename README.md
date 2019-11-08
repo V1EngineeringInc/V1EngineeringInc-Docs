@@ -21,7 +21,7 @@ Most of these pages are just filler to play with navigation. The actual document
 ## To Do
 
  - MPCNC:
-   
+
    - Assembly:
      - Table: mpcnc/table.md
      - Conduit: mpcnc/conduit.md
@@ -43,8 +43,6 @@ Most of these pages are just filler to play with navigation. The actual document
 
  - Tools:
    - Milling Basics: tools/milling-basics.md
-   - 3D Printing:
-     - Main: tools/import-extruder.md
    - Lasers:
      - Main: tools/lasers.md
      - Engraving Mirrors: tools/laser-engraving-mirrors.md
