@@ -90,7 +90,8 @@ Laser power, not as straight forward as you would think. Higher numbers in gener
 materials can be cut or etching can be done faster. Numbers are not everything! A laser has four
 things to consider when talking about it’s power; wattage, spot size, focal length, spectrum.
 
-Wattage – the overall power output of your laser (like a light bulb, energy per time). On most
+Wattage
+:   The overall power output of your laser (like a light bulb, energy per time). On most
 non-laser specific machines we are limited by speed. Okay stick with me, just like strapping on a
 chainsaw motor to the MPCNC stronger is not always better. Since we can only move so fast before we
 start to get motion degradation you need to size your laser accordingly. A strong laser moving
@@ -99,7 +100,8 @@ powered laser will have to use power 1-20 so you don’t start a fire (19 levels
 powered laser will be able to use power 1-255 (254 levels of grey) without starting a fire. Make
 sense?
 
-Spot size – How small of a spot the wattage is concentrated on. Spot size dictates the resolution of
+Spot size
+:   How small of a spot the wattage is concentrated on. Spot size dictates the resolution of
 the image you can produce, think printer DPI (dots per inch). Another side effect of spot size can
 be ability to cut. A poorly focused laser’s power is too spread out to be effective, a finely
 focused laser cuts significantly better. For a diode this can vary 100-400 micron in diameter just
@@ -107,18 +109,20 @@ by laser wattage. To be more clear, more powerful diode lasers can not be focuse
 point as lower powered lasers (the source is not truly a point, larger diodes equal larger initial
 “points”, and it is not actually a spot but a rectangular spot).
 
+Focal length
 ![!focal_length](https://www.v1engineering.com/wp-content/uploads/2019/01/Focal-Length-1.gif){: width="400"}
-
-Focal length – This influences the shape of the laser cone (long and narrow or short and fat). The
+:   This influences the shape of the laser cone (long and narrow or short and fat). The
 focal length is dependent on the lens you use and should be a small range depending on the lens. If
 you have a choice, a longer focal length can aid in cutting ability (a thinner steeper beam/cone can
 cut deeper before power is lost to the edges of the material).
 
-Spectrum – The wavelength of the light it produces (diodes-UV to viable, CO2- mid-infrared).
+Spectrum
+:   The wavelength of the light it produces (diodes-UV to viable, CO2- mid-infrared).
 Materials react differently to every spectrum as do safety glasses. If you have a specific need do
 your research before buying.
 
-Duty cycle – One more thing on the topic of power, duty cycle or continuous time on. On the cheap
+Duty cycle
+:   One more thing on the topic of power, duty cycle or continuous time on. On the cheap
 import look out for sensational things like “15W $50!” somewhere in the description it could say
 “One second continuous operation time”. This means they are over driving the heck out of the laser,
 it will not last long, and at 1 second bursts it is not very useful. Guard your wallet from these
@@ -182,8 +186,7 @@ the laser on and M107 to turn the laser off. The Sxxx is the laser strength with
 ---
 
 Rambo=45
-
-![rambo](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180626_1559002.jpg){: width="400"}
+:   ![rambo](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180626_1559002.jpg){: width="400"}
 
 ---
 
@@ -196,8 +199,7 @@ MiniRambo=23
 ---
 
 Ramps=44
-
-![!ramps](https://www.v1engineering.com/wp-content/uploads/2019/01/Leo44Pic.jpg){: width="400"}
+:   ![!ramps](https://www.v1engineering.com/wp-content/uploads/2019/01/Leo44Pic.jpg){: width="400"}
 
 ---
 
