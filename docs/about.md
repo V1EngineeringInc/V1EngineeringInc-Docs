@@ -36,7 +36,7 @@ Ryan Zellars (allted, vicious1) - Jeff Eberl (jeffeb3) - Mark Frost (fr0sty1) - 
 
 # License
 
-The documentation here at https://v1engineeringinc.github.io/V1EngineeringInc-Docs/ is under a 
+The documentation here at https://docs.v1engineering.com/ is under a 
 copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2019 V1Engineering Inc."
 
 The machine design files, logos, and images hosted on v1engineering.com have their own license

@@ -41,7 +41,6 @@ Most of these pages are just filler to play with navigation. The actual document
    - Main: electronics/index.md
    - Electrical:
      - Ultimachine Boards: electronics/ultimachine.md
-     - Ramps: electronics/ramps.md
 
  - Tools:
    - Milling Basics: tools/milling-basics.md

@@ -16,7 +16,7 @@ each end of the axis. Using this fact and the new dual endstop firmware we can n
 and accurately set the position of every single stepper on the machine independently. This should
 reliably give you repeat-ability on the order of your endstops resolution, even after powering off.
 
-![Squatermelons](https://www.v1engineering.com/wp-content/uploads/2017/11/Squaremelon.jpg){: width="400"}
+![Squaremelons](https://www.v1engineering.com/wp-content/uploads/2017/11/Squaremelon.jpg){: width="400"}
 
 Before this new firmware update all the machines in this category relied 100% on the users build
 accuracy, or manual measuring. This involves setting of each axis before engaging the steppers and
@@ -48,7 +48,7 @@ This board only has 4 drivers available and can easily be used with the LowRider
  
 ### Archim
 
-![Archim](https://www.v1engineering.com/wp-content/uploads/2017/11/Archim.jpg){: width="400"}
+![!Archim](https://www.v1engineering.com/wp-content/uploads/2017/11/Archim.jpg){: width="400"}
  
 ### RAMBo
 
