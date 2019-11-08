@@ -39,11 +39,11 @@ by Ryan | Oct 30, 2016 | Hardware & Electronics
 
 ### Ideal Depth
 
-- What you are looking for is all the way through the material and a slight dent in the paper backing, but not a cut. It can be tricky if you have never done it before but with a little practice it only take a try or two.
+- What you are looking for is all the way through the material and a slight dent in the paper backing, but not a cut. It can be tricky if you have never done it before but with a little practice it only takes a try or two.
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161030_111619.jpg){: width="400"}
 - The blade is barely visible.
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161030_111649.jpg){: width="400"}
-- The depth will change depending on your use but you are always looking to just barely leave a mark on the carrier material.
+- The depth will change depending on your material but you are always looking to just barely leave a mark on the carrier material.
 
 ### The Mount
 
@@ -59,7 +59,7 @@ by Ryan | Oct 30, 2016 | Hardware & Electronics
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161030_132033.jpg){: width="400"}
 
-- The lease expensive solution I could find for a nice cutting surface was a cheap 1′ square mirror. Just make sure to set your blade depth correctly, pretty sure the carbide can score the glass and make for a dangerous experience.
+- The least expensive solution I could find for a nice cutting surface was a cheap 1′ square mirror. Just make sure to set your blade depth correctly, pretty sure the carbide can score the glass and make for a dangerous experience.
 - Tape on all sides is more than enough, there is very little force when it is all set up nicely.
 
 ### The Software
