@@ -38,5 +38,3 @@ Most of these pages are just filler to play with navigation. The actual document
    - Main: electronics/index.md
    - Electrical:
      - Ultimachine Boards: electronics/ultimachine.md
-
-PR test
