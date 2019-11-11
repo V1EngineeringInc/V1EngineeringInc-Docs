@@ -23,8 +23,6 @@ Most of these pages are just filler to play with navigation. The actual document
  - MPCNC:
 
    - Assembly:
-     - Table: mpcnc/table.md
-     - Conduit: mpcnc/conduit.md
      - Z-Axis: mpcnc/z-axis.md
      - Gantry: mpcnc/gantry.md
      - Final: mpcnc/final.md
