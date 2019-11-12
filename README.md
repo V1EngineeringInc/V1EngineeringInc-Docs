@@ -28,9 +28,6 @@ Most of these pages are just filler to play with navigation. The actual document
      - Final: mpcnc/final.md
      - Belts: mpcnc/belts.md
 
- - LowRider:
-   - Assembly: lowrider/index.md
-
  - MP3DP:
     - Assembly: mp3dp/index.md
 
