@@ -17,9 +17,11 @@ Nothing too major. Better belt placement, better frame geometry, more robust par
 mount, easier to set home stops, slightly larger build volume, ability to use thicker material for
 the frame, optional bottom plate for rigidity, better smooth rod handling.
 
+# This page
+
 If you just want to open a box and have a ready 3D printer there are a few solid options out there.
 The MP3DP V2 is a printer for those of you that want to build one, get your hands dirty, and learn a
-thing or two!
+thing or two! Currently this is just a guide, not a full set of instructions. If anything is unclear let us know and we can add a picture or two. Hopefully nothing is to tricky here.
 
 [Github](https://github.com/Allted)
 
@@ -27,6 +29,7 @@ Questions comment – [HERE](https://www.v1engineering.com/forum/topic/i-made-an
 
 !!! info "Version 1"
     Version one instructions are [here](version1.md)
+        
 
 ## Flat Parts
 
@@ -70,26 +73,26 @@ The important features are in there so again, get creative this is just a blank 
 |QTY  |Description             |Comment                      |Link         | 
 |-----|------------------------|-----------------------------|-------------|
 |1    |Control Board           |Your choice                  |[Shop][sh1] – [Amazon][az1]|
-|1    |Extruder                |Your choice                  |[Shop - 404][sh2] – [Amazon][az2]|
+|1    |Extruder                |Your choice                  |[Shop][sh2] – [Amazon][az2]|
 |1    |Power Supply            |>20A                         |Shop        – [Amazon][az3]|
 |4    |Steppers Nema17         |>40 OZ/IN                    |[Shop][sh4] – [Amazon][az4]|
 |1    |Heated Bed              |Optional Recommended         |[Shop][sh5] – [Amazon][az5]|
-|2    |X 8x370mm Smooth Rod    |                             |[Shop][sh6] – [Amazon - 404][az6]|
-|2    |Y 8x350mm Smooth Rod    |                             |[Shop][sh7] – [Amazon - 404][az7]|
-|2    |Z 8x320mm Smooth Rod    |                             |[Shop][sh8] – [Amazon - 404][az8]|
+|2    |X 8x370mm Smooth Rod    |                             |[Shop][sh6] – [Amazon][az6]|
+|2    |Y 8x350mm Smooth Rod    |                             |[Shop][sh7] – [Amazon][az7]|
+|2    |Z 8x320mm Smooth Rod    |                             |[Shop][sh8] – [Amazon][az8]|
 |11   |LM8UU                   |                             |[Shop][sh9] – [Amazon][az9]|
-|2    |T8 Leadscrew 300mm      |[Recommended Lube][sh0]      |[Shop][sha] – [Amazon - 404][aza]|
-|2    |T8 Nut                  |                             |[Shop][shb] – [Amazon - 404][azb]|
+|2    |T8 Leadscrew 300mm      |[Recommended Lube][sh0]      |[Shop][sha] – [Amazon][aza]|
+|2    |T8 Nut                  |                             |[Shop][shb] – [Amazon][azb]|
 |2    |Coupler 5mm to 8mm      |                             |[Shop][shc] – [Amazon][azc]|
 |2    |GT2 16T                 |Or other w/ Firmware edit    |[Shop][shd] – [Amazon][azd]|
 |2    |GT2 16t Toothed Idler   |Or match pulley              |[Shop][she] – [Amazon][aze]|
 |3    |Limit Switch / EndStop  |                             |[Shop][shf] – [Amazon][azf]|
-|1    |Print Fan               |                             |[Shop][shg] – [Amazon - 404][azg]|
-|3    |Bed Springs             |                             |[Shop][shh] – [Amazon - 404][azh]|
+|1    |Print Fan               |                             |[Shop][shg] – [Amazon][azg]|
+|3    |Bed Springs             |                             |[Shop][shh] – [Amazon][azh]|
 |1.5M |Belt GT2                |                             |[Shop][shi] – [Amazon][azi]|
 
 [sh1]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/mini-rambo-1-3
-[sh2]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/e3d-titan-aero-high-temp-hot-end-and-extruder
+[sh2]: https://shop.v1engineering.com/collections/3dprinter-parts
 [sh3]: N/A
 [sh4]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
 [sh5]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/mk3-aluminum-heated-bed
@@ -113,18 +116,18 @@ The important features are in there so again, get creative this is just a blank 
 [az3]: https://amzn.to/2BfX7lr
 [az4]: https://amzn.to/2DpwvnQ
 [az5]: https://amzn.to/2OtP9Mb
-[az6]: https://amzn.to/2Pnodi3
-[az7]: https://amzn.to/2Pnodi3
-[az8]: https://amzn.to/2Pnodi3 
+[az6]: https://amzn.to/2X4CzZE
+[az7]: https://amzn.to/2CzXJoY
+[az8]: https://amzn.to/2NDZEPI 
 [az9]: https://amzn.to/2Dl2cL5
-[aza]: https://amzn.to/2Dk2T7m
-[azb]: https://amzn.to/2Dk2T7m
+[aza]: https://amzn.to/2pWNLvn
+[azb]: https://amzn.to/2pWNLvn
 [azc]: https://amzn.to/2DmGB4H
 [azd]: https://amzn.to/2DnD5aA
 [aze]: https://amzn.to/2FVK246
 [azf]: https://amzn.to/2DnDb1W
-[azg]: https://amzn.to/2DxPZ8Y
-[azh]: https://amzn.to/2FXIGWG
+[azg]: https://amzn.to/2QaqDUI
+[azh]: https://amzn.to/2NFJwNt
 [azi]: https://amzn.to/2DxGUNo
 
 ## Belts
@@ -141,8 +144,8 @@ parts. Make sure the ends clear and do not hit the pulley or idler. Better align
 ## GT2 Idlers
 
 I took a while to release these parts because my idlers kept seizing up. I have two suggestions,
-first lube them well, I used spray on white lithium no issues since. Second belt tension does not
-have to be super human here. Start loose and only tighten the belts if you notice issues.
+first lube them well, I am using the [super lube](https://vicious1-com.myshopify.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) from the shop, no issues since. Second belt tension does not
+have to be super human here. Start loose and only tighten the belts if you notice issues. Too tight=excessive ringing and premature idler damage, Too loose=soft rounded corners and poor wall consistancy.
 
 ## X Axis
 
@@ -251,17 +254,17 @@ The endstops should be wired Normally Closed, NC, for safety.
 
 Rough
 :   When setting up your printer first level your X axis. Measure from the top of the motor mounts
-to the bottom of the vertical bearing blocks. The next thing is to level the bed This is done by
+to the bottom of the vertical bearing blocks. The next thing is to level the bed. This is done by
 setting the 2 screws on the right side (front and back) to the nozzle height, then set the single
 screw on the left of the bed.
 
 Home
-:   Set each of the three screws such that the nozzle comes to rest just touching the print surface
+:   Set each of the three endstop trigger screws such that the nozzle comes to rest just touching the print surface
 in the nearest left corner.
 
 Final and tune up 
 :   Heat up the system, make sure the X axis is still level with the motor mounts, make sure the bed
-is still level with the nozzle. Adjust Z home to get the correct first layer.
+is still level with the nozzle. Adjust Z home trigger screw to get the correct first layer.
 
 ## Firmware
 
