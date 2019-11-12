@@ -27,7 +27,8 @@ nav:
    - Assembly: lowrider/index.md
 
  - MP3DP:
-   - Assembly: mp3dp/index.md
+   - Main: mp3dp/index.md
+   - Old Version: mp3dp/version1.md
 
  - Software:
    - Main: software/index.md
