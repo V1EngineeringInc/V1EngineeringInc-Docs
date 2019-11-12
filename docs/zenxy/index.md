@@ -17,7 +17,7 @@ This is my attempt at an easily sourced automated Zen Table.
 ### Sandify
 ![!Sandify](https://www.v1engineering.com/wp-content/uploads/2019/01/screenshot-2019-01-02-1546472560.png){: width="450"}
 
-Amazing patterns are easily possible by using Sandify, [Sandify on GitHub](https://github.com/jeffeb3/sandify),
+Amazing patterns are easily possible by using [Sandify.org](https://sandify.org/), the back end is here [Sandify on GitHub](https://github.com/jeffeb3/sandify),
 This table would be nothing without this tool! ([feel free to show some appreciation for this amazing free piece of
 software](https://liberapay.com/jeffeb3/)).
 
