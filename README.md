@@ -20,21 +20,6 @@ Most of these pages are just filler to play with navigation. The actual document
 
 ## To Do
 
- - MPCNC:
-
-   - Assembly:
-     - Z-Axis: mpcnc/z-axis.md
-     - Gantry: mpcnc/gantry.md
-     - Final: mpcnc/final.md
-     - Belts: mpcnc/belts.md
-
  - LowRider:
    - Assembly: lowrider/index.md
 
- - MP3DP:
-    - Assembly: mp3dp/index.md
-
- - Electronics:
-   - Main: electronics/index.md
-   - Electrical:
-     - Ultimachine Boards: electronics/ultimachine.md
