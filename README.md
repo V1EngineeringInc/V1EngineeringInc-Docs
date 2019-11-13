@@ -18,20 +18,4 @@ Most of these pages are just filler to play with navigation. The actual document
 
 [![CircleCI](https://circleci.com/gh/V1EngineeringInc/V1EngineeringInc-Docs/tree/master.svg?style=svg)](https://circleci.com/gh/V1EngineeringInc/V1EngineeringInc-Docs/tree/master)
 
-## To Do
-
- - MPCNC:
-
-   - Assembly:
-     - Z-Axis: mpcnc/z-axis.md
-     - Gantry: mpcnc/gantry.md
-     - Final: mpcnc/final.md
-     - Belts: mpcnc/belts.md
-
- - MP3DP:
-    - Assembly: mp3dp/index.md
-
- - Electronics:
-   - Main: electronics/index.md
-   - Electrical:
-     - Ultimachine Boards: electronics/ultimachine.md
+#Thank you Heffe for that amazing effort, did you do half teh pages in half a day!?! 
