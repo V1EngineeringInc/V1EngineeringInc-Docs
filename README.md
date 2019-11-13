@@ -18,8 +18,4 @@ Most of these pages are just filler to play with navigation. The actual document
 
 [![CircleCI](https://circleci.com/gh/V1EngineeringInc/V1EngineeringInc-Docs/tree/master.svg?style=svg)](https://circleci.com/gh/V1EngineeringInc/V1EngineeringInc-Docs/tree/master)
 
-## To Do
-
- - LowRider:
-   - Assembly: lowrider/index.md
-
+#Thank you Heffe for that amazing effort, did you do half the pages in half a day!?! 
