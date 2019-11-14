@@ -1,10 +1,4 @@
 !!! warning
-    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
-    instructions.
-
-[at v1engineering.com](https://www.v1engineering.com/marlin-firmware/)
-
-!!! warning
     **If you bought a bundle or electronics board from V1Enginering.com, this is already done.**
 
 # Firmware

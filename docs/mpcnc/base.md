@@ -1,12 +1,5 @@
 # Base
 
-!!! warning
-    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
-    instructions.
-
-[Base at v1engineering.com](https://www.v1engineering.com/base/)
-
-
 Click on the images to embiggen.
 
 ## Feet

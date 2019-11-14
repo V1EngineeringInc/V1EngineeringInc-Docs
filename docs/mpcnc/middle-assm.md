@@ -1,11 +1,5 @@
 # Middle
 
-!!! warning
-    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
-    instructions.
-
-[at v1engineering.com](https://www.v1engineering.com/assemble/middle/)
-
 Step by step, lots of pics, few words. Click on the pictures to enlarge them.
 
 “Snugged up” for 5/16″ bolts or M8 ≈ [5.5 NM](http://convert-units.info/torque/newton-meter/5.5)

@@ -1,9 +1,3 @@
-!!! warning
-    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
-    instructions.
-
-[LowRider at v1engineering.com](https://www.v1engineering.com/lowrider-cnc/)
-
 # Low Rider CNC 2
 
 The LowRider2 CNC is my revised version of a CNC router that can handle full sheet material! Of

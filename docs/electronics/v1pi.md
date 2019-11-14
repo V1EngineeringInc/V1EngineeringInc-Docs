@@ -1,10 +1,4 @@
-# Instruction STUB
-
-!!! warning
-    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
-    instructions.
-
-[v1pi at v1engineering.com](https://www.v1engineering.com/dip-a-toe-in-the-pool-v1pi/)
+# v1pi
 
 ![Landing Page](https://www.v1engineering.com/wp-content/uploads/2018/05/v1pi.png) 
 

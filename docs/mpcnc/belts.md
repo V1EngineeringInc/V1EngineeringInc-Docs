@@ -1,9 +1,3 @@
-!!! warning
-    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
-    instructions.
-
-[at v1engineering.com](https://www.v1engineering.com/belts/)
-
 # MPCNC Belts
 
 ![!belts](https://www.v1engineering.com/wp-content/uploads/2016/09/IMG_20160825_172016.jpg){: width="400"}
