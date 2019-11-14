@@ -1,6 +1,6 @@
 # V1 Engineering Documentation
 
-This is the home of the V1Engineering documentation (maybe).
+This is the home of the V1Engineering documentation.
 
 [This documentation is hosted on
 github.io](https://docs.v1engineering.com)
