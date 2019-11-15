@@ -1,11 +1,5 @@
 # ESTLCAM – 2.5D Routing- Intermediate
 
-!!! warning
-    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
-    instructions.
-
-[at v1engineering.com](https://www.v1engineering.com/estlcam-2-5d-routing-intermediate/)
-
 This is an intermediate walk through on 2.5D routing with [ESTLCAM](http://estlcam.de/). You should
 have a firm grasp on the [basics](../software/estlcam-basics.md) before trying this. This is how to
 manually set up a 2.5D cut, the alternative would be to import an STL file and let ESTLCAM choose

@@ -1,9 +1,3 @@
-!!! warning
-    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
-    instructions.
-
-[at v1engineering.com](https://www.v1engineering.com/mini-rambo-1-3/)
-
 # Ultimachine Control Boards
 
 by Ryan | Apr 11, 2017 | Hardware & Electronics, News & Updates, Uncategorized

@@ -1,9 +1,3 @@
-!!! warning
-    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
-    instructions.
-
-[at v1engineering.com](https://www.v1engineering.com/assembly/z-mount/)
-
 # Z Axis
 
 ![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_133304.jpg){: width="400"}

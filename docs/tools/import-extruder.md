@@ -1,12 +1,5 @@
 # Instruction STUB
 
-!!! warning
-    These documents are not yet the official documents. Please go to v1engineering.com for the up to date and accurate
-    instructions.
-
-[at v1engineering.com](https://www.v1engineering.com/import-extruder/)
-
-
 ## Assembly
 
 Assembly of my all metal version of the Mk8 import extruder
