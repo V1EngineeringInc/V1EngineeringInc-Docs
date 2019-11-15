@@ -8,59 +8,64 @@ repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
 edit_uri: 'tree/master/docs/'
 
 nav:
- - Index: index.md
- - Editing mkdocs: mkdocs_info.md
-
- - MPCNC:
-   - Main: mpcnc/index.md
-   - Assembly:
-     - Table: mpcnc/table.md
-     - Conduit: mpcnc/conduit.md
-     - Corners, Rollers, Base: mpcnc/base.md
-     - Z-Axis: mpcnc/z-axis.md
-     - Middle Assembly: mpcnc/middle-assm.md
-     - Gantry: mpcnc/gantry.md
-     - Final: mpcnc/final.md
-     - Belts: mpcnc/belts.md
-
- - LowRider:
-   - Assembly: lowrider/index.md
-
- - MP3DP:
-   - Main: mp3dp/index.md
-   - Old Version: mp3dp/version1.md
-
- - Software:
-   - Main: software/index.md
-   - Repetier-Host: software/repetier-host.md
-   - EstlCAM Basics: software/estlcam-basics.md
-   - EstlCAM Intermediate (2.5d): software/estlcam-2p5d.md
-
- - Electronics:
-   - Main: electronics/index.md
-   - Electrical:
-     - Ultimachine Boards: electronics/ultimachine.md
-     - Ramps: electronics/ramps.md
-     - Steppers: electronics/steppers.md
-     - Reverse Stepper: software/reverse-motor.md
-   - Getting Started:
-     - Software: software/index.md
-     - Firmware: electronics/marlin-firmware.md
-     - Dual Endstops: electronics/dual-endstops.md
-   - Advanced:
-     - v1pi: electronics/v1pi.md
- - Tools:
-   - Milling Basics: tools/milling-basics.md
-   - 3D Printing:
-     - Main: tools/import-extruder.md
-   - Lasers:
-     - Main: tools/lasers.md
-     - Engraving Mirrors: tools/laser-engraving-mirrors.md
-   - Drag Knife/Vinyl: tools/drag-knife.md
-
- - ZenXY: zenxy/index.md
-
- - About: about.md
+ - Intro: todo.md # index(maybe the current landing page and about combined)
+ - Build:
+   - "Assembly - MPCNC": # mpcnc/index refined at some point but a summary with links to things like cost, uses, dual endstops
+     - Parts: todo.md
+     - Design: todo.md #/Getting Started/Questions - What size do you need? Are you going to mill, print, laser, etc?
+     - Assembly:
+       - Table: mpcnc/table.md
+       - Conduit: mpcnc/conduit.md
+       - Corners, Rollers, Base: mpcnc/base.md
+       - Z-Axis: mpcnc/z-axis.md
+       - Middle Assembly: mpcnc/middle-assm.md
+       - Gantry: mpcnc/gantry.md
+       - Final: mpcnc/final.md
+       - Belts: mpcnc/belts.md
+     - Advanced Build Options:
+       - Dual Endstops: todo.md
+   - "Assembly - Low Rider":
+     - Parts: todo.md
+     - Design: todo.md
+     - Assembly: todo.md
+   - "Assembly - ZenXY":
+     - Parts: todo.md
+     - Design: todo.md
+     - Assembly: todo.md
+   - "Assembly - MP3DP":
+     - Parts: todo.md
+     - Design: todo.md
+     - Assembly: todo.md
+   - Firmware:
+     - Marlin:
+       - Firmware Flashing Instructions: todo.md
+       - Marlin Configuration: todo.md
+     - Grbl:
+       - Flashing: todo.md
+       - Instructions: todo.md
+       - Grbl ESP32...: todo.md
+     - Etc.: todo.md
+   - CNC Software and Calibration: # (Pen testing? Haha) (Checkout?)
+     - Control:
+       - Repetier-host: index.md
+     - basic testing: # - basic page with a link to Firmware and Boards section below each should have the most simple basic test with it
+       - Test Crown: todo.md
+       - Jamie's test: todo.md # https://www.v1engineering.com/forum/topic/test-pattern-generator/
+     - Endstop Setup: todo.md
+   - Workflow:
+     - Intro: todo.md #What software do we use?
+     - CAD, CAM, Controller: todo.md
+     - Machine Setup and Checklist: about.md
+     - Safety: todo.md
+ - Information:
+   - Controller: # intro page maybe sorted by # of drivers
+     - board info:
+       - rambo: todo.md # each board should link pins(laser pins), and prefered firmware, basic use as in repetier, move 10mm (works for all machines)
+       - mini: todo.md
+       - Archim: todo.md
+       - Ramps: todo.md
+       - skr: todo.md
+       - Grbl_Esp32: todo.md
 
 theme:
   name: 'material'
