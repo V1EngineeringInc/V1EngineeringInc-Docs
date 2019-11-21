@@ -40,9 +40,7 @@ nav:
    - Some Advanced Options:
      - v1pi - Headless: electronics/v1pi.md
      - Dual Endstops: electronics/dual-endstops.md
-
- - Setup:
-   - Getting Started: software/index.md
+   - Setup: software/index.md 
 
  - Use:    
    - Tools:
