@@ -64,7 +64,7 @@ up](../software/repetier-host.md). You can also use Pronterface, Matter Control,
 others. Again for the beginners, start with repetier-host (not server).
 
  
-## Step 1 – First Use
+## CNC Step 1 – First Use
 
 Now the machine should be moving around and once you finally get bored of manually moving it around
 it is time to put it to work.
@@ -76,12 +76,12 @@ The infamous Crown…**Follow the [Basic instructions](../software/estlcam-basic
 available at the bottom of that page. If you ask for help I will ask about your crown test.
 
  
-## Step 2 – Getting dirty
+## CNC Step 2 – Getting dirty
 
 Now the machine can draw pictures it is time to get it dirty. Hope you didn’t make a white one…
 
 When you are ready to try and cut something, here are some [Intermediate instructions](../software/estlcam-2p5d.md).
  
-## Step 3 – Getting Creative
+## CNC Step 3 – Getting Creative
 
 [This page](https://www.v1engineering.com/information/how-to/) has all sorts of things to try.
