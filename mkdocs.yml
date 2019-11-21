@@ -8,59 +8,59 @@ repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
 edit_uri: 'tree/master/docs/'
 
 nav:
- - Index: index.md
- - Editing mkdocs: mkdocs_info.md
+ - Home: index.md
 
- - MPCNC:
-   - Main: mpcnc/index.md
-   - Assembly:
-     - Table: mpcnc/table.md
-     - Conduit: mpcnc/conduit.md
-     - Corners, Rollers, Base: mpcnc/base.md
-     - Z-Axis: mpcnc/z-axis.md
-     - Middle Assembly: mpcnc/middle-assm.md
-     - Gantry: mpcnc/gantry.md
-     - Final: mpcnc/final.md
-     - Belts: mpcnc/belts.md
+ - Build:
+   - MPCNC: 
+     - Basics: mpcnc/index.md
+     - Assembly:
+       - Table: mpcnc/table.md
+       - Conduit: mpcnc/conduit.md
+       - Corners, Rollers, Base: mpcnc/base.md
+       - Z-Axis: mpcnc/z-axis.md
+       - Middle Assembly: mpcnc/middle-assm.md
+       - Gantry: mpcnc/gantry.md
+       - Final: mpcnc/final.md
+       - Belts: mpcnc/belts.md
+     - Trouble Shooting: mpcnc/troubleshooting.md
+   - LowRider:
+     - Assembly: lowrider/index.md
+     - Old Version: lowrider/version1.md
+   - MP3DP:
+     - Main: mp3dp/index.md
+     - Old Version: mp3dp/version1.md
+   - ZenXY: zenxy/index.md
 
- - LowRider:
-   - Assembly: lowrider/index.md
-
- - MP3DP:
-   - Main: mp3dp/index.md
-   - Old Version: mp3dp/version1.md
-
- - Software:
-   - Main: software/index.md
-   - Repetier-Host: software/repetier-host.md
-   - EstlCAM Basics: software/estlcam-basics.md
-   - EstlCAM Intermediate (2.5d): software/estlcam-2p5d.md
-
- - Electronics:
-   - Main: electronics/index.md
-   - Electrical:
+ - Control:
+   - Some Control Board Options:
      - Ultimachine Boards: electronics/ultimachine.md
      - Ramps: electronics/ramps.md
-     - Steppers: electronics/steppers.md
-     - Reverse Stepper: software/reverse-motor.md
-   - Getting Started:
-     - Software: software/index.md
-     - Firmware: electronics/marlin-firmware.md
+   - Steppers:
+     - Wiring The Steppers: electronics/steppers.md
+   - Some Advanced Options:
+     - v1pi - Headless: electronics/v1pi.md
      - Dual Endstops: electronics/dual-endstops.md
-   - Advanced:
-     - v1pi: electronics/v1pi.md
- - Tools:
-   - Milling Basics: tools/milling-basics.md
-   - 3D Printing:
-     - Main: tools/import-extruder.md
-   - Lasers:
-     - Main: tools/lasers.md
-     - Engraving Mirrors: tools/laser-engraving-mirrors.md
-   - Drag Knife/Vinyl: tools/drag-knife.md
+   - Setup: software/index.md 
 
- - ZenXY: zenxy/index.md
+ - Use:    
+   - Tools:
+     - Milling:
+       - Milling Basics: tools/milling-basics.md
+       - EstlCAM Setup: software/estlcam-basics.md
+       - EstlCAM Intermediate (2.5d): software/estlcam-2p5d.md
+     - 3D Printing:
+       - Main: tools/import-extruder.md
+     - Lasers:
+       - Main: tools/lasers.md
+       - Engraving Mirrors: tools/laser-engraving-mirrors.md
+     - Drag Knife/Vinyl: tools/drag-knife.md
+   - Troubleshoot: 
+     - Reversing a Stepper: software/reverse-motor.md
 
- - About: about.md
+ - Learn:
+    - Editing mkdocs: mkdocs_info.md
+    - Repetier-Host: software/repetier-host.md
+    - Firmware: electronics/marlin-firmware.md
 
 theme:
   name: 'material'
@@ -112,4 +112,3 @@ markdown_extensions:
       permalink: true
   - lightgallery
   - pymdownx.extra
-
