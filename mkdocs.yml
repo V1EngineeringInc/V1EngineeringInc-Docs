@@ -56,13 +56,13 @@ nav:
        - Main: tools/lasers.md
        - Engraving Mirrors: tools/laser-engraving-mirrors.md
      - Drag Knife/Vinyl: tools/drag-knife.md
-   - Learn:
-     - Editing mkdocs: mkdocs_info.md
-     - Repetier-Host: software/repetier-host.md
-     - Firmware: electronics/marlin-firmware.md
    - Troubleshoot: 
      - Reversing a Stepper: software/reverse-motor.md
 
+ - Learn:
+    - Editing mkdocs: mkdocs_info.md
+    - Repetier-Host: software/repetier-host.md
+    - Firmware: electronics/marlin-firmware.md
 
 theme:
   name: 'material'
