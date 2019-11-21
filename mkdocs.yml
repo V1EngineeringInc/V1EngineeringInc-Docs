@@ -8,7 +8,7 @@ repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
 edit_uri: 'tree/master/docs/'
 
 nav:
- - New Documents Home: index.md
+ - Home: index.md
 
  - Build:
    - MPCNC: 
