@@ -242,6 +242,6 @@ intro](https://www.youtube.com/watch?v=Do_C_NLH5sw).
     (10/23/19) Do not use arcs.
 
 Vectric, Aspire, Vcarve
-:   What we have so far, [Here](https://www.v1engineering.com/forum/topic/z-slip-over-large-topographical-map/#post-51193).
+:   What we have so far, [Here](https://www.v1engineering.com/forum/topic/z-slip-over-large-topographical-map/#post-51193). How to [install](https://forum.v1engineering.com/t/vectric-aspire/12047/8?u=vicious1).
 
 
