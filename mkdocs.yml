@@ -5,7 +5,7 @@ google_analytics:
   - 'auto'
 repo_name: V1EngineeringInc/V1EngineeringInc-Docs
 repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
-edit_uri: 'tree/master/docs/'
+edit_uri: 'edit/master/docs/'
 
 nav:
  - Home: index.md
