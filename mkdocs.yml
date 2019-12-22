@@ -61,6 +61,7 @@ nav:
     - Editing mkdocs: mkdocs_info.md
     - Repetier-Host: software/repetier-host.md
     - Firmware: electronics/marlin-firmware.md
+    - PlatformIO: learn/platformio.md
 
 theme:
   name: 'material'
