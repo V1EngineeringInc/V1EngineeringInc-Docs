@@ -1,20 +1,20 @@
 # MPCNC Parts
 
-##Printed Parts
+## Printed Parts
 
-There are 3 different sets of printed parts C-23.5mm, F-25mm, or J-25.4mm (1in). The measurement is for the Outside 
-Diameter of the conduit/rails/tubing. Please measure your rails before printing. 23.5mm fits 3/4″ EMT conduit in the 
-US. Anywhere else you must physically measure first, some things are sold as Inside Dimension (ID) (conduit), or 
-Outside Dimension (OD) (Tubing). Bummer
+There are 3 different sets of printed parts **C**-23.5mm, **F**-25mm, or **J**-25.4mm (1 inch). The measurement is for 
+the Outside Diameter of the conduit/rails/tubing. **Please measure your rails before printing!** 23.5mm fits 3/4″ EMT 
+conduit in the US. Anywhere else you **must physically measure first**.  Some things are sold as Inside Dimension (ID) 
+(conduit), or Outside Dimension (OD) (Tubing). If you print for the wrong size tube, it's a bummer!
 
-Steel hardware store EMT conduit works well and is inexpensive, an upgrade would be .049″ wall thickness stainless 
-steel tubing (or thicker is fine as well). Stainless Steel tubing is more rigid and smooth, but also much more expensive.
+Hardware store steel EMT conduit works well and is inexpensive; an upgrade would be .049" wall thickness stainless 
+steel tubing (or thicker is fine as well). Stainless steel tubing is more rigid and smooth, but also much more expensive.
 
-Recommended Print Settings; PLA for dimension accuracy (PETG is also good, if your dimensions are verified good), 2 
+Recommended Print Settings: PLA for dimensional accuracy (PETG is also good, if your dimensions are verified good).  Two
 or more perimeters for through hole strength. There are some steep walls so no more than 75% layer height to nozzle 
-diameter, no support should be needed for any part I have designed.
+diameter.  No support should be needed for any part I have designed.
 
-|QTY|Name|Infill|23.5 Link|25mm Link|25.4mm Link|Time/part|Total time|Grams Per Part|Total grams|
+|QTY|Name|Infill|23.5 Link|25mm Link|25.4mm Link|Time Per Part|Total Time|Grams Per Part|Total grams|
 |--|--|--|--|--|--|--|--|--|--|
 |2|Bottom_Corner*|55%|Link|Link|Link|2:35|5:10|34.7|69.4|
 |2|BottomM_Corner*|55%|Link|Link|Link|2:35|5:10|34.7|69.4|
@@ -35,22 +35,22 @@ diameter, no support should be needed for any part I have designed.
 |1|Tool_Mount_*_4mm/6-32|35%|Link|Link|Link| 4:45| 4:45| 63.4|63.4|
 |1|Z_Lower_*_Burly|55%|Link|Link|Link| 2:15| 2:15| 35| 35|
 |1|Z_Motor_*_Burly|55%|Link|Link|Link| 2:15| 2:15| 31| 31|
+| |               |   |    |    |    |     |**Total** |  |**Total**|
+| |               |   |    |    |    |     |&asymp;115 hrs|  |1.8 kg|
 
-My current full set prints in 91 Hrs.
+\*: The asterisk stand for part letter (C, J, F) and anything after that is the current revision (Burly, v1, v2)  
+M: Mirrored parts, either see the build instructions of FAQ’s if you are worried.
 
-* =the asterisk stand for part letter (C, J, F) and anything after that is the current revision (Burly, v1, v2)
-M = Mirrored parts, either see the build instructions of FAQ’s if you are worried.
-
-Printed Parts Changelog
-10/15/18 – Burly Center & Z
-4/1/18 – Optional dual plate.
-3/19/18 – New foot.
-5/9/17 – lead screw compatible XYZ
-7/13/16 – New Rollers
-5/25/16 – New middle and Z-Axis assemblies
+Printed Parts Changelog  
+10/15/18 – Burly Center & Z  
+4/1/18 – Optional dual plate  
+3/19/18 – New foot  
+5/9/17 – lead screw compatible XYZ  
+7/13/16 – New Rollers  
+5/25/16 – New middle and Z-Axis assemblies  
 4/24/16 – New corner assembly
 
-##Electronics/Motion Parts
+## Electronics/Motion Parts
 
 Recommended electronics, you have a lot of options. I chose these specific parts for price vs. performance.
 
@@ -61,23 +61,25 @@ didn’t know amazon prime is free for students, and here is free 30 day trial f
 |--|--|--|
 |1|Mini-RAMBo (or RAMBo)|Amazon Or Shop|
 |1|12v =5A power supply|Amazon Or Shop|
-|1|GT2 belt (4M = 24?x24?) Do not get the steel re-enforced ones.|Amazon Or Shop|
+|1|GT2 belt (4M for 24"x24") Do not get the steel reinforced ones|Amazon Or Shop|
 |4|GT2 16T Pulley|Amazon Or Shop|
 |53|608 2-RS Bearings|Amazon Or Shop|
-|?18ft|Rails (Conduit or Stainless Steel)|info, info – Cut Calculators|
+|&asymp;18ft|Rails (Conduit or Stainless Steel)|info, info – Cut Calculators|
 |5|Nema 17 Steppers|Amazon Or Shop|
 |1|Wiring harness (Or extended your stepper plugs with Stranded Wire)|wiring kit, Stranded Wire|
-|=20|Zip Ties|Amazon Or Shop|
+|&ge;20|Zip Ties|Amazon Or Shop|
 
-##Spindle Options
+## Spindle Options
 
+| |Spindle|Link|
+|-|-------|----|
 |Best Option|Dewalt 660 (600W) 120V|Amazon|
 |Second Choice|Spindle 300W-800W|Amazon – AliExpress|
 
 Blank tool mount for any other tools you might want to use.
 
-##Hardware
-Hardware needed.
+## Hardware
+Hardware and quantities needed:
 
 |Qty|Imperial|Metric|Link|
 |---|--------|------|----|
@@ -86,13 +88,14 @@ Hardware needed.
 |1|5mm-8mm coupler| |Shop|
 |1| 5/16-18 X 5|M8 X 130|Amazon|
 |12| 5/16-18 X 2.5|M8 X 65|Amazon|
-|2| 5/16-18 X 1.5|M8 X 40 THESE CAN NOT BE CAP HEADS (or you will need to grind them a bit)| Amazon|
+|2| 5/16-18 X 1.5|M8 X 40 **[Note 1]**| Amazon|
 |28| 5/16-18 X 1.25|M8 X 30|Amazon|
 |43| 5/16-18 Nylock Nuts|M8|Amazon|
 |19|M3 X 10|M3 X 10|Amazon|
-|57|#6-32 X.75|***M4 X 20|Amazon|
-|57|#6-32 Nylock nuts|***M4|Amazon|
+|57|#6-32 X.75|M4 X 20 **[Note 2]**|Amazon|
+|57|#6-32 Nylock nuts|M4 **[Note 2]**|Amazon|
 
-***  The difference in the size of nuts requires some creative tightening if you don’t use #6’s on a few parts. A small flat head screw driver can usually be wedged in to stop the nuts from rotating if you have an issue.
-
-Or, here are some quick print sleeves, https://www.thingiverse.com/thing:1904014.
+**Note 1**: The M8x40mm bolts cannot be cap heads, or you will need to grind the heads for clearance  
+**Note 2**: Using M4 nuts and bolts in place of #6 is possible, but the difference in the size of nuts requires some 
+creative tightening on a few parts. A small flat head screw driver can usually be wedged in to stop the nuts from 
+rotating.  As another option, here are some quick print sleeves: https://www.thingiverse.com/thing:1904014.
