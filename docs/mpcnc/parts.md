@@ -18,29 +18,29 @@ diameter.  No support should be needed for any part I have designed.
 [Download 25 mm ("F") parts files](https://www.thingiverse.com/thing:790533)  
 [Download 25.4 mm ("J") parts files](https://www.thingiverse.com/thing:1671517)
 
-|QTY|Name|Infill|Time Per Part|Total Time|Grams Per Part|Total grams|
-|--|--|--|--|--|--|--|
-|2|Bottom_Corner*|55%|2:35|5:10|34.7|69.4|
-|2|BottomM_Corner*|55%|2:35|5:10|34.7|69.4|
-|2|Lock-Corner*|55%|1:28|2:56|20.8|41.7|
-|2|LockM_Corner*|55%|1:28|2:56|20.8|41.7|
-|2|Top_Corner*|55%|2:06|4:12|32.9|66.1|
-|2|TopM_Corner*|55%|2:06|4:12|32.9|66.1|
-|4|Spacer_Corner_*_Burly|65%|:15|1:05|4.17|16.6|
-|4|*-Foot_2018|35%|2:20|9:20|31.8|127.1|
-|2|*-Roller|55%|5:35|11:10|90|180|
-|2|*-Roller M|55%| 5:35| 11:10| 90|180|
-|4|RollerMount|55%| 3:30|14|50|200|
-|4|RollerPlate (optional [Dual](https://www.thingiverse.com/thing:2847042))|55%| :10|:40|2|8|
-|2|XY_*_Burly|55%| 11|22| 201| 402|
-|2|XYZ_*_Burly|65%| 5| 10| 71.5| 143|
-|2|Gantry_Spacer_*|55%| :22| :45| 10.3| 10.3|
-|2|Nut_Trap_Burly|55%| :27| :55| 16| 32|
-|1|Tool_Mount_*_4mm/6-32|35%| 4:45| 4:45| 63.4|63.4|
-|1|Z_Lower_*_Burly|55%| 2:15| 2:15| 35| 35|
-|1|Z_Motor_*_Burly|55%| 2:15| 2:15| 31| 31|
-| |               |        |     |**Total** |  |**Total**|
-| |               |      |     |&asymp;115 hrs|  |1.8 kg|
+|QTY|Name|Infill|Time Per Part/Total|Grams Per Part/Total|
+|--|--|--|--|--|
+|2|Bottom_Corner*|55%|2:35 / 5:10|34.7 / 69.4|
+|2|BottomM_Corner*|55%|2:35 / 5:10|34.7 / 69.4|
+|2|Lock-Corner*|55%|1:28 / 2:56|20.8 / 41.7|
+|2|LockM_Corner*|55%|1:28 / 2:56|20.8 / 41.7|
+|2|Top_Corner*|55%|2:06 / 4:12|32.9 / 66.1|
+|2|TopM_Corner*|55%|2:06 / 4:12|32.9 / 66.1|
+|4|Spacer_Corner_*_Burly|65%|0:15 / 1:05|4.2 / 16.6|
+|4|*-Foot_2018|35%|2:20 / 9:20|31.8 / 127.1|
+|2|*-Roller|55%|5:35 / 11:10|90 / 180|
+|2|*-Roller M|55%| 5:35 / 11:10| 90 / 180|
+|4|RollerMount|55%| 3:30 / 14:00|50 / 200|
+|4|RollerPlate (optional [Dual](https://www.thingiverse.com/thing:2847042))|55%|0:10 / 0:40|2 / 8|
+|2|XY_*_Burly|55%| 11:00 / 22:00| 201 / 402|
+|2|XYZ_*_Burly|65%| 5:00 / 10:00| 71.5 / 143|
+|2|Gantry_Spacer_*|55%| 0:22 / 0:45| 10.3 / 10.3|
+|2|Nut_Trap_Burly|55%| 0:27 / 0:55| 16 / 32|
+|1|Tool_Mount_*_4mm/6-32|35%| 4:45 / 4:45| 63.4 / 63.4|
+|1|Z_Lower_*_Burly|55%| 2:15 / 2:15| 35 / 35|
+|1|Z_Motor_*_Burly|55%| 2:15 / 2:15| 31 / 31|
+| |               |        |     **Total**   |**Total**|
+| |               |           |&asymp;115 hrs  |1.8 kg|
 
 \*: The asterisk stands for part letter (C, J, F) and anything after that is the current revision (Burly, v1, v2)  
 M: Mirrored parts, either see the build instructions or [FAQ](https://www.v1engineering.com/frequently-asked-questions/) if you are worried.
