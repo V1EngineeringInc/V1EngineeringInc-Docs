@@ -45,6 +45,8 @@ diameter.  No support should be needed for any part I have designed.
 \*: The asterisk stands for part letter (C, J, F) and anything after that is the current revision (Burly, v1, v2)  
 M: Mirrored parts, either see the build instructions or [FAQ](https://www.v1engineering.com/frequently-asked-questions/) if you are worried.
 
+![](../img/parts_labeled.png)
+
 Printed Parts Changelog  
 10/15/18 – Burly Center & Z  
 4/1/18 – Optional [dual plate](https://www.thingiverse.com/thing:2847042)  
