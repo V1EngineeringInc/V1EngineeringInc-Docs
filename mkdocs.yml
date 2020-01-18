@@ -13,6 +13,7 @@ nav:
  - Build:
    - MPCNC: 
      - Basics: mpcnc/index.md
+     - Parts: mpcnc/parts.md
      - Assembly:
        - Table: mpcnc/table.md
        - Conduit: mpcnc/conduit.md
