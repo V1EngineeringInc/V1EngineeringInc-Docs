@@ -173,6 +173,7 @@ Sorry I do not have a config for this yet.
 - Install the [Arduino](https://www.arduino.cc/en/Main/Software) software and its drivers **before** you plug in your board.
 - You will then need to plug in both **USB and 12V power.**
 - Unzip the firmware you need from above
+-**Make sure you do not have U8glib in your Arduino Library folder**
 - File- Preferences
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram1.png){: width="200"}
 - In “additional boards manager url” paste
