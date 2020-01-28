@@ -35,10 +35,7 @@ directions [below](#how-to-flash).**
 
 ### Using GitHub
 
-You will find this on the [V1 Engineering Marlin GitHub](https://github.com/Allted/Marlin) page. Use
-this link for [Archim
-(series)](https://www.dropbox.com/s/ewtzsfl8irxhpsl/Marlin-c4c3fc45d198476bf22ef69800a8a3f8e18707e3.zip?dl=0) or
-[Archim (Dual)](https://www.dropbox.com/s/d3fw4rqjbb3gyqb/arch1dual.zip?dl=0) boards (for now).
+You will find this on the [V1 Engineering Marlin GitHub](https://github.com/Allted/Marlin) page. 
 
 | In case you have never used GitHub, the first drop down lets you select the firmware version you want. | The next step is download the firmware you selected. Click on “Clone or Download”, then click on “Download Zip”. |
 |--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -50,13 +47,15 @@ All versions have the full graphic LCD enabled. I can add links to all of these 
 
 **Machine type_Board_Details**
 
-_Machine type_– MP3DP, MPCNC (& LowRider), ZenXY
+_Machine type_– MP3DP, V1CNC=MPCNC & LowRider, ZenXY
 
-_Boards_– Mini-Roambo, Full Rambo, Archim1, Archim2
+_Boards_– Mini-Roambo, Full Rambo, Archim1, Archim2, Ramps
 
 _Details_– 16T=16tooth pulley, T8=Leadscrew type, 16/32step=Step rate the firmware is set to, Dual Endstop=MPCNC specific edits, Aero/MK=base extruders they are set to.
 
 ### Marlin Change log
+
+1/20/20 - 418, Arcs fixed, more default current fresh start from 2.0.1+
 
 4/27/19 – 401-402, 600+changes (Marlin catch up), enabled eeprom, lowered Z accel (MPCNC/LowRider), driver fixes.
 
