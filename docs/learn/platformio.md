@@ -55,8 +55,6 @@ One you open that folder it will show in the window and look very similar to the
 
 ### Build
 
-At this point it is ready to go. Most boards can be plugged in a "flashed"  or some boards just want you to compile the firmware and load it onto an SD card. Only the last step differs.
-
 Hit the check mark to build (or compile) the firmware. Most items will say "ignored" as it only builds for the one specified board.
 
 ![!VS Code Compile](https://www.v1engineering.com/wp-content/uploads/2019/12/build.png){: width="400"}
