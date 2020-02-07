@@ -31,7 +31,7 @@ If you like to be more up to date with the Newest Marlin features, I have all my
 
 **Right now flashing Marlin 2.0 requires the [Arduino IDE 1.8.9 or
 higher](https://www.arduino.cc/en/Main/Software) and follow the
-directions [below](#how-to-flash). You can now use [PlatformIO](../learn/platformio.md)**
+directions [below](#how-to-flash). You can now use [PlatformIO](../learn/platformio.md) as well**
 
 ### Using GitHub
 
