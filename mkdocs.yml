@@ -112,4 +112,4 @@ markdown_extensions:
   - toc:
       permalink: true
   - lightgallery
-  - pymdownx.extra
+
