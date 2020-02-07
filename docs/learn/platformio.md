@@ -39,7 +39,7 @@ Once you have PlatformIO installed there is really nothing else that needs to be
 
 ### Load Your Firmware
 
-You should already have downloaded and **Unzipped** the firmware for your board. If you are unsure of that step have a look [here](../electronics/marlin-firmware.md).
+You should already have downloaded and **Unzipped** the firmware for your board. If you are unsure of that step have a look [here](../electronics/marlin-firmware.md#using-github).
 
 In the top left of the VS Code window select "File", then "Open Folder".
 
