@@ -30,7 +30,7 @@ If you like to be more up to date with the Newest Marlin features, I have all my
 [Github pre-configured.](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
 
 **Right now flashing Marlin 2.0 requires the [Arduino IDE 1.8.9 or
-higher](https://www.arduino.cc/en/Main/Software)and follow the
+higher](https://www.arduino.cc/en/Main/Software) and follow the
 directions [below](#how-to-flash). You can now use [PlatformIO](../learn/platformio.md)**
 
 ### Using GitHub
