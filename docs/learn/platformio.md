@@ -63,7 +63,7 @@ At this point you should get a message that says "1 succeeded". If you do not th
 
 The next step is to get it onto you board, or if you are sharing your firmware you can skip to the Compile step.
 
-**Flashing** (most common)
+**Flashing** (most common, used with ramps, rambo, mini rambo)
 
 You do not need to select a com port as in Arduino, just plug in your board and it should be recognized even USB card based boards. Then and hit the right arrow (1) button and wait for it to transfer.
 
@@ -72,6 +72,6 @@ You do not need to select a com port as in Arduino, just plug in your board and 
 When you see (2) "1 succeeded", and you are DONE and the board is ready to use!! If you do not see that there are board connection issues.
 
 
-**Compile to file**
+**Compile to file** (SKR boards)
 
-If you are trying to share your precompiled firmware, this step is actually already done. You simply need to locate the file that was created during the build. This file should be inside a folder in the previously mentioned Marlin folder that was unzipped, in a folder titled ".pio", then build, then a folder named after your board type. 
+If you are trying to share your precompiled firmware, or load it to an SD card enabled board this step is actually already done. You simply need to locate the file that was created during the build. This file should be inside a folder in the previously mentioned Marlin folder that was unzipped, then in a folder titled ".pio", then build, then a folder named after your board type. Example "Marlin/.pio/build/rambo/firmware.hex"
