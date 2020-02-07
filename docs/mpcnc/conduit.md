@@ -23,13 +23,14 @@ Inspired by GeoDave and SteveCD, I gave it a shot.
 
 ## Z axis
 
-Z Rails should have 5-8mm holes drilled 22.5mm from the bottom and one 75mm above that. 
+Z Rails should have 5-8mm holes drilled 22.5mm from the bottom and one 75mm above that. The diameter can be anywhere between 5mm and 8mm to allow for the tool mount and a little non-perfect alignment when drilling a tube.
+
 ![!Tool Mount Holes](https://www.v1engineering.com/wp-content/uploads/2015/08/zrail.jpg){: width="400"}
 
 * If you bought super thick rails and your nut traps don’t fit your rails' thickness well, Geodave made a nice parametric part [here](http://www.thingiverse.com/thing:907882).
 
 ## Sharp Edges 
-File or sand down the inner and outer sharp edges left after cutting! Sharp edges make assembly difficult and can damage your wires. I have one of [these](http://amzn.to/1SYicSL) and It was worth every penny.
+File or sand down the inner and outer sharp edges left after cutting! Sharp edges make assembly difficult and can damage your wires. I have one of [these](http://amzn.to/1SYicSL) and It was worth every penny (only works on US standard EMT).
 
 ![!Clean up Tool](https://www.v1engineering.com/wp-content/uploads/2015/08/IMG_20160424_155028.jpg){: width="400"}
 
