@@ -25,7 +25,7 @@ Now the difficult part....you have to wait for it to finish. It can take up to 1
 
 ![!VS Code Waiting](https://www.v1engineering.com/wp-content/uploads/2019/12/Still_installing.jpg){: width="400"}
 
-At the very bottom of the VS Code window you will see a purple bar and the installing icon and message, touch nothing while it works. When it is done it will pop up a restart button.
+At the very bottom of the VS Code window you will see a purple bar and the installing icon and message, *don't touch anything* while it works. When it is done it will pop up a "Reload Now" button.
 
 ![!VS Code restart](https://www.v1engineering.com/wp-content/uploads/2019/12/restart.jpg){: width="400"}
 
