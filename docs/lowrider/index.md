@@ -52,6 +52,9 @@ When setting the tension for the X Mounts after attaching them to the plate set 
 mount individually. An easy way is to use the Z rail and run it through each one, very light
 tension, you might not even need to add any, the mounts are interference fit.
 ---
+### Z Assemblies
+
+![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Z-Assm.jpg)
 
 When fully assembled the XZ main’s should sit completely flat on the YZ rollers. If not check these
 three points.
@@ -62,7 +65,7 @@ top.
 bolts are not tensioned properly / evenly (probably way way too much).
 * Make sure all four notches are above the end of the  Z rails.
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Z-Assm.jpg){: width="250"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2020/02/Z-exploded.jpg){: width="250"}
 
 The XZ & XZ_side should be installed with an equal gap on all four screws. **There should be a gap**
 of a few millimeters equally on each side of the corners to the XZ Main. These parts can alter the Z
