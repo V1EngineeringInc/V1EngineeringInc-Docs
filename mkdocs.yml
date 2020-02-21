@@ -11,7 +11,7 @@ nav:
  - Home: index.md
 
  - Build:
-   - MPCNC: 
+   - MPCNC:
      - Basics: mpcnc/index.md
      - Parts: mpcnc/parts.md
      - Assembly:
@@ -41,9 +41,9 @@ nav:
    - Some Advanced Options:
      - v1pi - Headless: electronics/v1pi.md
      - Dual Endstops: electronics/dual-endstops.md
-   - Setup: software/index.md 
+   - Setup: software/index.md
 
- - Use:    
+ - Use:
    - Tools:
      - Milling:
        - Milling Basics: tools/milling-basics.md
@@ -55,14 +55,18 @@ nav:
        - Main: tools/lasers.md
        - Engraving Mirrors: tools/laser-engraving-mirrors.md
      - Drag Knife/Vinyl: tools/drag-knife.md
-   - Troubleshoot: 
+   - Troubleshoot:
      - Reversing a Stepper: software/reverse-motor.md
 
  - Learn:
     - Editing mkdocs: mkdocs_info.md
+    - Software Overview: learn/software_overview.md
     - Repetier-Host: software/repetier-host.md
     - Firmware: electronics/marlin-firmware.md
     - PlatformIO: learn/platformio.md
+    - G-code: learn/gcode.md
+    - Motion: learn/motion.md
+    - Coordinates: learn/coordinates.md
 
 theme:
   name: 'material'
