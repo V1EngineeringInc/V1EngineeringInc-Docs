@@ -14,6 +14,9 @@ Recommended Print Settings: PLA for dimensional accuracy (PETG is also good, if 
 or more perimeters for through hole strength. There are some steep walls so no more than 75% layer height to nozzle 
 diameter.  No support should be needed for any part I have designed.
 
+PrusaPrinters.org;[My Files](https://www.prusaprinters.org/social/47417-ryan/prints)
+
+Thingiverse.com;
 [Download 23.5 mm ("C") parts files](https://www.thingiverse.com/thing:724999)  
 [Download 25 mm ("F") parts files](https://www.thingiverse.com/thing:790533)  
 [Download 25.4 mm ("J") parts files](https://www.thingiverse.com/thing:1671517)
