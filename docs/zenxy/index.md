@@ -24,6 +24,9 @@ Karl’s way allows for some custom vector graphics to be easily drawn. Here in 
 ### Printed Parts
 
 STL Files found here,
+[PrusaPrinters, all versions](https://www.prusaprinters.org/social/47417-ryan/prints),
+
+Or Thingiverse links below.
 
 [23.5mm OD](https://www.thingiverse.com/thing:2477901) (Common US 3/4″ Conduit) 
 
