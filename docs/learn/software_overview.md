@@ -13,21 +13,20 @@ There are 4 components to the workflow and associated software as follows:
 | |Step|Software|
 |-|----|--------|
 |1|Design|CAD (Computer Assisted Design) and/or Vector Graphics Editor|
-|2|Toolpathing|CAM (Computer Assisted Machining|
-|3|G-Code Command Sending|Sender|
+|2|Toolpathing|CAM (Computer Assisted Machining)|
+|3|G-Code Sending|Sender|
 |4|Milling|Controller/Firmware|
 
 TODO Insert a diagram showing the workflow.
 
-[Design/CAD/Vector Graphics Editor:](#design)
+[Design/CAD/Vector Graphics Editor](#design)
 
 :   For the most part, you are either going to use your CNC machine to create a part (e.g. a wooden or metal gear) or for something artistic (e.g. a sign or carving). If the circustance is that you are needing to create the design from scratch you will likely be using CAD or Vector Graphics Editor software to do so.  It is worth noting that this is NOT a certainty.  Many people may already have these designs in hand provided from some other source.  Regardless, the output of this step (and input to the next) is typically either a 2D file (like a .DXF or .SVG) or sometimes (but not often) a 3D file (like a .STL).
 
-[CAM: Computer Assisted Machining](#cam-computer-assisted-machining)
-:   This is the step where you take your design, and describe which lines to trace, which areas to
-    cut out, and which parts to leave. CAM also is where you will define what kinds of bits you
-    have, and how fast and deep you want to move them through the material. The output of this step
-    is g-code (in a .gcode or .nc file).
+[Toolpathing/CAM](#toolpathing)
+:   This is the step where you take your design, and describe which lines to engrave, which areas to
+    cut out, and which parts to leave. It defines what "paths" your "tool" is going to take.  CAM also is where you will define what kinds of CNC bits you have, and how fast and deep you want to move them through the material. The output of this step
+    is g-code (in a .gcode or .nc file). g-code is the "language" that your CNC understands to do its job.
 
 [G-code Sender](#g-code-sender)
 :   The g-code is just a list of instructions that define where the tool should go. The software
@@ -79,7 +78,7 @@ design and adjust it.
     it usable, you can use inkscape. Try searching for [inkscape trace bitmap
     tutorial](https://duckduckgo.com/?q=inkscape+trace+bitmap+tutorial)
 
-## CAM: Computer Assisted Machining
+## Toolpathing/CAM
 
 !!! note
     If you are familiar with 3D printing, this is similar to the slicer step (but not as automated).
