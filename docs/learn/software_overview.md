@@ -20,7 +20,6 @@ There are 4 components to the workflow and associated software as follows:
 TODO Insert a diagram showing the workflow.
 
 [Design/CAD/Vector Graphics Editor](#design)
-
 :   For the most part, you are either going to use your CNC machine to create a part (e.g. a wooden or metal gear) or for something artistic (e.g. a sign or carving). If the circustance is that you are needing to create the design from scratch you will likely be using CAD or Vector Graphics Editor software to do so.  It is worth noting that this is NOT a certainty.  Many people may already have these designs in hand provided from some other source.  Regardless, the output of this step (and input to the next) is typically either a 2D file (like a .DXF or .SVG) or sometimes (but not often) a 3D file (like a .STL).
 
 [Toolpathing/CAM](#toolpathing-cam)
