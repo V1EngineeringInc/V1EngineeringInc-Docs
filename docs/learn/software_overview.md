@@ -6,7 +6,7 @@ Here, we will describe the different steps in the CNC milling workflow process a
 
 ## Overview
 
-This is the 1000ft (304m) overview.  We will explore each in more detail within the sections that follow.
+This is the 1000ft (304m) overview (we will explore each in more detail within the sections that follow).
 
 There are 4 components to the workflow and associated software as follows:
 
@@ -33,11 +33,11 @@ TODO Insert a diagram showing the workflow.
     used to "play" these instructions is the g-code sender and communicates with the controller. There are a number of options 
     for this software most people have a personal preference along with it being well matched with your controller.
 
-[Controller/Firmware](#controller)
+[Controller/Firmware](#controller-firmware)
 :   The controller is responsible for taking g-code instructions and managing the precise movements
     of the motors. There are other jobs, but they are all related to this one function. There is firmware (software on a chip) that facilitates this.  In the CNC world there are many "flavours" of this firmware.  In our CNC machines, the most common flavours are Marlin and Grbl.
 
-## Design/CAD-VGE
+## Design-CAD-VGE
 
 There are many options for CAD and VGE. Both (but particulary CAD) can take thousands of hours to master. So we can't go
 into too much detail here. Luckily, you don't have to be a master to get your hands dirty.
