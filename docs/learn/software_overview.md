@@ -39,7 +39,7 @@ TODO Insert a diagram showing the workflow.
 
 ## Design-CAD-VGE
 
-There are many options for CAD and VGE. Both (but particularly CAD) can take thousands of hours to master. So we can't go
+There are many options for CAD and VGE. Either can take thousands of hours to master. So we can't go
 into too much detail here. Luckily, you don't have to be a master to get your hands dirty.
 
 There are two common methods of creating designs for a CNC machine:
