@@ -33,7 +33,7 @@ TODO Insert a diagram showing the workflow.
     used to "play" these instructions is the g-code sender and communicates with the controller. There are a number of options 
     for this software most people have a personal preference along with it being well matched with your controller.
 
-[Controller/Firmware](#controller-firmware)
+[Milling/Controller/Firmware](#controller-firmware)
 :   The controller is responsible for taking g-code instructions and managing the precise movements
     of the motors. There are other jobs, but they are all related to this one function. There is firmware (software on a chip) that facilitates this.  In the CNC world there are many "flavours" of this firmware.  In our CNC machines, the most common flavours are Marlin and Grbl.
 
@@ -42,7 +42,7 @@ TODO Insert a diagram showing the workflow.
 There are many options for CAD and VGE. Both (but particulary CAD) can take thousands of hours to master. So we can't go
 into too much detail here. Luckily, you don't have to be a master to get your hands dirty.
 
-There are two major ways to create designs for a CNC machine:
+There are two common methods of creating designs for a CNC machine:
 
 !!! note
     Sometimes, you can find a design to utilize that is already a .DXF or a .SVG. If so, great! You can easily
@@ -137,7 +137,7 @@ without bringing a computer into the shop.
 There are many other advanced ways to send gcode. You can hook up a raspberry pi, and use the [v1pi
 image](../electronics/v1pi.md). You can use CNC.js standalone on your computer, or use pronterface.
 
-## Controller-Firmware
+## Milling-Controller-Firmware
 
 The controller takes movement commands, and drives the motors. If you bought the controller from
 the V1Engineering shop, then it is running Marlin. Marlin is designed for 3D printing (and so are a
