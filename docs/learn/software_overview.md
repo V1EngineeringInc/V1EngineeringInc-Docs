@@ -45,7 +45,7 @@ into too much detail here. Luckily, you don't have to be a master to get your ha
 There are two common methods of creating designs for a CNC machine:
 
 !!! note
-    Sometimes, you can find a design to utilize that is already a .DXF or a .SVG. If so, great! You can easily
+    Sometimes, you can find a design that is already a .DXF or a .SVG. If so, great! You can easily
     skip the CAD step.  In fact, for signs, there are many SVG's on [Etsy](https://www.etsy.com/) that are inexpensive to purchase.
 
 ### Functional Parts Design
