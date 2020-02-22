@@ -77,7 +77,7 @@ design and adjust it.
     it usable, you can use Inkscape. Try searching for [inkscape trace bitmap
     tutorial](https://duckduckgo.com/?q=inkscape+trace+bitmap+tutorial)
 
-## Toolpathing-CAM
+## CAM
 
 !!! note
     If you are familiar with 3D printing, this is similar to the slicer step (but not as automated).
