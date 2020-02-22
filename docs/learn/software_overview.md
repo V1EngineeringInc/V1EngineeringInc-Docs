@@ -137,7 +137,7 @@ without bringing a computer into the shop.
 There are many other advanced ways to send gcode. You can hook up a raspberry pi, and use the [v1pi
 image](../electronics/v1pi.md). You can use [CNC.js](https://github.com/cncjs/cncjs/wiki/Electron-App) standalone on your computer, or use pronterface.
 
-## Milling-Controller-Firmware
+## Controller
 
 The final step is to actually do the milling/cutting.  Obviously this is done by the tool at the end of the gantry, but it is facilitated by the controller.  The controller takes movement commands, and drives the motors. If you bought the controller from
 the V1Engineering shop, then it is running Marlin. Marlin is designed for 3D printing (and so are a
