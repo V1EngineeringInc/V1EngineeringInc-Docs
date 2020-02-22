@@ -25,7 +25,7 @@ TODO Insert a diagram showing the workflow.
 [Toolpathing/CAM](#toolpathing-cam)
 :   This is the step where you take your design, and describe which lines to engrave, which areas to
     cut out, and which parts to leave. It defines what "paths" your "tool" is going to take.  CAM also is where you will 
-    define what kinds of CNC bits you have, and how fast and deep you want to move them through the material. The output of
+    define what kinds of milling bits you have, and how fast and deep you want to move them through the material. The output of
     this step is g-code (in a .gcode or .nc file). G-code is the "language" that your CNC understands to do perform its movements.
 
 [G-code Sender](#g-code-sender)
