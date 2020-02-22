@@ -60,7 +60,7 @@ nav:
 
  - Learn:
     - Editing mkdocs: mkdocs_info.md
-    - Software Overview: learn/software_overview.md
+    - Software Workflow: learn/software_overview.md
     - Repetier-Host: software/repetier-host.md
     - Firmware: electronics/marlin-firmware.md
     - PlatformIO: learn/platformio.md
