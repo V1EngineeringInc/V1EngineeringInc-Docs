@@ -26,7 +26,7 @@ TODO Insert a diagram showing the workflow.
 :   This is the step where you take your design, and describe which lines to engrave, which areas to
     cut out, and which parts to leave. It defines what "paths" your "tool" is going to take.  CAM also is where you will 
     define what kinds of milling bits you have, and how fast and deep you want to move them through the material. The output of
-    this step is g-code (in a .gcode or .nc file). G-code is the "language" that your CNC understands to do perform its movements.
+    this step is g-code (in a .gcode or .nc file). [G-code](gcode.md) is the "language" of the instructions for your CNC.
 
 [G-code Sender](#g-code-sender)
 :   The g-code is just a list of instructions that define where the tool should go. The software
