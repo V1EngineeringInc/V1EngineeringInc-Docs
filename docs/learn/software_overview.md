@@ -75,6 +75,8 @@ feel free to [edit this document](../index.md#editing-and-contributing).
 
 ### Art Design
 
+![Software VGE](../img/software-vge.png)
+
 If you want to carve out art, signs, lettering, or logos then you'll want to use .SVG files.
 These parts have important dimensions and measurements, but they are usually drawn in programs
 specializing in art. The most common programs are Inkscape and Adobe Illustrator. In these programs,
