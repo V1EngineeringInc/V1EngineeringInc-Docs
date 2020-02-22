@@ -1,8 +1,8 @@
 # Workflow & Software Overview
 
-Starting out in the [CNC](https://en.wikipedia.org/wiki/Numerical_control) world can be very intimidating, even if you already know about 3D printing (which is a CNC machine, technically).  However, when broken down into managable pieces it's easy to digest.  In the world of CNC, workflow and software are instrinitcally linked. 
+Starting out in the [CNC](https://en.wikipedia.org/wiki/Numerical_control) world can be very intimidating, even if you already know about 3D printing (which is a CNC machine, technically).  However, when broken down into manageable pieces it's easy to digest.  In the world of CNC, workflow and software are intrinsically linked. 
 
-Here, we will describe the different steps in the CNC milling workflow process along with their associated software components/tools.  The goal is to provide you a better understanding of some of the steps and terminology, which in turn gives you the background to better seek help and explore possibilties.
+Here, we will describe the different steps in the CNC milling workflow process along with their associated software components/tools.  The goal is to provide you a better understanding of some of the steps and terminology, which in turn gives you the background to better seek help and explore possibilities.
 
 ## Overview
 
@@ -20,7 +20,7 @@ There are 4 components to the workflow and associated software as follows:
 TODO Insert a diagram showing the workflow.
 
 [Design/CAD/Vector Graphics Editor](#design-cad-vge)
-:   For the most part, you are either going to use your CNC machine to create a part (e.g. a wooden or metal gear) or for something         artistic (e.g. a sign or carving). If the circustance is that you are needing to create the design from scratch you will likely be       using CAD or Vector Graphics Editor software to do so.  It is worth noting that this is NOT a certainty.  Many people may already       have these designs in hand provided from some other source.  Regardless, the output of this step (and input to the next) is             typically either a 2D file (like a .DXF or .SVG) or sometimes (but not often) a 3D file (like a .STL).
+:   For the most part, you are either going to use your CNC machine to create a part (e.g. a wooden or metal gear) or for something         artistic (e.g. a sign or carving). If the circumstance is that you are needing to create the design from scratch you will likely be       using CAD or Vector Graphics Editor software to do so.  It is worth noting that this is NOT a certainty.  Many people may already       have these designs in hand provided from some other source.  Regardless, the output of this step (and input to the next) is             typically either a 2D file (like a .DXF or .SVG) or sometimes (but not often) a 3D file (like a .STL).
 
 [Toolpathing/CAM](#toolpathing-cam)
 :   This is the step where you take your design, and describe which lines to engrave, which areas to
@@ -35,11 +35,11 @@ TODO Insert a diagram showing the workflow.
 
 [Milling/Controller/Firmware](#milling-controller-firmware)
 :   The controller is responsible for taking g-code instructions and managing the precise movements
-    of the motors. There are other jobs, but they are all related to this one function. There is firmware (software on a chip) that facilitates this.  In the CNC world there are many "flavours" of this firmware.  In our CNC machines, the most common flavours are Marlin and Grbl.
+    of the motors. There are other jobs, but they are all related to this one function. There is firmware (software on a chip) that facilitates this.  In the CNC world there are many "flavors" of this firmware.  In our CNC machines, the most common flavors are Marlin and Grbl.
 
 ## Design-CAD-VGE
 
-There are many options for CAD and VGE. Both (but particulary CAD) can take thousands of hours to master. So we can't go
+There are many options for CAD and VGE. Both (but particularly CAD) can take thousands of hours to master. So we can't go
 into too much detail here. Luckily, you don't have to be a master to get your hands dirty.
 
 There are two common methods of creating designs for a CNC machine:
@@ -141,7 +141,7 @@ image](../electronics/v1pi.md). You can use [CNC.js](https://github.com/cncjs/cn
 
 The final step is to actually do the milling/cutting.  Obviously this is done by the tool at the end of the gantry, but it is facilitated by the controller.  The controller takes movement commands, and drives the motors. If you bought the controller from
 the V1Engineering shop, then it is running Marlin. Marlin is designed for 3D printing (and so are a
-lot of tools we use). Don't be surprised if you see something labelled "print" when you think it
+lot of tools we use). Don't be surprised if you see something labeled "print" when you think it
 should be "cut".
 
 The V1Engineering Shop sells the controllers flashed and ready to use. If you want to update them,
