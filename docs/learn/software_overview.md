@@ -19,7 +19,7 @@ There are 4 components to the workflow and associated software as follows:
 
 TODO Insert a diagram showing the workflow.
 
-[Design/CAD/Vector Graphics Editor](#design-cad-vge)
+[Design](#design)
 :   For the most part, you are either going to use your CNC machine to create a part (e.g. a wooden or metal gear) or for something         artistic (e.g. a sign or carving). If the circumstance is that you are needing to create the design from scratch you will likely be       using CAD or Vector Graphics Editor software to do so.  It is worth noting that this is NOT a certainty.  Many people may already       have these designs in hand provided from some other source.  Regardless, the output of this step (and input to the next) is             typically either a 2D file (like a .DXF or .SVG) or sometimes (but not often) a 3D file (like a .STL).
 
 [Toolpathing/CAM](#toolpathing-cam)
@@ -37,7 +37,7 @@ TODO Insert a diagram showing the workflow.
 :   The controller is responsible for taking g-code instructions and managing the precise movements
     of the motors. There are other jobs, but they are all related to this one function. There is firmware (software on a chip) that facilitates this.  In the CNC world there are many "flavors" of this firmware.  In our CNC machines, the most common flavors are Marlin and Grbl.
 
-## Design-CAD-VGE
+## Design
 
 There are many options for CAD and VGE. Either can take thousands of hours to master. So we can't go
 into too much detail here. Luckily, you don't have to be a master to get your hands dirty.
