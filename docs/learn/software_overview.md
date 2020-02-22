@@ -33,7 +33,7 @@ TODO Insert a diagram showing the workflow.
     used to "play" these instructions is the g-code sender and communicates with the controller. There are a number of options 
     for this software most people have a personal preference along with it being well matched with your controller.
 
-[Milling/Controller/Firmware](#controller-firmware)
+[Milling/Controller/Firmware](#milling-controller-firmware)
 :   The controller is responsible for taking g-code instructions and managing the precise movements
     of the motors. There are other jobs, but they are all related to this one function. There is firmware (software on a chip) that facilitates this.  In the CNC world there are many "flavours" of this firmware.  In our CNC machines, the most common flavours are Marlin and Grbl.
 
@@ -139,7 +139,7 @@ image](../electronics/v1pi.md). You can use CNC.js standalone on your computer, 
 
 ## Milling-Controller-Firmware
 
-The controller takes movement commands, and drives the motors. If you bought the controller from
+The final step is to actually do the milling.  Obviously this is done by the tool at the end of the gantry but it is facilitated by the controller.  It takes movement commands, and drives the motors. If you bought the controller from
 the V1Engineering shop, then it is running Marlin. Marlin is designed for 3D printing (and so are a
 lot of tools we use). Don't be surprised if you see something labelled "print" when you think it
 should be "cut".
