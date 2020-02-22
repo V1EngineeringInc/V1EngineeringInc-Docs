@@ -20,21 +20,21 @@ There are 4 components to the workflow and associated software as follows:
 TODO Insert a diagram showing the workflow.
 
 [Design/CAD/Vector Graphics Editor](#design-cad-vge)
-:   For the most part, you are either going to use your CNC machine to create a part (e.g. a wooden or metal gear) or for something artistic (e.g. a sign or carving). If the circustance is that you are needing to create the design from scratch you will likely be using CAD or Vector Graphics Editor software to do so.  It is worth noting that this is NOT a certainty.  Many people may already have these designs in hand provided from some other source.  Regardless, the output of this step (and input to the next) is typically either a 2D file (like a .DXF or .SVG) or sometimes (but not often) a 3D file (like a .STL).
+:   For the most part, you are either going to use your CNC machine to create a part (e.g. a wooden or metal gear) or for something         artistic (e.g. a sign or carving). If the circustance is that you are needing to create the design from scratch you will likely be       using CAD or Vector Graphics Editor software to do so.  It is worth noting that this is NOT a certainty.  Many people may already       have these designs in hand provided from some other source.  Regardless, the output of this step (and input to the next) is             typically either a 2D file (like a .DXF or .SVG) or sometimes (but not often) a 3D file (like a .STL).
 
 [Toolpathing/CAM](#toolpathing-cam)
 :   This is the step where you take your design, and describe which lines to engrave, which areas to
-    cut out, and which parts to leave. It defines what "paths" your "tool" is going to take.  CAM also is where you will define what kinds of CNC bits you have, and how fast and deep you want to move them through the material. The output of this step
-    is g-code (in a .gcode or .nc file). g-code is the "language" that your CNC understands to do its job.
+    cut out, and which parts to leave. It defines what "paths" your "tool" is going to take.  CAM also is where you will 
+    define what kinds of CNC bits you have, and how fast and deep you want to move them through the material. The output of
+    this step is g-code (in a .gcode or .nc file). g-code is the "language" that your CNC understands to do its job.
 
 [G-code Sender](#g-code-sender)
 :   The g-code is just a list of instructions that define where the tool should go. The software
-    used to "play" these instructions is the g-code sender. There are many options for this step, so
-    do what feels comfortable. The g-code sender needs to be well matched with your controller.
+    used to "play" these instructions is the g-code sender and communicates with the controller. There are a number of options 
+    for this software most people have a personal preference along with it being well matched with your controller.
 
-[Controller](#controller)
-:   A.k.a. "Firmware"
-    The controller is responsible for taking g-code instructions and managing the precise movements
+[Controller/Firmware](#controller)
+:   The controller is responsible for taking g-code instructions and managing the precise movements
     of the motors. There are other jobs, but they are all related to this one function. In our CNC
     machines, the most common is Marlin, and the second is Grbl.
 
