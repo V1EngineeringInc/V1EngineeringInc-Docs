@@ -6,7 +6,7 @@ Here, we will describe the different steps in the CNC milling workflow process a
 
 ## Overview
 
-This is the 1000ft (304m) overview.  We will explore each in detail within the sections that follow.
+This is the 1000ft (304m) overview.  We will explore each in more detail within the sections that follow.
 
 There are 4 components to the workflow and associated software as follows:
 
@@ -39,16 +39,16 @@ TODO Insert a diagram showing the workflow.
 
 ## Design-CAD-VGE
 
-There are so many options for CAD. Also, CAD can take thousands of hours to master. So we can't go
+There are many options for CAD and VGE. Both (but particulary CAD) can take thousands of hours to master. So we can't go
 into too much detail here. Luckily, you don't have to be a master to get your hands dirty.
 
 There are two major ways to create designs for a CNC machine:
 
 !!! note
-    Sometimes, you can find a design to cut already as a .DXF or a .SVG. If so, great! You can easily
-    skip the CAD step.
+    Sometimes, you can find a design to utilize that is already a .DXF or a .SVG. If so, great! You can easily
+    skip the CAD step.  In fact, for signs, there are many SVG's on Etsy that are inexpensive to purchase.
 
-### Functional Design
+### Functional Parts Design
 
 If you are making functional parts, then you want a CAD tool. The output you want is usually
 .DXF. Imagine you want to make a toolbox, you would draw out each side of the toolbox and export a
@@ -62,18 +62,19 @@ feel free to [edit this document](../index.md#editing-and-contributing).
  - SketchUp
  - OpenSCAD
  - LibreCAD
+ - TinkerCAD
 
 ### Art Design
 
 If you want to carve out art, signs, lettering, or logos then you'll want to use .SVG files.
 These parts have important dimensions and measurements, but they are usually drawn in programs
-specializing in art. The most common programs are inkscape and Adobe Illustrator. In these programs,
+specializing in art. The most common programs are Inkscape and Adobe Illustrator. In these programs,
 you can very precisely adjust the shape to get an aesthetically pleasing design, or import another
 design and adjust it.
 
 !!! note
     If you have a piece of art in a .jpg, .png, or .bmp format, you can't directly use that. To make
-    it usable, you can use inkscape. Try searching for [inkscape trace bitmap
+    it usable, you can use Inkscape. Try searching for [inkscape trace bitmap
     tutorial](https://duckduckgo.com/?q=inkscape+trace+bitmap+tutorial)
 
 ## Toolpathing-CAM
@@ -81,8 +82,8 @@ design and adjust it.
 !!! note
     If you are familiar with 3D printing, this is similar to the slicer step (but not as automated).
 
-Now that you have a design, you basically have just a bunch of shapes. You still haven't said which
-shapes need to be cut out, which shapes need to be traced, and which shapes need to be completely
+Now that you have a design, you basically have just a bunch of shapes or objects. You still haven't said which
+shapes need to be cut out, which shapes need to be engraved or drilled, and which shapes need to be completely
 removed. In CAM, you will select the shapes and choose which operations you want to perform. For
 example, if you are cutting out letters, you will need to use CAM to cut out each letter. You will
 also need to tell it how far to cut. It doesn't know anything about the material, so if you're
@@ -112,6 +113,7 @@ There is a lot more detailed information in the [Milling Basics](../tools/millin
     great, but Fusion 360 CAM can be confusing, and it is highly recommended to start with Estlcam
     first. Even if you decide to later use the Fusion 360 CAM, the skills learned with Estlcam will
     be easier to learn, and will directly apply to any CAM software.
+
 ## G-code Sender
 
 The term "G-code Sender" isn't a very technical term, because there are so many ways to "play back"
