@@ -19,7 +19,7 @@ There are 4 components to the workflow and associated software as follows:
 
 TODO Insert a diagram showing the workflow.
 
-[Design/CAD/Vector Graphics Editor](#design/cad-vge)
+[Design/CAD/Vector Graphics Editor](#design-cad-vge)
 :   For the most part, you are either going to use your CNC machine to create a part (e.g. a wooden or metal gear) or for something         artistic (e.g. a sign or carving). If the circustance is that you are needing to create the design from scratch you will likely be       using CAD or Vector Graphics Editor software to do so.  It is worth noting that this is NOT a certainty.  Many people may already       have these designs in hand provided from some other source.  Regardless, the output of this step (and input to the next) is             typically either a 2D file (like a .DXF or .SVG) or sometimes (but not often) a 3D file (like a .STL).
 
 [Toolpathing/CAM](#toolpathing-cam)
@@ -137,7 +137,7 @@ without bringing a computer into the shop.
 There are many other advanced ways to send gcode. You can hook up a raspberry pi, and use the [v1pi
 image](../electronics/v1pi.md). You can use CNC.js standalone on your computer, or use pronterface.
 
-## Controller
+## Controller-Firmware
 
 The controller takes movement commands, and drives the motors. If you bought the controller from
 the V1Engineering shop, then it is running Marlin. Marlin is designed for 3D printing (and so are a
