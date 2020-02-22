@@ -33,7 +33,7 @@ TODO Insert a diagram showing the workflow.
     used to "play" these instructions is the g-code sender and communicates with the controller. There are a number of options 
     for this software.  Most people have a personal preference along with it being well matched with your controller.
 
-[Milling/Controller/Firmware](#milling-controller-firmware)
+[Milling/Controller/Firmware](#controller)
 :   The controller is responsible for taking g-code instructions and managing the precise movements
     of the motors. There are other jobs, but they are all related to this one function. There is firmware (software on a chip) that facilitates this.  In the CNC world there are many "flavors" of this firmware.  In our CNC machines, the most common flavors are Marlin and Grbl.
 
