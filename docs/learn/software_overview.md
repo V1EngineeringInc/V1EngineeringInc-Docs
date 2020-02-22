@@ -35,8 +35,7 @@ TODO Insert a diagram showing the workflow.
 
 [Controller/Firmware](#controller)
 :   The controller is responsible for taking g-code instructions and managing the precise movements
-    of the motors. There are other jobs, but they are all related to this one function. In our CNC
-    machines, the most common is Marlin, and the second is Grbl.
+    of the motors. There are other jobs, but they are all related to this one function. There is firmware (software on a chip) that facilitates this.  In the CNC world there are many "flavours" of this firmware.  In our CNC machines, the most common flavours are Marlin and Grbl.
 
 ## Design-CAD-VGE
 
