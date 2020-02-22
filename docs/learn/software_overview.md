@@ -31,7 +31,7 @@ TODO Insert a diagram showing the workflow.
 [G-code Sender](#g-code-sender)
 :   The g-code is just a list of instructions that define where the tool should go. The software
     used to "play" these instructions is the g-code sender and communicates with the controller. There are a number of options 
-    for this software most people have a personal preference along with it being well matched with your controller.
+    for this software.  Most people have a personal preference along with it being well matched with your controller.
 
 [Milling/Controller/Firmware](#milling-controller-firmware)
 :   The controller is responsible for taking g-code instructions and managing the precise movements
