@@ -1,26 +1,27 @@
 # Workflow & Software Overview
 
-Starting out in the [CNC](https://en.wikipedia.org/wiki/Numerical_control) world can be very intimidating, even if you already know about 3D printing (which is a CNC machine, technically).  However, when broken down into managable pieces it's easy to digest.  In the world of CNC, workflow and software are instrinitcally linked. Here, we will describe the different steps in the CNC milling workflow process along with their associated software components/tools.  The goal is to provide you a better understanding of some of the steps and terminology, which in turn gives you the background to better seek help and explore possibilties.
+Starting out in the [CNC](https://en.wikipedia.org/wiki/Numerical_control) world can be very intimidating, even if you already know about 3D printing (which is a CNC machine, technically).  However, when broken down into managable pieces it's easy to digest.  In the world of CNC, workflow and software are instrinitcally linked. 
+
+Here, we will describe the different steps in the CNC milling workflow process along with their associated software components/tools.  The goal is to provide you a better understanding of some of the steps and terminology, which in turn gives you the background to better seek help and explore possibilties.
 
 ## Overview
 
-This is the 1000ft (304m) overview.  We will explore each in details within the sections that follow.
+This is the 1000ft (304m) overview.  We will explore each in detail within the sections that follow.
 
 There are 4 components to the workflow and associated software as follows:
 
 | |Step|Software|
 |-|----|--------|
 |1|Design|CAD (Computer Assisted Design) and/or Vector Graphics Editor|
-|2|Toolpathing|CAM|
-|3|Command Sending|Sender|
+|2|Toolpathing|CAM (Computer Assisted Machining|
+|3|G-Code Command Sending|Sender|
 |4|Milling|Controller/Firmware|
 
 TODO Insert a diagram showing the workflow.
 
 [Design/CAD/Vector Graphics Editor:](#design)
-:   Before you do anything, you have to take your idea and get it into the computer. This can take
-    many forms, but the output is either a 2D file (like a .DXF or .SVG) or sometimes (but not
-    often) a 3D file (like a .STL).
+
+:   For the most part, you are either going to use your CNC machine to create a part (e.g. a wooden or metal gear) or for something artistic (e.g. a sign or carving). If the circustance is that you are needing to create the design from scratch you will likely be using CAD or Vector Graphics Editor software to do so.  It is worth noting that this is NOT a certainty.  Many people may already have these designs in hand provided from some other source.  Regardless, the output of this step (and input to the next) is typically either a 2D file (like a .DXF or .SVG) or sometimes (but not often) a 3D file (like a .STL).
 
 [CAM: Computer Assisted Machining](#cam-computer-assisted-machining)
 :   This is the step where you take your design, and describe which lines to trace, which areas to
