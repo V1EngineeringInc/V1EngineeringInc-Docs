@@ -46,7 +46,7 @@ There are two common methods of creating designs for a CNC machine:
 
 !!! note
     Sometimes, you can find a design to utilize that is already a .DXF or a .SVG. If so, great! You can easily
-    skip the CAD step.  In fact, for signs, there are many SVG's on Etsy that are inexpensive to purchase.
+    skip the CAD step.  In fact, for signs, there are many SVG's on [Etsy](https://www.etsy.com/) that are inexpensive to purchase.
 
 ### Functional Parts Design
 
@@ -135,11 +135,11 @@ card. You can put the file on the SD card, and set the whole thing up on the LCD
 without bringing a computer into the shop.
 
 There are many other advanced ways to send gcode. You can hook up a raspberry pi, and use the [v1pi
-image](../electronics/v1pi.md). You can use CNC.js standalone on your computer, or use pronterface.
+image](../electronics/v1pi.md). You can use [CNC.js](https://github.com/cncjs/cncjs/wiki/Electron-App) standalone on your computer, or use pronterface.
 
 ## Milling-Controller-Firmware
 
-The final step is to actually do the milling.  Obviously this is done by the tool at the end of the gantry but it is facilitated by the controller.  It takes movement commands, and drives the motors. If you bought the controller from
+The final step is to actually do the milling/cutting.  Obviously this is done by the tool at the end of the gantry, but it is facilitated by the controller.  The controller takes movement commands, and drives the motors. If you bought the controller from
 the V1Engineering shop, then it is running Marlin. Marlin is designed for 3D printing (and so are a
 lot of tools we use). Don't be surprised if you see something labelled "print" when you think it
 should be "cut".
