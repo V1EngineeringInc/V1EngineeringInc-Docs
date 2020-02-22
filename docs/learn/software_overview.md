@@ -10,14 +10,14 @@ There are 4 components to the workflow and associated software as follows:
 
 | |Step|Software|
 |-|----|--------|
-|1|Design|CAD and/or Vector Graphics Editor|
+|1|Design|CAD (Computer Assisted Design) and/or Vector Graphics Editor|
 |2|Toolpathing|CAM|
 |3|Command Sending|Sender|
 |4|Milling|Controller/Firmware|
 
 TODO Insert a diagram showing the workflow.
 
-[CAD: Computer Assisted Design](#cad-computer-assisted-design)
+[Design/CAD/Vector Graphics Editor:](#design)
 :   Before you do anything, you have to take your idea and get it into the computer. This can take
     many forms, but the output is either a 2D file (like a .DXF or .SVG) or sometimes (but not
     often) a 3D file (like a .STL).
@@ -39,7 +39,7 @@ TODO Insert a diagram showing the workflow.
     of the motors. There are other jobs, but they are all related to this one function. In our CNC
     machines, the most common is Marlin, and the second is Grbl.
 
-## CAD: Computer Assisted Design
+## Design
 
 There are so many options for CAD. Also, CAD can take thousands of hours to master. So we can't go
 into too much detail here. Luckily, you don't have to be a master to get your hands dirty.
