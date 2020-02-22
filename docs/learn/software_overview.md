@@ -1,10 +1,10 @@
 # Workflow & Software Overview
 
-Starting out in the [CNC](https://en.wikipedia.org/wiki/Numerical_control) world can be very intimidating, even if you already know about 3D printing (which is a CNC machine, technically).  However, when broken down into managable pieces it's easy to digest.  In the world of CNC, workflow and software are instrinitcally linked. Here, we will describe the different steps in the CNC milling workflow process along with their associated software components/tools.  The goal is to provide you a better understanding of some of the steps and terminology, which in tern gives you the background to better seek help and explore possibilties.
+Starting out in the [CNC](https://en.wikipedia.org/wiki/Numerical_control) world can be very intimidating, even if you already know about 3D printing (which is a CNC machine, technically).  However, when broken down into managable pieces it's easy to digest.  In the world of CNC, workflow and software are instrinitcally linked. Here, we will describe the different steps in the CNC milling workflow process along with their associated software components/tools.  The goal is to provide you a better understanding of some of the steps and terminology, which in turn gives you the background to better seek help and explore possibilties.
 
 ## Overview
 
-This is the 1000ft (304m) overview.  We will explore each in the sections that follow.
+This is the 1000ft (304m) overview.  We will explore each in details within the sections that follow.
 
 There are 4 components to the workflow and associated software as follows:
 
