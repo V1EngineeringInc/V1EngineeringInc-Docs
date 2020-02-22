@@ -22,7 +22,7 @@ TODO Insert a diagram showing the workflow.
 [Design](#design)
 :   The first step is to make or get a design. If you are making one, then you will probably use a CAD program (for functional parts, like a gear) or a Vector Graphics Editor (for art, like a sign).  The output of this step is typically either a 2D file (like a .DXF or .SVG) or sometimes (but not often) a 3D file (like a .STL).
 
-[Toolpathing/CAM](#toolpathing-cam)
+[CAM](#cam)
 :   This is the step where you take your design, and describe which lines to engrave, which areas to
     cut out, and which parts to leave. It defines what "paths" your "tool" is going to take.  CAM also is where you will 
     define what kinds of milling bits you have, and how fast and deep you want to move them through the material. The output of
