@@ -7,7 +7,7 @@ your CAM and be able to spot problems before they get to the machine. You can al
 custom commands with a little effort and set up your machine faster than the couple of buttons your
 controller gives you.
 
-TODO Insert an image here.
+![Gcode Text Message](../img/gcode-sms.png){: width="250"}
 
 ### G-Code Files
 
