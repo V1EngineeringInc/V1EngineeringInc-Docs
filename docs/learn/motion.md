@@ -99,7 +99,7 @@ mm/min) and the Z to 10mm/s.
 
 Generally, the defaults in the V1Engineering firmware are conservative enough for these machines.
 If you want to go faster and know the consequences, then by all means, change them. If you installed
-a hight steps/mm Z and you need to slow down your Z, then this is a good way to do it.
+a high steps/mm Z and you need to slow down your Z, then this is a good way to do it.
 
 Here is the general rule of thumb for speeds. You shouldn't allow the machine to go so fast that it
 skips steps when not cutting material. Friction in the machine, or loss of torque at high speeds can
