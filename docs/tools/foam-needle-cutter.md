@@ -39,8 +39,7 @@ poorly balanced and needs to run at lower speed, reduce the feedrate accordingly
 A MPCNC can be built large enough to handle a *510x750mm (20"x30")* sheet of foam board, but it won't be stiff
 enough to mill aluminum. A LowRider can easily handle this size, is cheaper to build, and can be
 rolled aside when not in use to leave most of your bench for other work. There's also the [ERC
-TimSav machine](https://www.thingiverse.com/thing:3951161) which is even cheaper and simpler, but
-harder to use for other things.
+TimSav machine](https://www.thingiverse.com/thing:3951161) and [moebeast's Foam Ripper](https://www.thingiverse.com/thing:2520214), which are even cheaper and simpler, but harder to use for other things.
 
 Everyone uses fairly large motors, although the actual power used is very low, around 10-20W. This
 is largely historical, but it is useful to have a motor with a short shaft and threaded holes to
@@ -56,7 +55,7 @@ either start with smaller (M2.5) washers, super-glue them to some scrap wood and
 against an abrasive wheel.
 
 There are various ways to attach the needle to the top bearing, but by far the easiest is the 3D
-printed collar in [link required]
+printed collar in [moebeast's Foam Ripper](https://www.thingiverse.com/thing:2520214)
 
 ## Files
 
@@ -86,6 +85,8 @@ work, but ideally you should have a fixed frame, into which the board fits. Foam
 bowed, and the cutter works best when it is flat (and score cuts require a predictable depth). The
 vacuum pad solves both problems.
 
+![Vacuum hold down pad](https://ftforumx2.s3.amazonaws.com/2019/04/222500_63bbfe4f6de656f36ddfec7592ac247a.jpg)
+
 The vacuum pad consists of three sheets of DTFB (Dollar Tree Foam Board): two slotted sheets (glued
 together) with a loose "holes" sheet that serves as the replaceable spoilboard. The 3-layer stack
 sits on the work surface, with nothing between, and the vacuum pad not only pulls down the foam
@@ -95,9 +96,11 @@ this creates a better seal and saves the needle some work.
 The shop-vac noise can be reduced with an inexpensive router speed control to reduce the speed. Use
 full power for a second to suck the work down, then reduce to minimum power.
 
-[DXF plans for the 3 sheet pad](https://ftforumx2.s3.amazonaws.com/2019/12/270306_e490e4c657f494c024fdd8df958cc351.zip)
+Here are [DXF plans for the 3 sheet pad](https://ftforumx2.s3.amazonaws.com/2019/12/270306_e490e4c657f494c024fdd8df958cc351.zip) - although you need a working needle cutter to use them. It may be easier and faster to  cut the first two with a craft knife, and use the machine to make the grid of holes in the third sheet.
 
-Resources:
+[Moebeast's Foam Ripper](https://www.thingiverse.com/thing:2520214) contains an STL for the manifold vacuum nozzle, or you can build a square funnel shape from foam board.
+
+## Resources:
 
 * Probably the largest discussion about the development of this cutter is on the FliteTest forum:
     [Cutting foam sheets with a needle](https://forum.flitetest.com/index.php?threads/cutting-foam-sheets-with-a-needle.24251/)
