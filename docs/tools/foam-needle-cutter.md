@@ -3,36 +3,40 @@
 ## Introduction
 
 Thin sheet foam is widely used in the model aircraft hobby, but transferring plans from a computer
-drawing to the material, and cutting out curves and small features is difficult and not much fun.
-This tool does exactly that, much cheaper (and more safely) than a laser. It's basically a very fast
-reciprocating needle -- like a sewing machine -- mounted on your CNC machine. Pin a sheet of foam
-board onto the bed of your CNC, load in the plane's gcode, set the origin, and start the machine.
-Twenty minutes or so later you have a sheet of parts that are accurately cut, easily punched out,
-and hot-glued together. Score cuts are no problem. You can build the cutter for about $20, but you
-probably have some of the parts already.
+drawing to the material, and cutting out curves and small features is difficult to do by hand and
+not much fun. This tool does exactly that, much cheaper (and more safely) than a laser. It's
+basically a very fast reciprocating needle -- like a sewing machine -- mounted on your CNC machine.
+
+Pin a sheet of foam board onto the bed of your CNC, load in the plane's gcode, set the origin, and
+start the machine. Twenty minutes or so later you have a sheet of parts that are accurately cut,
+easily punched out, and hot-glued together. Score cuts are no problem. You can build the cutter for
+about **$20**, but you probably have some of the parts already.
 
 ![needle cutter](https://us1.dh-cdn.net/uploads/db5587/optimized/3X/5/3/53baef25c0498a1ba9222d3d8b1e387f5b727755_2_666x500.jpeg)
 
 ## Description
 
 The needle is formed from a length of 0.5mm (0.025") music-wire and attached to a small ball-bearing
-mounted eccentrically on the flywheel. The flywheel is mounted on the shaft of a 2826/2822 brushless
-motor (with ESC and servo tester) and spun to create one stroke/perforation every revolution. The
-needle is guided by the nozzle from a MIG welder, and helped to stay straight by guide bearings. It
-helps to sharpen the end of the needle by rotating it at 45 degrees to an abrasive wheel.
+mounted eccentrically on the flywheel.
+
+The flywheel is mounted on the shaft of a 2826/2822 brushless motor (with ESC and servo tester) and
+spun to create one stroke/perforation every revolution.
+
+The needle is guided by the nozzle from a MIG welder, and helped to stay straight by guide bearings.
+It helps to sharpen the end of the needle by rotating it at 45 degrees to an abrasive wheel.
 
 ## Speeds
 
-The important number to remember is that you need 10-15 strokes/mm to cut cleanly and limit the load
-on the needle, i.e. feedrate (mm/min) of ONE-TENTH the cutter speed. At 8000-10000 rpm you can use a
-feed rate of 600-1000 mm/min to cleanly cut DollarTree foam board (paper on), blue-cor fanfold foam,
-etc. in about 20 minutes. At higher speeds, the MIG tip may heat up and melt the plastic mount, and
-the bending load on the needle can break it at the top. If your flywheel is poorly balanced and
-needs to run at lower speed, reduce the feedrate accordingly.
+The important number to remember is that you need **10-15 strokes/mm** to cut cleanly and limit the
+load on the needle, i.e. feedrate (mm/min) of **ONE-TENTH the cutter speed**. At 8000-10000 rpm you
+can use a feed rate of 600-1000 mm/min to cleanly cut DollarTree foam board (paper on), blue-cor
+fanfold foam, etc. in about 20 minutes. At higher speeds, the MIG tip may heat up and melt the
+plastic mount, and the bending load on the needle can break it at the top. If your flywheel is
+poorly balanced and needs to run at lower speed, reduce the feedrate accordingly.
 
 ## Components
 
-A MPCNC can be built large enough to handle a 510x750mm sheet of foam board, but it won't be stiff
+A MPCNC can be built large enough to handle a *510x750mm (20"x30")* sheet of foam board, but it won't be stiff
 enough to mill aluminum. A LowRider can easily handle this size, is cheaper to build, and can be
 rolled aside when not in use to leave most of your bench for other work. There's also the [ERC
 TimSav machine](https://www.thingiverse.com/thing:3951161) which is even cheaper and simpler, but
@@ -52,7 +56,7 @@ either start with smaller (M2.5) washers, super-glue them to some scrap wood and
 against an abrasive wheel.
 
 There are various ways to attach the needle to the top bearing, but by far the easiest is the 3D
-printed collar in <link required>
+printed collar in [link required]
 
 ## Files
 
@@ -68,12 +72,12 @@ in the browser based OhShape (note that you can see and use other people's modif
 
 ## Cutting procedure
 
-* Place the material.
-* Position the cutting head over the origin (front left corner of the board)
-* Start the shop-vac.
-* Start the cutter motor. 
-* Wind the Z-axis down until you can hear it just touch the surface.
-* Select print file from the SD card.
+1. Place the material.
+2. Position the cutting head over the origin (front left corner of the board)
+3. Start the shop-vac.
+4. Start the cutter motor.
+5. Wind the Z-axis down until you can hear it just touch the surface.
+6. Select print file from the SD card.
 
 ## Vacuum hold down
 
@@ -82,11 +86,11 @@ work, but ideally you should have a fixed frame, into which the board fits. Foam
 bowed, and the cutter works best when it is flat (and score cuts require a predictable depth). The
 vacuum pad solves both problems.
 
-The vacuum pad consists of three sheets of DTFB... two slotted sheets (glued together) with a loose
-"holes" sheet that serves as the replaceable spoilboard. The 3-layer stack sits on the work surface,
-with nothing between, and the vacuum pad not only pulls down the foam workpiece but also pulls
-itself down against the work surface. Remove the paper from the top layer; this creates a better
-seal and saves the needle some work.
+The vacuum pad consists of three sheets of DTFB (Dollar Tree Foam Board): two slotted sheets (glued
+together) with a loose "holes" sheet that serves as the replaceable spoilboard. The 3-layer stack
+sits on the work surface, with nothing between, and the vacuum pad not only pulls down the foam
+workpiece but also pulls itself down against the work surface. Remove the paper from the top layer;
+this creates a better seal and saves the needle some work.
 
 The shop-vac noise can be reduced with an inexpensive router speed control to reduce the speed. Use
 full power for a second to suck the work down, then reduce to minimum power.
