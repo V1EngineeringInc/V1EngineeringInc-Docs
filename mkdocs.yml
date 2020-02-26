@@ -55,6 +55,7 @@ nav:
        - Main: tools/lasers.md
        - Engraving Mirrors: tools/laser-engraving-mirrors.md
      - Drag Knife/Vinyl: tools/drag-knife.md
+     - Needle Cutter: tools/foam-needle-cutter.md
    - Troubleshoot:
      - Reversing a Stepper: software/reverse-motor.md
 
