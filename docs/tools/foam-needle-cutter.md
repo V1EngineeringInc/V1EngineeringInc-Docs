@@ -57,11 +57,11 @@ against an abrasive wheel.
 There are various ways to attach the needle to the top bearing, but by far the easiest is the 3D
 printed collar in [moebeast's Foam Ripper](https://www.thingiverse.com/thing:2520214)
 
-An alternative is to enclose the bearing in the flywheel, with a free-wheeling bolt. Attaching the needle to the bolt is much easier than to a smooth bearing. The Onshape model (for a 2822 motor) is public and can be accessed (here)[https://cad.onshape.com/documents/d15763ac96650f9806e6a647/w/aaaf30267ca198b6b488e255/e/1b7e9f4a277201920c1d0714]. You will probably need to adjust it to get a good fit to your motor. 
+An alternative is to enclose the bearing in the flywheel, with a free-wheeling bolt. Attaching the needle to the bolt is much easier than to a smooth bearing. The Onshape model (for a 2822 motor) is public and can be accessed [here](https://cad.onshape.com/documents/d15763ac96650f9806e6a647/w/aaaf30267ca198b6b488e255/e/1b7e9f4a277201920c1d0714). You will probably need to adjust it to get a good fit to your motor. 
 
-!(dkj4linux's slip-on flywheel)[https://ftforumx2.s3.amazonaws.com/2019/04/222266_696e8a812d15826b37d78ac3b4c66651.jpg]
+![dkj4linux's slip-on flywheel](https://ftforumx2.s3.amazonaws.com/2019/04/222266_696e8a812d15826b37d78ac3b4c66651.jpg)
 
-More photos and a description are (here)[https://forum.flitetest.com/index.php?threads/cutting-foam-sheets-with-a-needle.24251/page-122#post-466490]
+More photos and a description are [here](https://forum.flitetest.com/index.php?threads/cutting-foam-sheets-with-a-needle.24251/page-122#post-466490)
 
 ## Files
 
