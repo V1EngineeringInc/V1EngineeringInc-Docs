@@ -19,7 +19,7 @@ about **$20**, but you probably have some of the parts already.
 The needle is formed from a length of 0.5mm (0.025") music-wire and attached to a small ball-bearing
 mounted eccentrically on the flywheel.
 
-The flywheel is mounted on the shaft of a 2826/2822 brushless motor (with ESC and servo tester) and
+The flywheel is mounted on the shaft of a 2212 (stator size) brushless motor (with ESC and servo tester) and
 spun to create one stroke/perforation every revolution.
 
 The needle is guided by the nozzle from a MIG welder, and helped to stay straight by guide bearings.
@@ -57,6 +57,12 @@ against an abrasive wheel.
 There are various ways to attach the needle to the top bearing, but by far the easiest is the 3D
 printed collar in [moebeast's Foam Ripper](https://www.thingiverse.com/thing:2520214)
 
+An alternative is to enclose the bearing in the flywheel, with a free-wheeling bolt. Attaching the needle to the bolt is much easier than to a smooth bearing. The Onshape model (for a 2822 motor) is public and can be accessed [here](https://cad.onshape.com/documents/d15763ac96650f9806e6a647/w/aaaf30267ca198b6b488e255/e/1b7e9f4a277201920c1d0714). You will probably need to adjust it to get a good fit to your motor. 
+
+![dkj4linux's slip-on flywheel](https://ftforumx2.s3.amazonaws.com/2019/04/222266_696e8a812d15826b37d78ac3b4c66651.jpg)
+
+More photos and a description are [here](https://forum.flitetest.com/index.php?threads/cutting-foam-sheets-with-a-needle.24251/page-122#post-466490)
+
 ## Files
 
 There are two popular versions:
@@ -90,8 +96,7 @@ vacuum pad solves both problems.
 The vacuum pad consists of three sheets of DTFB (Dollar Tree Foam Board): two slotted sheets (glued
 together) with a loose "holes" sheet that serves as the replaceable spoilboard. The 3-layer stack
 sits on the work surface, with nothing between, and the vacuum pad not only pulls down the foam
-workpiece but also pulls itself down against the work surface. Remove the paper from the top layer;
-this creates a better seal and saves the needle some work.
+workpiece but also pulls itself down against the work surface. 
 
 The shop-vac noise can be reduced with an inexpensive router speed control to reduce the speed. Use
 full power for a second to suck the work down, then reduce to minimum power.
