@@ -42,8 +42,8 @@ cable tie to the plate. (I chose to cover the wires with PET braiding on this bu
 
 ![!final](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20160823_135523.jpg){: width="400"}
 
-* Connect the closer stepper to the plug in the middle of the harness with these steppers I match
-the pin side or non-pin side of the plugs.
+* For the Series wiring harness, connect the closer stepper to the plug in the middle of the harness with these steppers I match
+the pin side or non-pin side of the plugs.  For the "Individual/dual endstop" wiring harness, run each wire all the way from each stepper to the control board.
 
 ![!final](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20160823_135543.jpg){: width="400"}
 ![!final](https://www.v1engineering.com/wp-content/uploads/2018/05/IMG_20180529_1806062.jpg){: width="400"}
@@ -61,7 +61,7 @@ tape again.
 ![!wires](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20160823_135922.jpg){: width="400"}
 ![!wires](https://www.v1engineering.com/wp-content/uploads/2018/05/IMG_20180529_1806062.jpg){: width="400"}
 
-* Connect the wire coming from the far stepper.
+* Connect the wire coming from the far stepper (Series wiring harness only).
 * Secure all the connections with tape.
 * Angle both wires away from your control board. secure with a cable tie to the plate.
 ---
