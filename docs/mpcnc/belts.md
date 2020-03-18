@@ -4,9 +4,10 @@
 
 - Move the gantry all the way to the lower left corner.
 - Paying attention to which way the cable tie heads are facing (for that slick clean look).
-- Tie one end of the belt just enough to fit a cable tie through the loop, teeth facing each other and meshed, teeth for the rest of the belt facing down. Pull tight.
-- Loop the next tie through the belt loop, and the corner piece. Leave this one as loose as possible (1″-1.5″ (25-35mm) gap).
-
+- For each belt, the first cable tie will be setup very loose, so that it can be tightened after the belt is routed, and the cable tie on the opposite side is tightened.
+- If the gantry is oriented with the tool mount facing the lower left corner, it will be best to use the left side (when doing the front and rear belts), and the front side (when doing the left and right belts) for the adjustment cable tie.  There is more room on these sides, and the roller bearing cannot reach all the way to these edges.  If the gantry is oriented differently on your setup, you should use the side with the most room.
+- Create a small loop on the end of the belt, just enough to fit a cable tie through the loop, with teeth facing each other and meshed, and the teeth for the rest of the belt facing down. Pull tight.
+- Loop the next tie through this belt loop, and the corner piece. Leave this one as loose as possible (1″-1.5″ (25-35mm) gap).  This will be the adjustment cable tie, and will be tightened later.
 ---
 
 ![!belts](https://www.v1engineering.com/wp-content/uploads/2016/09/IMG_20160825_172124.jpg){: width="400"}
@@ -14,7 +15,7 @@
 
 - Move the gantry all the way to the opposite corner.
 - Loop the belt (teeth facing down) under the first roller bearing, over the pulley, under the nest bearing.
-- Set up the far corner the same as the other corner with the exception of getting this loop of the belt as close to the corner block as possible.
+- Set up the far corner the same as the first corner, with the exception of getting this loop of the belt as close to the corner block as possible.
 - Make sure the roller bearing does not hit the belt loop. trim the belt.
 - Repeat this all the way around, leaving the adjustment cable tie on the corner with the most room.
 Opposites, usually the bottom left and top right. If you are setting up dual endstops it is best to
