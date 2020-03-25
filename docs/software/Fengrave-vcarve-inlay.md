@@ -5,6 +5,7 @@
     - It is best to use a dxf or bmp file
     - It is better to use a black and white picture
     - The detail in the picture will determine its suitability for inlay work
+    <img src="hummingbird.jpg" alt="Humming Bird" width="100" height="80">
     ![Humming Bird](hummingbird.jpg)
  
 - Prepare the picture for use with F-engrave
