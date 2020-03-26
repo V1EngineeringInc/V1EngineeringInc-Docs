@@ -68,18 +68,18 @@ I use the following;
 F-Engrave - [Website](https://www.google.com "Scorchworks F-Engrave site")
 
 
-MODfef - Download
+MODfef - [Download](https://www.jobbos.com/MODfef/MODfef2.zip "Download the zip file with for MODfef")
 
 
-Inkscape - Website
+Inkscape - [Website](https://www.inkscape.org/ "Inkscape site")
 
 
-Gimp - Website
+Gimp - [Website](https://www.gimp.org/ "Gimp site")
 
 
-Octoprint - Website
+Octoprint - [Website](https://www.octoprint.org/ "Octoprint site")
 
 
-MPCNC - Website
+MPCNC - [Website](https://www.v1engineering.com/ "V1 Engineering site")
 
 
