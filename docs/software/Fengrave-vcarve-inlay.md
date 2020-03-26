@@ -39,7 +39,7 @@
     + The output file will have the same name as the “MAIN” file but with your new extension.
     + The concatenated file will run the “START” file (if one is selected), then the “MAIN” file, then the “VCLEAN” file (if one is selected), then the tool change, then the “CLEAN” file (if one is selected), then the “END” file (if one is selected).
 
-<img src="Capture3.JPG" alt="F-Engrave Screen" width="750" height="500" align="center">
+<img src="Capture3.JPG" alt="F-Engrave Screen" width="850" height="500" align="center">
 
     
 + Load the MODfef processed gcode file into Octoprint (or your gcode streamer)
