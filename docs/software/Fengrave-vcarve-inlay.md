@@ -25,22 +25,36 @@
 **I use the following;**
     
 <img src="Capture2.JPG" alt="F-Engrave Screen" width="750" height="500" align="center">
-    
+
+
+* The first part that you are creating is the "female" part, this is pocket that will accept the inlay or "male" part.
+* To create the "male" part you will need to mirror the image in F-Engrave, select Prismatic and Add Box on the V-carve settings.
+* Then you will repeat the process of creating the gcode files for the "male" part. This may look odd but it will fit snugly into the "female" part.  
+
+<img src="Capture4.jpg" alt="F-Engrave Screen" width="750" height="500" align="center">
+
+
+<img src="Capture5.jpg" alt="F-Engrave Screen" width="750" height="500" align="center">
+
+
+
 ----
     
 * **Start MODfef and process the output files from F-engrave**
 
-    + Select the Main file, the “VCLEAN” file and the “CLEAN” file
-    + You can also select a customer start file and end file (these are not produced by F-engrave)
+    + Select the MAIN file, the “VCLEAN” file and the “CLEAN” file
+    + You can also select a custom start file and end file (these are not produced by F-engrave)
     + You can select the file extension for your gcode file
     + You can enter a tool change line. The program will insert a pause here so you can change your cutter on the machine.
     + You can enter the character that should be used for comments. F-engrave will enclose comments in parentheses () by default.
-    + You can choose if you want the files to concatenated. If you select this it will make one file with a tool change.
+    + You can choose if you want the files to be concatenated. If you select this it will make one file with a tool change.
     + The output file will have the same name as the “MAIN” file but with your new extension.
-    + The concatenated file will run the “START” file (if one is selected), then the “MAIN” file, then the “VCLEAN” file (if one is selected), then the tool change, then the “CLEAN” file (if one is selected), then the “END” file (if one is selected).
+    + The concatenated file will contain the “START” file (if one is selected), then the “MAIN” file, then the “VCLEAN” file (if one is selected), then the tool change, then the “CLEAN” file (if one is selected), then the “END” file (if one is selected).
 
 <img src="Capture3.JPG" alt="F-Engrave Screen" width="850" height="500" align="center">
 
+
+----
     
 + Load the MODfef processed gcode file into Octoprint (or your gcode streamer)
 + Select appropriate wood for the inlay
