@@ -26,6 +26,7 @@ I use the following;
     
 <img src="Capture2.JPG" alt="F-Engrave Screen" width="750" height="500" align="center">
     
+----
     
 * Start MODfef and process the output files from F-engrave
 
@@ -65,21 +66,21 @@ I use the following;
 
 ## References: ##
 
-F-Engrave - [Website](https://www.google.com "Scorchworks F-Engrave site"){:target="_blank"}
+F-Engrave - [Website](https://www.google.com "Scorchworks F-Engrave site")
 
 
-MODfef - [Download](https://www.jobbos.com/MODfef/MODfef2.zip "Download the zip file with for MODfef"){target="_blank"}
+MODfef - [Download](https://www.jobbos.com/MODfef/MODfef2.zip "Download the zip file with for MODfef")
 
 
-Inkscape - [Website](https://www.inkscape.org/ "Inkscape site"){target="_blank"}
+Inkscape - [Website](https://www.inkscape.org/ "Inkscape site")
 
 
-Gimp - [Website](https://www.gimp.org/ "Gimp site"){target="_blank"}
+Gimp - [Website](https://www.gimp.org/ "Gimp site")
 
 
-Octoprint - [Website](https://www.octoprint.org/ "Octoprint site"){target="_blank"}
+Octoprint - [Website](https://www.octoprint.org/ "Octoprint site")
 
 
-MPCNC - [Website](https://www.v1engineering.com/ "V1 Engineering site"){target="_blank"}
+MPCNC - [Website](https://www.v1engineering.com/ "V1 Engineering site")
 
 
