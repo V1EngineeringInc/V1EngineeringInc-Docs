@@ -18,3 +18,5 @@
     + Use the save Gcode option (this will be the “MAIN” file)
     + Save the Clean Gcode and the Vclean Gcode
        - If there is nothing to Clean or Vclean F-engrave will complain that the clean up hasn’t been run.
+
+    <img src="Capture1.jpg" alt="F-Engrave Screen" width="350" height="300" align="center">
