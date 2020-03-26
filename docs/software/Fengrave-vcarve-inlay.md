@@ -65,21 +65,21 @@ I use the following;
 
 ## References: ##
 
-F-Engrave - [Website](https://www.google.com "Scorchworks F-Engrave site")
+F-Engrave - [Website](https://www.google.com "Scorchworks F-Engrave site"){target="_blank"}
 
 
-MODfef - [Download](https://www.jobbos.com/MODfef/MODfef2.zip "Download the zip file with for MODfef")
+MODfef - [Download](https://www.jobbos.com/MODfef/MODfef2.zip "Download the zip file with for MODfef"){target="_blank"}
 
 
-Inkscape - [Website](https://www.inkscape.org/ "Inkscape site")
+Inkscape - [Website](https://www.inkscape.org/ "Inkscape site"){target="_blank"}
 
 
-Gimp - [Website](https://www.gimp.org/ "Gimp site")
+Gimp - [Website](https://www.gimp.org/ "Gimp site"){target="_blank"}
 
 
-Octoprint - [Website](https://www.octoprint.org/ "Octoprint site")
+Octoprint - [Website](https://www.octoprint.org/ "Octoprint site"){target="_blank"}
 
 
-MPCNC - [Website](https://www.v1engineering.com/ "V1 Engineering site")
+MPCNC - [Website](https://www.v1engineering.com/ "V1 Engineering site"){target="_blank"}
 
 
