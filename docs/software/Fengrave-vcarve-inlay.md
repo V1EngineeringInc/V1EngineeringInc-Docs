@@ -1,5 +1,7 @@
 
-## Vcarve inlay process using F-engrave ##
+# V Carve Inlay Process Using F-engrave
+
+## F-Engrave Preprocessing
 
 1. Select the picture you want to use for your inlay
   <img src="/img/hummingbird.jpg" alt="Humming Bird" width="250" height="220" align="right">
@@ -7,10 +9,11 @@
     - It is better to use a black and white picture
     - The detail in the picture will determine its suitability for inlay work
 
-
 1. Prepare the picture for use with F-engrave
     - I use Inkscape or Gimp or plain old Windows Paint
     - You may have to do some work on simplifying the picture or enhancing the details
+
+## Starting F-Engrave
 
 1. Start F-engrave and import your picture
 
@@ -22,10 +25,11 @@
 
 ![F-Engrave Screen](../img/FengraveCapture1.jpg){: width="650"}
 
-**I use the following;**
+### F-Engrave Settings
+
+**Here are some working F-Engrave settings:**
 
 ![F-Engrave Screen](../img/FengraveCapture2.jpg){: width="750"}
-
 
 * The first part that you are creating is the "female" part, this is pocket that will accept the inlay or "male" part.
 * To create the "male" part you will need to mirror the image in F-Engrave, select Prismatic and Add Box on the V-carve settings.
@@ -33,26 +37,28 @@
 
 ![F-Engrave Screen](../img/FengraveCapture4.jpg){: width="750"}
 
-
 ![F-Engrave Screen](../img/FengraveCapture5.jpg){: width="750"}
 
 ----
 
-1. **Start MODfef and process the output files from F-engrave**
+## Post Processing with MODfef
 
-    + Select the MAIN file, the “VCLEAN” file and the “CLEAN” file
-    + You can also select a custom start file and end file (these are not produced by F-engrave)
-    + You can select the file extension for your gcode file
-    + You can enter a tool change line. The program will insert a pause here so you can change your cutter on the machine.
-    + You can enter the character that should be used for comments. F-engrave will enclose comments in parentheses () by default.
-    + You can choose if you want the files to be concatenated. If you select this it will make one file with a tool change.
-    + The output file will have the same name as the “MAIN” file but with your new extension.
-    + The concatenated file will contain the “START” file (if one is selected), then the “MAIN” file, then the “VCLEAN” file (if one is selected), then the tool change, then the “CLEAN” file (if one is selected), then the “END” file (if one is selected).
+### Start MODfef and process the output files from F-engrave
+
+1. Select the MAIN file, the “VCLEAN” file and the “CLEAN” file
+1. You can also select a custom start file and end file (these are not produced by F-engrave)
+1. You can select the file extension for your gcode file
+1. You can enter a tool change line. The program will insert a pause here so you can change your cutter on the machine.
+1. You can enter the character that should be used for comments. F-engrave will enclose comments in parentheses () by default.
+1. You can choose if you want the files to be concatenated. If you select this it will make one file with a tool change.
+1. The output file will have the same name as the “MAIN” file but with your new extension.
+1. The concatenated file will contain the “START” file (if one is selected), then the “MAIN” file, then the “VCLEAN” file (if one is selected), then the tool change, then the “CLEAN” file (if one is selected), then the “END” file (if one is selected).
 
 ![F-Engrave Screen](/img/FengraveCapture3.jpg){: width="750"}
 
-
 ----
+
+## Carving
 
 1. Load the MODfef processed gcode file into Octoprint (or your gcode streamer)
 ![F-Engrave Screen](/img/FengraveCapture6.jpg){: width="750"}
@@ -70,6 +76,9 @@
 1. Set up the V cutter again and set your origin over the center of the wood.
 1. Cut the male part.
 1. Once more if you have clean files you may have a tool change. Its the same process that you completed with the "female" part.
+
+## Clean up and Assembly
+
 1. Once its complete clean up both parts.
     - I use a scalpel to clean any edges or corners that need it.
     - I also remove any burs that may be present.
@@ -87,24 +96,18 @@
 
 ----
 
-## References: ##
+## Additional Information and References:
 
 F-Engrave - [Website](https://www.google.com "Scorchworks F-Engrave site")
 
-
 MODfef - [Download](https://www.jobbos.com/MODfef/MODfef2.zip "Download the zip file with for MODfef")
-
 
 Inkscape - [Website](https://www.inkscape.org/ "Inkscape site")
 
-
 Gimp - [Website](https://www.gimp.org/ "Gimp site")
-
 
 Octoprint - [Website](https://www.octoprint.org/ "Octoprint site")
 
-
 MPCNC - [Website](https://www.v1engineering.com/ "V1 Engineering site")
-
 
 Hummingbird Picture - [Website](https://www.clipart.email/download/1122147.html "Clipart site")
