@@ -15,14 +15,14 @@
 * Start F-engrave and import your picture
 
     + The picture will display, some of the imperfections may be purely the representation but others may cause your inlay part to have defects
-    + Make the necessary selections with F-engrave – see Scorchworks instructions
+    + Make the necessary selections with F-engrave – see [Scorchworks instructions](http://www.scorchworks.com/Fengrave/fengrave.html#documentation "Scorchworks F-Engrave instructions")
     + Use the save Gcode option (this will be the “MAIN” file)
     + Save the Clean Gcode and the Vclean Gcode
        - If there is nothing to Clean or Vclean F-engrave will complain that the clean up hasn’t been run.
 
 <img src="Capture1.JPG" alt="F-Engrave Screen" width="650" height="500" align="center">
 
-I use the following;
+**I use the following;**
     
 <img src="Capture2.JPG" alt="F-Engrave Screen" width="750" height="500" align="center">
     
