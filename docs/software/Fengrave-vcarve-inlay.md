@@ -64,6 +64,8 @@ I use the following;
 + Finish the part with the appropriate finish
     - It depends on the type of wood you have chosen. Select a finish that will work with both the female wood and the male wood.
 
+----
+
 ## References: ##
 
 F-Engrave - [Website](https://www.google.com "Scorchworks F-Engrave site")
