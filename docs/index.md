@@ -55,7 +55,7 @@ the documentation infrastructure.
 Content was created, edited, and shared by:
 
 Ryan Zellars (allted, vicious1) - Jeff Eberl (jeffeb3) - Mark Frost (fr0sty1) - Jamie (vector76) -
-Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett
+Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett - Ian (ianj001)
 
 ## About V1
 
