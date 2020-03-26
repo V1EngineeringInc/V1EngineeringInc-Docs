@@ -20,10 +20,11 @@
     + Save the Clean Gcode and the Vclean Gcode
        - If there is nothing to Clean or Vclean F-engrave will complain that the clean up hasn’t been run.
 
-    <img src="Capture1.JPG" alt="F-Engrave Screen" width="550" height="500" align="center">
-    I use the following;
+<img src="Capture1.JPG" alt="F-Engrave Screen" width="650" height="500" align="center">
+
+I use the following;
     
-    <img src="Capture2.JPG" alt="F-Engrave Screen" width="550" height="500" align="center">
+<img src="Capture2.JPG" alt="F-Engrave Screen" width="650" height="500" align="center">
     
     
 * Start MODfef and process the output files from F-engrave
@@ -37,29 +38,29 @@
     + The output file will have the same name as the “MAIN” file but with your new extension.
     + The concatenated file will run the “START” file (if one is selected), then the “MAIN” file, then the “VCLEAN” file (if one is selected), then the tool change, then the “CLEAN” file (if one is selected), then the “END” file (if one is selected).
 
-    <img src="Capture3.JPG" alt="F-Engrave Screen" width="550" height="500" align="center">
+<img src="Capture3.JPG" alt="F-Engrave Screen" width="650" height="500" align="center">
 
     
-    + Load the MODfef processed gcode file into Octoprint (or your gcode streamer)
-    + Select appropriate wood for the inlay
-        - Choose contrasting wood for the male and female parts
-            - The male part is wood that will be inlayed.
-            - The female part is the wood that will have the inlay glued into it.
-    + Cut the female part
-    + Cut the male part
-    + Clean up the parts
-        - I use a scalpel to clean any edges or corners that need it.
-        - I also remove any burs that may be present.
-        - I dry fit them to see that the gap between the male and female parts are consistent.
-        - If it doesn’t look right using some color on the inlay protrusions during a dry fit can help to show where the parts are interfering.
-    + Glue the parts together
-        - I use regular wood glue and leave it to dry overnight
-        - It is important to clamp the parts evenly as you can influence the fit which will spoil the inlay effect.
-    + Trim the excess from the inlay (male part)
-        - I usually do this on the band saw but you can do it with any tool that will remove the excess wood without dislodging the inlay.
-    + Sand the part down until the inlay is flush
-        - There is normally quite a bit of inlay wood to be removed, some form of belt sander works very well here.
-    + Finish the part with the appropriate finish
-        - It depends on the type of wood you have chosen. Select a finish that will work with both the female wood and the male wood.
++ Load the MODfef processed gcode file into Octoprint (or your gcode streamer)
++ Select appropriate wood for the inlay
+    - Choose contrasting wood for the male and female parts
+        - The male part is wood that will be inlayed.
+        - The female part is the wood that will have the inlay glued into it.
++ Cut the female part
++ Cut the male part
++ Clean up the parts
+    - I use a scalpel to clean any edges or corners that need it.
+    - I also remove any burs that may be present.
+    - I dry fit them to see that the gap between the male and female parts are consistent.
+    - If it doesn’t look right using some color on the inlay protrusions during a dry fit can help to show where the parts are interfering.
++ Glue the parts together
+    - I use regular wood glue and leave it to dry overnight
+    - It is important to clamp the parts evenly as you can influence the fit which will spoil the inlay effect.
++ Trim the excess from the inlay (male part)
+    - I usually do this on the band saw but you can do it with any tool that will remove the excess wood without dislodging the inlay.
++ Sand the part down until the inlay is flush
+    - There is normally quite a bit of inlay wood to be removed, some form of belt sander works very well here.
++ Finish the part with the appropriate finish
+    - It depends on the type of wood you have chosen. Select a finish that will work with both the female wood and the male wood.
 
 
