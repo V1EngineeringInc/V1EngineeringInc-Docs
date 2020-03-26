@@ -1,18 +1,18 @@
 
 ## Vcarve inlay process using F-engrave ##
 
-- Select the picture you want to use for your inlay
-  <img src="hummingbird.jpg" alt="Humming Bird" width="250" height="220" align="right">
+1. Select the picture you want to use for your inlay
+  <img src="/img/hummingbird.jpg" alt="Humming Bird" width="250" height="220" align="right">
     - It is best to use a dxf or bmp file
     - It is better to use a black and white picture
     - The detail in the picture will determine its suitability for inlay work
-  
-     
-- Prepare the picture for use with F-engrave
+
+
+1. Prepare the picture for use with F-engrave
     - I use Inkscape or Gimp or plain old Windows Paint
     - You may have to do some work on simplifying the picture or enhancing the details
 
-* Start F-engrave and import your picture
+1. Start F-engrave and import your picture
 
     + The picture will display, some of the imperfections may be purely the representation but others may cause your inlay part to have defects
     + Make the necessary selections with F-engrave – see [Scorchworks instructions](http://www.scorchworks.com/Fengrave/fengrave.html#documentation "Scorchworks F-Engrave instructions")
@@ -20,27 +20,25 @@
     + Save the Clean Gcode and the Vclean Gcode
        - If there is nothing to Clean or Vclean F-engrave will complain that the clean up hasn’t been run.
 
-<img src="Capture1.JPG" alt="F-Engrave Screen" width="650" height="500" align="center">
+![F-Engrave Screen](../img/FengraveCapture1.jpg){: width="650"}
 
 **I use the following;**
-    
-<img src="Capture2.JPG" alt="F-Engrave Screen" width="750" height="500" align="center">
+
+![F-Engrave Screen](../img/FengraveCapture2.jpg){: width="750"}
 
 
 * The first part that you are creating is the "female" part, this is pocket that will accept the inlay or "male" part.
 * To create the "male" part you will need to mirror the image in F-Engrave, select Prismatic and Add Box on the V-carve settings.
-* Then you will repeat the process of creating the gcode files for the "male" part. This may look odd but it will fit snugly into the "female" part.  
+* Then you will repeat the process of creating the gcode files for the "male" part. This may look odd but it will fit snugly into the "female" part.
 
-<img src="Capture4.jpg" alt="F-Engrave Screen" width="750" height="500" align="center">
-
-
-<img src="Capture5.jpg" alt="F-Engrave Screen" width="750" height="500" align="center">
+![F-Engrave Screen](../img/FengraveCapture4.jpg){: width="750"}
 
 
+![F-Engrave Screen](../img/FengraveCapture5.jpg){: width="750"}
 
 ----
-    
-* **Start MODfef and process the output files from F-engrave**
+
+1. **Start MODfef and process the output files from F-engrave**
 
     + Select the MAIN file, the “VCLEAN” file and the “CLEAN” file
     + You can also select a custom start file and end file (these are not produced by F-engrave)
@@ -51,43 +49,40 @@
     + The output file will have the same name as the “MAIN” file but with your new extension.
     + The concatenated file will contain the “START” file (if one is selected), then the “MAIN” file, then the “VCLEAN” file (if one is selected), then the tool change, then the “CLEAN” file (if one is selected), then the “END” file (if one is selected).
 
-<img src="Capture3.JPG" alt="MODfef Screen" width="850" height="500" align="center">
+![F-Engrave Screen](/img/FengraveCapture3.jpg){: width="750"}
 
 
 ----
-    
-+ Load the MODfef processed gcode file into Octoprint (or your gcode streamer)
 
+1. Load the MODfef processed gcode file into Octoprint (or your gcode streamer)
+![F-Engrave Screen](/img/FengraveCapture6.jpg){: width="750"}
 
-<img src="Capture6.jpg" alt="Octoprint Screen" width="850" height="500" align="center">
-
-
-+ Select appropriate wood for the inlay
+1. Select appropriate wood for the inlay
     - Choose contrasting wood for the male and female parts
         - The male part is wood that will be inlayed.
         - The female part is the wood that will have the inlay glued into it.
-+ Set up the work piece for the female part, remember that your origin is set to the middle of the inlay.
-+ Set up the V cutter first.
-+ Cut the female part.
-+ If you have clean up files you will need to do a tool change, the system should just pause and allow you to complete that.
-+ Set up the flat end mill that you specified in F-Engrave and complete the "female" part.
-+ Once its complete, remove the "female" part and replace it with the "male" (inlay) wood.
-+ Set up the V cutter again and set your origin over the center of the wood.
-+ Cut the male part.
-+ Once more if you have clean files you may have a tool change. Its the same process that you completed with the "female" part.
-+ Once its complete clean up both parts.
+1. Set up the work piece for the female part, remember that your origin is set to the middle of the inlay.
+1. Set up the V cutter first.
+1. Cut the female part.
+1. If you have clean up files you will need to do a tool change, the system should just pause and allow you to complete that.
+1. Set up the flat end mill that you specified in F-Engrave and complete the "female" part.
+1. Once its complete, remove the "female" part and replace it with the "male" (inlay) wood.
+1. Set up the V cutter again and set your origin over the center of the wood.
+1. Cut the male part.
+1. Once more if you have clean files you may have a tool change. Its the same process that you completed with the "female" part.
+1. Once its complete clean up both parts.
     - I use a scalpel to clean any edges or corners that need it.
     - I also remove any burs that may be present.
     - I dry fit them to see that the gap between the male and female parts are consistent.
     - If it doesn’t look right using some color on the inlay protrusions during a dry fit can help to show where the parts are interfering.
-+ Glue the parts together
+1. Glue the parts together
     - I use regular wood glue and leave it to dry overnight
     - It is important to clamp the parts evenly as you can influence the fit which will spoil the inlay effect.
-+ Trim the excess from the inlay (male part)
+1. Trim the excess from the inlay (male part)
     - I usually do this on the band saw but you can do it with any tool that will remove the excess wood without dislodging the inlay.
-+ Sand the part down until the inlay is flush
+1. Sand the part down until the inlay is flush
     - There is normally quite a bit of inlay wood to be removed, some form of belt sander works very well here.
-+ Finish the part with the appropriate finish
+1. Finish the part with the appropriate finish
     - It depends on the type of wood you have chosen. Select a finish that will work with both the female wood and the male wood.
 
 ----
