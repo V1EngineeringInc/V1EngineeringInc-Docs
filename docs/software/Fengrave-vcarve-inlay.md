@@ -66,9 +66,16 @@
     - Choose contrasting wood for the male and female parts
         - The male part is wood that will be inlayed.
         - The female part is the wood that will have the inlay glued into it.
-+ Cut the female part
-+ Cut the male part
-+ Clean up the parts
++ Set up the work piece for the female part, remember that your origin is set to the middle of the inlay.
++ Set up the V cutter first.
++ Cut the female part.
++ If you have clean up files you will need to do a tool change, the system should just pause and allow you to complete that.
++ Set up the flat end mill that you specified in F-Engrave and complete the "female" part.
++ Once its complete, remove the "female" part and replace it with the "male" (inlay) wood.
++ Set up the V cutter again and set your origin over the center of the wood.
++ Cut the male part.
++ Once more if you have clean files you may have a tool change. Its the same process that you completed with the "female" part.
++ Once its complete clean up both parts.
     - I use a scalpel to clean any edges or corners that need it.
     - I also remove any burs that may be present.
     - I dry fit them to see that the gap between the male and female parts are consistent.
