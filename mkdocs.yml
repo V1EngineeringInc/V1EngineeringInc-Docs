@@ -49,6 +49,7 @@ nav:
        - Milling Basics: tools/milling-basics.md
        - EstlCAM Setup: software/estlcam-basics.md
        - EstlCAM Intermediate (2.5d): software/estlcam-2p5d.md
+       - F Engrave V-Carve: software/Fengrave-vcarve-inlay.md
      - 3D Printing:
        - Main: tools/import-extruder.md
      - Lasers:
