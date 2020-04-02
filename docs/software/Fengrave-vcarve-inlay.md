@@ -54,14 +54,14 @@
 1. The output file will have the same name as the “MAIN” file but with your new extension.
 1. The concatenated file will contain the “START” file (if one is selected), then the “MAIN” file, then the “VCLEAN” file (if one is selected), then the tool change, then the “CLEAN” file (if one is selected), then the “END” file (if one is selected).
 
-![MODfef Screen](/img/FengraveCapture3.jpg){: width="750"}
+![MODfef Screen](../img/FengraveCapture3.jpg){: width="750"}
 
 ----
 
 ## Carving
 
 1. Load the MODfef processed gcode file into Octoprint (or your gcode streamer)
-![Octoprint Screen](/img/FengraveCapture6.jpg){: width="750"}
+![Octoprint Screen](../img/FengraveCapture6.jpg){: width="750"}
 
 1. Select appropriate wood for the inlay
     - Choose contrasting wood for the male and female parts
