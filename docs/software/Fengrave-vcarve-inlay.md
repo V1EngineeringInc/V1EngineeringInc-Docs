@@ -2,7 +2,7 @@
 ## Vcarve inlay process using F-engrave ##
 
 - Select the picture you want to use for your inlay
-  <img src="hummingbird.jpg" alt="Humming Bird" width="250" height="220" align="right">
+  <img src="simplelogo.png" alt="V1 Engineering Logo" width="250" height="220" align="right">
     - It is best to use a dxf or bmp file
     - It is better to use a black and white picture
     - The detail in the picture will determine its suitability for inlay work
@@ -20,11 +20,11 @@
     + Save the Clean Gcode and the Vclean Gcode
        - If there is nothing to Clean or Vclean F-engrave will complain that the clean up hasn’t been run.
 
-<img src="Capture1.JPG" alt="F-Engrave Screen" width="650" height="500" align="center">
+<img src="Capture1.jpg" alt="F-Engrave Screen" width="650" height="500" align="center">
 
 **I use the following;**
     
-<img src="Capture2.JPG" alt="F-Engrave Screen" width="750" height="500" align="center">
+<img src="Capture2.jpg" alt="F-Engrave Screen" width="750" height="500" align="center">
 
 
 * The first part that you are creating is the "female" part, this is pocket that will accept the inlay or "male" part.
@@ -51,7 +51,7 @@
     + The output file will have the same name as the “MAIN” file but with your new extension.
     + The concatenated file will contain the “START” file (if one is selected), then the “MAIN” file, then the “VCLEAN” file (if one is selected), then the tool change, then the “CLEAN” file (if one is selected), then the “END” file (if one is selected).
 
-<img src="Capture3.JPG" alt="MODfef Screen" width="850" height="500" align="center">
+<img src="Capture3.jpg" alt="MODfef Screen" width="850" height="500" align="center">
 
 
 ----
@@ -110,6 +110,3 @@ Octoprint - [Website](https://www.octoprint.org/ "Octoprint site")
 
 
 MPCNC - [Website](https://www.v1engineering.com/ "V1 Engineering site")
-
-
-Hummingbird Picture - [Website](https://www.clipart.email/download/1122147.html "Clipart site")
