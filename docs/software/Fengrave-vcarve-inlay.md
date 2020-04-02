@@ -2,10 +2,10 @@
 # V Carve Inlay Process Using F-engrave
  
 ## F-Engrave Preprocessing
+<img src="simplelogo.png" alt="V1 Engineering Logo" width="250" height="220" align="right">
 
 1. Select the picture you want to use for your inlay
-  <img src="simplelogo.png" alt="V1 Engineering Logo" width="250" height="220" align="right">
-    - It is best to use a dxf or bmp file
+      - It is best to use a dxf or bmp file
     - It is better to use a black and white picture
     - The detail in the picture will determine its suitability for inlay work
 1. Prepare the picture for use with F-engrave
