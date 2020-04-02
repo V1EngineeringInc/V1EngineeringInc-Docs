@@ -1,12 +1,10 @@
 
 # V Carve Inlay Process Using F-engrave
-
-- Select the picture you want to use for your inlay
-  <img src="simplelogo.png" alt="V1 Engineering Logo" width="250" height="220" align="right">
+ 
 ## F-Engrave Preprocessing
 
 1. Select the picture you want to use for your inlay
-  <img src="/img/hummingbird.jpg" alt="Humming Bird" width="250" height="220" align="right">
+  <img src="simplelogo.png" alt="V1 Engineering Logo" width="250" height="220" align="right">
     - It is best to use a dxf or bmp file
     - It is better to use a black and white picture
     - The detail in the picture will determine its suitability for inlay work
@@ -56,14 +54,14 @@
 1. The output file will have the same name as the “MAIN” file but with your new extension.
 1. The concatenated file will contain the “START” file (if one is selected), then the “MAIN” file, then the “VCLEAN” file (if one is selected), then the tool change, then the “CLEAN” file (if one is selected), then the “END” file (if one is selected).
 
-![F-Engrave Screen](/img/FengraveCapture3.jpg){: width="750"}
+![MODfef Screen](/img/FengraveCapture3.jpg){: width="750"}
 
 ----
 
 ## Carving
 
 1. Load the MODfef processed gcode file into Octoprint (or your gcode streamer)
-![F-Engrave Screen](/img/FengraveCapture6.jpg){: width="750"}
+![Octoprint Screen](/img/FengraveCapture6.jpg){: width="750"}
 
 1. Select appropriate wood for the inlay
     - Choose contrasting wood for the male and female parts
@@ -112,4 +110,4 @@ Octoprint - [Website](https://www.octoprint.org/ "Octoprint site")
 
 MPCNC - [Website](https://www.v1engineering.com/ "V1 Engineering site")
 
-Hummingbird Picture - [Website](https://www.clipart.email/download/1122147.html "Clipart site")
+
