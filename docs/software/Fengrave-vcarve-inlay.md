@@ -2,7 +2,7 @@
 # V Carve Inlay Process Using F-engrave
  
 ## F-Engrave Preprocessing
-<img src="../img/simplelogo.png" alt="V1 Engineering Logo" width="350" height="220" align="right">
+<img src="/img/simplelogo.png" alt="V1 Engineering Logo" width="350" height="220" align="right">
 
 1. Select the picture you want to use for your inlay
       - It is best to use a dxf or bmp file
