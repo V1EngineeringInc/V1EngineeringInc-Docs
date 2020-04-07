@@ -1,0 +1,994 @@
+[
+    {
+        "provider_name": "IFTTT",
+        "provider_url": "http:\/\/www.ifttt.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/ifttt.com\/recipes\/*"
+                ],
+                "url": "http:\/\/www.ifttt.com\/oembed\/",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "YouTube",
+        "provider_url": "http:\/\/www.youtube.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.youtube.com\/watch"
+                ],
+                "url": "http:\/\/www.youtube.com\/oembed",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Flickr",
+        "provider_url": "http:\/\/www.flickr.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.flickr.com\/photos\/*",
+                    "http:\/\/flic.kr\/p\/*"
+                ],
+                "url": "http:\/\/www.flickr.com\/services\/oembed\/",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Viddler",
+        "provider_url": "http:\/\/www.viddler.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.viddler.com\/v\/*"
+                ],
+                "url": "http:\/\/www.viddler.com\/oembed\/"
+            }
+        ]
+    },
+    {
+        "provider_name": "Hulu",
+        "provider_url": "http:\/\/www.hulu.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.hulu.com\/watch\/*"
+                ],
+                "url": "http:\/\/www.hulu.com\/api\/oembed.{format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "Vimeo",
+        "provider_url": "http:\/\/vimeo.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/vimeo.com\/*",
+                    "http:\/\/vimeo.com\/groups\/*\/videos\/*"
+                ],
+                "url": "http:\/\/vimeo.com\/api\/oembed.{format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "CollegeHumor",
+        "provider_url": "http:\/\/www.collegehumor.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.collegehumor.com\/video\/*"
+                ],
+                "url": "http:\/\/www.collegehumor.com\/oembed.{format}",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Poll Everywhere",
+        "provider_url": "http:\/\/www.polleverywhere.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.polleverywhere.com\/polls\/*",
+                    "http:\/\/www.polleverywhere.com\/multiple_choice_polls\/*",
+                    "http:\/\/www.polleverywhere.com\/free_text_polls\/*"
+                ],
+                "url": "http:\/\/www.polleverywhere.com\/services\/oembed\/"
+            }
+        ]
+    },
+    {
+        "provider_name": "Embedly",
+        "provider_url": "http:\/\/api.embed.ly\/",
+        "endpoints": [
+            {
+                "url": "http:\/\/api.embed.ly\/1\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Portfolium",
+        "provider_url": "https:\/\/portfolium.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/portfolium.com\/entry\/*"
+                ],
+                "url": "https:\/\/api.portfolium.com\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "iFixit",
+        "provider_url": "http:\/\/www.iFixit.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.ifixit.com\/Guide\/View\/*"
+                ],
+                "url": "http:\/\/www.ifixit.com\/Embed"
+            }
+        ]
+    },
+    {
+        "provider_name": "SmugMug",
+        "provider_url": "http:\/\/www.smugmug.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.smugmug.com\/*"
+                ],
+                "url": "http:\/\/api.smugmug.com\/services\/oembed\/",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Deviantart.com",
+        "provider_url": "http:\/\/www.deviantart.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.deviantart.com\/art\/*",
+                    "http:\/\/*.deviantart.com\/*#\/d*",
+                    "http:\/\/fav.me\/*",
+                    "http:\/\/sta.sh\/*"
+                ],
+                "url": "http:\/\/backend.deviantart.com\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "SlideShare",
+        "provider_url": "http:\/\/www.slideshare.net\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.slideshare.net\/*\/*"
+                ],
+                "url": "http:\/\/www.slideshare.net\/api\/oembed\/2",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "WordPress.com",
+        "provider_url": "http:\/\/wordpress.com\/",
+        "endpoints": [
+            {
+                "url": "http:\/\/public-api.wordpress.com\/oembed\/",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "chirbit.com",
+        "provider_url": "http:\/\/www.chirbit.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/chirb.it\/*"
+                ],
+                "url": "http:\/\/chirb.it\/oembed.{format}",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "nfb.ca",
+        "provider_url": "http:\/\/www.nfb.ca\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.nfb.ca\/film\/*"
+                ],
+                "url": "http:\/\/www.nfb.ca\/remote\/services\/oembed\/",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Scribd",
+        "provider_url": "http:\/\/www.scribd.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.scribd.com\/doc\/*"
+                ],
+                "url": "http:\/\/www.scribd.com\/services\/oembed\/"
+            }
+        ]
+    },
+    {
+        "provider_name": "Dotsub",
+        "provider_url": "http:\/\/dotsub.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/dotsub.com\/view\/*"
+                ],
+                "url": "http:\/\/dotsub.com\/services\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Animoto",
+        "provider_url": "http:\/\/animoto.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/animoto.com\/play\/*"
+                ],
+                "url": "http:\/\/animoto.com\/oembeds\/create"
+            }
+        ]
+    },
+    {
+        "provider_name": "Rdio",
+        "provider_url": "http:\/\/rdio.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.rdio.com\/artist\/*",
+                    "http:\/\/*.rdio.com\/people\/*"
+                ],
+                "url": "http:\/\/www.rdio.com\/api\/oembed\/"
+            }
+        ]
+    },
+    {
+        "provider_name": "MixCloud",
+        "provider_url": "http:\/\/mixcloud.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.mixcloud.com\/*\/*\/"
+                ],
+                "url": "http:\/\/www.mixcloud.com\/oembed\/"
+            }
+        ]
+    },
+    {
+        "provider_name": "Clyp",
+        "provider_url": "http:\/\/clyp.it\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/clyp.it\/*",
+                    "http:\/\/clyp.it\/playlist\/*"
+                ],
+                "url": "http:\/\/api.clyp.it\/oembed\/",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Screenr",
+        "provider_url": "http:\/\/www.screenr.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.screenr.com\/*\/"
+                ],
+                "url": "http:\/\/www.screenr.com\/api\/oembed.{format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "FunnyOrDie",
+        "provider_url": "http:\/\/www.funnyordie.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.funnyordie.com\/videos\/*"
+                ],
+                "url": "http:\/\/www.funnyordie.com\/oembed.{format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "Poll Daddy",
+        "provider_url": "http:\/\/polldaddy.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.polldaddy.com\/s\/*",
+                    "http:\/\/*.polldaddy.com\/poll\/*",
+                    "http:\/\/*.polldaddy.com\/ratings\/*"
+                ],
+                "url": "http:\/\/polldaddy.com\/oembed\/"
+            }
+        ]
+    },
+    {
+        "provider_name": "Ted",
+        "provider_url": "http:\/\/ted.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/ted.com\/talks\/*"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "VideoJug",
+        "provider_url": "http:\/\/www.videojug.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.videojug.com\/film\/*",
+                    "http:\/\/www.videojug.com\/interview\/*"
+                ],
+                "url": "http:\/\/www.videojug.com\/oembed.{format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "Sapo Videos",
+        "provider_url": "http:\/\/videos.sapo.pt",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/videos.sapo.pt\/*"
+                ],
+                "url": "http:\/\/videos.sapo.pt\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Official FM",
+        "provider_url": "http:\/\/official.fm",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/official.fm\/tracks\/*",
+                    "http:\/\/official.fm\/playlists\/*"
+                ],
+                "url": "http:\/\/official.fm\/services\/oembed.{format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "HuffDuffer",
+        "provider_url": "http:\/\/huffduffer.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/huffduffer.com\/*\/*"
+                ],
+                "url": "http:\/\/huffduffer.com\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Shoudio",
+        "provider_url": "http:\/\/shoudio.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/shoudio.com\/*",
+                    "http:\/\/shoud.io\/*"
+                ],
+                "url": "http:\/\/shoudio.com\/api\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Moby Picture",
+        "provider_url": "http:\/\/www.mobypicture.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.mobypicture.com\/user\/*\/view\/*",
+                    "http:\/\/moby.to\/*"
+                ],
+                "url": "http:\/\/api.mobypicture.com\/oEmbed"
+            }
+        ]
+    },
+    {
+        "provider_name": "23HQ",
+        "provider_url": "http:\/\/www.23hq.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.23hq.com\/*\/photo\/*"
+                ],
+                "url": "http:\/\/www.23hq.com\/23\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Cacoo",
+        "provider_url": "https:\/\/cacoo.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/cacoo.com\/diagrams\/*"
+                ],
+                "url": "http:\/\/cacoo.com\/oembed.{format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "Dipity",
+        "provider_url": "http:\/\/www.dipity.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.dipity.com\/*\/*\/"
+                ],
+                "url": "http:\/\/www.dipity.com\/oembed\/timeline\/"
+            }
+        ]
+    },
+    {
+        "provider_name": "Roomshare",
+        "provider_url": "http:\/\/roomshare.jp",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/roomshare.jp\/post\/*",
+                    "http:\/\/roomshare.jp\/en\/post\/*"
+                ],
+                "url": "http:\/\/roomshare.jp\/en\/oembed.{format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "Dailymotion",
+        "provider_url": "http:\/\/www.dailymotion.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.dailymotion.com\/video\/*"
+                ],
+                "url": "http:\/\/www.dailymotion.com\/services\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Crowd Ranking",
+        "provider_url": "http:\/\/crowdranking.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/crowdranking.com\/*\/*"
+                ],
+                "url": "http:\/\/crowdranking.com\/api\/oembed.{format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "CircuitLab",
+        "provider_url": "https:\/\/www.circuitlab.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/www.circuitlab.com\/circuit\/*"
+                ],
+                "url": "https:\/\/www.circuitlab.com\/circuit\/oembed\/",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Geograph Britain and Ireland",
+        "provider_url": "https:\/\/www.geograph.org.uk\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.geograph.org.uk\/*",
+                    "http:\/\/*.geograph.co.uk\/*",
+                    "http:\/\/*.geograph.ie\/*",
+                    "http:\/\/*.wikimedia.org\/*_geograph.org.uk_*"
+                ],
+                "url": "http:\/\/api.geograph.org.uk\/api\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Geograph Germany",
+        "provider_url": "http:\/\/geo-en.hlipp.de\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/geo-en.hlipp.de\/*",
+                    "http:\/\/geo.hlipp.de\/*",
+                    "http:\/\/germany.geograph.org\/*"
+                ],
+                "url": "http:\/\/geo.hlipp.de\/restapi.php\/api\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Geograph Channel Islands",
+        "provider_url": "http:\/\/channel-islands.geograph.org\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.geograph.org.gg\/*",
+                    "http:\/\/*.geograph.org.je\/*",
+                    "http:\/\/channel-islands.geograph.org\/*",
+                    "http:\/\/channel-islands.geographs.org\/*",
+                    "http:\/\/*.channel.geographs.org\/*"
+                ],
+                "url": "http:\/\/www.geograph.org.gg\/api\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Quiz.biz",
+        "provider_url": "http:\/\/www.quiz.biz\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.quiz.biz\/quizz-*.html"
+                ],
+                "url": "http:\/\/www.quiz.biz\/api\/oembed",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Quizz.biz",
+        "provider_url": "http:\/\/www.quizz.biz\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.quizz.biz\/quizz-*.html"
+                ],
+                "url": "http:\/\/www.quizz.biz\/api\/oembed",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Coub",
+        "provider_url": "http:\/\/coub.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/coub.com\/view\/*",
+                    "http:\/\/coub.com\/embed\/*"
+                ],
+                "url": "http:\/\/coub.com\/api\/oembed.{format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "SpeakerDeck",
+        "provider_url": "https:\/\/speakerdeck.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/speakerdeck.com\/*\/*",
+                    "https:\/\/speakerdeck.com\/*\/*"
+                ],
+                "url": "https:\/\/speakerdeck.com\/oembed.json",
+                "discovery": true,
+                "formats": [
+                    "json"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "Alpha App Net",
+        "provider_url": "https:\/\/alpha.app.net\/browse\/posts\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/alpha.app.net\/*\/post\/*",
+                    "https:\/\/photos.app.net\/*\/*"
+                ],
+                "url": "https:\/\/alpha-api.app.net\/oembed",
+                "formats": [
+                    "json"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "BlipTV",
+        "provider_url": "http:\/\/blip.tv\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.blip.tv\/*\/*"
+                ],
+                "url": "http:\/\/blip.tv\/oembed\/",
+                "formats": [
+                    "json"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "YFrog",
+        "provider_url": "http:\/\/yfrog.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.yfrog.com\/*",
+                    "http:\/\/yfrog.us\/*"
+                ],
+                "url": "http:\/\/www.yfrog.com\/api\/oembed",
+                "formats": [
+                    "json"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "Instagram",
+        "provider_url": "http:\/\/instagram.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/instagram.com\/p\/*",
+                    "http:\/\/instagr.am\/p\/*"
+                ],
+                "url": "http:\/\/api.instagram.com\/oembed",
+                "formats": [
+                    "json"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "SoundCloud",
+        "provider_url": "http:\/\/soundcloud.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/soundcloud.com\/*"
+                ],
+                "url": "https:\/\/soundcloud.com\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "On Aol",
+        "provider_url": "http:\/\/on.aol.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/on.aol.com\/video\/*"
+                ],
+                "url": "http:\/\/on.aol.com\/api"
+            }
+        ]
+    },
+    {
+        "provider_name": "Kickstarter",
+        "provider_url": "http:\/\/www.kickstarter.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.kickstarter.com\/projects\/*"
+                ],
+                "url": "http:\/\/www.kickstarter.com\/services\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Ustream",
+        "provider_url": "http:\/\/www.ustream.tv",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/*.ustream.tv\/*",
+                    "http:\/\/*.ustream.com\/*"
+                ],
+                "url": "http:\/\/www.ustream.tv\/oembed",
+                "formats": [
+                    "json"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "GMEP",
+        "provider_url": "https:\/\/gmep.org",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/gmep.org\/media\/*"
+                ],
+                "url": "https:\/\/gmep.org\/oembed.{format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "Daily Mile",
+        "provider_url": "http:\/\/www.dailymile.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.dailymile.com\/people\/*\/entries\/*"
+                ],
+                "url": "http:\/\/api.dailymile.com\/oembed?format=json",
+                "formats": [
+                    "json"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "Sketchfab",
+        "provider_url": "http:\/\/sketchfab.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/sketchfab.com\/models\/*",
+                    "https:\/\/sketchfab.com\/models\/*",
+                    "https:\/\/sketchfab.com\/*\/folders\/*"
+                ],
+                "url": "http:\/\/sketchfab.com\/oembed",
+                "formats": [
+                    "json"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "Meetup",
+        "provider_url": "http:\/\/www.meetup.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/meetup.com\/*",
+                    "http:\/\/meetu.ps\/*"
+                ],
+                "url": "https:\/\/api.meetup.com\/oembed",
+                "formats": [
+                    "json"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "VideoFork",
+        "provider_url": "http:\/\/videofork.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/videofork.com\/oembed\/([0-9]+)"
+                ],
+                "url": "http:\/\/videofork.com\/oembed",
+                "formats": [
+                    "json"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "AudioSnaps",
+        "provider_url": "http:\/\/audiosnaps.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/audiosnaps.com\/k\/*"
+                ],
+                "url": "http:\/\/audiosnaps.com\/service\/oembed",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "edocr",
+        "provider_url": "http:\/\/www.edocr.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/edocr.com\/docs\/*"
+                ],
+                "url": "http:\/\/edocr.com\/api\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "RapidEngage",
+        "provider_url": "https:\/\/rapidengage.com",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/rapidengage.com\/s\/*"
+                ],
+                "url": "https:\/\/rapidengage.com\/api\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "Ora TV",
+        "provider_url": "http:\/\/www.ora.tv\/",
+        "endpoints": [
+            {
+                "discovery": true,
+                "url": "https:\/\/www.ora.tv\/oembed\/*?format={format}"
+            }
+        ]
+    },
+    {
+        "provider_name": "Getty Images",
+        "provider_url": "http:\/\/www.gettyimages.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/gty.im\/*"
+                ],
+                "url": "http:\/\/embed.gettyimages.com\/oembed",
+                "formats": [
+                    "json"
+                ]
+            }
+        ]
+    },
+    {
+        "provider_name": "amCharts Live Editor",
+        "provider_url": "http:\/\/live.amcharts.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/live.amcharts.com\/*"
+                ],
+                "url": "http:\/\/live.amcharts.com\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "iSnare Articles",
+        "provider_url": "https:\/\/www.isnare.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/www.isnare.com\/*"
+                ],
+                "url": "https:\/\/www.isnare.com\/oembed\/"
+            }
+        ]
+    },
+    {
+        "provider_name": "Infogram",
+        "provider_url": "https:\/\/infogr.am\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/infogr.am\/*"
+                ],
+                "url": "https:\/\/infogr.am\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "ChartBlocks",
+        "provider_url": "http:\/\/www.chartblocks.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/public.chartblocks.com\/c\/*"
+                ],
+                "url": "http:\/\/embed.chartblocks.com\/1.0\/oembed"
+            }
+        ]
+    },
+    {
+        "provider_name": "ReleaseWire",
+        "provider_url": "http:\/\/www.releasewire.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/rwire.com\/*"
+                ],
+                "url": "http:\/\/publisher.releasewire.com\/oembed\/",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "They Said So",
+        "provider_url": "https:\/\/theysaidso.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/theysaidso.com\/image\/*"
+                ],
+                "url": "https:\/\/theysaidso.com\/extensions\/oembed\/",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "LearningApps.org",
+        "provider_url": "http:\/\/learningapps.org\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/learningapps.org\/*"
+                ],
+                "url": "http:\/\/learningapps.org\/oembed.php",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "ShortNote",
+        "provider_url": "https:\/\/www.shortnote.jp\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/www.shortnote.jp\/view\/notes\/*"
+                ],
+                "url": "https:\/\/www.shortnote.jp\/oembed\/",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "Embed Articles",
+        "provider_url": "http:\/\/embedarticles.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/embedarticles.com\/*"
+                ],
+                "url": "http:\/\/embedarticles.com\/oembed\/"
+            }
+        ]
+    },
+    {
+        "provider_name": "Topy",
+        "provider_url": "http:\/\/www.topy.se\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "http:\/\/www.topy.se\/image\/*"
+                ],
+                "url": "http:\/\/www.topy.se\/oembed\/",
+                "discovery": true
+            }
+        ]
+    },
+    {
+        "provider_name": "ReverbNation",
+        "provider_url": "https:\/\/www.reverbnation.com\/",
+        "endpoints": [
+            {
+                "schemes": [
+                    "https:\/\/www.reverbnation.com\/*",
+                    "https:\/\/www.reverbnation.com\/*\/songs\/*"
+                ],
+                "url": "https:\/\/www.reverbnation.com\/oembed",
+                "discovery": true
+            }
+        ]
+    }
+]

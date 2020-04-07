@@ -1,0 +1,8 @@
+README.md
+lightgallery.py
+setup.py
+lightgallery.egg-info/PKG-INFO
+lightgallery.egg-info/SOURCES.txt
+lightgallery.egg-info/dependency_links.txt
+lightgallery.egg-info/requires.txt
+lightgallery.egg-info/top_level.txt
