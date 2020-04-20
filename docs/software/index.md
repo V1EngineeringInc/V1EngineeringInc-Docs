@@ -2,26 +2,26 @@
 
 ## First Use
 
-Install the [Arduino](https://www.arduino.cc/en/Main/Software) software and its drivers before you plug in your control board. You might need
-its included drivers, so it is best to let them install.
+If you bought a system from me the firmware is pre-loaded and **you do not need to make any changes.**
 
-**MAC User?** -IT should work as is but here is some [info](https://www.v1engineering.com/forum/topic/cannot-connect-to-rampsarduino-maclinuxwindows/#post-11485) 
-if you find you are having issues you might need to change the firmware baud rate and perhaps a different driver.
+## (optional) Installing your own firmware
 
-## Firmware
-
-If you bought a system from me the firmware is pre-loaded and you do not need to make any changes.
 [Marlin](../electronics/marlin-firmware.md) is the firmware currently used and it is pre-flashed on the control board included in the
 kit ([download the pre-configured files here](../electronics/marlin-firmware)). If you are building your own feel free to use any
 board/firmware you want.
 
+Install the [Arduino](https://www.arduino.cc/en/Main/Software) software and its drivers before you plug in your control board. You might need its included drivers, so it is best to let them install.
+
+**MAC User?** -IT should work as is but here is some [info](https://www.v1engineering.com/forum/topic/cannot-connect-to-rampsarduino-maclinuxwindows/#post-11485) if you find you are having issues you might need to change the firmware baud rate and perhaps a different driver.
+
 ## Testing
 
-**Never plug or unplug anything into the control board while there is any power, usb or power
-plug!**
+**Never plug or unplug anything into the control board while there is any power (usb or power plug!)**
 
-It is best to start with [Repetier-Host](http://www.repetier.com/) It is an easy program to use (do not use repetier server),
-just in case here is a [basic set up](../software/repetier-host.md).
+It is best to start with [Repetier-Host](http://www.repetier.com/) It is an easy program to use. 
+Note, the installer will also install repetier-server by default, so uncheck that option before installing.
+
+Do not install repetier server, but just in case here is a [basic set up](../software/repetier-host.md).
 
 Move your gantry to the center of your build space and make sure the z axis is roughly centered in
 its travel. You never know which way it’s going to go!
