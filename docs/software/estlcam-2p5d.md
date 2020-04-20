@@ -85,7 +85,7 @@ Now save your project in case you need to come back and edit your paths. You can
 using the select tool and changing the popup box parameters. Then export your CNC program
 (gcode). I use repetier as my visualizer to make sure the cuts look like they should, but to
 catch small errors if you are new to this I always suggest cutting into high density foam the
-first run to test your path. Better to waste some time and foam them stress your machine, break
+first run to test your path. Better to waste some time and foam than stress your machine, break
 a bit, and waste material with some bad gcode.
 
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I13.jpg){: width="600"}
