@@ -13,16 +13,17 @@ nav:
  - Build:
    - MPCNC:
      - Basics: mpcnc/index.md
-     - Parts: mpcnc/parts.md
-     - Assembly:
-       - Table: mpcnc/table.md
-       - Conduit: mpcnc/conduit.md
-       - Corners, Rollers, Base: mpcnc/base.md
-       - Z-Axis: mpcnc/z-axis.md
-       - Middle Assembly: mpcnc/middle-assm.md
-       - Gantry: mpcnc/gantry.md
-       - Final: mpcnc/final.md
-       - Belts: mpcnc/belts.md
+     - Previous Version (Burly):
+       - Parts: mpcnc/parts.md
+       - Assembly:
+         - Table: mpcnc/table.md
+         - Conduit: mpcnc/conduit.md
+         - Corners, Rollers, Base: mpcnc/base.md
+         - Z-Axis: mpcnc/z-axis.md
+         - Middle Assembly: mpcnc/middle-assm.md
+         - Gantry: mpcnc/gantry.md
+         - Final: mpcnc/final.md
+         - Belts: mpcnc/belts.md
      - Trouble Shooting: mpcnc/troubleshooting.md
    - LowRider:
      - Assembly: lowrider/index.md
