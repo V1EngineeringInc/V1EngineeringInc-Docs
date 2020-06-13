@@ -14,47 +14,35 @@ Larger tools may collide with the side rails and contstrain movement
 before the MPCNC reaches its full range of motion in x and y.
 Select your intended tool to account for this difference:
 
-## Working space
+## Size Calculator
 
-<input class="calculator" type="number" step="10" onchange="from_working()" name="xwork" value="300", size="4"> mm x
+| Workspace | Tube Lengths | Table Size |
+|-------|-------|-------|
+| <input class="calculator" type="number" step="10" onchange="from_working()" name="xwork" value="300" size="4"> mm x | <input class="calculator" type="number" onchange="from_tubes()" name="xrails" value="" size="4"> mm x rails, side and gantry (total 3 needed)  | <input class="calculator" type="number" onchange="from_bbox()" name="xtable" value="", size="4"> mm x table size (outer edges of feet)
+| <input class="calculator" type="number" onchange="from_working()" name="ywork" value="400" size="4"> mm y           | <input class="calculator" type="number" onchange="from_tubes()" name="yrails" value="" size="4"> mm y rails, side and gantry (total 3 needed) | <input class="calculator" type="number" onchange="from_bbox()" name="ytable" value="", size="4"> mm y table size (outer edges of feet)
+| <input class="calculator" type="number" onchange="from_working()" name="zwork" value="75" size="4"> mm z            | <input class="calculator" type="number" onchange="from_tubes()" name="zrails" value="" size="4"> mm z rails (2 needed) | <input class="calculator" type="number" onchange="from_bbox()" name="zbound" value="", size="4"> mm z
 
-<input class="calculator" type="number" onchange="from_working()" name="ywork" value="400", size="4"> mm y
+## Material Dimensions
 
-<input class="calculator" type="number" onchange="from_working()" name="zwork" value="75", size="4"> mm z
+<input class="ro-calculator" type="text" onchange="from_tubes()" name="zlegs" value="", size="4" readonly> mm legs (4 needed)
 
-## Tube lengths
+<input class="ro-calculator" type="text" name="rail_total" value="", size="4" readonly> mm total needed assuming 3mm kerf
 
-<input class="calculator" type="number" onchange="from_tubes()" name="xrails" value="", size="4"> mm x rails, side and gantry (total 3 needed)
+<input class="ro-calculator" type="text" name="leadscrew" value="", size="4" readonly> mm leadscrew length (minimum)
 
-<input class="calculator" type="number" onchange="from_tubes()" name="yrails" value="", size="4"> mm y rails, side and gantry (total 3 needed)
+<input class="ro-calculator" type="text" name="xbelts" value="", size="4" readonly> mm belt length along x (2 needed)
 
-<input class="calculator" type="number" onchange="from_tubes()" name="zrails" value="", size="4"> mm z rails (2 needed)
+<input class="ro-calculator" type="text" name="ybelts" value="", size="4" readonly> mm belt length along y (2 needed)
 
-<input class="calculator" type="number" onchange="from_tubes()" name="zlegs" value="", size="4" readonly> mm legs (4 needed)
-
-<input class="calculator" type="number" onchange="from_tubes()" name="railtotal" value="", size="4" readonly> mm total needed assuming 3mm kerf
-
-<input class = "calculator" type="number" name="leadscrew" value="", size="4" readonly> mm leadscrew length (minimum)
-
-<input class = "calculator" type="number" name="xbelts" value="", size="4" readonly> mm belt length along x (2 needed)
-
-<input class = "calculator" type="number" name="ybelts" value="", size="4" readonly> mm belt length along y (2 needed)
-
-<input class = "calculator" type="number" name="belt_total" value="", size="4" readonly> mm belt length (total all 4)
+<input class="ro-calculator" type="text" name="belt_total" value="", size="4" readonly> mm belt length (total all 4)
 
 ## Bounding box
 
-<input class="calculator" type="number" name="xtable" value="", size="4"> mm x table size (outer edges of feet)
+<input class="ro-calculator" type="text" name="xbound" value="", size="4" readonly> mm x
 
-<input class="calculator" type="number" name="ytable" value="", size="4"> mm y table size (outer edges of feet)
+<input class="ro-calculator" type="text" name="ybound" value="", size="4" readonly> mm y
 
-<input class="calculator" type="number" onchange="from_bbox()" name="xbound" value="", size="4"> mm x
-
-<input class="calculator" type="number" onchange="from_bbox()" name="ybound" value="", size="4"> mm y
-
-<input class="calculator" type="number" onchange="from_bbox()" name="zbound" value="", size="4"> mm z
-
-<input class="calculator" type="number" onchange="from_bbox()" name="zbound2" value="", size="4" readonly> mm clearance to remove z axis
+<input class="ro-calculator" type="text" name="zbound2" value="", size="4" readonly> mm clearance to remove z axis
 
 <script>
 
