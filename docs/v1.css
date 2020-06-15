@@ -7,10 +7,10 @@ h2, h3, h4, h5 {
   color: #42413d
 }
 
-input.calculator {
+input.calc {
   border-bottom-style: solid;
   border-color: #ea1717;
-  border-width: 2px;
+  border-width: 1px;
 }
 
 .md-header {
