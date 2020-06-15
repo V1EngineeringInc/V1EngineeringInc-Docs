@@ -13,6 +13,9 @@ input.calc {
   border-width: 1px;
 }
 
+button.reset {
+  color: #ea1717
+}
 .md-header {
   color: #ea1717
 }
