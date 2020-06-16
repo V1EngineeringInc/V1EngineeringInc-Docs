@@ -15,7 +15,7 @@
 #### Tool Choice \*
 <input type="radio" onchange="from_working()" name="tool" value="Pen" checked> Full range of motion (pen, laser, drag knife, etc)<br/>
 <input type="radio" onchange="from_working()" name="tool" value="DW660"> Dewalt DW660<br/>
-<input type="radio" onchange="from_working()" name="tool" value="Makita"> Makita<br/>
+<input type="radio" onchange="from_working()" name="tool" value="55mm"> 52mm & 55mm Spindle<br/>
 
 !!! note "* Tool Choice"
     Larger tools may collide with the side rails and contstrain movement
@@ -138,6 +138,15 @@ function get_offsets() {
     primo.ygantryrail_minus_work = primo.ygantryrail_minus_work + 9 * unit_convert;
     primo.zrail_minus_work = primo.zrail_minus_work + 2.75 * unit_convert;
     primo.zleg_minus_work = primo.zleg_minus_work + 2.75 * unit_convert;
+  }
+  else if (tool == "55mm") {
+    // working space clipped by this much (not necessarily the same between burly and primo
+    primo.xrail_minus_work = primo.xrail_minus_work + 3 * unit_convert;
+    primo.xgantryrail_minus_work = primo.xgantryrail_minus_work + 3 * unit_convert;
+    primo.yrail_minus_work = primo.yrail_minus_work + 3 * unit_convert;
+    primo.ygantryrail_minus_work = primo.ygantryrail_minus_work + 3 * unit_convert;
+    primo.zrail_minus_work = primo.zrail_minus_work + 2.5 * unit_convert;
+    primo.zleg_minus_work = primo.zleg_minus_work + 2.5 * unit_convert;
   }
   else {
     alert("internal error: unrecognized tool " + tool);
