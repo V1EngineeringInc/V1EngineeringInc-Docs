@@ -30,7 +30,7 @@
 <!-- These "value"s are going to be overwritten by the reset_work() function below. -->
 <input class="calc" type="number" onchange="from_working()" name="xwork" value="300" size="6"><span class="units">mm</span> x<br/>
 <input class="calc" type="number" onchange="from_working()" name="ywork" value="300" size="6"><span class="units">mm</span> y<br/>
-<input class="calc" type="number" onchange="from_working()" name="zwork" value="81" size="6"><span class="units">mm</span> z<br/>
+<input class="calc" type="number" onchange="from_working()" name="zwork" value="82" size="6"><span class="units">mm</span> z<br/>
 <button class="reset" onclick="reset_work()">Reset</button>
 
 #### Tube Lengths
@@ -38,7 +38,7 @@
 |--------------------------------------|------|
 |<span name="xrails"     ></span>|x rails, sides (total 2 needed)|
 |<span name="xgantryrail"></span>|x rail, gantry (total 1 needed)|
-|<span name="yrails"     ></span>|y rails, side and gantry (total 2 needed)|
+|<span name="yrails"     ></span>|y rails, sides (total 2 needed)|
 |<span name="ygantryrail"></span>|y rail, gantry (total 1 needed)|
 |<span name="zrails"     ></span>|z rails (2 needed)|
 |<span name="zlegs"      ></span>|legs (4 needed)|
@@ -107,10 +107,10 @@ function get_offsets() {
   var primo = {};
   primo.xrail_minus_work = 304 * unit_convert;
   primo.xgantryrail_minus_work = 249 * unit_convert;
-  primo.yrail_minus_work = 312 * unit_convert;
-  primo.ygantryrail_minus_work = 257 * unit_convert;
+  primo.yrail_minus_work = 313 * unit_convert;
+  primo.ygantryrail_minus_work = 258 * unit_convert;
   primo.zrail_minus_work = 190 * unit_convert;
-  primo.zleg_minus_work = -19.5 * unit_convert;
+  primo.zleg_minus_work = -21 * unit_convert;
   primo.xtable_minus_rail = 34 * unit_convert;
   primo.ytable_minus_rail = 34 * unit_convert;
   primo.xbound_minus_rail = 68 * unit_convert;
