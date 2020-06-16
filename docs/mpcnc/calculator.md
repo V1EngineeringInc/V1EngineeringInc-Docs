@@ -47,7 +47,7 @@
 #### Material Dimensions
 |Length (<span class="units">mm</span>)| Qty | Name |
 |--------------------------------------|-----|------|
-|<span name="leadscrew" ></span>|2|leadscrew length|
+|<span name="leadscrew" ></span>|1|leadscrew length|
 |<span name="xbelts"    ></span>|2|belt length along x|
 |<span name="ybelts"    ></span>|2|belt length along y|
 |<span name="belt_total"></span>|**total length**| belts (all 4)|
@@ -106,6 +106,7 @@ function get_offsets() {
   burly.zleadscrew_minus_work = 76 * unit_convert;
   burly.xbelt_minus_rail = 136 * unit_convert;
   burly.ybelt_minus_rail = 136 * unit_convert;
+  burly.kerf = 3 * unit_convert;
 
   var primo = {};
   primo.xrail_minus_work = 304 * unit_convert;
@@ -122,6 +123,7 @@ function get_offsets() {
   primo.zleadscrew_minus_work = 50 * unit_convert;
   primo.xbelt_minus_rail = 50 * unit_convert;
   primo.ybelt_minus_rail = 50 * unit_convert;
+  primo.kerf = 3 * unit_convert;
 
   var tool = $("input[name=tool]:checked").val();
   if (tool == "Pen") {
@@ -251,8 +253,7 @@ function from_working() {
   var ygantryrail = xwork + offsets.ygantryrail_minus_work;
   var zrails = zwork + offsets.zrail_minus_work;
   var zlegs = zwork + offsets.zleg_minus_work;
-  var kerf = 3;
-  var rail_total = xrails*2 + xgantryrail + yrails*2 + ygantryrail + zrails*2 + zlegs*4 + 12*kerf;
+  var rail_total = xrails*2 + xgantryrail + yrails*2 + ygantryrail + zrails*2 + zlegs*4 + 12*offsets.kerf;
   var leadscrew = zwork + offsets.zleadscrew_minus_work;
   var xbelts = xrails + offsets.xbelt_minus_rail;
   var ybelts = yrails + offsets.ybelt_minus_rail;
