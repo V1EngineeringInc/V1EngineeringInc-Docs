@@ -34,23 +34,23 @@
 <button class="reset" onclick="reset_work()">Reset</button>
 
 #### Tube Lengths
-|Length (<span class="units">mm</span>)| Name |
-|--------------------------------------|------|
-|<span name="xrails"     ></span>|x rails, sides (total 2 needed)|
-|<span name="xgantryrail"></span>|x rail, gantry (total 1 needed)|
-|<span name="yrails"     ></span>|y rails, sides (total 2 needed)|
-|<span name="ygantryrail"></span>|y rail, gantry (total 1 needed)|
-|<span name="zrails"     ></span>|z rails (2 needed)|
-|<span name="zlegs"      ></span>|legs (4 needed)|
-|<span name="rail_total" ></span>|**total needed** assuming 3mm kerf|
+|Length (<span class="units">mm</span>)| Qty | Name |
+|--------------------------------------|-----|------|
+|<span name="xrails"     ></span>|2|x rails, sides|
+|<span name="xgantryrail"></span>|1|x rail, gantry|
+|<span name="yrails"     ></span>|2|y rails, sides|
+|<span name="ygantryrail"></span>|1|y rail, gantry|
+|<span name="zrails"     ></span>|2|z rails|
+|<span name="zlegs"      ></span>|4|legs|
+|<span name="rail_total" ></span>|**total needed**| total tube length assuming 3mm kerf|
 
 #### Material Dimensions
-|Length (<span class="units">mm</span>)| Name |
-|--------------------------------------|------|
-|<span name="leadscrew" ></span>|leadscrew length (minimum)|
-|<span name="xbelts"    ></span>|belt length along x (2 needed)|
-|<span name="ybelts"    ></span>|belt length along y (2 needed)|
-|<span name="belt_total"></span>|**Total belt length** (all 4)|
+|Length (<span class="units">mm</span>)| Qty | Name |
+|--------------------------------------|-----|------|
+|<span name="leadscrew" ></span>|2|leadscrew length|
+|<span name="xbelts"    ></span>|2|belt length along x|
+|<span name="ybelts"    ></span>|2|belt length along y|
+|<span name="belt_total"></span>|**total length**| belts (all 4)|
 
 #### Table Size
 |Length (<span class="units">mm</span>)| Name |
@@ -80,6 +80,9 @@ function get_unit_convert() {
   } else if (units == "inches") {
     // We have inches selected.
     unit_convert = 1.0/25.4;
+  }
+  else {
+    alert("internal error: unrecognized units " + units);
   }
   return unit_convert;
 }
