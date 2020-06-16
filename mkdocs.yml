@@ -27,6 +27,7 @@ nav:
      - Trouble Shooting: mpcnc/troubleshooting.md
    - LowRider:
      - Assembly: lowrider/index.md
+     - Calculator: lowrider/calculator.md
      - Old Version: lowrider/version1.md
    - MP3DP:
      - Main: mp3dp/index.md
