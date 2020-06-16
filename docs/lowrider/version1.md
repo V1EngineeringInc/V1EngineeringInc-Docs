@@ -21,9 +21,7 @@ the usable z length as much as you want you will be working from the bottom up, 
 
 Feel free to round up to whole numbers.
 
-[Inch Calculator](https://jscalc.io/calc/JDMsz9ediG9bvm3E)
-
-[Millimeter](https://jscalc.io/calc/OaNzWO4j2kmHeMPK)
+[Calculator for table, rail, and belt lengths.](calculator.md)
 
 ## Assembly
 
