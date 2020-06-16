@@ -7,6 +7,15 @@ h2, h3, h4, h5 {
   color: #42413d
 }
 
+input.calc {
+  border-bottom-style: solid;
+  border-color: #ea1717;
+  border-width: 1px;
+}
+
+button.reset {
+  color: #ea1717
+}
 .md-header {
   color: #ea1717
 }
@@ -23,3 +32,6 @@ h2, h3, h4, h5 {
   color: #ea1717
 }
 
+.calculator-button {
+  color: #ea1717
+}

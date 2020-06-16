@@ -11,13 +11,9 @@ In the US 3/4″ thin walled EMT fits the 23.5mm parts, 3/4″ refers to the Ins
 Very large builds are possible, if the outer rails are supported along the span. The smaller the machine the more rigid it will be, the faster you can push it. I recommend starting with a foot print of no larger than 24″ X 24″ Outer Dimensions with a 2-3″ usable height.
 
  
-## Cut Calculators
+## Cut Calculator
 
-Inspired by GeoDave and SteveCD, I gave it a shot.
-
-[Metric](https://jscalc.io/calc/QHWZUpKFJzyGVS2D)
-
-[Imperial](https://jscalc.io/calc/Y1Db347ni9eckSKc)
+Check out the [Calculator](calculator.md)
 
 ![!picture](https://www.v1engineering.com/wp-content/uploads/2015/08/IMG_20150830_07135601.jpg){: width="600"}
 
