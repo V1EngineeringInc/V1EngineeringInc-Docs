@@ -263,7 +263,7 @@ function from_working() {
   var ytable = yrails + offsets.ytable_minus_rail;
   var xbound = xrails + offsets.xbound_minus_rail;
   var ybound = yrails + offsets.ybound_minus_rail;
-  var zbound = zwork + zrails + offset.zbound_minus_rail_and_work;
+  var zbound = zwork + zrails + offsets.zbound_minus_rail_and_work;
   var zbound2 = zrails*2;
 
   ///$("input[name=xwork]").val(clip(xwork));
