@@ -250,7 +250,7 @@ function from_working() {
   var xrails = xwork + offsets.xrail_minus_work;
   var xgantryrail = xwork + offsets.xgantryrail_minus_work;
   var yrails = ywork + offsets.yrail_minus_work;
-  var ygantryrail = xwork + offsets.ygantryrail_minus_work;
+  var ygantryrail = ywork + offsets.ygantryrail_minus_work;
   var zrails = zwork + offsets.zrail_minus_work;
   var zlegs = zwork + offsets.zleg_minus_work;
   var rail_total = xrails*2 + xgantryrail + yrails*2 + ygantryrail + zrails*2 + zlegs*4 + 12*offsets.kerf;
