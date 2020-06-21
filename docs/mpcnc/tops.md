@@ -40,4 +40,18 @@ ___
 
 ___
 
+## Truck Squaring
+![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Truck-squaring.png){: width="400"}
+
+* New to the Primo Version, before moving on it is best to square your trucks.
+* Clamp in your Gantry rails.
+* Move the axis around to settle it.
+* Measure from the trucks on the same axis to either corner. (yellow Arrow)
+* Now you can move the trucks by very slighlty tightening the tension bolts, start small try 1/16th of a turn. (green arrows)
+* Too tight and it will stop moving.
+* Loosening will relax it opposite the green arrows.
+* Check both axes, again looking for 1mm or under.
+* Remove the gantry rails.
+
+___
 Another step done home slice!
