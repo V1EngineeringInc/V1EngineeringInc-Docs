@@ -25,8 +25,11 @@ ___
 
 * Add the tops.
 * Pay close attention to the belt slides they should be on the opposite rails of the corner bottom parts.
-* With all the captured nuts you should prethread the screws at least once to loosen the lock nuts up a bit to not destroy the printed parts.
 * Add the screws and nuts and lightly seat them all. 
+
+!!! Caution
+    With all the captured nuts you should prethread the screws at least once to loosen the lock nuts up a bit to not destroy the printed parts.
+
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Gap-scaled.jpg){: width="400"}
 

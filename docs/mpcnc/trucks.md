@@ -15,9 +15,11 @@ ___
 ## Tension Bolts
 ![!MPCNC truck tension bolts](https://www.v1engineering.com/wp-content/uploads/2020/06/Tension-scaled.jpg){: width="400"}
 
-* Pay attention to the direction of the bolt heads.
-* Insert a bearing in the truck and fit the bolts.
+* Insert the bearings in the truck and fit the bolts.
 * Just seat the locking nut, these will get adjusted later. Leave these loose.
+
+!!! Note
+    Pay attention to the direction of the bolt heads on these two tension bolts.
 
 ___
 
@@ -39,6 +41,8 @@ ___
 * You are looking for all bearings to make contact and just a hint of tension. If you tip the rail at a 45 degree angle the trucks should slowly move. Too tight and they will stay, too loose and they will drop right off.
 * Tension bolth bolts evenly, for a new print this should actually just be good with no extra tension needed. If this is the case just snug up the tension bolts until the heads and nuts are touching the plastic. Holding not adding to the current tension.
 
+!!! Caution
+       If you have to really torque down on these bolts you could have the wrong sized rails or parts. The same thing applies if they are too tight, although you can let them sit overnight with no tension on the bolts to see if they loosen up a bit.
 ___
 
 ## Truck Clamp
@@ -51,7 +55,10 @@ ___
 ![!MPCNC clamp assembled](https://www.v1engineering.com/wp-content/uploads/2020/06/Looseclamp-scaled.jpg){: width="400"}
 
 * Leave these loose, just engaging the nylocks. The rail will be added later.
-* For all the screws with captured nuts it is best to prethread them to loosen them up a bit to prevent ruining the printed parts.
+
+
+!!! Tip
+       For all the screws with captured nuts it is best to prethread them to loosen them up a bit to prevent ruining the printed parts.
 
 ___
 
