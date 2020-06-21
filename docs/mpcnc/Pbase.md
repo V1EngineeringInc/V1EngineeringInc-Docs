@@ -26,7 +26,7 @@ ___
 ![!Parts and hardware](https://www.v1engineering.com/wp-content/uploads/2020/06/foot-ready-scaled.jpg){: width="400"}
 
 * You will need the legs, printed feet, M5x30 screws and locknuts.
-* It is best to pre-thread all the locknuts before assembly. This will loosen them and prevent mangaling of the printed parts.
+* It is best to pre-thread all the locknuts before assembly. This will loosen them and prevent mangling of the printed parts.
 
 ![!Assembling](https://www.v1engineering.com/wp-content/uploads/2020/06/foot-snug-scaled.jpg){: width="400"}
 
