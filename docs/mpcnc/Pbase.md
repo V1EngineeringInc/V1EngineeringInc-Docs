@@ -39,8 +39,8 @@ ___
 ## Base Layout
 ![!Foot placement](https://www.v1engineering.com/wp-content/uploads/2020/06/base-layout-scaled.jpg){: width="400"}
 
-* Use whatever screws are appropreate for your table, these are not included in the V1 Kits.
-* Layout the foot assemblies on your table acording to the dimensions from the [cut calculator](/calculator.md).
+* Use whatever screws are appropriate for your table, these are not included in the V1 Kits.
+* Layout the foot assemblies on your table according to the dimensions from the [cut calculator](/calculator.md).
 * Notice all the clamping screws are oriented towards the center of the build area.
 * Screw down the two assemblies along the front edge of the table. These will be your fixed references.
 
@@ -51,8 +51,8 @@ ___
 
 ![!Compare measurements](https://www.v1engineering.com/wp-content/uploads/2020/06/base-check-2-scaled.jpg){: width="400"}
 
-* This next diagonal should match the previous one. Squaring this way can be extremely accurate as the deviation is multiplied.
-* Adjust both rear legs until you are satified with the precision.
+* This next diagonal should match the previous one. Squaring this way can be extremely accurate because any error in the leg locations is multiplied in this measurement.
+* Adjust both rear legs until you are satisfied with the precision.
 * Screw in one foot at a time, minor adjustments are possible.
 * Triple check the diagonals they need to be as close as you can get them.
 
@@ -65,12 +65,12 @@ ___
 ![!Parts and hardware](https://www.v1engineering.com/wp-content/uploads/2020/06/lock-parts-scaled.jpg){: width="400"}
 
 * You will need the Printed Corner Leg Locks and M5 Luck nuts.
-* It is best to pre-thread all the locknuts before assembly. This will loosen them and prevent mangaling of the printed parts.
+* It is best to pre-thread all the locknuts before assembly. This will loosen them and prevent mangling of the printed parts.
 
 ![!Embeded nut](https://www.v1engineering.com/wp-content/uploads/2020/06/lock-ready-scaled.jpg){: width="400"}
 
 * Push the nut into the Leg lock and fully seat it. If it does not stay on it's own you can use a drop of Glue.
-* A second option if it does not stay on it's own is to start assembling the Corner Bottom very loosely.
+* If the nut does not stay on it's own, you can attach the Corner Bottom very loosely with its bolt.
 
 ![!Orientation](https://www.v1engineering.com/wp-content/uploads/2020/06/base-lock-scaled.jpg){: width="400"}
 
@@ -128,7 +128,7 @@ ___
 * Put the Y rails back in place.
 * Use whatever means you have at your disposal to assure all four corners are at the same level.
 * If you were careful with your leg lengths this should be level already. 
-* Losening the screws and giving the corners a light tap can seat them a tiny bit farther if needed.
+* Loosening the screws and giving the corners a light tap can seat them a tiny bit farther if needed.
 
 ___
 

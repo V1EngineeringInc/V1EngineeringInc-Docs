@@ -29,7 +29,7 @@ ___
 * Snug these up. About 7in/lbs.
 
 !!! Caution
-    Using ratchets makes overtightening the bolts very easy. There are small 1mm built in spacers in the printed parts, if you crush these you are about 3x too tight. Loose is better than tight, If you work on your own car it is wayyyyyy less that any bolt you have ever tightened.
+    Using ratchets makes over tightening the bolts very easy. There are small 1mm built in spacers in the printed parts, if you crush these you are about 3x too tight. Loose is better than tight, If you work on your own car it is wayyyyyy less that any bolt you have ever tightened.
 ___
 
 ## Set The Truck Tension
