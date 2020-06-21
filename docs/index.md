@@ -59,7 +59,7 @@ Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett - Ian (ianj001) - Ge
 
 ## About V1
 
-V1 Engineering Inc all started with the [MPCNC platform](mpcnc/index.md), from there it kept expanding.
+V1 Engineering Inc all started with the [MPCNC platform](mpcnc/burly/index.md), from there it kept expanding.
 
 All the same precision as the MPCNC but in a larger form factor for sheet goods? Try the [LowRider CNC](lowrider/index.md).
 
