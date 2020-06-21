@@ -5,7 +5,7 @@ Click on the images to embiggen.
 ## Legs
 ![!MPCNC legs](https://www.v1engineering.com/wp-content/uploads/2020/06/Legs-scaled.jpg){: width="400"}
 
-* The leg lengths come from the [cut calculator](mpcnc/calculator.md).
+* The leg lengths come from the [cut calculator](/calculator.md).
 * Do whatever it takes to get the legs as equal in length as possible. This will really help in leveling and keeping it level.
 * In this picture the one on the left is too short so it could either be shimmed during assembly or sand/grind the others.
 * A little extra time here pays off for the life of the machine.
@@ -40,7 +40,7 @@ ___
 ![!Foot placement](https://www.v1engineering.com/wp-content/uploads/2020/06/base-layout-scaled.jpg){: width="400"}
 
 * Use whatever screws are appropreate for your table, these are not included in the V1 Kits.
-* Layout the foot assemblies on your table acording to the dimensions from the [cut calculator](mpcnc/calculator.md).
+* Layout the foot assemblies on your table acording to the dimensions from the [cut calculator](/calculator.md).
 * Notice all the clamping screws are oriented towards the center of the build area.
 * Screw down the two assemblies along the front edge of the table. These will be your fixed references.
 

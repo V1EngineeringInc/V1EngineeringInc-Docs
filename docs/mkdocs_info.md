@@ -13,11 +13,11 @@ Here's a link to the forums:
 
 Here's a link to another page in the documentation:
 
-[Corners, Rollers, Base](mpcnc/base.md)
+[Corners, Rollers, Base](mpcnc/burly/base.md)
 
 Here's a link to a specific section in the documentation:
 
-[Base subsection link](mpcnc/base.md#feet)
+[Base subsection link](mpcnc/burly/base.md#feet)
 
 ## Images
 
