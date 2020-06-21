@@ -168,4 +168,4 @@ ___
 
 ## Done, looks cool right?!
 
-[Main assembly page](../mpcnc/index.md)
+[Main assembly page](index.md)

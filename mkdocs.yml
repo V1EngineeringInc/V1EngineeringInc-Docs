@@ -12,19 +12,25 @@ nav:
 
  - Build:
    - MPCNC:
-     - Basics: mpcnc/index.md
-     - Parts: mpcnc/parts.md
+     - Introduction to The MPCNC: mpcnc/intro.md
      - Calculator: mpcnc/calculator.md
-     - Assembly:
-       - Table: mpcnc/table.md
-       - Conduit: mpcnc/conduit.md
-       - Corners, Rollers, Base: mpcnc/base.md
-       - Z-Axis: mpcnc/z-axis.md
-       - Middle Assembly: mpcnc/middle-assm.md
-       - Gantry: mpcnc/gantry.md
-       - Final: mpcnc/final.md
-       - Belts: mpcnc/belts.md
+     - 1-Table: mpcnc/burly/table.md
+     - 2-Base: mpcnc/Pbase.md
+     - 3-Trucks: mpcnc/trucks.md
+     - 4-Tops: mpcnc/tops.md
      - Trouble Shooting: mpcnc/troubleshooting.md
+     - Previous Version:
+       - Basics: mpcnc/burly/index.md
+       - Parts: mpcnc/burly/parts.md
+       - Assembly:
+         - Table: mpcnc/burly/table.md
+         - Conduit: mpcnc/burly/conduit.md
+         - Corners, Rollers, Base: mpcnc/burly/base.md
+         - Z-Axis: mpcnc/burly/z-axis.md
+         - Middle Assembly: mpcnc/burly/middle-assm.md
+         - Gantry: mpcnc/burly/gantry.md
+         - Final: mpcnc/burly/final.md
+         - Belts: mpcnc/burly/belts.md
    - LowRider:
      - Assembly: lowrider/index.md
      - Calculator: lowrider/calculator.md
