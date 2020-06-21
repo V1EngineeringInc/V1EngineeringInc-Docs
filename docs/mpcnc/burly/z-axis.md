@@ -104,7 +104,7 @@ tight you will crack the mount, not easily fixed. Err on the side of too loose.
 Check again, are the rails still sitting flat? Add the lead screw into the coupler. **The lead screw
 should touch the motor shaft** to fight thrust in the other direction from the lower mount bearing.
 Again, not the best engineering solution but it works great with this light load. The lead screw
-should be at least as long as the [calculator](calculator.md) specifies, but no longer than the bottom of the Z
+should be at least as long as the [calculator](../calculator.md) specifies, but no longer than the bottom of the Z
 rails.
 
 If you are having a hard time getting the lead screw through the bearing, lightly sand or file the

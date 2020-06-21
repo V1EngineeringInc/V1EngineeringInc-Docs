@@ -13,7 +13,7 @@ Very large builds are possible, if the outer rails are supported along the span.
  
 ## Cut Calculator
 
-Check out the [Calculator](calculator.md)
+Check out the [Calculator](../calculator.md)
 
 ![!picture](https://www.v1engineering.com/wp-content/uploads/2015/08/IMG_20150830_07135601.jpg){: width="600"}
 
