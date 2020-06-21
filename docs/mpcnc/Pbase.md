@@ -5,7 +5,7 @@ Click on the images to embiggen.
 ## Legs
 ![!MPCNC legs](https://www.v1engineering.com/wp-content/uploads/2020/06/Legs-scaled.jpg){: width="400"}
 
-* The leg lengths come from the [cut calculator](/calculator.md).
+* The leg lengths come from the [cut calculator](calculator.md).
 * Do whatever it takes to get the legs as equal in length as possible. This will really help in leveling and keeping it level.
 * In this picture the one on the left is too short so it could either be shimmed during assembly or sand/grind the others.
 * A little extra time here pays off for the life of the machine.
