@@ -57,6 +57,10 @@ Content was created, edited, and shared by:
 Ryan Zellars (allted, vicious1) - Jeff Eberl (jeffeb3) - Mark Frost (fr0sty1) - Jamie (vector76) -
 Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett - Ian (ianj001) - Gene Merritt (merrittgene)
 
+Special thanks to the Primo test crew. Without you fellas Primo would not be the absolute beast that it is!
+Tim (timonjkl) - GP (gpagnozzi) - Barry (barry99705)
+Thank you to the rest of you for being patient and supportive. I know this version took a long time. I only want to release something we can all be proud of.
+
 ## About V1
 
 V1 Engineering Inc all started with the [MPCNC platform](mpcnc/burly/index.md), from there it kept expanding.
