@@ -9,8 +9,8 @@
 <input type="radio" onchange="to_inch()" name="units" value="inches">Imperial (inch)<br/>
 
 #### Model
-<input type="radio" onchange="from_working()" name="model" value="Primo"> Primo<br/>
-<input type="radio" onchange="from_working()" name="model" value="Burly" checked> Burly<br/>
+<input type="radio" onchange="from_working()" name="model" value="Primo" checked> Primo<br/>
+<input type="radio" onchange="from_working()" name="model" value="Burly"> Burly<br/>
 
 #### Tool Choice \*
 <input type="radio" onchange="from_working()" name="tool" value="Pen" checked> Full range of motion (pen, laser, drag knife, etc)<br/>

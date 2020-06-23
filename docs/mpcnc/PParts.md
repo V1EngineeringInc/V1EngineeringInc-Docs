@@ -15,8 +15,40 @@ Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptabl
 
 ## Primo Printed Parts List
 
+| QTY | Part Name              | Infill |
+|----:|------------------------|--------|
+|     | **Corner**             |        |
+|   2 | Corner Bottom          | 45%+   |
+|   2 | Corner Bottom Mirrored | 45%+   |
+|   2 | Corner Top             | 45%+   |
+|   2 | Corner Top Mirrored    | 45%+   |
+|   2 | Lower Belt             | 45%+   |
+|   2 | Lower Belt Mirrored    | 45%+   |
+|   2 | Upper Belt             | 45%+   |
+|   2 | Upper Belt Mirrored    | 45%+   |
+|   4 | Corner Leg Lock        | 45%+   |
+|   4 | Feet                   | 45%+   |
+|   2 | Wire Darryl            | 45%+   |
+|   4 | Stop Block (Dual only) | 45%+   |
+|     | **Trucks**             |        |
+|   2 | Truck                  | 45%+   |
+|   2 | Truck Mirrored         | 45%+   |
+|   4 | Truck Clamp            | 45%+   |
+|     | **Z-Axis**             |        |
+|   1 | Z Motor                | 45%+   |
+|   1 | Z Coupler              | 45%+   |
+|   2 | Nut Trap               | 45%+   |
+|   1 | Upper Tool Plate       | 45%+   |
+|   1 | Lower Tool Plate       | 45%+   |
+|     | **Center Assembly**    |        |
+|   2 | Core Z Clamp 1         | 45%+   |
+|   2 | Core Z Clamp 2         | 45%+   |
+|   3 | Core Clamp             | 45%+   |
+|   1 | Core ClampY            | 45%+   |
+|   1 | Core                   | 70%    |
 
-A tool mount is also needed for your specific tool. A list of mounts I have designed are [below](). You can also find user design mounts on prusa printers and Thingiverse by searching "MPCNC Primo" and your tool name.
+A tool mount is also needed for your specific tool. A list of mounts I have designed are [below](#spindle-options). You can also find user designed mounts on prusa printers and Thingiverse by searching "MPCNC Primo" and your tool name.
+
 ___
 
 ## Hardware
@@ -59,7 +91,16 @@ ___
 
 ## Spindle Options
 
+Currently I have made mounts for the preferred [Dewalt 660](https://amzn.to/2Z3yaHC).
+Others options would be the [55mm spindle](https://amzn.to/2BsxX8S) (57mm caps), the least attractive option is the [52mm spindle](https://amzn.to/2BtIFvO).
 
+
+| Mount Files can be found at                                           |                                                                           |                                                         |
+|-----------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------|
+| [GitHub](https://github.com/V1EngineeringInc/MPCNC_Primo_Tool_Mounts) | [PrusaPrinters](https://www.prusaprinters.org/social/47417-ryan-z/prints) | [Thingiverse](https://www.thingiverse.com/allted/about) |
+
+
+More to come.
 
 ___
 
@@ -71,3 +112,21 @@ ___
 !!! Note
     The blank tool mount needs details.
 
+___
+
+### Update from Burly to Primo
+
+Kits are available in the [V1 Shop](https://shop.v1engineering.com/products/mpcnc-burly-to-primo-hardware-kit).
+
+| Part                                | QTY |
+|-------------------------------------|-----|
+| 10mm GT2 Pulleys                    | 4   |
+| 10mm GT2 20T Idlers                 | 8   |
+| 5/16" x 1.5" Bolts (M8 x 40)        | 46  |
+| 5/16" Nylock (M8)                   | 1   |
+| M5 x 30mm Phillips Pan Head Screws  | 64  |
+| M5 Nylocks                          | 64  |
+| M12 x 12mm Phillips Pan Head Screws | 10  |
+| *10mm GT2 belt.                     | ?M  |
+
+*While can use your 6mm belt I suggest you upgrade to 10mm belt, use the calculator for the amount you need.
