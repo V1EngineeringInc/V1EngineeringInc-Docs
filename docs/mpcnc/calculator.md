@@ -115,8 +115,8 @@ function get_offsets() {
   primo.ygantryrail_minus_work = 258 * unit_convert;
   primo.zrail_minus_work = 190 * unit_convert;
   primo.zleg_minus_work = -21 * unit_convert;
-  primo.xtable_minus_rail = 34 * unit_convert;
-  primo.ytable_minus_rail = 34 * unit_convert;
+  primo.xtable_minus_rail = -34 * unit_convert;
+  primo.ytable_minus_rail = -34 * unit_convert;
   primo.xbound_minus_rail = 68 * unit_convert;
   primo.ybound_minus_rail = 68 * unit_convert;
   primo.zbound_minus_rail_and_work = 50 * unit_convert;
