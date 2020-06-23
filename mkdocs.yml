@@ -13,6 +13,7 @@ nav:
  - Build:
    - MPCNC:
      - Introduction to The MPCNC: mpcnc/intro.md
+     - MPCNC Primo Parts list: mpcnc/PParts.md
      - Calculator: mpcnc/calculator.md
      - 1-Table: mpcnc/burly/table.md
      - 2-Base: mpcnc/Pbase.md
