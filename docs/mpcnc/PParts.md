@@ -47,7 +47,7 @@ Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptabl
 |   1 | Core ClampY            | 45%+   |
 |   1 | Core                   | 70%    |
 
-A tool mount is also needed for your specific tool. A list of mounts I have designed are [below](#spindle-options). You can also find user designed mounts on prusa printers and Thingiverse by searching "MPCNC Primo" and your tool name.
+A tool mount is also needed for your specific tool. A list of mounts I have designed are [below](#spindle-options). You can also find user designed mounts on PrusaPrinters and Thingiverse by searching "MPCNC Primo" and your tool name.
 
 ___
 
@@ -106,6 +106,7 @@ ___
 
 ## Tool Mounts
 
+You are able to use tool mounts originally designed for the Burly MPCNC, you just need to use the Burly Toolmount and nut traps.
 
 * Blank tool mount, [HERE](), to design your own.
 
