@@ -15,40 +15,45 @@ Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptabl
 
 ## Primo Printed Parts List
 
-| QTY | Part Name              | Infill |
-|----:|------------------------|--------|
-|     | **Corner**             |        |
-|   2 | Corner Bottom          | 45%+   |
-|   2 | Corner Bottom Mirrored | 45%+   |
-|   2 | Corner Top             | 45%+   |
-|   2 | Corner Top Mirrored    | 45%+   |
-|   2 | Lower Belt             | 45%+   |
-|   2 | Lower Belt Mirrored    | 45%+   |
-|   2 | Upper Belt             | 45%+   |
-|   2 | Upper Belt Mirrored    | 45%+   |
-|   4 | Corner Leg Lock        | 45%+   |
-|   4 | Feet                   | 45%+   |
-|   2 | Wire Darryl            | 45%+   |
-|   4 | Stop Block (Dual only) | 45%+   |
-|     | **Trucks**             |        |
-|   2 | Truck                  | 45%+   |
-|   2 | Truck Mirrored         | 45%+   |
-|   4 | Truck Clamp            | 45%+   |
-|     | **Z-Axis**             |        |
-|   1 | Z Motor                | 45%+   |
-|   1 | Z Coupler              | 45%+   |
-|   2 | Nut Trap               | 45%+   |
-|   1 | Upper Tool Plate       | 45%+   |
-|   1 | Lower Tool Plate       | 45%+   |
-|     | **Center Assembly**    |        |
-|   2 | Core Z Clamp 1         | 45%+   |
-|   2 | Core Z Clamp 2         | 45%+   |
-|   3 | Core Clamp             | 45%+   |
-|   1 | Core ClampY            | 45%+   |
-|   1 | Core                   | 70%    |
+| QTY | Part Name              | Infill | Color |
+|----:|------------------------|--------|-------|
+|     | **Corner**             |        |       |
+|   2 | Corner Bottom          | 45%+   |   B   |
+|   2 | Corner Bottom Mirrored | 45%+   |   B   |
+|   2 | Corner Top             | 45%+   |   A   |
+|   2 | Corner Top Mirrored    | 45%+   |   A   |
+|   2 | Lower Belt             | 45%+   |   A   |
+|   2 | Lower Belt Mirrored    | 45%+   |   A   |
+|   2 | Upper Belt             | 45%+   |   B   |
+|   2 | Upper Belt Mirrored    | 45%+   |   B   |
+|   4 | Corner Leg Lock        | 45%+   |   B   |
+|   4 | Feet                   | 45%+   |   B   |
+|   2 | Wire Darryl            | 45%+   |   A   |
+|   4 | Stop Block (Dual only) | 45%+   |   A   |
+|     | **Trucks**             |        |       |
+|   2 | Truck                  | 45%+   |   A   |
+|   2 | Truck Mirrored         | 45%+   |   A   |
+|   4 | Truck Clamp            | 45%+   |   B   |
+|     | **Z-Axis**             |        |       |
+|   1 | Z Motor                | 45%+   |   A   |
+|   1 | Z Coupler              | 45%+   |   A   |
+|   2 | Nut Trap               | 45%+   |   A   |
+|   1 | Upper Tool Plate       | 45%+   |   A   |
+|   1 | Lower Tool Plate       | 45%+   |   A   |
+|     | **Center Assembly**    |        |       |
+|   2 | Core Z Clamp 1         | 45%+   |   A   |
+|   2 | Core Z Clamp 2         | 45%+   |   A   |
+|   3 | Core Clamp             | 45%+   |   A   |
+|   1 | Core ClampY            | 45%+   |   A   |
+|   1 | Core                   | 70%    |   B   |
 
 A tool mount is also needed for your specific tool. A list of mounts I have designed are [below](#spindle-options). You can also find user designed mounts on PrusaPrinters and Thingiverse by searching "MPCNC Primo" and your tool name.
 
+Color is the defualt color scheme I use to print the kits.
+
+Total weight in PLA is approximately 2.2kgs.
+
+Print time. Print times have been ranging from 65hrs (0.5mm nozzle @38mm/s), 120hrs (0.4mm @60+mm/s), 160hrs (0.4mm nozzle @35mm/s).
 ___
 
 ## Hardware
