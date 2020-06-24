@@ -302,3 +302,9 @@ $(window).on('load', function(){
 });
 
 </script>
+
+## Diagrams
+
+![!MPCNC ISO Diagram](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-Calc-diagram.jpg){: width="400"}
+
+![!MPCNC Side Diagram](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-Calc-diagram-1.jpg){: width="400"}
