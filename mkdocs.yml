@@ -19,6 +19,7 @@ nav:
      - 2-Base: mpcnc/Pbase.md
      - 3-Trucks: mpcnc/trucks.md
      - 4-Tops: mpcnc/tops.md
+     - 5-Core: mpcnc/core.md
      - Trouble Shooting: mpcnc/troubleshooting.md
      - Previous Version:
        - Basics: mpcnc/burly/index.md
