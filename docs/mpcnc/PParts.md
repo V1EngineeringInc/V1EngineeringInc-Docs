@@ -27,7 +27,7 @@ Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptabl
 |   2 | Upper Belt             | 45%+   |   B   |
 |   2 | Upper Belt Mirrored    | 45%+   |   B   |
 |   4 | Corner Leg Lock        | 45%+   |   B   |
-|   4 | Feet                   | 45%+   |   B   |
+|   4 | Feet                   | 45%+   |   A   |
 |   2 | Wire Darryl            | 45%+   |   A   |
 |   4 | Stop Block (Dual only) | 45%+   |   A   |
 |     | **Trucks**             |        |       |
