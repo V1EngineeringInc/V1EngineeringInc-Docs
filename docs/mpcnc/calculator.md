@@ -2,6 +2,16 @@
 
 # MPCNC Size Calculator
 ----
+
+## Sizing
+
+When choosing what size to make your machine we refer to the build area. This is the area your tool can reach. Smaller machines are more rigid. The more rigid the machine the easier more forgiving they are to use (larger acceptable feeds and speeds window). The more rigid also means they are faster and more accurate. Every Millimeter counts but the Z axis has the largest effect on rigidity. For a Primo MPCNC 81mm is the shortest and I **highly** reccomend that. More sizing details on [this page](https://www.v1engineering.com/assembly/machine-size/).
+
+![!MPCNC ISO Diagram](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-Calc-diagram.jpg){: width="400"}
+
+![!MPCNC Side Diagram](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-Calc-diagram-1.jpg){: width="400"}
+
+----
 ## Inputs
 
 #### Units
@@ -18,7 +28,7 @@
 <input type="radio" onchange="from_working()" name="tool" value="55mm"> 52mm & 55mm Spindle<br/>
 
 !!! note "* Tool Choice"
-    Larger tools may collide with the side rails and contstrain movement
+    Larger tools may collide with the side rails and restrict movement
     before the MPCNC reaches its full range of motion in x and y.
     Select your intended tool to account for this difference in the following dimensions:
 
@@ -302,9 +312,3 @@ $(window).on('load', function(){
 });
 
 </script>
-
-## Diagrams
-
-![!MPCNC ISO Diagram](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-Calc-diagram.jpg){: width="400"}
-
-![!MPCNC Side Diagram](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-Calc-diagram-1.jpg){: width="400"}
