@@ -21,6 +21,7 @@ nav:
      - 4-Tops: mpcnc/tops.md
      - 5-Core: mpcnc/core.md
      - 6-Z Axis: mpcnc/PZPage.md
+     - 7-Squaring: mpcnc/squaring.md
      - Trouble Shooting: mpcnc/troubleshooting.md
      - Previous Version:
        - Basics: mpcnc/burly/index.md
