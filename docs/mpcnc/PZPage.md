@@ -107,7 +107,7 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Mount2-scaled.jpg){: width="400"}
 
 * Using the embossed part letter as your guide position the plates.
-* For this mount it is easy to star the screws and then loosely fit both mount pieces and get the screw well into the nuts.
+* For this mount it is easy to start the screws and then loosely fit both tool mount pieces and get the screw well into the nuts.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Mount3-scaled.jpg){: width="400"}
 
@@ -121,13 +121,13 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Clamp2-scaled.jpg){: width="400"}
 
-* Snug up the Steeper assembly to the Z rails.
+* Snug up the Stepper assembly to the Z rails.
 * These are clamping parts so there will be a gap even when the part is tight.
 * Very little force is needed here, 4 screws have a lot of holding power and they are only holding a few pounds.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Clamp3-scaled.jpg){: width="400"}
 
-* Push the bearing plate up to the couple make sure they are touching.
+* Push the bearing plate up to the coupler make sure they are touching.
 * The plates should be parallel and have equal spacing on both sides.
 * Snug up the plate.
 
@@ -142,7 +142,7 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/ZCoreAssm-scaled.jpg){: width="400"}
 
-* The Core Z Clamps have a angled edge that should math the angled edge on the Core itself.
+* The Core Z Clamps have a angled edge that should match the angled edge on the Core itself.
 * These bolts need to be extremly loose, just get the nylocks engaged.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/ZCoreFit-scaled.jpg){: width="400"}
@@ -162,7 +162,7 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
     You can give the Clamps a little tap to make sure they are seated corectly once they have some tension on them. Recheck the tension in the bearings.
 
 !!! Note
-    If your leadscrew start to bind at the very bottom this is when you can move the brass nut screws around a bit to make sure this has smooth easy movements.
+    If your leadscrew starts to bind at the very bottom this is when you can move the brass nut screws around a bit to make sure this has smooth easy movements.
 
 ## **Lube the Leadscrew**
 ___
