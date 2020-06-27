@@ -132,7 +132,7 @@ Kits are available in the [V1 Shop](https://shop.v1engineering.com/products/mpcn
 | 5/16" Nylock (M8)                   | 1   |
 | M5 x 30mm Phillips Pan Head Screws  | 64  |
 | M5 Nylocks                          | 64  |
-| M12 x 12mm Phillips Pan Head Screws | 10  |
+| M2.5 x 12mm Phillips Pan Head Screws | 10  |
 | *10mm GT2 belt.                     | ?M  |
 
 *While can use your 6mm belt I suggest you upgrade to 10mm belt, use the calculator for the amount you need.
