@@ -5,7 +5,12 @@
 
 ## Sizing
 
-When choosing what size to make your machine we refer to the build area. This is the area your tool can reach. Smaller machines are more rigid. The more rigid the machine the easier more forgiving they are to use (larger acceptable feeds and speeds window). The more rigid also means they are faster and more accurate. Every Millimeter counts but the Z axis has the largest effect on rigidity. For a Primo MPCNC 81mm is the shortest and I **highly** reccomend that. More sizing details on [this page](https://www.v1engineering.com/assembly/machine-size/).
+When choosing what size to make your machine, start with the _build area_. This is the area your
+tool can reach. Smaller machines are more rigid. The more rigid a machine is, the easier and more
+forgiving it is to use. This gives you a larger acceptable feeds and speeds window. More rigid
+also means it will be faster and more accurate with the right settings. Every millimeter counts but
+**the Z axis has the largest effect on rigidity**. For a Primo MPCNC, 81mm is the shortest and **I
+highly** recommend that. More sizing details on [this page](https://www.v1engineering.com/assembly/machine-size/).
 
 ![!MPCNC ISO Diagram](https://www.v1engineering.com/wp-content/uploads/2020/06/ISO-Diagram2.jpg){: width="400"}
 
@@ -40,7 +45,7 @@ When choosing what size to make your machine we refer to the build area. This is
 <!-- These "value"s are going to be overwritten by the reset_work() function below. -->
 <input class="calc" type="number" onchange="from_working()" name="xwork" value="300" size="6"><span class="units">mm</span> x<br/>
 <input class="calc" type="number" onchange="from_working()" name="ywork" value="300" size="6"><span class="units">mm</span> y<br/>
-<input class="calc" type="number" onchange="from_working()" name="zwork" value="82" size="6"><span class="units">mm</span> z<br/>
+<input class="calc" type="number" onchange="from_working()" name="zwork" value="81" size="6"><span class="units">mm</span> z<br/>
 <button class="reset" onclick="reset_work()">Reset</button>
 
 #### Tube Lengths

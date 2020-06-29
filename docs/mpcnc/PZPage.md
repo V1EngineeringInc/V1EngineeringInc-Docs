@@ -3,13 +3,13 @@
 ## Z Rails
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2015/08/zrail.jpg){: width="400"}
 
-* Using the cut Calculator determine your Z rail length.
+* Using the cut [Calculator](calculator.md) determine your Z rail length.
 * You will need to drill 4 holes for M5 Screws.
 * It is best to oversize the holes (up to about 8mm is fine) to allow for some adjustment and non-perfect drilling.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/RailMark-scaled.jpg){: width="400"}
 
-* Mark the rails acording to the previous diagram.
+* Mark the rails according to the previous diagram.
 * A center punch, center drill, or even filing a small flat spot helps with drilling accuracy.
 
 !!! Tip
@@ -24,7 +24,7 @@ ___
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/T8Parts-scaled.jpg){: width="400"}
 
-* This step requires a Stepper, 5mm to 8mm coupler, and your Leadscrew. 
+* This step requires a Stepper, 5mm to 8mm coupler, and your Leadscrew.
 
 !!! Note
     The cut calculator give you a minimum screw length. The maximum screw length is the end of the Z rails when you axis is fully assembled.
@@ -32,7 +32,7 @@ ___
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/T8Assm-scaled.jpg){: width="400"}
 
 * Loctite is a good idea for the small grub screws.
-* Tighten the grubscrew on the flat spot of the stepper shaft first.
+* Tighten the grub screw on the flat spot of the stepper shaft first.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2018/07/Coupler-use.jpg){: width="400"}
 
@@ -44,7 +44,7 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/StepParts-scaled.jpg){: width="400"}
 
-* This step uses 4 M3 x 10mm screws, the printed Z Motor part, and the previous leadscrew assembly
+* This step uses 4 M3x10mm screws, the printed Z Motor part, and the previous leadscrew assembly
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/StepAssm-scaled.jpg){: width="400"}
 
@@ -61,7 +61,7 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
 
 * Seat the bearing, the top should be flush with the part.
 
-## Z axis 
+## Z axis
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Z1-scaled.jpg){: width="400"}
 
@@ -69,15 +69,19 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Z2-scaled.jpg){: width="400"}
 
-* Pay attention to the direction the Z coupler part is facing. Bearing towards the coupler they will end up touching.
-* Slide both rails in, the holes angle in and are on the same end.
-* The Z coupler part stays just above the middle holes to help with alignment later.
+* Pay attention to the direction the Z coupler part is facing. Face the bearing towards the coupler. They will end up touching.
+* Slide both rails in. The holes you drilled angle in and are on the same end.
+
+!!! info
+    The lower Z coupler part stays just above the middle holes to help with alignment. Don't push it
+    all together yet.
+
 * The stepper assembly should be flush with the top of the Z rails.
 
 !!! Note
     The leadscrew can be a tight fit through the bearing. If this is the case you can sand the top 30mm or so of the leadscrew and put the bearing on before the coupler.
 
-## Nut Traps    
+## Nut Traps
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/NutParts-scaled.jpg){: width="400"}
 
@@ -101,7 +105,7 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Mount1-scaled.jpg){: width="400"}
 
-* For this step you will need your tool mount of choice, and 2-4 screws depending, and both Upper and Lower printed tool plates.
+* For this step you will need your tool mount of choice, and 2-4 M5 screws depending, and both Upper and Lower printed tool plates.
 * This is showing the dewalt 660 mount.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Mount2-scaled.jpg){: width="400"}
@@ -122,7 +126,10 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Clamp2-scaled.jpg){: width="400"}
 
 * Snug up the Stepper assembly to the Z rails.
-* These are clamping parts so there will be a gap even when the part is tight.
+
+!!! warning
+    These are clamping parts so there will be a gap even when the part is tight.
+
 * Very little force is needed here, 4 screws have a lot of holding power and they are only holding a few pounds.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Clamp3-scaled.jpg){: width="400"}
@@ -132,7 +139,7 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
 * Snug up the plate.
 
 !!! Warning
-     You can get plate too tight and make the leadscrew hard to rotate. So once you have finished this step make sure the couppler moves easily with your fingers.
+     You can get plate too tight and make the leadscrew hard to rotate. So once you have finished this step make sure the coupler moves easily with your fingers.
 
 ## Z Core
 
@@ -143,7 +150,9 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/ZCoreAssm-scaled.jpg){: width="400"}
 
 * The Core Z Clamps have a angled edge that should match the angled edge on the Core itself.
-* These bolts need to be extremly loose, just get the nylocks engaged.
+
+!!! warning
+    These bolts need to be extremely loose, only turn to _just_ get the nylocks engaged.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/ZCoreFit-scaled.jpg){: width="400"}
 
@@ -151,20 +160,22 @@ Seat the grub screws on the shaft trying to get the straightest connection possi
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/ZCoreAdj-scaled.jpg){: width="400"}
 
-* Very carefully start to tighten each clamp. 
+* Very carefully start to tighten each clamp.
 * You want each bearing to be in contact with the rail but you should just be able to rotate the bearing with your fingers.
 * 1/16th of a turn here can be drastic. Take your time.
 * You want each bearing to be in equal tension. This flexes the Core properly and keeps the Z axis perpendicular to the work surface.
-* Overtightening is detrimental. Again, loose is better than tight.
-* Move the axis up and down and check for free movement throught the entire range.
+* Over tightening is detrimental. Again, loose is better than tight.
+* Move the axis up and down and check for free movement through the entire range.
 
 !!! Tip
-    You can give the Clamps a little tap to make sure they are seated corectly once they have some tension on them. Recheck the tension in the bearings.
+    You can give the Clamps a little tap to make sure they are seated correctly once they have some tension on them. Recheck the tension in the bearings.
 
 !!! Note
     If your leadscrew starts to bind at the very bottom this is when you can move the brass nut screws around a bit to make sure this has smooth easy movements.
 
-## **Lube the Leadscrew**
+## **Lubricate the Leadscrew**
+
+The leadscrew needs [lubrication](https://shop.v1engineering.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe).
 ___
 
 Nice work....Break time?
