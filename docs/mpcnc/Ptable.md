@@ -1,8 +1,8 @@
 # Table
 ## A Quick and Dirty Table
 
-You can really use any table you have, the sturdier the better of course. If you don’t have a spare table your willing to get really dirty, here is one I put together for a few dollars worth of 2×4’s.
-
+You can really use any table you have, the sturdier the better of course. If you don’t have a spare
+table your willing to get really dirty, here is one I put together for a few dollars worth of 2×4’s.
 
 ![!Table Structure](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20151022_175857.jpg){: width="400"}
 
@@ -11,10 +11,9 @@ ___
 
 ![!Table Structure](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20151023_101508.jpg){: width="400"}
 
-I screw the table top on to keep it square, then cut the center out as a spoil board. That way it is easy to replace without the need to disassemble the machine.
+I screw the table top on to keep it square, then cut the center out as a spoil board. That way it is
+easy to replace without the need to disassemble the machine.
 ___
- 
-
  
 ## GeoDave at it again! – parametric table
 
@@ -26,4 +25,5 @@ Or try out my “Mostly Printed” Table, [MPTable](http://www.thingiverse.com/t
 
 ## Wanna share your table?
 
-If you have a cool table and a few pictures, please click the pencil at the top of the page and add your version. If you need some help start a page in the forums and we can help add it for you!
+If you have a cool table and a few pictures, please click the pencil at the top of the page and add
+your version. If you need some help start a page in the forums and we can help add it for you!

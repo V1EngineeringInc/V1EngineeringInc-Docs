@@ -22,9 +22,8 @@
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/FarSide-scaled.jpg){: width="400"}
 
 * Measure the other Truck.
-* Test both pairs.
+* Test both pairs of Trucks.
 * Move the gantry around and test all four again. The numbers should be very close to the first test.
-
 
 ## Adjust
 
@@ -33,14 +32,16 @@
 * Start with whichever gantry rail has the most error.
 * Tightening a core clamp will move the rail and truck away from that bolt. 
 * The outer Core Clamps have the largest effect.
-* Small 1/16th of a turn adjustments should be used.
+* Use small adjustments. 1/16th of a turn at a time.
 * After each adjustment move the gantry around and test the Truck pair distances again.
 * Repeat this a few times.
 
-
 !!! Tip
-    This should be very small adjustments and you are looking to get them within 1mm. If you overtighten them they stop moving. So if the trucks are showing no effect, loosen the tension bolts all the way and start again. You have set the minumum tension in the core building step, so you will begin by tightening teh clamps. At some point you can also loosen them a bit for the oppsite effect.
-
+    This should be very small adjustments and you are looking to get them within 1mm. If you
+    over tighten them they stop moving. So if the trucks are showing no effect, loosen the tension
+    bolts all the way and start again. The minimum tension was set in the core building step,
+    so you will begin by tightening the clamps. At some point you can also loosen them a bit for the
+    opposite effect.
 
 ___
 
