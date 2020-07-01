@@ -34,7 +34,7 @@ highly** recommend that. More sizing details on [this page](https://www.v1engine
 
 !!! note "* Tool Choice"
     Larger tools may collide with the side rails and restrict movement
-    before the MPCNC reaches its full range of motion in x and y.
+    before the MPCNC reaches its full range of motion in X and Y.
     Select your intended tool to account for this difference in the following dimensions:
 
 ----
