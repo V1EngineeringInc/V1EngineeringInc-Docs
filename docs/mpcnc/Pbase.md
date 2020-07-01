@@ -56,7 +56,7 @@ ___
 * This next diagonal should match the previous one. Squaring this way can be extremely accurate because any error in the leg locations is multiplied in this measurement.
 * Adjust both rear legs until you are satisfied with the precision.
 * Screw in one foot at a time, minor adjustments are possible.
-* Triple check the diagonals they need to be as close as you can get them.
+* Triple check the diagonals - they need to be as close as you can get them.
 
 !!! Tip
     Marking and pre-drilling the foot hold downs in the center of the screw slots makes it much easier to get a square base and leaves a tiny bit of room for adjustment.
@@ -66,12 +66,12 @@ ___
 ## Leg Locks
 ![!Parts and hardware](https://www.v1engineering.com/wp-content/uploads/2020/06/lock-parts-scaled.jpg){: width="400"}
 
-* You will need the Printed Corner Leg Locks and M5 Luck nuts.
+* You will need the printed Corner Leg Locks and M5 locknuts.
 * It is best to pre-thread all the locknuts before assembly. This will loosen them and prevent mangling of the printed parts.
 
-![!Embeded nut](https://www.v1engineering.com/wp-content/uploads/2020/06/lock-ready-scaled.jpg){: width="400"}
+![!Embedded nut](https://www.v1engineering.com/wp-content/uploads/2020/06/lock-ready-scaled.jpg){: width="400"}
 
-* Push the nut into the Leg lock and fully seat it. If it does not stay on it's own you can use a drop of Glue.
+* Push the nut into the Corner Leg Lock and fully seat it. If it does not stay on it's own you can use a drop of glue.
 * If the nut does not stay on it's own, you can attach the Corner Bottom very loosely with its bolt.
 
 ![!Orientation](https://www.v1engineering.com/wp-content/uploads/2020/06/base-lock-scaled.jpg){: width="400"}
@@ -85,19 +85,19 @@ ___
 ## Corner Bottoms
 ![!Parts and hardware](https://www.v1engineering.com/wp-content/uploads/2020/06/corner-bottom-scaled.jpg){: width="400"}
 
-* You will need the printed Corner Bottoms and Corner Bottom Mirrored And M5x30 screws.
+* You will need the printed Corner Bottoms and Corner Bottom Mirrored and M5x30 screws.
 
 !!! Warning
     If you are not using the V1 Kit please make sure your screw heads are low profile enough not to interfere with the Lower Rail.
 
 ![!Belt Orientation](https://www.v1engineering.com/wp-content/uploads/2020/06/base-bottom-arrows-scaled.jpg){: width="400"}
 
-* The corner bottoms go on the leg locks as shown, Pay attention to how the belt slider slots are oriented. They point towards each other on the outside of the build area.
+* The Corner Bottoms go on the Leg Locks as shown. Pay attention to how the belt slider slots are oriented. They point towards each other on the outside of the build area.
 * This picture is taken with the 0,0 (home) corner in the bottom nearest left. The corners should be as shown.
 
 ![!Assemble](https://www.v1engineering.com/wp-content/uploads/2020/06/base-bottom-scaled.jpg){: width="400"}
 
-* Get the screws started to hold the leg locks and corner bottoms together.
+* Get the screws started to hold the Leg Locks and Corner Bottoms together.
 * Leave them loose, just tight enough to make the screw head clear the rail.
 
 ![!Add Y rails](https://www.v1engineering.com/wp-content/uploads/2020/06/rails-1-scaled.jpg){: width="400"}
@@ -109,13 +109,13 @@ ___
 ## Lock The Legs
 ![!Hardware needded](https://www.v1engineering.com/wp-content/uploads/2020/06/leglock1-scaled.jpg){: width="400"}
 
-* You will need four sets of the M5 screws and Locknuts.
-* It is best to pre-thread all the locknuts before assembly. This will loosen them and prevent mangaling of the printed parts.
+* You will need four sets of the M5 screws and locknuts.
+* It is best to pre-thread all the locknuts before assembly. This will loosen them and prevent mangling of the printed parts.
 
 ![!Snugged up Lock](https://www.v1engineering.com/wp-content/uploads/2020/06/leglock2-scaled.jpg){: width="400"}
 
-* Snug up all four leg locks.
-* Snug, is just that, 1/4 turn past the screw and nut seating into the part. Just tight enough to make the corner have some resistance if you try to take it off the leg. 
+* Snug up all four Leg Locks.
+* Snug is just that, 1/4 turn past the screw and nut seating into the part. Just tight enough to make the corner have some resistance if you try to take it off the leg. 
 * All clamping parts have a gap. ***Do not clamp it hard enough to close the gap***!
 
 ![!Assemble](https://www.v1engineering.com/wp-content/uploads/2020/06/base-bottom-scaled.jpg){: width="400"}
@@ -123,7 +123,7 @@ ___
 * Now remove the rails and snug up the screw in the bottom of the corner pieces.
 
 !!! Tip
-    This screw is tightened after the leg locks so the bottom corner will correctly and fully seat on the angled joint between the two parts. If you tighten the bottom first you might have a hard time locking the leg into place or the bottom corner could come loose.
+    This screw is tightened after the Leg Locks so the Corner Bottom will correctly and fully seat on the angled joint between the two parts. If you tighten the bottom first you might have a hard time locking the leg into place or the Corner Bottom could come loose.
 ___
 
 ## Leveling
@@ -149,4 +149,4 @@ ___
 
 ___
 
-Done With the Base! 
+Done with the Base! 
