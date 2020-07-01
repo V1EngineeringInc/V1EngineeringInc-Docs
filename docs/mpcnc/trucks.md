@@ -5,9 +5,9 @@ Click on the images to embiggen.
 ## Bearings
 ![!MPCNC Truck parts](https://www.v1engineering.com/wp-content/uploads/2020/06/TParts-scaled.jpg){: width="400"}
 
-* You will need 5 sets of 5/16 x 1 1/2" (M8 x 40mm) Bolts and locking nuts.
+* You will need 5 sets of 5/16 x 1 1/2" (M8 x 40mm) bolts and locknuts.
 * Two 1/2" sockets and ratchets (or 13mm for M8's).
-* 5 Bearings.
+* 5 bearings.
 * Printed Truck and Truck Mirrored parts.
 
 ___
@@ -15,8 +15,8 @@ ___
 ## Tension Bolts
 ![!MPCNC truck tension bolts](https://www.v1engineering.com/wp-content/uploads/2020/06/Tension-scaled.jpg){: width="400"}
 
-* Insert the bearings in the truck and fit the bolts.
-* Just seat the locking nut, these will get adjusted later. Leave these loose.
+* Insert the bearings in the Truck and fit the bolts.
+* Just seat the locknuts, they will get adjusted later. Leave them loose.
 
 !!! Note
     Pay attention to the direction of the bolt heads on these two tension bolts.
@@ -37,9 +37,9 @@ ___
 ## Set The Truck Tension
 ![!MPCNC set the tension](https://www.v1engineering.com/wp-content/uploads/2020/06/Set-Tension-scaled.jpg){: width="400"}
 
-* Insert a rail into the truck.
-* You are looking for all bearings to make contact and just a hint of tension. If you tip the rail at a 45 degree angle the trucks should slowly move. Too tight and they will stay, too loose and they will drop right off.
-* Tension bolth bolts evenly, for a new print this should actually just be good with no extra tension needed. If this is the case just snug up the tension bolts until the heads and nuts are touching the plastic. Holding not adding to the current tension.
+* Insert a rail into the Truck.
+* You are looking for all bearings to make contact and just a hint of tension. If you tip the rail at a 45 degree angle the Trucks should slowly move. Too tight and they will stay, too loose and they will drop right off.
+* Tension both bolts evenly - for a new print this should actually just be good with no extra tension needed. If this is the case just snug up the tension bolts until the heads and nuts are touching the plastic. Holding not adding to the current tension.
 
 !!! Caution
        If you have to really torque down on these bolts you could have the wrong sized rails or parts. The same thing applies if they are too tight, although you can let them sit overnight with no tension on the bolts to see if they loosen up a bit.
@@ -48,8 +48,8 @@ ___
 ## Truck Clamp
 ![!MPCNC clamp parts](https://www.v1engineering.com/wp-content/uploads/2020/06/Addclamp-scaled.jpg){: width="400"}
 
-* You will need the printed Truck Clamp's.
-* M5 x 30mm Screw and lock nut.
+* You will need the printed Truck Clamps.
+* M5 x 30mm screw and lock nut.
 * \#2 screwdriver.
 
 ![!MPCNC clamp assembled](https://www.v1engineering.com/wp-content/uploads/2020/06/Looseclamp-scaled.jpg){: width="400"}
@@ -65,9 +65,9 @@ ___
 ## Belts and Idlers
 ![!MPCNC adding belts](https://www.v1engineering.com/wp-content/uploads/2020/06/Add-Belt-scaled.jpg){: width="400"}
 
-* You will need two idlers for each truck.
-* Two M5 screws and nuts
-* \#2 screw driver
+* You will need two idlers for each Truck.
+* Two M5 screws and nuts.
+* \#2 screw driver.
 
 !!! Tip
     If you add the belts first it is easier than trying to fish them through later. Each axis has a mirrored set of trucks so that is an easy way to also pair up the belts.
@@ -75,7 +75,7 @@ ___
 
 ![!MPCNC adding idlers](https://www.v1engineering.com/wp-content/uploads/2020/06/Idlers-scaled.jpg){: width="400"}
 
-* Tuck in the Idlers into the pocket in the trucks.
+* Tuck in the idlers into the pocket in the Trucks.
 * Tighten the screws just tight enough to seat the nut all the way then back off a 1/2 turn.
 * Ensure the idlers are free spinning.
 
@@ -96,12 +96,12 @@ ___
 ![!MPCNC aligning the drive train](https://www.v1engineering.com/wp-content/uploads/2020/06/Pulley-3.jpg){: width="400"}
 
 * Make sure the pulley is aligned with the idlers.
-* (optional) add loctite to the grub screws, even a bit on the stepper shaft can help.
+* (optional) Add loctite to the grub screws, even a bit on the stepper shaft can help.
 * Tighten the grub screw on the stepper shaft flat first.
 * Tighten the second grub screw.
 
 !!! Tip
-    Loose pulleys are probably the number one issue we see on both the MPCNC and LowRider CNC builds. They cause all sort of erratic behavior and false "skipped steps". Take your time do this correctly. Notice it does not say tighten the heck out of them. Get them on in the right order, directly on the flat, and loctite is your friend.
+    Loose pulleys are probably the number one issue we see on both the MPCNC and LowRider CNC builds. They cause all sort of erratic behavior and false "skipped steps". Take your time and do this correctly. Notice it does not say tighten the heck out of them. Get them on in the right order, directly on the flat, and loctite is your friend.
 
 ___
 
