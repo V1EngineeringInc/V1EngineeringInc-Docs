@@ -70,7 +70,7 @@ ___
 * \#2 screw driver.
 
 !!! Tip
-    If you add the belts first it is easier than trying to fish them through later. Each axis has a mirrored set of trucks so that is an easy way to also pair up the belts.
+    If you add the belts first it is easier than trying to fish them through later. Each axis has a mirrored set of Trucks so that is an easy way to also pair up the belts.
 
 
 ![!MPCNC adding idlers](https://www.v1engineering.com/wp-content/uploads/2020/06/Idlers-scaled.jpg){: width="400"}
@@ -86,12 +86,12 @@ ___
 
 * Steppers
 * Pulleys
-* Wire Darryl / Pulley spacer
+* Wire Darryl / pulley spacer
 * (optional) [Loctite](https://shop.v1engineering.com/collections/miscellaneous/products/0-5ml-threadlocker-242)
 
 ![!MPCNC set the pulleys](https://www.v1engineering.com/wp-content/uploads/2020/06/Pulley2-scaled.jpg){: width="400"}
 
-* You can use the wire darryl to set the pulley height or just do it by eye in the next step.
+* You can use the Wire Darryl to set the pulley height or just do it by eye in the next step.
 
 ![!MPCNC aligning the drive train](https://www.v1engineering.com/wp-content/uploads/2020/06/Pulley-3.jpg){: width="400"}
 
