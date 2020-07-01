@@ -22,7 +22,7 @@ ___
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Slide1-scaled.jpg){: width="400"}
 
-* The Upper Belt, Lower Belt, and mirrored versions all funtion the same way.
+* The Upper Belt, Lower Belt, and mirrored versions all function the same way.
 * You will need the 8 printed parts and eight M5 nuts.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Slide2-scaled.jpg){: width="400"}
@@ -35,7 +35,7 @@ ___
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Slide3-scaled.jpg){: width="400"}
 
 * The nuts fit into the end and are fully captured.
-* You can use a small screw driver to push them into postion or pull them into place with a screw.
+* You can use a small screw driver to push them into position or pull them into place with a screw.
 
 ___
 
@@ -74,9 +74,9 @@ ___
 
 * Setting the actual tension is not easy to quantify without a special test tool.
 * You want equal tension in all four belts ( 6-10lbs).
-* The needed tension is much less than most people think. It should just barely make a noise whem plucked.
+* The needed tension is much less than most people think. It should just barely make a noise when plucked.
 * Start loose, cut or plotting dimensions on the small side would indicate them being too loose. Easy fix, half turn of the belt screw.
-* Too tight and you can experince skipped steps randomly, premature wear on the idlers and steppers, the need for increased current to the steppers, and excessive heat. None of these are cheap easy fixes, start on the loose side.
+* Too tight and you can experience skipped steps randomly, premature wear on the idlers and steppers, the need for increased current to the steppers, and excessive heat. None of these are cheap easy fixes, start on the loose side.
 
 ___
 
