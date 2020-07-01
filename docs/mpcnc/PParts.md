@@ -1,12 +1,12 @@
 # MPCNC Primo Parts
 
 ## Printed Parts Sizes
-There are 3 different sets of printed parts C-23.5mm, F-25mm, or J-25.4mm (1 inch). The measurement is for the Outside Diameter of the conduit/rails/tubing. Please measure your rails before printing! 23.5mm fits ¾″ EMT conduit in the US. Anywhere else you must physically measure first. Some things are sold as Inside Dimension (ID) (conduit), or Outside Dimension (OD) (tubing).
+There are 3 different sets of printed parts C-23.5mm, F-25mm, or J-25.4mm (1 inch). The measurement is for the **Outside Diameter** of the conduit/rails/tubing. Please measure your rails before printing! 23.5mm fits ¾″ EMT conduit in the US. Anywhere else you must physically measure first. Some things are sold as Inside Dimension (ID) (conduit), or Outside Dimension (OD) (tubing).
 
 Hardware store steel EMT conduit works well and is inexpensive; an upgrade would be .065” (max is 0.120") wall thickness stainless steel tubing or DOM. Stainless steel tubing is more rigid and smooth, but also much more expensive, Dom is less expensive than Stainless but requires some coating to prevent rust.
 
 ## Recomendations
-Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptable, if your dimensions are verified good and you are willing to scrafice some rigidity). Two or more perimeters for through hole strength. There are some steep walls so no more than 75% layer height to nozzle diameter. 
+Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptable, if your dimensions are verified good and you are willing to sacrifice some rigidity). Two or more perimeters for through hole strength. There are some steep walls so no more than 75% layer height to nozzle diameter. 
 **No support should be needed for any part I have designed.**
 
 | Files can be found at                                    |                                                                           |                                                         |
@@ -49,25 +49,27 @@ Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptabl
 
 A tool mount is also needed for your specific tool. A list of mounts I have designed are [below](#spindle-options). You can also find user designed mounts on PrusaPrinters and Thingiverse by searching "MPCNC Primo" and your tool name.
 
-Color is the defualt color scheme I use to print the kits.
+Color is the default color scheme I use to print the kits. Color `A` is one color of filament, and
+`B` is the second color of filament.
 
-Total weight in PLA is approximately 2.2kgs.
+Total weight in PLA is approximately 2.2kg.
 
-Print time. Print times have been ranging from 65hrs (0.5mm nozzle @38mm/s), 120hrs (0.4mm @60+mm/s), 160hrs (0.4mm nozzle @35mm/s).
+#### Print time
+Print times have varied from 65hrs (0.5mm nozzle @38mm/s), 120hrs (0.4mm @60+mm/s), 160hrs (0.4mm nozzle @35mm/s).
 ___
 
 ## Hardware
 
-The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) contain all the following hardware. Currently it is not available seperately.
+The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) contain all the following hardware. Currently it is not available separately.
 
-| Hardware           | QTY |
-|--------------------|-----|
-| 5/16x1.5 (M8x 40)  | 46  |
-| 5/16 locknut (M8)  | 46  |
-| M5 x 30            | 65  |
-| M5 locknut         | 65  |
-| M3x10              | 24  |
-| M2.5x12 (#3 x1/2") | 10  |
+| Hardware     | Alternative | QTY |
+|--------------|-------------|-----|
+| 5/16x1.5"    | M8x40mm     | 46  |
+| 5/16 locknut | M8 locknut  | 46  |
+| M5x30mm      |             | 65  |
+| M5 locknut   |             | 65  |
+| M3x10mm      |             | 24  |
+| M2.5x12mm    | #3x1/2"     | 10  |
 
 ___
 
@@ -76,11 +78,16 @@ ___
 The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) contain all the following components.
 Some of these are affiliate links, you can buy from these links or just use them for information.
 
+!!! note
+    I try to keep the amazon links up to date, but they can sometimes change products without
+    changing the item number. So be careful when looking at these links to compare against
+    the offerings in the shop. If you're not sure, drop a question in the forums.
+
 | Part                | QTY | V1 Link                                                                                                                              | Other Link                                                |
 |---------------------|-----|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | Nema 17 50OZ/in+    | 5   | [Shop](https://shop.v1engineering.com/collections/parts/products/nema-17-76oz-in-steppers)                                           | [Amazon](https://amzn.to/3hQKILc)                         |
 | * Belt GT2 10mm     | 4   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/gt2-10mm-belt)                                             | [Amazon](https://amzn.to/2V5pfo8)                         |
-| Pulley 16t gt2 10mm | 4   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/pulley-16-tooth-gt2-10mm)                                  | [Amazon](https://amzn.to/2NhW5xC)                         |
+| Pulley 16t gt2 10mm | 4   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/pulley-16-tooth-gt2-10mm)                                  | [Amazon](https://amzn.to/2VmDWTR)                         |
 | Idler 20t gt2 10mm  | 8   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/20t-idler-gt2-10mm)                                        | [Amazon](https://amzn.to/37TNJWh)                         |
 | Power Supply        | 1   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/12v-6a-power-supply)                                       | [Amazon](https://amzn.to/2Cwlp0M)                         |
 | Wiring kit          | 1   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/wiring-kit-1)                                              | Custom Made for V1                                        |
@@ -111,7 +118,7 @@ ___
 
 ## Tool Mounts
 
-You are able to use tool mounts originally designed for the Burly MPCNC, you just need to use the Burly Toolmount and nut traps.
+You are able to use tool mounts originally designed for the Burly MPCNC, you just need to use the Burly tool mount and nut traps.
 
 * Blank tool mount, [HERE](), to design your own.
 
@@ -124,15 +131,16 @@ ___
 
 Kits are available in the [V1 Shop](https://shop.v1engineering.com/products/mpcnc-burly-to-primo-hardware-kit).
 
-| Part                                | QTY |
-|-------------------------------------|-----|
-| 10mm GT2 Pulleys                    | 4   |
-| 10mm GT2 20T Idlers                 | 8   |
-| 5/16" x 1.5" Bolts (M8 x 40)        | 46  |
-| 5/16" Nylock (M8)                   | 1   |
-| M5 x 30mm Phillips Pan Head Screws  | 64  |
-| M5 Nylocks                          | 64  |
-| M12 x 12mm Phillips Pan Head Screws | 10  |
-| *10mm GT2 belt.                     | ?M  |
+| Part                               | QTY |
+|------------------------------------|-----|
+| 10mm GT2 Pulleys                   | 4   |
+| 10mm GT2 20T Idlers                | 8   |
+| 5/16"x1.5" Bolts (M8x40mm)         | 46  |
+| 5/16" Nylock (M8)                  | 1   |
+| M5x30mm Phillips Pan Head Screws   | 64  |
+| M5 Nylocks                         | 64  |
+| M2.5x12mm Phillips Pan Head Screws | 10  |
+| *10mm GT2 belt.                    | ?M  |
 
-*While can use your 6mm belt I suggest you upgrade to 10mm belt, use the calculator for the amount you need.
+*While can use your 6mm belt I suggest you upgrade to 10mm belt, use the [calculator](calculator.md) for the amount you need.
+
