@@ -75,8 +75,10 @@ ___
 * Setting the actual tension is not easy to quantify without a special test tool.
 * You want equal tension in all four belts ( 6-10lbs).
 * The needed tension is much less than most people think. It should just barely make a noise when plucked.
-* Start loose, cut or plotting dimensions on the small side would indicate them being too loose. Easy fix, half turn of the belt screw.
-* Too tight and you can experience skipped steps randomly, premature wear on the idlers and steppers, the need for increased current to the steppers, and excessive heat. None of these are cheap easy fixes, start on the loose side.
+
+!!! Note
+    Start loose, when using the machine for a cut or plotting the dimensions will be on the small side if the belts are too loose. Easy fix, half turn of the belt  screw.
+    Too tight and you can experience skipped steps randomly, premature wear on the idlers and steppers, the need for increased current to the steppers, and excessive heat. None of these are cheap easy fixes, start on the loose side.
 
 ___
 
