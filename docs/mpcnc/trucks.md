@@ -70,7 +70,7 @@ ___
 * \#2 screw driver.
 
 !!! Tip
-    If you add the belts first it is easier than trying to fish them through later. Each axis has a mirrored set of Trucks so that is an easy way to also pair up the belts.
+    If you add the belts first it is easier than trying to fish them through later. Each axis has a mirrored set of Trucks, so that is an easy way to also pair up the belts.
 
 
 ![!MPCNC adding idlers](https://www.v1engineering.com/wp-content/uploads/2020/06/Idlers-scaled.jpg){: width="400"}
