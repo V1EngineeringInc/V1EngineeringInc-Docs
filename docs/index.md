@@ -1,6 +1,6 @@
 # V1 Engineering Documentation
 
-This is the new home of the V1 Engineering community documentation.
+This is the new home of the [V1 Engineering](https://www.v1engineering.com/) community documentation.
 
 [This documentation is hosted on github.io](https://docs.v1engineering.com), [The source code is on github](https://github.com/V1EngineeringInc/V1EngineeringInc-Docs)
 
@@ -56,6 +56,7 @@ Content was created, edited, and shared by:
 
 Ryan Zellars (allted, vicious1) - Jeff Eberl (jeffeb3) - Mark Frost (fr0sty1) - Jamie (vector76) -
 Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett - Ian (ianj001) - Gene Merritt (merrittgene)
+Kenny (techguy682)
 
 Special thanks to the Primo test crew. Without you fellas Primo would not be the absolute beast that it is!
 Tim (timonjkl) - GP (gpagnozzi) - Barry (barry99705)
