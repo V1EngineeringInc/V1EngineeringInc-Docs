@@ -43,8 +43,8 @@ highly** recommend that. More sizing details on [this page](https://www.v1engine
 
 #### Workspace
 <!-- These "value"s are going to be overwritten by the reset_work() function below. -->
-<input class="calc" type="number" onchange="from_working()" name="xwork" value="300" size="6"><span class="units">mm</span> x<br/>
-<input class="calc" type="number" onchange="from_working()" name="ywork" value="300" size="6"><span class="units">mm</span> y<br/>
+<input class="calc" type="number" onchange="from_working()" name="xwork" value="450" size="6"><span class="units">mm</span> x<br/>
+<input class="calc" type="number" onchange="from_working()" name="ywork" value="330" size="6"><span class="units">mm</span> y<br/>
 <input class="calc" type="number" onchange="from_working()" name="zwork" value="81" size="6"><span class="units">mm</span> z<br/>
 <button class="reset" onclick="reset_work()">Reset</button>
 
@@ -249,8 +249,8 @@ function clip(value) {
 
 function reset_work() {
   const unit_convert = get_unit_convert();
-  $("input[name=xwork]").val(clip(300 * unit_convert));
-  $("input[name=ywork]").val(clip(300 * unit_convert));
+  $("input[name=xwork]").val(clip(450 * unit_convert));
+  $("input[name=ywork]").val(clip(330 * unit_convert));
   $("input[name=zwork]").val(clip(81 * unit_convert));
   from_working();
 }
