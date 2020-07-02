@@ -249,8 +249,8 @@ function clip(value) {
 
 function reset_work() {
   const unit_convert = get_unit_convert();
-  $("input[name=xwork]").val(clip(300 * unit_convert));
-  $("input[name=ywork]").val(clip(300 * unit_convert));
+  $("input[name=xwork]").val(clip(450 * unit_convert));
+  $("input[name=ywork]").val(clip(330 * unit_convert));
   $("input[name=zwork]").val(clip(81 * unit_convert));
   from_working();
 }
