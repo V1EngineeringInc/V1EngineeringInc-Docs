@@ -19,16 +19,16 @@ ___
 ![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/XYDiagram-scaled.jpg){: width="400"}
 
 * Use this picture to orient the Trucks and sort out your X and Y rails
-* You do not need the Gantry rails at this point, they are just in this picture to clarify the position of the trucks.
+* You do not need the gantry rails at this point, they are just in this picture to clarify the position of the Trucks.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Rails-scaled.jpg){: width="400"}
 
 * Add the tops.
-* Pay close attention to the belt slides they should be on the opposite rails of the corner bottom parts.
+* Pay close attention to the belt slides they should be on the opposite rails of the Corner Bottom parts.
 * Add the screws and nuts and lightly seat them all. 
 
 !!! Caution
-    With all the captured nuts you should prethread the screws at least once to loosen the lock nuts up a bit to not destroy the printed parts.
+    With all the captured nuts you should prethread the screws at least once to loosen the locknuts up a bit to not destroy the printed parts.
 
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Gap-scaled.jpg){: width="400"}
@@ -39,20 +39,21 @@ ___
 * Do not over tighten these screws.
 
 !!! Caution
-    The corner parts are the most commonly over tightened and broken pieces on both CNC's. There is absolutely no need. You can always add tension if there was a problem but cracking a part requires printing or buying a new one. ***Remember, there is no need to stop the rails from rotating***. 
+    The corner parts are the most commonly over tightened and broken pieces on both CNCs. There is absolutely no need. You can always add tension if there was a problem but cracking a part requires printing or buying a new one. ***Remember, there is no need to stop the rails from rotating***. 
 
 ___
 
 ## Truck Squaring
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Truck-squaring.png){: width="400"}
 
-* New to the Primo Version, before moving on it is best to square your trucks.
-* Clamp in your Gantry rails.
+* New to the Primo version, before moving on it is best to square your Trucks.
+* Clamp in your gantry rails.
 * Move the axis around to settle it.
-* Measure from the trucks on the same axis to either corner. (yellow Arrow)
-* Now you can move the trucks by very slightly tightening the tension bolts, start small try 1/16th of a turn. (green arrows)
-* Too tight and it will stop moving.
-* Loosening will relax it opposite the green arrows.
+* Measure from the Trucks on the same axis to either corner (yellow arrow).
+* Now you can move the Trucks by very slightly tightening the tension bolts. 
+    * Start small: try 1/16th of a turn (green arrows).
+    * Too tight and it will stop moving.
+    * Loosening will relax it opposite the green arrows.
 * Check both axes, again looking for 1mm or under.
 * Remove the gantry rails.
 

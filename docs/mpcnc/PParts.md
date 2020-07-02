@@ -55,12 +55,12 @@ Color is the default color scheme I use to print the kits. Color `A` is one colo
 Total weight in PLA is approximately 2.2kg.
 
 #### Print time
-Print times have varied from 65hrs (0.5mm nozzle @38mm/s), 120hrs (0.4mm @60+mm/s), 160hrs (0.4mm nozzle @35mm/s).
+Print times have varied from 65hrs (0.5mm nozzle @38mm/s), to 120hrs (0.4mm @60+mm/s), and 160hrs (0.4mm nozzle @35mm/s).
 ___
 
 ## Hardware
 
-The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) contain all the following hardware. Currently it is not available separately.
+The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) contain all of the following hardware. Currently it is not available separately.
 
 | Hardware     | Alternative | QTY |
 |--------------|-------------|-----|
@@ -75,11 +75,11 @@ ___
 
 ## Components
 
-The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) contain all the following components.
+The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) contain all of the following components.
 Some of these are affiliate links, you can buy from these links or just use them for information.
 
 !!! note
-    I try to keep the amazon links up to date, but they can sometimes change products without
+    I try to keep the Amazon links up to date, but they can sometimes change products without
     changing the item number. So be careful when looking at these links to compare against
     the offerings in the shop. If you're not sure, drop a question in the forums.
 
@@ -142,5 +142,5 @@ Kits are available in the [V1 Shop](https://shop.v1engineering.com/products/mpcn
 | M2.5x12mm Phillips Pan Head Screws | 10  |
 | *10mm GT2 belt.                    | ?M  |
 
-*While can use your 6mm belt I suggest you upgrade to 10mm belt, use the [calculator](calculator.md) for the amount you need.
+*While you can use your 6mm belt, I suggest you upgrade to 10mm belt. Use the [calculator](calculator.md) for the amount you need.
 
