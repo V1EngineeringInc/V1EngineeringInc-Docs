@@ -103,7 +103,7 @@ ___
 
 ## Spindle Options
 
-Currently I have made mounts for the preferred [Dewalt 660](https://amzn.to/2Z3yaHC).
+Currently I have made mounts for the preferred [Dewalt 660](https://amzn.to/2Z3yaHC), [Makita RT701c](https://amzn.to/2ZA9Lde).
 Others options would be the [55mm spindle](https://amzn.to/2BsxX8S) (57mm caps), the least attractive option is the [52mm spindle](https://amzn.to/2BtIFvO).
 
 
