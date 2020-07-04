@@ -28,7 +28,7 @@ highly** recommend that. More sizing details on [this page](https://www.v1engine
 <input type="radio" onchange="from_working()" name="model" value="Burly"> Burly<br/>
 
 #### Tool Choice \*
-<input type="radio" onchange="from_working()" name="tool" value="Pen" checked> Full range of motion (pen, laser, drag knife, etc)<br/>
+<input type="radio" onchange="from_working()" name="tool" value="Pen" checked> Full range of motion (pen, laser, drag knife, Makita RT70x, etc)<br/>
 <input type="radio" onchange="from_working()" name="tool" value="DW660"> Dewalt DW660<br/>
 <input type="radio" onchange="from_working()" name="tool" value="55mm"> 52mm & 55mm Spindle<br/>
 
@@ -148,7 +148,8 @@ function get_offsets() {
     // working space clipped by this much (not necessarily the same between burly and primo
     burly.xrail_minus_work = burly.xrail_minus_work + 10 * unit_convert;
     burly.xgantryrail_minus_work = burly.xgantryrail_minus_work + 10 * unit_convert;
-    burly.yrail_minus_work = burly.xrail_minus_work + 8 * unit_convert;
+    burly.yrail_minus_work = burly.yrail_minus_work + 8 * unit_convert;
+    burly.ygantryrail_minus_work = burly.ygantryrail_minus_work + 8 * unit_convert;
     burly.zrail_minus_work = burly.zrail_minus_work + 2.75 * unit_convert;
     burly.zleg_minus_work = burly.zleg_minus_work + 2.75 * unit_convert;
 
