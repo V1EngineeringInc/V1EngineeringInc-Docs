@@ -109,7 +109,7 @@ Others options would be the [55mm spindle](https://amzn.to/2BsxX8S) (57mm caps),
 
 | Mount Files can be found at                                           |                                                                           |                                                         |
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------|
-| [GitHub](https://github.com/V1EngineeringInc/MPCNC_Primo_Tool_Mounts) | [PrusaPrinters](https://www.prusaprinters.org/social/47417-ryan-z/prints) | [Thingiverse](https://www.thingiverse.com/allted/about) |
+| [GitHub](https://github.com/V1EngineeringInc/MPCNC_Primo_Tool_Mounts) | [PrusaPrinters](https://www.prusaprinters.org/social/47417-ryan-z/collections/26592) | [Thingiverse](https://www.thingiverse.com/allted/about) |
 
 
 More to come.
