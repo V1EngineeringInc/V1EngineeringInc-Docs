@@ -52,6 +52,9 @@ A tool mount is also needed for your specific tool. A list of mounts I have desi
 Color is the default color scheme I use to print the kits. Color `A` is one color of filament, and
 `B` is the second color of filament.
 
+!!! Note
+     The core can be printed with varible infill to save time and plastic. 70%/30%/70% split at 24mm and 116mm.
+
 Total weight in PLA is approximately 2.2kg.
 
 #### Print time
@@ -70,6 +73,11 @@ The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) cont
 | M5 locknut   |             | 65  |
 | M3x10mm      |             | 24  |
 | M2.5x12mm    | #3x1/2"     | 10  |
+
+This version using both sizes of hardware equally well. No issues with metric bolts what so ever.
+
+!!!Note
+     Bolts need to be hex head, screws button head. If you choose to use cap head you will need washers and perhaps a little extra length.
 
 ___
 
@@ -99,6 +107,9 @@ Some of these are affiliate links, you can buy from these links or just use them
 
 * Use the [calculator](calculator.md) to determine belt length.
 
+
+!!!Caution
+     Do not use Steel reinforced belts, they will fail 100% of the time. Fiber reinforced only.
 ___
 
 ## Spindle Options
