@@ -77,7 +77,7 @@ The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) cont
 This version uses both sizes of hardware equally well. No issues with metric bolts what so ever.
 
 !!!Note
-     Bolts need to be hex head, screws button head. If you choose to use cap head you will need washers and perhaps a little extra length.
+     Bolts need to be hex head, screws pan head. If you choose to use cap head you will need washers and perhaps a little extra length.
 
 ___
 
