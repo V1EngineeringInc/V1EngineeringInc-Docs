@@ -131,7 +131,7 @@ ___
 
 You are able to use tool mounts originally designed for the Burly MPCNC, you just need to use the Burly tool mount and nut traps.
 
-* Blank tool mount, [HERE](), to design your own.
+* Blank tool mount, [HERE](https://github.com/V1EngineeringInc/MPCNC_Primo_Tool_Mounts/tree/master/Blank%20Mounts), to design your own.
 
 !!! Note
     The blank tool mount needs details.
