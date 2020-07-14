@@ -1,5 +1,5 @@
 # This is an Inexpensive CNC Platform
-![!MPCNC Render](https://www.v1engineering.com/wp-content/uploads/2018/10/renb1-1.jpg){: width="450"}
+![!MPCNC Render](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-scaled.jpg){: width="450"}
  
 ## The Mostly Printed CNC
 
