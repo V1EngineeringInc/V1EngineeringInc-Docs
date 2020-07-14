@@ -35,3 +35,9 @@ button.reset {
 .calculator-button {
   color: #ea1717
 }
+
+.center {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
