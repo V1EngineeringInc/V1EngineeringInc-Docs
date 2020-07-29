@@ -49,6 +49,7 @@ nav:
    - Some Control Board Options:
      - Ultimachine Boards: electronics/ultimachine.md
      - Ramps: electronics/ramps.md
+     - SKR Pro: electronics/skrpro.md
    - Steppers:
      - Wiring The Steppers: electronics/steppers.md
    - Some Advanced Options:
