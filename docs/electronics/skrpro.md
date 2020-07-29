@@ -124,6 +124,8 @@ Links needed.
 
 Links and screenshot needed.
 
+The V1 Engineering CNC version of the TFT firmware is in this [release](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/releases/tag/V1-Vx.x.26)
+
 ## Compile your own (source)
 
 If you want to make any changes you will need to compile form the source files using Platform.io.
@@ -135,5 +137,3 @@ The V1 Engineering version of the SKR Pro firmware can be found on
 The V1 Engineering generic version of the TFT firmware is in this [github
 repo](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware)
 
-Jeffeb3 updated Loki's version of the TFT and this firmware is amazing and setup very well for the
-TFT, [Heffe's Github](https://github.com/jeffeb3/BIGTREETECH-TouchScreenFirmware/tree/loki)
