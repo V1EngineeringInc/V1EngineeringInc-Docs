@@ -147,7 +147,7 @@ this way. Once again don’t forget to vent your fumes safely and accordingly.
 Choosing which laser to buy can be the hardest part.
 
 If this all already seems overwhelming just buy a [JTechPhotonics
-kit](https://jtechphotonics.com/?product=1-7w-445nm-laser-diode-and-2-0-amp-adjustable-driver-kit).
+kit](https://jtechphotonics.com/?product_cat=laser-and-driver-combo-kits).
 Why; it is a trusted laser/company, glasses proven suitable for it, complete kits available, the
 only kit that is [US
 legal](https://www.fda.gov/Radiation-EmittingProducts/RadiationEmittingProductsandProcedures/HomeBusinessandEntertainment/LaserProductsandInstruments/default.htm),
