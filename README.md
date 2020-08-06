@@ -10,6 +10,6 @@ github.io](https://docs.v1engineering.com)
 
 ## Note 
 
-#Thank you Heffe for this amazing effort, the Docs look great and getting outside help from you and the other [contributors])https://docs.v1engineering.com/#contributors) is magical! 
+#Thank you Heffe for this amazing effort, the Docs look great and getting outside help from you and the other [contributors](https://docs.v1engineering.com/#contributors) is magical! 
 
 [![CircleCI](https://circleci.com/gh/V1EngineeringInc/V1EngineeringInc-Docs/tree/master.svg?style=svg)](https://circleci.com/gh/V1EngineeringInc/V1EngineeringInc-Docs/tree/master)
