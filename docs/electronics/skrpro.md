@@ -119,9 +119,9 @@ placing some files directly on the memory card and rebooting them.
 ### SKR Bin
 
 You have three options for the exact confuguration as sold in the V1 store.
-V1CNC_SkrPro_2209-****** Ready for series wiring on any CNC build.
-V1CNC_SkrPro_Dual_2209-****** Ready for dual endstops on an MPCNC (X & Y axes).
-V1CNC_SkrPro_DualLR_2209-****** Ready for dual endstops on a LowRider CNC (Y & Z axes).
+* V1CNC_SkrPro_2209-****** Ready for series wiring on any CNC build.
+* V1CNC_SkrPro_Dual_2209-****** Ready for dual endstops on an MPCNC (X & Y axes).
+* V1CNC_SkrPro_DualLR_2209-****** Ready for dual endstops on a LowRider CNC (Y & Z axes).
 
 Current release bin files, [V1 Engineering preconfigured firmware](https://github.com/V1EngineeringInc/MarlinBuilder/releases).
 
