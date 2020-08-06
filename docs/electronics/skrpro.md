@@ -118,12 +118,13 @@ placing some files directly on the memory card and rebooting them.
 
 ### SKR Bin
 
-You have three options for the exact confuguration as sold in the V1 store.
-* V1CNC_SkrPro_2209-****** Ready for series wiring on any CNC build.
-* V1CNC_SkrPro_Dual_2209-****** Ready for dual endstops on an MPCNC (X & Y axes).
-* V1CNC_SkrPro_DualLR_2209-****** Ready for dual endstops on a LowRider CNC (Y & Z axes).
+You have three options for the exact configuration as sold in the V1 store.
 
-Current release bin files, [V1 Engineering preconfigured firmware](https://github.com/V1EngineeringInc/MarlinBuilder/releases).
+* V1CNC_SkrPro_2209-****** Ready for series wiring on any CNC build.
+* V1CNC_SkrPro_Dual_2209-****** Ready for dual end stops on an MPCNC (X & Y axes).
+* V1CNC_SkrPro_DualLR_2209-****** Ready for dual end stops on a LowRider CNC (Y & Z axes).
+
+Current release bin files, [V1 Engineering pre-configured firmware](https://github.com/V1EngineeringInc/MarlinBuilder/releases).
 
 When you unzip the file you have a .bin file. Rename to FIRMWARE.bin, and save it to the MicroSD for the SKR Pro board. Insert the MicroSD back into the control board reset and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). You also have the option to get the full Marlin source and edit and compile yourself using [Platformio Docs](../learn/platformio.md).
 
