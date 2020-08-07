@@ -187,6 +187,8 @@ Sorry I do not have a config for this yet.
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram5.png){: width="200"}
 - Tools- Port (whatever port your board shows up in)
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/port.png){: width="400"}
+- Press and hold the erase button on the Archim board for 5 seconds.
+- Wait 30 seconds then press the reset button on the Archim
 - Open the firmware folder and select the current Marlin.ino file
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/11/Marlin19.jpg){: width="400"}
 - Click on the Upload arrow and watch the progress bar at the bottom
