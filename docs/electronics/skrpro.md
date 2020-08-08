@@ -118,22 +118,43 @@ placing some files directly on the memory card and rebooting them.
 
 ### SKR Bin
 
-You have three options for the exact configuration as sold in the V1 store.
+You have three options of firmware for the exact board, driver, screen package as sold in the V1 store.
 
 * V1CNC_SkrPro_2209-****** Ready for series wiring on any CNC build.
 * V1CNC_SkrPro_Dual_2209-****** Ready for dual end stops on an MPCNC (X & Y axes).
 * V1CNC_SkrPro_DualLR_2209-****** Ready for dual end stops on a LowRider CNC (Y & Z axes).
 
+When you unzip the file you have a .bin file. Rename to FIRMWARE.bin, and save it to the MicroSD for the SKR Pro board. Insert the MicroSD back into the control board reset and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). 
+
+![!SKR file](https://www.v1engineering.com/wp-content/uploads/2020/08/SKR_Bin.jpg){: width="400"}
+
+The file will change extensions when a successful flash happens.
+
+
 Current release bin files, [V1 Engineering pre-configured firmware](https://github.com/V1EngineeringInc/MarlinBuilder/releases).
 
-When you unzip the file you have a .bin file. Rename to FIRMWARE.bin, and save it to the MicroSD for the SKR Pro board. Insert the MicroSD back into the control board reset and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). You also have the option to get the full Marlin source and edit and compile yourself using [Platformio Docs](../learn/platformio.md).
+You also have the option to get the full Marlin source and edit and compile yourself using [Platformio Docs](../learn/platformio.md).
 
 
 ### TFT Files
 
-Links and screenshot needed.
+Flashing the screen takes a .bin file, the config file, and usually the TFT35 folder (unzipped) on the root of the screens SD card.
+
+You can get these file from the link at the end of this section below.
+
+BIGTREE_TFT35_V3.0_E3.****.bin
+config.ini
+TFT35 (folder) you do not need the folder present for minor updates it is just for graphics and languages.
+
+![!TFT files](https://www.v1engineering.com/wp-content/uploads/2020/08/TFT35_bin.jpg){: width="400"}
+
+Now reset the screen (or board) and watch the screen update itself. You can double check and the files will have a new extension after a successful flash.
 
 The V1 Engineering CNC version of the TFT firmware is in this [release](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/releases/tag/V1-Vx.x.26)
+
+#### TFT Touch reset
+
+If you somehow mess up the touch calibration placing and empty reset.txt file on the card and resetting will trigger a re-calibration.
 
 ## Compile your own (source)
 
