@@ -67,4 +67,4 @@ This machine can easily do many things, how about making some coffee with Apachâ
 
 ## More info
 
-To see some of the capabilities, and some interesting builds check out some [videos](https://www.v1engineering.com/videos/), or the project [gallery](https://www.v1engineering.com/videos/gallery/).
+To see some of the capabilities, and some interesting builds check out some [videos](https://www.v1engineering.com/videos/), or the user galleries, [MPCNC gallery](https://forum.v1engineering.com/tag/gallery-mpcnc), [LowRider CNC gallery](https://forum.v1engineering.com/tag/gallery-lowrider-cnc).
