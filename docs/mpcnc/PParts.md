@@ -11,7 +11,7 @@ Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptabl
 
 | Files can be found at                                    |                                                                           |                                                         |
 |----------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------|
-| [GitHub](https://github.com/V1EngineeringInc/PrimoParts) | [PrusaPrinters](https://www.prusaprinters.org/social/47417-ryan-z/prints) | [Thingiverse](https://www.thingiverse.com/allted/about) |
+| [GitHub](https://github.com/V1EngineeringInc/MPCNC_Primo) | [PrusaPrinters](https://www.prusaprinters.org/social/47417-ryan-z/prints) | [Thingiverse](https://www.thingiverse.com/allted/about) |
 
 ## Primo Printed Parts List
 
