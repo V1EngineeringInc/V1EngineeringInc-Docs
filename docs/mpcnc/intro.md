@@ -9,7 +9,7 @@ The Mostly Printed CNC (MPCNC) is a platform to precisely control motion. This c
 
 All components are easily sourced or you can buy the parts from this site. Here is a price breakdown.
 
-* The [Bundle](https://shop.v1engineering.com/collections/parts/products/mostly-printed-cnc-parts-bundle-primo-version) has all the hardware, electronics, and control board, everything except the[conduit/rails](https://docs.v1engineering.com/mpcnc/calculator/) which are cheaper to source locally than to ship – $305 + shipping if international.
+* The [Bundle](https://shop.v1engineering.com/collections/parts/products/mostly-printed-cnc-parts-bundle-primo-version) has all the hardware, electronics, and control board, everything except the [conduit/rails](https://docs.v1engineering.com/mpcnc/calculator/) which are cheaper to source locally than to ship – $305 + shipping if international.
 * 20′ of [Conduit](https://docs.v1engineering.com/mpcnc/calculator/) **≈\$12** (or stainless steel tubing or DOM Tubing for a little more ≈\$65) .
 * Plastic parts, filament, less than 2 spools **≈\$35** if you own a 3D printer. If not, buy the printed parts from [here](https://shop.v1engineering.com/collections/parts) for $165.
 * Tool. Either a [Dewalt](https://amzn.to/1MoBSQq), [import spindle](https://amzn.to/3dkKgl0) or an [extruder](https://amzn.to/37ZjygN) (3D Printer) $63, or anything else you might want to bolt on, [laser](https://amzn.to/37OcdQK), [drag knife](https://shop.v1engineering.com/collections/parts/products/drag-knife-vinyl-cutter), foam cutting needle (awesome), etc.
