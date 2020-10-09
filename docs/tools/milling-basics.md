@@ -239,6 +239,9 @@ GitHub](https://github.com/guffy1234/mpcnc_posts_processor). [Fusion CAM
 intro](https://www.youtube.com/watch?v=Do_C_NLH5sw).
 
 !!! warning
+    Fusion's free plan no longer supports more than one speed, so the feedrate for XY turn into very fast Z movements. More details in the forum [here](https://forum.v1engineering.com/t/problem-with-fusion-and-z-feedrate/21487)
+
+!!! warning
     (10/23/19) Do not use arcs unless you are using 417 or newer firmware.
 
 Vectric, Aspire, Vcarve
