@@ -9,6 +9,9 @@ Hardware store steel EMT conduit works well and is inexpensive; an upgrade would
 Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptable, if your dimensions are verified good and you are willing to sacrifice some rigidity). Two or more perimeters for through hole strength. There are some steep walls so no more than 75% layer height to nozzle diameter. 
 **No support should be needed for any part I have designed.**
 
+!!!Note
+     If your 3D printer is of questionable quality it is best to run a quick [basic frame test](https://www.prusaprinters.org/prints/36412-xy-size-and-square-calibration-print) to make sure the parts will print as intended.  If the test indicates that your frame is not square, then carefully check the frame and adjust, and retest.  If you have to square the frame, then you might also consider printing the [Advanced frame test](https://www.prusaprinters.org/prints/38846-zx-and-zy-printer-frame-test). Investing time on this up front is much better than printing parts for four days and then finding that your calibration or frame is off. 
+
 | Files can be found at                                    |                                                                           |                                                         |
 |----------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------|
 | [GitHub](https://github.com/V1EngineeringInc/MPCNC_Primo) | [PrusaPrinters](https://www.prusaprinters.org/social/47417-ryan-z/prints) | [Thingiverse](https://www.thingiverse.com/allted/about) |
