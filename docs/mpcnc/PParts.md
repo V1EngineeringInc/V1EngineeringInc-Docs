@@ -5,7 +5,7 @@ There are 3 different sets of printed parts C-23.5mm, F-25mm, or J-25.4mm (1 inc
 
 Hardware store steel EMT conduit works well and is inexpensive; an upgrade would be .065” (max is 0.120") wall thickness stainless steel tubing or DOM. Stainless steel tubing is more rigid and smooth, but also much more expensive, Dom is less expensive than Stainless but requires some coating to prevent rust.
 
-## Recomendations
+## Recommendations
 Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptable, if your dimensions are verified good and you are willing to sacrifice some rigidity). Two or more perimeters for through hole strength. There are some steep walls so no more than 75% layer height to nozzle diameter. 
 **No support should be needed for any part I have designed.**
 
