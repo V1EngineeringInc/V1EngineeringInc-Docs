@@ -17,7 +17,7 @@ All components are easily sourced or you can buy the parts from this site. Here 
 Total Cost… if you have a 3D printer Under $418, $547 if you buy the printed parts from here.
 
 
-I would like to drive that price home one more time. You can have a CNC router for precision work ([here](https://www.v1engineering.com/forum/topic/mrrf-2018-ideas/page/3/#post-56336), [here](https://www.v1engineering.com/forum/topic/pcb-examples/#post-9100) all the way up to [aluminum milling](https://forum.v1engineering.com/t/lionkevs-aluminum-attempts/6047/101?u=vicious1) and [plasma cutting](https://www.v1engineering.com/forum/topic/plasma-build/#post-30714) steel for under $550. That is all you need to spend, throw in a few endmills and you are still under $600. **There is no other machine more versatile than the Mostly Printed CNC at any price point.**
+I would like to drive that price home one more time. You can have a CNC router for precision work ([here](https://forum.v1engineering.com/t/mrrf-2018-ideas/7112/55), [here](https://forum.v1engineering.com/t/pcb-examples/4015/27) all the way up to [aluminum milling](https://forum.v1engineering.com/t/lionkevs-aluminum-attempts/6047/101?u=vicious1) and [plasma cutting](https://forum.v1engineering.com/t/plasma-build/5662) steel for under $550. That is all you need to spend, throw in a few endmills and you are still under $600.  **There is no other machine more versatile than the Mostly Printed CNC at any price point.**
 
 
 ## Specs…
@@ -35,8 +35,7 @@ This machine can easily do many things, how about making some coffee with Apach�
 
 - The smaller you make this the faster you can move it and the more rigid/accurate it will be, and more importantly the easier it will be to get the desired accuracy.
 
-- The linear motion is ball bearings on electrical conduit (or stainless steel)… seriously, easy to use and source. More information on this [here](https://www.v1engineering.com/assembly/machine-size/). If this machine isn’t big enough I have also designed the [LowRider CNC](https://www.v1engineering.com/lowrider-cnc/), all the same specs and resolution just designed to be bigger!
-
+- The linear motion is ball bearings on electrical conduit (or stainless steel)… seriously, easy to use and source. More information on this [here](https://www.v1engineering.com/assembly/machine-size/). If this machine isn’t big enough I have also designed the [LowRider CNC](../lowrider/index.md), all the same specs and resolution just designed to be bigger!
  
 ## Power
 
@@ -57,13 +56,15 @@ This machine can easily do many things, how about making some coffee with Apach�
  
 ## DIY
 
-- Besides using either common imperial or metric hardware, the rest of the machine is easily 3D printable, RepRap style! Full list of hardware [here](https://www.v1engineering.com/blog/parts/), and the files for the printed parts can be had [here](https://www.thingiverse.com/thing:724999).
+- Besides using either common imperial or metric hardware, the rest of the machine is easily 3D
+    printable, RepRap style! Full list of hardware [here](PParts.md#hardware), and the files for the printed
+    parts can be had [here](PParts.md).
 
 - All of these things can be easily assembled with basic hand tools, no specialty tools, power tools, or precision cuts required.
 
 ![!Simple MPCNC](https://www.v1engineering.com/wp-content/uploads/2015/07/IMG_20150802_16352001.jpg){: width="450"}
 ![!Fancy MPCNC](https://www.v1engineering.com/wp-content/uploads/2018/04/IMG_20180409_184626.jpg){: width="450"}
-[Build Thread](https://www.v1engineering.com/forum/topic/red-black-and-wheels/)
+[Build Thread](https://forum.v1engineering.com/t/red-black-and-wheels/7303)
 
 ## More info
 

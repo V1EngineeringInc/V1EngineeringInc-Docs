@@ -13,7 +13,7 @@ These instructions are a collection of knowledge from the V1 Engineering communi
 designed for collaboration in mind and edits are welcome. Please help us make this documentation
 better.
 
-This idea started in the forums: [Community Documentation](https://www.v1engineering.com/forum/topic/community-documentation/)
+This idea started in the forums: [Community Documentation](https://forum.v1engineering.com/t/community-documentation/11435)
 
 **The forums are a great way to get help. Please stop by and ask questions or share what you're
 building.**
