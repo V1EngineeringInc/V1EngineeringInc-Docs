@@ -11,7 +11,8 @@ I will write this from a Windows perspective, as far as I know it will look very
 ### Install 1 - VS Code
 
 The first step is to install Microsoft Visual Studio Code. This is **cross platform** and it is a very simple, yet powerful tool. I have used this for a while as my text editor for programming / coding. Previously I tried Atom and Notepad++, this has been more intuitive for me.
-Install [VS Code](https://code.visualstudio.com/) on your machine. Download the appropriate version from this link [VS Code](https://code.visualstudio.com/), and follow the prompts. This part should be fairly simple and staright forward. 
+Install [VS Code](https://code.visualstudio.com/) on your machine. Download the appropriate version from this link [VS Code](https://code.visualstudio.com/), and follow the prompts. This part should be fairly simple and staright forward.
+Linux users with snap support can install VS Code from the command Line: "sudo snap install --classic code"  
 
 ### Install 2 - PlatformIO
 
