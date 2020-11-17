@@ -98,21 +98,14 @@ ___
 
 ## Firmware
 
-The dual endstop firmware is on the V1 Engineering [Marlin GitHub](https://github.com/Allted/Marlin)
-page.
+The dual endstop firmware is on the V1 Engineering [Marlin Builder](https://github.com/V1EngineeringInc/MarlinBuilder/releases/)
+page. ([Firmware Basics](https://docs.v1engineering.com/electronics/marlin-firmware/)
 
 Remember small 1mm moves when initially powering it up, if driving your steppers the wrong way you
 can rip your machine apart. If your steppers are moving the wrong direction, **completely power off
 your board before flipping the plug over.**
 
-In case you have never used GitHub, the first drop down lets you select the firmware version you
-want.
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/select-github.jpg){: width="400"}
-
-The next step is download the firmware you selected. Click on “Clone or Download”, then click on “Download Zip”.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/download-github.jpg){: width="400"}
 ___
 
 ## Testing and Calibration
