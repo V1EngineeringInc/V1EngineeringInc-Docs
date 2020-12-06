@@ -153,7 +153,7 @@ but the Diagram below should be a little more clear.
 
 ### Adding a Laser Pin
 
-![!pins](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180626_1559002-400x326.jpg){: width="300"}
+![!pins](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180626_1559002.jpg){: width="300"}
 
 When using a laser or a PID controller the Pins on MX2 are available:
 
