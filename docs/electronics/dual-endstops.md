@@ -27,8 +27,21 @@ ___
 
 ## Plugging In The Steppers
 
-Remapping of pins is used in the firmware to allow the use of all the control boards drivers. The
+Marlin's extruders=0 or remapping of pins is used in the firmware to allow the use of all the control boards drivers. The
 unused extruder driver/s are used for the extra stepper/s.
+
+### SKR Pro
+
+If the firmware is set for EXTRUDERS=0 then E0 becomes X1 and E1 becomes Y2. (or LR would be E0=Y2
+E1=Z2)
+
+![!dual 0](https://www.v1engineering.com/wp-content/uploads/2020/07/dual2-scaled.jpg){: width="400"}
+
+  
+### RAMBo
+
+![!Rambo1](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo.jpg){: width="400"}
+![!Rambo2](https://www.v1engineering.com/wp-content/uploads/2017/11/IMG_20180529_175849.jpg){: width="400"} 
 
 ### Ramps
 
@@ -39,19 +52,14 @@ unused extruder driver/s are used for the extra stepper/s.
 This board only has 4 drivers available and can easily be used with the LowRider CNC but can not full take advantage of the new firmware with the MPCNC.
 
 ![!miniRambo](https://www.v1engineering.com/wp-content/uploads/2017/11/MiniRAMBo.jpg){: width="400"}
- 
+
 ### Archim
 
 ![!Archim](https://www.v1engineering.com/wp-content/uploads/2017/11/Archim.jpg){: width="400"}
- 
-### RAMBo
-
-![!Rambo1](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo.jpg){: width="400"}
-![!Rambo2](https://www.v1engineering.com/wp-content/uploads/2017/11/IMG_20180529_175849.jpg){: width="400"} 
 
 ## Endstops
 
-The min pins are used as normal for the first stepper and the max pins are used for the second stepper on that axis, still as a min. For example, X1 pairs with Xmin, X2 pairs with Xmax.
+The min pins are used as normal for the first stepper and the max pins are used for the second stepper on that axis (X2, Y2, Z2), still as a min. For example, X1 pairs with Xmin, X2 pairs with Xmax.
 
 DO NOT USE THE + (positive) Terminal. **S & –** (signal and Negative) Only
 
@@ -71,7 +79,23 @@ board.**
 Optical endstops are not recommended on a machine used for milling or routing. The debris can
 inhibit there function.
 
-I made modified a few parts to keep the wiring clean, [Clean Dual Mounts](https://www.thingiverse.com/thing:2847042).
+### SKR Pro
+
+![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: width="400"}
+
+!!! note
+    Do not use the + (positive) pins or you will ruin your SKR Pro board.
+    
+### RAMBo
+
+![!pic](https://www.v1engineering.com/wp-content/uploads/2018/02/Ramboboard.png){: width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo14-DUAL-help-fixed.jpg){: width="400"}
+
+Pay attention the pins are opposite each other, but clearly labeled on the board.    
+
+### Ramps
+
+![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/800px-Arduinomega1-4connectors.png){: width="400"}
 
 ### Mini-RAMBo
 
@@ -80,39 +104,23 @@ can not full take advantage of the new firmware with the MPCNC.
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/MiniRambo1.3a-connections.png){: width="400"}
 
-### RAMBo
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/02/Ramboboard.png){: width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo14-DUAL-help-fixed.jpg){: width="400"}
-
-Pay attention the pins are opposite each other, but clearly labeled on the board.
 
 ### Archim
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/785px-Archim1.0A_connections.png){: width="400"}
 
-### Ramps
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/800px-Arduinomega1-4connectors.png){: width="400"}
 ___
 
 ## Firmware
 
-The dual endstop firmware is on the V1 Engineering [Marlin GitHub](https://github.com/Allted/Marlin)
+The dual endstop firmware is on the V1 Engineering [Marlin Builder page](https://docs.v1engineering.com/electronics/marlin-firmware/)
 page.
 
 Remember small 1mm moves when initially powering it up, if driving your steppers the wrong way you
 can rip your machine apart. If your steppers are moving the wrong direction, **completely power off
 your board before flipping the plug over.**
 
-In case you have never used GitHub, the first drop down lets you select the firmware version you
-want.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/select-github.jpg){: width="400"}
-
-The next step is download the firmware you selected. Click on “Clone or Download”, then click on “Download Zip”.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/download-github.jpg){: width="400"}
 ___
 
 ## Testing and Calibration
@@ -196,18 +204,3 @@ Moving the origin in your CAM program is the easiest fix.
 To get a more precise work offset it is best to add it in your CAD file. This can be done with a
 bounding box, cut it as a separate path and used to position your material.
 ___
-
-## How it is done in the firmware
-
-Marlin currently has to have at least one extruder defined, this extruder causes us an issue has we
-need the driver it is assigned to. All boards have and E0 driver (some call it something different),
-and dual firmware capable boards also have an E1 driver, beyond that most boards have breakout pins
-for more external drivers. The first extruder gets assigned to driver E0. To make this all work I
-change pin assignments for E0 to one of the external break pins change the current E1 pins to the E0
-driver, and create an E2 set and assign them the pins of the E1 driver.
-
-I hope that makes sense, I move E0 pin assingments out of the way and shuffle E1 and E2 down one
-slot.
-
-All of this happens in the Pins/Pins_XXXX.h files. XXXX=whatever board you are using.
-
