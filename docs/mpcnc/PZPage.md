@@ -145,7 +145,7 @@ ___
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/ZCoreP-scaled.jpg){: width="400"}
 
-* For this step you will need 4 nuts and bolts, and all four Core Z Clamp printed parts.
+* For this step you will need 4 nuts, bolts, bearings, and all four Core Z Clamp printed parts.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/ZCoreAssm-scaled.jpg){: width="400"}
 
