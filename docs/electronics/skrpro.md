@@ -162,7 +162,7 @@ If you want to make any changes you will need to compile form the source files u
 Here is a basic walk through, [Platformio Docs](../learn/platformio.md).
 
 The V1 Engineering version of the SKR Pro firmware can be found on
-[github](https://github.com/Allted/Marlin), there are two versions, series and MPCNC dual endstop.
+[github](https://github.com/V1EngineeringInc/MarlinBuilder/releases), there are two versions, series and MPCNC dual endstop.
 
 The V1 Engineering generic version of the TFT firmware is in this [github
 repo](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware)
