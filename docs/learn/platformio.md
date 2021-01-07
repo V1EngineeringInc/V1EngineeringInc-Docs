@@ -6,12 +6,12 @@
 
 ## Installation
 
-I will write this from a Windows perspective, as far as I know it will look very similar for MAC and Linux. If it does not please help out and add some pictures to clearify.
+I will write this from a Windows perspective, as far as I know it will look very similar for MAC and Linux. If it does not, please help out and add some pictures to clarify.
 
 ### Install 1 - VS Code
 
 The first step is to install Microsoft Visual Studio Code. This is **cross platform** and it is a very simple, yet powerful tool. I have used this for a while as my text editor for programming / coding. Previously I tried Atom and Notepad++, this has been more intuitive for me.
-Install [VS Code](https://code.visualstudio.com/) on your machine. Download the appropriate version from this link [VS Code](https://code.visualstudio.com/), and follow the prompts. This part should be fairly simple and staright forward. 
+Install [VS Code](https://code.visualstudio.com/) on your machine. Download the appropriate version from this link [VS Code](https://code.visualstudio.com/), and follow the prompts. This part should be fairly simple and straight forward.
 
 ### Install 2 - PlatformIO
 
@@ -59,17 +59,17 @@ Hit the check mark to build (or compile) the firmware. Most items will say "igno
 
 ![!VS Code Compile](https://www.v1engineering.com/wp-content/uploads/2019/12/build.png){: width="400"}
 
-At this point you should get a message that says "1 succeeded". If you do not the firmwre has build issues and they need to be resolved. 
+At this point you should get a message that says "1 succeeded". If you do not, the firmware has build issues and they need to be resolved before proceeding further.
 
-The next step is to get it onto you board, or if you are sharing your firmware you can skip to the Compile step.
+The next step is to get it onto you board, or if you are sharing your firmware, you can skip to the Compile step.
 
 **Flashing** (most common, used with ramps, rambo, mini rambo)
 
-You do not need to select a com port as in Arduino, just plug in your board and it should be recognized even USB card based boards. Then and hit the right arrow (1) button and wait for it to transfer.
+You do not need to select a com port as in Arduino, just plug in your board and it should be recognized, even USB card based boards. Then hit the right arrow (1) button and wait for it to transfer.
 
 ![!VS Code Flash](https://www.v1engineering.com/wp-content/uploads/2019/12/uploaded_done.png){: width="400"}
 
-When you see (2) "1 succeeded", and you are DONE and the board is ready to use!! If you do not see that there are board connection issues.
+When you see (2) "1 succeeded", you are DONE and the board is ready to use!! If you do not see that, there are board connection issues.
 
 
 **Compile to file** (SKR boards)
