@@ -140,7 +140,7 @@ You also have the option to get the full Marlin source and edit and compile your
 
 Flashing the screen takes a .bin file, the config file, and usually the TFT35 folder (unzipped) on the root of the screens SD card.
 
-You can get these file from the link at the end of this section below.
+You can get these file from the link at the end of this section below. OR here is a [zip file](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/blob/master/TFT_E3V3_1_7_21.zip), make sure to unzip it first.
 
 BIGTREE_TFT35_V3.0_E3.****.bin
 config.ini
