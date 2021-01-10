@@ -90,7 +90,7 @@ This screen was chosen because it had a knob (great for dirty environments). We 
 Touchscreen mode and Classic mode, simultaneously. **Switching between modes is as easy as pressing
 the knob in for 3 seconds.**
 
-![!screen](https://www.v1engineering.com/wp-content/uploads/2020/07/lcd-touch-Labels-scaled.jpg){: width="400"}
+![!screen](https://www.v1engineering.com/wp-content/uploads/2021/01/lcd-touch-Labels-scaled-1.jpg){: width="400"}
 
 You do not need to use both, pay attention to the direction the wires are facing when connecting
 them.
@@ -124,7 +124,7 @@ You have three options of firmware for the exact board, driver, screen package a
 * V1CNC_SkrPro_Dual_2209-****** Ready for dual end stops on an MPCNC (X & Y axes).
 * V1CNC_SkrPro_DualLR_2209-****** Ready for dual end stops on a LowRider CNC (Y & Z axes).
 
-When you unzip the file you have a .bin file. Rename to FIRMWARE.bin, and save it to the MicroSD for the SKR Pro board. Insert the MicroSD back into the control board reset and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). 
+When you unzip the file you have a .bin file. Rename to FIRMWARE.bin, and save it to the MicroSD for the SKR Pro board. Make sure to unplug both grey exp1/2 cables for the screen before proceeding. Insert the MicroSD back into the control board, reset, and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). 
 
 ![!SKR file](https://www.v1engineering.com/wp-content/uploads/2020/08/SKR_Bin.jpg){: width="400"}
 
