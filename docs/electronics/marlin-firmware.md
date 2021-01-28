@@ -1,5 +1,5 @@
 !!! warning
-    **If you bought a bundle or electronics board from V1Enginering.com, this is usually already done.**
+    **If you bought a Rambo or Mini Rambo bundle from V1Engineering.com, this is usually already done.**
 
 # Firmware
 Firmware is the program or software “embedded/burned/flashed” into the electronics board, this is what
