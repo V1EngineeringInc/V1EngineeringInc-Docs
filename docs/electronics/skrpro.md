@@ -71,7 +71,7 @@ E1=Z2)
 
 ### Dual End Stops (EXTRUDERS=1)
 
-For EXTRUDERS=1 E0 is used and then E1 becomes X1 and E2 become Y2. (or LR would be E1=Y2 and E2=Z2)
+For EXTRUDERS=1 E0 is used and then E1 becomes X2 and E2 become Y2. (or LR would be E1=Y2 and E2=Z2)
 
 ![!dual 1](https://www.v1engineering.com/wp-content/uploads/2020/07/Dual-Ex-1-scaled.jpg){: width="400"}
 
