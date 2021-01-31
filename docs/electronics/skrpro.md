@@ -64,7 +64,7 @@ available voltage. The board is labeled and we will be using X, Y, and Z.
 
 ### Dual End Stops (EXTRUDERS=0)
 
-If the firmware is set for EXTRUDERS=0 then E0 becomes X1 and E1 becomes Y2. (or LR would be E0=Y2
+If the firmware is set for EXTRUDERS=0 then E0 becomes X2 and E1 becomes Y2. (or LR would be E0=Y2
 E1=Z2)
 
 ![!dual 0](https://www.v1engineering.com/wp-content/uploads/2020/07/dual2-scaled.jpg){: width="400"}
