@@ -233,13 +233,19 @@ Estlcam
 :   Built in, Christian was happy to work with us to get this correct. [Here are the recommended
 settings](../software/estlcam-basics.md)
 
-Fusion360
-:   Guffy has really made what seems to be a feature complete PP here, [Guffy’s
+Fusion360:
+
+Guffy has really made what seems to be a feature complete PP here, [Guffy’s
 GitHub](https://github.com/guffy1234/mpcnc_posts_processor). [Fusion CAM
 intro](https://www.youtube.com/watch?v=Do_C_NLH5sw).
 
+Flyfisher604 has created an enhanced Post Processor (available here [Flyfisher604/mpcnc_post_processor](https://github.com/flyfisher604/mpcnc_post_processor)) based on Guffy's PP. The Flyfisher604 post processor addresses the issues introduced by the F360 Hobby version. This includes:
+- scaling of feedrates to resolve MPCNC's max Z feedrate being less then XY max cut rate,
+- recovery of the G0 Rapid that moves to the starting location of the cut,
+- recovery of G0 Rapids that occur at a safe level above the work.
+
 !!! warning
-    Fusion's free plan no longer supports more than one speed, so the feedrate for XY turn into very fast Z movements. More details in the forum [here](https://forum.v1engineering.com/t/problem-with-fusion-and-z-feedrate/21487)
+    Fusion's free plan no longer supports more than one speed, so the feedrate for XY turn into very fast Z movements. More details in the forum [here](https://forum.v1engineering.com/t/problem-with-fusion-and-z-feedrate/21487). Using the Flyfisher604 PP with scaling enabled can resolve this issue.
 
 !!! warning
     (10/23/19) Do not use arcs unless you are using 417 or newer firmware.
