@@ -229,22 +229,35 @@ All machines require a post processor.
 
 Please share your links to other PP’s. I know there are more.
 
-Estlcam
+#### Estlcam
 :   Built in, Christian was happy to work with us to get this correct. [Here are the recommended
 settings](../software/estlcam-basics.md)
 
-Fusion360
-:   Guffy has really made what seems to be a feature complete PP here, [Guffy’s
+#### Fusion360:
+
+!!! warning
+    Fusion's free plan no longer supports more than one speed, so the feedrate for XY turn into very
+    fast Z movements. More details in the forum
+    [here](https://forum.v1engineering.com/t/problem-with-fusion-and-z-feedrate/21487).
+    
+    Using Guffy's v2.0 or the Flyfisher604 PP with scaling enabled can help resolve this issue. 
+
+##### Guffy Fusion360 Post Processor
+
+Guffy has really made what seems to be a feature complete PP here, [Guffy’s
 GitHub](https://github.com/guffy1234/mpcnc_posts_processor). [Fusion CAM
 intro](https://www.youtube.com/watch?v=Do_C_NLH5sw).
 
-!!! warning
-    Fusion's free plan no longer supports more than one speed, so the feedrate for XY turn into very fast Z movements. More details in the forum [here](https://forum.v1engineering.com/t/problem-with-fusion-and-z-feedrate/21487)
+##### FlyFisher604 Fusion360 Post Processor
 
-!!! warning
-    (10/23/19) Do not use arcs unless you are using 417 or newer firmware.
+Flyfisher604 has created a Post Processor ([Flyfisher604's
+github](https://github.com/flyfisher604/mpcnc_post_processor)) based on Guffy's PP. The Flyfisher604
+post processor addresses the issues introduced by the F360 Hobby version. This includes:
 
-Vectric, Aspire, Vcarve
+- Scaling of feedrates to resolve MPCNC's max Z feedrate being less then XY max cut rate
+- Recovery of the G0 Rapid that moves to the starting location of the cut
+- Recovery of G0 Rapids that occur at a safe level above the work
+
+#### Vectric, Aspire, Vcarve
 :   What we have so far, [Here](https://www.v1engineering.com/forum/topic/z-slip-over-large-topographical-map/#post-51193). How to [install](https://forum.v1engineering.com/t/vectric-aspire/12047/8?u=vicious1).
-
 
