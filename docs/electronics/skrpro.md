@@ -172,11 +172,12 @@ repo](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware)
 ### Flyfisher604 SKR Pro v1.2 and TFT E3 v3.0 Case
 
 A three-part case (lower box, top lid, and sloped TFT screen) that includes:
-- ventilation on two sides of the lower box,
-- two fan mounts with integrated grates on the back of the sloped TFT screen,
-- built in standoffs for the SKR Pro board and TFT screen,
-- opening on TFT sloped screen mount exposing to expose the SD card slot,
-- openings for DB25 and DB15 connectors (with mounting hole) to interface internal wiring to MPCNC (or use these as pass throughs).
+
+- Ventilation on two sides of the lower box
+- Two fan mounts with integrated grates on the back of the sloped TFT screen
+- Built in standoffs for the SKR Pro board and TFT screen
+- Opening on TFT sloped screen mount exposing to expose the SD card slot
+- Openings for DB25 and DB15 connectors (with mounting hole) to interface internal wiring to MPCNC (or use these as pass throughs)
 
 Available [here](https://www.thingiverse.com/thing:4678675) on Thingiverse.
 
