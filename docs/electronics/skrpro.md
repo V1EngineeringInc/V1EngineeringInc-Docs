@@ -167,3 +167,21 @@ The V1 Engineering version of the SKR Pro firmware can be found on
 The V1 Engineering generic version of the TFT firmware is in this [github
 repo](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware)
 
+## Cases
+
+### Flyfisher604 SKR Pro v1.2 and TFT E3 v3.0 Case
+
+A three-part case (lower box, top lid, and sloped TFT screen) that includes:
+
+- Ventilation on two sides of the lower box
+- Two fan mounts with integrated grates on the back of the sloped TFT screen
+- Built in standoffs for the SKR Pro board and TFT screen
+- Opening on TFT sloped screen mount exposing to expose the SD card slot
+- Openings for DB25 and DB15 connectors (with mounting hole) to interface internal wiring to MPCNC (or use these as pass throughs)
+
+Available [here](https://www.thingiverse.com/thing:4678675) on Thingiverse.
+
+![!Flyflisher604 SKR Pro Case](img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case.jpg){: width="400"}
+
+![!Flyflisher604 SKR Pro Case Inside](img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case_Inside.jpg){: width="400"}
+
