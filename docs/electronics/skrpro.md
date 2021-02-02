@@ -176,8 +176,8 @@ A three-part case (lower box, top lid, and sloped TFT screen) that includes:
 - Ventilation on two sides of the lower box
 - Two fan mounts with integrated grates on the back of the sloped TFT screen
 - Built in standoffs for the SKR Pro board and TFT screen
-- Opening on TFT sloped screen mount exposing to expose the SD card slot
-- Openings for DB25 and DB15 connectors (with mounting hole) to interface internal wiring to MPCNC (or use these as pass throughs)
+- Opening on TFT sloped screen mount exposing the SD card slot
+- Openings for DB25 and DB15 connectors (with mounting screw holes) to interface internal wiring to MPCNC (or use these as pass throughs)
 
 Available [here](https://www.thingiverse.com/thing:4678675) on Thingiverse.
 
