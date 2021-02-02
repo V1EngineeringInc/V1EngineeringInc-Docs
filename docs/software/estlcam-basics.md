@@ -139,6 +139,6 @@ things this type of mill is used for. Make sure to adjust your tool and its sett
 the material in use. Always do a test cut!
 
 Here is an old video, the [new pen holder](https://www.thingiverse.com/thing:1612207) has a built in
-spring so you will get even more consistent results.
+spring so you will get even more consistent results; or if you already have a DW660 router mount installed and don't want to remove it, then use this [DW660 Primo Pen Holder Mount](https://www.thingiverse.com/thing:4681654) with the same spring feature.
 
 [!embed](https://www.youtube.com/watch?v=s8YwkcK3P9U)
