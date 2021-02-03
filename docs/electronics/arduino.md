@@ -1,44 +1,11 @@
-!!! warning
-    **If you bought a Rambo or Mini Rambo bundle from V1Engineering.com, this is usually already done.**
-
 # Firmware
-Firmware is the program or software “embedded/burned/flashed” into the electronics board, this is what
-translates the gcode into motion in the stepper motors. There are many types of firmware we mainly use Marlin.
 
-## Marlin
+!!! note
+    If you're looking to flash Marlin Firmware for a V1Engineering machine, start [here](../electronics/marlin-firmware.md).
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2015/05/Marlin-Logo-GitHub.png)
+Marlin Firmware is moving away from the Arduino IDE and has started using [PlatformIO](../learn/platformio.md).
 
-The boards sold here are using the [Marlin](https://github.com/MarlinFirmware/Marlin) Firmware, only
-minor changes needed to run any machine. Again, if you bought your electronics from here this has
-already been done for you initially, you can use this document to change or update your control board.
-
-The firmware is what makes this all possible and was the key for me to quickly make all sorts of
-robots. For a while now [Scott – “ThinkyHead”](https://www.patreon.com/thinkyhead/posts) has been the ring leader for all the great developers
-working on the Marlin project. He is not the only one but has been a huge factor in getting the
-firmware to the place it is now. 
-
-??? "Dual Endstops & Auto squaring"
-    This is an advanced feature and the information will be kept separately for the time being,
-    [HERE](../dual-endstops).
-
-### GitHub Firmware
-
-The newest "stable" release we have been working on are found at the link below. These files are preconfigured for various control boards and machine configurations.
-
-[Github pre-configured firmware repository.](https://github.com/V1EngineeringInc/MarlinBuilder/releases)
-
-If you want bleeding edge, you can head to the "actions" tab and see all nightly marlin bugfix builds along with pull request builds testing new features or settings. 
-
-### Programming the Control Board
-
-Right now flashing (programming / burning) your control board with Marlin 2.0 requires using [PlatformIO](../learn/platformio.md) This has proven to be easier than the Arduino IDE we used to use for most people.
-
-
-### Options
-
-Depending on what type of control board you use you might have other firmware options. Many firmware versions are fairly board specific though. There could be a long list here, instead may we suggest having a look in the forums to see what others have tried out and if it might be a better option for your specific use case.
-
+But these arduino instructions may be useful for someone, so we have archived them here. Some of the details may be out of date.
 
 ??? "Archived Arduino IDE instructions"
     ### Using GitHub
