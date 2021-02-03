@@ -8,10 +8,6 @@
 This is where you can download the latest configured Marlin Firmware for your V1Engineering machines.
 Release notes and details are [in github](https://github.com/V1EngineeringInc/MarlinBuilder/releases)
 
-After downloading the right firmware below, you can flash it to your controller ([Rambo, Mini-Rambo,
-Ramps](xloader.md), or [Skr](skrpro.md#firmware)). Or compile and flash using
-[platformio](../learn/platformio.md) or [arduino](arduino.md).
-
 ## Levels of Testing
 
 Not all of these configurations go through the same rigor before being released. There are just too
