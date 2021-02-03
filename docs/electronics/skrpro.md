@@ -181,7 +181,7 @@ A three-part case (lower box, top lid, and sloped TFT screen) that includes:
 
 Available [here](https://www.thingiverse.com/thing:4678675) on Thingiverse.
 
-![!Flyflisher604 SKR Pro Case](img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case.jpg){: width="400"}
+![!Flyflisher604 SKR Pro Case](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case.jpg){: width="400"}
 
-![!Flyflisher604 SKR Pro Case Inside](img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case_Inside.jpg){: width="400"}
+![!Flyflisher604 SKR Pro Case Inside](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case_Inside.jpg){: width="400"}
 
