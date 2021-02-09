@@ -122,11 +122,11 @@ SkrTurbo
 Ramps
 :   The good old [Ramps](ramps.md) board.
 
-### Dual Endstops
+### Dual or Series stepper wiring
 
 Serial
 :   Any of the V1CNC configs that don't have `Dual` or `DualLR` in the name are configured for
-serial wiring (which works on the MPCNC and the Low Rider).
+serial wiring (which works on the MPCNC and the Low Rider). Check out [more information about series stepper wiring}(steppers.md)
 
 Dual
 :   This indicates a configuration for a Dual Endstop MPCNC. Check out [more information about dual
