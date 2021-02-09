@@ -80,6 +80,7 @@ nav:
     - Software Workflow: learn/software_overview.md
     - Repetier-Host: software/repetier-host.md
     - Firmware: electronics/marlin-firmware.md
+    - Marlin Releases: electronics/marlin-releases.md
     - PlatformIO: learn/platformio.md
     - G-code: learn/gcode.md
     - Motion: learn/motion.md
