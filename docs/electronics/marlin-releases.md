@@ -126,7 +126,7 @@ Ramps
 
 Serial
 :   Any of the V1CNC configs that don't have `Dual` or `DualLR` in the name are configured for
-serial wiring (which works on the MPCNC and the Low Rider). Check out [more information about series stepper wiring}(steppers.md)
+serial wiring (which works on the MPCNC and the Low Rider). Check out [more information about series stepper wiring](steppers.md)
 
 Dual
 :   This indicates a configuration for a Dual Endstop MPCNC. Check out [more information about dual
