@@ -113,6 +113,7 @@ off and usually your plugs will fit the bare pins.
 Need a fancy Box for your fancy board?
 
 [Gnarly Mini-Rambo Case](https://www.thingiverse.com/thing:2778151)
+![!Mini-Rambo case](https://www.v1engineering.com/wp-content/uploads/2017/04/MVIMG_20180201_0804233.jpg){: width="300"}
 
 #### Dual End Stop
 
