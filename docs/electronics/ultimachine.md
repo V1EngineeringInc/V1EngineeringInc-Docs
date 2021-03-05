@@ -114,8 +114,6 @@ Need a fancy Box for your fancy board?
 
 [Gnarly Mini-Rambo Case](https://www.thingiverse.com/thing:2778151)
 
-![!case](https://www.thingiverse.com/thing:2778151)
-
 #### Dual End Stop
 
 [Information link](dual-endstops.md)
@@ -198,7 +196,7 @@ $W_v = (V_{Ref} / 1.66) * 255$
 
 Need a fancy Box for your fancy board?
 
-[Gnarly Rambo/Archim Case](https://www.thingiverse.com/thing:2778151)
+[Gnarly Rambo/Archim Case](https://www.thingiverse.com/thing:2781322)
 
 ![!case](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180203_1734152.jpg){: width="300"}
 
@@ -220,7 +218,7 @@ extremely similar to the Rambo board except no LCD adapter is needed.
 
 Need a fancy Box for your fancy board?
 
-[Gnarly Rambo/Archim Case](https://www.thingiverse.com/thing:2778151)
+[Gnarly Rambo/Archim Case](https://www.thingiverse.com/thing:2781322)
 
 ![!case](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180203_1734152.jpg){: width="300"}
 
