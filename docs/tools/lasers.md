@@ -196,13 +196,6 @@ Ramps=44
 
 ---
 
-!!! warning
-    Marlin 2.0 specific- Currently M3 is not working with lasers, and we have a delay issue. [I have
-    a
-    fix](https://www.v1engineering.com/forum/topic/laser-engraving-not-really-getting-great-results/page/6/#post-88259),
-    but I need to test it more to make sure it is not interfering with normal usage. Marlin 1 works
-    fine as is, 2 works after the edit.
-
 ### Leo’s
 
 Leo was the one that made Lasers seem doable, even for me. My [Leo
