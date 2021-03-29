@@ -49,6 +49,16 @@ The completed board looks like this. Notice there are no jumpers under the drive
 At this point you can add the heat sinks being careful not to short any of the pins and only stick
 them to the copper pads on the top.
 
+## Molex and JST connectors
+
+The current V1 Engineering wiring kits have the Molex style terminations on them. The SKR Pro is the first board to be offered with JST directional style connections. Instead of buying adapters, another custom set of wires, or custom SKR boards, a pretty easy solution is just pulling off the JST plastic shields. The pin spacing is the same (or close enough) and pulling the shields off make for a more solid connection to the Molex style more commonly used. Needle nosed pliers and a little wiggling make this pretty easy. 
+
+Depending on what you are plugging in you can take them off the end stops and or stepper ports. Even after doing this you should always constrain your wires directly after the connection to the board.
+
+
+![!Shields off](https://www.v1engineering.com/wp-content/uploads/2021/03/PXL_20201122_212218205.jpg){: width="400"}
+
+
 ## Wiring Steppers
 
 We have a few options for how the steppers get connected to this board. Here are the three most
