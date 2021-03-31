@@ -138,7 +138,7 @@ This all it takes to plot with a pen or do basic 2D (2.5D) milling, some of the 
 things this type of mill is used for. Make sure to adjust your tool and its settings depending on
 the material in use. Always do a test cut!
 
-Here is an old video, the [new pen holder](https://www.thingiverse.com/thing:1612207) has a built in
+Here is an old video, the [new Burly pen holder](https://www.thingiverse.com/thing:1612207) or [Primo pen / knife holder](https://github.com/V1EngineeringInc/MPCNC_Primo_Tool_Mounts/tree/master/Knife_Pen_Mount) has built in
 spring so you will get even more consistent results.
 
 [!embed](https://www.youtube.com/watch?v=s8YwkcK3P9U)
