@@ -5,13 +5,11 @@
 
 ## Sizing
 
-The ZenXY v2 has to dimensions two take into consideration. The footprint of the machine is the minimum dimensions needed to build it. The working area is the size of the field the machine can produce designs in. The one consideration is the working area also contains the steel ball width, so working area (X or Y) + diameter (one radius on each side).
+The ZenXY v2 has two dimensions to take into consideration. The footprint of the machine is the minimum dimensions needed to build it. The working area is the size of the field the machine can produce designs in. The one consideration is the working area also contains the steel ball width, so working area (X or Y) + diameter (one radius on each side).
 
 ![!ZenXY v2 Working area](https://www.v1engineering.com/wp-content/uploads/2021/03/Working-area.jpg){: width="400"}
-This picture does not include the ball diameter. For example the offset (92mm) for a half inch ball (12.7mm) would be 92mm-6.35mm or 85.65mm. For table designs that are not exact fitting this doesn't really come into play.
 
-!!! note "Ball Size"
-    The Calculation below assume a 1/2 inch ball diameter. Slightly smaller or larger only comes into play if you constrain the ball to the exact working area dimensions.
+This picture does not include the ball diameter. For example the offset (92mm) for a half inch ball (12.7mm) would be 92mm-6.35mm or 85.65mm. For table designs that are not exact fitting this doesn't really come into play.
 
 The height of the machine is 66mm plus the thickness of your spacers. Most steppers will protrude further than that. If you are planning on covering the bottom to keep fingers out, plan to have small stepper cutouts to keep thickness to a minimum. If you do want to cover it all, the thickness will be 40.25mm plus the stepper thickness with a minimum of 66mm.
 
@@ -24,8 +22,8 @@ The height of the machine is 66mm plus the thickness of your spacers. Most stepp
 <input type="radio" onchange="to_inch()" name="units" value="inches">Imperial (inch)<br/>
 
 #### Model
-<input type="radio" onchange="from_working()" name="model" value="US Version" checked> us_version<br/>
-<input type="radio" onchange="from_working()" name="model" value="Other Version"> other_version<br/>
+<input type="radio" onchange="from_working()" name="model" value="us_version" checked> US Version<br/>
+<input type="radio" onchange="from_working()" name="model" value="other_version"> Other Version<br/>
 
 ----
 
@@ -33,17 +31,17 @@ The height of the machine is 66mm plus the thickness of your spacers. Most stepp
 
 #### ZenXY Build Footprint
 <!-- These "value"s are going to be overwritten by the reset_work() function below. -->
-<input class="calc" type="number" onchange="from_working()" name="xfootprint" value="416.4857" size="8"><span class="units">mm</span> x<br/>
-<input class="calc" type="number" onchange="from_working()" name="yfootprint" value="369.1178" size="8"><span class="units">mm</span> y<br/>
-<input class="calc" type="number" onchange="from_working()" name="balldiameter" value="12.7" size="4"><span class="units">mm</span> y<br/>
+<input class="calc" type="number" onchange="from_working()" name="xfootprint" value="416" size="8"><span class="units">mm</span> X - Left / Right<br/>
+<input class="calc" type="number" onchange="from_working()" name="yfootprint" value="369" size="8"><span class="units">mm</span> Y - Forward / Back<br/>
+<input class="calc" type="number" onchange="from_working()" name="balldiameter" value="12.7" size="4"><span class="units">mm</span> Ball Diameter<br/>
 <button class="reset" onclick="reset_work()">Reset</button>
 
 #### Part Lengths
 |Length (<span class="units">mm</span>)| Qty | Name |
 |--------------------------------------|-----|------|
-|<span name="xrails"     ></span>|2|x rails, small|
-|<span name="yrails"     ></span>|2|y rails, large|
-|<span name="belt"    ></span>|1|belt length along x|
+|<span name="xrails"></span>|2|x rails, small|
+|<span name="yrails"></span>|2|y rails, large|
+|<span name="belt"  ></span>|1|belt length|
 
 
 #### Work area
@@ -88,9 +86,20 @@ function get_offsets() {
   
   var other_version = {};
   other_version.xrail_minus_work = 304 * unit_convert;
-  
-  
+
   }
+
+  var model = $("input[name=model]:checked").val();
+  if (model == "us_version") {
+    return us_version;
+  }
+  else if (model == "other_version") {
+    return other_version;
+  }
+  else {
+    alert("internal error: unrecognized model " + model);
+  }
+}
 
 function to_mm() {
   // Find all the labels and change them to mm
@@ -179,7 +188,10 @@ function from_working() {
   var xballarea = xfootprint - offsets.xwork_offset - balldiameter;
   var yballarea = yfootprint - offsets.ywork_offset - balldiameter;
   
-  
+  $("span[name=xfootprint]").text(clip(xfootprint));
+  $("span[name=yfootprint]").text(clip(yfootprint));
+  $("span[name=balldiameter]").text(clip(balldiameter));
+
   $("span[name=xrails]").text(clip(xrails));
   $("span[name=yrails]").text(clip(yrails));
   $("span[name=belt]").text(clip(belt));

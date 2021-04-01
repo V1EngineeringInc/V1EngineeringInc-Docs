@@ -45,7 +45,7 @@ nav:
      - Old Version: mp3dp/version1.md
    - ZenXY: 
      - ZenXY v2: zenxy/index.md
-     - ZenXY v2 Build Calculator: Zen2calculator.md
+     - ZenXY v2 Build Calculator: zenxy/zen2calculator.md
      - Previous Version: zenxy/og_zen.md
 
  - Control:
