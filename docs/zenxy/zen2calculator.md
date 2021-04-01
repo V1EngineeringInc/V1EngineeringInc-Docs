@@ -181,7 +181,7 @@ function from_working() {
 
   var xrails = xfootprint - offsets.xrail_offset;
   var yrails = yfootprint - offsets.yrail_offset;
-  var belt = xrails * 4 + yrails * 4 + offset.extra_belt;
+  var belt = xrails * 4 + yrails * 4 + offsets.extra_belt;
 
   var xarea = xfootprint - offsets.xwork_offset;
   var yarea = yfootprint - offsets.ywork_offset;
