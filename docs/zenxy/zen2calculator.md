@@ -31,7 +31,7 @@ will be 40.25mm plus the stepper thickness with a minimum of 66mm.
 
 #### Model
 <input type="radio" onchange="from_working()" name="model" value="us_version" checked> US Version<br/>
-<input type="radio" onchange="from_working()" name="model" value="other_version"> Other Version<br/>
+<input type="radio" onchange="from_working()" name="model" value="other_version" disabled> Other Version<br/>
 
 ----
 
@@ -39,9 +39,9 @@ will be 40.25mm plus the stepper thickness with a minimum of 66mm.
 
 #### ZenXY Build Footprint
 <!-- These "value"s are going to be overwritten by the reset_work() function below. -->
-<input class="calc" type="number" onchange="from_working()" name="xfootprint" value="416" size="8"><span class="units">mm</span> X - Left / Right<br/>
-<input class="calc" type="number" onchange="from_working()" name="yfootprint" value="369" size="8"><span class="units">mm</span> Y - Forward / Back<br/>
-<input class="calc" type="number" onchange="from_working()" name="balldiameter" value="12.7" size="4"><span class="units">mm</span> Ball Diameter<br/>
+<input class="calc" type="number" onchange="from_working()" name="xfootprint" value="410" size="8"><span class="units">mm</span> X - Left / Right<br/>
+<input class="calc" type="number" onchange="from_working()" name="yfootprint" value="370" size="8"><span class="units">mm</span> Y - Forward / Back<br/>
+<input class="calc" type="number" onchange="from_working()" name="balldiameter" value="12.75" size="4"><span class="units">mm</span> Ball Diameter<br/>
 <button class="reset" onclick="reset_work()">Reset</button>
 
 #### Part Lengths
@@ -93,7 +93,11 @@ function get_offsets() {
   us_version.ywork_offset = 184 * unit_convert;
 
   var other_version = {};
-  other_version.xrail_minus_work = 304 * unit_convert;
+  // TODO These are not correct.
+  other_version.xrail_offset = 96 * unit_convert;
+  other_version.yrail_offset = 92.5 * unit_convert;
+  other_version.xwork_offset = 184 * unit_convert;
+  other_version.ywork_offset = 184 * unit_convert;
 
   var model = $("input[name=model]:checked").val();
   if (model == "us_version") {
@@ -114,7 +118,7 @@ function to_mm() {
   // Set the step attributes (you can also set other attributes here, like min, max, whatever)
   $("input[name=xfootprint]").attr({ "step": 10.0 });
   $("input[name=yfootprint]").attr({ "step": 10.0 });
-  $("input[name=balldiameter]").attr({ "step": 1 });
+  $("input[name=balldiameter]").attr({ "step": 0.25 });
 
   // Get the current values.
   var xfootprint = parseFloat($("input[name=xfootprint]").val());
@@ -136,15 +140,9 @@ function to_inch() {
   $(".units").text("inches");
 
   // Set the step attributes (you can also set other attributes here, like min, max, whatever)
-  $("input[name=xfootprint]").attr({
-    "step": 0.25
-  });
-  $("input[name=yfootprint]").attr({
-    "step": 0.25
-  });
-  $("input[name=balldiameter]").attr({
-    "step": 0.125
-  });
+  $("input[name=xfootprint]").attr({ "step": 0.25 });
+  $("input[name=yfootprint]").attr({ "step": 0.25 });
+  $("input[name=balldiameter]").attr({ "step": 0.125 });
 
   // Get the current values.
   var xfootprint = parseFloat($("input[name=xfootprint]").val());
@@ -199,7 +197,6 @@ function from_working() {
   $("span[name=yarea]").text(clip(yarea));
   $("span[name=xballarea]").text(clip(xballarea));
   $("span[name=yballarea]").text(clip(yballarea));
-
 }
 
 // Set these up the first time.
