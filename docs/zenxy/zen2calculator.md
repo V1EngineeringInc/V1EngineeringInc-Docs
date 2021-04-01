@@ -87,8 +87,6 @@ function get_offsets() {
   var other_version = {};
   other_version.xrail_minus_work = 304 * unit_convert;
 
-  }
-
   var model = $("input[name=model]:checked").val();
   if (model == "us_version") {
     return us_version;
@@ -181,7 +179,7 @@ function from_working() {
   
   var xrails = xfootprint - offsets.xrail_offset;
   var yrails = yfootprint - offsets.yrail_offset;
-  var belt = ;
+  var belt = xrails * 4 + yrails * 4;
 
   var xarea = xfootprint - offsets.xwork_offset;
   var yarea = yfootprint - offsets.ywork_offset;
