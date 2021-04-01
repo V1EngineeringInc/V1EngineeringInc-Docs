@@ -166,9 +166,9 @@ function clip(value) {
 
 function reset_work() {
   const unit_convert = get_unit_convert();
-  $("input[name=xfootprint]").val(clip(450 * unit_convert));
-  $("input[name=yfootprint]").val(clip(330 * unit_convert));
-  $("input[name=balldiameter]").val(clip(330 * unit_convert));
+  $("input[name=xfootprint]").val(clip(550 * unit_convert));
+  $("input[name=yfootprint]").val(clip(600 * unit_convert));
+  $("input[name=balldiameter]").val(clip(12.7 * unit_convert));
   from_working();
 }
 
