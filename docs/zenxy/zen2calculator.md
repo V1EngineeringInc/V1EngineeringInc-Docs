@@ -6,9 +6,9 @@
 ## Sizing
 
 The ZenXY v2 has two dimensions to take into consideration. The footprint of the machine is the
-minimum dimensions needed to build it. The working area is the size of the field the machine can
-produce designs in. The one consideration is the working area also contains the steel ball width, so
-working area (X or Y) + diameter (one radius on each side).
+minimum dimensions needed to build it. The "image dimension" is the size of the field the machine can
+produce designs in (the firmware number). The one consideration is the image area also contains the steel ball width, so
+"image dimension" (X or Y) + diameter (one radius on each side) gives you the "actual area needed".
 
 ![!ZenXY v2 Working area](https://www.v1engineering.com/wp-content/uploads/2021/03/Working-area.jpg){: width="400"}
 
@@ -91,6 +91,7 @@ function get_offsets() {
   us_version.yrail_offset = 92.5 * unit_convert;
   us_version.xwork_offset = 184 * unit_convert;
   us_version.ywork_offset = 184 * unit_convert;
+  us_version.extra_belt = 200 * unit_convert;
 
   var other_version = {};
   // TODO These are not correct.
@@ -98,6 +99,7 @@ function get_offsets() {
   other_version.yrail_offset = 92.5 * unit_convert;
   other_version.xwork_offset = 184 * unit_convert;
   other_version.ywork_offset = 184 * unit_convert;
+  other_version.extra_belt = 200 * unit_convert;
 
   var model = $("input[name=model]:checked").val();
   if (model == "us_version") {
@@ -179,7 +181,7 @@ function from_working() {
 
   var xrails = xfootprint - offsets.xrail_offset;
   var yrails = yfootprint - offsets.yrail_offset;
-  var belt = xrails * 4 + yrails * 4;
+  var belt = xrails * 4 + yrails * 4 + offset.extra_belt;
 
   var xarea = xfootprint - offsets.xwork_offset;
   var yarea = yfootprint - offsets.ywork_offset;
