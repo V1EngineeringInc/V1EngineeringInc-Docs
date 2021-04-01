@@ -5,13 +5,21 @@
 
 ## Sizing
 
-The ZenXY v2 has two dimensions to take into consideration. The footprint of the machine is the minimum dimensions needed to build it. The working area is the size of the field the machine can produce designs in. The one consideration is the working area also contains the steel ball width, so working area (X or Y) + diameter (one radius on each side).
+The ZenXY v2 has two dimensions to take into consideration. The footprint of the machine is the
+minimum dimensions needed to build it. The working area is the size of the field the machine can
+produce designs in. The one consideration is the working area also contains the steel ball width, so
+working area (X or Y) + diameter (one radius on each side).
 
 ![!ZenXY v2 Working area](https://www.v1engineering.com/wp-content/uploads/2021/03/Working-area.jpg){: width="400"}
 
-This picture does not include the ball diameter. For example the offset (92mm) for a half inch ball (12.7mm) would be 92mm-6.35mm or 85.65mm. For table designs that are not exact fitting this doesn't really come into play.
+This picture does not include the ball diameter. For example the offset (92mm) for a half inch ball
+(12.7mm) would be 92mm-6.35mm or 85.65mm. For table designs that are not exact fitting this doesn't
+really come into play.
 
-The height of the machine is 66mm plus the thickness of your spacers. Most steppers will protrude further than that. If you are planning on covering the bottom to keep fingers out, plan to have small stepper cutouts to keep thickness to a minimum. If you do want to cover it all, the thickness will be 40.25mm plus the stepper thickness with a minimum of 66mm.
+The height of the machine is 66mm plus the thickness of your spacers. Most steppers will protrude
+further than that. If you are planning on covering the bottom to keep fingers out, plan to have
+small stepper cutouts to keep thickness to a minimum. If you do want to cover it all, the thickness
+will be 40.25mm plus the stepper thickness with a minimum of 66mm.
 
 
 ----
@@ -83,7 +91,7 @@ function get_offsets() {
   us_version.yrail_offset = 92.5 * unit_convert;
   us_version.xwork_offset = 184 * unit_convert;
   us_version.ywork_offset = 184 * unit_convert;
-  
+
   var other_version = {};
   other_version.xrail_minus_work = 304 * unit_convert;
 
@@ -104,27 +112,21 @@ function to_mm() {
   $(".units").text("mm");
 
   // Set the step attributes (you can also set other attributes here, like min, max, whatever)
-  $("input[name=xfootprint]").attr({
-    "step": 10.0
-  });
-  $("input[name=yfootprint]").attr({
-    "step": 10.0
-  });
-$("input[name=balldiameter]").attr({
-    "step": 1
-  });
-  
+  $("input[name=xfootprint]").attr({ "step": 10.0 });
+  $("input[name=yfootprint]").attr({ "step": 10.0 });
+  $("input[name=balldiameter]").attr({ "step": 1 });
+
   // Get the current values.
   var xfootprint = parseFloat($("input[name=xfootprint]").val());
   var yfootprint = parseFloat($("input[name=yfootprint]").val());
   var balldiameter = parseFloat($("input[name=balldiameter]").val());
-  
+
   // Change the units.
   // This Math.round(... * 10.0) / 10.0 is to round to the step.
   $("input[name=xfootprint]").val(Math.round(xfootprint * 25.4 * 0.1) / 0.1);
   $("input[name=yfootprint]").val(Math.round(xfootprint * 25.4 * 0.1) / 0.1);
   $("input[name=balldiameter]").val(Math.round(balldiameter * 25.4 * 0.1) / 0.1);
-  
+
   // Recalculate the rest of the page.
   from_working();
 }
@@ -143,17 +145,17 @@ function to_inch() {
   $("input[name=balldiameter]").attr({
     "step": 0.125
   });
-  
+
   // Get the current values.
   var xfootprint = parseFloat($("input[name=xfootprint]").val());
   var yfootprint = parseFloat($("input[name=yfootprint]").val());
   var balldiameter = parseFloat($("input[name=balldiameter]").val());
-  
+
   // Change the units.
   $("input[name=xfootprint]").val(clip(xfootprint / 25.4));
   $("input[name=yfootprint]").val(clip(yfootprint / 25.4));
   $("input[name=balldiameter]").val(clip(balldiameter / 25.4));
-  
+
   // Recalculate the rest of the page.
   from_working();
 }
@@ -176,7 +178,7 @@ function from_working() {
   var xfootprint = parseFloat($("input[name=xfootprint]").val());
   var yfootprint = parseFloat($("input[name=yfootprint]").val());
   var balldiameter = parseFloat($("input[name=balldiameter]").val());
-  
+
   var xrails = xfootprint - offsets.xrail_offset;
   var yrails = yfootprint - offsets.yrail_offset;
   var belt = xrails * 4 + yrails * 4;
@@ -185,7 +187,7 @@ function from_working() {
   var yarea = yfootprint - offsets.ywork_offset;
   var xballarea = xfootprint - offsets.xwork_offset - balldiameter;
   var yballarea = yfootprint - offsets.ywork_offset - balldiameter;
-  
+
   $("span[name=xfootprint]").text(clip(xfootprint));
   $("span[name=yfootprint]").text(clip(yfootprint));
   $("span[name=balldiameter]").text(clip(balldiameter));
@@ -197,7 +199,7 @@ function from_working() {
   $("span[name=yarea]").text(clip(yarea));
   $("span[name=xballarea]").text(clip(xballarea));
   $("span[name=yballarea]").text(clip(yballarea));
-  
+
 }
 
 // Set these up the first time.
