@@ -185,8 +185,8 @@ function from_working() {
 
   var xarea = xfootprint - offsets.xwork_offset;
   var yarea = yfootprint - offsets.ywork_offset;
-  var xballarea = xfootprint - offsets.xwork_offset - balldiameter;
-  var yballarea = yfootprint - offsets.ywork_offset - balldiameter;
+  var xballarea = xfootprint - offsets.xwork_offset + balldiameter;
+  var yballarea = yfootprint - offsets.ywork_offset + balldiameter;
 
   $("span[name=xfootprint]").text(clip(xfootprint));
   $("span[name=yfootprint]").text(clip(yfootprint));
