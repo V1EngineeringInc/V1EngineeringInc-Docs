@@ -46,6 +46,7 @@ nav:
    - ZenXY: 
      - ZenXY v2: zenxy/index.md
      - ZenXY v2 Build Calculator: zenxy/zen2calculator.md
+     - ZenXY v2 Assembly: zenxy/zen2assm1.md
      - Previous Version: zenxy/og_zen.md
 
  - Control:
