@@ -93,6 +93,7 @@ ___
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/NutAssm-scaled.jpg){: width="400"}
 
 * Pay attention to the direction the nylocks are facing.
+* If you haven't already, it's highly reccomended to pre-thread the nuts here.
 * Seat the nuts in fully.
 * A drop of glue is a good idea here. These are blind nuts and that prevents them from getting pushed out.
 
