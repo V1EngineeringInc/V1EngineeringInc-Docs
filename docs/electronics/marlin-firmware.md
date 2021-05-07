@@ -1,6 +1,3 @@
-!!! warning
-    **If you bought a Rambo or Mini Rambo bundle from V1Engineering.com, this is usually already done.**
-
 # Firmware
 Firmware is the program or software “embedded/burned/flashed” into the electronics board, this is what
 translates the gcode into motion in the stepper motors. There are many types of firmware we mainly use Marlin.
