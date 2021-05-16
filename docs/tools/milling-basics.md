@@ -146,7 +146,11 @@ controller.
 
 ### Starting Gcode
 
-The pause here is to allow you to remove the Z probe wires.
+The pause here is to allow you to remove the Z probe wires.  
+
+*You should note, the second G00 command will send the Z-axis to that position, not 5mm above where it is currently.*  
+So, if your touch plate is thicker than 5mm, you need to change this to 5mm above your touch plate thickness.  
+(E.g. G00 Z25 F500 ; For a touch plate around 20mm thick. If you use Z5.0000, your z axis will plunge into your touch plate).
 
 ```
 G90 ; Absolute positioning, just in case
