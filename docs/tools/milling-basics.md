@@ -148,19 +148,16 @@ controller.
 
 The pause here is to allow you to remove the Z probe wires.  
 
-*You should note, the second G00 command will send the Z-axis to that position, not 5mm above where it is currently.*  
-So, if your touch plate is thicker than 5mm, you need to change this to 5mm above your touch plate thickness.  
-(E.g. G00 Z25 F500 ; For a touch plate around 20mm thick. If you use Z5.0000, your z axis will plunge into your touch plate).
-
 ```
-G90 ; Absolute positioning, just in case
+G91 ; Relative positioning, just in case
 G92 X0 Y0 Z0 ; Set Current position to 0, all axes
 G00 Z5.0000 F500 ; Raise Z 5mm at 8.3mm/s to clear clamps and screws
 G28 X Y Z ; Home in order, w/zprobe
-G92 Z0.15 ; Account for probe thickness (set your thickness)
-G00 Z5.0000 F500 ; Raise Z probe off off of surface
+G92 Z0.5 ; Account for probe thickness (set your thickness)
+G00 Z5.000 F500 ; Raise Z probe off of surface
 M00 ; pause for LCD button press
 M03 S<s> ; PID, set spindle speed
+G90 ; Absolute positioning, just in case
 ```
 
 ### Tool Change
