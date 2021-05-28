@@ -61,6 +61,8 @@ Most any semi-rigid material will work for printing these parts. PLA or PETG are
 
 ___
 
+[Hardware & Components kits](https://shop.v1engineering.com/collections/zenxy/products/zenxy-v2-hardware-bundle) are available in the shop.
+
 | Hardware                          | QTY. |
 |-----------------------------------|------|
 | M5 x 0.8 x 30mm Phillips Pan Head | 34   |
@@ -69,8 +71,6 @@ ___
 | M2.5 x 12mm Phillips Pan Head     | 6    |
 | Y Rail Larger Diameter [Calc](zen2calculator.md)     | 2    |
 | X Rail Smaller Diameter [Calc](zen2calculator.md)    | 2    |
-
-___
 
 
 | Components                       | QTY. |
