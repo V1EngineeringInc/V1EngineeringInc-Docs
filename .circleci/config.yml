@@ -15,9 +15,4 @@ jobs:
      - run:
         name: mkdocs build
         command: mkdocs build --clean --strict
-     - deploy:
-        name: mkdocs deploy
-        command: |
-          if [ "${CIRCLE_BRANCH}" == "master" ]; then
-          mkdocs gh-deploy --message "[ci skip] Deployed {sha} with CircleCI and MkDocs version: {version}"
-          fi
+        # deploy is being handled by a github action now.

@@ -3,14 +3,13 @@ on:
   push:
     branches:
       - master
-      - github_deploy
 
 jobs:
   build:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main
+      - name: Checkout master
         uses: actions/checkout@v2
 
       - name: Deploy docs
