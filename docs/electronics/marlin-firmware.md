@@ -1,6 +1,3 @@
-!!! warning
-    **If you bought a Rambo or Mini Rambo bundle from V1Engineering.com, this is usually already done.**
-
 # Firmware
 Firmware is the program or software “embedded/burned/flashed” into the electronics board, this is what
 translates the gcode into motion in the stepper motors. There are many types of firmware we mainly use Marlin.
@@ -9,8 +6,8 @@ translates the gcode into motion in the stepper motors. There are many types of 
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/05/Marlin-Logo-GitHub.png)
 
-The boards sold here are using the [Marlin](https://github.com/MarlinFirmware/Marlin) Firmware, only
-minor changes needed to run any machine. Again, if you bought your electronics from here this has
+The boards sold here are using the [Marlin](https://github.com/MarlinFirmware/Marlin) Firmware. Only
+minor changes have been made to run any machine. If you bought your electronics from here this has
 already been done for you initially, you can use this document to change or update your control board.
 
 The firmware is what makes this all possible and was the key for me to quickly make all sorts of
@@ -26,14 +23,18 @@ firmware to the place it is now.
 
 The newest "stable" release we have been working on are found at the link below. These files are preconfigured for various control boards and machine configurations.
 
-[Github pre-configured firmware repository.](https://github.com/V1EngineeringInc/MarlinBuilder/releases)
+[Github pre-configured firmware repository.](https://github.com/V1EngineeringInc/MarlinBuilder/releases), or the [Marlin Releases Page.](.../marlin-releases.md)
 
 If you want bleeding edge, you can head to the "actions" tab and see all nightly marlin bugfix builds along with pull request builds testing new features or settings. 
 
-### Programming the Control Board
+### Editing, Compiling, and Programming the Control Board
 
-Right now flashing (programming / burning) your control board with Marlin 2.0 requires using [PlatformIO](../learn/platformio.md) This has proven to be easier than the Arduino IDE we used to use for most people.
+Right now editing and flashing (programming / burning) your control board with Marlin 2.0 requires using [PlatformIO](../learn/platformio.md) This has proven to be easier than the Arduino IDE we used to use for most people.
 
+### Just updating a standard build
+
+Ramps, Rambo, Mini-Rambo, and possibly other boards can be quickly flashed with [Xloader.](https://github.com/xinabox/xLoader)
+SKR Pro boards can be updated by adding the new firmware.bin file to the microSD card on the board and rebooting. A little green LED will flash for a few seconds and it is done.
 
 ### Options
 
