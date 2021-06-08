@@ -6,7 +6,7 @@
 XLoader is a utility that doesn't compile any code (like [PlatformIO](../learn/platformio.md) does),
 but can "flash" or install that code onto a Rambo, Mini-Rambo, or Ramps.
 
-It uses the `firmware.hex` file found in the [Marlin Firmware Precompiled Zip Files](../electronics/marlin-builder.md).
+It uses the `firmware.hex` file found in the [Marlin Firmware Precompiled Zip Files](../electronics/marlin-firmware.md).
 
 This does not work with the BigTreeTech Skr boards, or the Archim boards.
 
@@ -22,7 +22,7 @@ Once downloaded, you only have to unzip it, and run the `XLoader.exe` on a windo
 
 It's pretty simple, really. 
 
-1. Get the `firmware.hex` file from the [Marlin Firmware Precompiled Zip Files](../electronics/marlin-builder.md).
+1. Get the `firmware.hex` file from the [Marlin Firmware Precompiled Zip Files](../electronics/marlin-firmware.md).
 2. Connect the Rambo, Mini-Rambo, or Ramps arduino to the computer via USB.
 3. Connect the 12V Power to the Rambo or Mini-Rambo to power the board.
 4. Open `XLoader.exe`, choose Mega(ATMEGA2560) for the Device.
