@@ -2,9 +2,6 @@
 
 # Marlin Firmware
 
-!!! warning
-    **If you bought a Rambo or Mini Rambo bundle from V1Engineering.com, this is usually already done.**
-
 This is where you can download the latest configured Marlin Firmware for your V1Engineering machines.
 Release notes and details are [in github](https://github.com/V1EngineeringInc/MarlinBuilder/releases)
 
