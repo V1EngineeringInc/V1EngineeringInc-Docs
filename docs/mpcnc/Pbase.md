@@ -42,7 +42,7 @@ ___
 ![!Foot placement](https://www.v1engineering.com/wp-content/uploads/2020/06/base-layout-scaled.jpg){: width="400"}
 
 * Use whatever screws are appropriate for your table, these are not included in the V1 Kits.
-* Layout the foot assemblies on your table according to the dimensions from the [cut calculator](/calculator.md).
+* Layout the foot assemblies on your table according to the dimensions from the [cut calculator](calculator.md).
 * Notice all the clamping screws are oriented towards the center of the build area.
 * Screw down the two assemblies along the front edge of the table. These will be your fixed references.
 

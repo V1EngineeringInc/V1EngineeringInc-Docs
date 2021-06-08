@@ -68,14 +68,14 @@ ___
 
 The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) contain all of the following hardware. Currently it is not available separately.
 
-| Hardware     | Alternative | QTY |
-|--------------|-------------|-----|
-| 5/16x1.5"    | M8x40mm     | 46  |
-| 5/16 locknut | M8 locknut  | 46  |
-| M5x30mm      |             | 65  |
-| M5 locknut   |             | 65  |
-| M3x10mm      |             | 24  |
-| M2.5x12mm    | #3x1/2"     | 10  |
+| Hardware     | Type  | Alternative | QTY |
+|--------------|-------|-------------|-----|
+| 5/16x1.5"    | Bolt  | M8x40mm     | 46  |
+| 5/16 locknut |       | M8 locknut  | 46  |
+| M5x30mm      | Screw |             | 65  |
+| M5 locknut   |       |             | 65  |
+| M3x10mm      | Screw |             | 24  |
+| M2.5x12mm    | Screw | #3x1/2"     | 10  |
 
 This version uses both sizes of hardware equally well. No issues with metric bolts what so ever.
 
@@ -98,8 +98,8 @@ Some of these are affiliate links, you can buy from these links or just use them
 |---------------------|-----|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | Nema 17 50OZ/in+    | 5   | [Shop](https://shop.v1engineering.com/collections/parts/products/nema-17-76oz-in-steppers)                                           | [Amazon](https://amzn.to/3hQKILc)                         |
 | * Belt GT2 10mm     | 4   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/gt2-10mm-belt)                                             | [Amazon](https://amzn.to/2V5pfo8)                         |
-| Pulley 16t gt2 10mm | 4   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/pulley-16-tooth-gt2-10mm)                                  | [Amazon](https://amzn.to/2VmDWTR)                         |
-| Idler 20t gt2 10mm  | 8   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/20t-idler-gt2-10mm)                                        | [Amazon](https://amzn.to/37TNJWh)                         |
+| Pulley 16t gt2 10mm (5mm bore) | 4   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/pulley-16-tooth-gt2-10mm)                                  | [Amazon](https://amzn.to/2VmDWTR)                         |
+| Idler 20t gt2 10mm  (5mm bore)| 8   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/20t-idler-gt2-10mm)                                        | [Amazon](https://amzn.to/37TNJWh)                         |
 | Power Supply        | 1   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/12v-6a-power-supply)                                       | [Amazon](https://amzn.to/2Cwlp0M)                         |
 | Wiring kit          | 1   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/wiring-kit-1)                                              | Custom Made for V1                                        |
 | Bearings            | 45  | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/bearings-608-2rs)                                          | [Amazon](https://amzn.to/2Cxe7tJ)                         |

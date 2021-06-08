@@ -1,4 +1,4 @@
-# MPCNC Final Assepbly
+# MPCNC Final Assembly
 
 ## Squaring
 

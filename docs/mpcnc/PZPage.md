@@ -7,6 +7,9 @@
 * You will need to drill 4 holes for M5 screws.
 * It is best to oversize the holes (up to about 8mm is fine) to allow for some adjustment and non-perfect drilling.
 
+!!! Note
+    These are blind holes, do not drill through both sides of the tube
+
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/RailMark-scaled.jpg){: width="400"}
 
 * Mark the rails according to the previous diagram.
@@ -90,6 +93,7 @@ ___
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/NutAssm-scaled.jpg){: width="400"}
 
 * Pay attention to the direction the nylocks are facing.
+* If you haven't already, it's highly reccomended to pre-thread the nuts here.
 * Seat the nuts in fully.
 * A drop of glue is a good idea here. These are blind nuts and that prevents them from getting pushed out.
 

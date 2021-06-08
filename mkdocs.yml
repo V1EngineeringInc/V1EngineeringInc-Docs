@@ -1,8 +1,8 @@
 site_name: V1 Engineering Documentation
 site_url: https://docs.v1engineering.com
-google_analytics:
-  - 'UA-36825469-4'
-  - 'auto'
+# google_analytics:
+#  - 'UA-36825469-4'
+#  - 'auto'
 repo_name: V1EngineeringInc/V1EngineeringInc-Docs
 repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
 edit_uri: 'edit/master/docs/'
@@ -43,7 +43,11 @@ nav:
    - MP3DP:
      - Main: mp3dp/index.md
      - Old Version: mp3dp/version1.md
-   - ZenXY: zenxy/index.md
+   - ZenXY: 
+     - ZenXY v2: zenxy/index.md
+     - ZenXY v2 Build Calculator: zenxy/zen2calculator.md
+     - ZenXY v2 Assembly: zenxy/zen2assm1.md
+     - Previous Version: zenxy/og_zen.md
 
  - Control:
    - Some Control Board Options:
@@ -92,6 +96,8 @@ theme:
   palette:
     primary: 'black'
     accent: 'red'
+  features:
+  - navigation.tabs
   logo: "img/favicon.ico"
   favicon: "img/favicon.ico"
 
@@ -107,7 +113,7 @@ extra_css: [v1.css]
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
-copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2019 V1Engineering Inc."
+copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2021 V1Engineering Inc."
 
 markdown_extensions:
   - admonition
