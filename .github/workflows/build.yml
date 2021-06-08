@@ -21,4 +21,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: mkdocs build
-        command: mkdocs build --clean --strict
+        run: mkdocs build --clean --strict
