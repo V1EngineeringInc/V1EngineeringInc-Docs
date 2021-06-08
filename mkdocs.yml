@@ -83,7 +83,7 @@ nav:
     - Editing mkdocs: mkdocs_info.md
     - Software Workflow: learn/software_overview.md
     - Repetier-Host: software/repetier-host.md
-    - Marlin Releases: electronics/marlin-releases.md
+    - Marlin Firmware: electronics/marlin-firmware.md
     - XLoader: electronics/xloader.md
     - PlatformIO: learn/platformio.md
     - Arduino: electronics/arduino.md
