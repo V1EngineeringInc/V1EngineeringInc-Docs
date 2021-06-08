@@ -76,7 +76,7 @@ Have a shiny new CNC and not sure what to do with it? Make a 3D printer, [Milled
 
 Want to spice up your office, living room, or dining room?  Make a slick art table with the [ZenXY](zenxy/index.md).
 
-If you can’t tell I like to make things and share them, If you have any questions you will find me in the forums. **- Ryan**
+If you can’t tell I like to make things and share them, If you have any questions you will find me in the [forums](https://forum.v1engineering.com/). **- Ryan**
 
 
 ## License
