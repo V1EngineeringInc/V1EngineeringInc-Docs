@@ -1,8 +1,8 @@
 site_name: V1 Engineering Documentation
 site_url: https://docs.v1engineering.com
-//google_analytics:
-  //- 'UA-36825469-4'
-  //- 'auto'
+# google_analytics:
+#  - 'UA-36825469-4'
+#  - 'auto'
 repo_name: V1EngineeringInc/V1EngineeringInc-Docs
 repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
 edit_uri: 'edit/master/docs/'
