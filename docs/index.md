@@ -82,7 +82,7 @@ If you can’t tell I like to make things and share them, If you have any questi
 ## License
 
 The documentation here at https://docs.v1engineering.com/ is under a 
-copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2019 V1Engineering Inc."
+copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2021 V1Engineering Inc."
 
 The machine design files, logos, and images hosted on v1engineering.com have their own license
 here: https://www.v1engineering.com/license/
