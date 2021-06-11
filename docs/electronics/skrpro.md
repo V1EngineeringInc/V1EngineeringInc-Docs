@@ -49,6 +49,16 @@ The completed board looks like this. Notice there are no jumpers under the drive
 At this point you can add the heat sinks being careful not to short any of the pins and only stick
 them to the copper pads on the top.
 
+## Molex and JST connectors
+
+The current V1 Engineering wiring kits have the Molex style terminations on them. The SKR Pro is the first board to be offered with JST directional style connections. Instead of buying adapters, another custom set of wires, or custom SKR boards, a pretty easy solution is just pulling off the JST plastic shields. The pin spacing is the same (or close enough) and pulling the shields off make for a more solid connection to the Molex style more commonly used. Needle nosed pliers and a little wiggling make this pretty easy. 
+
+Depending on what you are plugging in you can take them off the end stops and or stepper ports. Even after doing this you should always constrain your wires directly after the connection to the board.
+
+
+![!Shields off](https://www.v1engineering.com/wp-content/uploads/2021/03/PXL_20201122_212218205.jpg){: width="400"}
+
+
 ## Wiring Steppers
 
 We have a few options for how the steppers get connected to this board. Here are the three most
@@ -64,14 +74,14 @@ available voltage. The board is labeled and we will be using X, Y, and Z.
 
 ### Dual End Stops (EXTRUDERS=0)
 
-If the firmware is set for EXTRUDERS=0 then E0 becomes X1 and E1 becomes Y2. (or LR would be E0=Y2
+If the firmware is set for EXTRUDERS=0 then E0 becomes X2 and E1 becomes Y2. (or LR would be E0=Y2
 E1=Z2)
 
 ![!dual 0](https://www.v1engineering.com/wp-content/uploads/2020/07/dual2-scaled.jpg){: width="400"}
 
 ### Dual End Stops (EXTRUDERS=1)
 
-For EXTRUDERS=1 E0 is used and then E1 becomes X1 and E2 become Y2. (or LR would be E1=Y2 and E2=Z2)
+For EXTRUDERS=1 E0 is used and then E1 becomes X2 and E2 become Y2. (or LR would be E1=Y2 and E2=Z2)
 
 ![!dual 1](https://www.v1engineering.com/wp-content/uploads/2020/07/Dual-Ex-1-scaled.jpg){: width="400"}
 
@@ -90,7 +100,7 @@ This screen was chosen because it had a knob (great for dirty environments). We 
 Touchscreen mode and Classic mode, simultaneously. **Switching between modes is as easy as pressing
 the knob in for 3 seconds.**
 
-![!screen](https://www.v1engineering.com/wp-content/uploads/2020/07/lcd-touch-Labels-scaled.jpg){: width="400"}
+![!screen](https://www.v1engineering.com/wp-content/uploads/2021/01/lcd-touch-Labels-scaled-1.jpg){: width="400"}
 
 You do not need to use both, pay attention to the direction the wires are facing when connecting
 them.
@@ -124,7 +134,7 @@ You have three options of firmware for the exact board, driver, screen package a
 * V1CNC_SkrPro_Dual_2209-****** Ready for dual end stops on an MPCNC (X & Y axes).
 * V1CNC_SkrPro_DualLR_2209-****** Ready for dual end stops on a LowRider CNC (Y & Z axes).
 
-When you unzip the file you have a .bin file. Rename to FIRMWARE.bin, and save it to the MicroSD for the SKR Pro board. Insert the MicroSD back into the control board reset and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). 
+When you unzip the file you have a .bin file. Rename to FIRMWARE.bin, and save it to the MicroSD for the SKR Pro board. Make sure to unplug both grey exp1/2 cables for the screen before proceeding. Insert the MicroSD back into the control board, reset, and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). 
 
 ![!SKR file](https://www.v1engineering.com/wp-content/uploads/2020/08/SKR_Bin.jpg){: width="400"}
 
@@ -140,7 +150,7 @@ You also have the option to get the full Marlin source and edit and compile your
 
 Flashing the screen takes a .bin file, the config file, and usually the TFT35 folder (unzipped) on the root of the screens SD card.
 
-You can get these file from the link at the end of this section below.
+You can get these file from the link at the end of this section below. OR here is a [zip file](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/blob/master/TFT_E3V3_1_7_21.zip), make sure to unzip it first.
 
 BIGTREE_TFT35_V3.0_E3.****.bin
 config.ini
@@ -162,8 +172,26 @@ If you want to make any changes you will need to compile form the source files u
 Here is a basic walk through, [Platformio Docs](../learn/platformio.md).
 
 The V1 Engineering version of the SKR Pro firmware can be found on
-[github](https://github.com/Allted/Marlin), there are two versions, series and MPCNC dual endstop.
+[github](https://github.com/V1EngineeringInc/MarlinBuilder/releases), there are two versions, series and MPCNC dual endstop.
 
 The V1 Engineering generic version of the TFT firmware is in this [github
 repo](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware)
+
+## Cases
+
+### Flyfisher604 SKR Pro v1.2 and TFT E3 v3.0 Case
+
+A three-part case (lower box, top lid, and sloped TFT screen) that includes:
+
+- Ventilation on two sides of the lower box
+- Two fan mounts with integrated grates on the back of the sloped TFT screen
+- Built in standoffs for the SKR Pro board and TFT screen
+- Opening on TFT sloped screen mount exposing the SD card slot
+- Openings for DB25 and DB15 connectors (with mounting screw holes) to interface internal wiring to MPCNC (or use these as pass throughs)
+
+Available [here](https://www.thingiverse.com/thing:4678675) on Thingiverse.
+
+![!Flyflisher604 SKR Pro Case](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case.jpg){: width="400"}
+
+![!Flyflisher604 SKR Pro Case Inside](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case_Inside.jpg){: width="400"}
 

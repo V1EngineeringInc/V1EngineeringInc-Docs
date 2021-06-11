@@ -60,7 +60,7 @@ Content was created, edited, and shared by:
 Ryan Zellars (allted, vicious1) - Jeff Eberl (jeffeb3) - Mark Frost (fr0sty1) - Jamie (vector76) -
 Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett - Ian (ianj001) - 
 Gene Merritt (merrittgene) - Kenny (techguy682) - geechorama (?) - Adam Reineke (AdamTReineke) -
-Dan Roscigno (droscigno)
+Dan Roscigno (droscigno) - Dan Fontanesi - Kevin Selavko (kselavko)
 
 Special thanks to the Primo test crew. Without you fellas Primo would not be the absolute beast that it is!
 Tim (timonjkl) - GP (gpagnozzi) - Barry (barry99705)
@@ -76,13 +76,13 @@ Have a shiny new CNC and not sure what to do with it? Make a 3D printer, [Milled
 
 Want to spice up your office, living room, or dining room?  Make a slick art table with the [ZenXY](zenxy/index.md).
 
-If you can’t tell I like to make things and share them, If you have any questions you will find me in the forums. **- Ryan**
+If you can’t tell I like to make things and share them, If you have any questions you will find me in the [forums](https://forum.v1engineering.com/). **- Ryan**
 
 
 ## License
 
 The documentation here at https://docs.v1engineering.com/ is under a 
-copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2019 V1Engineering Inc."
+copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2021 V1Engineering Inc."
 
 The machine design files, logos, and images hosted on v1engineering.com have their own license
 here: https://www.v1engineering.com/license/

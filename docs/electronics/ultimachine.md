@@ -113,8 +113,7 @@ off and usually your plugs will fit the bare pins.
 Need a fancy Box for your fancy board?
 
 [Gnarly Mini-Rambo Case](https://www.thingiverse.com/thing:2778151)
-
-![!case](https://www.thingiverse.com/thing:2778151)
+![!Mini-Rambo case](https://www.v1engineering.com/wp-content/uploads/2017/04/MVIMG_20180201_0804233.jpg){: width="300"}
 
 #### Dual End Stop
 
@@ -153,7 +152,7 @@ but the Diagram below should be a little more clear.
 
 ### Adding a Laser Pin
 
-![!pins](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180626_1559002-400x326.jpg){: width="300"}
+![!pins](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180626_1559002.jpg){: width="300"}
 
 When using a laser or a PID controller the Pins on MX2 are available:
 
@@ -198,7 +197,7 @@ $W_v = (V_{Ref} / 1.66) * 255$
 
 Need a fancy Box for your fancy board?
 
-[Gnarly Rambo/Archim Case](https://www.thingiverse.com/thing:2778151)
+[Gnarly Rambo/Archim Case](https://www.thingiverse.com/thing:2781322)
 
 ![!case](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180203_1734152.jpg){: width="300"}
 
@@ -220,7 +219,7 @@ extremely similar to the Rambo board except no LCD adapter is needed.
 
 Need a fancy Box for your fancy board?
 
-[Gnarly Rambo/Archim Case](https://www.thingiverse.com/thing:2778151)
+[Gnarly Rambo/Archim Case](https://www.thingiverse.com/thing:2781322)
 
 ![!case](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180203_1734152.jpg){: width="300"}
 

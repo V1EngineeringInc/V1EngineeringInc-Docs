@@ -18,34 +18,34 @@ should be.
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/inter.jpg){: width="400"}
 
 The tool paths start with importing the DXF file in mm. This file has all the part paths on it but
-not the depth of cut so we will work though this on step at a time. The tool will be starting off to
+not the depth of cut so we will work though this one step at a time. The tool will be starting off to
 the left of the actual piece of wood touching the bed so the first step is to move the zero point
 over about half an inch, to approximate where the tool will start. Just select Zero, Point, and
 Click where you want the new Zero.
 
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/NewZero.jpg){: width="400"}
 
-These are the dimension I will be using for the depths of cut.
+These are the dimensions I will be using for the depths of cut.
 
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/dimiso.jpg){: width="400"}
 
 The first cutting step will be the basic surfacing of the wood to make sure the top is nice and
-flush. I don’t have much thickness to spare so for surfacing I am only cutting 1.55mm in to the
+flush. I don’t have much thickness to spare so for surfacing I am only cutting 1.55mm into the
 work surface. Because I am starting from the bed the Z origin will be set at the end when ESTLCAM
 asks for the part height, that will be the Z zero plane (I will be using 11.5mm). So for this part
 my Z=0 will be 11.5mm from the bed surface. If you had a nice flat piece of material you can make
 it easier and just start at the work surface.
 
-For the cut I select **Inside, pocket**, and selected the outer most path, shown in red. Make sure
+For the cut I select **Inside, pocket**, and selected the outermost path, shown in red. Make sure
 to set the tool path depth and machining order starting at one and increment by at least one.
 
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I1.jpg){: width="400"}
 
 The next cut will be a pocket taking the whole surface down in 2 steps, a rough and finishing pass.
 For the roughing we can start at 1.55mm from the Z=0 plane since that material is already gone from
-the previous step and go into the material another 4.85mm as see in the part dimensions. For the
+the previous step and go into the material another 4.85mm as seen in the part dimensions. For the
 roughing pass we will leave an allowance of 0.2mm. This lets us come back round for a second pass
-and only have to mill of .2mm of wood and this leaves a nice smooth Finished surface. So we use an
+and only have to mill of .2mm of wood and this leaves a nice smooth finished surface. So we use an
 **inside pocket** pass with .2mm allowance and then a second just **inside** cut with 0 allowance
 since the material has already been removed with the roughing pocket no need to cut all that empty
 space. Current tool path shown in red.
@@ -61,7 +61,7 @@ into the spoil board, I went an extra .2mm for a cut of 5.3mm
 
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I4.jpg){: width="400"}
 
-Now 3 more inside cuts,  rough pockets followed by finishing passes.
+Now 3 more inside cuts, rough pockets followed by finishing passes.
 
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I5.jpg){: width="400"}
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I6.jpg){: width="400"}
@@ -73,7 +73,7 @@ Now 3 more inside cuts,  rough pockets followed by finishing passes.
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I10.jpg){: width="400"}
 
 Now that the inner features have been finished it is time to cut the part from the material,
-leaving 3 small tabs that can easily but snipped off. For this step will will be using an
+leaving 3 small tabs that can easily be snipped off. For this step will will be using an
 outside cut, with a .2mm allowance, setting the tabs, starting at the Z=0 plane since the outer
 edge did not get surfaced and cutting .2mm in to the waste board (11.7mm deep). Then the
 finishing pass with 0 allowance and matching the tabs previously set.

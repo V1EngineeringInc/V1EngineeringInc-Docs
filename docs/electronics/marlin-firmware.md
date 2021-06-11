@@ -1,208 +1,324 @@
-!!! warning
-    **If you bought a bundle or electronics board from V1Enginering.com, this is usually already done.**
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
-# Firmware
-Firmware is the program or software “embedded/burned/flashed” into the electronics board, this is what
-translates the gcode into motion in the stepper motors. There are many types of firmware we mainly use Marlin.
+# Marlin Firmware
 
-## Marlin
+This is where you can download the latest configured Marlin Firmware for your V1Engineering machines.
+Release notes and details are [in github](https://github.com/V1EngineeringInc/MarlinBuilder/releases)
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2015/05/Marlin-Logo-GitHub.png)
+After downloading the right firmware below, you can flash it to your controller ([Rambo, Mini-Rambo,
+Ramps](xloader.md), or [Skr](skrpro.md#firmware)). Or compile and flash using
+[platformio](../learn/platformio.md) or [arduino](arduino.md).
 
-The boards sold here are using the [Marlin](https://github.com/MarlinFirmware/Marlin) Firmware, only
-minor changes needed to run any machine. Again, if you bought your electronics from here this has
-already been done for you initially, you can use this document to change or update your control board.
+## Levels of Testing
 
-The firmware is what makes this all possible and was the key for me to quickly make all sorts of
-robots. For a while now [Scott – “ThinkyHead”](https://www.patreon.com/thinkyhead/posts) has been the ring leader for all the great developers
-working on the Marlin project. He is not the only one but has been a huge factor in getting the
-firmware to the place it is now. 
+Not all of these configurations go through the same rigor before being released. There are just too
+many to test, but that doesn't mean we shouldn't share what *should* work. These levels give you a
+rough idea of which configurations have the most users and the most testing.
 
-??? "Dual Endstops & Auto squaring"
-    This is an advanced feature and the information will be kept separately for the time being,
-    [HERE](../electronics/dual-endstops).
+### V1Engineering Tested Configurations
 
-### GitHub Firmware
+!!! success "Officially Tested Firmware Configurations"
+    These options are tested at V1Engineering.
 
-The newest "stable" release we have been working on are found at the link below. These files are preconfigured for various control boards and machine configurations.
+### Community Tested Configurations
 
-[Github pre-configured firmware repository.](https://github.com/V1EngineeringInc/MarlinBuilder/releases)
+!!! note "Community Teseted Firmware Configurations"
+    These options are not tested at V1Engineering, but community members in the
+    [forums](https://forums.v1engineering.com) have tested them and report that they work.
 
-If you want bleeding edge, you can head to the "actions" tab and see all nightly marlin bugfix builds along with pull request builds testing new features or settings. 
+### Untested Configurations
 
-### Programming the Control Board
+!!! warning "Not Tested Firmware Configurations"
+    These options are not tested. Let us know if they work for you in the [forums](https://forums.v1engineering.com).
 
-Right now flashing (programming / burning) your control board with Marlin 2.0 requires using [PlatformIO](../learn/platformio.md) This has proven to be easier than the Arduino IDE we used to use for most people.
+    Use at your own risk.
 
+## V1CNC (MPCNC or Low Rider CNC) Configurations
 
-### Options
+![!MPCNC Render](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-scaled.jpg){: width="450"}
 
-Depending on what type of control board you use you might have other firmware options. Many firmware versions are fairly board specific though. There could be a long list here, instead may we suggest having a look in the forums to see what others have tried out and if it might be a better option for your specific use case.
+![!lowrider](https://www.v1engineering.com/wp-content/uploads/2018/07/LowRider2-CNC-Render.jpg){: width="450"}
 
+### Ultimachine
 
-??? "Archived Arduino IDE instructions"
-    ### Using GitHub
+<div name="v1cnc-ultimachine"></div>
 
-    You will find this on the [V1 Engineering Marlin GitHub](https://github.com/Allted/Marlin) page. 
+### Skr Pro Configurations
 
-    | In case you have never used GitHub, the first drop down lets you select the firmware version you want. | The next step is download the firmware you selected. Click on “Clone or Download”, then click on “Download Zip”. |
-    |--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-    | ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/select-github.jpg){: width="400"}     | ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/download-github.jpg){: width="400"}             |
+<div name="v1cnc-skr"></div>
 
-    ### Naming key
+### Other Configurations
 
-    All versions have the full graphic LCD enabled. I can add links to all of these if it is still unclear.
+<div name="v1cnc-other"></div>
 
-    **Machine type_Board_Details**
+## MP3DP (3D Printer, not MPCNC) Configurations
 
-    _Machine type_– MP3DP, V1CNC=MPCNC & LowRider, ZenXY
+![!mp3dp](https://www.v1engineering.com/wp-content/uploads/2018/01/MVIMG_20180111_1403212.jpg){: width="450"}
 
-    _Boards_– Mini-Roambo, Full Rambo, Archim1, Archim2, Ramps
+### Ultimachine
 
-    _Details_– 16T=16tooth pulley, T8=Leadscrew type, 16/32step=Step rate the firmware is set to, Dual Endstop=MPCNC specific edits, Aero/MK=base extruders they are set to.
+<div name="v13dp-ultimachine"></div>
 
-    ### Marlin Change log
+### Skr Pro Configurations
 
-    1/20/20 - 418, Arcs fixed, more default current fresh start from 2.0.1+
+<div name="v13dp-skr"></div>
 
-    4/27/19 – 401-402, 600+changes (Marlin catch up), enabled eeprom, lowered Z accel (MPCNC/LowRider), driver fixes.
+### Other Configurations
 
-    12/17/18 – 303 Archim1 boards only, LCD/USB fix. Thanks Jason&Ultimachine.
+<div name="v13dp-other"></div>
 
-    11/28/18 – 302
+## ZenXY Configurations
 
-    - Added 3 menus, G92 XYZ, Home Z, Home XY. (Maybe I should use “Zero” instead of home or reference :p)
-    - No easy workaround for the flashing ???’s…The “[right way](https://github.com/MarlinFirmware/Marlin/issues/7342)”
-    - Dual firmware’s get disable softstop menus.
-    - 20 minute stepper hold after activation / gcode completion.
-    - Remember G0, G1, G2…. (might help with poor post processors) Can’t enable the G0 default rapids because we need a separate for the Z axis. If I enable this by default we would be working with the Z max unless otherwise specified in the gcode. Might be a good thing.
-    - Junction deviation set at smoothie recommended 0.005 for CNC’s (gunna need some testing).
-    - Enabled S_Curve_deviation.
-    - LCD timeout set to 45 seconds instead of 15.
-    - CNC coordinate systems enabled.
-    - Added a little versioning number to the LCD boot screen or repetier connect info. This will help easily identify what firmware people are using and if there are ever issues we can flag it.
+![!FirstZenXY](https://www.v1engineering.com/wp-content/uploads/2017/07/IMG_20170717_103443.jpg){: width="450"}
 
-    | [![pic](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20170411_181548-1080x702.jpg){: width="400"}](../electronics/ultimachine.md) | [![pic](https://www.v1engineering.com/wp-content/uploads/2015/04/IMG_20150418_093541-1080x810.jpg){: width="400"}](../electronics/ramps.md) |
-    |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-    |  [Ultimachine Boards](../electronics/ultimachine.md)                                                                                              | [Ramps](../electronics/ramps.md)                                                                                                            |
+### Ultimachine
 
-    ## Smoothie
+<div name="v1zxy-ultimachine"></div>
 
-    The X and Y steppers are wired in series (or parallel) and wired to a single port. The picture below
-    is an example of a board running smoothieware. Many other boards are available.
+### Skr Pro Configurations
 
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/IMG_20170405_184727.jpg){: width="400"}
+<div name="v1zxy-skr"></div>
 
-    Here is my Pre-Configured Basic config file.
+### Other Configurations
 
-    This is just me getting my feet wet and there are a lot of other options you can add to the file.
+<div name="v1zxy-other"></div>
 
-    **This is for 32nd stepping, 16 Tooth Pulleys and  5/16″ threaded rod.**
+## Decoding the Config Names
 
-    Config for smoothie boards..[config](https://www.v1engineering.com/wp-content/uploads/2016/09/config.zip)
+### Machine Type
 
-    [More info here](https://www.v1engineering.com/forum/topic/sbase-smoothieware/)
+V1CNC
+:   These are created for the CNC machines designed at V1Engineering. This includes the
+[MPCNC](../mpcnc/intro.md) and the [Low Rider CNC](../lowrider/index.md).
 
-    ### Change log
+V13DP
+:   V1 3D Printer. This is for the [MP3DP](../mp3dp/index.md).
 
-    9/15/16- Initial release
+V1ZXY
+:   V1 Zen XY Sand Machine. This is for the [ZenXY](../zenxy/index.md), a corexy machine for 2D drawings in the sand.
 
-    ## GRBL
+### Board Type
 
-    The X and Y steppers are wired in series (or parallel) and wired to a single port. The picture below
-    is an example of a board running GRBL. Many other boards are available. First board I ever
-    bought…..one of these days…
+Rambo
+:   The [Ultimachine Rambo](ultimachine.md#rambo-13-14) board. For purchase in the [Shop](https://shop.v1engineering.com/collections/parts/products/rambo-v1-3l).
 
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/IMG_20170405_185038.jpg){: width="400"}
+Mini-Rambo
+:   The [Ultimachine Mini-Rambo](ultimachine.md#mini-rambo) board. For purchase in the [Shop](https://vicious1-com.myshopify.com/products/mini-rambo-1-3).
 
-    Sorry I do not have a config for this yet.
+Archim1, Archim2
+:   The [Ultimachine Archim 1 or Archim 2](ultimachine.md#archim). For purchase in the [Shop](https://vicious1-com.myshopify.com/collections/miscellaneous/products/archim-1-0a).
 
-    ## How to Flash
+SkrPro
+:   The [BigTreeTech Skr Pro v1.2](skrpro.md) (or v1.1), with 6 drivers. For purchase in the
+[Shop](https://shop.v1engineering.com/collections/parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3)
+This does not work for the Skr Turbo, Skr mini, or the Skr 1.3/1.4 (without the pro, turbo, or mini
+name).
 
-    ### How to flash firmware on the Mini-Rambo (or Rambo)
+Skr1p3
+:   The BigTreeTech Skr v1.3 or Skr v1.4. These boards are smaller than the Skr Pro, and has 5 drivers, not 6.
 
-    - Install the [Arduino](https://www.arduino.cc/en/Main/Software) software and its drivers **before** you plug in your board.
-    - You will then need to plug in both **USB and 12V power.**
-    - Unzip the firmware you need from above
-    - Open arduino
-    - Sketch-Include Library-Manage Libraries
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/u81.png){: width="400"}
-    - Type “U8glib” in the search box, hit enter, select U8glib, select the number with the highest
-    version, Install. This has never been easier.
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/u82.png){: width="400"}
-    - File- Preferences
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram1.png){: width="200"}
-    - In “additional boards manager url” paste
-        `https://raw.githubusercontent.com/ultimachine/ArduinoAddons/master/package_ultimachine_index.json`
-        Hit “ok”
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram2.png){: width="200"}
-    - Tools-Board-Boards Manager
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram3.png){: width="200"}
-    - Search and install, “rambo”
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram4.png){: width="200"}
-    - Tools-Board-Rambo
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram5.png){: width="200"}
-    - Tools- Port (whatever port your board shows up in)
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/port.png){: width="400"}
-    - Open the firmware folder and select the current Marlin.ino file
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/11/Marlin19.jpg){: width="400"}
-    - Click on the Upload arrow and watch the progress bar at the bottom
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/upload.png){: width="400"}
-    - The bottom of the window will say “done uploading” when it is finished done
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/done-e1487436522248.png){: width="400"}
-    - **If you get a boot loader error, it is okay.**
+SkrTurbo
+:   The BigTreeTech Skr Turbo v1.4.
 
-    ### How to flash firmware on the Ramps 1.4
+Ramps
+:   The good old [Ramps](ramps.md) board.
 
-    - Install the [Arduino](https://www.arduino.cc/en/Main/Software) software and its drivers **before** you plug in your board.
-    - Unzip the firmware you need from above
-    - Open Arduino
-    - Sketch-Include Library-Manage Libraries
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/u81.png){: width="400"}
-    - Type “U8glib” in the search box, hit enter, select U8glib, select the number with the highest
-        version, Install. This has never been easier.
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/u82.png){: width="400"}
-    - Tools-Board-Mega 2560
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/board.png){: width="400"}
-    - Tools-Processor
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/proc.png){: width="400"}
-    - Tools- Port (whatever port your board shows up in)
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/port.png){: width="400"}
-    - Open the firmware folder and select the current Marlin.ino file
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/11/Marlin19.jpg){: width="400"}
-    - Click on the Upload arrow and watch the progress bar at the bottom
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/upload.png){: width="400"}
-    - The bottom of the window will say “done uploading” when it is finished done
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/done-e1487436522248.png){: width="400"}
+### Dual or Series stepper wiring
 
-    ### How to flash firmware on the Archim
+Serial
+:   Any of the V1CNC configs that don't have `Dual` or `DualLR` in the name are configured for
+serial wiring (which works on the MPCNC and the Low Rider). Check out [more information about series stepper wiring](steppers.md)
 
-    - Install the [Arduino](https://www.arduino.cc/en/Main/Software) software and its drivers **before** you plug in your board.
-    - You will then need to plug in both **USB and 12V power.**
-    - Unzip the firmware you need from above
-    -**Make sure you do not have U8glib in your Arduino Library folder**
-    - File- Preferences
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram1.png){: width="200"}
-    - In “additional boards manager url” paste
-        `https://raw.githubusercontent.com/ultimachine/ArduinoAddons/master/package_ultimachine_index.json`
-        Hit “ok”
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram2.png){: width="200"}
-    - Tools-Board-Boards Manager
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram3.png){: width="200"}
-    - Search and install, “archim”
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram4.png){: width="200"}
-    - Tools-Board-archim
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/12/ram5.png){: width="200"}
-    - Tools- Port (whatever port your board shows up in)
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/port.png){: width="400"}
-    - Press and hold the erase button on the Archim board for 5 seconds.
-    - Wait 30 seconds then press the reset button on the Archim
-    - Open the firmware folder and select the current Marlin.ino file
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/11/Marlin19.jpg){: width="400"}
-    - Click on the Upload arrow and watch the progress bar at the bottom
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/upload.png){: width="400"}
-    - The bottom of the window will say “done uploading” when it is finished done
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2015/12/done-e1487436522248.png){: width="400"}
+Dual
+:   This indicates a configuration for a Dual Endstop MPCNC. Check out [more information about dual
+endstops](dual-endstops.md)
+
+DualLR
+:   This indicates a configuration for a Dual Endstop Low Rider. Check out [more information about
+dual endstops for Low Rider](dual-lr.md)
+
+### Driver Type
+
+Some boards support more than one kind of driver. These codes indicate which drivers you install into the driver sockets.
+
+8825
+:   DRV8825. Made famous by pololu. The a4498 or any 8825 compatible driver (like a TMC driver in
+standalone mode) would use this type.
+
+2209
+:   TMC2209. These are for the Trinamic TMC 2209 drivers. If you are using another TMC driver in SPI
+or UART mode, then you will start with this, and change the driver type.
+
+## Alternatives
+
+Depending on what type of control board you use you might have other firmware options. Many firmware
+versions are fairly board specific though. There could be a long list here, instead may we suggest
+having a look in the forums to see what others have tried out and if it might be a better option for
+your specific use case.
+
+<script>
+
+function build_tablerow( configInfo, version ) {
+  let row = "<tr>"
+  row += "<td><a href='" + configInfo[0] + "'>" + configInfo[1] + "</a></td>"
+  row += "<td>" + configInfo[2] + " / " + version + "</td>"
+ 
+  let supportLink = "untested-configurations"
+  if (configInfo[3] === "V1Engineering") {
+    supportLink = "v1engineering-tested-configurations"
+  } else if (configInfo[3] === "community") {
+    supportLink = "community-tested-configurations"
+  }
+  row += "<td><a href='#" + supportLink + "'>" + configInfo[3] + "</a></td>"
+  row += "</tr>"
+  return row
+}
+
+function build_table(entries, version) {
+
+  let table = "<table>"
+  table += "<thead> <tr> <th>Config</th> <th>Version</th> <th>Testing</th> </tr> </thead>"
+  table += "<tbody>"
+
+  // Build the table row in order of support type.
+  $.each(entries, function(i, configInfo) {
+    if (configInfo[3] === "V1Engineering") {
+      table += build_tablerow(configInfo, version)
+    }
+  })
+  
+  $.each(entries, function(i, configInfo) {
+    if (configInfo[3] === "community") {
+      table += build_tablerow(configInfo, version)
+    }
+  })
+  
+  $.each(entries, function(i, configInfo) {
+    if (configInfo[3] === "untested") {
+      table += build_tablerow(configInfo, version)
+    }
+  })
+  
+  table += "</tbody>"
+  
+  return table
+}
+
+// These are the key parts where we define which configs we support in each category.
+// Stuff that isn't in these two lists are untested.
+const v1engineering_configs = [
+  'V13DP_MiniRambo',
+  'V1CNC_MiniRambo',
+  'V1CNC_Rambo',
+  'V1CNC_Rambo_Dual',
+  'V1CNC_SkrPro_2209',
+  'V1CNC_SkrPro_Dual_2209',
+  'V1ZXY_MiniRambo',
+]
+
+const community_configs = [
+  'V1CNC_Ramps',
+  'V1CNC_Rambo_DualLR',
+  'V1CNC_SkrPro_DualLR_2209',
+  'V1ZXY_Rambo',
+]
+
+function update_links() {
+
+  $.getJSON("https://api.github.com/repos/V1EngineeringInc/MarlinBuilder/releases/latest", function(result, status){
+ 
+    let version = "Error"
+
+    v1cnc_ultimachine = []
+    v1cnc_skr = []
+    v1cnc_other = []
+    
+    v13dp_ultimachine = []
+    v13dp_skr = []
+    v13dp_other = []
+    
+    v1zxy_ultimachine = []
+    v1zxy_skr = []
+    v1zxy_other = []
+    
+    $.each(result["assets"], function(i, field){
+    
+      // This looks something like this: 'https://github.com/V1EngineeringInc/MarlinBuilder/releases/download/509/V1CNC_Rambo_DualLR-2.0.7.2-src.zip'
+      const url = field.browser_download_url
+      
+      // This is the release folder name '509'
+      version = /\/([v0-9]+)\//.exec(url)[1]
+     
+      // This is the zip name 'V1CNC_Rambo_DualLR-2.0.7.2-src.zip'
+      const zipName = /[_a-zA-Z-.0-9]*-src\.zip/.exec(url)
+      
+      // If you want to edit this, try using this online regex editor: https://regex101.com/r/K2eUnz/1
+      // This grabs the whole thing again, but this time, group 1 is the config name and group 2 is the marlin version.
+      const zipParts = /([_a-zA-Z.0-9]*)-([_a-zA-Z.0-9]*)-src\.zip/.exec(zipName)
+      const configType = zipParts[1]
+      const marlinVersion = zipParts[2]
+      
+      // Machine type is like 'V1CNC'
+      const machineType = /[A-Z0-9]+/.exec(configType)[0]
+     
+      let supportType = "untested"
+      if (v1engineering_configs.indexOf(configType) > -1) {
+        supportType = "V1Engineering"
+      } else if (community_configs.indexOf(configType) > -1) {
+        supportType = "community"
+      }
+      
+      if ("V1CNC" === machineType) {
+        if (/Rambo/.test(configType)) {
+          v1cnc_ultimachine.push([url, configType, marlinVersion, supportType])
+        } else if (/SkrPro/.test(configType)) {
+          v1cnc_skr.push([url, configType, marlinVersion, supportType])
+        } else {
+          v1cnc_other.push([url, configType, marlinVersion, supportType])
+        }
+      } else if ("V13DP" === machineType) {
+        if (/Rambo/.test(configType)) {
+          v13dp_ultimachine.push([url, configType, marlinVersion, supportType])
+        } else if (/SkrPro/.test(configType)) {
+          v13dp_skr.push([url, configType, marlinVersion, supportType])
+        } else {
+          v13dp_other.push([url, configType, marlinVersion, supportType])
+        }
+      } else if ("V1ZXY" === machineType) {
+        if (/Rambo/.test(configType)) {
+          v1zxy_ultimachine.push([url, configType, marlinVersion, supportType])
+        } else if (/SkrPro/.test(configType)) {
+          v1zxy_skr.push([url, configType, marlinVersion, supportType])
+        } else {
+          v1zxy_other.push([url, configType, marlinVersion, supportType])
+        }
+      } else {
+        console.log("Unknown machine type")
+        console.log(machineType)
+      }
+      
+    });
+  
+    // Now, actually make the tables
+    $("div[name=v1cnc-ultimachine]").append(build_table(v1cnc_ultimachine, version))
+    $("div[name=v1cnc-skr]").append(build_table(v1cnc_skr, version))
+    $("div[name=v1cnc-other]").append(build_table(v1cnc_other, version))
+    $("div[name=v13dp-ultimachine]").append(build_table(v13dp_ultimachine, version))
+    $("div[name=v13dp-skr]").append(build_table(v13dp_skr, version))
+    $("div[name=v13dp-other]").append(build_table(v13dp_other, version))
+    $("div[name=v1zxy-ultimachine]").append(build_table(v1zxy_ultimachine, version))
+    $("div[name=v1zxy-skr]").append(build_table(v1zxy_skr, version))
+    $("div[name=v1zxy-other]").append(build_table(v1zxy_other, version))
+    
+  });  
+}
+
+// Set these up the first time.
+$(window).on('load', function(){
+  links = update_links();
+});
+
+</script>
 
 
 
