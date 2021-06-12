@@ -1,4 +1,4 @@
 git+https://github.com/g-provost/lightgallery-markdown
-mkdocs>=1.2.1
-mkdocs-material==5.0.1
+mkdocs>=1.0.1
+mkdocs-material==4.4.2
 pyembed-markdown==1.1.0
