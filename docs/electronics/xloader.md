@@ -12,7 +12,7 @@ This does not work with the BigTreeTech Skr boards, or the Archim boards.
 
 ## Get XLoader
 
-XLoader is only available in windows and you can download it [here](https://github.com/xinabox/xLoader/releases/latest). Look for the latest release and find a XLoader_[version].zip
+XLoader is only available in windows and you can download it [Pre-configured here](https://www.hobbytronics.co.uk/arduino-xloader), or [source here](https://github.com/xinabox/xLoader/releases/latest). Look for the latest release and find a XLoader_[version].zip
 
 Once downloaded, you only have to unzip it, and run the `XLoader.exe` on a windows machine.
 
