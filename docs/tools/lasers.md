@@ -196,11 +196,10 @@ Ramps=44
 
 ---
 
-### Leo’s
+### Leo’s Laser
 
-Leo was the one that made Lasers seem doable, even for me. My [Leo
-laser](https://www.v1engineering.com/the-2-8-watt-100-laser/) is still working perfectly and I
-highly recommend it over an import if you can not afford a Jtech! Thanks a million Leo69.
+A short DIY guide to building your own diode laser and power supply. Leo was the first one that made Lasers seem doable, even for me. My [Leo
+laser](https://www.v1engineering.com/the-2-8-watt-100-laser/) is still working perfectly. The Import lasers are pretty stable now so this guide is a bit out of date. Thanks a million Leo69 for getting us all started with the Pew Pew's.
 
 ## Software
 
