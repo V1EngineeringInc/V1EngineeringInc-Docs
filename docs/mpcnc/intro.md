@@ -39,7 +39,7 @@ This machine can easily do many things, how about making some coffee with Apach�
  
 ## Power
 
-- X and Y axis are powered by 2 stepper motors each, and a single stepper for the Z axis. The standard would be NEMA 17 in any torque preferably 42 OZ/in and above (the kit come with 76 OZ/in). No need for NEMA 23’s or their required larger drivers,  torque is not one of this machines issues.
+- X and Y axis are powered by 2 stepper motors each, and a single stepper for the Z axis. The standard would be NEMA 17 in any torque preferably 42 OZ/in and above (the kit comes with 76 OZ/in). No need for NEMA 23’s or their required larger drivers,  torque is not one of this machines issues.
 
 - Belts are used for their accuracy and price. Small belts are used because each axis has two of them. Ballscrews are expensive, require tuning, and periodic maintenance / adjustments.
 
