@@ -128,8 +128,8 @@ your z axis is backwards. [Flip the plug](../software/reverse-motor.md).
 
 ## Test File
 
-[Test Crown 12mm/s](https://www.v1engineering.com/wp-content/uploads/2015/09/Test-Crown-12mms.gcode)– 
-If you are having problems try this one (If you are having download issues -Right click- Save as.).
+[Test Crown 12mm/s GCODE](https://www.v1engineering.com/wp-content/uploads/2015/09/Test-Crown-12mms.gcode)– [Test Crown 12mm/s Zipped file](https://www.v1engineering.com/wp-content/uploads/2018/02/Test-Crown-12mms.zip)
+.
 
 
 ## Final
