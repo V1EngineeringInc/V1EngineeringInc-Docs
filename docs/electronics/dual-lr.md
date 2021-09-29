@@ -198,7 +198,7 @@ the [forums](https://forums.v1engineering.com).
   - For the preconfigured Dual LR files, the Y axis is the axis on wheels and the X axis is the axis
       on tubes/bearings.
   - Higher Z values should raise the gantry up.
-  - Higher Z values should move to the right.
+  - Higher X values should move to the right.
   - Higher Y values should move away from you.
   - You may have to change which side of the table you stand on to make that true. When using CAM,
       understand that this is the side of the table you have to imagine standing on.
