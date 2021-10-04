@@ -179,6 +179,13 @@ repo](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware)
 
 ## Cases
 
+
+### TFT35 E3 V3 Case 
+
+Box for the [TFT35 E3 V3](https://www.prusaprinters.org/prints/74330-tft35-e3-v3-case).
+
+![!TFT35 E3 V3 Case](../img/TFT_Case_Picture.jpg){: width="400"}
+
 ### Flyfisher604 SKR Pro v1.2 and TFT E3 v3.0 Case
 
 A three-part case (lower box, top lid, and sloped TFT screen) that includes:
