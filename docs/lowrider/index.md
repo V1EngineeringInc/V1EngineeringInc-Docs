@@ -98,7 +98,7 @@ your rails are crooked this is where to check.
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Y-Assm-1.jpg){: width="350"}
 
 It is best not to tighten the M3 screws all the way on the T8 nuts. This allows for a touch of
-misalignment and smoother Z action. Don’t worry. Their only job is to stop rotation, gravity does the
+misalignment and more smooth Z action. Don’t worry, their only job is to stop rotation and gravity does the
 rest.
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Wheel-Assm.jpg){: width="350"}
