@@ -12,7 +12,7 @@ pre wired into the board so there are no extra wires needed.
 
 [SKR Pro Bundle is available here in the shop.](https://shop.v1engineering.com/collections/parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3)
 
-There are many options involved here. To offer the best experience for most users and I have settled
+There are many options involved here. To offer the best experience for most users I have settled
 on the TMC2209 drivers, and the TFT35 V3 E3 screen.
 
 ![!SKR Bundle](https://www.v1engineering.com/wp-content/uploads/2020/07/srkbundle.jpg){: width="400"}
