@@ -250,11 +250,11 @@ function update_links() {
       version = /\/([v0-9]+)\//.exec(url)[1]
      
       // This is the zip name 'V1CNC_Rambo_DualLR-2.0.7.2-src.zip'
-      const zipName = /[_a-zA-Z-.0-9]*-src\.zip/.exec(url)
+      const zipName = /[_a-zA-Z-.0-9]*[-src]*\.zip/.exec(url)
       
       // If you want to edit this, try using this online regex editor: https://regex101.com/r/K2eUnz/1
       // This grabs the whole thing again, but this time, group 1 is the config name and group 2 is the marlin version.
-      const zipParts = /([_a-zA-Z.0-9]*)-([_a-zA-Z.0-9]*)-src\.zip/.exec(zipName)
+      const zipParts = /([_a-zA-Z.0-9]*)-([_a-zA-Z.0-9]*)[-src]*\.zip/.exec(zipName)
       const configType = zipParts[1]
       const marlinVersion = zipParts[2]
       
@@ -276,7 +276,7 @@ function update_links() {
         } else {
           v1cnc_other.push([url, configType, marlinVersion, supportType])
         }
-      } else if ("V13DP" === machineType) {
+      } else if (("V13DP" === machineType) || ("V13RP" === machineType)) {
         if (/Rambo/.test(configType)) {
           v13dp_ultimachine.push([url, configType, marlinVersion, supportType])
         } else if (/SkrPro/.test(configType)) {
