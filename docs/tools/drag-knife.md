@@ -123,5 +123,7 @@ by Ryan | Oct 30, 2016 | Hardware & Electronics
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161104_125849.jpg){: width="400"}
 - The etch shows up when the glass is dry.
 
-[!embed](https://www.youtube.com/watch?v=1uBo451z2AM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1uBo451z2AM"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -1,3 +1,4 @@
 site/
 venv/
 project_env/Lib/site-packages/pyembed_markdown-1.1.0-py2.7-nspkg.pth
+.venv

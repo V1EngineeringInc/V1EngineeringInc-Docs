@@ -22,7 +22,9 @@ instead of circles and 90° cornered rectangles. Changes in build accuracy due t
 environmental conditions need to be adjusted out or accounted for manually. Now just a minor offset
 adjustment will correct this.
 
-[!embed](https://www.youtube.com/watch?v=F-tw3WuV8jk)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F-tw3WuV8jk"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ___
 
 ## Plugging In The Steppers

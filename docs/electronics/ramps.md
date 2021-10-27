@@ -29,7 +29,9 @@ Add 12V to the power port, and plug in the steppers. The Arduino barrel jack (th
 
 This [pololu video](https://youtu.be/89BHS9hfSUk) gives a very technical walk through on driver current.
 
-[!embed](https://www.youtube.com/watch?v=89BHS9hfSUk)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/89BHS9hfSUk"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Firmware 
 Have you flashed the marlin [firmware](marlin-firmware.md)?

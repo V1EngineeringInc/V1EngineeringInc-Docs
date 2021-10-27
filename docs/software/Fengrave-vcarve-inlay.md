@@ -4,7 +4,9 @@
 These are instructions for combining the F-Engrave software with the MODfef script to create
 a V-Carve Inlay with an MPCNC.
 
-[!embed](https://www.youtube.com/watch?v=SuHgjZDXi8k)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SuHgjZDXi8k"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This video shows the process. Press (f) to show the video full screen.
 

@@ -141,4 +141,6 @@ the material in use. Always do a test cut!
 Here is an old video, the [new Burly pen holder](https://www.thingiverse.com/thing:1612207) or [Primo pen / knife holder](https://github.com/V1EngineeringInc/MPCNC_Primo_Tool_Mounts/tree/master/Knife_Pen_Mount) has built in
 spring so you will get even more consistent results.
 
-[!embed](https://www.youtube.com/watch?v=s8YwkcK3P9U)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s8YwkcK3P9U"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
