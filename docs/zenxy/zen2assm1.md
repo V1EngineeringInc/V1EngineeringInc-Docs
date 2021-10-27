@@ -123,7 +123,7 @@
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_012206353.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_012419217-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_012641360-scaled.jpg){: width="400"}
-![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_013028804-scaled.jpgg){: width="400"}
+![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_013028804-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_014034779-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_014142606-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_014216124-scaled.jpg){: width="400"}
