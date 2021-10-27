@@ -5,22 +5,23 @@
 ## Summary
 
 If you keep the machine small, and follow the practices outlined below, the MPCNC is capable out of
-the box for the occasional light duty of cutting metals. The stiffness of the design is adequate
-and low horsepower routers like the DeWalt work fine. There are many “upgrades” listed out in the
-forums and some are specific to making the MPCNC more durable or powerful. Nothing special is
-really required and the best upgrade would really be a variable speed router to provide a larger
-window to dial in feeds and speeds. If you really want to push the envelope, then modifications to
-increase the feed rates would be beneficial to increasing the MRR (Material Removal Rate).
+the box for light duty cutting of metals. The stiffness of the design is adequate
+and low horsepower routers and spindles work fine. 
+
+Nothing extra is really required for cutting metals but the 
+best upgrade would really be a variable speed router to provide a larger window to dial in feeds and
+speeds and perhaps an air blast system for cooling and clearing chips. 
 
 Don’t be afraid to experiment! This article is only intended to get others started and understand
 how to troubleshoot problems. Think about the chips and look at them when making changes. If you
-want to go deeper in the subject use a good feeds and speeds calculator and read on-line articles.
+want to go deeper in the subject use a good feeds and speeds calculator and read on-line articles 
+specific to each number or setting in calculator.
 
 ## Chips are the goal
 
 Milling is dependent on the ability of the tool to make a chip as it rotates.
 
-Say you are cutting a relatively hard material like steel with a ½” endmill. And the cut you need
+Say you are cutting a relatively hard material like steel with a ½” endmill and the cut you need
 to make is a slot. The mill is going to be surrounded 180 degrees by material as it moves forward.
 It has a generous 1/2 turn to make the chip and you would probably not feed the tool into the
 material very quickly.
@@ -30,16 +31,14 @@ rather slow and the MRR (Material Removal Rate) could be quite high depending on
 require a decent amount of HP and torque along with cooling fluid. You would need a very stiff and
 heavy machine to do this.
 
-So how do we adopt this process to a lightweight, relatively flexible, high RPM, low HP, home build
-machine? Each cutting parameter must be adapted to the limitations of the machine.
-
-Luckily for most problems there are work arounds.
+So how do we adopt this process to a lightweight, high RPM, low HP, home built
+machine? Each cutting parameter must be tuned for the machine. 
 
 ![Milling Metal](../img/milling_metal_1.png)
 
 ## Speeds (RPM)
 
-The largest adjustment in moving from a conventional heavy mill to a router-based gantry mill is
+The first adjustment in moving from a conventional heavy mill to a router-based gantry mill is
 RPM.
 
 Let’s assume the worst case in using a DeWalt DW660 or similar with no speed control. In essence,
@@ -56,35 +55,41 @@ router.
 
 #### Reduce the tool diameter
 
-SFM (surface feet per minute) is the speed of the cutter in relation to the part. SFM is directly
-related to the spindle RPM by the equation SFM=RPM X Circumference of the cutter. Tool
-manufacturers provide a recommended SFM based tooling geometry and type of material being cut.
+??? SFM (surface feet per minute)
+
+     (surface feet per minute) is the speed of the cutter in relation to the part. SFM is directly
+     related to the spindle RPM by the equation SFM=RPM X Circumference of the cutter. Tool
+     manufacturers provide a recommended SFM based tooling geometry and type of material being cut.
 
 The harder the material being cut, the slower the SFM required. Mild steel requires roughly half
 the SFM as aluminum. This is an important point because moving from wood, to aluminum, to mild steel
 requires either slower and slower spindle speeds or smaller and smaller cutters. Luckily 1/8”
 diameter endmills can get close to the correct SFM for many metals.
 
-#### Increase the number of flutes
+#### Decrease the number of flutes
 
 When cutting a slot an endmill is going to be surrounded 180 degrees by material as it moves
 forward.
 
 With 2 flutes you only need ½ the time as a single flute to generate the same chip and so on.
-Therefore, the more flutes you have, the faster your RPM and feeds must be to make the full chip.
-More flutes = higher RPM’s and faster cutting speeds.
+Therefore, the more flutes you have, the faster your RPM and feeds must be to make the same sized full chip.
+More flutes = require higher RPM’s, more machine rigidity, and faster cutting speeds.
 
 That sounds like a really cool way to jack up your productivity until you understand the practical
-limitations.
+limitations, machine ridity, chip clearing, and feedrate.
+
+For each flute on the cutter the machine will be engaged in the material. Two flutes equal nearly two times the 
+load on the machine of a single flute cutter.
+
+For each flute on an equal sized cutter there is a smaller path for the chip to get ejected.
 
 The practical limit of travel speed for a standard MPCNC build is around 1800 mm/min. If we can’t
-feed faster than that, more than 3 flutes will not help us. In addition, with aluminum all the
-extra chips can gum the flutes.
+feed faster than that, clear the flutes, or resist the cutting load, than more flutes will not help us. 
 
 #### Limit the cut width
 
 Chip load relates the thickness of a chip removed by each cutting edge. This
-is parameter is also provided by the tool manufacturer.
+is parameter is specific to the tool and the material being used. You can have to small and too large of a chip.
 
 For each revolution a single flute end mill needs to cut and discharge a single chip. I referenced
 the worst case in cutting a full slot with 100% cut width, but if we avoid making a slot and only
@@ -93,60 +98,47 @@ more RPM is needed.
 
 Therefor by using a small diameter cutting tool with a small number of flutes
 and limiting the cut width, we can cut metal at an RPM attainable by a fixed RPM router and within
-the feed rate limitations of the MPCNC. **That is the “sweet spot”.**
+the working parameters of the MPCNC. **That is the “sweet spot”.**
 
 Limiting the amount of material that the cutter engages with does a couple of things. You are not
 only able to match the router RPM to get that full chip, but it also reduces the load on the tool
-and machine. Another benefit is relatively fast feed rates and better cooling.
+and machine. Another benefit is relatively fast feed rates, deeper cuts, and better cooling.
 
-Even for large machines there is an optimum RPM, cut width, and feed rate that allows the largest
-MRR, which is what really matters. Climb milling is preferred over conventional when using this
-strategy.
+Even for large industrial machines there is an optimum RPM, cut width, and feed rate that allows the largest
+MRR, which is what really matters. 
+
+Climb milling is preferred over conventional when using this strategy.
 
 ![Milling Metal](../img/milling_metal_2.png)
 
-## Example Tool Manufacturer Recommendations for 1/8" diameter, 2 flute end mill
-
-### Wrought Aluminum Most Grades SFM=1000
-
-|                     | Slotting            | Roughing            | Finishing            |
-| ---                 | ---                 | ---                 | ---                  |
-| Chip Load           | 0.00151 in          | 0.00198 in          | 0.00217 in           |
-| Radial Depth of Cut | 1 x Dia. = 3.18mm   | 0.6 x Dia. = 0.19mm | 0.25 x Dia. = 0.79mm |
-| Axial Depth of Cut  | 0.5 x Dia. = 1.59mm | 1.0 x Dia. = 3.18mm | 1.0 x Dia. = 3.18mm  |
-
-### Carbon Steel Low Carbon SFM=600
-
-|                     | Slotting            | Roughing            | Finishing            |
-| ---                 | ---                 | ---                 | ---                  |
-| Chip Load           | 0.00052 in          | 0.00061 in          | 0.00068 in           |
-| Radial Depth of Cut | 1 x Dia. = 3.18mm   | 0.6 x Dia. = 0.19mm | 0.25 x Dia. = 0.79mm |
-| Axial Depth of Cut  | 0.5 x Dia. = 1.59mm | 1.0 x Dia. = 3.18mm | 1.0 x Dia. = 3.18mm  |
 
 ## Feed Rates
 
-Once a proper end mill is selected and cut width is determined, the next big challenge is feed
+Once a proper end mill is selected in terms of number of flutes and cut width is determined, the next big challenge is feed
 rates.
 
-High speed usually means high feed. By limiting the cut width on a 1/8” endmill you can achieve
+High RPM usually means high feed. By limiting the cut width on a 1/8” endmill you can achieve
 incredibly fast feed rates of 3000mm/min or more! This is the basis for high-speed machining (HSM).
 
 However, the MPCNC is limited on feed rates to about 1800 mm/min and has a certain amount of
-deflection in the rails. So, the challenge is to cut materials at a feed rate that is below the
-machine limit and above the point of chip thinning.
+deflection in the rails. So, the challenge is to cut materials at a feed rate that is appropriate for the
+machine and above the point of chip thinning.
 
-Chip thinning as it sounds is a condition where you are not making a full chip anymore. As the chip
-gets thinner, less heat is removed from the cut and overheating occurs because the tool is rubbing
-the material instead of cutting it. This will limit tool life.
+??? Chip thinning
 
-Bottom line, we want feed rates to be as fast as we can go without overloading the tool and machine.
-Going very slow to ease your way through will not work.
+     Chip thinning as it sounds is a condition where you are not making a full chip anymore. As the chip
+     gets thinner, less heat is removed from the cut and overheating occurs because the tool is rubbing
+     the material instead of cutting it. This will limit tool life.
 
-To summarize thus far, small diameter end mills can be programmed to run with a limited cut width in
-a high RPM router to make proper size chips and cut metals adequately. But there are other problems
+Bottom line, we want feed rates to be as fast as we can go without overloading the tool, the machine, while 
+still getting a proper sized chip. Going very slow to ease your way through will not work.
+
+To summarize thus far, end mills can be programmed to run with a limited cut width in
+a high RPM router to make proper size chips and cut metals adequately. There are other factors
 we still must deal with. The next issue is deflection, and it not only limits the feed rate we can
 move but also the cut depth. I will separate this into 2 separate topics, tool deflection and
 machine deflection.
+
 
 ### Tool Deflection
 
@@ -176,9 +168,9 @@ extending life.
 
 ### Machine Deflection
 
-Next up is machine deflection. This the most difficult variable to quantify. Smaller machines will
-be more rigid than larger machines. If you intend on cutting metal you should limit the bed size to
-400mm x 400mm but this is no magic number, just a guideline.
+Next up is machine deflection. This the most difficult variable to quantify. **Smaller machines will
+be more rigid than larger machines.** If you intend on cutting metal you should limit the bed size as small as possible 
+and only increase it as you gain experince.
 
 First of all, before you run any program in metal, make sure your CNC mill is tight. For the MPCNC,
 check all of the bearings to make sure that they are touching a metal tube. No free spinning
@@ -188,18 +180,18 @@ machine is not tight, cutting metal will be a very frustrating experience. Watch
 runs. If you see a cut start to deteriorate, it is most likely the machine loosening up or a tool
 that is dull. Sadly enough, the machine loosening up will cause the tool to dull.
 
-If things do start to loosen up over time, my current philosophy is to reinstall the fastener with
+If things do start to loosen up over time, best practice is to reinstall the fastener with
 Loctite but do not over tighten.
 
-Follow the original assembly instructions. From my understanding, cranking up the torque on the
-screws creates more stress in the PLA which in turn causes more creep or relaxation in the material.
-And this is accelerated by the surrounding temperature in the environment.
+Follow the original assembly instructions. Cranking up the torque on the
+screws creates more stress in the PLA which in turn causes more creep or relaxation in the material, and this is accelerated 
+by the surrounding temperature in the environment. Proper torque on the bolts and screws is better than tighter.
 
 ## Depth of Cut
 
-If you have the right tool, not too aggressive cut width, and reasonable feed rates that all match
-the router RPM, then the only limitation to go deeper and deeper is machine deflection. This is
-another double edge sword. Deeper cuts are actually better for the process. The more material in
+If you have the right tool, proper cut width, and reasonable feed rates that all match
+the router RPM, then the only limitation to go deeper and deeper is machine rigidity.
+Deeper cuts are actually better for the process. The more material in
 contact with the flutes spreads the force of cutting into more of the tool. This increases tool
 life.
 
@@ -213,34 +205,55 @@ causing deflection.
 cuts, you will go through tools faster, and if you cut at 6, 7, or even 8mm depth, you may exceed
 the deflection of the machine and possibly the tool.
 
-Since the MPCNC is limited on feed rates, once you have settings that are pushing the maximum speed,
-increasing depth becomes the best opportunity for increase your MRR.
+Once your CNC is pushing the maximum feedrate, increasing depth becomes the best opportunity for 
+increasing your MRR while maiintaning a proper chip size.
+
+## Example Tool Manufacturer Recommendations for 1/8" diameter, 2 flute end mill
+
+### Wrought Aluminum Most Grades SFM=1000
+
+|                     | Slotting            | Roughing            | Finishing            |
+| ---                 | ---                 | ---                 | ---                  |
+| Chip Load           | 0.00151 in          | 0.00198 in          | 0.00217 in           |
+| Radial Depth of Cut | 1 x Dia. = 3.18mm   | 0.6 x Dia. = 0.19mm | 0.25 x Dia. = 0.79mm |
+| Axial Depth of Cut  | 0.5 x Dia. = 1.59mm | 1.0 x Dia. = 3.18mm | 1.0 x Dia. = 3.18mm  |
+
+### Carbon Steel Low Carbon SFM=600
+
+|                     | Slotting            | Roughing            | Finishing            |
+| ---                 | ---                 | ---                 | ---                  |
+| Chip Load           | 0.00052 in          | 0.00061 in          | 0.00068 in           |
+| Radial Depth of Cut | 1 x Dia. = 3.18mm   | 0.6 x Dia. = 0.19mm | 0.25 x Dia. = 0.79mm |
+| Axial Depth of Cut  | 0.5 x Dia. = 1.59mm | 1.0 x Dia. = 3.18mm | 1.0 x Dia. = 3.18mm  |
+
 
 ## Putting it all together
 
-If you have followed this so far, you may have realized that all of these things can interact. They
-do.
+If you have followed this so far, you may have realized that all of these things interact.
 
 You may be able to cut a little deeper if you slow down the feed rate. Sure, as long as you don’t go
 too slow.
 
 You may be able to speed up the feed rate by selecting a tool with more flutes. Sure, if you don’t
-exceed the feed rate of the machine.
+exceed the feed rate or rigidity of the machine.
 
 And on and on. Speed and Feed calculators are a great way to play around with different settings to
 see what changes.
 
-Here is a diagram that shows some of the relationships.
+Here is a diagram that shows some of the intermingled relationships.
 
 ![Milling Metal](../img/milling_metal_3.png)
 
-Of course, there is more to think about. These are some remaining issues that may cause problems.
+Of course, there is more to think about. These were some of the basic settings that effect your MRR.
 
-## Potential Problems
+## Advanced Topics
 
 ### Runout
 
-This is critical for high-speed milling with small cutters. The tool will get loaded
+Runout is how far off center your cutting edge is on your tool. Nothing is perfect so any and typically all
+of the spinning componets add to the total runout, motor bearings, shaft, collet, and tool.
+
+Low runout is critical for high-speed milling with small cutters. The tool will get loaded
 heavier in the area of runout which will affect the chip load. Imagine a 2 flute endmill with a
 small chip made on 1 flute and a large chip made on the other while you are trying to set your
 machine to a nominal value.
@@ -289,7 +302,7 @@ process.
 A full flush cooling system is a little impractical for the MPCNC but could be done. If you really
 run a lot of metal in your machine it might something to consider.
 
-At the very minimum lubricate aluminum with a mist. It will reduce the tendency of aluminum to gum
+You can lubricate aluminum with a mist. It will reduce the tendency of aluminum to gum
 up. A misting system can be built easily for less than $50 plus the cost of small air compressor. A
 spray bottle also works if you monitor the cutting.
 
@@ -305,13 +318,14 @@ with a Google search.
 ### Surface finish
 
 If you need a better surface finish, that usually means taking a final thin pass of
-0.2-0.3mm and slowing the feed rate down. You may also reduce the cut width. If your surface finish
+0.2-0.3mm and slowing the feed rate down, a "Finishing pass" or "Spring pass". You may also reduce 
+the cut width. If your surface finish
 is deteriorating while you cut, you will need to troubleshoot the cause.
 
 ## Programming (CAM) for Metals
 
 The final piece of the puzzle is programming your machine’s g-code in a way
-that minimizes tool loads and power. This is where all many of the limitations previously described
+that minimizes tool loads and power. This is where all of the many factors previously described
 need to be addressed. Some CAM software packages do this much better than others. You may not need
 to incorporate all of these strategies depending on the robustness of your machine but by using them
 you guarantee low consistent tool loads and no surprises. These become much more important when
@@ -364,7 +378,7 @@ you go. Then experiment with cut width and depth to find your own sweet spot.
 
 Speed and Feed calculators are available to dial in other options such as variable speed routers,
 larger diameter tools, different materials, etc. I highly suggest using one so you can see how each
-parameter can interact with others. I don’t know how far you can push the envelope with a MPCNC,
+parameter can interact with others. I don’t know how far you can push the envelope with your MPCNC,
 but other router-based mills have run stainless steels, Inconel, and titanium with proper set up and
 high-quality tooling.
 
