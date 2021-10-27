@@ -191,7 +191,7 @@ that is dull. Sadly enough, the machine loosening up will cause the tool to dull
 If things do start to loosen up over time, my current philosophy is to reinstall the fastener with
 Loctite but do not over tighten.
 
-Follow the original assembly instructions. From my understanding, cranking up the torque on the
+Follow the original [assembly instructions](../mpcnc/trucks.md). From my understanding, cranking up the torque on the
 screws creates more stress in the PLA which in turn causes more creep or relaxation in the material.
 And this is accelerated by the surrounding temperature in the environment.
 
