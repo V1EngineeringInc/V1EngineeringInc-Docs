@@ -1,4 +1,4 @@
-# Instruction STUB
+# Import Extruder
 
 ## Assembly
 
@@ -196,7 +196,10 @@ the height during the skirt print to fine tune it.
 
 That’s it print away. The printed parts I am shipping are starting to get printed on this cnc, and they look amazing.
 
-[!embed](https://www.youtube.com/watch?v=nVKHlX3NaTA)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nVKHlX3NaTA"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Recommended beginning slic3r settings.
 

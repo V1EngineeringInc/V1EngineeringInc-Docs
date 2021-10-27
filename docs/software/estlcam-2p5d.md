@@ -106,13 +106,17 @@ parts for this http://www.thingiverse.com/thing:1562144
 
 Here is a video of this exact cut.
 
-![!embed](http://www.youtube.com/watch?v=iHAhtaadcCg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iHAhtaadcCg"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now to make the other side of the case, flip the tool paths in estlcam (you might have to
 realign the tabs) and delete the SD card cuts. Here is the video for that,
 
-![!embed](http://www.youtube.com/watch?v=P3_HOwyE9BY)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P3_HOwyE9BY"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Ask your Questions here,
 
-https://www.v1engineering.com/forum/topic/questions-for-the-intermediate-walk-through/
+https://forum.v1engineering.com/t/questions-for-the-intermediate-walk-through/4436

@@ -83,7 +83,19 @@ and nesting more than two is funky. Also, top levels can't be pages, so it's rea
 
 ### Embed videos
 
-[!embed](https://www.youtube.com/watch?v=xIGre_E2_og)
+Grab this snippet and change the video id in the youtube url. You can get this snippet (or some
+newer version) by clicking the share button, and choosing "embed" on any youtube video.
+
+```
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/iHAhtaadcCg"
+     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+     clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iHAhtaadcCg"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Emojis?
 
