@@ -58,7 +58,7 @@
 
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210406_230833570-scaled.jpg){: width="400"}
 
-* Truck 1 only
+* Truck 1 is the only one that needs a trigger.
 * Use the Trigger and 2 M2.5 Screws.
 
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210406_231006786-scaled.jpg){: width="400"}
