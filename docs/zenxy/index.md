@@ -48,6 +48,8 @@ ___
 
 The spacers are optional and only needed if your glass mounting hardware protrudes. The STL files are 1mm thick and can easily be scaled in the Z direction only up to about 7mm before the 12.7mm magnet might start to pose an issue. If needed, one magnet spacer and two of each corner spacer are used, all scaled to the same Z dimension.
 
+If you glass is not mounted planer to your corners you can use a ssecond magnet and stack them to reach your glass.
+
 Insert Picture of mounted glass
 
 
@@ -88,23 +90,46 @@ ___
 
 ## Control Board
 
-We have options. Game plan not set in stone yet.
+There are a lot of options.
 
 Any board with two drivers or more with firmware capable of running CoreXY, and TMC silent stepper drivers are highly recommended.
+
+**[TMC2209 Pen/Laser Controller](https://www.tindie.com/products/33366583/tmc2209-penlaser-controller/)** -  by Bart Dring, seems 
+to be a perfect match for the Zen. This board has the silent 2209 drivers, and the esp32 has a built-in web interface for wireless
+control and file transfer. You can sign in from any device that is within its WiFi range or add it to your own network for remote control.
 
 
 ## Firmware
 
-This is running CoreXY belting and requires homing Y before X, as set in the firmware. 
+This is running CoreXY belting and requires homing Y before X, as set in the firmware. All firmware will also need the exact size of your 
+build to be input before compiling as well.
 
-[Firmware link](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
+
+Here is a example Marlin firmware [Firmware link](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
+
+Here is an example TMC2209 Pen/Laser Controller firmware link needed
 
 ## Wiring
 
-The stepper with the endstops on the same block gets plugged into the "X" port on the control board. If it does not move correctly, power down unplug and flip them both over, or flip just one over. It is more confusing then the regular Cartesian troubleshooting. Guess and check is the best way.
+The stepper with the endstops on the same block gets plugged into the "X" port on the control board. If it does not move correctly, power 
+down unplug and flip them both over, or flip just one over. It is more confusing then the regular Cartesian troubleshooting. Guess and check
+seems to be the best way.
 
 The Y endstop is triggered along the larger dimeter tube. The X is the other one :smile:.
 
+## Example table
+
+Pitures and CAD
+
+Cad file
+
 ## License
 
-More info to come.
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] 
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
