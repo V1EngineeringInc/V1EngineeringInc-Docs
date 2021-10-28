@@ -14,9 +14,9 @@ produce designs in (the firmware number). The one consideration is the image are
 
 This picture does not include the ball diameter. For example the offset (92mm) for a half inch ball
 (12.7mm) would be 92mm-6.35mm or 85.65mm. For table designs that are not exact fitting this doesn't
-really come into play.
+really come into play. The calculator below does have this factored in.
 
-The height of the machine is 66mm plus the thickness of your spacers. Most steppers will protrude
+The height/thickness of the machine is 66mm plus the thickness of your spacers. Most steppers will protrude
 further than that. If you are planning on covering the bottom to keep fingers out, plan to have
 small stepper cutouts to keep thickness to a minimum. If you do want to cover it all, the thickness
 will be 40.25mm plus the stepper thickness with a minimum of 66mm.
