@@ -1,6 +1,6 @@
 # Milling Metal
 
-#### By Clark (@clarkspeed in the forums) [Forum discussion](https://forum.v1engineering.com/t/milling-metals-documentation/29881)
+- By Clark Stephens (@clarkspeed in the forums) [Forum discussion](https://forum.v1engineering.com/t/milling-metals-documentation/29881)
 
 ## Summary
 
@@ -55,7 +55,7 @@ router.
 
 #### Reduce the tool diameter
 
-??? SFM (surface feet per minute)
+???+ "SFM (surface feet per minute)"
 
      (surface feet per minute) is the speed of the cutter in relation to the part. SFM is directly
      related to the spindle RPM by the equation SFM=RPM X Circumference of the cutter. Tool
@@ -124,11 +124,11 @@ However, the MPCNC is limited on feed rates to about 1800 mm/min and has a certa
 deflection in the rails. So, the challenge is to cut materials at a feed rate that is appropriate for the
 machine and above the point of chip thinning.
 
-??? Chip thinning
+???+ "Chip thinning"
 
-     Chip thinning as it sounds is a condition where you are not making a full chip anymore. As the chip
-     gets thinner, less heat is removed from the cut and overheating occurs because the tool is rubbing
-     the material instead of cutting it. This will limit tool life.
+     Chip thinning as it sounds is a condition where you are not making a full chip anymore. As the
+     chip gets thinner, less heat is removed from the cut and overheating occurs because the tool is
+     rubbing the material instead of cutting it. This will limit tool life.
 
 Bottom line, we want feed rates to be as fast as we can go without overloading the tool, the machine, while 
 still getting a proper sized chip. Going very slow to ease your way through will not work.
@@ -208,9 +208,9 @@ the deflection of the machine and possibly the tool.
 Once your CNC is pushing the maximum feedrate, increasing depth becomes the best opportunity for 
 increasing your MRR while maiintaning a proper chip size.
 
-## Example Tool Manufacturer Recommendations for 1/8" diameter, 2 flute end mill
+**Example Tool Manufacturer Recommendations for 1/8" diameter, 2 flute end mill**
 
-### Wrought Aluminum Most Grades SFM=1000
+**Wrought Aluminum Most Grades SFM=1000**
 
 |                     | Slotting            | Roughing            | Finishing            |
 | ---                 | ---                 | ---                 | ---                  |
@@ -218,7 +218,7 @@ increasing your MRR while maiintaning a proper chip size.
 | Radial Depth of Cut | 1 x Dia. = 3.18mm   | 0.6 x Dia. = 0.19mm | 0.25 x Dia. = 0.79mm |
 | Axial Depth of Cut  | 0.5 x Dia. = 1.59mm | 1.0 x Dia. = 3.18mm | 1.0 x Dia. = 3.18mm  |
 
-### Carbon Steel Low Carbon SFM=600
+**Carbon Steel Low Carbon SFM=600**
 
 |                     | Slotting            | Roughing            | Finishing            |
 | ---                 | ---                 | ---                 | ---                  |
