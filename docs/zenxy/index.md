@@ -119,9 +119,10 @@ The Y endstop is triggered along the larger dimeter tube. The X is the other one
 
 ## Example table
 
-Pitures and CAD
+Pictures
 
-Cad file
+![!Fusion CAD Render](../img/ZenTablev14.png){: width="450"}
+Basic CAD file, [Fusion 360 version](https://a360.co/3wNh68T).
 
 ## License
 
