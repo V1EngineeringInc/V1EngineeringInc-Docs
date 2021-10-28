@@ -117,6 +117,12 @@ seems to be the best way.
 
 The Y endstop is triggered along the larger dimeter tube. The X is the other one :smile:.
 
+## Example table
+
+Pitures and CAD
+
+Cad file
+
 ## License
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] 
