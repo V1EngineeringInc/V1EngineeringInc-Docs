@@ -123,6 +123,8 @@ The important features are in there so again, get creative this is just a blank 
 [azh]: https://amzn.to/2NFJwNt
 [azi]: https://amzn.to/2DxGUNo
 
+As an Amazon Associate I earn from qualifying purchases.
+
 ## Belts
 
 I love me some cable ties…
