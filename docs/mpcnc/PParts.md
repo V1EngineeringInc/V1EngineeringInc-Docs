@@ -110,6 +110,7 @@ Some of these are affiliate links, you can buy from these links or just use them
 
 * Use the [calculator](calculator.md) to determine belt length.
 
+As an Amazon Associate I earn from qualifying purchases.
 
 !!!Caution
      Do not use Steel reinforced belts, they will fail 100% of the time. Fiber reinforced only.
