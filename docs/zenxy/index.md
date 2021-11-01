@@ -127,7 +127,7 @@ Basic CAD file, [Fusion 360 version](https://a360.co/3wNh68T).
 
 ## Example Starting Gcode
 
-This table uses hard mounted endstops and endstop triggers so you need to home Y first and typically add some offsets to get to the starting point just where you want it.
+When using Sandify, or any other software you need to set the starting or homing Gcode. You can cut and paste what is below and adjust for your specific build's offset. This table uses hard mounted endstops and endstop triggers so you need to home Y first and typically add some offsets to get to the starting point just where you want it.
 
 For GRBL you can use
 $HY
