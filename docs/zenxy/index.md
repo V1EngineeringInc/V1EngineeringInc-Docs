@@ -125,6 +125,40 @@ Pictures
 
 Basic CAD file, [Fusion 360 version](https://a360.co/3wNh68T).
 
+## Example Starting Gcode
+
+This table uses hardmounted endstops and endstop triggers so you need to Home Y first and typically Add some off sets to get to the starting point just where you want it.
+
+For GRBL you can use
+$HY
+G92 X0 Y0
+G0 Y-18.5
+G92 X0 Y0
+$HX
+G0 X-28
+G92 X0 Y0
+G1 X2 F2000
+
+For Marlin it would be
+G28 Y
+G92 X0 Y0
+G0 Y-18.5
+G92 X0 Y0
+G28 X
+G0 X-28
+G92 X0 Y0
+G1 X2 F2000
+
+Here is a Human readable version of that
+
+Move the Y axis all the way to the Trigger.
+Set the current location of X and Y to be Zero.
+Move The Y axis in 18.5mm closer, past the flag.
+Move the X axis until it triggers.
+Move the X axis in 28mm Further past the flag.
+Set the current location to Zero X and Zero Y.
+Move out 2mm in the X axis direction at 2000mm/min (33mm/s). This is just incase you forget to set a speed in your Gcode, this assures the machine moves at a safe speed.
+
 ## License
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] 
