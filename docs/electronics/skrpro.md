@@ -17,6 +17,9 @@ on the TMC2209 drivers, and the TFT35 V3 E3 screen.
 
 ![!SKR Bundle](https://www.v1engineering.com/wp-content/uploads/2020/07/srkbundle.jpg){: width="400"}
 
+!!! note
+    Do not use a SKR Pro based machine with the microSD card in the SKR Pro board. This seems to cause random performance issues.
+
 ## 2209 Drivers
 
 The Trinamic 2209 V1.2 drivers offer UART communication for dynamic control, 2A RMS with a 2.8A
@@ -119,7 +122,7 @@ Closed (NC). You will plug into the Signal and Ground pins, **Do not use the + p
 ![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: width="400"}
 
 !!! note
-    Do not use the + (positive) pins or you will ruin your SKR Pro board.
+    Do not use the + (positive) pins or you will ruin your SKR Pro board unless you are running a differnet project with powered endstops.
 
 ## Firmware
 
@@ -135,6 +138,12 @@ You have three options of firmware for the exact board, driver, screen package a
 * V1CNC_SkrPro_DualLR_2209-****** Ready for dual end stops on a LowRider CNC (Y & Z axes).
 
 When you unzip the file you have a .bin file. Rename to FIRMWARE.bin, and save it to the MicroSD for the SKR Pro board. Make sure to unplug both grey exp1/2 cables for the screen before proceeding. Insert the MicroSD back into the control board, reset, and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). 
+
+**Remove the Micro SD card, after flashing**
+
+!!! note
+    Do not use a SKR Pro based machine with the microSD card in the SKR Pro board. This seems to cause random performance issues.
+
 
 ![!SKR file](https://www.v1engineering.com/wp-content/uploads/2020/08/SKR_Bin.jpg){: width="400"}
 
