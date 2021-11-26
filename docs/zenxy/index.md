@@ -107,7 +107,7 @@ build to be input before compiling as well.
 
 Here is a example Marlin firmware [Firmware link](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
 
-Here is an example TMC2209 Pen/Laser Controller firmware link needed
+Here is an example TMC2209 Pen/Laser Controller [Pre-Compiled Bin File](https://github.com/V1EngineeringInc/Grbl_Esp32/blob/V1EngineeringInc-AddBin/ZenXY_V2_BIN/firmware.bin) or [Pre-Configured Github Repo](https://github.com/V1EngineeringInc/Grbl_Esp32).
 
 ## Wiring
 
