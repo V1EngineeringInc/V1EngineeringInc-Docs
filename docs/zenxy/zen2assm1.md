@@ -126,8 +126,9 @@
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_010716293.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_010930394.jpg){: width="400"}
 
-
 * Make sure to orient the endstop as shown here.
+
+### Running the Belt
 
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_011917500.jpg){: width="400"}
 
@@ -174,3 +175,5 @@
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_020227707-scaled.jpg){: width="400"}
 
 * This is the belt tensioner. You will need to get this snug after final assembly into your table. The screw allows for ~4mm of tension so it is best to get this as tight as possible.
+
+### Table
