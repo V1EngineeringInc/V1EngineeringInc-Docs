@@ -107,21 +107,47 @@
 ### Cross Corners
 
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_002813553-scaled.jpg){: width="400"}
-
-
-
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_002924097-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_003222722.jpg){: width="400"}
+
+* These do not need to be super tight, just snug to keep the parts secure without pinching the idlers.
+
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_004514393-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_005007800.jpg){: width="400"}
+
+* Align the pulleys with the indents on the printed part (highlighted here in pen).
+* Do not forget to tighten both grub screws, flat one first, then the other.
+
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_005918591.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_010700171-scaled.jpg){: width="400"}
+
+* Make sure to orient the endstop as shown here.
+
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_010716293.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_010930394.jpg){: width="400"}
+
+
+* Make sure to orient the endstop as shown here.
+
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_011917500.jpg){: width="400"}
+
+* Trimming the belt can help feed it through the slots.
+
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_011839038.jpg){: width="400"}
+
+* Feed the belt through the outer slot, paying attention to face the teeth as shown.
+
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_012206353.jpg){: width="400"}
+
+* Back into the other slot, insert it fully.
+
+
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_012419217-scaled.jpg){: width="400"}
+
+
+* If you catch the belt you should be able to pull it through and the belt is locked.
+* (You can remove it with a small screwdriver or tweazers from the looped end)
+
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_012641360-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_013028804-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_014034779-scaled.jpg){: width="400"}
@@ -133,6 +159,9 @@
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_014809107-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_014908579-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_015217681-scaled.jpg){: width="400"}
+
+* Insert as shown. This is where you will later square up the machine and balance the belt tension.
+
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_015249328-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_015351021-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_015450836-scaled.jpg){: width="400"}
@@ -143,3 +172,5 @@
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_015825207-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_020122507-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_020227707-scaled.jpg){: width="400"}
+
+* This is the belt tensioner. You will need to get this snug after final assembly into your table. The screw allows for ~4mm of tension so it is best to get this as tight as possible.
