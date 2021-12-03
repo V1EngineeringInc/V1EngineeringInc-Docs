@@ -70,12 +70,12 @@ The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) cont
 
 | Hardware     | Type  | Alternative | QTY |
 |--------------|-------|-------------|-----|
-| 5/16x1.5"    | Bolt  | M8x40mm     | 46  |
-| 5/16 locknut |       | M8 locknut  | 46  |
-| M5x30mm      | Screw |             | 65  |
-| M5 locknut   |       |             | 65  |
-| M3x10mm      | Screw |             | 24  |
-| M2.5x12mm    | Screw | #3x1/2"     | 10  |
+| 5/16x1.5"    | Bolt  | M8x40mm     | 44  |
+| 5/16 locknut |       | M8 locknut  | 44  |
+| M5x30mm      | Screw |             | 60  |
+| M5 locknut   |       |             | 60  |
+| M3x10mm      | Screw |             | 22  |
+| M2.5x12mm    | Screw | #3x1/2"     | 8   |
 
 This version uses both sizes of hardware equally well. No issues with metric bolts what so ever.
 
