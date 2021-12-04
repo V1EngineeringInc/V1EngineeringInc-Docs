@@ -8,7 +8,7 @@ frame, or even an 80 series extrusion frame, options!
 
 The Repeat is a whole new take from the previous two designs and I wanted to get a little 
 experimental this time around in a few ways.  
-* CoreXY instead of a "bed slinger". After two fun [ZenXY](../docs/zenxy/index.md) designs using 
+* CoreXY instead of a "bed slinger". After two fun [ZenXY](../zenxy/index.md) designs using 
 CoreXY I think I have wrapped my head around the strengths and weaknesses of this geometry. 
 * More frame options, instead of just material and thickness, you can not opt to use 80 series 
 extrusions instead of milled flat parts.
