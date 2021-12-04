@@ -41,8 +41,9 @@ nav:
      - Calculator: lowrider/calculator.md
      - Old Version: lowrider/version1.md
    - MP3DP:
-     - Main: mp3dp/index.md
-     - Old Version: mp3dp/version1.md
+     - Current Version: mp3dp/index.md
+     - Second Version: mp3dp/version2.md
+     - First Version: mp3dp/version1.md
    - ZenXY: 
      - ZenXY v2: zenxy/index.md
      - ZenXY v2 Build Calculator: zenxy/zen2calculator.md
@@ -51,13 +52,13 @@ nav:
 
  - Control:
    - Some Control Board Options:
+     - SKR Pro: electronics/skrpro.md
      - Ultimachine Boards: electronics/ultimachine.md
      - Ramps: electronics/ramps.md
-     - SKR Pro: electronics/skrpro.md
    - Steppers:
      - Wiring The Steppers: electronics/steppers.md
    - Some Advanced Options:
-     - v1pi - Headless: electronics/v1pi.md
+     - V1pi - Headless: electronics/v1pi.md
      - Dual Endstops: electronics/dual-endstops.md
      - Dual Endstops Low Rider: electronics/dual-lr.md
    - Setup: software/index.md
