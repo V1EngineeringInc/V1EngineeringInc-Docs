@@ -59,7 +59,7 @@ Most any semi-rigid material will work for printing these parts. PLA or PETG are
 
 | Files can be found at                             |                                                               |                                                     |
 |---------------------------------------------------|---------------------------------------------------------------|-----------------------------------------------------|
-| [GitHub + Step Files](https://github.com/V1EngineeringInc/ZenXY-v2) | [PrusaPrinters](https://www.prusaprinters.org/prints/62780-zenxy-v2-1234) | [Thingiverse]() |
+| [GitHub + Step Files](https://github.com/V1EngineeringInc/ZenXY-v2) | [PrusaPrinters](https://www.prusaprinters.org/social/47417-ryan-z/prints) | [Thingiverse](https://www.thingiverse.com/allted/designs) |
 
 ___
 
