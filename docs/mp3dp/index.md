@@ -1,6 +1,6 @@
 # MP3DP -Repeat-
 
-![!mp3dp](https://www.v1engineering.com/wp-content/uploads/2018/01/MVIMG_20180111_1403212.jpg)
+![!mp3dp repeat](../img/Repeats.png)
 
 This is the MP3DP -Repeat- __Milled/Printed 3D Printer "Repeat"__.  This can be a fun project 
 to use your new CNC mill for. This is my take on a CoreXY 3D printer, with a CNC mill friendly
