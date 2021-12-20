@@ -4,7 +4,7 @@
 
 This is the MP3DP -Repeat- __Milled/Printed 3D Printer "Repeat"__.  This can be a fun project 
 to use your new CNC mill for. This is my take on a CoreXY 3D printer, with a CNC mill friendly
-frame, or even an 80 series extrusion frame, options! 
+frame, or even an 20 series extrusion frame, options! 
 
 The Repeat is a whole new take from the previous two designs and I wanted to get a little 
 experimental this time around in a few ways.  
@@ -18,13 +18,13 @@ get started but flawless first layers are worth it. Time to make more accurate p
 * Simple Universal tool plate. Mount any extruder, laser, dragknife, pen, etc... 
 * Carbon fiber and linear rails. Quiet, accurate, and light where it is needed. The larger the build
  the more noticeable the weight loss.
-* CAD files are available! Edit it to your hearts content, this is an open design and is licensed 
+* [CAD files are available](https://a360.co/381SaiQ)! Edit it to your hearts content, this is an open design and is licensed 
 under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 * Very few unique printed parts, so editing is simple. 11(?), at last count.
 
 # This Printer
 
-If you just want to open a box and have a ready 3D printer there are a few solid options out there.
+If you just want to open a box and have a ready 3D printer there are a few solid options out there, this really is not one of those.
 The MP3DP Repeat is a printer for those of you that want to build one, get your hands dirty, and learn a
 thing or two! Currently, this is just a guide, not a full set of instructions. If anything is unclear 
 let us know and we can add a picture or two. Hopefully nothing is too tricky here.
@@ -35,7 +35,12 @@ Questions and comments should be directed to the [V1 Engineering Forums](https:/
 !!! info "Previous MP3DP versions"
     Version one and two instructions are linked on the main menu [V1](version1.md), [V2](version1.md).
     
-    
+## Control Boards
+
+You will need a control board with at least 6 drivers, E-XY-ZZZ. The SKR Pro works well and we have a pre-configured firmware for it, 
+[V13RP_SkrPro_2209](../electronics/marlin-firmware.md). Many other boards and firmware will work as well.
+
+
 //place holder for the repeat edits        
 
 ## Flat Parts
@@ -255,9 +260,6 @@ to super loose or no clamp screw/nut at all. Just a screw on the flush side shou
 
 ![!bearings](https://www.v1engineering.com/wp-content/uploads/2018/01/Clampper.png){: width="400"}
 
-## EndStops
-
-The endstops should be wired Normally Closed, NC, for safety.
 
 ## Initial leveling
 
@@ -275,13 +277,6 @@ Final and tune up
 :   Heat up the system, make sure the X axis is still level with the motor mounts, make sure the bed
 is still level with the nozzle. Adjust Z home trigger screw to get the correct first layer.
 
-## Firmware
-
-The beta Marlin 2.0 version is on the 
-[github page](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
-, or the old MP3DP firmware works (found below as a backup). There are nots on the github version
-there are two settings that need to be changed for the MK8 or the Titan Aero, the thermistor value
-11 for the MK8 or 5 for the Aero, and 100 steps for the E on the MK8.
  
 ## Slicer and MK8
 
