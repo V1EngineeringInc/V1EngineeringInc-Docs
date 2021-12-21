@@ -138,6 +138,9 @@ All the details in their full glory, https://reprap.org/wiki/Rambo_v1.4
 You can add a Short jumper to get power to both ports, mind the polarity. The board does have labels
 but the Diagram below should be a little more clear.
 
+Best practice not to use any adapters. If your power supply has a barrel jack you can cut it of and wire it up 
+directly, again double check the polarity, some red and white wires are opposite of what you would expect.
+
 ### Adding an LCD
 
 ??? "Rambo 1.4"
