@@ -22,7 +22,7 @@ get started but flawless first layers are worth it. Time to make more accurate p
 under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 * Very few unique printed parts, so editing is simple. 11(?), at last count.
 
-# This Printer
+## This Printer
 
 If you just want to open a box and have a ready 3D printer there are a few solid options out there, this really is not one of those.
 The MP3DP Repeat is a printer for those of you that want to build one, get your hands dirty, and learn a
