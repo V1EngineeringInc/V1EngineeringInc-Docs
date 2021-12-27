@@ -108,5 +108,5 @@ Hardware and quantities needed:
 
 **Note 2**: The M8x40mm bolts cannot be cap heads, or you will need to grind the heads for clearance  
 **Note 3**: Using M4 nuts and bolts in place of #6 is possible, but the difference in the size of nuts requires some 
-creative tightening on a few parts. A small flat head screw driver can usually be [wedged in](https://youtu.be/UAmPhZ7oBJw)
+creative tightening on a few parts. A small flat head screwdriver can usually be [wedged in](https://youtu.be/UAmPhZ7oBJw)
 to stop the nuts from rotating.  As another option, here are some [quick print sleeves](https://www.thingiverse.com/thing:1904014).
