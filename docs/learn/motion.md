@@ -19,7 +19,7 @@ So let's talk about motion!
     doesn't extrude plastic is a travel move. By default, it doesn't see a distinction between `G00`
     and `G01`.
 
-- Marlin has it's own rules for maximum speed, and acceleration.
+- Marlin has its own rules for maximum speed, and acceleration.
 - Marlin also supports "jerk" setting, but this isn't the derivative of the acceleration. You can
     also set the "Junction Deviation" which replaces jerk.
 - Each command has a "Feedrate". If you don't define one, it will just use the previous one.
@@ -46,7 +46,7 @@ last line, there is no feedrate, so the 600 is used again.
 
 ### Details
 
-The feedrates in gcode describe the speed to travel along the line. So, for example, if you were at
+The feed rates in gcode describe the speed to travel along the line. So, for example, if you were at
 0,0 and you were travelling to 100mm,100mm, and the feedrate was set to 100mm/s, it would travel at
 a speed of 100mm/s, but have 140mm to travel, so it would take about 1.4s to get there. If you sent
 the same command with a feedrate of 140mm/s, then it would take 1 second to finish that move.
@@ -70,12 +70,12 @@ Max Speed
 
 Those total timing numbers aren't completely right. Because Marlin also doesn't go from a full stop
 to top speed instantly. It will use the acceleration values to decide how quickly to ramp up the
-speed to it's top speed. So this move that takes 2s and maxes out at 50mm/s in each direction will
+speed to its top speed. So this move that takes 2s and maxes out at 50mm/s in each direction will
 actually take a bit longer, because it will start out slower, and work its way up to 50mm/s. Then at
 the end, it will slow down before the end of the 100mm, and stop smoothly. You can really see the
-effect if you drop your accelerations very slow. Movements are more smooth, but they sometimes take
+effect if you drop your accelerations very slow. Movements are smoother, but they sometimes take
 a lot longer. The accelerations are also applied on a per axis basis, so on a high speed move, the X
-axis will be accelerating at it's max acceleration and the Y will be accelerating at it's max
+axis will be accelerating at its max acceleration and the Y will be accelerating at its max
 acceleration. The total acceleration on a compound move will be higher along the line.
 
 Jerk, or Junction Deviation are used because even on the corner of a square, you don't want to stop
@@ -89,7 +89,7 @@ EEPROM, and they are read in every time you start (or boot) Marlin. You can chan
 time, but remember to save your changes by writing out to the EEPROM.
 
 `M203 X30 Y30 Z10`
-:   This will set the X and Y speeds to 30mm/s (notice this is in mm/s, whereas feedrates are in
+:   This will set the X and Y speeds to 30mm/s (notice this is in mm/s, whereas feed rates are in
 mm/min) and the Z to 10mm/s.
 
 `M500`
