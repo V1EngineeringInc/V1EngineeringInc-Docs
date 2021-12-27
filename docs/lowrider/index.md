@@ -67,7 +67,7 @@ bolts are not tensioned properly / evenly (probably way way too much).
 
 The XZ & XZ_side should be installed with an equal gap on all four screws. **There should be a gap**
 of a few millimeters equally on each side of the corners to the XZ Main. These parts can alter the Z
-rail angles so care is needed. They do not need to be extremely tight, a little pressure goes a long
+rail angles so care is needed. They do not need to be extremely tight; a little pressure goes a long
 way.
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/07/Coupler-use.jpg){: width="250"}
@@ -98,7 +98,7 @@ your rails are crooked this is where to check.
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Y-Assm-1.jpg){: width="350"}
 
 It is best not to tighten the M3 screws all the way on the T8 nuts. This allows for a touch of
-misalignment and more smooth Z action. Don’t worry, their only job is to stop rotation and gravity does the
+misalignment and smoother Z action. Don’t worry, their only job is to stop rotation and gravity does the
 rest.
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Wheel-Assm.jpg){: width="350"}
@@ -118,7 +118,7 @@ rest.
     similar arc.
 
     Using a few segments of the belt itself when securing the end ensures a better connection on the
-    belts teeth. 3-4 teeth facing teeth up will make for a more round surface of the cable tie that
+    belts teeth. 3-4 teeth facing teeth up will make for a rounder surface of the cable tie that
     secures the folded belt. This will prevent a wide belt from cupping and slipping teeth.
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/IMG_20180804_1347192.jpg)
@@ -193,12 +193,12 @@ beginning gcode resets all your axis to `0,0,0`, you can use this command, `G92 
 5) Ending gcode. What should happen is your job ends **above** your last position, meaning your bit
 should not drag across the surface if you move it. With the bit above the last position, telling the
 machine to go back to the starting position will return the machine to where you started it and then
-making sure the steppers do not turn off is a good idea as the LowRider will drop under it’s own
+making sure the steppers do not turn off is a good idea as the LowRider will drop under its own
 weight. The last few lines of your gcode should look like this.
 
 ```
 G1 Z7 F400 (this is my clearance plane and is already in my gcode)
-G1 X0 Y0 F2100 (I add this to have the machine drive its self back to the start)
+G1 X0 Y0 F2100 (I add this to have the machine drive itself back to the start)
 ```
 
 At this point you can use the lcd to move the machine clear of your material and lower it, then
@@ -212,4 +212,3 @@ G1 X-15 Y-15 F2100 (drive 15mm past your start)
 G1 Z0 F400 (Lower the machine)
 M84; Turn steppers off
 ```
-
