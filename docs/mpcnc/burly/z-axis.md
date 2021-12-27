@@ -77,7 +77,7 @@ Slide the lower tool mount to where it just touches the coupler but does not com
     We are using the ball bearing as a thrust bearing (not the right type of bearing but it is a tiny load).
 
 At this point hang the assembly off the edge of a table. Make sure the rails are sitting flat on the
-table, if it is not loosen, push down on the rails, and tighten the toolmount screws. If the rails
+table, if it is not loosening, push down on the rails, and tighten the tool mount screws. If the rails
 are twisted it will rock back and forth…that is bad.
 
 ---
@@ -98,7 +98,7 @@ bearing. This dimension will be different for every build. Check again, are the 
 Add the screws 3/4″ (M4 X 20) and nuts to the Z brackets, snug slightly.
 
 **Snug slightly means, less than you think**. If it is too loose at some point the mounts could move up
-and is very easily noticed and is easily fixed by going a very tiny bit more snug. If they are too
+and is very easily noticed and is easily fixed by going a very tiny bit snugger. If they are too
 tight you will crack the mount, not easily fixed. Err on the side of too loose.
 
 Check again, are the rails still sitting flat? Add the lead screw into the coupler. **The lead screw
@@ -115,4 +115,3 @@ top 25mm (1″) or so of the lead screw. It can be a tight fit.
 ---
 
 Done with the Z Axis!
-
