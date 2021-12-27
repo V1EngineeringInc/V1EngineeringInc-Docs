@@ -16,7 +16,7 @@ If you just want to open a box and have a ready 3D printer there are a few solid
 The MP3DP V2 is a printer for those of you that want to build one, get your hands dirty, and learn a
 thing or two! Currently this is just a guide, not a full set of instructions. If anything is unclear let us know and we can add a picture or two. Hopefully nothing is to tricky here.
 
-[Github](https://github.com/Allted)
+[GitHub](https://github.com/Allted)
 
 Questions comment – [HERE](https://www.v1engineering.com/forum/topic/i-made-another-mp3dp-kinda/).
 
@@ -55,7 +55,7 @@ Thingiverse hosts the parts [Here](https://www.thingiverse.com/thing:2754519)
 
 *Completely optional* This is the HeffePlate V2, Jeffeb3 made one for the first version. This is
 just the updated one. If you use it counter sink the screws so it sits flat and it should allow for
-thinner frame material to be used as well. Over all it just keeps things more square and and rigid.
+thinner frame material to be used as well. Overall it just keeps things more square and rigid.
 The important features are in there so again, get creative this is just a blank flat DXF.
  
 ## Specialty Parts
@@ -140,7 +140,7 @@ parts. Make sure the ends clear and do not hit the pulley or idler. Better align
 
 I took a while to release these parts because my idlers kept seizing up. I have two suggestions,
 first lube them well, I am using the [super lube](https://vicious1-com.myshopify.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) from the shop, no issues since. Second belt tension does not
-have to be super human here. Start loose and only tighten the belts if you notice issues. Too tight=excessive ringing and premature idler damage, Too loose=soft rounded corners and poor wall consistancy.
+have to be superhuman here. Start loose and only tighten the belts if you notice issues. Too tight=excessive ringing and premature idler damage, Too loose=soft rounded corners and poor wall consistency.
 
 ## X Axis
 
@@ -149,7 +149,7 @@ super glue like before.
 
 ![!xaxis](https://www.v1engineering.com/wp-content/uploads/2018/01/xscrews.jpg){: width="500"}
 
-They should be adjusted top an bottom to, 301mm. you can measure this top and bottom to ensure the
+They should be adjusted top and bottom, to 301mm. you can measure this top and bottom to ensure the
 ends are parallel.
 
 ![!xdims](https://www.v1engineering.com/wp-content/uploads/2018/01/XDistance.png){: width="500"}
@@ -206,7 +206,7 @@ Thingiverse hosts the parts [Here](https://www.thingiverse.com/thing:2754519)
 
 ## Hardware
 
-Here is a simplified hardware list, a few parts are made for shorter hardware but this is as simple
+Here is a simplified hardware list, a few parts are made for shorter hardware, but this is as simple
 as it gets. You can also go longer on most all of these. M3.5mm is almost a direct fit for the #6-32
 screws, some seem not to want to order these online if they can’t find them locally so an M4 will
 probably work. I really suggest just ordering a box of M3.5’s for simplicity.
@@ -223,7 +223,7 @@ probably work. I really suggest just ordering a box of M3.5’s for simplicity.
 |3   |Power supply screws     |mount screws,standoffs dependent on your power supply. e.g.(M5 x 20mm 7mm rubber standoffs)|
 
 The control board and power supply screws will depend on your hardware, frame thickness and
-preferred stand off distance, easy thing to do is cut rubber hose as the standoffs.
+preferred standoff distance, easy thing to do is cut rubber hose as the standoffs.
 
 ## Screw length
 
@@ -264,8 +264,8 @@ is still level with the nozzle. Adjust Z home trigger screw to get the correct f
 ## Firmware
 
 The beta Marlin 2.0 version is on the 
-[github page](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
-, or the old MP3DP firmware works (found below as a backup). There are nots on the github version
+[GitHub page](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
+, or the old MP3DP firmware works (found below as a backup). There are nots on the GitHub version
 there are two settings that need to be changed for the MK8 or the Titan Aero, the thermistor value
 11 for the MK8 or 5 for the Aero, and 100 steps for the E on the MK8.
  
@@ -274,4 +274,3 @@ there are two settings that need to be changed for the MK8 or the Titan Aero, th
 If you need some initial settings to get started there are slicer settings at the end of
 [this page](../tools/import-extruder.md)
 , and a breakdown of an MK8 assembly.
-
