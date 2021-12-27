@@ -5,7 +5,7 @@
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/OverHead-scaled.jpg){: width="400"}
 
 * This step is just to get the gantry rails as perpendicular to each other as possible.
-* The more square your build, the more accurate your cuts.
+* The squarer your build, the more accurate your cuts.
 * Previously you squared your base, then the Trucks to the base, and now you are squaring the Core. If you use dual endstop firmware you will be able to dial this in even further.
 * Machine accuracy is much easier to achieve with the Primo version.
 
@@ -15,7 +15,7 @@
 
 * An easy test is to measure and compare the Trucks as they sit.
 * You should have no belts attached at this point.
-* Move the gantry around by hand, and place it roughly in the center of your work area.
+* Move the gantry around by hand and place it roughly in the center of your work area.
 * Measure each Truck pair without moving the gantry in the process.
 
 
