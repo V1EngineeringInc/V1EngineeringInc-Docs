@@ -58,7 +58,7 @@ ___
 
 
 !!! Tip
-       For all the screws with captured nuts it is best to prethread them to loosen them up a bit to prevent ruining the printed parts.
+       For all the screws with captured nuts it is best to pre-thread them to loosen them up a bit to prevent ruining the printed parts.
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 * You will need two idlers for each Truck.
 * Two M5 screws and nuts.
-* \#2 screw driver.
+* \#2 screwdriver.
 
 !!! Tip
     If you add the belts first it is easier than trying to fish them through later. Each axis has a mirrored set of Trucks, so that is an easy way to also pair up the belts.
@@ -96,12 +96,12 @@ ___
 ![!MPCNC aligning the drive train](https://www.v1engineering.com/wp-content/uploads/2020/06/Pulley-3.jpg){: width="400"}
 
 * Make sure the pulley is aligned with the idlers.
-* (optional) Add loctite to the grub screws, even a bit on the stepper shaft can help.
+* (optional) Add Loctite to the grub screws, even a bit on the stepper shaft can help.
 * Tighten the grub screw on the stepper shaft flat first.
 * Tighten the second grub screw.
 
 !!! Tip
-    Loose pulleys are probably the number one issue we see on both the MPCNC and LowRider CNC builds. They cause all sort of erratic behavior and false "skipped steps". Take your time and do this correctly. Notice it does not say tighten the heck out of them. Get them on in the right order, directly on the flat, and loctite is your friend.
+    Loose pulleys are probably the number one issue we see on both the MPCNC and LowRider CNC builds. They cause all sort of erratic behavior and false "skipped steps". Take your time and do this correctly. Notice it does not say tighten the heck out of them. Get them on in the right order, directly on the flat, and Loctite is your friend.
 
 ___
 
