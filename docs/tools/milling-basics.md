@@ -26,7 +26,7 @@ After plotting the next step in milling would be [HD foam](https://amzn.to/2fCJI
 the big box store “foamular” $5 for a 1/4 sheet), this material holds amazing tolerances, mills very
 well, and will not destroy your machine when you make a mistake. If you are new this should always
 be the material you make a first test cut in, then on to test cuts in the material you want to use.
-You can make test cuts on both sides and the $5 it costs will pay for is self many times over in
+You can make test cuts on both sides and the $5 it costs will pay for itself many times over in
 saved bits and refined CAM settings (time & accuracy).
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/IMG_20170921_101639.jpg){: width="400"}
@@ -35,7 +35,7 @@ Some of the first cuts ever made on an MPCNC.
 
 ## For The Impatient
 
-If you just want to get the machine dirty here is the generic recipe. This should work in every material, you can optimize later.
+If you just want to get the machine dirty here is the generic recipe. This should work in every material; you can optimize later.
 
 - **Single flute 1/8″** [upcut bit](https://vicious1-com.myshopify.com/collections/sharp-stuff/products/1-8-single-flute).
 - 8mm/s **Feed Rate** (The speed at which you move through the material).
@@ -43,7 +43,7 @@ If you just want to get the machine dirty here is the generic recipe. This shoul
 - 1mm **Depth of Cut** (The thickness of material your bit will be removing per pass).
 - 45% **Step Over** (The percentage of bit diameter that should be in contact with the material)
 - Use the **Peel** pocketing strategy.
-- **Always** use a finishing pass of ≈10% of your tools diameter. The more dense the material the smaller the finishing pass.
+- **Always** use a finishing pass of ≈10% of your tools diameter. The denser the material the smaller the finishing pass.
 
 At this point you should be in HD foam, if that works out you can try some soft wood like pine.
 
@@ -111,7 +111,7 @@ For the most part you always want to Climb mill. The edge of the cutter starts w
 
 ### Feeds and Speeds Calculator
 
-I can not stress this enough, these numbers are different for every build. Only use them as a guide
+I cannot stress this enough; these numbers are different for every build. Only use them as a guide
 to find the right settings for your build. You can make a few test cuts a quickly work out how to
 get reliable numbers for your machine with the right settings though.
 
@@ -125,7 +125,7 @@ Basic
 :   All things being equal, this is the amount of material your tool encounters in percentage of the tool diameter. The lower the percentage the lower the force on the machine, the more accurate the cut.
 
 Expanded
-:   A good thing to know is most flutes are not 50% of the diameter of the bit, usually less. Just typing in a percentage does not mean that is the actual chip load, Feedrate, RPM, and Depth of Cut all play a major part. All the numbers you enter are a fine balance of an equation giving you total chip load per tooth.
+:   A good thing to know is most flutes are not 50% of the diameter of the bit, usually less. Just typing in a percentage does not mean that is the actual chip load, Feed rate, RPM, and Depth of Cut all play a major part. All the numbers you enter are a fine balance of an equation giving you total chip load per tooth.
 
 Roughing
 :   is 50% or less, typically 45% depending on material density. More than 50% you will be both climb and conventional milling and should be avoided.
@@ -176,7 +176,7 @@ M00 ; Wait for LCD button press
 ;Change tool: <n>
 G28 X Y Z ; Home in order, w/zprobe
 G92 Z0.15 ; Account for probe thickness (set your thickness)
-G00 Z5.0000 F500 ; Raise Z probe off off of surface
+G00 Z5.0000 F500 ; Raise Z probe off of surface
 M00 ; pause for LCD button press
 M03 S<s> ; PID, set spindle speed
 ```
@@ -222,7 +222,7 @@ When making Gcode from your CAM program it spits out raw coordinates, speeds, an
 commands. A post processor simply formats in a way that your firmware will recognize it.
 
 For example, Marlin treat `G0` (rapid move) and `G1` (Work move) the same. Other machines set the
-`G0` speed in the firmware, Marlin does not. To over come this we Use a line in the post processor
+`G0` speed in the firmware, Marlin does not. To overcome this we Use a line in the post processor
 to set the actual speed in each line so it doesn’t matter. There are all sorts of things like this.
 All machines require a post processor.
 
@@ -252,10 +252,10 @@ intro](https://www.youtube.com/watch?v=Do_C_NLH5sw).
 ##### FlyFisher604 Fusion360 Post Processor
 
 Flyfisher604 has created a Post Processor ([Flyfisher604's
-github](https://github.com/flyfisher604/mpcnc_post_processor)) based on Guffy's PP. The Flyfisher604
+GitHub](https://github.com/flyfisher604/mpcnc_post_processor)) based on Guffy's PP. The Flyfisher604
 post processor addresses the issues introduced by the F360 Hobby version. This includes:
 
-- Scaling of feedrates to resolve MPCNC's max Z feedrate being less then XY max cut rate
+- Scaling of feed rates to resolve MPCNC's max Z feedrate being less then XY max cut rate
 - Recovery of the G0 Rapid that moves to the starting location of the cut
 - Recovery of G0 Rapids that occur at a safe level above the work
 
