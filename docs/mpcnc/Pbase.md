@@ -19,7 +19,7 @@ ___
 ![!Tools Needed](https://www.v1engineering.com/wp-content/uploads/2020/06/foot-tools-scaled.jpg){: width="400"}
 
 * 8mm Socket or nut driver
-* Phillips #2 Screw driver
+* Phillips #2 Screwdriver
 ___
 
 ## Legs and Feet
@@ -71,8 +71,8 @@ ___
 
 ![!Embedded nut](https://www.v1engineering.com/wp-content/uploads/2020/06/lock-ready-scaled.jpg){: width="400"}
 
-* Push the nut into the Corner Leg Lock and fully seat it. If it does not stay on it's own you can use a drop of glue.
-* If the nut does not stay on it's own, you can attach the Corner Bottom very loosely with its bolt.
+* Push the nut into the Corner Leg Lock and fully seat it. If it does not stay on its own you can use a drop of glue.
+* If the nut does not stay on its own, you can attach the Corner Bottom very loosely with its bolt.
 
 ![!Orientation](https://www.v1engineering.com/wp-content/uploads/2020/06/base-lock-scaled.jpg){: width="400"}
 
@@ -149,4 +149,4 @@ ___
 
 ___
 
-Done with the Base! 
+Done with the Base!
