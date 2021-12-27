@@ -7,12 +7,12 @@ The Mostly Printed CNC (MPCNC) is a platform to precisely control motion. This c
 
 ## Cost
 
--All components are easily sourced or you can buy the parts from this site. Here is a price breakdown.
+-All components are easily sourced, or you can buy the parts from this site. Here is a price breakdown.
 
 * The [Bundle](https://vicious1-com.myshopify.com/collections/bundles/products/mostly-printed-cnc-parts-bundle) has all the hardware and electronics except the [conduit/rails](https://www.v1engineering.com/assembly/conduit-rails-tubes-pipes/) which are cheaper to source locally than to ship – $271 + shipping if international.
 * 20′ of [Conduit](https://www.v1engineering.com/assembly/conduit-rails-tubes-pipes/) **≈\$12** (or stainless steel tubing for a little more ≈\$43) .
 * Plastic parts, filament, less than 2 spools **≈\$30** if you own a 3D printer, if not buy it from [here](https://shop.v1engineering.com/collections/bundles) for $135.
-* Tool. Either a [Dewalt](https://amzn.to/1MoBSQq), [import spindle](https://amzn.to/2arEPEg) or an [extruder](https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/3d-printing-extruder) (3D Printer) $53, or anything else you might want to bolt on, laser, [drag knife](https://shop.v1engineering.com/collections/parts/products/drag-knife-vinyl-cutter), foam cutting needle (awesome), ect.
+* Tool. Either a [Dewalt](https://amzn.to/1MoBSQq), [import spindle](https://amzn.to/2arEPEg) or an [extruder](https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/3d-printing-extruder) (3D Printer) $53, or anything else you might want to bolt on, laser, [drag knife](https://shop.v1engineering.com/collections/parts/products/drag-knife-vinyl-cutter), foam cutting needle (awesome), etc.
 
 Total Cost… if you have a 3D printer **Under $370**, $475 if you buy the printed parts from here.
 
@@ -43,17 +43,17 @@ This machine can easily do many things, how about making some coffee with Apach�
 
 - X and Y axis are powered by 2 stepper motors each, and a single stepper for the Z axis. The standard would be NEMA 17 in any torque preferably 42 OZ/in and above (the kit come with 76 OZ/in). No need for NEMA 23’s or their required larger drivers,  torque is not one of this machines issues.
 
-- Belts are used for there accuracy and price. Small belts are used because each axis has two of them. Ballscrews are expensive, require tuning, and periodic maintenance / adjustments.
+- Belts are used for their accuracy and price. Small belts are used because each axis has two of them. Ball screws are expensive, require tuning, and periodic maintenance / adjustments.
 
  
 ## Control
 
-- This is all controlled by any control board you like. The UltiMachine boards are recommended for the improved design and robust safety features. You can still use the common Ramps 1.4 or any others boards as well. There are other [Marlin](https://github.com/MarlinFirmware/Marlin) based boards, [GRBL](https://github.com/grbl/grbl), and regular CNC boards as well.
+- This is all controlled by any control board you like. The UltiMachine boards are recommended for the improved design and robust safety features. You can still use the common Ramps 1.4 or any other boards as well. There are other [Marlin](https://github.com/MarlinFirmware/Marlin) based boards, [GRBL](https://github.com/grbl/grbl), and regular CNC boards as well.
 
  
 ## Software
 
-- There are plenty of free or really inexpensive software options available for 3D printing, CAM, and CAD. I suggest [Fusion 360](http://www.autodesk.com/products/fusion-360/overview), [Repetier-host](http://www.repetier.com/), [ESTLCam](http://www.estlcam.com/), ect.
+- There are plenty of free or really inexpensive software options available for 3D printing, CAM, and CAD. I suggest [Fusion 360](http://www.autodesk.com/products/fusion-360/overview), [Repetier-host](http://www.repetier.com/), [ESTLCam](http://www.estlcam.com/), etc.
 
  
 ## DIY
