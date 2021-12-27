@@ -26,7 +26,7 @@ ___
 
 * Use the matching Bottom_Corner and Lock_Corner parts or BottomM_Corner and LockM_Corner parts. The direction of the letter will match when assembled of the correct set.
 * Optional but suggested, add some glue to these parts before screwing together for added rigidity.
-* Put the screw 3/4″ (M4 X 20) in from the corner piece and the nut into the lock, and hold with a socket or pliers. This screw can get snugged down.
+* Put the screw 3/4″ (M4 X 20) in from the corner piece and the nut into the lock and hold with a socket or pliers. This screw can get snugged down.
 ___
 
 ## Leg Assembly
