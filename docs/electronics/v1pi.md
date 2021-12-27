@@ -24,15 +24,15 @@ piece of work.
 
 The [forum thread](https://www.v1engineering.com/forum/topic/v1pi-raspberry-pi-image-with-octoprint-and-cnc-js-and-wifi-hotspot/).
 
-Github link to the [file and instructions](https://github.com/jeffeb3/v1pi).
+GitHub link to the [file and instructions](https://github.com/jeffeb3/v1pi).
 
 The program let me load the image on a windows machine, [Etcher.io](https://etcher.io/).
 
-Heffe once again, you are amazing and I appreciate your hard work more than you could know.
+Heffe once again, you are amazing, and I appreciate your hard work more than you could know.
 
  
 ???+ "CNC.js currently has a tiny issue"
      There's an issue with a timeout failing, and the `ok` getting
-     missed. There is a solution to commenting out a line, and there’s a github issue for it. The
+     missed. There is a solution to commenting out a line, and there’s a GitHub issue for it. The
      workaround is to send some other command in the terminal window, which will send another `ok`. I
      just send `G1 X0`.
