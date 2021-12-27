@@ -19,7 +19,7 @@ dirty, mislabeled, and this makes them more dangerous. High quality lasers are o
 and strength therefore they are easy to protect yourself from, imports can contain other wavelengths
 that your goggles may or may not protect you from or be more powerful than your glasses are rated
 for. I am no expert, have no way of testing, and therefore no real say in who makes quality glasses,
-I can not make a recommendation at this time. This [video](https://youtu.be/WnDjIDhxnMs) might help
+I cannot make a recommendation at this time. This [video](https://youtu.be/WnDjIDhxnMs) might help
 drive home the point.
 
 While we are on the subject, the laser looks extremely harmless in the goggles, kids (and most
@@ -63,11 +63,11 @@ does happen it happens stupid fast with all that force fed oxygen.
 ![diode](https://www.v1engineering.com/wp-content/uploads/2019/01/diode.jpg){: width="200"}
 
 Two of the most common lasers in the maker world are CO2 and Diode lasers. Diode lasers are much
-more compact, have self contained interchangeable optics, and are an order of magnitude lower power
+more compact, have self-contained interchangeable optics, and are an order of magnitude lower power
 than a typical CO2 laser. More on the Power in a bit.  These lasers operate at different wavelengths
 and this can have an effect of the type of material they are suitable for. Diode based lasers can
 range in price from a few dollars up to a few hundred, and CO2 based lasers start at a few hundred
-and go up from there. Both lasers have some sort of focal lens but a CO2 laser also has a mirror
+and go up from there. Both lasers have some sort of focal lens, but a CO2 laser also has a mirror
 system to steer the beam before focus. Diodes can be cooled with a small fan, CO2 use water and
 sometimes a chiller.
 
@@ -80,8 +80,8 @@ and is only capable of cutting light materials (foam, paper, plastic) and very t
 ### Power
 
 Laser power, not as straight forward as you would think. Higher numbers in general mean thicker
-materials can be cut or etching can be done faster. Numbers are not everything! A laser has four
-things to consider when talking about it’s power; wattage, spot size, focal length, spectrum.
+materials can be cut, or etching can be done faster. Numbers are not everything! A laser has four
+things to consider when talking about its power; wattage, spot size, focal length, spectrum.
 
 Wattage
 :   The overall power output of your laser (like a light bulb, energy per time). On most
@@ -98,7 +98,7 @@ Spot size
 the image you can produce, think printer DPI (dots per inch). Another side effect of spot size can
 be ability to cut. A poorly focused laser’s power is too spread out to be effective, a finely
 focused laser cuts significantly better. For a diode this can vary 100-400 micron in diameter just
-by laser wattage. To be more clear, more powerful diode lasers can not be focused to as small of a
+by laser wattage. To be more clear, more powerful diode lasers cannot be focused to as small of a
 point as lower powered lasers (the source is not truly a point, larger diodes equal larger initial
 “points”, and it is not actually a spot but a rectangular spot).
 
@@ -106,7 +106,7 @@ Focal length
 ![!focal_length](https://www.v1engineering.com/wp-content/uploads/2019/01/Focal-Length-1.gif){: width="400"}
 :   This influences the shape of the laser cone (long and narrow or short and fat). The
 focal length is dependent on the lens you use and should be a small range depending on the lens. If
-you have a choice, a longer focal length can aid in cutting ability (a thinner steeper beam/cone can
+you have a choice; a longer focal length can aid in cutting ability (a thinner steeper beam/cone can
 cut deeper before power is lost to the edges of the material).
 
 Spectrum
@@ -199,7 +199,7 @@ Ramps=44
 ### Leo’s Laser
 
 A short DIY guide to building your own diode laser and power supply. Leo was the first one that made Lasers seem doable, even for me. My [Leo
-laser](https://www.v1engineering.com/the-2-8-watt-100-laser/) is still working perfectly. The Import lasers are pretty stable now so this guide is a bit out of date. Thanks a million Leo69 for getting us all started with the Pew Pew's.
+laser](https://www.v1engineering.com/the-2-8-watt-100-laser/) is still working perfectly. The Import lasers are pretty stable now, so this guide is a bit out of date. Thanks a million Leo69 for getting us all started with the Pew Pew's.
 
 ## Software
 

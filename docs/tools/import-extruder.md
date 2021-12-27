@@ -22,7 +22,7 @@ Start by screwing the base plate to the stepper with the M3x6 screw. I prefer to
 On the Tension arm add the bearing and broad headed screw. If the bearing does not spin freely, flip
 it over. One side is slightly offset. Make sure the bearing spins free and smoothly.
 
-Some sets include a washer, use it if you have it. Threadlocker is a good idea as well.
+Some sets include a washer, use it if you have it. Thread locker is a good idea as well.
 
 ---
 
@@ -39,7 +39,7 @@ Add the pulley next. Usually the set/grub screws are positioned closer to the mo
 Center the teeth on the idler pulley and make certain the pulley does not hit the heat sink that
 gets installed later.
 
-Tighten the set screw on the stepper’s flat spot if it has one, the the second screw.
+Tighten the set screw on the stepper’s flat spot if it has one, the second screw.
 
 ---
 
@@ -90,7 +90,7 @@ Double check the throat is not hitting the idler or pulley.
 
 The cooling stack. the screws may or may not have washers. Position the fan wires appropriately.
 Tighten with moderate tension. This is where a majority of the unwanted heat gets dissipated so
-tension is good fro heat transfer but too much will ruin the fan, so balance…
+tension is good for heat transfer but too much will ruin the fan, so balance…
 
 ---
 

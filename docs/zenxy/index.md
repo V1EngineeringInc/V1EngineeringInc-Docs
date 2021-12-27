@@ -48,7 +48,7 @@ ___
 
 The spacers are optional and only needed if your glass mounting hardware protrudes. The STL files are 1mm thick and can easily be scaled in the Z direction only up to about 7mm before the 12.7mm magnet might start to pose an issue. If needed, one magnet spacer and two of each corner spacer are used, all scaled to the same Z dimension.
 
-If you glass is not mounted planer to your corners you can use a ssecond magnet and stack them to reach your glass.
+If you glass is not mounted planer to your corners you can use a second magnet and stack them to reach your glass.
 
 Insert Picture of mounted glass
 
@@ -105,14 +105,14 @@ This is running CoreXY belting and requires homing Y before X, as set in the fir
 build to be input before compiling as well.
 
 
-Here is a example Marlin firmware [Firmware link](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
+Here is an example Marlin firmware [Firmware link](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
 
-Here is an example TMC2209 Pen/Laser Controller [Pre-Compiled Bin File](https://github.com/V1EngineeringInc/Grbl_Esp32/blob/V1EngineeringInc-AddBin/ZenXY_V2_BIN/firmware.bin) or [Pre-Configured Github Repo](https://github.com/V1EngineeringInc/Grbl_Esp32).
+Here is an example TMC2209 Pen/Laser Controller [Pre-Compiled Bin File](https://github.com/V1EngineeringInc/Grbl_Esp32/blob/V1EngineeringInc-AddBin/ZenXY_V2_BIN/firmware.bin) or [Pre-Configured GitHub Repo](https://github.com/V1EngineeringInc/Grbl_Esp32).
 
 ## Wiring
 
 The stepper with the endstops on the same block gets plugged into the "X" port on the control board. If it does not move correctly, power 
-down unplug and flip them both over, or flip just one over. It is more confusing then the regular Cartesian troubleshooting. Guess and check
+down unplug and flip them both over, or flip just one over. It is more confusing than the regular Cartesian troubleshooting. Guess and check
 seems to be the best way.
 
 The Y endstop is triggered along the larger dimeter tube. The X is the other one :smile:.
@@ -127,7 +127,7 @@ Basic CAD file, [Fusion 360 version](https://a360.co/3wNh68T).
 
 ## Example Starting Gcode
 
-When using Sandify, or any other software you need to set the starting or homing Gcode. You can cut and paste what is below and adjust for your specific build's offset. This table uses hard mounted endstops and endstop triggers so you need to home Y first and typically add some offsets to get to the starting point just where you want it.
+When using Sandify, or any other software you need to set the starting or homing Gcode. You can cut and paste what is below and adjust for your specific build's offset. This table uses hard mounted endstops and endstop triggers, so you need to home Y first and typically add some offsets to get to the starting point just where you want it.
 
 For GRBL you can use
 ```

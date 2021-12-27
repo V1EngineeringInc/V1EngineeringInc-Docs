@@ -73,7 +73,7 @@ Now 3 more inside cuts, rough pockets followed by finishing passes.
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I10.jpg){: width="400"}
 
 Now that the inner features have been finished it is time to cut the part from the material,
-leaving 3 small tabs that can easily be snipped off. For this step will will be using an
+leaving 3 small tabs that can easily be snipped off. For this step will be using an
 outside cut, with a .2mm allowance, setting the tabs, starting at the Z=0 plane since the outer
 edge did not get surfaced and cutting .2mm in to the waste board (11.7mm deep). Then the
 finishing pass with 0 allowance and matching the tabs previously set.
@@ -98,7 +98,7 @@ the tabs. I then hit the edges lightly with some 220 git sand paper and call it 
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160711_202100.jpg){: width="400"}
 ![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160715_145757.jpg){: width="400"}
 
-Here are the files I used, you will probably need to edit these unless your wood is 11.5mm
+Here are the files I used; you will probably need to edit these unless your wood is 11.5mm
 thick. This is the DXF, My generated gcode, and my estlcam project file. This is one of the
 parts for this http://www.thingiverse.com/thing:1562144
 

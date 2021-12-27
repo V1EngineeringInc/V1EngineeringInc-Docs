@@ -13,7 +13,7 @@ There are 5 motors on a Low Rider. One on each Z axis, one on the router plate, 
 axis.
 
 This article is about the wiring needed to set up the Low Rider so that each motor has its own
-driver, and each driver has it's own endstop, while also allowing the Z probe for fine carving
+driver, and each driver has its own endstop, while also allowing the Z probe for fine carving
 operations.
 
 ## Do I need this?
@@ -34,7 +34,7 @@ Here are some things you may not know about series wiring and endstops:
 
 Here are the advantages of a Dual Endstop configuration:
 
-1. Auto squaring. If you home a dual endstop machine, each motor will move until it reaches it's own
+1. Auto squaring. If you home a dual endstop machine, each motor will move until it reaches its own
 endstop. Because of this, you can start the machine out of square, home, and be confident the
 machine will stay square.
 1. If you have your work set up in a known location, you can split the work into multiple files, and
@@ -87,7 +87,7 @@ The motors should be wired directly to the board. Most steppers come wired AABB,
 two wires are one coil, and the next two wires are the second coil. Since there are 5 drivers, each
 motor goes straight to a single driver.
 
-There are two motor ports on the Z driver. Don't use the second, and leave it blank.
+There are two motor ports on the Z driver. Don't use the second and leave it blank.
 
 ( A picture here sure would be nice ).
 
@@ -102,7 +102,7 @@ Match up each endstop with the appropriate motor.
     (+). All the endstops should also be wired to the Common (C) and Normally Closed (NC) connectors
     on the switches.
 
-The X endstop goes in the Xmin port, and needs to be mounted on the negative X axis.
+The X endstop goes in the Xmin port and needs to be mounted on the negative X axis.
 
 The Y1 endstop goes in the Ymin port, needs to be on the negative Y side, and needs to be on the
 side with the motor that is plugged into the Y port.
@@ -207,7 +207,7 @@ the [forums](https://forums.v1engineering.com).
 moves 20mm, or 5mm, there is a problem. If it is 10.1mm, worry about it later, that passed this
 test.
 
-1. Run the test crown pattern. Post the result to the forums, and some pics of you machine. You
+1. Run the test crown pattern. Post the result to the forums, and some pics of your machine. You
 should really consider taking a break and making a mess. This machine is in great shape now, and it
 can easily handle making a coaster to help you with the next steps.
 

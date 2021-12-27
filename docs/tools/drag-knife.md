@@ -28,7 +28,7 @@ by Ryan | Oct 30, 2016 | Hardware & Electronics
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161030_111417.jpg){: width="400"}
 - Keep adjusting and drawing circles to get the depth right.
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161030_111453.jpg){: width="400"}
-- The third picture looks close but if you look at the paper backing in the 4th picture it is still a bit too deep.
+- The third picture looks close, but if you look at the paper backing in the 4th picture it is still a bit too deep.
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161030_111522.jpg){: width="400"}
 
 ### Ideal Depth
@@ -37,7 +37,7 @@ by Ryan | Oct 30, 2016 | Hardware & Electronics
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161030_111619.jpg){: width="400"}
 - The blade is barely visible.
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161030_111649.jpg){: width="400"}
-- The depth will change depending on your material but you are always looking to just barely leave a mark on the carrier material.
+- The depth will change depending on your material, but you are always looking to just barely leave a mark on the carrier material.
 
 ### The Mount
 
@@ -66,9 +66,9 @@ by Ryan | Oct 30, 2016 | Hardware & Electronics
 
 - I used Estlcam for this sticker. There are other vinyl cutting specific software but, Estlcam works well enough. I think the option for over cuts might be in Estlcam but the lead in works to prevent small tags keeping the part in from the blade offset.
 - Open your dxf of choice and make sure the size is as expected. My grid is set at 25.4mm so this sticker will be about 3″.
-- Engrave would be the idea path option for this but I want to use the lead in so I set the tool diameter as small as permitted, 0.1mm.
+- Engrave would be the ideal path option for this but I want to use the lead in, so I set the tool diameter as small as permitted, 0.1mm.
 - Select the path with either inside or outside tool.
-- Use the “lead in” button to get close to a path overlap. This makes sure the sticker has been completely cut out. I want this as a acid mask so I chose to lead in from the inside of the design.
+- Use the “lead in” button to get close to a path overlap. This makes sure the sticker has been completely cut out. I want this as an acid mask, so I chose to lead in from the inside of the design.
 - Set the other path.
 - Save the program, chose something small for the depth of cut. For this 0.2mm was used.
  
@@ -76,7 +76,7 @@ by Ryan | Oct 30, 2016 | Hardware & Electronics
 
 - You can either load the .gcode into repetier host or save it to an SD card and run it from the LCD.
 - Secure your vinyl/material to your cutting surface. I  use painters tape on all sides and try to get the material to lay as flat and taught as possible. I use vinyl similar to this, http://amzn.to/2eHGbJU, I prefer medium tack for easy release.
-- Move the gantry/cutter to the home position, and set the drag knife in contact with the material. Lowering it just enough to just engage the mount spring.
+- Move the gantry/cutter to the home position and set the drag knife in contact with the material. Lowering it just enough to just engage the mount spring.
 - Start the program.
 
 ### Making a sticker
@@ -111,7 +111,7 @@ by Ryan | Oct 30, 2016 | Hardware & Electronics
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161104_124109.jpg){: width="400"}
 - stick down one side from the center out, then the other side.
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161104_124143.jpg){: width="400"}
-- Peel off the transfer tape and make sure all edges are completely stuck so acid can not get under it.
+- Peel off the transfer tape and make sure all edges are completely stuck so acid cannot get under it.
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2016/10/IMG_20161104_124356.jpg){: width="400"}
 
 - I use this acid, http://amzn.to/2fpM1zK.

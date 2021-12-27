@@ -18,7 +18,7 @@ Step by step, lots of pics, few words. Click on the pictures to enlarge them.
 be touched again.**
 
 - YES, the outer nuts are a pain to tighten if you are using 5/16″ hardware (but easy for 8mm).
-    Pre-thread the nylocks to loosen them up a bitx then just wedge a small flathead screwdriver in
+    Pre-thread the nylocks to loosen them up a bit then just wedge a small flathead screwdriver in
     there and tighten it. No big deal. This is not going to change, we have metric and imperial
     hardware to account for. I do not want to maintain two sets of every part for something that
     gets done one time.
@@ -118,7 +118,7 @@ Use the 4, 2.5″ (M8 x 65) bolts, bearings and lock nuts.
 
 **These are Tension Bolts C.**
 
-*These should be left extremely loose, just just slightly touching the plastic.*
+*These should be left extremely loose, just slightly touching the plastic.*
 ___
 
 ## Squaring
@@ -146,7 +146,7 @@ ___
 
 - Use a square to see if your XY rails are, perpendicular.
 - You can tension bolts “A” and “B” to adjust the rail angle. It is best to adjust by loosening them. If they are already loose tightening them slightly moves the rail away from the tension bolt.
-- I’m sorry there is no magic bullet for this part. For most people this should go together square as is, but if you are having issues you might just want to run it as is for a while and then try again after it has been broken in a bit. You can not really do this in the rollers so any adjustments should be in loose rollers or apart to this stage.
+- I’m sorry there is no magic bullet for this part. For most people this should go together square as is, but if you are having issues you might just want to run it as is for a while and then try again after it has been broken in a bit. You cannot really do this in the rollers so any adjustments should be in loose rollers or apart to this stage.
 - This part can be tricky for some, take your time. Small adjustments.
 
 ## TIPS

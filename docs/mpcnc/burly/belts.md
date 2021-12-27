@@ -31,7 +31,7 @@ leave the adjustment on the side opposite the stop blocks.
 tight and the stepper will not move.
 - It should not sound like a bass guitar if plucked and should not flop around when in motion. I’m
 sorry there is no better way to describe this as of yet.
-- The cable ties will form to the tensioned shape over a days time. So once you set them, the next
+- The cable ties will form to the tensioned shape over a day’s time. So once you set them, the next
     day you might need to give them all one more click.
 - It is best practice to add a tie to the longer one, this prevents the cable tie loop from
 springing, but still lets it get adjusted. (second picture)
@@ -40,13 +40,12 @@ springing, but still lets it get adjusted. (second picture)
 
 Last step
 :   Please trim the cable ties. Such an easy step that so many people don’t do. You can trim
-the tension ties the the outer edge of the corner so you can add a bit more tension but trim the
+the tension ties the outer edge of the corner so you can add a bit more tension but trim the
 rest nice and short. It makes things look so much more finished….Pet peeve I guess.
 
 !!! note "Quick note on the belts and cable ties."
     The GT2 belts we use are 6mm wide, and should be installed at between 3-10 lbs of tension (they
     can handle much more) and the cable ties are rated to 40lbs (it takes about 2.4lbs of force to cut aluminum…).
     This system is over kill, but the least expensive. There really is no need to go bigger on either
-    part of this system, and consider there is one on each side of the axis so the actual force seen on
-    each belt is half. You can not put enough strain on them to stretch them while in service.
-
+    part of this system, and consider there is one on each side of the axis, so the actual force seen on
+    each belt is half. You cannot put enough strain on them to stretch them while in service.

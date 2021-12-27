@@ -75,7 +75,7 @@ Therefore, the more flutes you have, the faster your RPM and feeds must be to ma
 full chip.  More flutes = require higher RPM’s, more machine rigidity, and faster cutting speeds.
 
 That sounds like a really cool way to jack up your productivity until you understand the practical
-limitations, machine ridity, chip clearing, and feedrate.
+limitations, machine rigidity, chip clearing, and feedrate.
 
 For each flute on the cutter the machine will be engaged in the material. Two flutes equal nearly
 two times the load on the machine of a single flute cutter.
@@ -172,7 +172,7 @@ extending life.
 
 Next up is machine deflection. This the most difficult variable to quantify. **Smaller machines will
 be more rigid than larger machines.** If you intend on cutting metal you should limit the bed size
-as small as possible and only increase it as you gain experince.
+as small as possible and only increase it as you gain experience.
 
 First of all, before you run any program in metal, make sure your CNC mill is tight. For the MPCNC,
 check all of the bearings to make sure that they are touching a metal tube. No free spinning
@@ -208,7 +208,7 @@ cuts, you will go through tools faster, and if you cut at 6, 7, or even 8mm dept
 the deflection of the machine and possibly the tool.
 
 Once your CNC is pushing the maximum feedrate, increasing depth becomes the best opportunity for
-increasing your MRR while maiintaning a proper chip size.
+increasing your MRR while maintaining a proper chip size.
 
 **Example Tool Manufacturer Recommendations for 1/8" diameter, 2 flute end mill**
 
@@ -253,7 +253,7 @@ Of course, there is more to think about. These were some of the basic settings t
 ### Runout
 
 Runout is how far off center your cutting edge is on your tool. Nothing is perfect so any and
-typically all of the spinning componets add to the total runout, motor bearings, shaft, collet, and
+typically all of the spinning components add to the total runout, motor bearings, shaft, collet, and
 tool.
 
 Low runout is critical for high-speed milling with small cutters. The tool will get loaded heavier
