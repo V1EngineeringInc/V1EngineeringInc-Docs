@@ -48,13 +48,13 @@
 
 * Temporarily insert the larger rail.
 * Set the tension of the Truck assembly.
-* You are looking for as loose as possble with all wheels making light contact.
+* You are looking for as loose as possible with all wheels making light contact.
 * This is best set now adding belts makes this hard to judge later.
 
 * Repeat all these steps for Truck 2.
 
 !!! Tip
-    There is no need for the tension to be high. All wheels making contact is the most silent operation. Too loose or too tight only adds more sound, but does not impact image quality.
+    There is no need for the tension to be high. All wheels making contact is the most silent operation. Too loose or too tight only adds more sound but does not impact image quality.
 
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210406_230833570-scaled.jpg){: width="400"}
 
@@ -98,11 +98,11 @@
 
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210406_235847970-scaled.jpg){: width="400"}
 
-* Temproralily insert the small rails through the center into both trucks to keep the spacing correct. 
+* Temporarily insert the small rails through the center into both trucks to keep the spacing correct. 
 * Set the tension of the center.
 
 !!! Tip
-    There is no need for the tension to be high. All wheels making contact is the most silent operation. Too loose or too tight only adds more sound, but does not impact image quality.
+    There is no need for the tension to be high. All wheels making contact is the most silent operation. Too loose or too tight only adds more sound but does not impact image quality.
 
 ### Cross Corners
 
@@ -147,7 +147,7 @@
 
 
 * If you catch the belt you should be able to pull it through and the belt is locked.
-* (You can remove it with a small screwdriver or tweazers from the looped end)
+* (You can remove it with a small screwdriver or tweezers from the looped end)
 
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_012641360-scaled.jpg){: width="400"}
 ![!Zen2 ASSM](https://www.v1engineering.com/wp-content/uploads/2021/04/PXL_20210407_013028804-scaled.jpg){: width="400"}

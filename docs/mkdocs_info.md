@@ -2,7 +2,7 @@
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
-A good markdown cheatsheet is available [here](https://www.markdownguide.org/cheat-sheet). The complete syntax is available
+A good markdown cheat sheet is available [here](https://www.markdownguide.org/cheat-sheet). The complete syntax is available
 [here](https://daringfireball.net/projects/markdown/)
 
 ## Creating Links
@@ -41,7 +41,7 @@ docs/img folder and linked like this:
 ![Backup Text](img/filename.png "Hover text")
 ```
 
-![images image](img/pic.png "This is linked here in this github")
+![images image](img/pic.png "This is linked here in this GitHub")
 
 
 ### Image Resizing
@@ -83,8 +83,8 @@ and nesting more than two is funky. Also, top levels can't be pages, so it's rea
 
 ### Embed videos
 
-Grab this snippet and change the video id in the youtube url. You can get this snippet (or some
-newer version) by clicking the share button, and choosing "embed" on any youtube video.
+Grab this snippet and change the video id in the YouTube URL. You can get this snippet (or some
+newer version) by clicking the share button and choosing "embed" on any YouTube video.
 
 ```
    <iframe width="560" height="315" src="https://www.youtube.com/embed/iHAhtaadcCg"
@@ -203,7 +203,7 @@ It basically works like this:
 markdown parts.
 1. mkdocs uses the mkdocs.yml file to configure itself for this project.
 1. mkdocs configures and runs our markdown files through python-markdown.
-1. If you're running `mkdocs serve`, then the html output is immediately served locally and you can
+1. If you're running `mkdocs serve`, then the html output is immediately served locally, and you can
 get to it at http://localhost:8000 .
 1. As soon as you change a file, the mkdocs serve will reload the page in your browser, which
 immediately shows the change. *Cool!*.

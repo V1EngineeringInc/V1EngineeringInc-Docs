@@ -109,7 +109,7 @@ Since every table will be a different size a cut calculator is a bit difficult.
 
 ## Firmware
 
-This is running coreXY belting and requires homing Y before X, as set in the firmware. You need two endstops wired Normally Closed on the X and Y. If you are facing the two steppers and looking down at them, the left one should be plugged into X the right one into Y, both plugs facing the same direction, if it does not move correctly, power down unplug and flip them both over. It is more confusing then the regular Cartesian troubleshooting.
+This is running coreXY belting and requires homing Y before X, as set in the firmware. You need two endstops wired Normally Closed on the X and Y. If you are facing the two steppers and looking down at them, the left one should be plugged into X the right one into Y, both plugs facing the same direction, if it does not move correctly, power down unplug and flip them both over. It is more confusing than the regular Cartesian troubleshooting.
 
 [Firmware link](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
 
@@ -120,4 +120,3 @@ This is running coreXY belting and requires homing Y before X, as set in the fir
 ### Some Old Guy Coding, Belt Routing
 
 [![Some Old Guy Coding, Belt Routing](https://www.v1engineering.com/wp-content/uploads/2018/04/SOGC-routing-1080x665.jpg){: width="450"}](https://youtu.be/L_GTP3r846g)
-

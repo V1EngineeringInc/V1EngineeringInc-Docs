@@ -44,7 +44,7 @@ ___
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Slide4-scaled.jpg){: width="400"}
 
 * The belt gets folded over and tucked into the slot.
-* Make sure the belt is below the surface of the printed parts so it does not drag. Tuck it in with a small screwdriver if needed.
+* Make sure the belt is below the surface of the printed parts, so it does not drag. Tuck it in with a small screwdriver if needed.
 * It is best to engage as many teeth as possible.
 
 ___
@@ -57,7 +57,7 @@ ___
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/OBelt2-scaled.jpg){: width="400"}
 
-* The Lower Belt slides are a little more tricky.
+* The Lower Belt slides are a little trickier.
 * The belts fit in the slide closest to the rail.
 * When tensioned they should form a straight line, corner to corner.
 

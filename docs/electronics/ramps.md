@@ -10,7 +10,7 @@ Ramps 1.4 – Any control board can be used to control the Mostly Printed CNC, H
 ![!RAMPS driver plugs](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20151023_103915.jpg){: width="400"}
 
 ## Jumpers
- First step is make sure you have 3 jumpers under each stepper driver. This puts the ramps board into 32nd stepping when using the DRV8825 drivers (if you use a different driver pay attention to its orientation and step rate).
+ First step is making sure you have 3 jumpers under each stepper driver. This puts the ramps board into 32nd stepping when using the DRV8825 drivers (if you use a different driver pay attention to its orientation and step rate).
 
 ![!Labeled](https://www.v1engineering.com/wp-content/uploads/2015/04/labeled.jpg){: width="400"}
 
@@ -20,7 +20,7 @@ Ramps 1.4 – Any control board can be used to control the Mostly Printed CNC, H
 ![!wires](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20151023_104243.jpg){: width="400"}
 
 ## Power 
-Add 12V to the power port, and plug in the steppers. The Arduino barrel jack (the round plug) is not used.
+Add 12V to the power port and plug in the steppers. The Arduino barrel jack (the round plug) is not used.
 
 ![!Probe](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20171008_12095401.jpg){: width="400"} 
 
