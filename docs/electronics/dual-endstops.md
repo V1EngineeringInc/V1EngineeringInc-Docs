@@ -17,7 +17,7 @@ accuracy, or manual measuring. This involves setting of each axis before engagin
 locking it in place. If the steppers are ever disengaged during use only the side of the axis with
 an endstop can accurately be accounted for. This makes fixturing, tool changes, and multi-day jobs
 extremely difficult to get repeatable results. A poor build or lack of axis alignment before each
-job will result in a non square skewed axis. A skewed axis will result in ovals and parallelograms
+job will result in a non-square skewed axis. A skewed axis will result in ovals and parallelograms
 instead of circles and 90° cornered rectangles. Changes in build accuracy due to use and
 environmental conditions need to be adjusted out or accounted for manually. Now just a minor offset
 adjustment will correct this.
@@ -51,7 +51,7 @@ E1=Z2)
 
 ### Mini-RAMBo
 
-This board only has 4 drivers available and can easily be used with the LowRider CNC but can not full take advantage of the new firmware with the MPCNC.
+This board only has 4 drivers available and can easily be used with the LowRider CNC but cannot full take advantage of the new firmware with the MPCNC.
 
 ![!miniRambo](https://www.v1engineering.com/wp-content/uploads/2017/11/MiniRAMBo.jpg){: width="400"}
 
@@ -102,7 +102,7 @@ Pay attention the pins are opposite each other, but clearly labeled on the board
 ### Mini-RAMBo
 
 This board only has 4 drivers available and can easily be used with the LowRider CNC (Y axis) but
-can not full take advantage of the new firmware with the MPCNC.
+cannot full take advantage of the new firmware with the MPCNC.
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/MiniRambo1.3a-connections.png){: width="400"}
 
@@ -135,7 +135,7 @@ by closing each one by hand and running an `M119`. Also verify the X1 correspond
 Then verify a positive movement is away from the end stops.
 
 The unfortunately designated `M666` lets you test your offset to quickly calibrate your machine. Using
-the command `M666 X0.72` would offset the X1 stepper 0.72mm away from it’s endstop, Y! can also be
+the command `M666 X0.72` would offset the X1 stepper 0.72mm away from its endstop, Y! can also be
 used. To verify your current settings during calibration just an `M666` will show the current offsets.
 Once the correct offset are found you should input them into your firmware.
 
@@ -166,7 +166,7 @@ ___
 
 First, most jobs will not benefit from using endstops. Getting the machine close and just running a
 quick one off carving or sign has no need to go through all the extra steps. People new to the CNC
-world should not use this, this is a advanced technique. My support for this will be limited.
+world should not use this; this is an advanced technique. My support for this will be limited.
 
 - You can now use the machine in two ways. Quick one off jobs as you always would setting the home
 position by hand and just running the job. Or by starting each job with a `G28` (if using a touch
@@ -192,7 +192,7 @@ ___
 
 Make sure your job has a work offset if you use the endstops.
 
-A typical part has the gcode built with the origin at the parts corner. If you where to cut out that
+A typical part has the gcode built with the origin at the parts corner. If you were to cut out that
 part it would result in going negative past your endstops and misalign your machine.
 
 ![!negative moves](https://www.v1engineering.com/wp-content/uploads/2017/11/Negative.jpg){: width="400"}
