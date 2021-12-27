@@ -1,7 +1,7 @@
 # Table
 ## A Quick and Dirty Table
 
-You can really use any table you have, the sturdier the better of course. If you don’t have a spare table your willing to get really dirty, here is one I put together for a few dollars worth of 2×4’s.
+You can really use any table you have, the sturdier the better of course. If you don’t have a spare table your willing to get really dirty, here is one I put together for a few dollars’ worth of 2×4’s.
 
 
 ![!Table Structure](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20151022_175857.jpg){: width="400"}
@@ -18,7 +18,7 @@ ___
  
 ## GeoDave at it again! – parametric table
 
-[GeoDAve's table on Thingiverse](http://www.thingiverse.com/thing:1468511)
+[GeoDave's table on Thingiverse](http://www.thingiverse.com/thing:1468511)
 
 ## MPTable??
 
