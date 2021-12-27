@@ -6,7 +6,7 @@
 The SKR Pro is a 32bit 6 driver board with 6 easily controllable ports running at 12-24V. Beyond the
 basics there are loads of extra pins, options for two different power supplies at two different
 voltages, WiFi Ports, future expansion port for USB, and the Trinamic TMC series of drivers are all
-pre wired into the board so there are no extra wires needed.
+prewired into the board so there are no extra wires needed.
 
 **Want to Buy one?**
 
@@ -43,11 +43,11 @@ For the firmware to be able to control the current and receive feedback from eac
 needs to be set for UART communication. To do this you remove the 4 jumpers from each port and place
 one jumper on the black (UART) pins. **There is no need to monkey with the tiny potentiometers!**
 
-![!Highlighted uart pins](https://www.v1engineering.com/wp-content/uploads/2020/07/uart2-Arrows.jpg){: width="400"}
+![!Highlighted UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/uart2-Arrows.jpg){: width="400"}
 
 The completed board looks like this. Notice there are no jumpers under the drivers.
 
-![!Uart pins](https://www.v1engineering.com/wp-content/uploads/2020/07/Uart-scaled.jpg){: width="400"}
+![!UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/Uart-scaled.jpg){: width="400"}
 
 At this point you can add the heat sinks being careful not to short any of the pins and only stick
 them to the copper pads on the top.
@@ -71,7 +71,7 @@ common ways we might use it.
 
 The standard LowRider and MPCNC options are to use series wiring. This combines two steppers on the
 same driver. This increases the voltage demand and not the current. We have an abundance of
-available voltage. The board is labeled and we will be using X, Y, and Z.
+available voltage. The board is labeled, and we will be using X, Y, and Z.
 
 ![!Series](https://www.v1engineering.com/wp-content/uploads/2020/07/Series-skr-labels-scaled.jpg){: width="400"}
 
@@ -92,7 +92,7 @@ For EXTRUDERS=1 E0 is used and then E1 becomes X2 and E2 become Y2. (or LR would
 
 If your stepper is moving the wrong way you can power down and flip the plug over to change the
 direction of rotation. If you are using the series wiring harness flipping the board end changes
-both stepper, or changing one stepper in the chain reverse that one only.
+both steppers, or changing one stepper in the chain reverse that one only.
 
 ![!flip 1](https://www.v1engineering.com/wp-content/uploads/2020/07/flip1-scaled.jpg){: width="400"}
 ![!flip 2](https://www.v1engineering.com/wp-content/uploads/2020/07/flip2-scaled.jpg){: width="400"}
@@ -105,7 +105,7 @@ the knob in for 3 seconds.**
 
 ![!screen](https://www.v1engineering.com/wp-content/uploads/2021/01/lcd-touch-Labels-scaled-1.jpg){: width="400"}
 
-You do not need to use both, pay attention to the direction the wires are facing when connecting
+You do not need to use both; pay attention to the direction the wires are facing when connecting
 them.
 
 ## Touch plate
@@ -122,7 +122,7 @@ Closed (NC). You will plug into the Signal and Ground pins, **Do not use the + p
 ![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: width="400"}
 
 !!! note
-    Do not use the + (positive) pins or you will ruin your SKR Pro board unless you are running a differnet project with powered endstops.
+    Do not use the + (positive) pins or you will ruin your SKR Pro board unless you are running a different project with powered endstops.
 
 ## Firmware
 
@@ -137,7 +137,7 @@ You have three options of firmware for the exact board, driver, screen package a
 * V1CNC_SkrPro_Dual_2209-****** Ready for dual end stops on an MPCNC (X & Y axes).
 * V1CNC_SkrPro_DualLR_2209-****** Ready for dual end stops on a LowRider CNC (Y & Z axes).
 
-When you unzip the file you have a .bin file. Rename to FIRMWARE.bin, and save it to the MicroSD for the SKR Pro board. Make sure to unplug both grey exp1/2 cables for the screen before proceeding. Insert the MicroSD back into the control board, reset, and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). 
+When you unzip the file you have a .bin file. Rename to FIRMWARE.bin and save it to the MicroSD for the SKR Pro board. Make sure to unplug both grey exp1/2 cables for the screen before proceeding. Insert the MicroSD back into the control board, reset, and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). 
 
 **Remove the Micro SD card, after flashing**
 
@@ -159,7 +159,7 @@ You also have the option to get the full Marlin source and edit and compile your
 
 Flashing the screen takes a .bin file, the config file, and usually the TFT35 folder (unzipped) on the root of the screens SD card.
 
-You can get these file from the link at the end of this section below. OR here is a [zip file](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/blob/master/TFT_E3V3_1_7_21.zip), make sure to unzip it first.
+You can get these files from the link at the end of this section below. OR here is a [zip file](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/blob/master/TFT_E3V3_1_7_21.zip), make sure to unzip it first.
 
 BIGTREE_TFT35_V3.0_E3.****.bin
 config.ini
@@ -183,7 +183,7 @@ Here is a basic walk through, [Platformio Docs](../learn/platformio.md).
 The V1 Engineering version of the SKR Pro firmware can be found on
 [github](https://github.com/V1EngineeringInc/MarlinBuilder/releases), there are two versions, series and MPCNC dual endstop.
 
-The V1 Engineering generic version of the TFT firmware is in this [github
+The V1 Engineering generic version of the TFT firmware is in this [GitHub
 repo](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware)
 
 ## Cases
@@ -210,4 +210,3 @@ Available [here](https://www.thingiverse.com/thing:4678675) on Thingiverse.
 ![!Flyflisher604 SKR Pro Case](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case.jpg){: width="400"}
 
 ![!Flyflisher604 SKR Pro Case Inside](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case_Inside.jpg){: width="400"}
-
