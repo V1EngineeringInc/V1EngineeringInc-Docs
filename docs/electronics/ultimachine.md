@@ -21,11 +21,11 @@ properly implemented drivers with more efficient heat transfer, replaceable fuse
 more ports, More control from the firmware did I mention _DIGI-POTS!!!_.
 
 The boards are more expensive than the current ramps boards but have no assembly required and I am
-expecting a nearly non existent failure rate (still true). These two factors mean I can have a much
+expecting a nearly nonexistent failure rate (still true). These two factors mean I can have a much
 lower markup on them than the ramps. These boards also have the driver current that is set in the
 firmware meaning much less setup and testing time for me as well, again lowering the need for a
 steep markup and more accurate control over your steppers. The mini-Rambo has four drivers, this
-means no [dual endstop firmware](dual-endstops.md) on this board with out some skills and an external driver.
+means no [dual endstop firmware](dual-endstops.md) on this board without some skills and an external driver.
 
 There is much more information available from [UltiMachine](https://ultimachine.com/) or the Wiki
 links in each section.
@@ -105,7 +105,7 @@ These can now be set in
 
 ![!plugs](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20170503_130811.jpg){: width="300"}
 
-If you have plugs that do not fit the the sockets on the Mini Rambo, you can persuade them to come
+If you have plugs that do not fit the sockets on the Mini Rambo, you can persuade them to come
 off and usually your plugs will fit the bare pins.
 
 #### Case
@@ -136,9 +136,9 @@ All the details in their full glory, https://reprap.org/wiki/Rambo_v1.4
 ![!power](https://www.v1engineering.com/wp-content/uploads/2017/04/MVIMG_20180207_1615342.jpg){: width="400"}
 
 You can add a Short jumper to get power to both ports, mind the polarity. The board does have labels
-but the Diagram below should be a little more clear.
+but the Diagram below should be a little clearer.
 
-Best practice not to use any adapters. If your power supply has a barrel jack you can cut it of and wire it up 
+Best practice not to use any adapters. If your power supply has a barrel jack you can cut it off and wire it up 
 directly, again double check the polarity, some red and white wires are opposite of what you would expect.
 
 ### Adding an LCD
