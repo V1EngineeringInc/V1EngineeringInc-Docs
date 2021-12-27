@@ -92,7 +92,7 @@ center for round or oval objects.
 
 ## Step 5 – Select the tool paths
 
-To use the pen you want to drawn on the line so use engrave (tool centered on line), if you were
+To use the pen you want to draw on the line so use engrave (tool centered on line), if you were
 cutting a part you can choose part (tool edge on the outside of line), or cutout (tool edge in
 inside of line). Click **Engrave** then just click on each line segment.
 
@@ -101,7 +101,7 @@ inside of line). Click **Engrave** then just click on each line segment.
 ## Step 6 – Save
 
 Export. **File>Save CNC Program**. Give it a name. You will get a depth popup, for the pen I use 1mm or
-less, anything else set it to the thickness of your material plus a bit to cut all the way through.
+less, anything else, set it to the thickness of your material plus a bit to cut all the way through.
 You can then preview the path.
 
 ## Step 7 – Control Software
@@ -112,7 +112,7 @@ Travel moves.
 
 ![!eRep](https://www.v1engineering.com/wp-content/uploads/2015/05/eRep.png){: width="400"}
 
-View it from the edge and you can see, that the path is below your z-home, and the movements are
+View it from the edge and you can see that the path is below your z-home, and the movements are
 above z-home.
 
 ![!eSide](https://www.v1engineering.com/wp-content/uploads/2015/05/eSide.png){: width="400"}
