@@ -29,11 +29,11 @@ On any page, you can click on the little pencil in the top right to edit and con
     pictures just need a few goofy characters to turn into titles and pictures.
 
 
-That will take you to github to the source for the page you want to edit.
+That will take you to GitHub to the source for the page you want to edit.
 
-![Github edit button](img/github_edit.png){width="300"}
+![GitHub edit button](img/github_edit.png){width="300"}
 
-In github, there is a little bar at the top of the file with another pencil. If you click on that,
+In GitHub, there is a little bar at the top of the file with another pencil. If you click on that,
 you will be guided to make the change and submit the changes back to the project. This is a
 "Pull Request". After that, your changes will be approved and merged into the documentation, and
 others can avoid the same problems you had.
@@ -87,4 +87,3 @@ copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyrigh
 
 The machine design files, logos, and images hosted on v1engineering.com have their own license
 here: https://www.v1engineering.com/license/
-
