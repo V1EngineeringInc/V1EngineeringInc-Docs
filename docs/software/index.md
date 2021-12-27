@@ -10,14 +10,14 @@ if you find you are having issues you might need to change the firmware baud rat
 
 ## Firmware
 
-If you bought a system from me the firmware is pre-loaded and you do not need to make any changes.
+If you bought a system from me the firmware is pre-loaded, and you do not need to make any changes.
 [Marlin](../electronics/marlin-firmware.md) is the firmware currently used and it is pre-flashed on the control board included in the
 kit ([download the pre-configured files here](../electronics/marlin-firmware)). If you are building your own feel free to use any
 board/firmware you want.
 
 ## Testing
 
-**Never plug or unplug anything into the control board while there is any power, usb or power
+**Never plug or unplug anything into the control board while there is any power, USB or power
 plug!**
 
 It is best to start with [Repetier-Host](http://www.repetier.com/) It is an easy program to use (do not use repetier server),
@@ -44,7 +44,7 @@ movements. Start small 1 mm at a time. The arrows should move it in that directi
  * __Y positive__ (up arrow) is back or __away from you__, Y negative is towards you.
  * __Z positive__ (Z up arrow) moves the z axis __up__, meaning the tool away from the work surface.
 
-If it doesn’t move as expected hit disconnect, unplug the power and usb, any axis that is moving the
+If it doesn’t move as expected hit disconnect, unplug the power and USB, any axis that is moving the
 wrong way simply [flip the plug](../software/reverse-motor.md). If one stepper is moving the wrong way
 power down and flip it’s plug. Power back up and test again.
 
