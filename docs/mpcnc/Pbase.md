@@ -7,7 +7,7 @@ Click on the images to embiggen.
 
 * The leg lengths come from the [cut calculator](calculator.md).
 * Do whatever it takes to get the legs as equal in length as possible. This will really help in leveling and keeping it level.
-* In this picture the one on the left is too short so it could either be shimmed during assembly or sand/grind the others.
+* In this picture, the one on the far left is too short, so it could either be shimmed during assembly or sand/grind the other legs.
 * A little extra time here pays off for the life of the machine.
 
 !!! Tip
@@ -19,7 +19,7 @@ ___
 ![!Tools Needed](https://www.v1engineering.com/wp-content/uploads/2020/06/foot-tools-scaled.jpg){: width="400"}
 
 * 8mm Socket or nut driver
-* Phillips #2 Screw driver
+* Phillips #2 Screwdriver
 ___
 
 ## Legs and Feet
@@ -59,7 +59,7 @@ ___
 * Triple check the diagonals - they need to be as close as you can get them.
 
 !!! Tip
-    Marking and pre-drilling the foot hold downs in the center of the screw slots makes it much easier to get a square base and leaves a tiny bit of room for adjustment.
+    Marking and pre-drilling the foot hold downs in the center of the screw slots makes it much easier to get a square base. It allows a tiny bit of room for adjustment.
 
 ___
 
@@ -71,8 +71,8 @@ ___
 
 ![!Embedded nut](https://www.v1engineering.com/wp-content/uploads/2020/06/lock-ready-scaled.jpg){: width="400"}
 
-* Push the nut into the Corner Leg Lock and fully seat it. If it does not stay on it's own you can use a drop of glue.
-* If the nut does not stay on it's own, you can attach the Corner Bottom very loosely with its bolt.
+* Push the nut into the Corner Leg Lock and fully seat it. If it does not stay on its own, you can use a drop of glue.
+* If the nut does not stay on its own, you can attach the Corner Bottom very loosely with its bolt.
 
 ![!Orientation](https://www.v1engineering.com/wp-content/uploads/2020/06/base-lock-scaled.jpg){: width="400"}
 
@@ -88,7 +88,7 @@ ___
 * You will need the printed Corner Bottoms and Corner Bottom Mirrored and M5x30 screws.
 
 !!! Warning
-    If you are not using the V1 Kit please make sure your screw heads are low profile enough not to interfere with the Lower Rail.
+    If you are not using the V1 Kit, please make sure your screw heads are low profile enough not to interfere with the Lower Rail.
 
 ![!Belt Orientation](https://www.v1engineering.com/wp-content/uploads/2020/06/base-bottom-arrows-scaled.jpg){: width="400"}
 
@@ -123,7 +123,7 @@ ___
 * Now remove the rails and snug up the screw in the bottom of the corner pieces.
 
 !!! Tip
-    This screw is tightened after the Leg Locks so the Corner Bottom will correctly and fully seat on the angled joint between the two parts. If you tighten the bottom first you might have a hard time locking the leg into place or the Corner Bottom could come loose.
+    This screw is tightened after the Leg Locks so the Corner Bottom will correctly and fully seat on the angled joint between the two parts. If you tighten the bottom first, you might have a hard time locking the leg into place or the Corner Bottom could come loose.
 ___
 
 ## Leveling
