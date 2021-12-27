@@ -31,7 +31,7 @@ ___
 * Snug these up. About 7in/lbs.
 
 !!! Caution
-    Using ratchets makes over tightening the bolts very easy. There are small 1mm built in spacers in the printed parts, if you crush these you are about 3x too tight. Loose is better than tight, If you work on your own car it is wayyyyyy less that any bolt you have ever tightened.
+    Using ratchets makes over tightening the bolts very easy. There are small 1mm built in spacers in the printed parts, if you crush these you are about 3x too tight. Loose is better than tight. If you work on your own car it is wayyyyyy less that any bolt you have ever tightened.
 ___
 
 ## Set The Truck Tension
@@ -39,7 +39,7 @@ ___
 
 * Insert a rail into the Truck.
 * You are looking for all bearings to make contact and just a hint of tension. If you tip the rail at a 45 degree angle the Trucks should slowly move. Too tight and they will stay, too loose and they will drop right off.
-* Tension both bolts evenly - for a new print this should actually just be good with no extra tension needed. If this is the case just snug up the tension bolts until the heads and nuts are touching the plastic. Holding not adding to the current tension.
+* Tension both bolts evenly - for a new print this should actually just be good with no extra tension needed. If this is the case, just snug up the tension bolts until the heads and nuts are touching the plastic. Holding not adding to the current tension.
 
 !!! Caution
        If you have to really torque down on these bolts you could have the wrong sized rails or parts. The same thing applies if they are too tight, although you can let them sit overnight with no tension on the bolts to see if they loosen up a bit.
@@ -49,7 +49,7 @@ ___
 ![!MPCNC clamp parts](https://www.v1engineering.com/wp-content/uploads/2020/06/Addclamp-scaled.jpg){: width="400"}
 
 * You will need the printed Truck Clamps.
-* M5 x 30mm screw and lock nut.
+* M5 x 30mm screw and locknut.
 * \#2 screwdriver.
 
 ![!MPCNC clamp assembled](https://www.v1engineering.com/wp-content/uploads/2020/06/Looseclamp-scaled.jpg){: width="400"}
