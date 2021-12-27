@@ -75,7 +75,7 @@ top of the workpiece. This isn't very common though, because the spoil board isn
 
 ### Setting the Origin
 
-There are different ways to set the origin. Each way has it's own pros/cons.
+There are different ways to set the origin. Each way has its own pros/cons.
 
 #### Using LCD
 
@@ -113,7 +113,7 @@ the steppers.
 
 !!! warning
     This doesn't work with some MPCNCs with large routers or the Low Rider. If the gantry falls on
-    it's own, then you can't easily set the Z.
+    its own, then you can't easily set the Z.
 
 !!! info
     You can also use the LCD or Repetier Host to move the gantry under power. When you're there, you
@@ -151,7 +151,7 @@ Now, you need to remove the offset from the Touch plate. There are a couple of w
 
 - Jog the machine down the thickness of the touch plate and set the origin.
 - Send a `G92 Z0.5` to set the current position to 0.5mm. If your touch plate is a different
-    thickness, use that thicknes.
+    thickness, use that thickness.
 
 ## Coordinate Directions
 
