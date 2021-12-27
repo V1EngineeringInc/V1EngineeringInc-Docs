@@ -22,7 +22,7 @@ mounted eccentrically on the flywheel.
 The flywheel is mounted on the shaft of a 2212 (stator size) brushless motor (with ESC and servo tester) and
 spun to create one stroke/perforation every revolution.
 
-The needle is guided by the nozzle from a MIG welder, and helped to stay straight by guide bearings.
+The needle is guided by the nozzle from a MIG welder and helped to stay straight by guide bearings.
 It helps to sharpen the end of the needle by rotating it at 45 degrees to an abrasive wheel.
 
 ## Speeds
@@ -43,13 +43,13 @@ TimSav machine](https://www.thingiverse.com/thing:3951161) and [moebeast's Foam 
 
 Everyone uses fairly large motors, although the actual power used is very low, around 10-20W. This
 is largely historical, but it is useful to have a motor with a short shaft and threaded holes to
-bolt on the flywheel. To minimise vibration, you want the ecentric needle bearing fairly close to
+bolt on the flywheel. To minimize vibration, you want the ecentric needle bearing fairly close to
 the motor bearing. Long shafts and collet adapters will require lower speeds. Motors of around
 1000-1200kV work well. Faster motors need to run at very low throttle, where ESC and servo testers
 may have poor resolution, and the RPM may hunt or surge.
 
 The (3mm inside diameter) bearings can be harvested from broken motors, or a pack of 10 is about $2
-on ebay. Washers must be small enough to not touch the outside (moving) part of the bearing. You can
+on eBay. Washers must be small enough to not touch the outside (moving) part of the bearing. You can
 either start with smaller (M2.5) washers, super-glue them to some scrap wood and drill them out to
 3mm, or start with 3mm washers, clamp them to a bolt and hold that in a cordless drill and run them
 against an abrasive wheel.
@@ -71,7 +71,7 @@ There are two popular versions:
 * [jhitesma's Needle Cutter](https://www.thingiverse.com/thing:2450613)
 
 Here's a parametric CAD drawing of the second, which can be easily edited to suit different motors
-in the browser based OhShape (note that you can see and use other people's modifications):
+in the browser based OnShape (note that you can see and use other people's modifications):
 
 - [New cutter 525 mount](https://cad.onshape.com/documents/0b010a7a70bd0183d800fa80/w/10ed5bfd8b949cb222794b95/e/0282404df574b68957c362e8)
 
@@ -94,14 +94,14 @@ vacuum pad solves both problems.
 ![Vacuum hold down pad](https://ftforumx2.s3.amazonaws.com/2019/04/222500_63bbfe4f6de656f36ddfec7592ac247a.jpg)
 
 The vacuum pad consists of three sheets of DTFB (Dollar Tree Foam Board): two slotted sheets (glued
-together) with a loose "holes" sheet that serves as the replaceable spoilboard. The 3-layer stack
+together) with a loose "holes" sheet that serves as the replaceable spoil board. The 3-layer stack
 sits on the work surface, with nothing between, and the vacuum pad not only pulls down the foam
 workpiece but also pulls itself down against the work surface. 
 
 The shop-vac noise can be reduced with an inexpensive router speed control to reduce the speed. Use
 full power for a second to suck the work down, then reduce to minimum power.
 
-Here are [DXF plans for the 3 sheet pad](https://ftforumx2.s3.amazonaws.com/2019/12/270306_e490e4c657f494c024fdd8df958cc351.zip) - although you need a working needle cutter to use them. It may be easier and faster to  cut the first two with a craft knife, and use the machine to make the grid of holes in the third sheet.
+Here are [DXF plans for the 3 sheet pad](https://ftforumx2.s3.amazonaws.com/2019/12/270306_e490e4c657f494c024fdd8df958cc351.zip) - although you need a working needle cutter to use them. It may be easier and faster to  cut the first two with a craft knife and use the machine to make the grid of holes in the third sheet.
 
 [Moebeast's Foam Ripper](https://www.thingiverse.com/thing:2520214) contains an STL for the manifold vacuum nozzle, or you can build a square funnel shape from foam board.
 
