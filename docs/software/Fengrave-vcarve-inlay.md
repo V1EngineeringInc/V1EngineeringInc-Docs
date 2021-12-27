@@ -30,7 +30,7 @@ This video shows the process. Press (f) to show the video full screen.
     + Make the necessary selections with F-engrave – see [Scorchworks instructions](http://www.scorchworks.com/Fengrave/fengrave.html#documentation "Scorchworks F-Engrave instructions")
     + Use the save Gcode option (this will be the “MAIN” file)
     + Save the Clean Gcode and the Vclean Gcode
-       - If there is nothing to Clean or Vclean F-engrave will complain that the clean up hasn’t been run.
+       - If there is nothing to Clean or Vclean F-engrave will complain that the clean-up hasn’t been run.
 
 ![F-Engrave Screen](../img/FengraveCapture1.jpg){: width="650"}
 
@@ -42,7 +42,7 @@ This video shows the process. Press (f) to show the video full screen.
 
 * The first part that you are creating is the "female" part, this is pocket that will accept the inlay or "male" part.
 * To create the "male" part you will need to mirror the image in F-Engrave, select Prismatic and Add Box on the V-carve settings.
-* Then you will repeat the process of creating the gcode files for the "male" part. This may look odd but it will fit snugly into the "female" part.
+* Then you will repeat the process of creating the gcode files for the "male" part. This may look odd, but it will fit snugly into the "female" part.
 
 ![F-Engrave Screen](../img/FengraveCapture4.jpg){: width="750"}
 
@@ -84,7 +84,7 @@ This video shows the process. Press (f) to show the video full screen.
 1. Once its complete, remove the "female" part and replace it with the "male" (inlay) wood.
 1. Set up the V cutter again and set your origin over the center of the wood.
 1. Cut the male part.
-1. Once more if you have clean files you may have a tool change. Its the same process that you completed with the "female" part.
+1. Once more if you have clean files you may have a tool change. It’s the same process that you completed with the "female" part.
 
 ## Clean up and Assembly
 
