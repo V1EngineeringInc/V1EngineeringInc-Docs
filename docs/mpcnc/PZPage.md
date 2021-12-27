@@ -93,7 +93,7 @@ ___
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/NutAssm-scaled.jpg){: width="400"}
 
 * Pay attention to the direction the nylocks are facing.
-* If you haven't already, it's highly reccomended to pre-thread the nuts here.
+* If you haven't already, it's highly recommended to pre-thread the nuts here.
 * Seat the nuts in fully.
 * A drop of glue is a good idea here. These are blind nuts and that prevents them from getting pushed out.
 
@@ -125,7 +125,7 @@ ___
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Clamp1-scaled.jpg){: width="400"}
 
 * You can now slide the Z Coupler part up to the coupler.
-* The bearing should make contact with the coupler, it prevents the coupler stretching.
+* The bearing should make contact with the coupler; it prevents the coupler stretching.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Clamp2-scaled.jpg){: width="400"}
 
@@ -165,7 +165,7 @@ ___
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/ZCoreAdj-scaled.jpg){: width="400"}
 
 * Very carefully start to tighten each clamp.
-    * You want each bearing to be in contact with the rail but you should just be able to rotate the bearing with your fingers.
+    * You want each bearing to be in contact with the rail, but you should just be able to rotate the bearing with your fingers.
     * 1/16th of a turn here can be drastic. Take your time.
 * You want each bearing to be in equal tension. This flexes the Core properly and keeps the Z axis perpendicular to the work surface.
     * Over tightening is detrimental. Again, loose is better than tight.
