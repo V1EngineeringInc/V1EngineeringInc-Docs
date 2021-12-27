@@ -30,7 +30,7 @@ ___
 * This step requires a stepper, 5mm to 8mm coupler, and your leadscrew.
 
 !!! Note
-    The cut calculator give you a minimum screw length. The maximum screw length is the end of the Z rails when your axis is fully assembled.
+    The cut calculator gives you a minimum screw length. The maximum screw length is the end of the Z rails when your axis is fully assembled.
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/T8Assm-scaled.jpg){: width="400"}
 
@@ -82,7 +82,7 @@ ___
 * The stepper assembly should be flush with the top of the Z rails.
 
 !!! Note
-    The leadscrew can be a tight fit through the bearing. If this is the case you can sand the top 30mm or so of the leadscrew and put the bearing on before the coupler.
+    The leadscrew can be a tight fit through the bearing. If this is the case, you can sand the top 30mm or so of the leadscrew and put the bearing on before the coupler.
 
 ## Nut Traps
 
