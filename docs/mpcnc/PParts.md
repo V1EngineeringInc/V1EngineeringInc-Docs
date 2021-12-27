@@ -56,7 +56,7 @@ Color is the default color scheme I use to print the kits. Color `A` is one colo
 `B` is the second color of filament.
 
 !!! Note
-     The core can be printed with varible infill to save time and plastic. 70%/30%/70% split at 24mm and 116mm.
+     The core can be printed with variable infill to save time and plastic. 70%/30%/70% split at 24mm and 116mm.
 
 Total weight in PLA is approximately 2.2kg.
 
@@ -77,7 +77,7 @@ The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) cont
 | M3x10mm      | Screw |             | 22  |
 | M2.5x12mm    | Screw | #3x1/2"     | 8   |
 
-This version uses both sizes of hardware equally well. No issues with metric bolts what so ever.
+This version uses both sizes of hardware equally well. No issues with metric bolts whatsoever.
 
 !!!Note
      Bolts need to be hex head, screws pan head. If you choose to use cap head you will need washers and perhaps a little extra length.
@@ -120,7 +120,7 @@ ___
 
 Currently I have made mounts for the preferred [Makita RT701c](https://amzn.to/2ZA9Lde) (it mounts a bit closer, a bit more power, and has a built in speed control), or the less expensive [Dewalt 660](https://amzn.to/2Z3yaHC).
 
-Others options would be the [55mm spindle](https://amzn.to/2BsxX8S) (57mm caps), the least attractive option is the [52mm spindle](https://amzn.to/2BtIFvO).
+Other options would be the [55mm spindle](https://amzn.to/2BsxX8S) (57mm caps), the least attractive option is the [52mm spindle](https://amzn.to/2BtIFvO).
 
 Internationally there are many options with lots of user submitted mounts, take a look at the file links below or ask for a local suggestion in the forums.
 
@@ -161,4 +161,3 @@ Kits are available in the [V1 Shop](https://shop.v1engineering.com/products/mpcn
 | *10mm GT2 belt.                    | ?M  |
 
 *While you can use your 6mm belt, I suggest you upgrade to 10mm belt. Use the [calculator](calculator.md) for the amount you need.
-
