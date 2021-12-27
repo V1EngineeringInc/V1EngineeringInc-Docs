@@ -28,7 +28,7 @@ ___
 * Add the screws and nuts and lightly seat them all. 
 
 !!! Caution
-    With all the captured nuts you should prethread the screws at least once to loosen the locknuts up a bit to not destroy the printed parts.
+    With all the captured nuts you should pre-thread the screws at least once to loosen the locknuts up a bit to not destroy the printed parts.
 
 
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Gap-scaled.jpg){: width="400"}
