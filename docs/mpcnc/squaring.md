@@ -38,7 +38,7 @@
 
 !!! Tip
     This should be very small adjustments and you are looking to get them within 1mm. If you
-    over tighten them they stop moving. So if the Trucks are showing no effect, loosen the tension
+    over tighten them they stop moving. So, if the Trucks are showing no effect, loosen the tension
     bolts all the way and start again. The minimum tension was set in the Core building step,
     so you will begin by tightening the clamps. At some point you can also loosen them a bit for the
     opposite effect.
