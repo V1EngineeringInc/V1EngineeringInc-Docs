@@ -42,7 +42,7 @@ nav:
      - Old Version: lowrider/version1.md
    - MP3DP:
      - Current Version: mp3dp/index.md
-         - Repeat Assembly: mp3dp/repeatassm.md
+       - Repeat Assembly: mp3dp/repeatassm.md
      - Second Version: mp3dp/version2.md
      - First Version: mp3dp/version1.md
    - ZenXY: 
