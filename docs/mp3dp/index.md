@@ -123,4 +123,4 @@ Notes for making adjustments...Working through CAD errors.
 Ha, it takes a lot of help from my friends! Check out how we all put our heads together in the [ V1 Forums](https://forum.v1engineering.com/t/new-printer-time/28127).
 
 ## Assembly
-Probably going to be a new page for this.
+Assembly starts on the next [page](../mp3dp/repeatassm.md).
