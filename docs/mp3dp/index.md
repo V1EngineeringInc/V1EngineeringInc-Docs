@@ -75,12 +75,13 @@ machine use it!
 |6    |Idlers w/Teeth 20T      |20T w/Teeth 5mm Bore             |[Shop][sh5] – [Amazon][az5]|
 |2    |Idlers Smooth 20T       |20T Smooth 5mm Bore              |[Shop][sh6] – [Amazon][az6]|
 |x    |Belt GT2 10mm           |See Calculator, no steel belt    |[Shop][sh7] – [Amazon][az7]|
-|4    |Endstop Optical         |Must use this exact style        |[Shop][sh8] – [Amazon][az8]|
+|5    |Endstop Optical         |Must use this exact style        |[Shop][sh8] – [Amazon][az8]|
 |1    |Heated Bed              |Style and Size will vary         |[Shop][sh9] – [Amazon][az9]|
-|3-4  |Springs                 |For bed, silicon tube will work  |[Shop][sh10] – [Amazon][az10]|
-|*    |Thread locker           |Optional for grubs screws        |[Shop][sh11] – [Amazon][az11]|
-|*    |Lube                    |Optional for idlers              |[Shop][sh12] – [Amazon][az12]|
-|*    |PTFE Tube               |Optional Extruder to filament    |[Shop][sh13] – [Amazon][az13]|
+|6    |Wheels                  |POM V wheel 5mm bore 15.3mm OD   |[Shop][sh10] – [Amazon][az10]|
+|3-4  |Springs                 |For bed, silicon tube will work  |[Shop][sh11] – [Amazon][az11]|
+|*    |Thread locker           |Optional for grubs screws        |[Shop][sh12] – [Amazon][az12]|
+|*    |Lube                    |Optional for idlers              |[Shop][sh13] – [Amazon][az13]|
+|*    |PTFE Tube               |Optional Extruder to filament    |[Shop][sh14] – [Amazon][az14]|
 
 [sh1]: https://shop.v1engineering.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3
 [sh2]: https://shop.v1engineering.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
@@ -91,10 +92,11 @@ machine use it!
 [sh7]: https://shop.v1engineering.com/collections/3dprinter-parts/products/gt2-10mm-belt
 [sh8]: https://shop.v1engineering.com/collections/3dprinter-parts/products/optical-endstop
 [sh9]: https://shop.v1engineering.com/collections/3dprinter-parts/products/mk3-aluminum-heated-bed
-[sh10]: https://shop.v1engineering.com/collections/3dprinter-parts/products/spring
-[sh11]: https://shop.v1engineering.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
-[sh12]: https://shop.v1engineering.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
-[sh13]: https://shop.v1engineering.com/collections/3dprinter-parts/products/ptfe-liner?variant=39521587331187
+[sh10]: https://shop.v1engineering.com/collections/zenxy/products/v-wheel
+[sh11]: https://shop.v1engineering.com/collections/3dprinter-parts/products/spring
+[sh12]: https://shop.v1engineering.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
+[sh13]: https://shop.v1engineering.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
+[sh14]: https://shop.v1engineering.com/collections/3dprinter-parts/products/ptfe-liner?variant=39521587331187
 
 [az1]: https://amzn.to/3mp6nOk
 [az2]: https://amzn.to/3FcxGlE
@@ -105,10 +107,11 @@ machine use it!
 [az7]: https://amzn.to/3faLvGA
 [az8]: https://amzn.to/3zHAKFf
 [az9]: https://amzn.to/3FgVRPM
-[az10]: https://amzn.to/3G9HFcG
-[az11]: https://amzn.to/3GhaKmx
-[az12]: https://amzn.to/31H7yS6
-[az13]: https://amzn.to/3f5Ml7E
+[az10]: https://amzn.to/3nbKxye
+[az11]: https://amzn.to/3G9HFcG
+[az12]: https://amzn.to/3GhaKmx
+[az13]: https://amzn.to/31H7yS6
+[az14]: https://amzn.to/3f5Ml7E
 
 
 As an Amazon Associate I earn from qualifying purchases.
