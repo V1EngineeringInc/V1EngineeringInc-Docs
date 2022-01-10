@@ -72,7 +72,7 @@ machine use it!
 |5    |Steppers, Nema17        |20mm+ shaft length               |[Shop][sh2] – [Amazon][az2]|
 |1    |Extuder or other tool   |Hemera,example, match voltage    |[Fila][sh3] – [Amazon][az3]|
 |5    |Pulleys 16T 10mm        |10mm GT2 16 Tooth                |[Shop][sh4] – [Amazon][az4]|
-|6    |Idlers w/Teeth 20T      |20T w/Teeth 5mm Bore             |[Shop][sh5] – [Amazon][az5]|
+|9    |Idlers w/Teeth 20T      |20T w/Teeth 5mm Bore             |[Shop][sh5] – [Amazon][az5]|
 |2    |Idlers Smooth 20T       |20T Smooth 5mm Bore              |[Shop][sh6] – [Amazon][az6]|
 |x    |Belt GT2 10mm           |See Calculator, no steel belt    |[Shop][sh7] – [Amazon][az7]|
 |5    |Endstop Optical         |Must use this exact style        |[Shop][sh8] – [Amazon][az8]|
@@ -81,9 +81,11 @@ machine use it!
 |3-4  |Springs                 |For bed, silicon tube will work  |[Shop][sh11] – [Amazon][az11]|
 |5    |Linear rails MGN        |2-XY+3-Z From CAD      MGN12     |[Fila][sh12] – [Amazon][az12]|
 |1    |CF Square Tube          |length from CAD 20mmx20mm        |[King][sh13] – [Amazon][az13]|
-|*    |Thread locker           |Optional for grubs screws        |[Shop][sh14] – [Amazon][az14]|
-|*    |Lube                    |Optional for idlers              |[Shop][sh15] – [Amazon][az15]|
-|*    |PTFE Tube               |Optional Extruder to filament    |[Shop][sh16] – [Amazon][az16]|
+|1    |Power Supply            |Match voltage                    |[Fila][sh14] – [Amazon][az14]|
+|*    |Thread locker           |Optional for grubs screws        |[Shop][sh15] – [Amazon][az15]|
+|*    |Lube                    |Optional for idlers              |[Shop][sh16] – [Amazon][az16]|
+|*    |PTFE Tube               |Optional Extruder to filament    |[Shop][sh17] – [Amazon][az17]|
+|*    |Print Fan               |Optional fits hemera mount       |[Shop][sh18] – [Amazon][az18]|
 
 [sh1]: https://shop.v1engineering.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3
 [sh2]: https://shop.v1engineering.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
@@ -98,9 +100,11 @@ machine use it!
 [sh11]: https://shop.v1engineering.com/collections/3dprinter-parts/products/spring
 [sh12]: https://www.filastruder.com/products/ldo-linear-rails?variant=31793542168647
 [sh13]: https://hobbyking.com/en_us/carbon-fibre-square-tube-20-x-20-x-800mm.html
-[sh14]: https://shop.v1engineering.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
-[sh15]: https://shop.v1engineering.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
-[sh16]: https://shop.v1engineering.com/collections/3dprinter-parts/products/ptfe-liner?variant=39521587331187
+[sh14]: https://www.filastruder.com/products/meanwell-lrs-350-24-psu?_pos=3&_sid=4a733ffaa&_ss=r
+[sh15]: https://shop.v1engineering.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
+[sh16]: https://shop.v1engineering.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
+[sh17]: https://shop.v1engineering.com/collections/3dprinter-parts/products/ptfe-liner?variant=39521587331187
+[sh18]: https://shop.v1engineering.com/collections/3dprinter-parts/products/5015-12v-fan-blower
 
 [az1]: https://amzn.to/3mp6nOk
 [az2]: https://amzn.to/3FcxGlE
@@ -115,9 +119,11 @@ machine use it!
 [az11]: https://amzn.to/3G9HFcG
 [az12]: https://amzn.to/3FbpfXB
 [az13]: https://amzn.to/34HCnHL
-[az14]: https://amzn.to/3GhaKmx
-[az15]: https://amzn.to/31H7yS6
-[az16]: https://amzn.to/3f5Ml7E
+[az14]: https://amzn.to/31OsAOY
+[az15]: https://amzn.to/3GhaKmx
+[az16]: https://amzn.to/31H7yS6
+[az17]: https://amzn.to/3f5Ml7E
+[az17]: https://amzn.to/3Fq3Vy1
 
 
 As an Amazon Associate I earn from qualifying purchases.
