@@ -79,7 +79,7 @@ machine use it!
 |6    |Wheels                  |POM V wheel 5mm bore 15.3mm OD   |[Shop][sh9] – [Amazon][az9]|
 |1    |Heated Bed              |Style and Size will vary         |[Shop][sh10] – [Amazon][az10]|
 |3-4  |Springs                 |For bed, silicon tube will work  |[Shop][sh11] – [Amazon][az11]|
-|5    |Linear rails MGN        |2-XY+3-Z From CAD      MGN12     |[Fila][sh12] – [Amazon][az12]|
+|5    |Linear rails MGN        |2-XY+3-Z From CAD      MGN12H    |[Fila][sh12] – [Amazon][az12]|
 |1    |CF Square Tube          |length from CAD 20mmx20mm        |[King][sh13] – [Amazon][az13]|
 |1    |Power Supply            |Match voltage                    |[Fila][sh14] – [Amazon][az14]|
 |*    |Thread locker           |Optional for grubs screws        |[Shop][sh15] – [Amazon][az15]|
@@ -98,7 +98,7 @@ machine use it!
 [sh9]: https://shop.v1engineering.com/collections/zenxy/products/v-wheel
 [sh10]: https://shop.v1engineering.com/collections/3dprinter-parts/products/mk3-aluminum-heated-bed
 [sh11]: https://shop.v1engineering.com/collections/3dprinter-parts/products/spring
-[sh12]: https://www.filastruder.com/products/ldo-linear-rails?variant=31793542168647
+[sh12]: https://www.filastruder.com/products/ldo-linear-rails?variant=31796304150599
 [sh13]: https://hobbyking.com/en_us/carbon-fibre-square-tube-20-x-20-x-800mm.html
 [sh14]: https://www.filastruder.com/products/meanwell-lrs-350-24-psu?_pos=3&_sid=4a733ffaa&_ss=r
 [sh15]: https://shop.v1engineering.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
@@ -117,7 +117,7 @@ machine use it!
 [az9]: https://amzn.to/3nbKxye
 [az10]: https://amzn.to/3FgVRPM
 [az11]: https://amzn.to/3G9HFcG
-[az12]: https://amzn.to/3FbpfXB
+[az12]: https://amzn.to/3HLM85I
 [az13]: https://amzn.to/34HCnHL
 [az14]: https://amzn.to/31OsAOY
 [az15]: https://amzn.to/3GhaKmx
