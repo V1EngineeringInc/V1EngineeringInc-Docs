@@ -66,13 +66,49 @@ machine use it!
 
 ## Specialty Parts
 
-|QTY  |Description             |Comment                      |Link         | 
-|-----|------------------------|-----------------------------|-------------|
-|1    |Control Board           |6 driver minimum             |[Shop][sh1] – [Amazon][az1]|
+|QTY  |Description             |Comment                          |Link                        | 
+|-----|------------------------|---------------------------------|----------------------------|
+|1    |Control Board           |6 driver minimum                 |[Shop][sh1] – [Amazon][az1]|
+|5    |Steppers, Nema17        |20mm+ shaft length               |[Shop][sh2] – [Amazon][az2]|
+|1    |Extuder or other tool   |Hemera,example, match voltage    |[Fila][sh3] – [Amazon][az3]|
+|5    |Pulleys 16T 10mm        |10mm GT2 16 Tooth                |[Shop][sh4] – [Amazon][az4]|
+|6    |Idlers w/Teeth 20T      |20T w/Teeth 5mm Bore             |[Shop][sh5] – [Amazon][az5]|
+|2    |Idlers Smooth 20T       |20T Smooth 5mm Bore              |[Shop][sh6] – [Amazon][az6]|
+|x    |Belt GT2 10mm           |See Calculator, no steel belt    |[Shop][sh7] – [Amazon][az7]|
+|4    |Endstop Optical         |Must use this exact style        |[Shop][sh8] – [Amazon][az8]|
+|1    |Heated Bed              |Style and Size will vary         |[Shop][sh9] – [Amazon][az9]|
+|3-4  |Springs                 |For bed, silicon tube will work  |[Shop][sh10] – [Amazon][az10]|
+|*    |Thread locker           |Optional for grubs screws        |[Shop][sh11] – [Amazon][az11]|
+|*    |Lube                    |Optional for idlers              |[Shop][sh12] – [Amazon][az12]|
+|*    |PTFE Tube               |Optional Extruder to filament    |[Shop][sh13] – [Amazon][az13]|
 
 [sh1]: https://shop.v1engineering.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3
+[sh2]: https://shop.v1engineering.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
+[sh3]: https://www.filastruder.com/collections/e3d-hemera/products/e3d-hemera?variant=39486550507591
+[sh4]: https://shop.v1engineering.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm
+[sh5]: https://shop.v1engineering.com/collections/3dprinter-parts
+[sh6]: https://shop.v1engineering.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm
+[sh7]: https://shop.v1engineering.com/collections/3dprinter-parts/products/gt2-10mm-belt
+[sh8]: https://shop.v1engineering.com/collections/3dprinter-parts/products/optical-endstop
+[sh9]: https://shop.v1engineering.com/collections/3dprinter-parts/products/mk3-aluminum-heated-bed
+[sh10]: https://shop.v1engineering.com/collections/3dprinter-parts/products/spring
+[sh11]: https://shop.v1engineering.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
+[sh12]: https://shop.v1engineering.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
+[sh13]: https://shop.v1engineering.com/collections/3dprinter-parts/products/ptfe-liner?variant=39521587331187
 
 [az1]: https://amzn.to/3mp6nOk
+[az2]: https://amzn.to/3FcxGlE
+[az3]: https://amzn.to/3tdtnE9
+[az4]: https://amzn.to/3n9mUGM
+[az5]: https://amzn.to/31HTnwa
+[az6]: https://amzn.to/3JXAXJi
+[az7]: https://amzn.to/3faLvGA
+[az8]: https://amzn.to/3zHAKFf
+[az9]: https://amzn.to/3FgVRPM
+[az10]: https://amzn.to/3G9HFcG
+[az11]: https://amzn.to/3GhaKmx
+[az12]: https://amzn.to/31H7yS6
+[az13]: https://amzn.to/3f5Ml7E
 
 
 As an Amazon Associate I earn from qualifying purchases.
