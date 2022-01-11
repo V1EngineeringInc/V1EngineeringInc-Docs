@@ -162,7 +162,28 @@ This is going to be tricky depending on what you make it out of...
 
 
 ## CAD
-Notes for making adjustments...Working through CAD errors.
+
+The Fusion360 CAD files can be found here, [at this link](https://a360.co/381SaiQ). Please consider these files under 
+this license for now [Creative Commons License](http://creativecommons.org/licenses/by-sa/4.0/). This work is licensed 
+under a Creative Commons Attribution-ShareAlike 4.0 International License. For now. 
+
+**I learned fusion360 for this project so you can have the actual CAD to edit. Please be nice, I know I made a lot of 
+mistakes early on but it does work. As I progress and edit files I am fixing any early mistakes I made.
+
+Notes for making adjustments...and working through any subsequent CAD errors.
+- How to resize X axis ... 
+- How to resize Y axis ...
+- How to resize Z axis ...
+
+## Extruder Options
+
+This can really print fast if you used a remote drive or bowden system, but it is plenty robust to handle a direct drive extruder.
+
+The Hemera is a solid option for a direct drive extruder, here are some I desgned and use along with the CAD file links.
+[Hemera Mount on Prusa Printers](https://www.prusaprinters.org/prints/99754-mp3dp-repeat-hemera-mount-bl-touch-and-fan-duct),
+[Thingiverse](https://www.thingiverse.com/thing:5170332)- Uses a 5015 fan and the BL Touch.
+
+[CAD files in Fusion 360](https://a360.co/3AAP0yA)
 
 
 ## Initial leveling
