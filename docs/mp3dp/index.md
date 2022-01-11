@@ -91,7 +91,7 @@ machine use it!
 [sh2]: https://shop.v1engineering.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
 [sh3]: https://www.filastruder.com/collections/e3d-hemera/products/e3d-hemera?variant=39486550507591
 [sh4]: https://shop.v1engineering.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm
-[sh5]: https://shop.v1engineering.com/collections/3dprinter-parts
+[sh5]: https://shop.v1engineering.com/products/idler-10mm-20t-5mm-bore
 [sh6]: https://shop.v1engineering.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm
 [sh7]: https://shop.v1engineering.com/collections/3dprinter-parts/products/gt2-10mm-belt
 [sh8]: https://shop.v1engineering.com/collections/3dprinter-parts/products/optical-endstop
