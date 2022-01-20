@@ -68,10 +68,10 @@ needed. Threaded inserts are available, press fit or heat set.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20211223_001722799.jpg){: width="600"}
 
-* Cut the rail to the length required in your CAD version.
+* Cut the rail to the length required in your CAD version. Aluminum or Carbon Fiber.
 * Cut it a millimeter long and sand it to a precise length for easier assembly.
 * Round the ends for ease of assembly.
-* Avoid Carbon Fiber Dust.
+* Avoid Carbon Fiber dust if using this as your rail.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20211223_002418759.jpg){: width="600"}
 
@@ -125,35 +125,80 @@ needed. Threaded inserts are available, press fit or heat set.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20211223_005931937.jpg){: width="600"}
 
+* Notice the small Truck Spacers, they go in the middle. (Shown in the next picture).
+* Left / Main truck and right with M3x10mm screws.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20211223_010127428.jpg){: width="600"}
+
+* The left truck gets mounted high (middle and bottom screw positions).
+* The right gets low (middle and high positions).
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20211223_010308978.jpg){: width="600"}
 
+* The three screws on the same part get snugged up, the 4th screw gets lightly seated to allow for some movement if needed.
+* Try to make sure the 3 screw half is mounted squarely.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20211223_010517320.jpg){: width="600"}
+
+* Compare the truck and idler positions, as well as the Hub direction.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20211223_010631161.jpg){: width="600"}
 
+* Press fit the pieces.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20211223_011714556.jpg){: width="600"}
+
+* Slide the assembly into your frame and secure the rails with your frame screws.
+* Check to make sure the rails are as parallel as possible.
+* You can measure from the rail to the top of the frame, 20mm difference between sides.
+* You can now lightly seat the truck M5 screws on the rail, ensure the Gap is equal front and back.
+* Lightly, too tight and you can actually crack the rail.
+
+!!! note
+    You can actually twist the rail with the truck screws. Using a flat reference across the top of 
+    your build you can measure your extruder to assure it is not twisting on the rail. If it is adjust
+    opposite screws to twist the rail. Example - Tighten the front screw on the left and back screw on
+    the right and the extruder will now slightly move up from as it moves from left to right (if the 
+    rail was level initially).
 
 ### Stepper Mounts
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220107_011705867.jpg){: width="600"}
 
+* Grub screws and loctite go hand in hand. Loose grub screws are the #1 issue in all the V1 builds.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220107_011422683.jpg){: width="600"}
+
+* Use a piece of belt as a spacer for the pulley.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220107_012503064.jpg){: width="600"}
 
+* Do a test fit to make sure the pulley is just a bit above the bottom surface as show.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220107_011811291.jpg){: width="600"}
+
+* Secure the steppers with M3x10 screws.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220107_013026069.jpg){: width="600"}
 
+* I mount them with four of the wires facing up, one down.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220107_013407366.PORTRAIT.jpg){: width="600"}
+
+* Four get endstops.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220107_013610175.PORTRAIT.jpg){: width="600"}
 
+* All four endstops are mounted in this orientation.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220107_015258256.jpg){: width="600"}
 
+* I like to run and secure the wires as shown, for now.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220107_015926942.jpg){: width="600"}
+
+* Mount the steppers with your frame screws.
+* The mount with the wire down goes in Z2, the lower right stepper, shown in the next picture.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220107_020819712.MP.jpg){: width="600"}
 
@@ -161,21 +206,46 @@ needed. Threaded inserts are available, press fit or heat set.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031050852.jpg){: width="600"}
 
+* This is the best picture I could come up with. Low belt shown tight, high belt shown loose.
+* Feed the belt in from the hub and work your way around.
+* No twists, no crossing.
+* Cut the belt leaving 30mm or so on each end when pulled snug. You can trim it further later.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031226604.jpg){: width="600"}
+
+* lock the belt in the front with a 4 tooth segment.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031305180.jpg){: width="600"}
 
+* Pull it in and make sure it is at least flush if not a bit further in.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031409412.jpg){: width="600"}
+
+* The Belt Tugger gets locked with a 4 tooth segment.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031409413.jpg){: width="600"}
 
+* Seat the nut.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031459421.jpg){: width="600"}
+
+* Okay, this part is fiddly. It might take a few tries to get right.
+* Feed the belt through and pull it snug. You can use pliers.
+* The lock, when fully inserted, will loosen up 2mm. It sinks in a bit.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031509074.jpg){: width="600"}
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031539769.jpg){: width="600"}
 
+* Make sure the lock is fully seated.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220111_032445718.jpg){: width="600"}
+
+* Trim the belts a bit, leave a little room in case you need to snug them up later.
+* Insert the screw.
+* Try to get both belts lightly tensioned and equal. 
+* Measure the coreXY diagonals from the back corners to the trucks to make sure it is square.
+* Adjusting the belt tension will change the angle of the X axis rail. Give the belt a little tug to see which way the rails angles.
 
 ### Z axis X3
 
