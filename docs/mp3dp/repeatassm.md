@@ -65,3 +65,45 @@
 ![!mp3dp repeat assembly](../img/repeat/PXL_20211223_011714556.jpg){: width="600"}
 
 ### Stepper Mounts
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220107_011705867.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220107_011422683.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220107_012503064.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220107_011811291.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220107_013026069.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220107_013407366.PORTRAIT.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220107_013610175.PORTRAIT.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220107_015258256.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220107_015926942.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220107_020819712.MP.jpg){: width="600"}
+
+### Belting the Gantry
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031050852.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031226604.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031305180.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031409412.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031409413.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031459421.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031509074.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220111_031539769.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220111_032445718.jpg){: width="600"}
+
+
