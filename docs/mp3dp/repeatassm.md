@@ -106,4 +106,47 @@
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220111_032445718.jpg){: width="600"}
 
+### Z axis X3
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220115_233546886.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220115_234423287.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235043626.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235244917.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235356266.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235527418.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235634105.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235729261.MP.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000037146.MP.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000225119.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000339770.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000356838.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000503938.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000651418.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_001135105.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_001425912.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_001741942.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_002017992.MP.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_010009568.MP.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_010121851.jpg){: width="600"}
+
+![!mp3dp repeat assembly](../img/repeat/PXL_20220116_010442776.MP.jpg){: width="600"}
 
