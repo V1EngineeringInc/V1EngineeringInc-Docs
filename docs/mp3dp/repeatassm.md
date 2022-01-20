@@ -251,43 +251,96 @@ needed. Threaded inserts are available, press fit or heat set.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220115_233546886.jpg){: width="600"}
 
+* Go ahead and mount all three rails. Take a few measurements as you can screw the them a bit if needed.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220115_234423287.jpg){: width="600"}
+
+* Nice right!?
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235043626.jpg){: width="600"}
 
+* I find it easiest to run the belt as I go, in the direction shown.
+* Lube that idler. 
+* Assemble the idler into the Z idler part. Screw lightly seated.
+* Assemble with the belt in place. This is the only belt that is hard to do after the fact (but it can be).
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235244917.jpg){: width="600"}
+
+* Z Post.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235356266.jpg){: width="600"}
 
+* Seat the nuts.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235527418.jpg){: width="600"}
+
+* Mount the post with your frame screws.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235634105.jpg){: width="600"}
 
+* There should be a gap and the post should be square to the rail.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220115_235729261.MP.jpg){: width="600"}
+
+* Attach the Z idlers as loose as possible. At least to take a belt measurement later.
+
+!!! note
+    It can be easier to take these off when setting or adjusting the belt tension on this axis. 
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000037146.MP.jpg){: width="600"}
 
+* Cut the belt just short of touching the other end.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000225119.jpg){: width="600"}
 
+* Zbed Slider....my favorite part.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000339770.jpg){: width="600"}
+
+* Seat the nuts.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000356838.jpg){: width="600"}
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000503938.jpg){: width="600"}
 
+* For now add the spring and screw to hold the nut in place.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_000651418.jpg){: width="600"}
+
+* Belt locks, 4 teeth long.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_001135105.jpg){: width="600"}
 
+* Lock the bottom in place first.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_001425912.jpg){: width="600"}
+
+* Now lock the top in place.
+* You can remove the top idler braket to make this easier.
+* A little trial and error is needed. 
+* The top idler can adjust up to 5mm of slack or more if you are not running wires on top.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_001741942.jpg){: width="600"}
 
+* Make sure to cut the belt flush.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_002017992.MP.jpg){: width="600"}
+
+* Mount using M3x10mm screws.
+* Adjust the belt tension to be equal in all three and not too tight.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_010009568.MP.jpg){: width="600"}
 
+* 3-3.5 teeth for the trigger locks.
+* Make the triggers just long enough to not hit the bottom when fully lowered or they can stay bent.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_010121851.jpg){: width="600"}
 
+* Make sure they are centered.
+
 ![!mp3dp repeat assembly](../img/repeat/PXL_20220116_010442776.MP.jpg){: width="600"}
+
+* Looking good right?!?
+
+### Bed
 
