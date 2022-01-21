@@ -114,7 +114,7 @@ machine use it!
 [az6]: https://amzn.to/3JXAXJi
 [az7]: https://amzn.to/3faLvGA
 [az8]: https://amzn.to/3zHAKFf
-[az9]: https://amzn.to/3nbKxye
+[az9]: https://amzn.to/33WT0yo
 [az10]: https://amzn.to/3FgVRPM
 [az11]: https://amzn.to/3G9HFcG
 [az12]: https://amzn.to/3HLM85I
