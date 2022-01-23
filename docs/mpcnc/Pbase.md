@@ -34,7 +34,7 @@ ___
 
 * Insert the leg and make sure it is seated all the way to the table.
 * The feet have a small side for the head of the screw and a larger opening for the nut and socket.
-* Snug this screw. Snug means just a 1/4 turn past the nut making contact. This is does not need to be super tight. 
+* Snug this screw. Snug means just a 1/4 turn past the nut making contact. This does not need to be super tight. 
 * There is a 2+mm gap here, ***do not try to close the gap***.
 ___
 
@@ -108,7 +108,7 @@ ___
 ___
 
 ## Lock The Legs
-![!Hardware needded](https://www.v1engineering.com/wp-content/uploads/2020/06/leglock1-scaled.jpg){: width="400"}
+![!Hardware needed](https://www.v1engineering.com/wp-content/uploads/2020/06/leglock1-scaled.jpg){: width="400"}
 
 * You will need four sets of the M5 screws and locknuts.
 * It is best to pre-thread all the locknuts before assembly. This will loosen them and prevent mangling of the printed parts.
@@ -145,7 +145,7 @@ ___
 
 ![!Compare measurements](https://www.v1engineering.com/wp-content/uploads/2020/06/square2-scaled.jpg){: width="400"}
 
-* This diagonal should match. You should aim for no more than 1mm deviation.
+* This diagonal should match. You should aim for no more than 1 mm deviation.
 * If there is an issue, loosen the screws into the table and nudge a leg assembly. 
 
 ___
