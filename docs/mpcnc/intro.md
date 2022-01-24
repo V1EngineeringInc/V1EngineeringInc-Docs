@@ -22,7 +22,7 @@ I would like to drive that price home one more time. You can have a CNC router f
 
 ## Specs…
 
-Not easy to make a specs page when it can have most any specs you want. The idea behind this is to be extremely adaptable and inexpensive. Why buy a single use machine when you can have one that does it all for less than the cost of any single function machine. No proprietary hardware or software, build it any size and shape you want (more on this later), buy it from this site or source it all yourself, helpful forums, low cost, and capable. What more could you ask for?
+Not easy to make a specs page when it can have almost any specs you want. The idea behind this is to be extremely adaptable and inexpensive. Why buy a single use machine when you can have one that does it all for less than the cost of any single function machine. No proprietary hardware or software, build it any size and shape you want (more on this later), buy it from this site or source it all yourself, helpful forums, low cost, and capable. What more could you ask for?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qJfYTv88YvI"
   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
@@ -33,7 +33,7 @@ This machine can easily do many things, how about making some coffee with Apach�
  
 ## Size
 
-- All axis can be any length you prefer, anything over 3 1/2′ (1M) would require small mid-span supports to increase rigidity, of course smaller is better.  The kit comes with enough belt for up to 48″ of total outer X and Y axis dimensions (eg 24″x24″, 36″x12″ or any other combination).
+- All axes can be any length you prefer, anything over 3 1/2′ (1M) would require small mid-span supports to increase rigidity, of course smaller is better.  The kit comes with enough belt for up to 48″ of total outer X and Y axis dimensions (eg 24″x24″, 36″x12″ or any other combination).
 
 - The smaller you make this the faster you can move it and the more rigid/accurate it will be, and more importantly the easier it will be to get the desired accuracy.
 
@@ -59,7 +59,7 @@ This machine can easily do many things, how about making some coffee with Apach�
 ## DIY
 
 - Besides using either common imperial or metric hardware, the rest of the machine is easily 3D
-    printable, RepRap style! Full list of hardware [here](PParts.md#hardware), and the files for the printed
+    printable, RepRap style! A full list of required hardware can be found [here](PParts.md#hardware), and the files for the printed
     parts can be had [here](PParts.md).
 
 - All of these things can be easily assembled with basic hand tools, no specialty tools, power tools, or precision cuts required.

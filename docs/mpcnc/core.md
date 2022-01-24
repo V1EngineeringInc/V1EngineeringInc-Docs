@@ -64,8 +64,8 @@ ___
 ![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreXY3-scaled.jpg){: width="400"}
 
 * Add All 4 sets.
-* Snug up all these bolts, 7in/lbs, just past seated. Do not crush the 1mm spacers.
-* Double check the part orientation. Flat sides of the Core Clamps face away from each other.
+* Snug up all these bolts, 7in/lbs, just past seated. Do not crush the 1 mm spacers.
+* Double-check the part orientation. Flat sides of the Core Clamps face away from each other.
 * Notice where the Core ClampY part is located.
 
 !!! tip
