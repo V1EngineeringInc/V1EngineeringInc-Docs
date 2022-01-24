@@ -24,7 +24,7 @@ ___
 ![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/Rails-scaled.jpg){: width="400"}
 
 * Add the tops.
-* Pay close attention to the belt slides they should be on the opposite rails of the Corner Bottom parts.
+* Pay close attention to the belt slides: they should be on the opposite rails of the Corner Bottom parts.
 * Add the screws and nuts and lightly seat them all. 
 
 !!! Caution
