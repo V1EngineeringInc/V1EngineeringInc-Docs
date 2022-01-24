@@ -116,7 +116,7 @@ ___
 ![!MPCNC mounted stepper](https://www.v1engineering.com/wp-content/uploads/2020/06/Truckstepper2-scaled.jpg){: width="400"}
 
 * Snug down the screws evenly.
-* Double check the pulley and idlers are still aligned.
+* Double-check the pulley and idlers are still aligned.
 
 ## Optional End Stops
 ![!MPCNC endstops](https://www.v1engineering.com/wp-content/uploads/2020/06/Endstop-scaled.jpg){: width="400"}
