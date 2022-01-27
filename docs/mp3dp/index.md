@@ -167,12 +167,12 @@ This is going to be tricky depending on what you make it out of...
 
 |Qty |Name                    |Comment|
 |----|------------------------|-------|
-|41  |M5x30mm                 |       |
+|41  |Wall screws             |       |
 
 You will need *at least* 41 more screws. That counts 3 per linear rail.
 
 For a wood or plastic build using inserts this can easily be M3x10mm screws. Other options are #4 or equivalent screws suitable for your material.
-For an extrusion build these will be M3x8m Screws.
+For an extrusion build these will be M3x8mm screws.
 
 You will alaso need hardware to build your box out of your chosen material. Extrusion based builds will need a lot of inserts and screws. 
 Figure at least 41 plus 4-5 per corner joint, plus corner pieces of whatever style you prefer.
