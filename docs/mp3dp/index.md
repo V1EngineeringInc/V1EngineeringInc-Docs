@@ -112,7 +112,7 @@ machine use it!
 [az4]: https://amzn.to/3n9mUGM
 [az5]: https://amzn.to/31HTnwa
 [az6]: https://amzn.to/3JXAXJi
-[az7]: https://amzn.to/3faLvGA
+[az7]: https://amzn.to/3u5imW6
 [az8]: https://amzn.to/3zHAKFf
 [az9]: https://amzn.to/33WT0yo
 [az10]: https://amzn.to/3FgVRPM
