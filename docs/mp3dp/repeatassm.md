@@ -344,3 +344,8 @@ needed. Threaded inserts are available, press fit or heat set.
 
 ### Bed
 
+### SKR Wiring
+
+![!mp3dp repeat assembly](../img/repeat/SKR Repeat.png){: width="600"}
+
+
