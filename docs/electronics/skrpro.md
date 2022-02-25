@@ -159,8 +159,6 @@ You also have the option to get the full Marlin source and edit and compile your
 
 Flashing the screen takes a .bin file, the config file, and usually the TFT35 folder (unzipped) on the root of the screens SD card.
 
-You can get these files from the link at the end of this section below. OR here is a [zip file](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/blob/master/TFT_E3V3_1_7_21.zip), make sure to unzip it first.
-
 BIGTREE_TFT35_V3.0_E3.****.bin
 config.ini
 TFT35 (folder) you do not need the folder present for minor updates it is just for graphics and languages.
@@ -169,7 +167,7 @@ TFT35 (folder) you do not need the folder present for minor updates it is just f
 
 Now reset the screen (or board) and watch the screen update itself. You can double check and the files will have a new extension after a successful flash.
 
-The V1 Engineering CNC version of the TFT firmware is in this [release](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/releases/tag/V1-Vx.x.26)
+The V1 Engineering CNC version of the TFT firmware is on this page, use the most recent and the files can be had under the assets drop down - [TFT Firmware](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/releases)
 
 #### TFT Touch reset
 
