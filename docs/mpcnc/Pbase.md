@@ -45,10 +45,12 @@ ___
 * Layout the foot assemblies on your table according to the dimensions from the [cut calculator](calculator.md).
 * Notice all the clamping screws are oriented towards the center of the build area.
 * Screw down the two assemblies along the front edge of the table. These will be your fixed references.
+* Measure as carefully and accurately as you can across the leg tops. Your machine can only be as accurate as you build it.
+* Validate that the front length exactly matches the back length, and that the left and right lengths match.
+* Measure diagonally across the leg tops.
 
 ![!Square check](https://www.v1engineering.com/wp-content/uploads/2020/06/base-check1-scaled.jpg){: width="400"}
- 
-* Measure as carefully and accurately as you can across the leg tops. Your machine can only be as accurate as you build it.
+
 * Compare this measurement to the next one.
 
 ![!Compare measurements](https://www.v1engineering.com/wp-content/uploads/2020/06/base-check-2-scaled.jpg){: width="400"}
