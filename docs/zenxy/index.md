@@ -24,7 +24,7 @@ Karl’s way allows for some custom vector graphics to be easily drawn. Here in 
 
 ## Bill of Materials
 
-**Full kits will be available in the shop soon.**
+**[Printed Parts Sets](https://shop.v1engineering.com/products/zenxy-v2-printed-parts-set)**
 
 ___
 
