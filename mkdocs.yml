@@ -38,10 +38,11 @@ nav:
          - Belts: mpcnc/burly/belts.md
    - LowRider:
      - LowRider CNC V3: lowrider/index.md
+     - LowRider V3 Calculator: lowrider/calculator.md
      - Previous Versions:
-       - Assembly: lowrider/index.md
-       - Calculator: lowrider/calculator.md
-       - LowRider CNC V1: lowrider/version1.md
+       - Assembly: lowrider/lrv2/indexv2.md
+       - Calculator: lowrider/lrv2/calculatorv2.md
+       - LowRider CNC V1: lowrider/lrv2/version1.md
    - MP3DP:
      - Current Version: mp3dp/index.md
      - Repeat Assembly: mp3dp/repeatassm.md
