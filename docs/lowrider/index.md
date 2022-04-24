@@ -26,8 +26,8 @@ the usable z length as much as you want you will be working from the bottom up, 
 
 [Calculator for table, rail, and belt lengths.](calculator.md)
 
-!!! info "Version 1"
-    Version one instructions are [here](version1.md)
+!!! info Previous build "Version 2"
+    Version two instructions are [here](../lowrider/lrv2/version1.md)
 
 ## Assembly
 
