@@ -24,7 +24,7 @@ area no larger than 4′ on this axis.
 The Z direction (height) is best kept to a 3-4″ maximum for wood, with that being said, you can make
 the usable z length as much as you want you will be working from the bottom up, so go to town.
 
-[Calculator for table, rail, and belt lengths.](calculator.md)
+[Calculator for table, rail, and belt lengths.](calculatorv2.md)
 
 !!! info "Version 1"
     Version one instructions are [here](version1.md)

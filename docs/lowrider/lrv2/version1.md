@@ -1,7 +1,7 @@
 # The LowRider CNC
 
 !!! warning
-    This is for an old version of the Low Rider. The current version is [HERE](index.md)
+    This is for an old version of the Low Rider. The current version is [HERE](../index.md)
 
 The LowRider CNC is my answer to you that want a full 4’x8′ sheet router, or of course you can go
 smaller. If the MPCNC is not big enough for you this picks up where that left off.
@@ -21,7 +21,7 @@ the usable z length as much as you want you will be working from the bottom up, 
 
 Feel free to round up to whole numbers.
 
-[Calculator for table, rail, and belt lengths.](calculator.md)
+[Calculator for table, rail, and belt lengths.](calculatorv2.md)
 
 ## Assembly
 
