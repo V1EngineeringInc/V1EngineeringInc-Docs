@@ -1,4 +1,4 @@
-# Low Rider CNC 3 -COMING SOON-
+# Low Rider CNC 2
 
 The LowRider2 CNC is my revised version of a CNC router that can handle full sheet material! Of
 course you can go smaller. If the MPCNC is not big enough for you this picks up where that left off.
@@ -24,10 +24,10 @@ area no larger than 4′ on this axis.
 The Z direction (height) is best kept to a 3-4″ maximum for wood, with that being said, you can make
 the usable z length as much as you want you will be working from the bottom up, so go to town.
 
-[Calculator for table, rail, and belt lengths.](calculator.md)
+[Calculator for table, rail, and belt lengths.](calculatorv2.md)
 
-!!! info Previous build "Version 2"
-    Version two instructions are [here](../lowrider/lrv2/version1.md)
+!!! info "Version 1"
+    Version one instructions are [here](version1.md)
 
 ## Assembly
 
@@ -162,7 +162,7 @@ follow a subtle curve down the length much more so than the width.
 The standard MPCNC firmware will work with any board on the LowRider2. Dual endstop firmware is not
 really needed since all three axis have hard stops you can use for alignment.
 
-[Firmware page.](../electronics/marlin-firmware.md)
+[Firmware page.](../../electronics/marlin-firmware.md)
 
 For the creative of you, you could use the dual end stop firmware for Y alignment or even Z 
 (homing min or max).
