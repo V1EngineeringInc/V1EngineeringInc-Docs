@@ -162,7 +162,7 @@ follow a subtle curve down the length much more so than the width.
 The standard MPCNC firmware will work with any board on the LowRider2. Dual endstop firmware is not
 really needed since all three axis have hard stops you can use for alignment.
 
-[Firmware page.](../electronics/marlin-firmware.md)
+[Firmware page.](../../electronics/marlin-firmware.md)
 
 For the creative of you, you could use the dual end stop firmware for Y alignment or even Z 
 (homing min or max).
