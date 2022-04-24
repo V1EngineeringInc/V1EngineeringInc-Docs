@@ -1,4 +1,4 @@
-# Low Rider CNC 3 -COMING SOON-
+# Low Rider CNC 2
 
 The LowRider2 CNC is my revised version of a CNC router that can handle full sheet material! Of
 course you can go smaller. If the MPCNC is not big enough for you this picks up where that left off.
