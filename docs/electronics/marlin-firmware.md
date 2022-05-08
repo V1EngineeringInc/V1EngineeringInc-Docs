@@ -69,7 +69,7 @@ rough idea of which configurations have the most users and the most testing.
 
 ## ZenXY Configurations
 
-![!FirstZenXY](https://www.v1engineering.com/wp-content/uploads/2017/07/IMG_20170717_103443.jpg){: width="450"}
+![!FirstZenXY](https://www.v1engineering.com/wp-content/uploads/2021/03/XZXY-V2F-squarer.jpg){: width="450"}
 
 ### Ultimachine
 
