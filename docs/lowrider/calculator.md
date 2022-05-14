@@ -1,6 +1,16 @@
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 
-# Low Rider V2 Size Calculator
+# LowRider v3 Size Calculator
+
+![!LR3 Fancy Picture](../img/lr3/LR3_Render.png){: width="600"}
+
+
+
+_____OLD Below this line_____
+
+
+
+# LowRider V2 Size Calculator
 ----
 ## Inputs
 

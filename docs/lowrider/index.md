@@ -57,12 +57,60 @@ Thingiverse Printed parts files:
 ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (5).jpg){: width="600"}
 ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (7).jpg){: width="600"}
 ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (8).jpg){: width="600"}
-![!LR3 Fancy Picture](../img/lr3/LR3_Render.png){: width="600"}
 
 ## Hardware list
 
 ### Printed Parts
 
+|QTY  |File Name                   |Infill |Comment                                |Link                        | 
+|-----|----------------------------|-------|---------------------------------------|----------------------------|
+|1    |LR Core                     |35%    |                                       |                            |
+|1    |X Drive Mount               |30%    |                                       |                            |
+|2    |Y Drive                     |30%    |                                       |                            |
+|2    |Z Drive                     |30%    |                                       |                            |
+|4    |Temporary Strut             |30%    |                                       |                            |
+|1    |Front Rail Roller           |30%    |                                       |                            |
+|1    |Rear Rail Roller            |30%    |                                       |                            |
+|1    |Bearing Wheel Bracket Front |30%    |Optional Wheeled Version available     |[Info](link)                |
+|1    |Bearing Wheel Bracket Rear  |30%    |Optional Wheeled Version available     |[Info](link)                |
+|1    |Z Stop                      |30%    |                                       |                            |
+|1    |Z Stop M                    |30%    |                                       |                            |
+|6-8  |Brace -Choose one size-     |30-50% |* See Brace Note below                 |                            |
+|6-8  |Hose Hanger                 |30%    |Same number as braces, Optional part   |                            |
+|1    |X Tensioner                 |30%    |                                       |                            |
+|1    |XZ Plate Left               |70%    |* See XZ note below - Can be milled    |[Shop](link) [DXF](link)    |
+|1    |XZ Plate Right              |70%    |* See XZ note below - Can be milled    |[Shop](link) [DXF](link)    |
+|1    |Front Y Belt Holder         |30%    |                                       |                            |
+|1    |Front Y Belt Base           |30%    |                                       |                            |
+|1    |Front Y Belt Holder Right   |30%    |                                       |                            |
+|1    |Front Y Belt Base Right     |30%    |                                       |                            |
+|1    |Y Tension Block Rear        |30%    |                                       |                            |
+|1    |Y Tension Base Rear         |30%    |                                       |                            |
+|1    |Y Tension Block Rear Right  |30%    |                                       |                            |
+|1    |Y Tension Base Rear Right   |30%    |                                       |                            |
+|8-14 |Rail Block -Choose one size-|30%    |* See Rail block note below            |                            |
+|     |Optional                    |       |                                       |                            |
+|2    |YZ Plate                    |50%    |Best as a milled part                  |[Shop](link) [DXF](link)    |
+
+ * Brace note-  Print the end two braces with 50% infill and the rest with 30%. 2' wide builds need 6 total,
+ 4 foot versions need 8 total. Recommended US 3/4" EMT = 23.4mm = Brace 23p4 That is the suggested size for US based builds.
+
+ * XZ Note- Can be a flat part. Milled or Purchased. If you do use a flat part you will need to print both "XZ Leadscrew Stub Right" and "XZ Leadscrew Stub".
+
+ * Rail Block note- You want these with no larger than an 8" gap between them. Recommended US 1/2" EMT = 18.1mm = Rail Block 18p1.3mf
+
+
+### Tool Mounts
+Include CAD
+
+
+### Board Boxes
+Include CAD
+
+## Flat parts
+
+DXF
+CAD
 
 
 ### Specialty Parts
