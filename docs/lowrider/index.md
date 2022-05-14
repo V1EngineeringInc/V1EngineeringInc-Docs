@@ -1,220 +1,300 @@
-# Low Rider CNC 3 -COMING SOON-
+# Low Rider CNC 3
 
-The LowRider2 CNC is my revised version of a CNC router that can handle full sheet material! Of
+The LowRider3 CNC is the V1 Engineering version of a CNC router that can handle full sheet material! Of
 course you can go smaller. If the MPCNC is not big enough for you this picks up where that left off.
 
-![!lowrider](https://www.v1engineering.com/wp-content/uploads/2018/07/LowRider2-CNC-Render.jpg)
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (6).jpg){: width="600"}
+
+### Key Points
+
+ * Most parts can be 3D printed. To save from shipping or printing large parts the machine can be partially assembled to cut them itself.
+
+ * Easily Removable from the table for storage or portability.
+
+ * Inexpensive Hardware Store Conduit is the recommended rail. Rails ranging from 23.4mm to 25.4mm will work.
+
+ * Many tool options, in terms of functionality and brands. Blank DIY mount files are available.
+
+ * Full Y and Z axis squaring, leveling, and Z probing are available for excellent precision and accuracy.
+
+ * Works with any 5 driver board.
+
+ * Can be used with Marlin, RepRap firmware, GRBL, FluidNC, or others.
+
+ ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (2).jpg){: width="600"} 
+ 
+### Geometry
+
+* This CNC router can handle any length (within reason), the Y direction is only bound by your table length.
+
+* Width (X axis or "Beam") should always be the shorter axis.
+
+* The Z direction (height) is best kept to 80mm with that being said, you can edit the files to make the Z length as much as you want.
+
+* This router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines.
+
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (3).jpg){: width="600"}
+ 
+### License
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+More details to my loosened restrictions can be found here on [the home page](https://www.v1engineering.com/license/). 
+
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (4).jpg){: width="600"}
+
+### Files can be found at the links below
+
+Printables.com
+:   [Printables.com Link](https://www.printables.com/model/204709-lowrider-3-cnc)
 
 Thingiverse Printed parts files:
-25.4mm version
-:   [Thingiverse Link](https://www.thingiverse.com/thing:3026040)
+:   [Thingiverse.com Link](https://)
 
-25mm version
-:   [Thingiverse Link](https://www.thingiverse.com/thing:3064287)
+!!! info Previous build "LR V2"
+    Version two instructions are [here](../lowrider/lrv2/indexv2.md)
 
-Hardware list
-:   [Link](https://www.v1engineering.com/lowrider-parts/) TODO Should we be converting this parts list too?
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (5).jpg){: width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (7).jpg){: width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (8).jpg){: width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Render.png){: width="600"}
 
-This CNC router can handle any length (within reason), the Y direction is only bound by your table
-length.
+## Hardware list
 
-Width (X direction on rails) should always be the shorter axis and is recommended to keep the work
-area no larger than 4′ on this axis.
+### Printed Parts
 
-The Z direction (height) is best kept to a 3-4″ maximum for wood, with that being said, you can make
-the usable z length as much as you want you will be working from the bottom up, so go to town.
+
+
+### Specialty Parts
+
+|QTY  |Description             |Comment                                        |Link                        | 
+|-----|------------------------|-----------------------------------------------|----------------------------|
+|1    |Control Board           |5 driver minimum                               |[Shop][sh1] – [Amazon][az1]|
+|5    |Steppers, Nema17        |20mm+ shaft length                             |[Shop][sh2] – [Amazon][az2]|
+|3    |stepper wire extenders  |                                               |[Shop][sh3] – [Amazon][az3]|
+|3    |Pulleys 16T 10mm        |10mm GT2 16 Tooth                              |[Shop][sh4] – [Amazon][az4]|
+|6    |Idlers Smooth 20T       |20T Smooth 5mm Bore                            |[Shop][sh5] – [Amazon][az5]|
+|8M   |Belt GT2 10mm           |See [Calculator](calculator.md), no steel belt |[Shop][sh6] – [Amazon][az6]|
+|5    |Endstops                |                                               |[Shop][sh7] – [Amazon][az7]|
+|14   |6082rs Bearings         |                                               |[Shop][sh8] – [Amazon][az8]|
+|2    |T8 Leadscrew & nut      |110mm or larger                                |[Shop][sh9] – [Amazon][az9]|
+|2    |Coupler                 |8mm to 5mm                                     |[Shop][sh10] – [Amazon][az10]|
+|4    |Linear rails MGN        |MGN12H 150mm                                   |[Shop][sh11] – [Amazon][az11]|
+|1    |Power Supply            |12-36V Board dependant 36W+                    |[Shop][sh12] – [Amazon][az12]|
+|*    |Thread locker           |Optional for grubs screws                      |[Shop][sh13] – [Amazon][az13]|
+|*    |Lube                    |Optional for idlers and linear rails           |[Shop][sh14] – [Amazon][az14]|
+|*    |Vac Hose                |Optional any 1.5" OD Vacuum hose should work   |[Shop][sh15] – [Amazon][az15]|
+
+[sh1]: https://shop.v1engineering.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3
+[sh2]: https://shop.v1engineering.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
+[sh3]: https://shop.v1engineering.com/products/wiring-kit-1
+[sh4]: https://shop.v1engineering.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm
+[sh5]: https://shop.v1engineering.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm 
+[sh6]: https://shop.v1engineering.com/collections/3dprinter-parts/products/gt2-10mm-belt
+[sh7]: https://shop.v1engineering.com/collections/parts/products/limit-switch-endstop
+[sh8]: https://shop.v1engineering.com/collections/lowrider-parts/products/bearings-608-2rs 
+[sh9]:  
+[sh10]: https://shop.v1engineering.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler
+[sh11]: 
+[sh12]: https://shop.v1engineering.com/collections/lowrider-parts/products/12v-6a-power-supply
+[sh13]: https://shop.v1engineering.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
+[sh14]: https://shop.v1engineering.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
+[sh15]: 
+
+[az1]: https://amzn.to/3mp6nOk
+[az2]: https://amzn.to/3FcxGlE
+[az3]: https://amzn.to/39DSW9I
+[az4]: https://amzn.to/3n9mUGM
+[az5]: https://amzn.to/3JXAXJi 
+[az6]: https://amzn.to/3u5imW6
+[az7]: https://amzn.to/396oRzi
+[az8]: https://amzn.to/3FDI8EI 
+[az9]: https://amzn.to/3wnjvrI 
+[az10]: https://amzn.to/3yoet0D 
+[az11]: https://amzn.to/3N26PwR
+[az12]: https://amzn.to/3Pe0P6m
+[az13]: https://amzn.to/3GhaKmx
+[az14]: https://amzn.to/31H7yS6
+[az15]: https://amzn.to/38iqA4v
+
+As an Amazon Associate I earn from qualifying purchases.
+
+### Hardware
+
+This is what is needed for a 4' x 8' (1.2M x 2.4M) build. You will need more or less depending on what size you build.
+
+|QTY  |Description             |US Equivalent                                  | 
+|-----|------------------------|-----------------------------------------------|
+|14   |M8 x 40mm               |5/16" x 1.5"                                   |
+|14   |M8 Nylock nuts          |5/16" Nylock                                   |
+|100  |M5 x 30mm               |None                                           |
+|100  |M5 Nylock               |None                                           |
+|40   |M3 x 10mm               |None                                           |
+|10   |M2.5 x 12mm             |None                                           |
+|24   |3mm x 12mm Wood/metal   |#4 x 1/2" Wood or Sheet metal screws           |
+|*22  |M4 x 12mm+ Wood/metal   |#8 x 1/2"+ Screws to mount things to your table|
+
+* Not included in the hardware kit. 
+
+### LR2 to LR3 hardware differnces for updating your build
+|QTY  |Description             |US Equivalent                                  | 
+|-----|------------------------|-----------------------------------------------|
+|14   |M8 x 40mm               |5/16" x 1.5"                                   |
+|94   |M5 x 30mm               |None                                           |
+|94   |M5 Nylock               |None                                           |
+|36   |M3 x 10mm               |None                                           |
+|10   |M2.5 x 12mm             |None                                           |
+|24   |3mm x 12mm Wood/metal   |#4 x 1/2" Wood or Sheet metal screws           |
+|22  |M4 x 12mm+ Wood/metal   |#8 x 1/2"+ Screws to mount things to your table|
+
+### Table
+
+Any flat surface you can screw into will work great. Basic torsion box tables can 
+be a step up in terms of long term stability with not all that much added complexity.
+ A Removable section that can be easily replaced comes in handy as well.
+
+footprint
+rail position
+Belt block positions
 
 [Calculator for table, rail, and belt lengths.](calculator.md)
 
-!!! info Previous build "Version 2"
-    Version two instructions are [here](../lowrider/lrv2/version1.md)
 
 ## Assembly
 
-All quantities shown in the drawings are for each assembly, not total quantities.
 
-### Center Assembly
+### Core Assembly
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Center.jpg)
+![!LR3 Fancy Picture](../img/lr3/LR3 (1).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (2).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (3).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (4).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (5).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (6).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (7).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (8).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (9).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (10).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (11).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (12).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (13).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (14).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (15).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (16).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (17).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (18).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (19).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (20).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (21).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (22).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (23).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (24).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (25).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (26).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (27).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (28).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (29).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (30).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (31).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (32).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (33).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (34).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (35).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (36).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (37).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (38).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (39).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (40).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (41).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (42).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (43).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (44).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (45).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (46).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (47).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (48).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (49).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (50).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (51).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (52).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (53).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (54).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (55).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (56).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (57).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (58).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (59).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (60).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (61).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (62).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (63).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (64).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (65).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (66).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (67).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (68).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (69).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (70).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (71).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (72).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (73).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (74).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (75).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (76).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (77).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (78).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (79).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (80).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (82).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (83).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (84).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (85).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (86).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (87).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (88).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (89).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (90).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (91).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (92).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (93).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (94).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (95).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (96).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (97).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (98).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (99).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (100).jpg){: width="400"}
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/X-Motor-Assm.jpg){: width="350"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Vac-Shoe-Assm.jpg){: width="350"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Center-ASSM.jpg){: width="350"}
-
-The VacDuct, sits inside the router clamp body to separate the router exhaust and the vacuum
-intake.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Xmount-Assm-1.jpg){: width="350"}
-
-When setting the tension for the X Mounts after attaching them to the plate set the tension for each
-mount individually. An easy way is to use the Z rail and run it through each one, very light
-tension, you might not even need to add any, the mounts are interference fit.
 ---
-### Z Assemblies
+### Side Plate Assemblies
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Z-Assm.jpg)
-
-* Check for correct orientation of XZ Main and XZ. 
-Stepper mounting hole in XZ Main, pointy side should face outward (facing away from the table).
-Belt mounting hole on XZ should face inward (Facing the table).See pictures for details. 
-![pic](https://user-images.githubusercontent.com/11182219/148236113-0078d643-84f6-42fb-8bc8-609eb4faddbb.jpeg)
-![pic](https://user-images.githubusercontent.com/11182219/148236135-992e7ae6-36e7-47e2-afed-f5ce1098664e.jpeg)
-
-When fully assembled the XZ main’s should sit completely flat on the YZ rollers. If not check these
-three points.
-
-* Double check that the Z rails are parallel, same distance apart at the bottom as they are on the
-top.
-* If you loosen the corner brackets up too much and the XZ mains still won’t sit flat the larger
-bolts are not tensioned properly / evenly (probably way way too much).
-* Make sure all four notches are above the end of the  Z rails.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2020/02/Z-exploded.jpg){: width="250"}
-
-The XZ & XZ_side should be installed with an equal gap on all four screws. **There should be a gap**
-of a few millimeters equally on each side of the corners to the XZ Main. These parts can alter the Z
-rail angles so care is needed. They do not need to be extremely tight; a little pressure goes a long
-way.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/07/Coupler-use.jpg){: width="250"}
-
-This is how these couplers should be used. The coupler should not be compressed, if anything a
-little stretch to make sure the lead screw is in contact with the stepper shaft. This prevents
-bouncing. The lead screw should be only inserted as far as the coupler bottom collar. This lets the
-stepper shaft and lead screw to move for any minor misalignment.
-
-Seat the grub screws on the shaft trying to get the straightest connection possible. If you hit an
-edge it will get wonky just give it a little turn and try again. On the stepper shaft tighten the
-flat screw first then the one that hits the round surface.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181026_1609512.jpg){: width="350"}
-
-Do not forget to
-[lube](https://vicious1-com.myshopify.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe)
-the Z lead screws.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/notch-1.jpg){: width="350"}
-
-There is a small notch / ridge to prevent the Z rails from coming out of the top on all 4 parts. If
-your rails are crooked this is where to check.
-
-## Sides
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Side-Render-1.jpg)
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Y-Assm-1.jpg){: width="350"}
-
-It is best not to tighten the M3 screws all the way on the T8 nuts. This allows for a touch of
-misalignment and smoother Z action. Don’t worry, their only job is to stop rotation and gravity does the
-rest.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/Wheel-Assm.jpg){: width="350"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/y-plate-1.jpg){: width="350"}
-
-## Belts
-
-### Belt Insert
-
-!!! info "Why?"
-    The cable_tie_insert was made to eliminate the flex and bounce of the cable tie and belt
-    connection. This will help keep a reasonable arc in the cable tie at the belt end provided you
-    use the clasp end as shown and the belt flat. This should eliminate cable tie/belt flex on a
-    properly tensioned belt and the tension should stay true longer.
-
-    The other end of the cable tie connection is rounded internally on all printed parts with a
-    similar arc.
-
-    Using a few segments of the belt itself when securing the end ensures a better connection on the
-    belts teeth. 3-4 teeth facing teeth up will make for a rounder surface of the cable tie that
-    secures the folded belt. This will prevent a wide belt from cupping and slipping teeth.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/IMG_20180804_1347192.jpg)
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/IMG_20180804_1341092.jpg){: width="350"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/IMG_20180804_1340262.jpg){: width="350"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/IMG_20180804_1347192-1.jpg){: width="350"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/IMG_20180804_1348512.jpg){: width="350"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/IMG_20180804_1347232.jpg){: width="350"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/IMG_20180804_1346372.jpg){: width="350"}
-
-### Belt Ends
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/IMG_20180809_1943212.jpg){: width="350"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/IMG_20180809_1943032.jpg){: width="350"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/08/IMG_20180809_1943362.jpg){: width="350"}
-
-## Table
-
-Use the dimensions from the calculator, make it as flat and square as you can. The edges guide the
-machine so those are important. I used some 2″x3″ and 1/2″ particle board on top.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/07/IMG_20180719_1655302.jpg){: width="300"}
-
-The X direction is more important to get flat than the Y direction, so build accordingly. Usually
-this means solid supports in The X direction. If you can picture it the machine and material can
-follow a subtle curve down the length much more so than the width.
-
-!!! Note
-    Ideal table thickness is 4″ or less.
-
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/07/00100dPORTRAIT_00100_BURST20180719181652856_COVER.jpg){: width="400"}
 
 ## Firmware
 
-The standard MPCNC firmware will work with any board on the LowRider2. Dual endstop firmware is not
-really needed since all three axis have hard stops you can use for alignment.
+Dual endstop LowRider "DualLR" firmware reccomended for ultimate accuracy and precision. This requires 
+at least a 5 driver control board. This allows you to align the Y axis and Z axis using dual endstops.
+
+The standard MPCNC firmware will work with any board on the LowRider  if you are not using endstops or 
+wired in series (using a 4 driver board). You will just use hardstops like the LR2 did.
 
 [Firmware page.](../electronics/marlin-firmware.md)
 
-For the creative of you, you could use the dual end stop firmware for Y alignment or even Z 
-(homing min or max).
 
-## Hose Channel
+### Vaccuum Hose
 
-I use 1.5″-2″ aluminum angle with a few
-[Velcro](https://vicious1-com.myshopify.com/collections/miscellaneous/products/double-sided-hook-loop)
-straps to keep the hose and cords contained. Bigger or smaller works depending on the hose size you
-use.
+Size, options, routing.
 
-## Getting Started
+## Getting Started, cutting your strut plates
+
+test move
+level
+square
+cut strut plates
+
+## final assembly
 
 ### Using the machine.
 
-1) Square it up. After mounting your work piece (making sure the mounting hardware is not going to
-interfere) I check to make sure the sides (Assemblies with the wheels on them) are the same distance
-from the nearest end. You can do this by making sure the wheels are hitting the stop blocks/belt
-mounts.
-
-2) Double check. You only need to do this the first few times until you understand the machine. Use
-the LCD to control the machine. Lift the gantry high enough as to not drag the bit across your
-material. Drive the machine the entire length of what you will be cutting. This is to make sure the
-machine does not hit the table and you are parallel with it. Another way to do this is include an
-outline in your design and use it as your fist tool path above your material. This is to make sure
-nothing binds or hits.
-
-3) Set your starting position. Use the lcd to position the bit at your zero position in all three
-axis.
-
-4) Beginning gcode. If you use the Fusion 360 post processor this is done for you but make sure your
-beginning gcode resets all your axis to `0,0,0`, you can use this command, `G92 X0 Y0 Z0`.
-
-5) Ending gcode. What should happen is your job ends **above** your last position, meaning your bit
-should not drag across the surface if you move it. With the bit above the last position, telling the
-machine to go back to the starting position will return the machine to where you started it and then
-making sure the steppers do not turn off is a good idea as the LowRider will drop under its own
-weight. The last few lines of your gcode should look like this.
-
-```
-G1 Z7 F400 (this is my clearance plane and is already in my gcode)
-G1 X0 Y0 F2100 (I add this to have the machine drive itself back to the start)
-```
-
-At this point you can use the lcd to move the machine clear of your material and lower it, then
-power off.
-
-Or, if you leave a little room you can drive past your starting point and lower automatically.
-
-```
-G1 Z7 F400 (already there)
-G1 X-15 Y-15 F2100 (drive 15mm past your start)
-G1 Z0 F400 (Lower the machine)
-M84; Turn steppers off
-```
+## Go get it dirty, be safe, have fun!
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (1).jpg){: width="600"}
