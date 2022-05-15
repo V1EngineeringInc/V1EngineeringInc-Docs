@@ -129,12 +129,12 @@ As an Amazon Associate I earn from qualifying purchases.
 
 I love me some cable ties…
 
-![!belts](https://www.v1engineering.com/wp-content/uploads/2018/01/MVIMG_20180111_1404332.jpg){: width="500"}
+![!belts](https://www.v1engineering.com/wp-content/uploads/2018/01/MVIMG_20180111_1404332.jpg){: loading=lazy width="500"}
 
 For the bed I tried something new, and I like it. Pass through the block and tension the other
 parts. Make sure the ends clear and do not hit the pulley or idler. Better alignment?
 
-![!bed](https://www.v1engineering.com/wp-content/uploads/2018/01/MVIMG_20180111_140446.jpg){: width="500"}
+![!bed](https://www.v1engineering.com/wp-content/uploads/2018/01/MVIMG_20180111_140446.jpg){: loading=lazy width="500"}
 
 ## GT2 Idlers
 
@@ -147,16 +147,16 @@ have to be superhuman here. Start loose and only tighten the belts if you notice
 Easy adjust, more consistent belt tension. Use the screws to set the smooth rods into place, or use
 super glue like before.
 
-![!xaxis](https://www.v1engineering.com/wp-content/uploads/2018/01/xscrews.jpg){: width="500"}
+![!xaxis](https://www.v1engineering.com/wp-content/uploads/2018/01/xscrews.jpg){: loading=lazy width="500"}
 
 They should be adjusted top and bottom, to 301mm. you can measure this top and bottom to ensure the
 ends are parallel.
 
-![!xdims](https://www.v1engineering.com/wp-content/uploads/2018/01/XDistance.png){: width="500"}
+![!xdims](https://www.v1engineering.com/wp-content/uploads/2018/01/XDistance.png){: loading=lazy width="500"}
  
 ## Wires
 
-![!wires](https://www.v1engineering.com/wp-content/uploads/2018/02/MVIMG_20180126_110618.jpg){: width="400"}
+![!wires](https://www.v1engineering.com/wp-content/uploads/2018/02/MVIMG_20180126_110618.jpg){: loading=lazy width="400"}
 
 If you need a good first printing project how about a box to hide those wires, 
 [Gnarly Mini-Rambo Case](https://www.thingiverse.com/thing:2778151), or a case for the
@@ -239,7 +239,7 @@ Trying out a new style here, one side is shorter to allow for clamping if necess
 usually is not, If you over tighten it you can actually crush the bearings and damage them. Default
 to super loose or no clamp screw/nut at all. Just a screw on the flush side should be enough.
 
-![!bearings](https://www.v1engineering.com/wp-content/uploads/2018/01/Clampper.png){: width="400"}
+![!bearings](https://www.v1engineering.com/wp-content/uploads/2018/01/Clampper.png){: loading=lazy width="400"}
 
 ## EndStops
 

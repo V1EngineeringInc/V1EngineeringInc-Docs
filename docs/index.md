@@ -1,7 +1,7 @@
 # V1 Engineering Documentation
 
 This is the home of the [V1 Engineering](https://www.v1engineering.com/) community documentation.
-[![Main V1 Engineering Site](https://www.v1engineering.com/wp-content/uploads/2017/12/120-Rectangle-drop-11-e1514049864768.png){: width="80%" }](https://www.v1engineering.com/)
+[![Main V1 Engineering Site](https://www.v1engineering.com/wp-content/uploads/2017/12/120-Rectangle-drop-11-e1514049864768.png){: loading=lazy width="80%" }](https://www.v1engineering.com/)
 
 [This documentation is hosted on github.io](https://docs.v1engineering.com), [The source code is on github](https://github.com/V1EngineeringInc/V1EngineeringInc-Docs)
 

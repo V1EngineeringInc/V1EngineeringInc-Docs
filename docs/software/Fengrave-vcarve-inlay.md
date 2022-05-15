@@ -32,21 +32,21 @@ This video shows the process. Press (f) to show the video full screen.
     + Save the Clean Gcode and the Vclean Gcode
        - If there is nothing to Clean or Vclean F-engrave will complain that the clean-up hasn’t been run.
 
-![F-Engrave Screen](../img/FengraveCapture1.jpg){: width="650"}
+![F-Engrave Screen](../img/FengraveCapture1.jpg){: loading=lazy width="650"}
 
 ### F-Engrave Settings
 
 **Here are some working F-Engrave settings:**
 
-![F-Engrave Screen](../img/FengraveCapture2.jpg){: width="750"}
+![F-Engrave Screen](../img/FengraveCapture2.jpg){: loading=lazy width="750"}
 
 * The first part that you are creating is the "female" part, this is pocket that will accept the inlay or "male" part.
 * To create the "male" part you will need to mirror the image in F-Engrave, select Prismatic and Add Box on the V-carve settings.
 * Then you will repeat the process of creating the gcode files for the "male" part. This may look odd, but it will fit snugly into the "female" part.
 
-![F-Engrave Screen](../img/FengraveCapture4.jpg){: width="750"}
+![F-Engrave Screen](../img/FengraveCapture4.jpg){: loading=lazy width="750"}
 
-![F-Engrave Screen](../img/FengraveCapture5.jpg){: width="750"}
+![F-Engrave Screen](../img/FengraveCapture5.jpg){: loading=lazy width="750"}
 
 ----
 
@@ -63,14 +63,14 @@ This video shows the process. Press (f) to show the video full screen.
 1. The output file will have the same name as the “MAIN” file but with your new extension.
 1. The concatenated file will contain the “START” file (if one is selected), then the “MAIN” file, then the “VCLEAN” file (if one is selected), then the tool change, then the “CLEAN” file (if one is selected), then the “END” file (if one is selected).
 
-![MODfef Screen](../img/FengraveCapture3.jpg){: width="750"}
+![MODfef Screen](../img/FengraveCapture3.jpg){: loading=lazy width="750"}
 
 ----
 
 ## Carving
 
 1. Load the MODfef processed gcode file into Octoprint (or your gcode streamer)
-![Octoprint Screen](../img/FengraveCapture6.jpg){: width="750"}
+![Octoprint Screen](../img/FengraveCapture6.jpg){: loading=lazy width="750"}
 
 1. Select appropriate wood for the inlay
     - Choose contrasting wood for the male and female parts

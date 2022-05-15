@@ -70,7 +70,7 @@ In repetier click -File, -Load then find your file. Setting your laser to the `0
 mirror and click print. Several hours later you should end up with something that resembles your
 file like this.
 
-![!jets-9x9-2-1](https://www.v1engineering.com/wp-content/uploads/2016/11/Jets-9x9-2.1.jpg){: width="400"}
+![!jets-9x9-2-1](https://www.v1engineering.com/wp-content/uploads/2016/11/Jets-9x9-2.1.jpg){: loading=lazy width="400"}
 
 (Sorry I did not have a picture handy of the exact file I used in this example.)
 

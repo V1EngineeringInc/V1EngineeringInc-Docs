@@ -10,7 +10,7 @@ Previously we had Daniel Dunn’s guide,
 [here](http://danielwdunn.com/mpcnc-with-cncjs-wireless-web-interface/). Honestly I was intimidated
 even though Daniel laid out a very clear and detailed walk through.
 
-![!CNC.js](https://www.v1engineering.com/wp-content/uploads/2018/05/cncjs.png){: width="400"}
+![!CNC.js](https://www.v1engineering.com/wp-content/uploads/2018/05/cncjs.png){: loading=lazy width="400"}
 
 Well Heffe made a pre-made image. It takes 2 steps, It worked for me first try. Load the imagine
 onto a MicroSD card, boot the Pi, done. Seriously. You even have options, If you have WiFi access
@@ -20,7 +20,7 @@ show the world what you are doing, not to leave your machine alone…FIRE), run 
 Please at least drop into one of the links and give him a thanks, this is an insanely easy to use
 piece of work.
 
-![!Octoprint](https://www.v1engineering.com/wp-content/uploads/2018/05/octo.jpg){: width="400"}
+![!Octoprint](https://www.v1engineering.com/wp-content/uploads/2018/05/octo.jpg){: loading=lazy width="400"}
 
 The [forum thread](https://www.v1engineering.com/forum/topic/v1pi-raspberry-pi-image-with-octoprint-and-cnc-js-and-wifi-hotspot/).
 

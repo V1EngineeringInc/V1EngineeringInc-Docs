@@ -6,7 +6,7 @@ manually set up a 2.5D cut, the alternative would be to import an STL file and l
 the paths. The automatically generated STL paths took 50 minutes to cut and did not pick up the
 small 4mm hole. The following manual paths took 18 minutes to cut and look fantastic!
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160719_190511.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160719_190511.jpg){: loading=lazy width="400"}
 
 So I can show some different techniques in this walk though I am using piece of Brazilian Ipe that
 has an uneven top surface, so no reliable Z origin. I will use the bed as the start position and
@@ -14,8 +14,8 @@ tell ESTLCAM the work surface is slightly higher than measured on the thickest p
 This will allow me to easily surface the uneven wood and not have to estimate where the origin
 should be.
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160715_142616.jpg){: width="400"}
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/inter.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160715_142616.jpg){: loading=lazy width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/inter.jpg){: loading=lazy width="400"}
 
 The tool paths start with importing the DXF file in mm. This file has all the part paths on it but
 not the depth of cut so we will work though this one step at a time. The tool will be starting off to
@@ -23,11 +23,11 @@ the left of the actual piece of wood touching the bed so the first step is to mo
 over about half an inch, to approximate where the tool will start. Just select Zero, Point, and
 Click where you want the new Zero.
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/NewZero.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/NewZero.jpg){: loading=lazy width="400"}
 
 These are the dimensions I will be using for the depths of cut.
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/dimiso.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/dimiso.jpg){: loading=lazy width="400"}
 
 The first cutting step will be the basic surfacing of the wood to make sure the top is nice and
 flush. I don’t have much thickness to spare so for surfacing I am only cutting 1.55mm into the
@@ -39,7 +39,7 @@ it easier and just start at the work surface.
 For the cut I select **Inside, pocket**, and selected the outermost path, shown in red. Make sure
 to set the tool path depth and machining order starting at one and increment by at least one.
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I1.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I1.jpg){: loading=lazy width="400"}
 
 The next cut will be a pocket taking the whole surface down in 2 steps, a rough and finishing pass.
 For the roughing we can start at 1.55mm from the Z=0 plane since that material is already gone from
@@ -53,24 +53,24 @@ space. Current tool path shown in red.
 Again, always set the machining order. This new pocket will be the depth at which we start the
 rest of the cuts (6.4mm)
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I2.jpg){: width="400"}
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I3.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I2.jpg){: loading=lazy width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I3.jpg){: loading=lazy width="400"}
 
 Next will be the 4mm hole. We can use a **Helical** path and start from 6.4mm deep and go a little
 into the spoil board, I went an extra .2mm for a cut of 5.3mm
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I4.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I4.jpg){: loading=lazy width="400"}
 
 Now 3 more inside cuts, rough pockets followed by finishing passes.
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I5.jpg){: width="400"}
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I6.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I5.jpg){: loading=lazy width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I6.jpg){: loading=lazy width="400"}
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I7.jpg){: width="400"}
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I8.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I7.jpg){: loading=lazy width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I8.jpg){: loading=lazy width="400"}
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I9.jpg){: width="400"}
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I10.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I9.jpg){: loading=lazy width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I10.jpg){: loading=lazy width="400"}
 
 Now that the inner features have been finished it is time to cut the part from the material,
 leaving 3 small tabs that can easily be snipped off. For this step will be using an
@@ -78,8 +78,8 @@ outside cut, with a .2mm allowance, setting the tabs, starting at the Z=0 plane 
 edge did not get surfaced and cutting .2mm in to the waste board (11.7mm deep). Then the
 finishing pass with 0 allowance and matching the tabs previously set.
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I11.jpg){: width="400"}
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I12.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I11.jpg){: loading=lazy width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I12.jpg){: loading=lazy width="400"}
 
 Now save your project in case you need to come back and edit your paths. You can do this by
 using the select tool and changing the popup box parameters. Then export your CNC program
@@ -88,15 +88,15 @@ catch small errors if you are new to this I always suggest cutting into high den
 first run to test your path. Better to waste some time and foam than stress your machine, break
 a bit, and waste material with some bad gcode.
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I13.jpg){: width="600"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/I13.jpg){: loading=lazy width="600"}
 
 This leaves me with fairly finished part. I can pop it out and use a razor knife to cut off
 the tabs. I then hit the edges lightly with some 220 git sand paper and call it a day.
 
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160715_144938.jpg){: width="400"}
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160715_145020.jpg){: width="400"}
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160711_202100.jpg){: width="400"}
-![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160715_145757.jpg){: width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160715_144938.jpg){: loading=lazy width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160715_145020.jpg){: loading=lazy width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160711_202100.jpg){: loading=lazy width="400"}
+![!img](https://www.v1engineering.com/wp-content/uploads/2016/07/IMG_20160715_145757.jpg){: loading=lazy width="400"}
 
 Here are the files I used; you will probably need to edit these unless your wood is 11.5mm
 thick. This is the DXF, My generated gcode, and my estlcam project file. This is one of the

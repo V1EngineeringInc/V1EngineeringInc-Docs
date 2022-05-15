@@ -15,7 +15,7 @@ prewired into the board so there are no extra wires needed.
 There are many options involved here. To offer the best experience for most users I have settled
 on the TMC2209 drivers, and the TFT35 V3 E3 screen.
 
-![!SKR Bundle](https://www.v1engineering.com/wp-content/uploads/2020/07/srkbundle.jpg){: width="400"}
+![!SKR Bundle](https://www.v1engineering.com/wp-content/uploads/2020/07/srkbundle.jpg){: loading=lazy width="400"}
 
 !!! note
     Do not use a SKR Pro based machine with the microSD card in the SKR Pro board. This seems to cause random performance issues.
@@ -33,7 +33,7 @@ than usual stepper power!
 Sensorless homing is not currently as accurate as mechanical end stops. All the pre-compiled
 firmware has this disabled so you will need to bend the pins out of the way.
 
-![!2209 bend](https://www.v1engineering.com/wp-content/uploads/2020/07/sensorles-bend.jpg){: width="400"}
+![!2209 bend](https://www.v1engineering.com/wp-content/uploads/2020/07/sensorles-bend.jpg){: loading=lazy width="400"}
 
 Bend this pin on each driver to allow mechanical switches to be used on the SKR board.
 
@@ -43,11 +43,11 @@ For the firmware to be able to control the current and receive feedback from eac
 needs to be set for UART communication. To do this you remove the 4 jumpers from each port and place
 one jumper on the black (UART) pins. **There is no need to monkey with the tiny potentiometers!**
 
-![!Highlighted UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/uart2-Arrows.jpg){: width="400"}
+![!Highlighted UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/uart2-Arrows.jpg){: loading=lazy width="400"}
 
 The completed board looks like this. Notice there are no jumpers under the drivers.
 
-![!UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/Uart-scaled.jpg){: width="400"}
+![!UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/Uart-scaled.jpg){: loading=lazy width="400"}
 
 At this point you can add the heat sinks being careful not to short any of the pins and only stick
 them to the copper pads on the top.
@@ -59,7 +59,7 @@ The current V1 Engineering wiring kits have the Molex style terminations on them
 Depending on what you are plugging in you can take them off the end stops and or stepper ports. Even after doing this you should always constrain your wires directly after the connection to the board.
 
 
-![!Shields off](https://www.v1engineering.com/wp-content/uploads/2021/03/PXL_20201122_212218205.jpg){: width="400"}
+![!Shields off](https://www.v1engineering.com/wp-content/uploads/2021/03/PXL_20201122_212218205.jpg){: loading=lazy width="400"}
 
 
 ## Wiring Steppers
@@ -73,20 +73,20 @@ The standard LowRider and MPCNC options are to use series wiring. This combines 
 same driver. This increases the voltage demand and not the current. We have an abundance of
 available voltage. The board is labeled, and we will be using X, Y, and Z.
 
-![!Series](https://www.v1engineering.com/wp-content/uploads/2020/07/Series-skr-labels-scaled.jpg){: width="400"}
+![!Series](https://www.v1engineering.com/wp-content/uploads/2020/07/Series-skr-labels-scaled.jpg){: loading=lazy width="400"}
 
 ### Dual End Stops (EXTRUDERS=0)
 
 If the firmware is set for EXTRUDERS=0 then E0 becomes X2 and E1 becomes Y2. (or LR would be E0=Y2
 E1=Z2)
 
-![!dual 0](https://www.v1engineering.com/wp-content/uploads/2020/07/dual2-scaled.jpg){: width="400"}
+![!dual 0](https://www.v1engineering.com/wp-content/uploads/2020/07/dual2-scaled.jpg){: loading=lazy width="400"}
 
 ### Dual End Stops (EXTRUDERS=1)
 
 For EXTRUDERS=1 E0 is used and then E1 becomes X2 and E2 become Y2. (or LR would be E1=Y2 and E2=Z2)
 
-![!dual 1](https://www.v1engineering.com/wp-content/uploads/2020/07/Dual-Ex-1-scaled.jpg){: width="400"}
+![!dual 1](https://www.v1engineering.com/wp-content/uploads/2020/07/Dual-Ex-1-scaled.jpg){: loading=lazy width="400"}
 
 ### Reversing a stepper
 
@@ -94,8 +94,8 @@ If your stepper is moving the wrong way you can power down and flip the plug ove
 direction of rotation. If you are using the series wiring harness flipping the board end changes
 both steppers, or changing one stepper in the chain reverse that one only.
 
-![!flip 1](https://www.v1engineering.com/wp-content/uploads/2020/07/flip1-scaled.jpg){: width="400"}
-![!flip 2](https://www.v1engineering.com/wp-content/uploads/2020/07/flip2-scaled.jpg){: width="400"}
+![!flip 1](https://www.v1engineering.com/wp-content/uploads/2020/07/flip1-scaled.jpg){: loading=lazy width="400"}
+![!flip 2](https://www.v1engineering.com/wp-content/uploads/2020/07/flip2-scaled.jpg){: loading=lazy width="400"}
 
 ## Screen TFT35 V3 E3
 
@@ -103,7 +103,7 @@ This screen was chosen because it had a knob (great for dirty environments). We 
 Touchscreen mode and Classic mode, simultaneously. **Switching between modes is as easy as pressing
 the knob in for 3 seconds.**
 
-![!screen](https://www.v1engineering.com/wp-content/uploads/2021/01/lcd-touch-Labels-scaled-1.jpg){: width="400"}
+![!screen](https://www.v1engineering.com/wp-content/uploads/2021/01/lcd-touch-Labels-scaled-1.jpg){: loading=lazy width="400"}
 
 You do not need to use both; pay attention to the direction the wires are facing when connecting
 them.
@@ -112,14 +112,14 @@ them.
 
 All the V1 firmware is ready for a touch plate. Easy as plugging into the Z min port.
 
-![!Probe](https://www.v1engineering.com/wp-content/uploads/2020/07/Z-probe-scaled.jpg){: width="400"}
+![!Probe](https://www.v1engineering.com/wp-content/uploads/2020/07/Z-probe-scaled.jpg){: loading=lazy width="400"}
 
 ## Dual End Stops, End Stops
 
 If you are running the dual endstop firmware you will need to have your endstops wired in Normally
 Closed (NC). You will plug into the Signal and Ground pins, **Do not use the + pins.**
 
-![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: width="400"}
+![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: loading=lazy width="400"}
 
 !!! note
     Do not use the + (positive) pins or you will ruin your SKR Pro board unless you are running a different project with powered endstops.
@@ -145,7 +145,7 @@ When you unzip the file you have a .bin file. Rename to FIRMWARE.bin and save it
     Do not use a SKR Pro based machine with the microSD card in the SKR Pro board. This seems to cause random performance issues.
 
 
-![!SKR file](https://www.v1engineering.com/wp-content/uploads/2020/08/SKR_Bin.jpg){: width="400"}
+![!SKR file](https://www.v1engineering.com/wp-content/uploads/2020/08/SKR_Bin.jpg){: loading=lazy width="400"}
 
 The file will change extensions when a successful flash happens.
 
@@ -163,7 +163,7 @@ BIGTREE_TFT35_V3.0_E3.****.bin
 config.ini
 TFT35 (folder) you do not need the folder present for minor updates it is just for graphics and languages.
 
-![!TFT files](https://www.v1engineering.com/wp-content/uploads/2020/08/TFT35_bin.jpg){: width="400"}
+![!TFT files](https://www.v1engineering.com/wp-content/uploads/2020/08/TFT35_bin.jpg){: loading=lazy width="400"}
 
 Now reset the screen (or board) and watch the screen update itself. You can double check and the files will have a new extension after a successful flash.
 
@@ -191,7 +191,7 @@ repo](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware)
 
 Box for the [TFT35 E3 V3](https://www.prusaprinters.org/prints/74330-tft35-e3-v3-case).
 
-![!TFT35 E3 V3 Case](../img/TFT_Case_Picture.jpg){: width="400"}
+![!TFT35 E3 V3 Case](../img/TFT_Case_Picture.jpg){: loading=lazy width="400"}
 
 ### Flyfisher604 SKR Pro v1.2 and TFT E3 v3.0 Case
 
@@ -205,6 +205,6 @@ A three-part case (lower box, top lid, and sloped TFT screen) that includes:
 
 Available [here](https://www.thingiverse.com/thing:4678675) on Thingiverse.
 
-![!Flyflisher604 SKR Pro Case](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case.jpg){: width="400"}
+![!Flyflisher604 SKR Pro Case](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case.jpg){: loading=lazy width="400"}
 
-![!Flyflisher604 SKR Pro Case Inside](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case_Inside.jpg){: width="400"}
+![!Flyflisher604 SKR Pro Case Inside](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case_Inside.jpg){: loading=lazy width="400"}
