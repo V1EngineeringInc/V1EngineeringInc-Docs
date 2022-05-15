@@ -36,7 +36,7 @@ Printed Plates are 9.5mm (0.374"), Shop Aluminum plates are 6.35mm (0.25").
 #### Tube Lengths
 |Length (<span class="units">mm</span>)| Qty | Name |
 |--------------------------------------|-----|------|
-|<span name="xrails"     ></span>|2|X rails|
+|<span name="xrails"     ></span>|2|X rails (also your Strut Plate Length)|
 |<span name="yrail"     ></span>|1|Y rail (for looks you might want to match your table length)|
 
 #### Belt Dimensions
