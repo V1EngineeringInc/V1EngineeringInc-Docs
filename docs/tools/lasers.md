@@ -4,7 +4,7 @@
 
 ### Eyes
 
-![caution](https://www.v1engineering.com/wp-content/uploads/2019/01/caution-laser-400x278.jpg){: width="200"}
+![caution](https://www.v1engineering.com/wp-content/uploads/2019/01/caution-laser-400x278.jpg){: loading=lazy width="200"}
 
 First and foremost, these really are dangerous, not like ripping the tag off your mattress. These
 can and will blind and or burn you in less than
@@ -32,7 +32,7 @@ sending send a death beam in any direction.
 
 ### Lungs & Skin
 
-![toxic](https://www.v1engineering.com/wp-content/uploads/2019/01/toxic-gas-hazard-sign241-400x400.jpg){: width="200"}
+![toxic](https://www.v1engineering.com/wp-content/uploads/2019/01/toxic-gas-hazard-sign241-400x400.jpg){: loading=lazy width="200"}
 
 The other end of the safety spectrum is the material you are working with. You can’t just go etching
 and cutting things willy nilly. Ever think you could make [chlorine
@@ -46,7 +46,7 @@ You do not want to breath any of the smoke any modern man made material makes.
 
 ### Fire
 
-![fire](https://www.v1engineering.com/wp-content/uploads/2019/01/fire-55x55.jpg){: width="100"}
+![fire](https://www.v1engineering.com/wp-content/uploads/2019/01/fire-55x55.jpg){: loading=lazy width="100"}
 
 Now this one might be a little bit of a surprise to some and obvious to others. Lasers are burning
 your material, add air assist directly to the burn zone and strong ventilation fans and you end up
@@ -60,7 +60,7 @@ does happen it happens stupid fast with all that force fed oxygen.
 
 ### Types
 
-![diode](https://www.v1engineering.com/wp-content/uploads/2019/01/diode.jpg){: width="200"}
+![diode](https://www.v1engineering.com/wp-content/uploads/2019/01/diode.jpg){: loading=lazy width="200"}
 
 Two of the most common lasers in the maker world are CO2 and Diode lasers. Diode lasers are much
 more compact, have self-contained interchangeable optics, and are an order of magnitude lower power
@@ -71,7 +71,7 @@ and go up from there. Both lasers have some sort of focal lens, but a CO2 laser 
 system to steer the beam before focus. Diodes can be cooled with a small fan, CO2 use water and
 sometimes a chiller.
 
-![tube](https://www.v1engineering.com/wp-content/uploads/2019/01/glass_Co2_laser_tube.png){: width="280"}
+![tube](https://www.v1engineering.com/wp-content/uploads/2019/01/glass_Co2_laser_tube.png){: loading=lazy width="280"}
 
 Typically on any of the V1 Engineering machines you would be using a diode based laser. If your goal
 is to cut wood or plastic you should be looking at a CO2 laser. A Diode is best at marking/etching,
@@ -103,7 +103,7 @@ point as lower powered lasers (the source is not truly a point, larger diodes eq
 “points”, and it is not actually a spot but a rectangular spot).
 
 Focal length
-![!focal_length](https://www.v1engineering.com/wp-content/uploads/2019/01/Focal-Length-1.gif){: width="400"}
+![!focal_length](https://www.v1engineering.com/wp-content/uploads/2019/01/Focal-Length-1.gif){: loading=lazy width="400"}
 :   This influences the shape of the laser cone (long and narrow or short and fat). The
 focal length is dependent on the lens you use and should be a small range depending on the lens. If
 you have a choice; a longer focal length can aid in cutting ability (a thinner steeper beam/cone can
@@ -142,7 +142,7 @@ this way. Once again don’t forget to vent your fumes safely and accordingly.
 
 ### Choosing
 
-![pewpew](https://www.v1engineering.com/wp-content/uploads/2019/01/pew_pew.jpg){: width="300"}
+![pewpew](https://www.v1engineering.com/wp-content/uploads/2019/01/pew_pew.jpg){: loading=lazy width="300"}
 
 Choosing which laser to buy can be the hardest part.
 
@@ -179,7 +179,7 @@ the laser on and M107 to turn the laser off. The Sxxx is the laser strength with
 ---
 
 Rambo=45
-:   ![rambo](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180626_1559002.jpg){: width="400"}
+:   ![rambo](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180626_1559002.jpg){: loading=lazy width="400"}
 
 ---
 
@@ -192,7 +192,7 @@ MiniRambo=23
 ---
 
 Ramps=44
-:   ![!ramps](https://www.v1engineering.com/wp-content/uploads/2019/01/Leo44Pic.jpg){: width="400"}
+:   ![!ramps](https://www.v1engineering.com/wp-content/uploads/2019/01/Leo44Pic.jpg){: loading=lazy width="400"}
 
 ---
 

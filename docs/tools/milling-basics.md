@@ -29,7 +29,7 @@ be the material you make a first test cut in, then on to test cuts in the materi
 You can make test cuts on both sides and the $5 it costs will pay for itself many times over in
 saved bits and refined CAM settings (time & accuracy).
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/IMG_20170921_101639.jpg){: width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/IMG_20170921_101639.jpg){: loading=lazy width="400"}
 
 Some of the first cuts ever made on an MPCNC.
 
@@ -67,13 +67,13 @@ following information please let me know…politely.
 An island is that pesky little thing in the center of a cut, like the middle on an “O”, or the center of the logo. Super easy only takes 3 steps.
 
 Using the **Part** tool select the inner feature.
-:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/1Part.jpg){: width="200"}
+:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/1Part.jpg){: loading=lazy width="200"}
 
 Next is the **Hole** tool, select the outer feature.
-:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/2hole.jpg){: width="200"}
+:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/2hole.jpg){: loading=lazy width="200"}
 
 Then in the Properties box select **Island**.
-:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/3Island.jpg){: width="200"}
+:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/3Island.jpg){: loading=lazy width="200"}
 
 ### Work offsets
 
@@ -82,10 +82,10 @@ operation in your job, multiple fixtures can be used, locating pins, or other lo
 typically for us to avoid Negative X and Y moves when using endstops.
 
 Not Offset
-:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/Negative.jpg){: width="200"}
+:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/Negative.jpg){: loading=lazy width="200"}
 
 Offset (Good for Dual Endstops)
-:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/good.jpg){: width="200"}
+:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/good.jpg){: loading=lazy width="200"}
 
 ### Finishing Pass
 
@@ -97,17 +97,17 @@ By leaving a bit of material on your roughing cut you can then cut off a very sm
 - Use a 5-25% tool diameter allowance. Shown in the yellow box.
 - The finishing pass is show in the picture as the lighter red path.
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/3Island.jpg){: width="200"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/3Island.jpg){: loading=lazy width="200"}
 
 ### Climb vs. Conventional Milling
 
 For the most part you always want to Climb mill. The edge of the cutter starts with a large bite and ends small, reducing work hardening and heat retention.
 
 !!! note "Conventional milling"
-    [![pic](https://www.v1engineering.com/wp-content/uploads/2017/09/blog_conventional-climb-milling2.jpg){: width="200"}]( http://www.harveyperformance.com/in-the-loupe/conventional-vs-climb-milling/)
+    [![pic](https://www.v1engineering.com/wp-content/uploads/2017/09/blog_conventional-climb-milling2.jpg){: loading=lazy width="200"}]( http://www.harveyperformance.com/in-the-loupe/conventional-vs-climb-milling/)
 
 !!! note "Climb milling"
-    [![pic](https://www.v1engineering.com/wp-content/uploads/2017/09/blog_conventional-climb-milling3.jpg){: width="200"}](http://www.harveyperformance.com/in-the-loupe/conventional-vs-climb-milling/)
+    [![pic](https://www.v1engineering.com/wp-content/uploads/2017/09/blog_conventional-climb-milling3.jpg){: loading=lazy width="200"}](http://www.harveyperformance.com/in-the-loupe/conventional-vs-climb-milling/)
 
 ### Feeds and Speeds Calculator
 
@@ -117,7 +117,7 @@ get reliable numbers for your machine with the right settings though.
 
 https://fswizard.com/www/
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/10/FZ-1080x783.jpg){: width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2018/10/FZ-1080x783.jpg){: loading=lazy width="400"}
 
 ### Stepover
 
@@ -134,10 +134,10 @@ Finishing
 :   is 20% or less depending on amount if detail and tolerances desired (I typically use 2-8% time vs. quality), ball endmills should use 10% or less to minimize scalloping.
 
 !!! note "50% stepover"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/50D.jpg){: width="200"}
+    ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/50D.jpg){: loading=lazy width="200"}
 
 !!! note "25% stepover"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/25D.jpg){: width="200"}
+    ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/25D.jpg){: loading=lazy width="200"}
 
 ## Dual EndStop Tool Changes, Z Probing
 
@@ -191,9 +191,9 @@ G0 Z30 ; Lift Z axis 30mm
 ; M84 ; Optionally turn off steppers.
 ```
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/start.jpg){: width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/Change.jpg){: width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/End.jpg){: width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/start.jpg){: loading=lazy width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/Change.jpg){: loading=lazy width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/End.jpg){: loading=lazy width="400"}
 
 If you do not have a PID controller you do not have to remove or worry about the code. This is the
 basics, you can easily modify this.
@@ -206,15 +206,15 @@ material and from there divide the cut equally. The only way to save time is les
 not save a pass make the step smaller.
 
 !!! note "Equal Steps"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/Equal-steps.jpg){: width="400"}
+    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/Equal-steps.jpg){: loading=lazy width="400"}
 
 !!! note "Pointless Steps"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/PointlessSteps.jpg){: width="400"}
+    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/PointlessSteps.jpg){: loading=lazy width="400"}
 
 Through all – Through all cuts, cuts that are intended to go all the way through the material, should move past the bottom of your material. The amount past depends on the flatness of your build, all build have some sort of variance. A 0.5mm-4mm would be pretty typical. Factor this into your equal DOC from above.
 
 !!! note "Through All"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/ThroughCuts.jpg){: width="400"}
+    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/ThroughCuts.jpg){: loading=lazy width="400"}
 
 ## Post Processors
 

@@ -2,7 +2,7 @@
 
 # LowRider v3 Size Calculator
 
-![!LR3 Fancy Picture](../img/lr3/LR3_Render.png){: width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Render.png){: loading=lazy width="600"}
 
 
 

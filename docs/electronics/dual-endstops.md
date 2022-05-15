@@ -10,7 +10,7 @@ each end of the axis. Using this fact and the new dual endstop firmware we can n
 and accurately set the position of every single stepper on the machine independently. This should
 reliably give you repeat-ability on the order of your endstops resolution, even after powering off.
 
-![Squaremelons](https://www.v1engineering.com/wp-content/uploads/2017/11/Squaremelon.jpg){: width="400"}
+![Squaremelons](https://www.v1engineering.com/wp-content/uploads/2017/11/Squaremelon.jpg){: loading=lazy width="400"}
 
 Before this new firmware update all the machines in this category relied 100% on the users build
 accuracy, or manual measuring. This involves setting of each axis before engaging the steppers and
@@ -37,27 +37,27 @@ unused extruder driver/s are used for the extra stepper/s.
 If the firmware is set for EXTRUDERS=0 then E0 becomes X1 and E1 becomes Y2. (or LR would be E0=Y2
 E1=Z2)
 
-![!dual 0](https://www.v1engineering.com/wp-content/uploads/2020/07/dual2-scaled.jpg){: width="400"}
+![!dual 0](https://www.v1engineering.com/wp-content/uploads/2020/07/dual2-scaled.jpg){: loading=lazy width="400"}
 
   
 ### RAMBo
 
-![!Rambo1](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo.jpg){: width="400"}
-![!Rambo2](https://www.v1engineering.com/wp-content/uploads/2017/11/IMG_20180529_175849.jpg){: width="400"} 
+![!Rambo1](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo.jpg){: loading=lazy width="400"}
+![!Rambo2](https://www.v1engineering.com/wp-content/uploads/2017/11/IMG_20180529_175849.jpg){: loading=lazy width="400"} 
 
 ### Ramps
 
-![!Ramps](https://www.v1engineering.com/wp-content/uploads/2017/11/Ramps.jpg){: width="400"}
+![!Ramps](https://www.v1engineering.com/wp-content/uploads/2017/11/Ramps.jpg){: loading=lazy width="400"}
 
 ### Mini-RAMBo
 
 This board only has 4 drivers available and can easily be used with the LowRider CNC but cannot full take advantage of the new firmware with the MPCNC.
 
-![!miniRambo](https://www.v1engineering.com/wp-content/uploads/2017/11/MiniRAMBo.jpg){: width="400"}
+![!miniRambo](https://www.v1engineering.com/wp-content/uploads/2017/11/MiniRAMBo.jpg){: loading=lazy width="400"}
 
 ### Archim
 
-![!Archim](https://www.v1engineering.com/wp-content/uploads/2017/11/Archim.jpg){: width="400"}
+![!Archim](https://www.v1engineering.com/wp-content/uploads/2017/11/Archim.jpg){: loading=lazy width="400"}
 
 ## Endstops
 
@@ -83,33 +83,33 @@ inhibit there function.
 
 ### SKR Pro
 
-![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: width="400"}
+![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: loading=lazy width="400"}
 
 !!! note
     Do not use the + (positive) pins or you will ruin your SKR Pro board.
     
 ### RAMBo
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/02/Ramboboard.png){: width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo14-DUAL-help-fixed.jpg){: width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2018/02/Ramboboard.png){: loading=lazy width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo14-DUAL-help-fixed.jpg){: loading=lazy width="400"}
 
 Pay attention the pins are opposite each other, but clearly labeled on the board.    
 
 ### Ramps
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/800px-Arduinomega1-4connectors.png){: width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/800px-Arduinomega1-4connectors.png){: loading=lazy width="400"}
 
 ### Mini-RAMBo
 
 This board only has 4 drivers available and can easily be used with the LowRider CNC (Y axis) but
 cannot full take advantage of the new firmware with the MPCNC.
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/MiniRambo1.3a-connections.png){: width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/MiniRambo1.3a-connections.png){: loading=lazy width="400"}
 
 
 ### Archim
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/785px-Archim1.0A_connections.png){: width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/785px-Archim1.0A_connections.png){: loading=lazy width="400"}
 
 
 ___
@@ -195,11 +195,11 @@ Make sure your job has a work offset if you use the endstops.
 A typical part has the gcode built with the origin at the parts corner. If you were to cut out that
 part it would result in going negative past your endstops and misalign your machine.
 
-![!negative moves](https://www.v1engineering.com/wp-content/uploads/2017/11/Negative.jpg){: width="400"}
+![!negative moves](https://www.v1engineering.com/wp-content/uploads/2017/11/Negative.jpg){: loading=lazy width="400"}
 
 Negative moves do not work on the X and Y axis with endstops.
 
-![!stay positive](https://www.v1engineering.com/wp-content/uploads/2017/11/good.jpg){: width="400"}
+![!stay positive](https://www.v1engineering.com/wp-content/uploads/2017/11/good.jpg){: loading=lazy width="400"}
 
 Moving the origin in your CAM program is the easiest fix.
 

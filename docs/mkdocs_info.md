@@ -54,16 +54,16 @@ should get a bigger view.
 Using these features is done like this:
 
 ```
-![!Backup Text](imageLocation "Hover text"){: width="400" }
+![!Backup Text](imageLocation "Hover text"){: loading=lazy width="400" }
 ```
 
 Notice the extra `!` in the `[]` brackets. That makes this a link to the image. Notice also the
-`{: width="400" }`. That adds attributes to the image, and width limits the size, without changing
+`{: loading=lazy width="400" }`. That adds attributes to the image, and width limits the size, without changing
 the aspect ratio. You can also add `height=""` and set the height.
 
-![!Example Picture](img/pic.png){: width="400" }
+![!Example Picture](img/pic.png){: loading=lazy width="400" }
 
-![!Example Picture](img/pic.png){: width="400" height="100" }
+![!Example Picture](img/pic.png){: loading=lazy width="400" height="100" }
 
 ## Organization
 

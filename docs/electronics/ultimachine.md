@@ -52,7 +52,7 @@ be power and the X, Y, and Z steppers. The board is labeled clearly on each port
 If you are using an LCD the header adapter is not needed and you can plug it directly into the
 board as shown.
 
-![!lcd](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20170503_124808.jpg){: width="400"}
+![!lcd](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20170503_124808.jpg){: loading=lazy width="400"}
 
 ### Adding an Extruder
 
@@ -80,15 +80,15 @@ both inputs A&B, and of course the bed plugs into the heated bed port.
 `Pin 23` is the signal pin for the ZMax endstop it is PWM capable and usually unused. For the BLTouch
 you will need to designate it for a “servo”.
 
-![!laser_code](https://www.v1engineering.com/wp-content/uploads/2017/04/minirambo-bl-pin.jpg){: width="400"}
-![!laser_pins](https://www.v1engineering.com/wp-content/uploads/2019/01/mini-laser-pin.jpg){: width="200"}
+![!laser_code](https://www.v1engineering.com/wp-content/uploads/2017/04/minirambo-bl-pin.jpg){: loading=lazy width="400"}
+![!laser_pins](https://www.v1engineering.com/wp-content/uploads/2019/01/mini-laser-pin.jpg){: loading=lazy width="200"}
 
 ### Formal Details
 
 If you have any doubts or are unclear on anything the wiki page should have all your answers.
 http://reprap.org/wiki/File:MiniRambo1.3a-connections.png
 
-![!details](https://www.v1engineering.com/wp-content/uploads/2017/04/MiniRambo1.3a-connections.png){: width="400"}
+![!details](https://www.v1engineering.com/wp-content/uploads/2017/04/MiniRambo1.3a-connections.png){: loading=lazy width="400"}
 
 ### Driver Math
 
@@ -103,7 +103,7 @@ These can now be set in
 
 #### Connectors/Plugs
 
-![!plugs](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20170503_130811.jpg){: width="300"}
+![!plugs](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20170503_130811.jpg){: loading=lazy width="300"}
 
 If you have plugs that do not fit the sockets on the Mini Rambo, you can persuade them to come
 off and usually your plugs will fit the bare pins.
@@ -113,7 +113,7 @@ off and usually your plugs will fit the bare pins.
 Need a fancy Box for your fancy board?
 
 [Gnarly Mini-Rambo Case](https://www.thingiverse.com/thing:2778151)
-![!Mini-Rambo case](https://www.v1engineering.com/wp-content/uploads/2017/04/MVIMG_20180201_0804233.jpg){: width="300"}
+![!Mini-Rambo case](https://www.v1engineering.com/wp-content/uploads/2017/04/MVIMG_20180201_0804233.jpg){: loading=lazy width="300"}
 
 #### Dual End Stop
 
@@ -133,7 +133,7 @@ All the details in their full glory, https://reprap.org/wiki/Rambo_v1.4
 
 ### Power
 
-![!power](https://www.v1engineering.com/wp-content/uploads/2017/04/MVIMG_20180207_1615342.jpg){: width="400"}
+![!power](https://www.v1engineering.com/wp-content/uploads/2017/04/MVIMG_20180207_1615342.jpg){: loading=lazy width="400"}
 
 You can add a Short jumper to get power to both ports, mind the polarity. The board does have labels
 but the Diagram below should be a little clearer.
@@ -151,11 +151,11 @@ directly, again double check the polarity, some red and white wires are opposite
 ??? "Rambo 1.3"
     Using an LCD requires an adapter on the full sized **Rambo 1.3**.
 
-    ![!adaptor](https://www.v1engineering.com/wp-content/uploads/2017/04/LCD.jpg){: width="300"}
+    ![!adaptor](https://www.v1engineering.com/wp-content/uploads/2017/04/LCD.jpg){: loading=lazy width="300"}
 
 ### Adding a Laser Pin
 
-![!pins](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180626_1559002.jpg){: width="300"}
+![!pins](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180626_1559002.jpg){: loading=lazy width="300"}
 
 When using a laser or a PID controller the Pins on MX2 are available:
 
@@ -170,8 +170,8 @@ When using a laser or a PID controller the Pins on MX2 are available:
 
 ### Details
 
-![!pins](https://www.v1engineering.com/wp-content/uploads/2018/02/Ramboboard.png){: width="300"}
-![!pins](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo14-DUAL-help-fixed.jpg){: width="300"}
+![!pins](https://www.v1engineering.com/wp-content/uploads/2018/02/Ramboboard.png){: loading=lazy width="300"}
+![!pins](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo14-DUAL-help-fixed.jpg){: loading=lazy width="300"}
 
 ### Driver Math
 
@@ -202,7 +202,7 @@ Need a fancy Box for your fancy board?
 
 [Gnarly Rambo/Archim Case](https://www.thingiverse.com/thing:2781322)
 
-![!case](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180203_1734152.jpg){: width="300"}
+![!case](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180203_1734152.jpg){: loading=lazy width="300"}
 
 #### Dual End Stop
 
@@ -224,7 +224,7 @@ Need a fancy Box for your fancy board?
 
 [Gnarly Rambo/Archim Case](https://www.thingiverse.com/thing:2781322)
 
-![!case](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180203_1734152.jpg){: width="300"}
+![!case](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180203_1734152.jpg){: loading=lazy width="300"}
 
 #### Dual End Stop
 

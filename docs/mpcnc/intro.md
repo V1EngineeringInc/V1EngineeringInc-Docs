@@ -1,5 +1,5 @@
 # This is an Inexpensive CNC Platform
-![!MPCNC Render](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-scaled.jpg){: width="450"}
+![!MPCNC Render](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-scaled.jpg){: loading=lazy width="450"}
  
 ## The Mostly Printed CNC
 
@@ -64,8 +64,8 @@ This machine can easily do many things, how about making some coffee with Apachâ
 
 - All of these things can be easily assembled with basic hand tools, no specialty tools, power tools, or precision cuts required.
 
-![!Simple MPCNC](https://www.v1engineering.com/wp-content/uploads/2015/07/IMG_20150802_16352001.jpg){: width="450"}
-![!Fancy MPCNC](https://www.v1engineering.com/wp-content/uploads/2018/04/IMG_20180409_184626.jpg){: width="450"}
+![!Simple MPCNC](https://www.v1engineering.com/wp-content/uploads/2015/07/IMG_20150802_16352001.jpg){: loading=lazy width="450"}
+![!Fancy MPCNC](https://www.v1engineering.com/wp-content/uploads/2018/04/IMG_20180409_184626.jpg){: loading=lazy width="450"}
 [Build Thread](https://forum.v1engineering.com/t/red-black-and-wheels/7303)
 
 ## More info

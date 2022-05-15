@@ -1,6 +1,6 @@
 # MPCNC Belts
 
-![!belts](https://www.v1engineering.com/wp-content/uploads/2016/09/IMG_20160825_172016.jpg){: width="400"}
+![!belts](https://www.v1engineering.com/wp-content/uploads/2016/09/IMG_20160825_172016.jpg){: loading=lazy width="400"}
 
 - Move the gantry all the way to the lower left corner.
 - Paying attention to which way the cable tie heads are facing (for that slick clean look).
@@ -9,8 +9,8 @@
 
 ---
 
-![!belts](https://www.v1engineering.com/wp-content/uploads/2016/09/IMG_20160825_172124.jpg){: width="400"}
-![!belts](https://www.v1engineering.com/wp-content/uploads/2016/09/IMG_20160825_172304.jpg){: width="400"}
+![!belts](https://www.v1engineering.com/wp-content/uploads/2016/09/IMG_20160825_172124.jpg){: loading=lazy width="400"}
+![!belts](https://www.v1engineering.com/wp-content/uploads/2016/09/IMG_20160825_172304.jpg){: loading=lazy width="400"}
 
 - Move the gantry all the way to the opposite corner.
 - Loop the belt (teeth facing down) under the first roller bearing, over the pulley, under the nest bearing.
@@ -22,8 +22,8 @@ leave the adjustment on the side opposite the stop blocks.
 
 ---
 
-![!belts](https://www.v1engineering.com/wp-content/uploads/2017/07/IMG_20170712_091954.jpg){: width="400"}
-![!belts](https://www.v1engineering.com/wp-content/uploads/2017/07/IMG_20170712_092018.jpg){: width="400"}
+![!belts](https://www.v1engineering.com/wp-content/uploads/2017/07/IMG_20170712_091954.jpg){: loading=lazy width="400"}
+![!belts](https://www.v1engineering.com/wp-content/uploads/2017/07/IMG_20170712_092018.jpg){: loading=lazy width="400"}
 
 - Now for the hard part. I have no way to quantify belt tension without a special tool (3-5 lbs).
 - Make sure they are as equally tensioned as you can get them.

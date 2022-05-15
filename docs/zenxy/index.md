@@ -1,19 +1,19 @@
 # ZenXY v2
 
-![!ZenXY_V2](https://cdn.shopify.com/s/files/1/1566/2831/files/PXL_20211029_205417321_1024x1024.jpg?v=1635739079){: width="450"}
+![!ZenXY_V2](https://cdn.shopify.com/s/files/1/1566/2831/files/PXL_20211029_205417321_1024x1024.jpg?v=1635739079){: loading=lazy width="450"}
 
 Inspired by the awesome Sisyphus Table by Bruce Shapiro, [http://www.sisyphus-industries.com/](http://www.sisyphus-industries.com/), Zen gardens that my mom loves, and the crazy CoreXY belting system.
 
 This is my second attempt at an automated Zen Garden (or whatever you might call it).
 
-![!ZenXY v2 Render](https://www.v1engineering.com/wp-content/uploads/2021/03/XZXY-V2F-squarer.jpg){: width="450"}
+![!ZenXY v2 Render](https://www.v1engineering.com/wp-content/uploads/2021/03/XZXY-V2F-squarer.jpg){: loading=lazy width="450"}
 
 [Rendered Animation](https://youtu.be/LmXAHtwVOIo)
 
 ## Pattern Software
 
 **Sandify**
-![!Sandify](https://www.v1engineering.com/wp-content/uploads/2019/01/screenshot-2019-01-02-1546472560.png){: width="450"}
+![!Sandify](https://www.v1engineering.com/wp-content/uploads/2019/01/screenshot-2019-01-02-1546472560.png){: loading=lazy width="450"}
 
 Amazing patterns are easily possible by using [Sandify.org](https://sandify.org/), the back end is here [Sandify on GitHub](https://github.com/jeffeb3/sandify),
 This table would be nothing without this tool! ([feel free to show some appreciation for this amazing free piece of
@@ -121,7 +121,7 @@ The Y endstop is triggered along the larger dimeter tube. The X is the other one
 
 Pictures
 
-![!Fusion CAD Render](../img/ZenTablev14.png){: width="450"}
+![!Fusion CAD Render](../img/ZenTablev14.png){: loading=lazy width="450"}
 
 Basic CAD file, [Fusion 360 version](https://a360.co/3wNh68T).
 

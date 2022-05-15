@@ -3,7 +3,7 @@
 The LowRider3 CNC is the V1 Engineering version of a CNC router that can handle full sheet material! Of
 course you can go smaller. If the MPCNC is not big enough for you this picks up where that left off.
 
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (6).jpg){: width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (6).jpg){: loading=lazy width="600"}
 
 ### Key Points
 
@@ -21,7 +21,7 @@ course you can go smaller. If the MPCNC is not big enough for you this picks up 
 
  * Can be used with Marlin, RepRap firmware, GRBL, FluidNC, or others.
 
- ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (2).jpg){: width="600"} 
+ ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (2).jpg){: loading=lazy width="600"} 
  
 ### Geometry
 
@@ -33,7 +33,7 @@ course you can go smaller. If the MPCNC is not big enough for you this picks up 
 
 * This router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines.
 
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (3).jpg){: width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (3).jpg){: loading=lazy width="600"}
  
 ### License
 
@@ -41,7 +41,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 More details to my loosened restrictions can be found here on [the home page](https://www.v1engineering.com/license/). 
 
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (4).jpg){: width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (4).jpg){: loading=lazy width="600"}
 
 ### Files can be found at the links below
 
@@ -54,9 +54,9 @@ Thingiverse Printed parts files:
 !!! info Previous build "LR V2"
     Version two instructions are [here](../lowrider/lrv2/indexv2.md)
 
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (5).jpg){: width="600"}
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (7).jpg){: width="600"}
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (8).jpg){: width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (5).jpg){: loading=lazy width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (7).jpg){: loading=lazy width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (8).jpg){: loading=lazy width="600"}
 
 ## Hardware list
 
@@ -213,106 +213,106 @@ Belt block positions
 
 ### Core Assembly
 
-![!LR3 Fancy Picture](../img/lr3/LR3 (1).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (2).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (3).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (4).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (5).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (6).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (7).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (8).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (9).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (10).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (11).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (12).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (13).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (14).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (15).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (16).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (17).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (18).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (19).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (20).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (21).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (22).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (23).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (24).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (25).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (26).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (27).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (28).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (29).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (30).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (31).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (32).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (33).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (34).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (35).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (36).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (37).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (38).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (39).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (40).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (41).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (42).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (43).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (44).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (45).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (46).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (47).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (48).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (49).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (50).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (51).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (52).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (53).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (54).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (55).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (56).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (57).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (58).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (59).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (60).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (61).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (62).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (63).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (64).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (65).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (66).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (67).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (68).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (69).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (70).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (71).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (72).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (73).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (74).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (75).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (76).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (77).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (78).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (79).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (80).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (82).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (83).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (84).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (85).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (86).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (87).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (88).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (89).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (90).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (91).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (92).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (93).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (94).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (95).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (96).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (97).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (98).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (99).jpg){: width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (100).jpg){: width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (1).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (2).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (3).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (4).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (5).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (6).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (7).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (8).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (9).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (10).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (11).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (12).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (13).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (14).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (15).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (16).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (17).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (18).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (19).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (20).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (21).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (22).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (23).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (24).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (25).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (26).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (27).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (28).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (29).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (30).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (31).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (32).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (33).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (34).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (35).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (36).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (37).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (38).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (39).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (40).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (41).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (42).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (43).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (44).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (45).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (46).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (47).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (48).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (49).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (50).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (51).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (52).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (53).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (54).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (55).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (56).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (57).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (58).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (59).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (60).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (61).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (62).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (63).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (64).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (65).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (66).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (67).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (68).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (69).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (70).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (71).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (72).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (73).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (74).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (75).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (76).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (77).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (78).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (79).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (80).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (82).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (83).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (84).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (85).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (86).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (87).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (88).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (89).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (90).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (91).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (92).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (93).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (94).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (95).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (96).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (97).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (98).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (99).jpg){: loading=lazy width="400"}
+![!LR3 Fancy Picture](../img/lr3/LR3 (100).jpg){: loading=lazy width="400"}
 
 ---
 ### Side Plate Assemblies
@@ -345,4 +345,4 @@ cut strut plates
 ### Using the machine.
 
 ## Go get it dirty, be safe, have fun!
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (1).jpg){: width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (1).jpg){: loading=lazy width="600"}

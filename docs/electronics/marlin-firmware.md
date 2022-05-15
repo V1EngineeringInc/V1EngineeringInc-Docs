@@ -35,9 +35,9 @@ rough idea of which configurations have the most users and the most testing.
 
 ## V1CNC (MPCNC or Low Rider CNC) Configurations
 
-![!MPCNC Render](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-scaled.jpg){: width="450"}
+![!MPCNC Render](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-scaled.jpg){: loading=lazy width="450"}
 
-![!lowrider](https://www.v1engineering.com/wp-content/uploads/2018/07/LowRider2-CNC-Render.jpg){: width="450"}
+![!lowrider](https://www.v1engineering.com/wp-content/uploads/2018/07/LowRider2-CNC-Render.jpg){: loading=lazy width="450"}
 
 ### Ultimachine
 
@@ -53,7 +53,7 @@ rough idea of which configurations have the most users and the most testing.
 
 ## MP3DP (3D Printer, not MPCNC) Configurations
 
-![!mp3dp](https://www.v1engineering.com/wp-content/uploads/2018/01/MVIMG_20180111_1403212.jpg){: width="450"}
+![!mp3dp](https://www.v1engineering.com/wp-content/uploads/2018/01/MVIMG_20180111_1403212.jpg){: loading=lazy width="450"}
 
 ### Ultimachine
 
@@ -69,7 +69,7 @@ rough idea of which configurations have the most users and the most testing.
 
 ## ZenXY Configurations
 
-![!FirstZenXY](https://www.v1engineering.com/wp-content/uploads/2021/03/XZXY-V2F-squarer.jpg){: width="450"}
+![!FirstZenXY](https://www.v1engineering.com/wp-content/uploads/2021/03/XZXY-V2F-squarer.jpg){: loading=lazy width="450"}
 
 ### Ultimachine
 
