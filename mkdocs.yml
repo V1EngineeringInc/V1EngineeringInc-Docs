@@ -112,8 +112,8 @@ theme:
 
 extra:
   social:
-    - icon: 'fontawesome/solid/home'
-      link: 'https://v1engineering.com'
+    - icon: 'fontawesome/solid/house'
+      link: 'https://www.v1engineering.com'
     - icon: 'fontawesome/solid/cart-plus'
       link: 'https://shop.v1engineering.com'
 
