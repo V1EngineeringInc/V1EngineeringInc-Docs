@@ -36,7 +36,7 @@ Printed Plates are 9.5mm (0.374"), Shop Aluminum plates are 6.35mm (0.25").
 #### Tube Lengths
 |Length (<span class="units">mm</span>)| Qty | Name |
 |--------------------------------------|-----|------|
-|<span name="xrails"     ></span>|2|X rails|
+|<span name="xrails"     ></span>|2|X rails, also the strut plate width|
 |<span name="yrail"     ></span>|1|Y rail (for looks you might want to match your table length)|
 
 #### Belt Dimensions
@@ -85,8 +85,10 @@ function get_offsets() {
   v3.xrail_core = 180 * unit_convert;
   v3.yrail_minus_work = 316 * unit_convert;
   v3.ytable_minus_work = 383 * unit_convert;
-  v3.xbelt_minus_rail = 300 * unit_convert;
-  v3.ybelt_minus_rail = 420 * unit_convert;
+  v3.xbelt_extra = 80 * unit_convert;
+  v3.ybelt_extra = 100 * unit_convert;
+  v3.xtable_extra = 126 * unit_convert;
+  
 
   var model = $("input[name=model]:checked").val();
   if (model == "v3") {
@@ -179,11 +181,11 @@ function from_working() {
   var xrails = xwork + offsets.xrail_core;
   var yrail = ywork + offsets.yrail_minus_work;
   
-  var xbelts = xwork + offsets.xrail_core + 80;
-  var ybelts = yrail + 100;
+  var xbelts = xwork + offsets.xrail_core + offsets.xbelt_extra;
+  var ybelts = yrail + offsets.ybelt_extra;
   var belt_total = 1*xbelts + 2*ybelts;
 
-  var xtable = xwork + offsets.xrail_core + 2*xzplate + 26 + 100;
+  var xtable = xwork + offsets.xrail_core + 2*xzplate + offsets.xtable_extra;
   var ytable = ywork + offsets.ytable_minus_work;
 
   $("span[name=xrails]").text(clip(xrails));
