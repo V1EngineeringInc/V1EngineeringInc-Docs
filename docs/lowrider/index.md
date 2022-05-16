@@ -1,7 +1,7 @@
 # Low Rider CNC 3
 
-The LowRider3 CNC is the V1 Engineering version of a CNC router that can handle full sheet material! Of
-course you can go smaller. If the MPCNC is not big enough for you this picks up where that left off.
+The LowRider3 is the V1 Engineering version of a CNC router that can handle up to full sheet material! If the MPCNC is not big 
+enough for you this picks up where that left off.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (6).jpg){: loading=lazy width="600"}
 
@@ -11,7 +11,7 @@ course you can go smaller. If the MPCNC is not big enough for you this picks up 
 
  * Easily Removable from the table for storage or portability.
 
- * Inexpensive Hardware Store Conduit is the recommended rail. Rails ranging from 23.4mm to 25.4mm will work.
+ * Inexpensive hardware store conduit is the recommended X rail. Rails ranging from 23.4mm to 25.4mm will work.
 
  * Many tool options, in terms of functionality and brands. Blank DIY mount files are available.
 
@@ -26,6 +26,9 @@ course you can go smaller. If the MPCNC is not big enough for you this picks up 
 ### Geometry
 
 * This CNC router can handle any length (within reason), the Y direction is only bound by your table length.
+
+* The single Y rail keeps the machine properly constrained while maintaining ease of use. Two rails are extremely difficult to 
+align, and fully constrained rails do not allow for easy removal of the machine.
 
 * Width (X axis or "Beam") should always be the shorter axis.
 
@@ -49,14 +52,12 @@ Printables.com
 :   [Printables.com Link](https://www.printables.com/model/204709-lowrider-3-cnc)
 
 Thingiverse Printed parts files:
-:   [Thingiverse.com Link](https://)
+:   [Thingiverse.com Link](https://) Coming soon!
+
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (7).jpg){: loading=lazy width="600"}
 
 !!! info Previous build "LR V2"
     Version two instructions are [here](../lowrider/lrv2/indexv2.md)
-
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (5).jpg){: loading=lazy width="600"}
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (7).jpg){: loading=lazy width="600"}
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (8).jpg){: loading=lazy width="600"}
 
 ## Hardware list
 
@@ -101,8 +102,11 @@ Thingiverse Printed parts files:
 
 
 ### Tool Mounts
-Include CAD
+Recommended [Makita 700 series router](https://amzn.to/3PnQKUf) (available in many countries with slightly different model numbers), [tool mount and dust shoe](https://www.printables.com/model/167678-makita-700-series-mount-and-removable-dust-shoe-fo).
 
+[DeWalt 611](https://amzn.to/3leu6zL), [Tool mount and dust shoe](https://www.printables.com/model/166254-dewalt-611-mount-and-removable-dust-shoe-for-the-l).
+
+Build your own, [CAD](https://a360.co/3vbUQFX) and [step files](https://www.printables.com/model/167687-lowrider-3-cnc-blank-tool-mount).
 
 ### Board Boxes
 Include CAD
@@ -131,7 +135,7 @@ CAD
 |1    |Power Supply            |12-36V Board dependant 36W+                    |[Shop][sh12] – [Amazon][az12]|
 |*    |Thread locker           |Optional for grubs screws                      |[Shop][sh13] – [Amazon][az13]|
 |*    |Lube                    |Optional for idlers and linear rails           |[Shop][sh14] – [Amazon][az14]|
-|*    |Vac Hose                |Optional any 1.5" OD Vacuum hose should work   |[Shop][sh15] – [Amazon][az15]|
+|*    |Vac Hose                |Optional any 1.5" OD Vacuum hose should work   | – [Amazon][az15]|
 
 [sh1]: https://shop.v1engineering.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3
 [sh2]: https://shop.v1engineering.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
@@ -141,13 +145,12 @@ CAD
 [sh6]: https://shop.v1engineering.com/collections/3dprinter-parts/products/gt2-10mm-belt
 [sh7]: https://shop.v1engineering.com/collections/parts/products/limit-switch-endstop
 [sh8]: https://shop.v1engineering.com/collections/lowrider-parts/products/bearings-608-2rs 
-[sh9]:  
+[sh9]: https://shop.v1engineering.com/collections/lowrider-parts/products/110mm-t8-leadscrew-and-nut 
 [sh10]: https://shop.v1engineering.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler
 [sh11]: 
 [sh12]: https://shop.v1engineering.com/collections/lowrider-parts/products/12v-6a-power-supply
 [sh13]: https://shop.v1engineering.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
-[sh14]: https://shop.v1engineering.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
-[sh15]: 
+[sh14]: https://shop.v1engineering.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe 
 
 [az1]: https://amzn.to/3mp6nOk
 [az2]: https://amzn.to/3FcxGlE
@@ -198,8 +201,8 @@ This is what is needed for a 4' x 8' (1.2M x 2.4M) build. You will need more or 
 ### Table
 
 Any flat surface you can screw into will work great. Basic torsion box tables can 
-be a step up in terms of long term stability with not all that much added complexity.
- A Removable section that can be easily replaced comes in handy as well.
+be a step up in terms of long term stability with not all that much added complexity. 
+A Removable spoil board section that can be easily replaced comes in handy as well.
 
 footprint
 rail position
@@ -210,8 +213,7 @@ Belt block positions
 
 ## Assembly
 
-
-### Core Assembly
+#### Core Assembly
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (1).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (2).jpg){: loading=lazy width="400"}
@@ -227,6 +229,9 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (12).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (13).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (14).jpg){: loading=lazy width="400"}
+
+---
+#### Side Plate Assemblies
 ![!LR3 Fancy Picture](../img/lr3/LR3 (15).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (16).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (17).jpg){: loading=lazy width="400"}
@@ -261,6 +266,10 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (46).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (47).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (48).jpg){: loading=lazy width="400"}
+---
+
+#### Beam Assembly
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (49).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (50).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (51).jpg){: loading=lazy width="400"}
@@ -270,6 +279,10 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (55).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (56).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (57).jpg){: loading=lazy width="400"}
+---
+
+#### X Belt
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (58).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (59).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (60).jpg){: loading=lazy width="400"}
@@ -277,72 +290,104 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (62).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (63).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (64).jpg){: loading=lazy width="400"}
+---
+
+#### Y Rail
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (65).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (66).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (67).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (68).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (69).jpg){: loading=lazy width="400"}
+---
+
+#### Wire Routing
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (70).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (71).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (72).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (73).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (74).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (75).jpg){: loading=lazy width="400"}
+---
+
+#### Y Belt
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (76).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (77).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (78).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (79).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (80).jpg){: loading=lazy width="400"}
+---
+
+## Getting Started, cutting your strut plates
+
+test move
+Square
+Level
+cut strut plates
+
+#### Initial Squaring
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (82).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (83).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (84).jpg){: loading=lazy width="400"}
+---
+
+#### Z Leveling
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (85).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (86).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (87).jpg){: loading=lazy width="400"}
+---
+
+#### Making the Strut plates
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (88).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (89).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (90).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (91).jpg){: loading=lazy width="400"}
+---
+
+#### Disassembly
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (92).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (93).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (94).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (95).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (96).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (97).jpg){: loading=lazy width="400"}
+---
+
+#### Final Assembly
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (98).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (99).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (100).jpg){: loading=lazy width="400"}
-
 ---
-### Side Plate Assemblies
+
+### Vacuum
+![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (8).jpg){: loading=lazy width="600"}
+
+Size, options, routing, grounding.
+
+[Quick release coupler](https://www.printables.com/model/168405-vacuum-hose-coupler) for 1.5" hose.
 
 
-## Firmware
 
-Dual endstop LowRider "DualLR" firmware reccomended for ultimate accuracy and precision. This requires 
+### Using the machine.
+
+
+### Firmware
+
+Dual endstop LowRider "DualLR" firmware recommended for ultimate accuracy and precision. This requires 
 at least a 5 driver control board. This allows you to align the Y axis and Z axis using dual endstops.
 
 The standard MPCNC firmware will work with any board on the LowRider  if you are not using endstops or 
 wired in series (using a 4 driver board). You will just use hardstops like the LR2 did.
 
 [Firmware page.](../electronics/marlin-firmware.md)
-
-
-### Vaccuum Hose
-
-Size, options, routing.
-
-## Getting Started, cutting your strut plates
-
-test move
-level
-square
-cut strut plates
-
-## final assembly
-
-### Using the machine.
 
 ## Go get it dirty, be safe, have fun!
 ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (1).jpg){: loading=lazy width="600"}
