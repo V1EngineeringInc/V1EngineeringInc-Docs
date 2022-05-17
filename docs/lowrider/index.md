@@ -11,7 +11,7 @@ enough for you this picks up where that left off.
 
  * Easily Removable from the table for storage or portability.
 
- * Inexpensive hardware store conduit is the recommended X rail. Rails ranging from 23.4mm to 25.4mm will work.
+ * Inexpensive hardware store conduit is the recommended X rail. Rails ranging from 23.4mm to 25.4mm will work. This saves considerable cost over the LR2.
 
  * Many tool options, in terms of functionality and brands. Blank DIY mount files are available.
 
@@ -32,9 +32,11 @@ align, and fully constrained rails do not allow for easy removal of the machine.
 
 * Width (X axis or "Beam") should always be the shorter axis.
 
-* The Z direction (height) is best kept to 80mm with that being said, you can edit the files to make the Z length as much as you want.
+* The Z direction (height) is best kept to 80mm. This allows for 1.5" of cutting depth, that is a lot. If you need to cut more that 1.5" deep this is not 
+the CNC for you. Now if you need to cut a few millimeters off  really thick material (facing a slab), this can be a great machine for that. You want to keep the machine as low as possible and 
+make the table surface adjustable, drop table. This keeps the Material Removal Rate very high. The answer is not making a taller machine.
 
-* This router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines.
+* This router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines. So the lower the axis the more rigid the machine.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (3).jpg){: loading=lazy width="600"}
  
@@ -63,35 +65,35 @@ Thingiverse Printed parts files:
 
 ### Printed Parts
 
-|QTY  |File Name                   |Infill |Comment                                |Link                        | 
-|-----|----------------------------|-------|---------------------------------------|----------------------------|
-|1    |LR Core                     |35%    |                                       |                            |
-|1    |X Drive Mount               |30%    |                                       |                            |
-|2    |Y Drive                     |30%    |                                       |                            |
-|2    |Z Drive                     |30%    |                                       |                            |
-|4    |Temporary Strut             |30%    |                                       |                            |
-|1    |Front Rail Roller           |30%    |                                       |                            |
-|1    |Rear Rail Roller            |30%    |                                       |                            |
-|1    |Bearing Wheel Bracket Front |30%    |Optional Wheeled Version available     |[Info](link)                |
-|1    |Bearing Wheel Bracket Rear  |30%    |Optional Wheeled Version available     |[Info](link)                |
-|1    |Z Stop                      |30%    |                                       |                            |
-|1    |Z Stop M                    |30%    |                                       |                            |
-|6-8  |Brace -Choose one size-     |30-50% |* See Brace Note below                 |                            |
-|6-8  |Hose Hanger                 |30%    |Same number as braces, Optional part   |                            |
-|1    |X Tensioner                 |30%    |                                       |                            |
-|1    |XZ Plate Left               |70%    |* See XZ note below - Can be milled    |[Shop][xz1]  [DXF](link)    |
-|1    |XZ Plate Right              |70%    |* See XZ note below - Can be milled    |[Shop][xz1]  [DXF](link)    |
-|1    |Front Y Belt Holder         |30%    |                                       |                            |
-|1    |Front Y Belt Base           |30%    |                                       |                            |
-|1    |Front Y Belt Holder Right   |30%    |                                       |                            |
-|1    |Front Y Belt Base Right     |30%    |                                       |                            |
-|1    |Y Tension Block Rear        |30%    |                                       |                            |
-|1    |Y Tension Base Rear         |30%    |                                       |                            |
-|1    |Y Tension Block Rear Right  |30%    |                                       |                            |
-|1    |Y Tension Base Rear Right   |30%    |                                       |                            |
-|8-14 |Rail Block -Choose one size-|30%    |* See Rail block note below            |                            |
-|     |Optional                    |       |                                       |                            |
-|2    |YZ Plate                    |50%    |Best as a milled part                  |[Shop][yz1] [DXF](link)    |
+|QTY |File Name                   |Infill |Comment                              |Link                                     | 
+|----|----------------------------|-------|-------------------------------------|-----------------------------------------|
+|1   |LR Core                     |35%    |                                     |                                         |
+|1   |X Drive Mount               |30%    |                                     |                                         |
+|2   |Y Drive                     |30%    |                                     |                                         |
+|2   |Z Drive                     |30%    |                                     |                                         |
+|4   |Temporary Strut             |30%    |                                     |                                         |
+|1   |Front Rail Roller           |30%    |                                     |                                         |
+|1   |Rear Rail Roller            |30%    |                                     |                                         |
+|1   |Bearing Wheel Bracket Front |30%    |Optional Wheeled Version available   |[Info](link)                             |
+|1   |Bearing Wheel Bracket Rear  |30%    |Optional Wheeled Version available   |[Info](link)                             |
+|1   |Z Stop                      |30%    |                                     |                                         |
+|1   |Z Stop M                    |30%    |                                     |                                         |
+|6-8 |Brace -Choose one size-     |30-50% |* See Brace Note below               |                                         |
+|6-8 |Hose Hanger                 |30%    |Same number as braces, Optional part |                                         |
+|1   |X Tensioner                 |30%    |                                     |                                         |
+|1   |XZ Plate Left               |70%    |* See XZ note below - Can be milled  |[Shop][xz1] - [DXF](/lowrider/#xz-plates)|
+|1   |XZ Plate Right              |70%    |* See XZ note below - Can be milled  |[Shop][xz1] - [DXF](/lowrider/#xz-plates)|
+|1   |Front Y Belt Holder         |30%    |                                     |                                         |
+|1   |Front Y Belt Base           |30%    |                                     |                                         |
+|1   |Front Y Belt Holder Right   |30%    |                                     |                                         |
+|1   |Front Y Belt Base Right     |30%    |                                     |                                         |
+|1   |Y Tension Block Rear        |30%    |                                     |                                         |
+|1   |Y Tension Base Rear         |30%    |                                     |                                         |
+|1   |Y Tension Block Rear Right  |30%    |                                     |                                         |
+|1   |Y Tension Base Rear Right   |30%    |                                     |                                         |
+|8-14|Rail Block -Choose one size-|30%    |* See Rail block note below          |                                         |
+|    |Optionally Printed          |       |                                     |                                         |
+|2   |YZ Plate                    |50%    |Best as a milled part                |[Shop][yz1] - [DXF](/lowrider/#yz-plates)|
 
 [xz1]: https://shop.v1engineering.com/products/lowrider-3-metal-xz-plates
 [yz1]: https://shop.v1engineering.com/collections/lowrider-parts/products/lowrider-cnc-v3-yz-plates
@@ -114,10 +116,48 @@ Build your own, [CAD](https://a360.co/3vbUQFX) and [step files](https://www.prin
 ### Board Boxes
 Include CAD
 
-## Flat parts
+## Flat Parts
 
-DXF
-CAD
+#### Strut Plates
+
+The Strut plates were designed to be up to 6.35mm (1/4") thick. Hardboard or any similarly rigid materials work best 
+here.
+
+Here are the pre-made most common Strut Plate sizes.
+
+[4' Strut PLate Plate DXF](../img/lr3/Strut Plate 1400mm.dxf)
+
+[4' Strut PLate Plate CAD/Fusion360](https://a360.co/34F4cAL)
+
+
+[2' Strut plate Plate DXF](../img/lr3/Strut Plate 790mm.dxf)
+
+[2' Strut PLate Plate CAD/Fusion360](https://a360.co/3CrRkKw)
+
+If you choose to adjust these to fit your build the only thing to know is you want no more than 200mm (8") between the braces.
+Start with whichever CAD file is closest to your desired size and edit the first sketch.
+
+![Strut Edit Picture](../img/lr3/strut edit.jpg){: loading=lazy width="600"}
+
+#### YZ Plates
+
+#### XZ Plates
+
+The printed XZ plates (when printed in PLA) prove to be more rigid than 1/2" MDF. The only way to get any more rigidity 
+is going to metal. If you choose to make your own here are the guidelines. 
+
+![!LR3 Fancy Picture](../img/lr3/nomorethan9p5.jpg){: loading=lazy width="600"}
+
+The M5 screws provided with the kit can handle up to 9.5mm thick plates and anything less than that. Anything above and 
+you will need to counter bore the heads.
+
+![!LR3 Fancy Picture](../img/lr3/nomorethan7.jpg){: loading=lazy width="600"}
+
+The M3 screws provided with the kit need 6.35mm to 7mm plate thickness. If you go thinner you will needs washers, to go 
+thicker you will need to counter bore the heads. 
+
+[XZ Plate DXF](../img/lr3/XZ Plate.dxf)
+
 
 
 ### Specialty Parts
