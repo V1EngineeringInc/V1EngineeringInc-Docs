@@ -91,9 +91,10 @@ Thingiverse Printed parts files:
 |1    |Y Tension Base Rear Right   |30%    |                                       |                            |
 |8-14 |Rail Block -Choose one size-|30%    |* See Rail block note below            |                            |
 |     |Optional                    |       |                                       |                            |
-|2    |YZ Plate                    |50%    |Best as a milled part                  |[Shop](link) [DXF](link)    |
+|2    |YZ Plate                    |50%    |Best as a milled part                  |[Shop][yz1] [DXF](link)    |
 
 [xz1]: https://shop.v1engineering.com/products/lowrider-3-metal-xz-plates
+[yz1]: https://shop.v1engineering.com/collections/lowrider-parts/products/lowrider-cnc-v3-yz-plates
 
  * Brace note-  Print the end two braces with 50% infill and the rest with 30%. 2' wide builds need 6 total,
  4 foot versions need 8 total. Recommended US 3/4" EMT = 23.4mm = Brace 23p4 That is the suggested size for US based builds.
