@@ -79,8 +79,8 @@ Thingiverse Printed parts files:
 |6-8  |Brace -Choose one size-     |30-50% |* See Brace Note below                 |                            |
 |6-8  |Hose Hanger                 |30%    |Same number as braces, Optional part   |                            |
 |1    |X Tensioner                 |30%    |                                       |                            |
-|1    |XZ Plate Left               |70%    |* See XZ note below - Can be milled    |[Shop](link) [DXF](link)    |
-|1    |XZ Plate Right              |70%    |* See XZ note below - Can be milled    |[Shop](link) [DXF](link)    |
+|1    |XZ Plate Left               |70%    |* See XZ note below - Can be milled    |[Shop][xz1]  [DXF](link)    |
+|1    |XZ Plate Right              |70%    |* See XZ note below - Can be milled    |[Shop][xz1]  [DXF](link)    |
 |1    |Front Y Belt Holder         |30%    |                                       |                            |
 |1    |Front Y Belt Base           |30%    |                                       |                            |
 |1    |Front Y Belt Holder Right   |30%    |                                       |                            |
@@ -92,6 +92,8 @@ Thingiverse Printed parts files:
 |8-14 |Rail Block -Choose one size-|30%    |* See Rail block note below            |                            |
 |     |Optional                    |       |                                       |                            |
 |2    |YZ Plate                    |50%    |Best as a milled part                  |[Shop](link) [DXF](link)    |
+
+[xz1]: https://shop.v1engineering.com/products/lowrider-3-metal-xz-plates
 
  * Brace note-  Print the end two braces with 50% infill and the rest with 30%. 2' wide builds need 6 total,
  4 foot versions need 8 total. Recommended US 3/4" EMT = 23.4mm = Brace 23p4 That is the suggested size for US based builds.
