@@ -153,7 +153,13 @@ Start with whichever CAD file is closest to your desired size and edit the first
 
 #### YZ Plates
 
-*to do
+The YZ Plates can be nearly any thickness. Again here, rigidity is key. 1/2" (12mm) MDF is a great choice. Much thicker than 
+that and you will need to clearance some for the coupler. At 16.5mm and thicker you will need to counter bore for the M5 nuts
+ or get longer screws.
+
+[YZ Plate DXF](../img/lr3/YZ plate DXF.dxf)
+[Mirrored set YZ Plate DXF](../img/lr3/two YZ plates.dxf), just to make it easy to mill up a set.
+[YZ Plate STL](../img/lr3/YZ Plate.stl), If you want to try and print it.
 
 #### XZ Plates
 
