@@ -2,9 +2,9 @@
 
 # LowRider v3 Size Calculator
 
+(The photo and drawing below are sized for a 48"x96" available cutting area.)
+
 ![!LR3 Fancy Picture](../img/lr3/LR3_Render.png){: loading=lazy width="600"}
-
-
 
 ![!LR3 Dimensions Picture](../img/lr3/LR3 Dims.jpg){: loading=lazy width="600"}
 
