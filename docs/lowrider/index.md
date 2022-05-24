@@ -80,8 +80,8 @@ more than 80% nozzle diameter to keep overhangs working.
 |4   |Temporary Strut             |30%    |                                     |                                         |
 |1   |Front Rail Roller           |30%    |                                     |                                         |
 |1   |Rear Rail Roller            |30%    |                                     |                                         |
-|1   |Bearing Wheel Bracket Front |30%    |Optional Wheeled Version available   |[Info](link)                             |
-|1   |Bearing Wheel Bracket Rear  |30%    |Optional Wheeled Version available   |[Info](link)                             |
+|1   |Bearing Wheel Bracket Front |30%    |* See note below - Optional Version  |[Link][Wheels]                           |
+|1   |Bearing Wheel Bracket Rear  |30%    |* See note below - Optional Version  |[Link][Wheels]                           |
 |1   |Z Stop                      |30%    |                                     |                                         |
 |1   |Z Stop M                    |30%    |                                     |                                         |
 |6-8 |Brace -Choose one size-     |30-50% |* See Brace Note below               |                                         |
@@ -101,8 +101,14 @@ more than 80% nozzle diameter to keep overhangs working.
 |    |Optionally Printed          |       |                                     |                                         |
 |2   |YZ Plate                    |50%    |Best as a milled part                |[Shop][yz1] - [DXF](/lowrider/#yz-plates)|
 
+[Wheels]: https://www.printables.com/model/211714-lr3-60mm-wheel-brackets
 [xz1]: https://shop.v1engineering.com/products/lowrider-3-metal-xz-plates
 [yz1]: https://shop.v1engineering.com/collections/lowrider-parts/products/lowrider-cnc-v3-yz-plates
+
+ * Optional Version- You can use 58-62mm X 25mm with the option brackets. The wheels might provide for a smoother rider over 
+ a rough table or debris with the downside being a bit of "give" and the possibility of the Wheels steering a non parallel build. 
+ The bearings should be more precise and make for a more forgiving build. [Wheels](https://shop.v1engineering.com/collections/lowrider-parts/products/urethane-wheels) 
+ [Spacers](https://shop.v1engineering.com/collections/all/products/axle-spacers)
 
  * Brace note-  Print the end two braces with 50% infill and the rest with 30%. 2' wide builds need 6 total,
  4 foot versions need 8 total. Recommended US 3/4" EMT = 23.4mm = Brace 23p4 That is the suggested size for US based builds.
@@ -299,16 +305,62 @@ Belt block positions
 ---
 #### Side Plate Assemblies
 ![!LR3 Fancy Picture](../img/lr3/LR3 (15).jpg){: loading=lazy width="400"}
+
+ * Z drives, steppers, M3 screws.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (16).jpg){: loading=lazy width="400"}
+
+ * Pay attention to wire routing here. 
+ * Snug up the M3 Screws
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (17).jpg){: loading=lazy width="400"}
+
+ * Y drives, Idlers, M5's
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (18).jpg){: loading=lazy width="400"}
+
+ * Seated not snug, screws are axles here.
+ * Nuts facing down.
+ * Make sure idlers are very free to spin.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (19).jpg){: loading=lazy width="400"}
+
+ * Add the pulley to the Stepper. 1-2mm gap next picture has a visual check.
+ * Tighten the grub screw on the Flat shaft surface first then the other screw.
+ * LocTite is recommend on all grub screws.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (20).jpg){: loading=lazy width="400"}
+
+ * Make sure Pulley teeth are centered with the idlers.
+ * Snug The Stepper in place with the M3 Screws.
+ * Wires should face one in each direction (mirrored), just like the Y drives.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (21).jpg){: loading=lazy width="400"}
+
+ * Microswitches, M2.5 screws.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (22).jpg){: loading=lazy width="400"}
+
+ * Make sure the lever faces out (up in this picture).
+ * Switch away from the stepper wires, route wires together (for now).
+ * Gentle with the tiny screws threading into the printed part. Seated no more.
+ * If you do happen to strip out the screw holes a drop aon nearly any glue or 
+ loctite on the threads will fix it.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (23).jpg){: loading=lazy width="400"}
+
+ * Orientation, mirrored sets.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (24).jpg){: loading=lazy width="400"}
+
+ * Z Stop & Z Stop M, Wired Endstops, M2.5mm screws.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (25).jpg){: loading=lazy width="400"}
+
+ * Notice the direction of the Switch levers
+ * Tuck the wires nicely into the grove, make sure not to pinch them when installing them later.
+ * Gentle with the small M2.5 screws.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (26).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (27).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (28).jpg){: loading=lazy width="400"}
@@ -321,17 +373,74 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (35).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (36).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (37).jpg){: loading=lazy width="400"}
+
+##### Z End Stop
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (38).jpg){: loading=lazy width="400"}
+
+ * Z Stop & Z Stop M
+ * Test to make sure the micro switch clicks before the XZ plate hits the top.
+ * If not the printed parts are slotted and you can bend the triggers to adjust. 
+ Bend after the actual tiny trigger.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (39).jpg){: loading=lazy width="400"}
+
+ * The endstop wires will run through a small slot in the Y drive. Make sure they are free to move and not pinched.
+
+ * Keeping the printed parts aligned with the plates keeps it looking nice.
+ * Make sure the screws are snug so the switches do not move.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (40).jpg){: loading=lazy width="400"}
+
+ * Insert the Y drive. It goes in with a 90 degree twist. Should be plenty of room just.
+ * Make sure the endstop wires are free moving.
+ * Snug the screws.
+
+ * Wire routing, each side should run towards the back of the plate.
+ * Cable tie points on the Y and Z drives.
+ * wire sleeve optional but looks nice here.
+
+##### Wheels
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (41).jpg){: loading=lazy width="400"}
+
+ * 608rs and bolts, Bearing Wheel Bracket Front & Rear.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (42).jpg){: loading=lazy width="400"}
+
+ * Preferred "wheels" 
+ * Seat the bolt so the Head and nut are making contact but do not tighten. This is just an axle.
+ * pay attention to the bolt orientation the nut goes in the deeper side.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (43).jpg){: loading=lazy width="400"}
+
+ * Optional Wheel brackets [Link](https://www.printables.com/model/211714-lr3-60mm-wheel-brackets)
+ * Use spacers to prevent over tightening 
+ * Seat the bolt but no need to snug it.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (44).jpg){: loading=lazy width="400"}
+
+ * Wheels installed, Heads in Nuts out. Snug these four screws.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (45).jpg){: loading=lazy width="400"}
+
+##### Rail Rollers
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (46).jpg){: loading=lazy width="400"}
+
+* Front and Rear Rail Roller, Bolts and Bearings.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (47).jpg){: loading=lazy width="400"}
+
+* Insert the bearings, and seat the bolts.
+* No need to snug as these are just axles.
+* Bolt orientation is important here. One bolt is facing up and the nuts is tricky to slide into the top.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (48).jpg){: loading=lazy width="400"}
+
+* Side Plates are done!
+* Roll them around on your table making motor noises to make sure they work right.
+
 ---
 
 #### Beam Assembly
@@ -456,4 +565,3 @@ wired in series (using a 4 driver board). You will just use hardstops like the L
 [Firmware page.](../electronics/marlin-firmware.md)
 
 ## Go get it dirty, be safe, have fun!
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (1).jpg){: loading=lazy width="600"}
