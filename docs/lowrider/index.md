@@ -185,7 +185,6 @@ thicker you will need to counter bore the heads.
 [XZ Plate DXF](../img/lr3/XZ Plate.dxf)
 
 
-
 ### Specialty Parts
 
 You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/lowrider-v3-hardware-kit)
@@ -288,19 +287,77 @@ Belt block positions
 #### Core Assembly
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (1).jpg){: loading=lazy width="400"}
+
+ * LR Core, and six M5 nuts.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (2).jpg){: loading=lazy width="400"}
+
+ * Press these 6 nuts in place.
+ * If they are not snug use some loctite or glue to keep them in place, or mount your tool mount now loosely.
+ * The 7th hole is a spare for future expansion packs.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (3).jpg){: loading=lazy width="400"}
+
+ * Bolts, 6082RS bearings and nuts for the next step.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (4).jpg){: loading=lazy width="400"}
+
+ * Snug up these 6 bolts and make sure everything still moves freely.
+ * These last two bolts control how much tension the core has on the Beam.
+ * Lightly seat these nuts and wait to set the tension until you have the beam ready.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (5).jpg){: loading=lazy width="400"}
+
+ * Get your Micro switch ready along with some M2.5 screws.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (6).jpg){: loading=lazy width="400"}
+
+ * Notice the lever orientation.
+ * Lightly set the M2.5 screws. If they strip out, add a drop of glue or thread locker to the threads
+  and they should stay seated when it dries.
+
+##### X Drive
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (7).jpg){: loading=lazy width="400"}
+ 
+ * This section uses the X Stepper Mount, M5's, and Idlers.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (8).jpg){: loading=lazy width="400"}
+
+ * Assemble as show with the nuts down, very lightly seating the nuts.
+ * The inside nut fits in a small groove in the printed part. 
+ * Make sure the Idlers spin freely.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (9).jpg){: loading=lazy width="400"}
+
+ * Add the pulley to the stepper 1-2mm up from the base.
+ * Tighten the flat grub screw first and then the next.
+ * Threadlocker or LocTite is recommended.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (10).jpg){: loading=lazy width="400"}
+
+ * Assure the pulley in centered with the idlers when assembled.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (11).jpg){: loading=lazy width="400"}
+
+ * Make sure to orient the wire out, as shown.
+ * Snug the stepper in place with M3's
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (12).jpg){: loading=lazy width="400"}
+
+ * Add the stepper assembly to the Core.
+ * Make sure the M5's Engage the nuts properly, any sign of binding back out and try again.
+ * If for some reason the nuts spin, use a small flat head screw driver to pin it in place as you tighten.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (13).jpg){: loading=lazy width="400"}
+
+ * Snugged in place.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (14).jpg){: loading=lazy width="400"}
+
+ * Tuck the wires into the groove and you can secure them at the top with a wire or cable tie.
+ * Now is a good time to add your touch plate wires if you are using one.
+ * If you are concerned you can add a piece of tape in between the screw holes but any tool mount should also do the trick here.
 
 ---
 #### Side Plate Assemblies
@@ -345,7 +402,7 @@ Belt block positions
  * Switch away from the stepper wires, route wires together (for now).
  * Gentle with the tiny screws threading into the printed part. Seated no more.
  * If you do happen to strip out the screw holes a drop aon nearly any glue or 
- loctite on the threads will fix it.
+ locTite on the threads will fix it.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (23).jpg){: loading=lazy width="400"}
 
@@ -362,17 +419,67 @@ Belt block positions
  * Gentle with the small M2.5 screws.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (26).jpg){: loading=lazy width="400"}
+
+ * T8 nut, and 1-2 M3 screws.
+ * In the following steps you will either be using the Printed XZ plates, or XZ Lead Screw Stubs.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (27).jpg){: loading=lazy width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (28).jpg){: loading=lazy width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (29).jpg){: loading=lazy width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (30).jpg){: loading=lazy width="400"}
+
+ * One screw is plenty as it is just there to stop the brass nut from spinning.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (31).jpg){: loading=lazy width="400"}
+
+ * A completed XZ printed plate.
+
+![!LR3 Fancy Picture](../img/lr3/LR3 (28).jpg){: loading=lazy width="400"}
+
+ * With Milled XZ plates you will need to attach the stubs to the plate with an M5.
+
+![!LR3 Fancy Picture](../img/lr3/LR3 (29).jpg){: loading=lazy width="400"}
+
+ * The nuts gets seated in the printed stub.
+ * Align the angled surfaces of both parts.
+
+![!LR3 Fancy Picture](../img/lr3/LR3 (30).jpg){: loading=lazy width="400"}
+
+ * Orientation of the stubs and XZ plates.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (32).jpg){: loading=lazy width="400"}
+
+ * The MGN12H bearing blocks get attached to the XZ plate.
+ * If you are using the printed version, M3x10mm screws will fit.
+ * If you are using a milled part follow the guidelines for thickness only use washers if necessary.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (33).jpg){: loading=lazy width="400"}
+
+ * Now is a good time to assure the linear guides are moving freely. If not loosen the 4 small screws
+ On the end of the bearing block a full turn move the bearing block back and forth and tighten the 
+ screws back up.
+ * You can add a touch of a light oil or dab of the superlube, but it should not be necessary.
+ * Keep the stops in the end until they are mounted to the YZ plates to avoid tiny bearings everywhere.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (34).jpg){: loading=lazy width="400"}
+
+ * With the rails mounted make sure they are parallel by measuring how far apart they are at the top 
+ and bottom of travel at the ends.
+ * Snug up the M3's, LocTite is not a bad idea here.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (35).jpg){: loading=lazy width="400"}
+
+ * You will need to add two M5's to the holes shown here. Actually you only need the lower two but just to be safe drop them all in for now.
+ * Use the small wood screws to attach the rails to the YZ plate.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (36).jpg){: loading=lazy width="400"}
+
+ * Start attaching the rails in the middle, one screw each. Loosely.
+ * Once you have a screw in each rail you can remove the stops.
+ * Keep adding screws and checking for smooth motion as you go.
+ * If all is going well snug up the screws into the wood. Gentle here, do not strip out the wood it does not take much.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (37).jpg){: loading=lazy width="400"}
+
+ * Add the Z drive wires facing the back.
+ * Use M5 screws here and snug it up a bit.
 
 ##### Z End Stop
 
