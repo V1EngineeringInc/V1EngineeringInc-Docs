@@ -17,7 +17,7 @@ enough for you this picks up where that left off.
 
  * Full Y and Z axis squaring, leveling, and Z probing are available for excellent precision and accuracy.
 
- * Works with any 5 driver board. 4 driver boards can be used but some automation, one axis dual endstos, will be lost.
+ * Works with any 5 driver board. 4 driver boards can be used but some automation, one axis dual endstops, will be lost.
 
  * Can be used with Marlin, RepRap firmware, GRBL, FluidNC, or others.
 
@@ -358,6 +358,7 @@ Belt block positions
  * Tuck the wires into the groove and you can secure them at the top with a wire or cable tie.
  * Now is a good time to add your touch plate wires if you are using one.
  * If you are concerned you can add a piece of tape in between the screw holes but any tool mount should also do the trick here.
+ * Soon this part is going to be buried behind a router and a hose so admire it now. Looks good right?!
 
 ---
 #### Side Plate Assemblies
@@ -474,6 +475,7 @@ Belt block positions
  * Start attaching the rails in the middle, one screw each. Loosely.
  * Once you have a screw in each rail you can remove the stops.
  * Keep adding screws and checking for smooth motion as you go.
+ * The hole in the XZ plate is there to let you access the middle screw.
  * If all is going well snug up the screws into the wood. Gentle here, do not strip out the wood it does not take much.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (37).jpg){: loading=lazy width="400"}
@@ -505,7 +507,7 @@ Belt block positions
 
  * Wire routing, each side should run towards the back of the plate.
  * Cable tie points on the Y and Z drives.
- * wire sleeve optional but looks nice here.
+ * Wire sleeve optional but looks nice here. Or leave them exposed to make it look more complicated to your audience. Everyone loves a person with a big brain.
 
 ##### Wheels
 
@@ -535,43 +537,116 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (46).jpg){: loading=lazy width="400"}
 
-* Front and Rear Rail Roller, Bolts and Bearings.
+ * Front and Rear Rail Roller, Bolts and Bearings.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (47).jpg){: loading=lazy width="400"}
 
-* Insert the bearings, and seat the bolts.
-* No need to snug as these are just axles.
-* Bolt orientation is important here. One bolt is facing up and the nuts is tricky to slide into the top.
+ * Insert the bearings, and seat the bolts.
+ * No need to snug as these are just axles.
+ * Bolt orientation is important here. One bolt is facing up and the nuts is tricky to slide into the top.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (48).jpg){: loading=lazy width="400"}
 
-* Side Plates are done!
-* Roll them around on your table making motor noises to make sure they work right.
+ * Side Plates are done!
+ * Roll them around on your table making motor noises to make sure they work right.
 
 ---
 
 #### Beam Assembly
 
+ * If you already have your Strut plates cut, use this as a loose guide. 
+ * Install the plates loosely at first to get everything aligned then go back and snug them all up. Install the plates in this order, front (clamping), Bottom, Back (with hose guides if using them).
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (49).jpg){: loading=lazy width="400"}
+
+ * Building the Beam includes the X rails, Braces (optionally two with higher infill for the ends), Temporary Strut Plates, and a lot of M5's.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (50).jpg){: loading=lazy width="400"}
+
+ * Fit your rail together, make sure the end two plates have a top printed surface facing out. This makes for a more perfect mating surface as mesh bed leveling can leave an odd surface on the bottom.
+ * Sliding the Braces on your Rail is preferred over snapping them in. This keeps a sharp clamp tip.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (51).jpg){: loading=lazy width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (52).jpg){: loading=lazy width="400"}
+
+ * Next step is to add the front Temporary Strut Plates.
+ * Remember, initially you will be leaving the screws loose.
+ * Roughly space the rest of the braces equally down the beam.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (53).jpg){: loading=lazy width="400"}
+
+ * Loosely add the rest of the front Screws.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (54).jpg){: loading=lazy width="400"}
+
+ * Very loosely add the bottom screws, lightly engaging the nylock just so they do not fall out while making these first cuts.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (55).jpg){: loading=lazy width="400"}
+
+ * Now add the rear temporary strut plates and optionally the hose hangers.
+ * You can snug up the temp plate screws and the hose hanger screws.
+ * If you lay the beam on its face aas shown in this picture you can tell if the beam is twisted or not.
+
+![!LR3 Fancy Picture](../img/lr3/LR3 (52).jpg){: loading=lazy width="400"}
+
+ * Now go back and snug up the front clamps.
+ * The key here is just lightly engaged, *There will be a gap*, and the rails will be able to spin if you try.
+ * The clamps do not do very much other than account for slight rail size differences. Do not over tighten.
+ * The only catch is make sure the screw faces make contact and the nuts make contact with the printed part. It is possible to thread the screw in and the nuts not actually be all teh way in, eventually they would loosen up. You can thread teh screw all the way in and keep turing to lightly ream out the screw hole if needed before adding the nuts.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (56).jpg){: loading=lazy width="400"}
+
+ * Add the Core to the beam and set the tension of the lower two bolts. 
+ * Too loose and the core can move and you will hear bearings clicking on the rails.
+ * Too tight and you will feel the Core hesitate over each brace. More is not better here.
+ * Typically little to no extra tension is needed and it is best just to seat the nuts gently.
+ * Last check is to make sure the X rails do not stick out further than the braces, at least on the bottom rail.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (57).jpg){: loading=lazy width="400"}
+
+ * You can add the side plates using the 6 screws.
+ * Snug these up.
+ * Make sure both sides move up and down pretty freely, as long as gravity pulls them all teh way down you are good to go here.
+ * Best practice is to make robot noises while you move it up and down (feel free to tag me in your video when you do #V1LR3).
+
 ---
 
 #### X Belt
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (58).jpg){: loading=lazy width="400"}
+
+ * Run your X belt through the X Drive.
+ * It is a good idea to run it as shown and cut it when you know exactly how long to make it.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (59).jpg){: loading=lazy width="400"}
+
+ * To secure the ends you can make a small fold, or use a 4-5 tooth cutoff, and pull it back into the slot.
+ * Just make sure it does not interfere with the YZ plate when you move the Z axis all the way up.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (60).jpg){: loading=lazy width="400"}
+
+ * Leave a bit of room to pull it out if needed.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (61).jpg){: loading=lazy width="400"}
+
+ * For the X Tensioner side you loop the belt through and set the length.
+ * If you have a har time getting this right, you can draw a little line on the top of your belt to see which way you need to go. Each tooth is two millimeters (1/16") so it is very easy to adjust.
+ * Make sure to seat the nut into the tensioner.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (62).jpg){: loading=lazy width="400"}
+
+ * Add the X Tensioner to the XZ Plate and set the tension just below where it makes a sound whn you pluck it.
+ * Make sure to leave ~4mm (1/8") or more gap between the plate and tensioner to adjust this later if needed.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (63).jpg){: loading=lazy width="400"}
+
+ * Add your tool mount of choice.
+ * Snug up the vacuum side of the mount, leave the stepper side loose. This is the side you will always use to set the tension.
+ * Make sure the wires are free to move behind the mount and not pinched.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (64).jpg){: loading=lazy width="400"}
+
+ * Stand back and admire what you have accomplished. Feel free to get a loved one or neighbor and tell them you designed the entire thing from scratch.
+
 ---
 
 #### Y Rail
@@ -604,10 +679,12 @@ Belt block positions
 
 ## Getting Started, cutting your strut plates
 
-test move
-Square
-Level
-cut strut plates
+At this point you should be able to power up and give your build a little test move. 
+Depending on how you are built you can use your Control screen, repetier host 
+or other software over USB, or over the air.
+
+Here is a quick over view of a [basic movement test](../software/#testing).
+
 
 #### Initial Squaring
 
