@@ -132,7 +132,7 @@ Build your own, [CAD](https://a360.co/3vbUQFX) and [step files](https://www.prin
 [Rambo](https://www.printables.com/model/209411-rambo-or-mini-rambo-lr3-specific-case)
 [Mini Rambo](https://www.printables.com/model/209411-rambo-or-mini-rambo-lr3-specific-case)
 
-Blank Box, Include CAD *to do
+Blank Box, DIY your own case, [Fusion 360 CADlink](https://www.printables.com/model/215441-blank-cad-for-lr3-control-box-case).
 
 ## Flat Parts
 
@@ -651,30 +651,97 @@ Belt block positions
 
 #### Y Rail
 
+![!LR3 Dimensions Picture](../img/lr3/LR3 Dims.jpg){: loading=lazy width="600"}
+
+ * The calculator dimensions are for edge to edge table use. If you added extra width divide it by two and place your "Front Y Belt Holder Base Right".
+ * From there the edge of your Rail blocks get placed 61.75mm in from that, that line gets followed all the way down the rail.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (65).jpg){: loading=lazy width="400"}
+
+ * I pre-drill all the rail block holes in the center to have some adjustment if needed.
+ * The center of the rail block slots are 44.7mm in from the line set in the previous step for a total of 106.45mm in from the edge of your Y belt block. 
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (66).jpg){: loading=lazy width="400"}
+
+ * Place the rail blocks no further than 200mm (8") apart.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (67).jpg){: loading=lazy width="400"}
+
+ * You can measure out the other Y belt holder block or wait to use the fully assembled machine to mark it with the Y drive. The Y drives are flush with the rail blocks. 
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (68).jpg){: loading=lazy width="400"}
+
+ * Another view of that.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (69).jpg){: loading=lazy width="400"}
+
+ * Place the Y Tension Bases inline with the front blocks and far enough in to act as a hard stop not to drive your machine of the edge of the table.
+ * 30mm In from the edge is good, more (88mm) if you do not want your hose holders to moves past the edge of the able.
+
 ---
 
 #### Wire Routing
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (70).jpg){: loading=lazy width="400"}
+
+ * Wire routing is pretty free form with lots of options. Here is how I do it.
+ * If you have not cut your Strut Plates yet you will have a chance to revisit the wiring or you can route it so you do not have to remove it at all.
+ * Labeling your wires is great idea.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (71).jpg){: loading=lazy width="400"}
+
+ * Be sure to tape or secure any connections.
+ * I find it best to start by running the shortest wire first.
+ * You can see how the Z endstop and Y stepper wires are ran down and secured.
+ * The wires then run under the Z stepper and get secured again.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (72).jpg){: loading=lazy width="400"}
+
+ * The extensions will be needed for the wires on the Rail side.
+ * You can route the wires around the back and into the hose holders (easy to work with later).
+ * Or you can run the wires into the beam and secure them in there.
+ * Make sure you have full range of Z motion and the wires don't catch anywhere.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (73).jpg){: loading=lazy width="400"}
+
+ * Full shot of the wires ran and the excess folded over in the hose holders.
+ * The X axis wires need to have full range of motion so that means securing them just short of the half way point.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (74).jpg){: loading=lazy width="400"}
+
+ * I temporarily added the power supply on the wire bundle.
+ * After the strut plates are cut I prefer to mount it inside the beam.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (75).jpg){: loading=lazy width="400"}
+
+ * Now you can add the lead screws.
+ * Make sure the Z axis has full range of motion and does not hit the coupler when at the bottom of motion.
 ---
 
 #### Y Belt
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (76).jpg){: loading=lazy width="400"}
+
+ * When running the Y belts Feed teh belt through the Y drive and secure into the front blocks first.
+ * Loop the belt over with enough room to remove it later if needed.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (77).jpg){: loading=lazy width="400"}
+
+ * The rear blocks get a nut inserted and are quick release and adjustable.
+ * The right tension is tight but just before it starts to sound like a bass guitar if plucked. You should be able to remove the block still as well. If you have a way to check 6-10lbs.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (78).jpg){: loading=lazy width="400"}
+
+ * Rear block assembled.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (79).jpg){: loading=lazy width="400"}
+
+ * Now do the other side.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (80).jpg){: loading=lazy width="400"}
+
+ * You nervous yet? It is time to fire it up! No need to make your own 
+ noises anymore it will do it for you. See I thought of everything.
 ---
 
 ## Getting Started, cutting your strut plates
@@ -688,25 +755,90 @@ Here is a quick over view of a [basic movement test](../software/#testing).
 
 #### Initial Squaring
 
+To square the machine you need to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the Rail. You will probably need to repeat this a couple times to get it under 1mm difference.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: loading=lazy width="400"}
+
+ * I use tape so I can be sure I am using the correct mark.
+ * Home the X and Y axis.
+ * Use the Z axis to mark a small dot at 0,0.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (82).jpg){: loading=lazy width="400"}
+
+ * Now drive the machine to your X axis furthest point (or very close to it).
+ * Use the Z to mark the dot.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (83).jpg){: loading=lazy width="400"}
+
+ * Drive to the Y Extreme and repeat the process for the back two corners.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (84).jpg){: loading=lazy width="400"}
+
+ * Now measure the diagonals to the best of your ability. Note the longer one, and subtract to find the difference. Under 1mm is very good.
+
+If you are over 1mm in difference you can use the terminal on your SKR Pro or a USB 
+connection and repetier host to add a homing offset. "M666 Y0.5" will move your Y1 
+stepper 0.5mm away from teh stop block after it homes. "M666 Y-0.5" will move your 
+Y2 stepper away instead. You want to move the longer dimension side away from the 
+block. A good first guess is the difference in your measurements (or you can use a 
+trig calculator and add a bit because your end stops are further away than the 
+dots). Now Use "M500" to save it to the EEPROM. Re-home X and Y and test it again.
+
 ---
 
 #### Z Leveling
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (85).jpg){: loading=lazy width="400"}
+
+ * Z leveling is a bit easier than the Y axis if you have a touch plate. You can also use any sort of block or piece of paper as a feeler gauge. 
+ * We are only looking for the difference here.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (86).jpg){: loading=lazy width="400"}
+
+ * Home all three of your axis.
+
+ * Touch plate - If you are using the Touch plate you probe by using G38.2 Z0. When it gets there take note of the current Z position. Then move it up and over to your X axis extreme and probe again, taking note of the Z axis position. Take the difference and adjust the side that moved furthest.
+
+ * Feeler Gauge - You will drive your Z axis down until you just make contact with the touch plate and take note of the current Z axis position. Repeat this for the other end of the X axis. Take the difference and adjust the side that moved furthest.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (87).jpg){: loading=lazy width="400"}
+
+ * You adjust by running "M666 Z0.5" the number is in millimeters. Save with M500 after each adjustment home all axis and start check your work. 
+
+ * These numbers are counting down from 200, so 120 is further away than than 130. Start by adjusting 0.2mm more than your difference.
+
 ---
 
 #### Making the Strut plates
 
+At this point you should be ready to make some cuts. To be certain it all goes as planned you can 
+make a test cut in High Density Foam, or simply making an air cut. To make an air cut you just home 
+your machine above the table and run the gcode. This lets you watch that it moves as you would 
+expect it to and doesn't snag or have any faults in the code.
+
+Gcode making - TODO
+
+The strut plates should be 6.35mm (1/4") Or thinner MDF or similarly rigid material.
+You will want to cut each plate as close to the side as you can to assure your build has the rigidity to do so.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (88).jpg){: loading=lazy width="400"}
+
+ * Getting ready to make your first cuts all starts with loading the material.
+
+ * Make sure the edge is behind your Endmill in the Y direction and parallel with the edge in the X direction. 
+ 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (89).jpg){: loading=lazy width="400"}
+
+ * Checking the front and back edges relative to the table. (To the rail would be a more proper measurement)
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (90).jpg){: loading=lazy width="400"}
+
+ * Secure the material, make sure your means will not interfere with the core as it passes over. I use screws with large heads.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (91).jpg){: loading=lazy width="400"}
+
+ * This is what a finished cut looks like. All parts are held in place with small tabs of material that can be cut with a saw or utility knife.
+
 ---
 
 #### Disassembly
