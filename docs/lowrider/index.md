@@ -591,7 +591,7 @@ Belt block positions
  * Now go back and snug up the front clamps.
  * The key here is just lightly engaged, *There will be a gap*, and the rails will be able to spin if you try.
  * The clamps do not do very much other than account for slight rail size differences. Do not over tighten.
- * The only catch is make sure the screw faces make contact and the nuts make contact with the printed part. It is possible to thread the screw in and the nuts not actually be all teh way in, eventually they would loosen up. You can thread teh screw all the way in and keep turing to lightly ream out the screw hole if needed before adding the nuts.
+ * The only catch is make sure the screw faces make contact and the nuts make contact with the printed part. It is possible to thread the screw in and the nuts not actually be all the way in, eventually they would loosen up. You can thread the screw all the way in and keep turing to lightly ream out the screw hole if needed before adding the nuts.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (56).jpg){: loading=lazy width="400"}
 
@@ -605,7 +605,7 @@ Belt block positions
 
  * You can add the side plates using the 6 screws.
  * Snug these up.
- * Make sure both sides move up and down pretty freely, as long as gravity pulls them all teh way down you are good to go here.
+ * Make sure both sides move up and down pretty freely, as long as gravity pulls them all The way down you are good to go here.
  * Best practice is to make robot noises while you move it up and down (feel free to tag me in your video when you do #V1LR3).
 
 ---
@@ -722,7 +722,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (76).jpg){: loading=lazy width="400"}
 
- * When running the Y belts Feed teh belt through the Y drive and secure into the front blocks first.
+ * When running the Y belts Feed the belt through the Y drive and secure into the front blocks first.
  * Loop the belt over with enough room to remove it later if needed.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (77).jpg){: loading=lazy width="400"}
@@ -778,7 +778,7 @@ To square the machine you need to mark 4 points and measure the diagonal. This i
 
 If you are over 1mm in difference you can use the terminal on your SKR Pro or a USB 
 connection and repetier host to add a homing offset. "M666 Y0.5" will move your Y1 
-stepper 0.5mm away from teh stop block after it homes. "M666 Y-0.5" will move your 
+stepper 0.5mm away from the stop block after it homes. "M666 Y-0.5" will move your 
 Y2 stepper away instead. You want to move the longer dimension side away from the 
 block. A good first guess is the difference in your measurements (or you can use a 
 trig calculator and add a bit because your end stops are further away than the 
