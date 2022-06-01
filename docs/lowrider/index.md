@@ -111,11 +111,11 @@ more than 80% nozzle diameter to keep overhangs working.
  [Spacers](https://shop.v1engineering.com/collections/all/products/axle-spacers)
 
  * Brace note-  Print the end two braces with 50% infill and the rest with 30%. 2' wide builds need 6 total,
- 4 foot versions need 8 total. Recommended US 3/4" EMT = 23.4mm = Brace 23p4 That is the suggested size for US based builds.
+ 4 foot versions need 8 total. One every 200mm (8") or less. Recommended US 3/4" EMT = 23.4mm = Brace 23p4 that is the suggested size for US based builds.
 
- * XZ Note- Can be a flat part. Milled or Purchased. If you do use a flat part you will need to print both "XZ Leadscrew Stub Right" and "XZ Leadscrew Stub".
+ * XZ Note- Can be a flat part. Milled or Purchased. If you do use a flat part you will need to print both "XZ Leadscrew Stub Right" and "XZ Leadscrew Stub". These also need 70% infill.
 
- * Rail Block note- You want these with no larger than an 8" gap between them. Recommended US 1/2" EMT = 18.1mm = Rail Block 18p1.3mf
+ * Rail Block note- You want these with no larger than 200mm (8") or less gap between them. Recommended US 1/2" EMT = 18.1mm = Rail Block 18p1.3mf. You will need 8 for a 4' build and 14 for a 8' build.
 
 
 ### Tool Mounts
