@@ -170,7 +170,7 @@ that and you will need to clearance some for the coupler. At 16.5mm and thicker 
 #### XZ Plates
 
 The printed XZ plates (when printed in PLA) prove to be more rigid than 1/2" MDF. The only way to get any more rigidity 
-is going to metal. If you choose to make your own here are the guidelines. 
+is going to metal. If you choose to make your own, here are the guidelines. 
 
 ![!LR3 Fancy Picture](../img/lr3/nomorethan9p5.jpg){: loading=lazy width="600"}
 
@@ -238,7 +238,7 @@ You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://sho
 [az14]: https://amzn.to/31H7yS6
 [az15]: https://amzn.to/38iqA4v
 
-As an Amazon Associate I earn from qualifying purchases.
+As an Amazon Associate, I earn from qualifying purchases.
 
 ### Hardware
 
@@ -293,7 +293,7 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (2).jpg){: loading=lazy width="400"}
 
  * Press these 6 nuts in place.
- * If they are not snug use some loctite or glue to keep them in place, or mount your tool mount now loosely.
+ * If they are not snug, use some loctite or glue to keep them in place, or mount your tool mount now loosely.
  * The 7th hole is a spare for future expansion packs.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (3).jpg){: loading=lazy width="400"}
@@ -324,7 +324,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (8).jpg){: loading=lazy width="400"}
 
- * Assemble as show with the nuts down, very lightly seating the nuts.
+ * Assemble as shown with the nuts down, very lightly seating the nuts.
  * The inside nut fits in a small groove in the printed part. 
  * Make sure the Idlers spin freely.
 
@@ -346,7 +346,7 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (12).jpg){: loading=lazy width="400"}
 
  * Add the stepper assembly to the Core.
- * Make sure the M5's Engage the nuts properly, any sign of binding back out and try again.
+ * Make sure the M5's engage the nuts properly, If there is any sign of binding, back out and try again.
  * If for some reason the nuts spin, use a small flat head screw driver to pin it in place as you tighten.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (13).jpg){: loading=lazy width="400"}
@@ -358,7 +358,7 @@ Belt block positions
  * Tuck the wires into the groove and you can secure them at the top with a wire or cable tie.
  * Now is a good time to add your touch plate wires if you are using one.
  * If you are concerned you can add a piece of tape in between the screw holes but any tool mount should also do the trick here.
- * Soon this part is going to be buried behind a router and a hose so admire it now. Looks good right?!
+ * Soon this part is going to be buried behind a router and a hose, so admire it now. Looks good, right?!
 
 ---
 #### Side Plate Assemblies
@@ -377,20 +377,20 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (18).jpg){: loading=lazy width="400"}
 
- * Seated not snug, screws are axles here.
+ * Seated, not snug. Screws are axles here.
  * Nuts facing down.
  * Make sure idlers are very free to spin.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (19).jpg){: loading=lazy width="400"}
 
- * Add the pulley to the Stepper. 1-2mm gap next picture has a visual check.
- * Tighten the grub screw on the Flat shaft surface first then the other screw.
+ * Add the pulley to the stepper. 1-2mm gap next picture has a visual check.
+ * Tighten the grub screw on the flat shaft surface first then the other screw.
  * LocTite is recommend on all grub screws.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (20).jpg){: loading=lazy width="400"}
 
- * Make sure Pulley teeth are centered with the idlers.
- * Snug The Stepper in place with the M3 Screws.
+ * Make sure the pulley teeth are centered with the idlers.
+ * Snug The stepper in place with the M3 Screws.
  * Wires should face one in each direction (mirrored), just like the Y drives.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (21).jpg){: loading=lazy width="400"}
@@ -401,9 +401,9 @@ Belt block positions
 
  * Make sure the lever faces out (up in this picture).
  * Switch away from the stepper wires, route wires together (for now).
- * Gentle with the tiny screws threading into the printed part. Seated no more.
- * If you do happen to strip out the screw holes a drop aon nearly any glue or 
- locTite on the threads will fix it.
+ * Gentle with the tiny screws threading into the printed part. Seated, no more.
+ * If you do happen to strip out the screw holes, a drop of nearly any glue or 
+ LocTite on the threads will fix it.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (23).jpg){: loading=lazy width="400"}
 
@@ -411,18 +411,18 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (24).jpg){: loading=lazy width="400"}
 
- * Z Stop & Z Stop M, Wired Endstops, M2.5mm screws.
+ * Z Stop & Z Stop M, wired endstops, M2.5mm screws.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (25).jpg){: loading=lazy width="400"}
 
- * Notice the direction of the Switch levers
- * Tuck the wires nicely into the grove, make sure not to pinch them when installing them later.
+ * Notice the direction of the switch levers
+ * Tuck the wires nicely into the grove and make sure not to pinch them when installing them later.
  * Gentle with the small M2.5 screws.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (26).jpg){: loading=lazy width="400"}
 
  * T8 nut, and 1-2 M3 screws.
- * In the following steps you will either be using the Printed XZ plates, or XZ Lead Screw Stubs.
+ * In the following steps, you will either be using the printed XZ plates, or XZ lead screw stubs.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (27).jpg){: loading=lazy width="400"}
 
@@ -434,7 +434,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (28).jpg){: loading=lazy width="400"}
 
- * With Milled XZ plates you will need to attach the stubs to the plate with an M5.
+ * With milled XZ plates, you will need to attach the stubs to the plate with an M5.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (29).jpg){: loading=lazy width="400"}
 
@@ -449,25 +449,25 @@ Belt block positions
 
  * The MGN12H bearing blocks get attached to the XZ plate.
  * If you are using the printed version, M3x10mm screws will fit.
- * If you are using a milled part follow the guidelines for thickness only use washers if necessary.
+ * If you are using a milled part follow the guidelines for thickness. Only use washers if necessary.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (33).jpg){: loading=lazy width="400"}
 
- * Now is a good time to assure the linear guides are moving freely. If not loosen the 4 small screws
- On the end of the bearing block a full turn move the bearing block back and forth and tighten the 
+ * Now is a good time to assure the linear guides are moving freely. If not, loosen the 4 small screws
+ on the end of the bearing block a full turn. Move the bearing block back and forth and tighten the 
  screws back up.
  * You can add a touch of a light oil or dab of the superlube, but it should not be necessary.
  * Keep the stops in the end until they are mounted to the YZ plates to avoid tiny bearings everywhere.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (34).jpg){: loading=lazy width="400"}
 
- * With the rails mounted make sure they are parallel by measuring how far apart they are at the top 
+ * With the rails mounted, make sure they are parallel by measuring how far apart they are at the top 
  and bottom of travel at the ends.
- * Snug up the M3's, LocTite is not a bad idea here.
+ * Snug up the M3's. LocTite is not a bad idea here.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (35).jpg){: loading=lazy width="400"}
 
- * You will need to add two M5's to the holes shown here. Actually you only need the lower two but just to be safe drop them all in for now.
+ * You will need to add two M5's to the holes shown here. Actually, you only need the lower two, but just to be safe drop them all in for now.
  * Use the small wood screws to attach the rails to the YZ plate.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (36).jpg){: loading=lazy width="400"}
@@ -476,7 +476,7 @@ Belt block positions
  * Once you have a screw in each rail you can remove the stops.
  * Keep adding screws and checking for smooth motion as you go.
  * The hole in the XZ plate is there to let you access the middle screw.
- * If all is going well snug up the screws into the wood. Gentle here, do not strip out the wood it does not take much.
+ * If all is going well, snug up the screws into the wood. Gentle here. Do not strip out the wood. It doesn't take much.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (37).jpg){: loading=lazy width="400"}
 
@@ -489,7 +489,7 @@ Belt block positions
 
  * Z Stop & Z Stop M
  * Test to make sure the micro switch clicks before the XZ plate hits the top.
- * If not the printed parts are slotted and you can bend the triggers to adjust. 
+ * If not, the printed parts are slotted and you can bend the triggers to adjust. 
  Bend after the actual tiny trigger.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (39).jpg){: loading=lazy width="400"}
@@ -507,7 +507,7 @@ Belt block positions
 
  * Wire routing, each side should run towards the back of the plate.
  * Cable tie points on the Y and Z drives.
- * Wire sleeve optional but looks nice here. Or leave them exposed to make it look more complicated to your audience. Everyone loves a person with a big brain.
+ * Wire sleeve is optional, but looks nice here. Or, leave them exposed to make it look more complicated to your audience. Everyone loves a person with a big brain.
 
 ##### Wheels
 
@@ -518,18 +518,18 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (42).jpg){: loading=lazy width="400"}
 
  * Preferred "wheels" 
- * Seat the bolt so the Head and nut are making contact but do not tighten. This is just an axle.
- * pay attention to the bolt orientation the nut goes in the deeper side.
+ * Seat the bolt so the head and nut are making contact, but do not tighten. This is just an axle.
+ * Pay attention to the bolt orientation. The nut goes in the deeper side.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (43).jpg){: loading=lazy width="400"}
 
  * Optional Wheel brackets [Link](https://www.printables.com/model/211714-lr3-60mm-wheel-brackets)
  * Use spacers to prevent over tightening 
- * Seat the bolt but no need to snug it.
+ * Seat the bolt, but no need to over-snug it.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (44).jpg){: loading=lazy width="400"}
 
- * Wheels installed, Heads in Nuts out. Snug these four screws.
+ * Wheels installed; bolts in, nuts out. Snug these four screws.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (45).jpg){: loading=lazy width="400"}
 
@@ -537,7 +537,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (46).jpg){: loading=lazy width="400"}
 
- * Front and Rear Rail Roller, Bolts and Bearings.
+ * Front and Rear Rail Roller, bolts and bearings.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (47).jpg){: loading=lazy width="400"}
 
@@ -554,21 +554,21 @@ Belt block positions
 
 #### Beam Assembly
 
- * If you already have your Strut plates cut, use this as a loose guide. 
- * Install the plates loosely at first to get everything aligned then go back and snug them all up. Install the plates in this order, front (clamping), Bottom, Back (with hose guides if using them).
+ * If you already have your strut plates cut, use this as a loose guide. 
+ * Install the plates loosely at first to get everything aligned then go back and snug them all up. Install the plates in this order; front (clamping), bottom, back (with hose guides if using them).
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (49).jpg){: loading=lazy width="400"}
 
- * Building the Beam includes the X rails, Braces (optionally two with higher infill for the ends), Temporary Strut Plates, and a lot of M5's.
+ * Building the beam includes the X rails, braces (optionally two with higher infill for the ends), temporary strut plates, and a lot of M5's.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (50).jpg){: loading=lazy width="400"}
 
- * Fit your rail together, make sure the end two plates have a top printed surface facing out. This makes for a more perfect mating surface as mesh bed leveling can leave an odd surface on the bottom.
- * Sliding the Braces on your Rail is preferred over snapping them in. This keeps a sharp clamp tip.
+ * Fit your rail together. Make sure the end two plates have a top printed surface facing out. This makes for a more perfect mating surface as mesh bed leveling can leave an odd surface on the bottom.
+ * Sliding the braces on your rail is preferred over snapping them in. This keeps a sharp clamp tip.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (51).jpg){: loading=lazy width="400"}
 
- * Next step is to add the front Temporary Strut Plates.
+ * Next step is to add the front temporary strut plates.
  * Remember, initially you will be leaving the screws loose.
  * Roughly space the rest of the braces equally down the beam.
 
@@ -578,26 +578,26 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (54).jpg){: loading=lazy width="400"}
 
- * Very loosely add the bottom screws, lightly engaging the nylock just so they do not fall out while making these first cuts.
+ * Very loosely add the bottom screws, lightly engaging the Nyloc just so they do not fall out while making these first cuts.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (55).jpg){: loading=lazy width="400"}
 
- * Now add the rear temporary strut plates and optionally the hose hangers.
+ * Now add the rear temporary strut plates and optionally, the hose hangers.
  * You can snug up the temp plate screws and the hose hanger screws.
- * If you lay the beam on its face aas shown in this picture you can tell if the beam is twisted or not.
+ * If you lay the beam on its face as shown in this picture you can tell if the beam is twisted or not.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (52).jpg){: loading=lazy width="400"}
 
  * Now go back and snug up the front clamps.
  * The key here is just lightly engaged, *There will be a gap*, and the rails will be able to spin if you try.
  * The clamps do not do very much other than account for slight rail size differences. Do not over tighten.
- * The only catch is make sure the screw faces make contact and the nuts make contact with the printed part. It is possible to thread the screw in and the nuts not actually be all the way in, eventually they would loosen up. You can thread the screw all the way in and keep turing to lightly ream out the screw hole if needed before adding the nuts.
+ * The only catch here is make sure the screw faces make contact and the nuts make contact with the printed part. It is possible to thread the screw in and the nuts not actually be all the way in, eventually they would loosen up. You can thread the screw all the way in and keep turing to lightly ream out the screw hole if needed before adding the nuts.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (56).jpg){: loading=lazy width="400"}
 
- * Add the Core to the beam and set the tension of the lower two bolts. 
+ * Add the LR-Core to the beam and set the tension of the lower two bolts. 
  * Too loose and the core can move and you will hear bearings clicking on the rails.
- * Too tight and you will feel the Core hesitate over each brace. More is not better here.
+ * Too tight and you will feel the LR-Core hesitate over each brace. More is not better here.
  * Typically little to no extra tension is needed and it is best just to seat the nuts gently.
  * Last check is to make sure the X rails do not stick out further than the braces, at least on the bottom rail.
 
@@ -628,19 +628,19 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (61).jpg){: loading=lazy width="400"}
 
- * For the X Tensioner side you loop the belt through and set the length.
- * If you have a har time getting this right, you can draw a little line on the top of your belt to see which way you need to go. Each tooth is two millimeters (1/16") so it is very easy to adjust.
+ * For the X tensioner, side you loop the belt through and set the length.
+ * If you have a hard time getting this right, you can draw a little line on the top of your belt to see which way you need to go. Each tooth is two millimeters (1/16"), so it is very easy to adjust.
  * Make sure to seat the nut into the tensioner.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (62).jpg){: loading=lazy width="400"}
 
- * Add the X Tensioner to the XZ Plate and set the tension just below where it makes a sound whn you pluck it.
+ * Add the X tensioner to the XZ plate and set the tension just below where it makes a sound when you pluck it.
  * Make sure to leave ~4mm (1/8") or more gap between the plate and tensioner to adjust this later if needed.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (63).jpg){: loading=lazy width="400"}
 
  * Add your tool mount of choice.
- * Snug up the vacuum side of the mount, leave the stepper side loose. This is the side you will always use to set the tension.
+ * Snug up the vacuum side of the mount and leave the stepper side loose. This is the side you will always use to set the tension.
  * Make sure the wires are free to move behind the mount and not pinched.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (64).jpg){: loading=lazy width="400"}
@@ -675,8 +675,8 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (69).jpg){: loading=lazy width="400"}
 
- * Place the Y Tension Bases inline with the front blocks and far enough in to act as a hard stop not to drive your machine of the edge of the table.
- * 30mm In from the edge is good, more (88mm) if you do not want your hose holders to moves past the edge of the able.
+ * Place the Y tension bases inline with the front blocks and far enough in to act as a hard stop not to drive your machine of the edge of the table.
+ * 30mm in from the edge is good. More in from the edge (88mm) if you do not want your hose holders to moves past the edge of the able.
 
 ---
 
@@ -685,7 +685,7 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (70).jpg){: loading=lazy width="400"}
 
  * Wire routing is pretty free form with lots of options. Here is how I do it.
- * If you have not cut your Strut Plates yet you will have a chance to revisit the wiring or you can route it so you do not have to remove it at all.
+ * If you have not cut your strut plates yet you will have a chance to revisit the wiring or you can route it so you do not have to remove it at all.
  * Labeling your wires is great idea.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (71).jpg){: loading=lazy width="400"}
@@ -697,7 +697,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (72).jpg){: loading=lazy width="400"}
 
- * The extensions will be needed for the wires on the Rail side.
+ * The extensions will be needed for the wires on the rail side.
  * You can route the wires around the back and into the hose holders (easy to work with later).
  * Or you can run the wires into the beam and secure them in there.
  * Make sure you have full range of Z motion and the wires don't catch anywhere.
@@ -710,7 +710,7 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (74).jpg){: loading=lazy width="400"}
 
  * I temporarily added the power supply on the wire bundle.
- * After the strut plates are cut I prefer to mount it inside the beam.
+ * After the strut plates are cut, I prefer to mount it inside the beam.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (75).jpg){: loading=lazy width="400"}
 
@@ -728,7 +728,7 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (77).jpg){: loading=lazy width="400"}
 
  * The rear blocks get a nut inserted and are quick release and adjustable.
- * The right tension is tight but just before it starts to sound like a bass guitar if plucked. You should be able to remove the block still as well. If you have a way to check 6-10lbs.
+ * The right tension is tight, but just before it starts to sound like a bass guitar, if plucked. You should be able to remove the block still as well. If you have a way to check, 6-10lbs tension is what you're looking for.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (78).jpg){: loading=lazy width="400"}
 
@@ -741,25 +741,24 @@ Belt block positions
 ![!LR3 Fancy Picture](../img/lr3/LR3 (80).jpg){: loading=lazy width="400"}
 
  * You nervous yet? It is time to fire it up! No need to make your own 
- noises anymore it will do it for you. See I thought of everything.
+ noises anymore, the machine will do it for you. See, I thought of everything!
 ---
 
 ## Getting Started, cutting your strut plates
 
 At this point you should be able to power up and give your build a little test move. 
-Depending on how you are built you can use your Control screen, repetier host 
-or other software over USB, or over the air.
+Depending on how you're machine is built, you can use your control screen, repetier host, other software over USB, or over the air.
 
-Here is a quick over view of a [basic movement test](../software/#testing).
+Here is a quick overview of a [basic movement test](../software/#testing).
 
 
 #### Initial Squaring
 
-To square the machine you need to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the Rail. You will probably need to repeat this a couple times to get it under 1mm difference.
+To square the machine you need to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the rail. You will probably need to repeat this a couple times to get it under 1mm difference.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: loading=lazy width="400"}
 
- * I use tape so I can be sure I am using the correct mark.
+ * I use tape, so I can be sure I am using the correct mark.
  * Home the X and Y axis.
  * Use the Z axis to mark a small dot at 0,0.
 
@@ -770,7 +769,7 @@ To square the machine you need to mark 4 points and measure the diagonal. This i
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (83).jpg){: loading=lazy width="400"}
 
- * Drive to the Y Extreme and repeat the process for the back two corners.
+ * Drive to the Y extreme and repeat the process for the back two corners.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (84).jpg){: loading=lazy width="400"}
 
@@ -797,7 +796,7 @@ dots). Now Use "M500" to save it to the EEPROM. Re-home X and Y and test it agai
 
  * Home all three of your axis.
 
- * Touch plate - If you are using the Touch plate you probe by using G38.2 Z0. When it gets there take note of the current Z position. Then move it up and over to your X axis extreme and probe again, taking note of the Z axis position. Take the difference and adjust the side that moved furthest.
+ * Touch plate - If you are using the touch plate, you probe by using G38.2 Z0. When it gets there, take note of the current Z position. Then move it up and over to your X axis extreme and probe again, taking note of the Z axis position. Take the difference and adjust the side that moved furthest.
 
  * Feeler Gauge - You will drive your Z axis down until you just make contact with the touch plate and take note of the current Z axis position. Repeat this for the other end of the X axis. Take the difference and adjust the side that moved furthest.
 
@@ -811,8 +810,8 @@ dots). Now Use "M500" to save it to the EEPROM. Re-home X and Y and test it agai
 
 #### Making the Strut plates
 
-At this point you should be ready to make some cuts. To be certain it all goes as planned you can 
-make a test cut in High Density Foam, or simply making an air cut. To make an air cut you just home 
+At this point you should be ready to make some cuts. To be certain it all goes as planned, you can 
+make a test cut in high density foam, or simply making an air cut. To make an air cut you, just home 
 your machine above the table and run the gcode. This lets you watch that it moves as you would 
 expect it to and doesn't snag or have any faults in the code.
 
@@ -833,7 +832,7 @@ You will want to cut each plate as close to the side as you can to assure your b
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (90).jpg){: loading=lazy width="400"}
 
- * Secure the material, make sure your means will not interfere with the core as it passes over. I use screws with large heads.
+ * Secure the material and make sure your means will not interfere with the core as it passes over. I use screws with large heads.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (91).jpg){: loading=lazy width="400"}
 
