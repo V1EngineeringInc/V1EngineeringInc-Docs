@@ -138,7 +138,7 @@ Blank Box, DIY your own case, [Fusion 360 CADlink](https://www.printables.com/mo
 
 #### Strut Plates
 
-The Strut plates were designed to be up to 6.35mm (1/4") thick. Hardboard or any similarly rigid materials work best 
+The Three Strut plates were designed to be up to 6.35mm (1/4") thick. Hardboard or any similarly rigid materials work best 
 here.
 
 Here are the pre-made most common Strut Plate sizes.
@@ -817,7 +817,7 @@ expect it to and doesn't snag or have any faults in the code.
 
 Gcode making - TODO
 
-The strut plates should be 6.35mm (1/4") Or thinner MDF or similarly rigid material.
+The three strut plates should be 6.35mm (1/4") Or thinner MDF or similarly rigid material.
 You will want to cut each plate as close to the side as you can to assure your build has the rigidity to do so.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (88).jpg){: loading=lazy width="400"}
@@ -837,6 +837,7 @@ You will want to cut each plate as close to the side as you can to assure your b
 ![!LR3 Fancy Picture](../img/lr3/LR3 (91).jpg){: loading=lazy width="400"}
 
  * This is what a finished cut looks like. All parts are held in place with small tabs of material that can be cut with a saw or utility knife.
+ * Do this two more times.
 
 ---
 
