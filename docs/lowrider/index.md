@@ -159,7 +159,7 @@ Start with whichever CAD file is closest to your desired size and edit the first
 
 #### YZ Plates
 
-The YZ Plates can be nearly any thickness. Again here, rigidity is key. 1/2" (12mm) MDF is a great choice, plywood is even stiffer [CNC Kitchen](https://www.youtube.com/watch?v=chCmwSdQzcE&t=590). Much thicker than 
+The YZ Plates can be nearly any thickness. Again here, rigidity is key. 1/2" (12mm) MDF is a great choice, plywood is even stiffer (see [CNC Kitchen](https://www.youtube.com/watch?v=chCmwSdQzcE&t=590) ). Much thicker than 
 that and you will need to clearance some for the coupler. At 16.5mm and thicker you will need to counter bore for the M5 nuts
  or get longer screws.
 
