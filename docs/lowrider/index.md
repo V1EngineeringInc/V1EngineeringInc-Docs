@@ -32,8 +32,8 @@ align, and fully constrained rails do not allow for easy removal of the machine.
 
 * Width (X axis or "Beam") should always be the shorter axis.
 
-* The Z direction (height) is best kept to 80mm. This allows for 1.5" of cutting depth, that is a lot. If you need to cut more that 1.5" deep this is not 
-the CNC for you. Now if you need to cut a few millimeters off  really thick material (facing a slab), this can be a great machine for that. You want to keep the machine as low as possible and 
+* The Z direction (height) is best kept to 80mm. This allows for 1.5" of cutting depth, that is a lot. If you need to cut more than 1.5" deep this is not 
+the CNC for you. Now if you need to cut a few millimeters off really thick material (facing a slab), this can be a great machine for that. You want to keep the machine as low as possible and 
 make the table surface adjustable, drop table. This keeps the Material Removal Rate very high. The answer is not making a taller machine.
 
 * This router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines. So the lower the axis the more rigid the machine.
@@ -67,7 +67,7 @@ Thingiverse Printed parts files:
 
 Buy a set here, [V1 Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/lowrider-v3-printed-parts).
 
-Or print your own. No supoprts needed, keep the default orientation. PLA is recommended for ultimate rigidity, other 
+Or print your own. No supports needed, keep the default orientation. PLA is recommended for ultimate rigidity, other 
 filaments should be evaluated for rigidity. 2-3 walls rectilinear infill. Thicker layers since these are large parts, no 
 more than 80% nozzle diameter to keep overhangs working.
 
@@ -591,14 +591,14 @@ Belt block positions
  * Now go back and snug up the front clamps.
  * The key here is just lightly engaged, *There will be a gap*, and the rails will be able to spin if you try.
  * The clamps do not do very much other than account for slight rail size differences. Do not over tighten.
- * The only catch here is make sure the screw faces make contact and the nuts make contact with the printed part. It is possible to thread the screw in and the nuts not actually be all the way in, eventually they would loosen up. You can thread the screw all the way in and keep turing to lightly ream out the screw hole if needed before adding the nuts.
+ * The only catch here is make sure the screw faces make contact and the nuts make contact with the printed part. It is possible to thread the screw in and the nuts not actually be all the way in, eventually they would loosen up. You can thread the screw all the way in and keep turning to lightly ream out the screw hole if needed before adding the nuts.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (56).jpg){: loading=lazy width="400"}
 
  * Add the LR-Core to the beam and set the tension of the lower two bolts. 
  * Too loose and the core can move and you will hear bearings clicking on the rails.
  * Too tight and you will feel the LR-Core hesitate over each brace. More is not better here.
- * Typically little to no extra tension is needed and it is best just to seat the nuts gently.
+ * Typically, little to no extra tension is needed and it is best just to seat the nuts gently.
  * Last check is to make sure the X rails do not stick out further than the braces, at least on the bottom rail.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (57).jpg){: loading=lazy width="400"}
@@ -747,7 +747,7 @@ Belt block positions
 ## Getting Started, cutting your strut plates
 
 At this point you should be able to power up and give your build a little test move. 
-Depending on how you're machine is built, you can use your control screen, repetier host, other software over USB, or over the air.
+Depending on how your machine is built, you can use your control screen, repetier host, other software over USB, or over the air.
 
 Here is a quick overview of a [basic movement test](../software/#testing).
 
