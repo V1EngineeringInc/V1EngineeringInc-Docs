@@ -123,7 +123,7 @@ MPCNC Dual Endstops
 ![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: loading=lazy width="400"}
 
 LowRider Dual endstops
-![!LR3 endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/LR3_endstops.jpg){: loading=lazy width="400"}
+![!LR3 endstops](https://docs.v1engineering.com/img/LR3_endstops.jpg){: loading=lazy width="400"}
 
 !!! note
     Do not use the + (positive) pins or you will ruin your SKR Pro board unless you are running a different project with powered endstops.
