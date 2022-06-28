@@ -67,14 +67,6 @@ Depending on what you are plugging in you can take them off the end stops and or
 We have a few options for how the steppers get connected to this board. Here are the three most
 common ways we might use it.
 
-### Series
-
-The standard LowRider and MPCNC options are to use series wiring. This combines two steppers on the
-same driver. This increases the voltage demand and not the current. We have an abundance of
-available voltage. The board is labeled, and we will be using X, Y, and Z.
-
-![!Series](https://www.v1engineering.com/wp-content/uploads/2020/07/Series-skr-labels-scaled.jpg){: loading=lazy width="400"}
-
 ### Dual End Stops (EXTRUDERS=0)
 
 If the firmware is set for EXTRUDERS=0 then E0 becomes X2 and E1 becomes Y2. (or LR would be E0=Y2
@@ -82,11 +74,19 @@ E1=Z2)
 
 ![!dual 0](https://www.v1engineering.com/wp-content/uploads/2020/07/dual2-scaled.jpg){: loading=lazy width="400"}
 
-### Dual End Stops (EXTRUDERS=1)
+### Dual End Stops (EXTRUDERS=1 -OLD-)
 
 For EXTRUDERS=1 E0 is used and then E1 becomes X2 and E2 become Y2. (or LR would be E1=Y2 and E2=Z2)
 
 ![!dual 1](https://www.v1engineering.com/wp-content/uploads/2020/07/Dual-Ex-1-scaled.jpg){: loading=lazy width="400"}
+
+### Series (-OLD- or 4 driver boards)
+
+The standard LowRider and MPCNC options are to use series wiring. This combines two steppers on the
+same driver. This increases the voltage demand and not the current. We have an abundance of
+available voltage. The board is labeled, and we will be using X, Y, and Z.
+
+![!Series](https://www.v1engineering.com/wp-content/uploads/2020/07/Series-skr-labels-scaled.jpg){: loading=lazy width="400"}
 
 ### Reversing a stepper
 
@@ -119,7 +119,11 @@ All the V1 firmware is ready for a touch plate. Easy as plugging into the Z min 
 If you are running the dual endstop firmware you will need to have your endstops wired in Normally
 Closed (NC). You will plug into the Signal and Ground pins, **Do not use the + pins.**
 
+MPCNC Dual Endstops
 ![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: loading=lazy width="400"}
+
+LowRider Dual endstops
+![!LR3 endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/LR3_endstops.jpg){: loading=lazy width="400"}
 
 !!! note
     Do not use the + (positive) pins or you will ruin your SKR Pro board unless you are running a different project with powered endstops.
@@ -131,11 +135,12 @@ placing some files directly on the memory card and rebooting them.
 
 ### SKR Bin
 
-You have three options of firmware for the exact board, driver, screen package as sold in the V1 store.
+You have options of firmware for the exact board, driver, screen package as sold in the V1 store.
 
 * V1CNC_SkrPro_2209-****** Ready for series wiring on any CNC build.
 * V1CNC_SkrPro_Dual_2209-****** Ready for dual end stops on an MPCNC (X & Y axes).
 * V1CNC_SkrPro_DualLR_2209-****** Ready for dual end stops on a LowRider CNC (Y & Z axes).
+
 
 When you unzip the file you have a .bin file. Rename to FIRMWARE.bin and save it to the MicroSD for the SKR Pro board. Make sure to unplug both grey exp1/2 cables for the screen before proceeding. Insert the MicroSD back into the control board, reset, and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). 
 
