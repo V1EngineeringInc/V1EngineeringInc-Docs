@@ -687,6 +687,7 @@ Belt block positions
  * Wire routing is pretty free form with lots of options. Here is how I do it.
  * If you have not cut your strut plates yet you will have a chance to revisit the wiring or you can route it so you do not have to remove it at all.
  * Labeling your wires is great idea.
+ * For more specific wiring info please see the "Control" tab in the main menu, and then select your board.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (71).jpg){: loading=lazy width="400"}
 
