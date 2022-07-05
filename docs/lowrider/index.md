@@ -336,7 +336,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (10).jpg){: loading=lazy width="400"}
 
- * Assure the pulley in centered with the idlers when assembled.
+ * Assure the pulley is centered with the idlers when assembled.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (11).jpg){: loading=lazy width="400"}
 
@@ -467,16 +467,16 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (35).jpg){: loading=lazy width="400"}
 
- * You will need to add two M5's to the holes shown here. Actually, you only need the lower two, but just to be safe drop them all in for now.
- * Use the small wood screws to attach the rails to the YZ plate.
-
+ * You will need to add three M5's to the holes shown here. Actually, you only need the lower two, but just to be safe drop them all in for now.
+ 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (36).jpg){: loading=lazy width="400"}
 
- * Start attaching the rails in the middle, one screw each. Loosely.
- * Once you have a screw in each rail you can remove the stops.
- * Keep adding screws and checking for smooth motion as you go.
- * The hole in the XZ plate is there to let you access the middle screw.
- * If all is going well, snug up the screws into the wood. Gentle here. Do not strip out the wood. It doesn't take much.
+ * Use the small wood screws to attach the rails to the YZ plate.
+   * Start attaching the rails in the middle, one screw each. Loosely.
+   * Once you have a screw in each rail you can remove the stops.
+   * Keep adding screws and checking for smooth motion as you go.
+   * The hole in the XZ plate is there to let you access the middle screw.
+ * If all is going well, snug up the wood screws into the YZ plate. Gentle here. Do not strip out the MDF/wood.  It doesn't take much.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (37).jpg){: loading=lazy width="400"}
 
@@ -487,10 +487,9 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (38).jpg){: loading=lazy width="400"}
 
- * Z Stop & Z Stop M
+ * Attach Z Stop & Z Stop M parts with M5 screws and nuts.
  * Test to make sure the micro switch clicks before the XZ plate hits the top.
- * If not, the printed parts are slotted and you can bend the triggers to adjust. 
- Bend after the actual tiny trigger.
+ * If not, the printed parts are vertically slotted to allow Z stop to raise/lowered, and/or can bend the triggers to adjust.  IF bending, ensure the switches tiny trigger still functions and bend the arm at the kinky end.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (39).jpg){: loading=lazy width="400"}
 
@@ -501,7 +500,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (40).jpg){: loading=lazy width="400"}
 
- * Insert the Y drive. It goes in with a 90 degree twist. Should be plenty of room just.
+ * Insert the Y drive. It goes in with a 90 degree twist. Should be plenty of room when XZ plate is moved aside, just.  Caution: XZ plate doubles as a finger guillotine as the assembly weight increases throughout the build.
  * Make sure the endstop wires are free moving.
  * Snug the screws.
 
@@ -555,7 +554,7 @@ Belt block positions
 #### Beam Assembly
 
  * If you already have your strut plates cut, use this as a loose guide. 
- * Install the plates loosely at first to get everything aligned then go back and snug them all up. Install the plates in this order; front (clamping), bottom, back (with hose guides if using them).
+ * Install the strut plates loosely at first to get everything aligned then go back and snug them all up. Install the strut plates in this order; front face (with top and bottom rail clamping), bottom, and sloped back (with the optional vac hose hangers).
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (49).jpg){: loading=lazy width="400"}
 
@@ -574,11 +573,11 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (53).jpg){: loading=lazy width="400"}
 
- * Loosely add the rest of the front Screws.
+ * Loosely add the rest of the front screws, lightly engaging the Nyloc just so they do not fall out while making these first cuts.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (54).jpg){: loading=lazy width="400"}
 
- * Very loosely add the bottom screws, lightly engaging the Nyloc just so they do not fall out while making these first cuts.
+ * Very loosely add the bottom screws, again, lightly engaging the Nyloc.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (55).jpg){: loading=lazy width="400"}
 
