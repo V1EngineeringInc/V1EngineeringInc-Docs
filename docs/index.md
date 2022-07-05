@@ -57,7 +57,7 @@ Ryan Zellars (allted, vicious1) - Jeff Eberl (jeffeb3) - Mark Frost (fr0sty1) - 
 Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett - Ian (ianj001) - Gene Merritt
 (merrittgene) - Kenny (techguy682) - geechorama (?) - Adam Reineke (AdamTReineke) - Dan Roscigno
 (droscigno) - Dan Fontanesi - Kevin Selavko (kselavko) - Ryan Connolly (rynam0) - Clark Stephens
-(clarkspeed) - Thijs Triemstra (thijstriemstra)
+(clarkspeed) - Thijs Triemstra (thijstriemstra) - Aaron Sethi (aaronse)
 
 Special thanks to;
 The Primo test crew. Without you fellas Primo would not be the absolute beast that it is!
