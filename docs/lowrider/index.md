@@ -489,7 +489,7 @@ Belt block positions
 
  * Attach Z Stop & Z Stop M parts with M5 screws and nuts.
  * Test to make sure the micro switch clicks before the XZ plate hits the top.
- * If not, the printed parts are vertically slotted to allow Z stop to raise/lowered, and/or can bend the triggers to adjust.  IF bending, ensure the switches tiny trigger still functions and bend the arm at the kinky end.
+ * If not, the printed parts are vertically slotted to allow Z stop height to be adjusted, and/or can bend the microswitch arm to adjust.  IF bending, ensure the switch's tiny trigger still functions, so, bend the arm at the kinky end.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (39).jpg){: loading=lazy width="400"}
 
