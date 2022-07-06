@@ -627,7 +627,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (61).jpg){: loading=lazy width="400"}
 
- * For the X tensioner, side you loop the belt through and set the length.
+ * For the X tensioner, insert belt through the side, then loop around and back on itself (out the side again) to set the length.
  * If you have a hard time getting this right, you can draw a little line on the top of your belt to see which way you need to go. Each tooth is two millimeters (1/16"), so it is very easy to adjust.
  * Make sure to seat the nut into the tensioner.
 
