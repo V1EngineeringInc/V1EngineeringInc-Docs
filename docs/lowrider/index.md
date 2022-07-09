@@ -681,6 +681,10 @@ Belt block positions
 
 #### Wire Routing
 
+[SKR Pro Info](../electronics/skrpro.md)
+
+[Rambo / Mini Info](../electronics/ultimachine.md)
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (70).jpg){: loading=lazy width="400"}
 
  * Wire routing is pretty free form with lots of options. Here is how I do it.
@@ -824,10 +828,14 @@ make a test cut in high density foam, or simply making an air cut. To make an ai
 your machine above the table and run the gcode. This lets you watch that it moves as you would 
 expect it to and doesn't snag or have any faults in the code.
 
+[Basic software setup](../software/estlcam-basics.md)
+
+[Basic CAM settings](../tools/milling-basics.md)
+
 Gcode making - TODO
 
-The three strut plates should be 6.35mm (1/4") Or thinner MDF or similarly rigid material.
-You will want to cut each plate as close to the side as you can to assure your build has the rigidity to do so.
+The three strut plates should be 6.35mm (1/4") or thinner MDF or similarly rigid material.
+You will want to cut each plate as close to the side of your build as you can to assure your build has the rigidity to do so.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (88).jpg){: loading=lazy width="400"}
 
