@@ -756,6 +756,15 @@ Here is a quick overview of a [basic movement test](../software/#testing).
 
 To square the machine you need to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the rail. You will probably need to repeat this a couple times to get it under 1mm difference.
 
+You can cable tie a pen to the vacuum mount as shown below, or here is a pen mount that fits on most router bodies. [V1 Printables](https://www.printables.com/model/237997-basic-lr3-pen-mount)
+
+You can also automate this process with Jamie's ["Squareness Marks"](https://vector76.github.io/gcode_tpgen/) test. 
+ * Start with G92 X0 Y0 Z0 - Check this box and where the pen tip is will be 0,0,0. I suggest starting the pen just above the paper.
+ * Z level for pen-down - Make this number more negative if you find some of your marks are not hitting the paper, but you want as light a touch as possible.
+ * Z level for pen-up - You can go as high as you need to not drag the pen tip.
+ * Feedrate - This is set at a safe travel rate.
+ * Extents - This is where you set the dimensions of your table. The further apart the marks the more accurate your table will be.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: loading=lazy width="400"}
 
  * I use tape, so I can be sure I am using the correct mark.
