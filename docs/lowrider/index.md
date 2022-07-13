@@ -281,6 +281,7 @@ Belt block positions
 
 [Calculator for table, rail, and belt lengths.](calculator.md)
 
+Example [Quick and Dirty Table](https://www.v1engineering.com/table), good starter for smaller builds, but not suitable for full panel 4x8 builds.
 
 ## Assembly
 
