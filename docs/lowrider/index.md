@@ -605,6 +605,7 @@ Belt block positions
  * You can add the side plates using the 6 screws.
  * Snug these up.
  * Make sure both sides move up and down pretty freely, as long as gravity pulls them all The way down you are good to go here.
+ * Measure the heel and toe distances across your machine, make sure they are equal. If not adjust the end clamps.
  * Best practice is to make robot noises while you move it up and down (feel free to tag me in your video when you do #V1LR3).
 
 ---
@@ -871,6 +872,9 @@ You will want to cut each plate as close to the side of your build as you can to
 #### Final Assembly
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (98).jpg){: loading=lazy width="400"}
+
+* Measure the heel and toe distances across your machine, make sure they are equal. If not adjust the end clamps. Problems can arrise if your rails are too long after you install the strut plates.
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (99).jpg){: loading=lazy width="400"}
 ![!LR3 Fancy Picture](../img/lr3/LR3 (100).jpg){: loading=lazy width="400"}
 ---
