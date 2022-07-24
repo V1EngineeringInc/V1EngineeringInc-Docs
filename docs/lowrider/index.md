@@ -110,7 +110,7 @@ more than 80% nozzle diameter to keep overhangs working.
  The bearings should be more precise and make for a more forgiving build. [Wheels](https://shop.v1engineering.com/collections/lowrider-parts/products/urethane-wheels) 
  [Spacers](https://shop.v1engineering.com/collections/all/products/axle-spacers)
 
- * Brace note-  Print the end two braces with 50% infill and the rest with 30%. 2' wide builds need 6 total,
+ * Brace note-  Print the end two braces with 50% infill and oriented so you can have the top facing out on each end, and the rest with 30%. 2' wide builds need 6 total,
  4 foot versions need 8 total. One every 200mm (8") or less. Recommended US 3/4" EMT = 23.4mm = Brace 23p4 that is the suggested size for US based builds.
 
  * XZ Note- Can be a flat part. Milled or Purchased. If you do use a flat part you will need to print both "XZ Leadscrew Stub Right" and "XZ Leadscrew Stub". These also need 70% infill.
