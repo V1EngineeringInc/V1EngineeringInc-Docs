@@ -2,6 +2,8 @@
 
 ![!mp3dp repeat](../img/repeat/Repeats.png)
 
+**Updated version nearing completion, [forum thread](https://forum.v1engineering.com/t/repeat-v2/33330/55).**
+
 This is the MP3DP -Repeat- __Milled/Printed 3D Printer "Repeat"__.  This can be a fun project 
 to use your new CNC mill for. This is my take on a CoreXY 3D printer, with a CNC mill friendly
 frame, or even a 20 series extrusion frame, options! 
@@ -189,7 +191,7 @@ this license for now [Creative Commons License](http://creativecommons.org/licen
 under a Creative Commons Attribution-ShareAlike 4.0 International License. For now. 
 
 **I learned Fusion360 for this project so you can have the actual CAD to edit. Please be nice, I know I made a lot of 
-mistakes early on but it does work. As I progress and edit files I am fixing any early mistakes I made.
+mistakes early on but it does work. As I progress and edit files I am fixing any early mistakes I made.**
 
 Notes for making adjustments...and working through any subsequent CAD errors.
 - How to resize X axis ... 
