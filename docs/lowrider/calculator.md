@@ -1,7 +1,8 @@
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script>
-  // TODO: Move content to Repo/Website managed by https://www.v1engineering.com
-  var strutUrlTemplate = "https://raw.githubusercontent.com/aaronse/v1engineering-mods/main/lowrider3/strut-plate-variable/{folder}/lr3-strut-plate-variable_{len}.svg";
+  // Base URL template for Strut SVG files. 
+  var strutUrlTemplate = "https://docs.v1engineering.com/lowrider/lr3_strut/{folder}/lr3-strut-plate-variable_{len}.svg";
+  var strutSvgFolderPrefix = "svg_";
 </script>
 
 # LowRider v3 Size Calculator
@@ -221,7 +222,7 @@ function download_svg()
   var units = $("input[name=units]:checked").val();
   var xrailsMetric = (units == "mm") ? xrails : xrails * 25.4; 
 
-  var folder = (xrailsMetric < 1000) ? "out_0" : "out_1";
+  var folder = strutSvgFolderPrefix + ((xrailsMetric < 1000) ? "0" : "1" );
   var strutUrl = strutUrlTemplate
     .replace("{folder}", folder)
     .replace("{len}", Math.round(xrailsMetric));
