@@ -1,4 +1,8 @@
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script>
+  // TODO: Move content to Repo/Website managed by https://www.v1engineering.com
+  var strutUrlTemplate = "https://raw.githubusercontent.com/aaronse/v1engineering-mods/main/lowrider3/strut-plate-variable/{folder}/lr3-strut-plate-variable_{len}.svg";
+</script>
 
 # LowRider v3 Size Calculator
 
@@ -42,9 +46,17 @@ Printed Plates are 9.5mm (0.374"), Shop Aluminum plates are 6.35mm (0.25").
 #### Belt Dimensions
 |Length (<span class="units">mm</span>)| Qty | Name |
 |--------------------------------------|-----|------|
-|<span name="xbelts"    ></span>|1|belt length along x|
-|<span name="ybelts"    ></span>|2|belt length along y|
+|<span name="xbelts"    ></span>|1|Belt length along X|
+|<span name="ybelts"    ></span>|2|Belt length along Y|
 |<span name="belt_total"></span>|**total length**| belts (all 3)|
+
+#### Struts
+Length (<span class="units">mm</span>)|Qty|Name|
+|-------------------------------------|---|----|
+|<span name="strut"     ></span>|3|Strut length (same as Tube Length)|
+
+<button class="downloadSvg" onclick="download_svg()">Download Strut .SVG</button>
+
 
 #### Table Size
 
@@ -53,10 +65,11 @@ you will be pushing it up against a wall or in a corner.
 
 |Length (<span class="units">mm</span>)| Name |
 |--------------------------------------|------|
-|<span name="xtable"></span>|x table size (width)|
-|<span name="ytable"></span>|y table size (length)|
+|<span name="xtable"></span>|X table size (width)|
+|<span name="ytable"></span>|Y table size (length)|
 
 <script>
+
 
 function get_unit_convert() {
   // Get the currently chosen units.
@@ -180,7 +193,7 @@ function from_working() {
 
   var xrails = xwork + offsets.xrail_core;
   var yrail = ywork + offsets.yrail_minus_work;
-  
+
   var xbelts = xwork + offsets.xrail_core + offsets.xbelt_extra;
   var ybelts = yrail + offsets.ybelt_extra;
   var belt_total = 1*xbelts + 2*ybelts;
@@ -196,6 +209,27 @@ function from_working() {
   $("span[name=xzplate]").text(clip(xzplate));
   $("span[name=xtable]").text(clip(xtable));
   $("span[name=ytable]").text(clip(ytable));
+  $("span[name=strut]").text(clip(xrails));
+}
+
+function download_svg()
+{
+  var offsets = get_offsets();
+  var xwork = parseFloat($("input[name=xwork]").val());
+  var xrails = xwork + offsets.xrail_core;
+
+  var units = $("input[name=units]:checked").val();
+  var xrailsMetric = (units == "mm") ? xrails : xrails * 25.4; 
+
+  var folder = (xrailsMetric < 1000) ? "out_0" : "out_1";
+  var strutUrl = strutUrlTemplate
+    .replace("{folder}", folder)
+    .replace("{len}", Math.round(xrailsMetric));
+
+  window.open(
+    strutUrl,
+    '_blank'
+  );
 }
 
 // Set these up the first time.
