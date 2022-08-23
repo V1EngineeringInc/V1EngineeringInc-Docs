@@ -9,15 +9,15 @@ The Mostly Printed CNC (MPCNC) is a platform to precisely control motion. This c
 
 All components are easily sourced, or you can buy the parts from this site. Here is a price breakdown.
 
-* The [Bundle](https://shop.v1engineering.com/collections/parts/products/mostly-printed-cnc-parts-bundle-primo-version) has all the hardware, electronics, and control board, everything except the [conduit/rails](https://docs.v1engineering.com/mpcnc/calculator/) which are cheaper to source locally than to ship – $305 + shipping if international.
+* The [Bundle](https://shop.v1engineering.com/collections/parts/products/mostly-printed-cnc-parts-bundle-primo-version) has all the hardware, electronics, and control board, everything except the [conduit/rails](https://docs.v1engineering.com/mpcnc/calculator/) which are cheaper to source locally than to ship – $353 + shipping if international.
 * 20′ of [Conduit](https://docs.v1engineering.com/mpcnc/calculator/) **≈\$12** (or stainless-steel tubing or DOM Tubing for a little more ≈\$65) .
 * Plastic parts, filament, less than 2 spools **≈\$35** if you own a 3D printer. If not, buy the printed parts from [here](https://shop.v1engineering.com/collections/parts) for $165.
 * Tool. Either a [Dewalt](https://amzn.to/1MoBSQq), [import spindle](https://amzn.to/3dkKgl0) or an [extruder](https://amzn.to/37ZjygN) (3D Printer) $63, or anything else you might want to bolt on, [laser](https://amzn.to/37OcdQK), [drag knife](https://shop.v1engineering.com/collections/parts/products/drag-knife-vinyl-cutter), foam cutting needle (awesome), etc.
 
-Total Cost… if you have a 3D printer Under $418, $547 if you buy the printed parts from here.
+Total Cost… if you have a 3D printer Under $465, $595 if you buy the printed parts from here.
 
 
-I would like to drive that price home one more time. You can have a CNC router for precision work ([here](https://forum.v1engineering.com/t/mrrf-2018-ideas/7112/55), [here](https://forum.v1engineering.com/t/pcb-examples/4015/27) all the way up to [aluminum milling](https://forum.v1engineering.com/t/lionkevs-aluminum-attempts/6047/101?u=vicious1) and [plasma cutting](https://forum.v1engineering.com/t/plasma-build/5662) steel for under $550. That is all you need to spend, throw in a few endmills and you are still under $600.  **There is no other machine more versatile than the Mostly Printed CNC at any price point.**
+I would like to drive that price home one more time. You can have a CNC router for precision work ([here](https://forum.v1engineering.com/t/mrrf-2018-ideas/7112/55), [here](https://forum.v1engineering.com/t/pcb-examples/4015/27) all the way up to [aluminum milling](https://forum.v1engineering.com/t/lionkevs-aluminum-attempts/6047/101?u=vicious1) and [plasma cutting](https://forum.v1engineering.com/t/plasma-build/5662) steel for under $600. That is all you need to spend, throw in a few endmills and you are still under $620.  **There is no other machine more versatile than the Mostly Printed CNC at any price point.**
 
 
 ## Specs…
