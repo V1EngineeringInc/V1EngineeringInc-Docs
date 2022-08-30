@@ -56,7 +56,7 @@ Length (<span class="units">mm</span>)|Qty|Name|
 |-------------------------------------|---|----|
 |<span name="strut"     ></span>|3|Strut length (same as Tube Length)|
 
-<button class="downloadSvg" onclick="download_svg()">Download Strut .SVG</button>
+<button class="download" onclick="download_svg()">Download Strut .SVG</button>
 
 
 #### Table Size
@@ -220,7 +220,7 @@ function download_svg()
   var xrails = xwork + offsets.xrail_core;
 
   var units = $("input[name=units]:checked").val();
-  var xrailsMetric = (units == "mm") ? xrails : xrails * 25.4; 
+  var xrailsMetric = (units == "mm") ? xrails : (Math.round(xrails * 25.4 * 0.1) / 0.1);
 
   var folder = strutSvgFolderPrefix + ((xrailsMetric < 1000) ? "0" : "1" );
   var strutUrl = strutUrlTemplate

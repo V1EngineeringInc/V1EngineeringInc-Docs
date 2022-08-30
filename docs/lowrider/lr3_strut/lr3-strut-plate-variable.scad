@@ -1,4 +1,4 @@
-﻿// Slightly modified version of Jamie's script intended to be called via 
+// Slightly modified version of Jamie's script intended to be called via 
 // OpenSCAD's commandline based automation.
 
 // Jamie's original script:
@@ -79,4 +79,4 @@ module keyhole(xpos=7.5) {
 }
 
 // for comparison against reference
-// %import("../3rd_party/lowrider-3-cnc-model_files/Strut Plate 790mm.svg");
+//%import("lowrider-3-cnc-model_files/Strut Plate 790mm.svg");
