@@ -143,14 +143,14 @@ here.
 
 Here are the pre-made most common Strut Plate sizes.
 
-[4' Strut PLate Plate DXF](../img/lr3/Strut Plate 1400mm.dxf)
+[4' Strut Plate DXF](../img/lr3/Strut Plate 1400mm.dxf)
 
-[4' Strut PLate Plate CAD/Fusion360](https://a360.co/34F4cAL)
+[4' Strut Plate CAD/Fusion360](https://a360.co/34F4cAL)
 
 
-[2' Strut plate Plate DXF](../img/lr3/Strut Plate 790mm.dxf)
+[2' Strut Plate DXF](../img/lr3/Strut Plate 790mm.dxf)
 
-[2' Strut PLate Plate CAD/Fusion360](https://a360.co/3CrRkKw)
+[2' Strut Plate CAD/Fusion360](https://a360.co/3CrRkKw)
 
 If you choose to adjust these to fit your build the only thing to know is you want no more than 200mm (8") between the braces.
 Start with whichever CAD file is closest to your desired size and edit the first sketch.
