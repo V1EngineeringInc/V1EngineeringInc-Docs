@@ -152,8 +152,8 @@ Here are the pre-made most common Strut Plate sizes.
 
 [2' Strut Plate CAD/Fusion360](https://a360.co/3CrRkKw)
 
-If you choose to adjust these to fit your build the only thing to know is you want no more than 200mm (8") between the braces.
-Start with whichever CAD file is closest to your desired size and edit the first sketch.
+For other Strut Plate sizes, use [Calculator](calculator.md), enter your build dimensions, then click on _Download Strut .SVG_ link.  
+IF you're custom designing a Strut for some reason (for [example](https://github.com/aaronse/v1engineering-mods/tree/main/lowrider3/front-grill-strut)), ensure no more than 200mm (8") between the braces.
 
 ![Strut Edit Picture](../img/lr3/strut edit.jpg){: loading=lazy width="600"}
 
