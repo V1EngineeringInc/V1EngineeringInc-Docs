@@ -55,8 +55,7 @@ Printed Plates are 9.5mm (0.374"), Shop Aluminum plates are 6.35mm (0.25").
 Length (<span class="units">mm</span>)|Qty|Name|
 |-------------------------------------|---|----|
 |<span name="strut"     ></span>|3|Strut length (same as Tube Length)|
-
-<button class="download" onclick="download_svg()">Download Strut .SVG</button>
+<button class="download" onclick="download_svg()">Download <span name="strut2" ></span>mm Strut .SVG</button>
 
 
 #### Table Size
@@ -211,6 +210,7 @@ function from_working() {
   $("span[name=xtable]").text(clip(xtable));
   $("span[name=ytable]").text(clip(ytable));
   $("span[name=strut]").text(clip(xrails));
+  $("span[name=strut2]").text(clip(xrails));  
 }
 
 function download_svg()
