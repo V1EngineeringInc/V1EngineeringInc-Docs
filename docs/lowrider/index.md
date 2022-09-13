@@ -105,9 +105,9 @@ more than 80% nozzle diameter to keep overhangs working.
 [xz1]: https://shop.v1engineering.com/products/lowrider-3-metal-xz-plates
 [yz1]: https://shop.v1engineering.com/collections/lowrider-parts/products/lowrider-cnc-v3-yz-plates
 
- * Optional Version- You can use 58-62mm X 25mm with the option brackets. The wheels might provide for a smoother rider over 
- a rough table or debris with the downside being a bit of "give" and the possibility of the Wheels steering a non parallel build. 
- The bearings should be more precise and make for a more forgiving build. [Wheels](https://shop.v1engineering.com/collections/lowrider-parts/products/urethane-wheels) 
+ * Optional Version- You can use 58-62mm X 25mm urethane wheels with the optional brackets. The urethane wheels might provide for a smoother ride over 
+ a rough table or debris with the downside being a bit of "give" and the possibility of the wheels steering a non parallel build. 
+ The bearings are preferred, should be more precise and make for a more forgiving build. [Wheels](https://shop.v1engineering.com/collections/lowrider-parts/products/urethane-wheels) 
  [Spacers](https://shop.v1engineering.com/collections/all/products/axle-spacers)
 
  * Brace note-  Print the end two braces with 50% infill and oriented so you can have the top facing out on each end, and the rest with 30%. 2' wide builds need 6 total,
@@ -522,7 +522,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (43).jpg){: loading=lazy width="400"}
 
- * Optional Wheel brackets [Link](https://www.printables.com/model/211714-lr3-60mm-wheel-brackets)
+ * Optional Urethane Wheel brackets [Link](https://www.printables.com/model/211714-lr3-60mm-wheel-brackets)
  * Use spacers to prevent over tightening 
  * Seat the bolt, but no need to over-snug it.
 
