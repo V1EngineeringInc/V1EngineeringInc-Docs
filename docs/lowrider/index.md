@@ -34,7 +34,7 @@ align, and fully constrained rails do not allow for easy removal of the machine.
 
 * The Z direction (height) is best kept to 80mm. This allows for 1.5" of cutting depth, that is a lot. If you need to cut more than 1.5" deep this is not 
 the CNC for you. Now if you need to cut a few millimeters off really thick material (facing a slab), this can be a great machine for that. You want to keep the machine as low as possible and 
-make the table surface adjustable, drop table. This keeps the Material Removal Rate very high. The answer is not making a taller machine.
+make the table surface adjustable by using something like a drop table. This keeps the Material Removal Rate very high. The answer is not making a taller machine.
 
 * This router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines. So the lower the axis the more rigid the machine.
 
