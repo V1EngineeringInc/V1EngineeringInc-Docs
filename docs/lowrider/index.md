@@ -113,11 +113,11 @@ more than 80% nozzle diameter to keep overhangs working.
  * Brace note-  Print the two left and right end braces with 50% infill and oriented so you can have the top facing out on each end, and the rest with 30% infill. 2' wide builds need 6 total,
  4 foot versions need 8 total. One every 200mm (8") or less. 
  There are three different brace sizes provided - `Brace 25.3mf`, `Brace 25p4.3mf`, and `Brace 23p4.3mf` which correspond to the diameter of the X rail in millimeters. 
- For US based builds, the recommended X rail size is US 3/4" EMT conduit which has a diameter equal to 23.4mm, so print the `Brace 23p4` parts for this size X rail. 
+ For US based builds, the recommended X rail size is US 3/4" EMT conduit which has a diameter equal to 23.4mm, so print the `Brace 23p4.3mf` parts for this size X rail. 
 
- * XZ Note- Can be a flat part. Milled or Purchased. If you do use a flat part you will need to print both `XZ Leadscrew Stub Right` and `XZ Leadscrew Stub`. These also need 70% infill.
+ * XZ Note- Can be a flat part. Milled or Purchased. If you do use a flat part you will need to print both `XZ Leadscrew Stub Right.3mf` and `XZ Leadscrew Stub.3mf`. These also need 70% infill.
 
- * Rail Block note- You want these with no larger than 200mm (8") or less gap between them. Recommended US 1/2" EMT = 18.1mm = Rail Block 18p1.3mf. You will need 8 for a 4' build and 14 for a 8' build.
+ * Rail Block note- You want the gap between these to be no larger than 200mm (8") or less. You will need 8 for a 4' build and 14 for a 8' build. There are three different rail block sizes provided - `Rail block 18p1.3mf`, `Rail block 23p4.3mf`, and `Rail block 25p4.3mf` which correspond to the diameter of the Y rail in millimeters. For US based builds, the recommended Y rail size is US 1/2" EMT conduit which has a diameter equal to 18.1mm, so print the `Rail Block 18p1.3mf` parts for this size Y rail. 
 
 
 ### Tool Mounts
