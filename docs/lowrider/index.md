@@ -544,7 +544,7 @@ Belt block positions
 
  * Insert the bearings, and seat the bolts.
  * No need to snug as these are just axles.
- * Bolt orientation is important here. One bolt is facing up and the nuts is tricky to slide into the top.
+ * Bolt orientation is important here. One bolt is facing up and the nuts are tricky to slide into the top.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (48).jpg){: loading=lazy width="400"}
 
