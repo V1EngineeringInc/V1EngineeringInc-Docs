@@ -1,8 +1,13 @@
-# MP3DP -Repeat-
+# MP3DP v4 CoreXY
+
+More details to come, **Updated version nearing completion, [forum thread](https://forum.v1engineering.com/t/repeat-v2/33330/55).**
+Here is the [CAD link](https://forum.v1engineering.com/t/repeat-v2/33330/85?u=vicious1).
+
+
+# Old Version -Repeat-
 
 ![!mp3dp repeat](../img/repeat/Repeats.png)
 
-**Updated version nearing completion, [forum thread](https://forum.v1engineering.com/t/repeat-v2/33330/55).**
 
 This is the MP3DP -Repeat- __Milled/Printed 3D Printer "Repeat"__.  This can be a fun project 
 to use your new CNC mill for. This is my take on a CoreXY 3D printer, with a CNC mill friendly
