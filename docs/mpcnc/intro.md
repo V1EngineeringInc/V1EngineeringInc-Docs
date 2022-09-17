@@ -17,23 +17,23 @@ All components are easily sourced, or you can buy the parts from this site. Here
 Total Cost… if you have a 3D printer Under $465, $595 if you buy the printed parts from here.
 
 
-I would like to drive that price home one more time. You can have a CNC router for precision work ([here](https://forum.v1engineering.com/t/mrrf-2018-ideas/7112/55), [here](https://forum.v1engineering.com/t/pcb-examples/4015/27) all the way up to [aluminum milling](https://forum.v1engineering.com/t/lionkevs-aluminum-attempts/6047/101?u=vicious1) and [plasma cutting](https://forum.v1engineering.com/t/plasma-build/5662) steel for under $600. That is all you need to spend, throw in a few endmills and you are still under $620.  **There is no other machine more versatile than the Mostly Printed CNC at any price point.**
+I would like to drive that price home one more time. You can have a CNC router for all sorts of work ([here](https://forum.v1engineering.com/tag/gallery-mpcnc), or the full sheet version[here](https://forum.v1engineering.com/tag/gallery-lowrider-cnc) all the way up to [aluminum milling](https://forum.v1engineering.com/t/lionkevs-aluminum-attempts/6047/101?u=vicious1) and [plasma cutting](https://forum.v1engineering.com/t/plasma-build/5662) steel for under $600). That is all you need to spend, throw in a few endmills and you are still under $620.  **There is no other machine more versatile than the Mostly Printed CNC at any price point.**
 
 
 ## Specs…
 
-Not easy to make a specs page when it can have almost any specs you want. The idea behind this is to be extremely adaptable and inexpensive. Why buy a single use machine when you can have one that does it all for less than the cost of any single function machine. No proprietary hardware or software, build it any size and shape you want (more on this later), buy it from this site or source it all yourself, helpful forums, low cost, and capable. What more could you ask for?
+Not easy to make a specs page when it can have almost any specs you want. The idea behind this is to be extremely adaptable, easy to self source, and inexpensive. Why buy a single use machine when you can have one that does it all for less than the cost of any single function machine. No proprietary hardware or software, build it any size and shape you want (more on this later), buy it from this site or source it all yourself, helpful forums, low cost, and capable. What more could you ask for?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qJfYTv88YvI"
   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
   clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
-This machine can easily do many things, how about making some coffee with Apach…(not me but I think he is my new hero).
+Have a look at this video from 2016. Keep in mind we have evolved considerably since then.
 
  
 ## Size
 
-- All axes can be any length you prefer, anything over 3 1/2′ (1M) would require small mid-span supports to increase rigidity, of course smaller is better.  The kit comes with enough belt for up to 48″ of total outer X and Y axis dimensions (eg 24″x24″, 36″x12″ or any other combination).
+- All axes can be any length you prefer, anything over ~3′ (1M) would be best to start with a LowRider CNC, of course smaller is better.  The kit comes with enough belt for up to 48″ of total outer X and Y axis dimensions (eg 24″x24″, 36″x12″ or any other combination).
 
 - The smaller you make this the faster you can move it and the more rigid/accurate it will be, and more importantly the easier it will be to get the desired accuracy.
 
@@ -41,32 +41,37 @@ This machine can easily do many things, how about making some coffee with Apach�
  
 ## Power
 
-- X and Y axis are powered by 2 stepper motors each, and a single stepper for the Z axis. The standard would be NEMA 17 in any torque preferably 42 OZ/in and above (the kit comes with 76 OZ/in). No need for NEMA 23’s or their required larger drivers,  torque is not one of this machines issues.
+- X and Y axis are powered by 2 stepper motors each, and a single stepper for the Z axis. The standard would be NEMA 17 in any torque preferably 42 OZ/in and above (the kit comes with 76 OZ/in +). No need for NEMA 23’s or their required larger drivers,  torque is not one of this machines issues.
 
-- Belts are used for their accuracy and price. Small belts are used because each axis has two of them. Ball screws are expensive, require tuning, and periodic maintenance / adjustments.
+- Belts are used for their accuracy, easae of use, and price. Ball screws are expensive, require tuning, and periodic maintenance / adjustments.
 
  
 ## Control
 
-- This is all controlled by any control board you like. The UltiMachine boards are recommended for the improved design and robust safety features. You can still use the common Ramps 1.4 or any other boards as well. There are other [Marlin](https://github.com/MarlinFirmware/Marlin) based boards, [GRBL](https://github.com/grbl/grbl), and regular CNC boards as well.
+- This is all controlled by any control board you like. 5 drivers are prefered, but a minimum of 3 is requird. [Marlin](https://github.com/MarlinFirmware/Marlin), [GRBL](https://github.com/grbl/grbl), and Just about any firmware will work.
 
  
 ## Software
 
-- There are plenty of free or really inexpensive software options available for 3D printing, CAM, and CAD. I suggest [Fusion 360](http://www.autodesk.com/products/fusion-360/overview), [Repetier-host](http://www.repetier.com/), [ESTLCam](http://www.estlcam.com/), etc.
+- There are plenty of free or really inexpensive software options available for CAD, CAM, and just controlling the machine. I suggest [Fusion 360](http://www.autodesk.com/products/fusion-360/overview), [ESTLCam](http://www.estlcam.com/), [Repetier-host](http://www.repetier.com/), etc.
 
  
 ## DIY
 
-- Besides using either common imperial or metric hardware, the rest of the machine is easily 3D
+- Besides using either common imperial or metric hardware as listed, the rest of the machine is easily 3D
     printable, RepRap style! A full list of required hardware can be found [here](PParts.md#hardware), and the files for the printed
     parts can be had [here](PParts.md).
 
 - All of these things can be easily assembled with basic hand tools, no specialty tools, power tools, or precision cuts required.
 
 ![!Simple MPCNC](https://www.v1engineering.com/wp-content/uploads/2015/07/IMG_20150802_16352001.jpg){: loading=lazy width="450"}
+How it all started.
+
 ![!Fancy MPCNC](https://www.v1engineering.com/wp-content/uploads/2018/04/IMG_20180409_184626.jpg){: loading=lazy width="450"}
-[Build Thread](https://forum.v1engineering.com/t/red-black-and-wheels/7303)
+The [Burly edition from 2016](https://forum.v1engineering.com/t/red-black-and-wheels/7303)
+
+![!MPCNC Render](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-scaled.jpg){: loading=lazy width="450"}
+And finally the current Primo Version!
 
 ## More info
 
