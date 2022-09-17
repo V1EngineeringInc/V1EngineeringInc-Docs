@@ -43,12 +43,12 @@ Have a look at this video from 2016. Keep in mind we have evolved considerably s
 
 - X and Y axis are powered by 2 stepper motors each, and a single stepper for the Z axis. The standard would be NEMA 17 in any torque preferably 42 OZ/in and above (the kit comes with 76 OZ/in +). No need for NEMA 23’s or their required larger drivers,  torque is not one of this machines issues.
 
-- Belts are used for their accuracy, easae of use, and price. Ball screws are expensive, require tuning, and periodic maintenance / adjustments.
+- Belts are used for their accuracy, ease of use, and price. Ball screws are expensive, require tuning, and periodic maintenance / adjustments.
 
  
 ## Control
 
-- This is all controlled by any control board you like. 5 drivers are prefered, but a minimum of 3 is requird. [Marlin](https://github.com/MarlinFirmware/Marlin), [GRBL](https://github.com/grbl/grbl), and Just about any firmware will work.
+- This is all controlled by any control board you like. 5 drivers are prefered, but a minimum of 3 is required. [Marlin](https://github.com/MarlinFirmware/Marlin), [GRBL](https://github.com/grbl/grbl), and Just about any firmware will work.
 
  
 ## Software
@@ -63,7 +63,7 @@ Have a look at this video from 2016. Keep in mind we have evolved considerably s
     parts can be had [here](PParts.md).
 
 - All of these things can be easily assembled with basic hand tools, no specialty tools, power tools, or precision cuts required.
-- 
+ 
 
 ![!Simple MPCNC](https://www.v1engineering.com/wp-content/uploads/2015/07/IMG_20150802_16352001.jpg){: loading=lazy width="450"}
 
