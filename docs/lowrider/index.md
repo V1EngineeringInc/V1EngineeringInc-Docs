@@ -469,6 +469,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (35).jpg){: loading=lazy width="400"}
 
+ * As of 9/17/22 (If you bought YZ plates, any orders shipped after that date) you no longer need to add these three scrwes until attaching the beam. Skip this step.
  * You will need to add three M5's to the holes shown here. Actually, you only need the lower two, but just to be safe drop them all in for now.
  
 ![!LR3 Fancy Picture](../img/lr3/LR3 (36).jpg){: loading=lazy width="400"}
