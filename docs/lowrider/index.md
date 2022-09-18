@@ -469,6 +469,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (35).jpg){: loading=lazy width="400"}
 
+ * As of 9/17/22 (If you bought YZ plates, any orders shipped after that date) you no longer need to add these three scrwes until attaching the beam. Skip this step.
  * You will need to add three M5's to the holes shown here. Actually, you only need the lower two, but just to be safe drop them all in for now.
  
 ![!LR3 Fancy Picture](../img/lr3/LR3 (36).jpg){: loading=lazy width="400"}
@@ -604,7 +605,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (57).jpg){: loading=lazy width="400"}
 
- * You can add the side plates using the 6 screws.
+ * You can add the side plates using the 6-M5 screws, four will fit through the large holes in the YZ plates two will need the beam lifted up to get to the holes. (As Of 9/17/22)
  * Snug these up.
  * Make sure both sides move up and down pretty freely, as long as gravity pulls them all The way down you are good to go here.
  * Measure the heel and toe distances across your machine, make sure they are equal. If not adjust the end clamps.
