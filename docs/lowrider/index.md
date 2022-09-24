@@ -300,7 +300,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (3).jpg){: loading=lazy width="400"}
 
- * Bolts, 6082RS bearings and nuts for the next step.
+ * Eight 5/16x1.5 Bolts, eight 6082RS bearings and eight 5/16 locknuts for the next step.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (4).jpg){: loading=lazy width="400"}
 
