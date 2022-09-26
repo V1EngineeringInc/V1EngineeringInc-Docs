@@ -322,7 +322,7 @@ Belt block positions
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (7).jpg){: loading=lazy width="400"}
  
- * This section uses the X Stepper Mount, M5's, and Idlers.
+ * This section uses the X Stepper Mount, two M5 x 30 screws, two M5 locknuts, and  two Idlers.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (8).jpg){: loading=lazy width="400"}
 
