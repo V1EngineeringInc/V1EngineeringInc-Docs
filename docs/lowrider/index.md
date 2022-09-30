@@ -813,7 +813,8 @@ dots). Now Use "M500" to save it to the EEPROM. Re-home X and Y and test it agai
 
  * Home all three of your axis.
 
- * Touch plate - If you are using the touch plate, you probe by using G38.2 Z0. When it gets there, take note of the current Z position. Then move it up and over to your X axis extreme and probe again, taking note of the Z axis position. Take the difference and adjust the side that moved furthest.
+ * Touch plate - If you are using the touch plate, you probe by using G38.2 Z0. When it gets there, take note of the current Z position (M114). Then move it up and over to your X axis extreme and probe again, taking note of the Z axis position. Take the difference and adjust the side that moved furthest.
+ * The way I have started to do this is Home and probe twice on each side. So G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114, Then move over G0 X1250, G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114. From there subtract the average of both sides, M666 Z0.5, M500. Then test again. G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114, Then move over G0 X1250, G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114.
 
  * Feeler Gauge - You will drive your Z axis down until you just make contact with the touch plate and take note of the current Z axis position. Repeat this for the other end of the X axis. Take the difference and adjust the side that moved furthest.
 
