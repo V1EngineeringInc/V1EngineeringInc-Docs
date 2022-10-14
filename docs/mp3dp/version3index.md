@@ -217,4 +217,4 @@ The Hemera is a solid option for a direct drive extruder, here is one I desgned 
 Ha, it takes a lot of help from my friends! Check out how we all put our heads together in the [ V1 Forums](https://forum.v1engineering.com/t/new-printer-time/28127).
 
 ## Assembly
-Assembly starts on the next [page](../mp3dp/repeatassm.md).
+Assembly starts on the next [page](../mp3dp/version3assm.md).
