@@ -165,9 +165,8 @@ The YZ Plates can be nearly any thickness. Again here, rigidity is key. 1/2" (12
 that and you will need to clearance some for the coupler. At 16.5mm and thicker you will need to counter bore for the M5 nuts
  or get longer screws.
 
-[YZ Plate DXF](../img/lr3/YZ plate DXF.dxf)
-[Mirrored set YZ Plate DXF](../img/lr3/two YZ plates.dxf), just to make it easy to mill up a set.
-[YZ Plate STL](../img/lr3/YZ Plate.stl), If you want to try and print it.
+[YZ Plate DXF or printable model]([../img/lr3/YZ plate DXF.dxf](https://www.printables.com/model/204709-lowrider-3-cnc))
+
 
 #### XZ Plates
 
