@@ -180,7 +180,7 @@ function clip(value) {
 
 function convertToMetric(num) {
   var units = $("input[name=units]:checked").val();
-  return (units == "mm") ? num : (Math.round(num * 25.4 * 0.1) / 0.1);
+  return (units == "mm") ? num : Math.floor(num * 25.4);
 }
 
 function reset_work() {
@@ -230,7 +230,7 @@ function from_working() {
   $("span[name=xtable]").text(clip(xtable));
   $("span[name=ytable]").text(clip(ytable));
   $("span[name=strut]").text(clip(xrails));
-  updateDownloadStrutLink(Math.round(convertToMetric(xrails)));
+  updateDownloadStrutLink(convertToMetric(xrails));
 }
 
 function download_svg()
@@ -244,7 +244,7 @@ function download_svg()
   var folder = strutSvgFolderPrefix + ((xrailsMetric < 1000) ? "0" : "1" );
   var strutUrl = strutUrlTemplate
     .replace("{folder}", folder)
-    .replace("{len}", Math.round(xrailsMetric));
+    .replace("{len}", xrailsMetric);
 
   window.open(
     strutUrl,
