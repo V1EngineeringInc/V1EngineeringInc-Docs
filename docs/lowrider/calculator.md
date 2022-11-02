@@ -192,7 +192,7 @@ function reset_work() {
 }
 
 function updateDownloadStrutLink(strutLenMetric) {
-  if (!strutLenMetric || strutLenMetric < minStrutLen || strutLenMetric > 1700) {
+  if (!strutLenMetric || strutLenMetric < minStrutLen || strutLenMetric > maxStrutLen) {
     var text = "" + strutLenMetric + "mm Strut not available, must be " + minStrutLen + "mm - " + maxStrutLen + "mm";
     $("button[name=btnStrutDownload]").prop('disabled', true);
     $("span[name=strut2]").text(text);
