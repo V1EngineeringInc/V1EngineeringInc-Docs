@@ -3,6 +3,8 @@
   // Base URL template for Strut SVG files. 
   var strutUrlTemplate = "https://docs.v1engineering.com/lowrider/lr3_strut/{folder}/lr3-strut-plate-variable_{len}.svg";
   var strutSvgFolderPrefix = "svg_";
+  var minStrutLen = 480;
+  var maxStrutLen = 1700;
 </script>
 
 # LowRider v3 Size Calculator
@@ -55,7 +57,7 @@ Printed Plates are 9.5mm (0.374"), Shop Aluminum plates are 6.35mm (0.25").
 Length (<span class="units">mm</span>)|Qty|Name|
 |-------------------------------------|---|----|
 |<span name="strut"     ></span>|3|Strut length (same as Tube Length)|
-<button class="download" onclick="download_svg()">Download <span name="strut2" ></span>mm Strut .SVG</button>
+<button name="btnStrutDownload" class="download" onclick="download_svg()"><span name="strut2" ></span></button>
 
 
 #### Table Size
@@ -176,12 +178,30 @@ function clip(value) {
   return Math.round(value * 4) / 4; // Round to 0.25
 }
 
+function convertToMetric(num) {
+  var units = $("input[name=units]:checked").val();
+  return (units == "mm") ? num : (Math.round(num * 25.4 * 0.1) / 0.1);
+}
+
 function reset_work() {
   const unit_convert = get_unit_convert();
   $("input[name=xwork]").val(clip(1220 * unit_convert));
   $("input[name=ywork]").val(clip(2440 * unit_convert));
   $("input[name=xzplate]").val(clip(9.5 * unit_convert));
   from_working();
+}
+
+function updateDownloadStrutLink(strutLenMetric) {
+  if (!strutLenMetric || strutLenMetric < minStrutLen || strutLenMetric > 1700) {
+    var text = "" + strutLenMetric + "mm Strut not available, must be " + minStrutLen + "mm - " + maxStrutLen + "mm";
+    $("button[name=btnStrutDownload]").prop('disabled', true);
+    $("span[name=strut2]").text(text);
+  } else {
+    var text = "Download " + strutLenMetric + "mm Strut .SVG";
+    $("button[name=btnStrutDownload]").prop('disabled', false);
+    $("span[name=strut2]").text(text);
+  }
+    
 }
 
 function from_working() {
@@ -210,7 +230,7 @@ function from_working() {
   $("span[name=xtable]").text(clip(xtable));
   $("span[name=ytable]").text(clip(ytable));
   $("span[name=strut]").text(clip(xrails));
-  $("span[name=strut2]").text(clip(xrails));  
+  updateDownloadStrutLink(Math.round(convertToMetric(xrails)));
 }
 
 function download_svg()
@@ -219,8 +239,7 @@ function download_svg()
   var xwork = parseFloat($("input[name=xwork]").val());
   var xrails = xwork + offsets.xrail_core;
 
-  var units = $("input[name=units]:checked").val();
-  var xrailsMetric = (units == "mm") ? xrails : (Math.round(xrails * 25.4 * 0.1) / 0.1);
+  var xrailsMetric = convertToMetric(xrails);
 
   var folder = strutSvgFolderPrefix + ((xrailsMetric < 1000) ? "0" : "1" );
   var strutUrl = strutUrlTemplate
