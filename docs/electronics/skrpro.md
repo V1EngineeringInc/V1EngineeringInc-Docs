@@ -45,7 +45,7 @@ one jumper on the black (UART) pins. **There is no need to monkey with the tiny 
 
 ![!Highlighted UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/uart2-Arrows.jpg){: loading=lazy width="400"}
 
-The completed board looks like this. Notice there are no jumpers under the drivers.
+The completed board looks like this. Notice there are no jumpers under the drivers. You will have any number of drivers here depending on your machine.
 
 ![!UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/Uart-scaled.jpg){: loading=lazy width="400"}
 
