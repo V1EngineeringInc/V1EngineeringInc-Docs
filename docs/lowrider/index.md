@@ -269,6 +269,7 @@ This is what is needed for a 4' x 8' (1.2M x 2.4M) build. You will need more or 
 |24   |3mm x 12mm Wood/metal   |#4 x 1/2" Wood or Sheet metal screws           |
 |22   |M4 x 12mm+ Wood/metal   |#8 x 1/2"+ Screws to mount things to your table|
 |4    |150mm MGN12H Rails      |[Shop Link](https://shop.v1engineering.com/collections/lowrider-parts/products/150mm-mgn12h-linear-guides)|
+|3    |Wire Extenders          |[Shop Link](https://shop.v1engineering.com/collections/lowrider-parts/products/wiring-kit-1)|
 
 ### Table
 
@@ -276,9 +277,7 @@ Any flat surface you can screw into will work great. Basic torsion box tables ca
 be a step up in terms of long term stability with not all that much added complexity. 
 A Removable spoil board section that can be easily replaced comes in handy as well.
 
-footprint *to do
-rail position
-Belt block positions
+![!LR3 Dimensions Picture](../img/lr3/LR3 Dims.jpg){: loading=lazy width="600"}
 
 [Calculator for table, rail, and belt lengths.](calculator.md)
 
