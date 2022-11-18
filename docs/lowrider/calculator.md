@@ -59,6 +59,7 @@ Length (<span class="units">mm</span>)|Qty|Name|
 |<span name="strut"     ></span>|3|Strut length (same as Tube Length)|
 <button name="btnStrutDownload" class="download" onclick="download_svg()"><span name="strut2" ></span></button>
 
+Have a look at the SVG file linked above to see how many braces and hose holders you need.
 
 #### Table Size
 
