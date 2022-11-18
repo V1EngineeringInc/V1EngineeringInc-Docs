@@ -5,8 +5,7 @@
 
 The SKR Pro is a 32bit 6 driver board with 6 easily controllable ports running at 12-24V. Beyond the
 basics there are loads of extra pins, options for two different power supplies at two different
-voltages, WiFi Ports, future expansion port for USB, and the Trinamic TMC series of drivers are all
-prewired into the board so there are no extra wires needed.
+voltages, WiFi Ports, future expansion port for USB, and the Trinamic TMC drivers with digital current control.
 
 **Want to Buy one?**
 
@@ -17,27 +16,25 @@ on the TMC2209 drivers, and the TFT35 V3 E3 screen.
 
 ![!SKR Bundle](https://www.v1engineering.com/wp-content/uploads/2020/07/srkbundle.jpg){: loading=lazy width="400"}
 
-!!! note
-    Do not use a SKR Pro based machine with the microSD card in the SKR Pro board. This seems to cause random performance issues.
+!!! 2209 Drivers
+    The Trinamic 2209 V1.2 drivers offer UART communication for dynamic control, 2A RMS with a 2.8A
+    peak. We will be operating far under these values. The Trinamic drivers have many advanced features.
+    For a CNC Machine, the main features we use are digital current control and dynamically lowering the
+    hold current so we can also keep stepper and driver heat down while operating at slightly higher
+    than usual stepper power!
 
-## 2209 Drivers
-
-The Trinamic 2209 V1.2 drivers offer UART communication for dynamic control, 2A RMS with a 2.8A
-peak. We will be operating far under these values. The Trinamic drivers have many advanced features.
-For a CNC Machine, the main features we use are digital current control and dynamically lowering the
-hold current so we can also keep stepper and driver heat down while operating at slightly higher
-than usual stepper power!
+## Setup
 
 ### Disable Sensorless Pin
 
-Sensorless homing is not currently as accurate as mechanical end stops. All the pre-compiled
+Sensorless homing is not as accurate as mechanical end stops. All the pre-compiled
 firmware has this disabled so you will need to bend the pins out of the way.
 
 ![!2209 bend](https://www.v1engineering.com/wp-content/uploads/2020/07/sensorles-bend.jpg){: loading=lazy width="400"}
 
 Bend this pin on each driver to allow mechanical switches to be used on the SKR board.
 
-### UART
+### Jumpers
 
 For the firmware to be able to control the current and receive feedback from each driver the board
 needs to be set for UART communication. To do this you remove the 4 jumpers from each port and place
@@ -45,18 +42,18 @@ one jumper on the black (UART) pins. **There is no need to monkey with the tiny 
 
 ![!Highlighted UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/uart2-Arrows.jpg){: loading=lazy width="400"}
 
-The completed board looks like this. Notice there are no jumpers under the drivers. You will have any number of drivers here depending on your machine.
+The completed board looks like this. Notice there are no jumpers under the drivers. **Lowrider and MPCNC builds will have only 5 drivers**, MP3DP uses 6.
 
 ![!UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/Uart-scaled.jpg){: loading=lazy width="400"}
 
 At this point you can add the heat sinks being careful not to short any of the pins and only stick
-them to the copper pads on the top.
+them to the copper pads centered on the top.
 
 ## Molex and JST connectors
 
-The current V1 Engineering wiring kits have the Molex style terminations on them. The SKR Pro is the first board to be offered with JST directional style connections. Instead of buying adapters, another custom set of wires, or custom SKR boards, a pretty easy solution is just pulling off the JST plastic shields. The pin spacing is the same (or close enough) and pulling the shields off make for a more solid connection to the Molex style more commonly used. Needle nosed pliers and a little wiggling make this pretty easy. 
+The current V1 Engineering wiring kits have the Molex style terminations on them. The SKR Pro is the first board to be offered with JST directional style connections. To keep the stepper direction easy to change a pretty easy solution is just pulling off the JST plastic shields. The pin spacing is the same and pulling the shields off make for a more solid connection to the Molex style wires we used. Needle nosed pliers and a little wiggling make this pretty easy. 
 
-Depending on what you are plugging in you can take them off the end stops and or stepper ports. Even after doing this you should always constrain your wires directly after the connection to the board.
+Depending on what wires you are plugging in you can take them off the end stops and stepper ports. Even after doing this you should always constrain your wires directly after the connection to the board to prevent them from wiggling loose.
 
 
 ![!Shields off](https://www.v1engineering.com/wp-content/uploads/2021/03/PXL_20201122_212218205.jpg){: loading=lazy width="400"}
@@ -67,39 +64,41 @@ Depending on what you are plugging in you can take them off the end stops and or
 We have a few options for how the steppers get connected to this board. Here are the three most
 common ways we might use it.
 
-### Dual End Stops (EXTRUDERS=0)
+### MPCNC and LowRider CNC
 
-If the firmware is set for EXTRUDERS=0 then E0 becomes X2 and E1 becomes Y2. (or LR would be E0=Y2
-E1=Z2)
+**MPCNC**
+| Board Label | Stepper Wire |
+|-------------|:-------------|
+|X   |X1 |
+|Y   |Y1 |
+|Z0  |Z |
+|Z1  |Jumpers stay in place |
+|E0  |X2 |
+|E1  |Y2 |
+
+**LowRider CNC**
+| Board Label | Stepper Wire |
+|-------------|:-------------|
+|X   |X |
+|Y   |Y1 |
+|Z0  |Z1 |
+|Z1  |Jumpers stay in place |
+|E0  |Y2 |
+|E1  |Z2 |
 
 ![!dual 0](https://www.v1engineering.com/wp-content/uploads/2020/07/dual2-scaled.jpg){: loading=lazy width="400"}
 
-### Dual End Stops (EXTRUDERS=1 -OLD-)
-
-For EXTRUDERS=1 E0 is used and then E1 becomes X2 and E2 become Y2. (or LR would be E1=Y2 and E2=Z2)
-
-![!dual 1](https://www.v1engineering.com/wp-content/uploads/2020/07/Dual-Ex-1-scaled.jpg){: loading=lazy width="400"}
-
-### Series (-OLD- or 4 driver boards)
-
-The standard LowRider and MPCNC options are to use series wiring. This combines two steppers on the
-same driver. This increases the voltage demand and not the current. We have an abundance of
-available voltage. The board is labeled, and we will be using X, Y, and Z.
-
-![!Series](https://www.v1engineering.com/wp-content/uploads/2020/07/Series-skr-labels-scaled.jpg){: loading=lazy width="400"}
-
 ### Reversing a stepper
 
-If your stepper is moving the wrong way you can power down and flip the plug over to change the
-direction of rotation. If you are using the series wiring harness flipping the board end changes
-both steppers, or changing one stepper in the chain reverse that one only.
+If your stepper is moving the wrong way you can power down, unplug the power, and flip the stepper plug over to change the
+direction of rotation. 
 
 ![!flip 1](https://www.v1engineering.com/wp-content/uploads/2020/07/flip1-scaled.jpg){: loading=lazy width="400"}
 ![!flip 2](https://www.v1engineering.com/wp-content/uploads/2020/07/flip2-scaled.jpg){: loading=lazy width="400"}
 
 ## Screen TFT35 V3 E3
 
-This screen was chosen because it had a knob (great for dirty environments). We can use it from both
+We can use it from both
 Touchscreen mode and Classic mode, simultaneously. **Switching between modes is as easy as pressing
 the knob in for 3 seconds.**
 
@@ -110,14 +109,14 @@ them.
 
 ## Touch plate
 
-All the V1 firmware is ready for a touch plate. Easy as plugging into the Z min port.
+All the V1 firmware is ready for a touch plate. Easy as plugging into the Z min port. Use Ground "G" and Signal  "S" pins, they are labeled on the back of the board.
 
 ![!Probe](https://www.v1engineering.com/wp-content/uploads/2020/07/Z-probe-scaled.jpg){: loading=lazy width="400"}
 
 ## Dual End Stops, End Stops
 
-If you are running the dual endstop firmware you will need to have your endstops wired in Normally
-Closed (NC). You will plug into the Signal and Ground pins, **Do not use the + pins.**
+If you are running the Current firmware you will need to have your endstops wired in Normally
+Closed (NC), this is the outer two tabs on the endstops, we do not use the middle one. You will plug into the Signal and Ground pins, **Do not use the + pins.** Use Ground "G" and Signal  "S" pins, they are labeled on the back of the board.
 
 MPCNC Dual Endstops
 ![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: loading=lazy width="400"}
@@ -126,28 +125,27 @@ LowRider Dual endstops
 ![!LR3 endstops](../img/LR3_endstops.jpg){: loading=lazy width="400"}
 
 !!! note
-    Do not use the + (positive) pins or you will ruin your SKR Pro board unless you are running a different project with powered endstops.
+    Do not use the + (positive) pins or you will ruin your SKR Pro board. Unless you are running a different project with powered endstops.
 
 ## Firmware
 
 The SKR Pro and TFT screen both can use a bin file to re-flash the firmware. This is as simple as
-placing some files directly on the memory card and rebooting them.
+placing some files directly on the memory card and rebooting them. The boards come already flashed from the store. This would only be used if you want to update.
 
 ### SKR Bin
 
 You have options of firmware for the exact board, driver, screen package as sold in the V1 store.
 
-* V1CNC_SkrPro_2209-****** Ready for series wiring on any CNC build.
 * V1CNC_SkrPro_Dual_2209-****** Ready for dual end stops on an MPCNC (X & Y axes).
 * V1CNC_SkrPro_DualLR_2209-****** Ready for dual end stops on a LowRider CNC (Y & Z axes).
+* * V1CNC_SkrPro_2209-****** Ready for series wiring on any CNC build.
 
-
-When you unzip the file you have a .bin file. Rename to FIRMWARE.bin and save it to the MicroSD for the SKR Pro board. Make sure to unplug both grey exp1/2 cables for the screen before proceeding. Insert the MicroSD back into the control board, reset, and the board will flash a few green LED's for a second or two. The board now has new firmware (seriously that easy). 
+When you unzip the file you have a .bin file. Rename to FIRMWARE.bin and save it to the MicroSD for the SKR Pro board. Make sure to unplug both grey exp1/2 cables for the screen before proceeding. With the power off, insert the MicroSD into the control board, power on, and the board will flash a few green LED's for a few seconds. The board now has new firmware (seriously that easy). 
 
 **Remove the Micro SD card, after flashing**
 
 !!! note
-    Do not use a SKR Pro based machine with the microSD card in the SKR Pro board. This seems to cause random performance issues.
+    Do not use a SKR Pro based machine with the microSD card in the SKR Pro board unless you are using the headless module. This seems to cause random performance issues otherwise.
 
 
 ![!SKR file](https://www.v1engineering.com/wp-content/uploads/2020/08/SKR_Bin.jpg){: loading=lazy width="400"}
@@ -166,7 +164,7 @@ Flashing the screen takes a .bin file, the config file, and usually the TFT35 fo
 
 BIGTREE_TFT35_V3.0_E3.****.bin
 config.ini
-TFT35 (folder) you do not need the folder present for minor updates it is just for graphics and languages.
+TFT35 (folder)
 
 ![!TFT files](https://www.v1engineering.com/wp-content/uploads/2020/08/TFT35_bin.jpg){: loading=lazy width="400"}
 
