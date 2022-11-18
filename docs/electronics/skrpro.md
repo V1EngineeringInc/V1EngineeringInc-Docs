@@ -67,24 +67,26 @@ common ways we might use it.
 ### MPCNC and LowRider CNC
 
 **MPCNC**
+
 | Board Label | Stepper Wire |
 |-------------|:-------------|
-|X   |X1 |
-|Y   |Y1 |
-|Z0  |Z |
-|Z1  |Jumpers stay in place |
-|E0  |X2 |
-|E1  |Y2 |
+| X           |     X1 |
+| Y           | Y1 |
+| Z0          | Z |
+| Z1          | Jumpers stay in place |
+| E0          | X2 |
+| E1          | Y2 |
 
 **LowRider CNC**
+
 | Board Label | Stepper Wire |
 |-------------|:-------------|
-|X   |X |
-|Y   |Y1 |
-|Z0  |Z1 |
-|Z1  |Jumpers stay in place |
-|E0  |Y2 |
-|E1  |Z2 |
+| X   | X |
+| Y   | Y1 |
+| Z0  | Z1 |
+| Z1  | Jumpers stay in place |
+| E0  | Y2 |
+| E1  | Z2 |
 
 ![!dual 0](https://www.v1engineering.com/wp-content/uploads/2020/07/dual2-scaled.jpg){: loading=lazy width="400"}
 
