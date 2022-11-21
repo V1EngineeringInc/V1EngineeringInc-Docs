@@ -235,7 +235,7 @@ degradation (some very basic images can be ran faster).
 
 ### Lightburn
 
-Lightburn is currently the best laser offering out there. Very easy to use and the most fully featured. Lightburn can generate your laser Gcode as well as control and 
+[Lightburn](https://lightburnsoftware.com/) is currently the best laser offering out there. Very easy to use and the most fully featured. Lightburn can generate your laser Gcode as well as control and 
 run your machine if you would like. There is a free trial if you want to try before you buy.
 
 Lightburn has several versions of focus and raster test programs built in as well.
