@@ -158,60 +158,90 @@ deal. If you have other companies to suggest please let me know, and I will chec
 ### PWM, TTL, WTF?
 
 PWM, and TTL in this context are just how the power of the laser is controlled. All we really care
-about is if the laser is controlled by 5V or 12V. Good brands and companies make this abundantly
+about is if the laser is controlled by 3.3V, 5V, or 12V. Good brands and companies make this abundantly
 clear, if you are buying an import this is by far the hardest part of the whole thing. The specs are
 not clear, the wiring diagrams are typically non-existent and if they are they can be wrong, we even
 have drivers with PCB’s with misprinted polarity so you can’t even follow that. Unfortunately import
 lasers, while super cheap, tend to be a guess and check game, both with connections and lens specs.
 
-With all common boards we can handle 12V and 5V signals, no big deal!
+With all common boards we can handle 12V, 3.3V or 5V signals, no big deal!
 
 **12V** signal driven lasers are less common (Jtech). They are simple, you plug them into the print fan
 port (or any 12V port) on your control board and you are good to go. Using a 12V port you will
-typically use M106 SXXX to turn the laser on and M107 to turn the laser off. The Sxxx is the laser
-strength with a value between 0-255, 255 being the most power.
+need to redefine the laser pin in the firmware.
 
-**5V** driven lasers need a firmware edit to assign the right pin for your board, this just reassigns
-the 12v fan pin to instead control a 5V pin. After that the same rules apply, use M106 SXXX to turn
-the laser on and M107 to turn the laser off. The Sxxx is the laser strength with a value between
-0-255, 255 being the most power.  ([Thanks Guffy](https://www.v1engineering.com/forum/topic/another-laser/#post-83368))
+**3.3 & 5V** driven lasers have the PWM/TTL pin defined in the V1 firmware as listed below. No edits should be 
+needed. Your laser control pin needs to get plugged into this pin. Some lasers also have a TTL/PWM wire, that 
+can get plugged into a nearby ground.
 
 ---
 
-Rambo=45
+**Rambo**
+Rated capacity = 10V-24V
+PWM Pin = 45
 :   ![rambo](https://www.v1engineering.com/wp-content/uploads/2017/04/IMG_20180626_1559002.jpg){: loading=lazy width="400"}
 
 ---
 
-Archim=53?
+**SKR Pro**
+Rated Capacity = 12V-24V
+PWM Pin = pc9
+
+:   ![SKR Pro Laser pin](../img/lr3/SKR_RPin.jpeg){: loading=lazy width="400"}
+:   ![SKR Pro Laser pin](../img/lr3/SKR_Pin.png){: loading=lazy width="400"}
 
 ---
 
-MiniRambo=23
+**Mini Rambo** <br>
+Rated Capacity = 10V-28V <br>
+PWM Pin = Currently a conflict with the LCD <br>
+Trying to redefine it as pin 23, (Zmax Signal). <br>
 
 ---
 
-Ramps=44
+**Ramps**
+Rated Capacity = 12V
+PWM Pin = 44
 :   ![!ramps](https://www.v1engineering.com/wp-content/uploads/2019/01/Leo44Pic.jpg){: loading=lazy width="400"}
 
 ---
 
-### Leo’s Laser
 
-A short DIY guide to building your own diode laser and power supply. Leo was the first one that made Lasers seem doable, even for me. My [Leo
-laser](https://www.v1engineering.com/the-2-8-watt-100-laser/) is still working perfectly. The Import lasers are pretty stable now, so this guide is a bit out of date. Thanks a million Leo69 for getting us all started with the Pew Pew's.
+## Power Supply
 
-## Software
-
-TODO script description
+Lasers need more power than the CNC does to run. You can not run your laser from the power supply included in the CNC kit. 
+Typically your laser will come with it's own power supply though. If your laser power supply is within your control boards 
+rated capacity you can simply swap them out. You can then use the control boards power terminals to connect the laser's 
+power input pins.
 
 ### Using your laser
 
-TODO
+When Using our Marlin firmware You will need to use "inline" power mode in your laser software.
 
-Need some suggestions here….
+Your starting Gcode will also need to include "M3 I".
 
-### Image based, Raster
+
+## Software
+
+This is how to turn your ideas into laser commands. There are two modes to understand, Vector and Raster. Vector is moving 
+with the laser power relatively constant. This looks like tracing an outline, or cutting material. Raster is when you are 
+trying to make a grey scale image while the laser moves it is constantly varying the power to achieve different levels of 
+grey / burn, or etching.
+
+**Limitations** - Vector files can be run at much faster feedrates, basically as fast as you can move your machine before you 
+get ringing or poor line quality. Raster on the other hand sends so many commands to the boards they have to run slower to 
+process them. Doing raster images with the Marlin Firmware you are maxed out at about **22mm/s** before you start to see 
+degradation (some very basic images can be ran faster).
+
+### Lightburn
+
+Lightburn is currently the best laser offering out there. Very easy to use and the most fully featured. Lightburn can generate your laser Gcode as well as control and 
+run your machine if you would like. There is a free trial if you want to try before you buy.
+
+Lightburn has several versions of focus and raster test programs built in as well.
+
+
+### Free Software to try
 
 [Image2Gcode](https://www.thingiverse.com/thing:2726163) – [Forum link](https://www.v1engineering.com/forum/topic/image2gcode-free-raster-image-laser-engraving-software-modified-for-mpcnc/page/11/#post-78280)
 
@@ -221,6 +251,10 @@ Vector based, Solid lines
 
 [dxf2gcode](https://sourceforge.net/projects/dxf2gcode/) – [Forum link](https://www.v1engineering.com/forum/topic/dxf2gcode-a-quick-simple-open-source-app-for-vectordxfpdf-laser-engraving/)
 
-## Gallery
 
-TODO laser gallery link
+## Galleries
+
+Have a look at the galleries to see some of the ways people use lasers on the V1 CNC's.<br>
+[LowRider CNC](https://forum.v1engineering.com/tag/gallery-lowrider-cnc)<br>
+[MPCNC](https://forum.v1engineering.com/tag/gallery-mpcnc)<br>
+
