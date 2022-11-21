@@ -15,12 +15,10 @@ spectrum. Did I make my point yet?
 Safety glasses are paramount. This is not the place to try and save money. You need a high quality
 pair and anyone else that could be around it needs the same quality. The cheaper your laser is the
 more money you will need to spend on the safety glasses. Import lasers are notorious for being
-dirty, mislabeled, and this makes them more dangerous. High quality lasers are of a known wavelength
-and strength therefore they are easy to protect yourself from, imports can contain other wavelengths
-that your goggles may or may not protect you from or be more powerful than your glasses are rated
-for. I am no expert, have no way of testing, and therefore no real say in who makes quality glasses,
-I cannot make a recommendation at this time. This [video](https://youtu.be/WnDjIDhxnMs) might help
-drive home the point.
+multiple wavelengths, over powered, and this makes them more dangerous. High quality lasers are of a known wavelength
+and strength therefore they are easy to protect yourself from. Import lasers can contain other wavelengths
+that the supplied goggles may or may not protect you from or be more powerful than your glasses are rated
+for. Buying laser goggles from a quality supplier should cover a wider range of wavelengths and offer a high power rating.
 
 While we are on the subject, the laser looks extremely harmless in the goggles, kids (and most
 adults) will try to take off the glasses immediately so no youngsters (or tough guys) unless the
