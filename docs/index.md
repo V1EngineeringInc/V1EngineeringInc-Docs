@@ -1,12 +1,12 @@
 # V1 Engineering Documentation
 
-[![Main V1 Engineering Site](https://www.v1engineering.com/wp-content/uploads/2017/12/120-Rectangle-drop-11-e1514049864768.png){: loading=lazy width="80%" }](https://www.v1engineering.com/)
+[![Main V1 Engineering Site](https://www.v1engineering.com/wp-content/uploads/2017/12/120-Rectangle-drop-11-e1514049864768.png){: loading=lazy width="75%" }](https://www.v1engineering.com/)
 
 This is where you will find parts lists, instructions, cut calculators, and lots of other related information.
 
 ## About V1
 
-V1 Engineering Inc all started with the [MPCNC platform](mpcnc/burly/index.md), from there it kept expanding.
+V1 Engineering Inc all started with the [MPCNC platform](mpcnc/intro.md), from there it kept expanding.
 
 All the same precision as the MPCNC but in a larger form factor for sheet goods? Try the [LowRider CNC](lowrider/index.md).
 
