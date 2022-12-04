@@ -102,12 +102,25 @@ nav:
 theme:
   name: 'material'
   palette:
-    primary: 'black'
-    accent: 'red'
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: black
+    accent: red
+    toggle:
+     icon: material/brightness-7
+     name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: grey
+    accent: red
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode  
+    
   features:
+  - navigation.tabs
   - navigation.top
   - toc.integrate
-  #- navigation.tabs
   logo: "img/favicon.ico"
   favicon: "img/favicon.ico"
 
@@ -118,7 +131,8 @@ extra:
     - icon: 'fontawesome/solid/cart-plus'
       link: 'https://shop.v1engineering.com'
 
-extra_css: [v1.css]
+extra_css: 
+ - v1.css
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
