@@ -1,46 +1,8 @@
-
-h1 {
-  color: #ea1717
+:root > * {
+  --md-typeset-a-color: #D60000;
 }
 
-h2, h3, h4, h5 {
-  color: #42413d
-}
-
-input.calc {
-  border-bottom-style: solid;
-  border-color: #ea1717;
-  border-width: 1px;
-}
-
-button.reset {
-  color: #ea1717
-}
-button.download {
-  color: #ea1717
-}
-.md-header {
-  color: #ea1717
-}
-
-.md-typeset h1 {
-  color: #ea1717
-}
-
-.md-typeset a {
-  color: #ea1717
-}
-
-.md-nav__link--active {
-  color: #ea1717
-}
-
-.calculator-button {
-  color: #ea1717
-}
-
-.center {
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #464646;
+  --md-primary-fg-color: #2a2a2a;
 }
