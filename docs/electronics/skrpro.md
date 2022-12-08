@@ -120,10 +120,12 @@ All the V1 firmware is ready for a touch plate. Easy as plugging into the Z min 
 If you are running the Current firmware you will need to have your endstops wired in Normally
 Closed (NC), this is the outer two tabs on the endstops, we do not use the middle one. You will plug into the Signal and Ground pins, **Do not use the + pins.** Use Ground "G" and Signal  "S" pins, they are labeled on the back of the board.
 
-MPCNC Dual Endstops
+Optical endstops are not recommended on a machine used for milling or routing. The debris can inhibit there function.
+
+### MPCNC Dual Endstops
 ![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: loading=lazy width="400"}
 
-LowRider Dual endstops
+### LowRider Dual endstops
 ![!LR3 endstops](../img/LR3_endstops.jpg){: loading=lazy width="400"}
 
 !!! note
