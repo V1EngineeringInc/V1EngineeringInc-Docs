@@ -29,7 +29,7 @@ If the image is on v1engineering.com, and it's the right size, then it can be pl
 markdown like this:
 
 ```markdown
-![Backup Text](imageLocation "Hover text")
+![Backup Text](image URL "Hover text")
 ```
 
 ![V1Engineering.com's logo](https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png "This logo is linked from v1engineering.com")
@@ -99,17 +99,17 @@ newer version) by clicking the share button and choosing "embed" on any YouTube 
 
 ### Emojis?
 
-https://facelessuser.github.io/pymdown-extensions/extensions/emoji://facelessuser.github.io/pymdown-extensions/extensions/emoji/
+[Supported Emoji Search](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/), [Extension Link](https://facelessuser.github.io/pymdown-extensions/extensions/emoji://facelessuser.github.io/pymdown-extensions/extensions/emoji/)
 
 :smile:
 
-https://facelessuser.github.io/pymdown-extensions/extensions/smartsymbols/
+[Extension Link](https://facelessuser.github.io/pymdown-extensions/extensions/smartsymbols/)
 
 Symbols too, like (tm), (c), -->, +/-, 1/4, 1/8
 
 ### Equations?
 
-https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/
+[Detailed info ink](https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/)
 
 $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$, \(p(x|y) = \frac{p(y|x)p(x)}{p(y)}\).$$
  
@@ -161,20 +161,6 @@ Doe
 Ray
 :   A drop of golden sun
 
-Me
-:   A name I call myself
-
-Far
-:   A long long way to run
-
-Sew
-:   A needle pulling thread
-
-La
-:   A note to follow Sew
-
-Tea
-:   A drink with jam and bread
 
 ### Favicon
 

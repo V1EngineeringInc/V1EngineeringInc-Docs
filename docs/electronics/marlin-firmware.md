@@ -22,7 +22,7 @@ rough idea of which configurations have the most users and the most testing.
 
 ### Community Tested Configurations
 
-!!! note "Community Teseted Firmware Configurations"
+!!! note "Community Tested Firmware Configurations"
     These options are not tested at V1Engineering, but community members in the
     [forums](https://forums.v1engineering.com) have tested them and report that they work.
 

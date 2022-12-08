@@ -2,7 +2,7 @@
 
 ## Before You Do Anything
 
-The basics for milling are not…well…basic. This subject can get very deep and intimidating so I will
+The basics for milling are not, well, basic. This subject can get very deep and intimidating so I will
 try and present this in a tiered manner. Improving as we learn collectively and as the software
 (CAM) improves. I am no expert. I learn by reading and trial and error.
 
@@ -19,7 +19,7 @@ learn something.
 You should have already done some plotting, as [shown
 here](https://www.v1engineering.com/estlcam-basics/). You should have a very clean drawing if you
 don’t you should not be milling yet. Make sure the pen picks up all the way (clearance plane), and
-the parts are the right size. This ensure your machine works correctly and you are familiar with the
+**the parts are the right size**. This ensure your machine works correctly and you are familiar with the
 basics of CAM and how your machine moves.
 
 After plotting the next step in milling would be [HD foam](https://amzn.to/2fCJIvs), (I find it at
@@ -35,7 +35,7 @@ Some of the first cuts ever made on an MPCNC.
 
 ## For The Impatient
 
-If you just want to get the machine dirty here is the generic recipe. This should work in every material; you can optimize later.
+If you just want to get the machine dirty here is the generic recipe. This should work in every material softer than metal; you can optimize later.
 
 - **Single flute 1/8″** [upcut bit](https://vicious1-com.myshopify.com/collections/sharp-stuff/products/1-8-single-flute).
 - 8mm/s **Feed Rate** (The speed at which you move through the material).
@@ -53,7 +53,7 @@ or decrease the load by taking shallower bites.
 
 Peel, Is usually the best pocketing strategy.
 
-When you get that out of your system come back and learn things a little more in depth.
+When you get that working and want to cut faster come back and learn things a little more in depth.
 
 ## A More Proper Introduction
 
@@ -81,7 +81,7 @@ A work offset is simply moving your origin. This is typically used when there ar
 operation in your job, multiple fixtures can be used, locating pins, or other locating methods. More
 typically for us to avoid Negative X and Y moves when using endstops.
 
-Not Offset
+Not Offset - Notice teh Blue origin point in the lower left of the picture and how the red cut paths cross over the lines extending from it. These will be negative XY moves. If you have endstops negative XY moves will not happen.
 :   ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/Negative.jpg){: loading=lazy width="200"}
 
 Offset (Good for Dual Endstops)
@@ -91,7 +91,7 @@ Offset (Good for Dual Endstops)
 
 A finishing pass allows you to complete your job faster with more accuracy. What?!
 
-By leaving a bit of material on your roughing cut you can then cut off a very small amount of material leaving you with a very accurate final cut with a better surface finish. This means you can rough out your part faster (high machine loads increase deflection) and the finishing skim cut (extremely low machine loads) will bring it to final dimension. All cuts should have this, most importantly slotting operations.
+By leaving a bit of material on your roughing cut you can then cut off a very small amount of material leaving you with a very accurate final cut with a better surface finish. This means you can rough out your part faster (high machine loads increase deflection) and the finishing skim cut (extremely low machine loads) will bring it to final dimension. **All** cuts should have this, most importantly slotting operations.
 
 - Just select your finishing tool, usually the current tool you are using. Shown in the yellow box.
 - Use a 5-25% tool diameter allowance. Shown in the yellow box.
@@ -101,7 +101,7 @@ By leaving a bit of material on your roughing cut you can then cut off a very sm
 
 ### Climb vs. Conventional Milling
 
-For the most part you always want to Climb mill. The edge of the cutter starts with a large bite and ends small, reducing work hardening and heat retention.
+For the most part you always want to Climb mill. The edge of the cutter starts with a large bite and ends small, reducing deflection, work hardening, and heat retention.
 
 !!! note "Conventional milling"
     [![pic](https://www.v1engineering.com/wp-content/uploads/2017/09/blog_conventional-climb-milling2.jpg){: loading=lazy width="200"}]( http://www.harveyperformance.com/in-the-loupe/conventional-vs-climb-milling/)
@@ -111,9 +111,9 @@ For the most part you always want to Climb mill. The edge of the cutter starts w
 
 ### Feeds and Speeds Calculator
 
-I cannot stress this enough; these numbers are different for every build. Only use them as a guide
+I cannot stress this enough; these numbers are different for every build. Use them as a guide
 to find the right settings for your build. You can make a few test cuts a quickly work out how to
-get reliable numbers for your machine with the right settings though.
+get reliable numbers for your machine. If you keep track of the chip load and cutting force for your machine setting up new jobs gets easier by just matching the numbers for that material.
 
 https://fswizard.com/www/
 
@@ -121,17 +121,11 @@ https://fswizard.com/www/
 
 ### Stepover
 
-Basic
-:   All things being equal, this is the amount of material your tool encounters in percentage of the tool diameter. The lower the percentage the lower the force on the machine, the more accurate the cut.
+Stepover is the amount of material your tool encounters in percentage of your tool diameter. The lower the percentage the lower the force on the machine, the more accurate the cut. Too small though and it will just rub.
 
-Expanded
-:   A good thing to know is most flutes are not 50% of the diameter of the bit, usually less. Just typing in a percentage does not mean that is the actual chip load, Feed rate, RPM, and Depth of Cut all play a major part. All the numbers you enter are a fine balance of an equation giving you total chip load per tooth.
+**Roughing** is when you are taking out as much material as possible sacrificing tolerances and surface finish.  Your stepover while roughing is 95% or less, I recommend 45% depending on material density. More than 50% you will be both climb and conventional milling and should be avoided unless you know your machine can handle it.
 
-Roughing
-:   is 50% or less, typically 45% depending on material density. More than 50% you will be both climb and conventional milling and should be avoided.
-
-Finishing
-:   is 20% or less depending on amount if detail and tolerances desired (I typically use 2-8% time vs. quality), ball endmills should use 10% or less to minimize scalloping.
+**Finishing** is 20% or less stepover depending on amount if detail and tolerances desired. The more aggressive your roughing pass the more material needs to be left for finishing. For wood and plastic 10-15% tool diameter is a good starting point, 3D milling and carves should use 2-10% depending on tool diameter and desired surface finish.
 
 !!! note "50% stepover"
     ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/50D.jpg){: loading=lazy width="200"}
@@ -139,14 +133,26 @@ Finishing
 !!! note "25% stepover"
     ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/25D.jpg){: loading=lazy width="200"}
 
-## Dual EndStop Tool Changes, Z Probing
+### Depth of Cut
 
-For this method you will need the Dual EndStop firmware, an LCD, optionally a digital spindle speed
-controller.
+Equal steps – Depth of cut, DOC, Should be planned for. Making equal steps will produce the fastest cuts. Know the deepest you can cut the material with your machine (remember those test cuts from earlier?) and from there divide the cut equally.
+
+!!! note "Equal Steps"
+    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/Equal-steps.jpg){: loading=lazy width="400"}
+
+!!! note "Unequal Steps - This can be used to improve a pockets surface finish"
+    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/PointlessSteps.jpg){: loading=lazy width="400"}
+
+**Through all** – Through all cuts are intended to go all the way through the material. They should move past the bottom of your material. The amount past depends on the flatness of your build, all build have some sort of variance. A 0.5mm-4mm over cut would be pretty typical. Factor this into your equal DOC from above.
+
+!!! note "Through All"
+    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/ThroughCuts.jpg){: loading=lazy width="400"}
+
+## Gcode - Start, Tool Change, and Ending
 
 ### Starting Gcode
 
-The pause here is to allow you to remove the Z probe wires.  
+What your machine will do **before** the job starts. 
 
 ```
 G91 ; Relative positioning, just in case
@@ -162,69 +168,37 @@ G90 ; Absolute positioning, just in case
 
 ### Tool Change
 
-The steppers are disabled so you can move the head to an area where you can more easily change the
-tool, make sure you do not let your Z axis drop onto your work surface. If you need you can insert
-another pause before the steppers are disabled to make sure you are there to catch it. This first
-pause is to let you physically change the tool and install the Z probe. The second pause is to allow
-you to remove the Z probe.
+Only happens if you change a tool during your job. It happens at each tool change if there are multiple.
 
 ```
-M05 ; PID, Stop spindle
 G0 Z35 F500 ; Raise Z axis 35mm
 M84 ; Disable steppers
 M00 ; Wait for LCD button press
-;Change tool: <n>
 G28 X Y Z ; Home in order, w/zprobe
 G92 Z0.15 ; Account for probe thickness (set your thickness)
 G00 Z5.0000 F500 ; Raise Z probe off of surface
 M00 ; pause for LCD button press
-M03 S<s> ; PID, set spindle speed
 ```
 
 ### Ending
 
-Make sure you tune the final Z lift to your machine.
+Happens directly after your last move from your job file.
 
 ```
-M05 ; PID, Turn off spindle
-G0 Z30 ; Lift Z axis 30mm
-; M84 ; Optionally turn off steppers.
+G0 Z5 ; Lift Z axis 30mm
+M00 ; Pause so the Z axis does not fall
 ```
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/start.jpg){: loading=lazy width="400"}
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/Change.jpg){: loading=lazy width="400"}
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/End.jpg){: loading=lazy width="400"}
 
-If you do not have a PID controller you do not have to remove or worry about the code. This is the
-basics, you can easily modify this.
-
-### Depth of Cut
-
-Equal steps – Depth of cut, DOC, Should be planned for. Making equal steps will produce the best
-results. Just because you can cut deeper doesn’t mean you should. Know the deepest you can cut your
-material and from there divide the cut equally. The only way to save time is less passes, if you can
-not save a pass make the step smaller.
-
-!!! note "Equal Steps"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/Equal-steps.jpg){: loading=lazy width="400"}
-
-!!! note "Pointless Steps"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/PointlessSteps.jpg){: loading=lazy width="400"}
-
-Through all – Through all cuts, cuts that are intended to go all the way through the material, should move past the bottom of your material. The amount past depends on the flatness of your build, all build have some sort of variance. A 0.5mm-4mm would be pretty typical. Factor this into your equal DOC from above.
-
-!!! note "Through All"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/ThroughCuts.jpg){: loading=lazy width="400"}
-
 ## Post Processors
 
-When making Gcode from your CAM program it spits out raw coordinates, speeds, and a few other
-commands. A post processor simply formats in a way that your firmware will recognize it.
+When making Gcode with your CAM program it outputs raw coordinates, speeds, and a few other
+commands. A post processor simply formats in a way that your firmware will recognize.
 
-For example, Marlin treat `G0` (rapid move) and `G1` (Work move) the same. Other machines set the
-`G0` speed in the firmware, Marlin does not. To overcome this we Use a line in the post processor
-to set the actual speed in each line so it doesn’t matter. There are all sorts of things like this.
-All machines require a post processor.
+All machines require a post processor, specific to the control board firmware.
 
 ### The ones we have working
 
@@ -262,3 +236,10 @@ post processor addresses the issues introduced by the F360 Hobby version. This i
 #### Vectric, Aspire, Vcarve
 :   What we have so far, [Here](https://www.v1engineering.com/forum/topic/z-slip-over-large-topographical-map/#post-51193). How to [install](https://forum.v1engineering.com/t/vectric-aspire/12047/8?u=vicious1).
 
+#### Kiri:Moto
+
+Kiri:Moto has the post processor built in for Marlin and GRBL.
+
+## Endmill Basics
+
+To Do
