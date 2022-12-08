@@ -3,6 +3,7 @@
 }
 
 [data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #D60000;
   --md-default-bg-color: #464646;
   --md-primary-fg-color: #2a2a2a;
 }

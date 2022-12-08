@@ -100,6 +100,7 @@ nav:
     - Coordinates: learn/coordinates.md
 
 theme:
+  font: false
   name: 'material'
   palette:
   - media: "(prefers-color-scheme: light)"
@@ -120,7 +121,8 @@ theme:
   features:
   - navigation.tabs
   - navigation.top
-  - toc.integrate
+  - toc.follow
+  #- toc.integrate
   logo: "img/favicon.ico"
   favicon: "img/favicon.ico"
 
@@ -130,6 +132,22 @@ extra:
       link: 'https://www.v1engineering.com'
     - icon: 'fontawesome/solid/cart-plus'
       link: 'https://shop.v1engineering.com'
+    - icon: 'material/forum'
+      link: 'https://forum.v1engineering.com/'
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/V1Engineering'
+    - icon: 'fontawesome/brands/facebook'
+      link: 'https://www.facebook.com/groups/1156276207801920'
+    - icon: 'fontawesome/brands/instagram'
+      link: 'https://www.instagram.com/v1engineering/'
+    - icon: 'fontawesome/brands/youtube'
+      link: 'https://www.youtube.com/channel/UCXf0vDExLLX1lb2cpyiOFbg'
+    - icon: 'fontawesome/brands/reddit'
+      link: 'https://www.reddit.com/r/mpcnc/'
+    - icon: 'fontawesome/brands/discord'
+      link: 'https://discord.gg/hMaBvfe'
+    - icon: 'fontawesome/brands/patreon'
+      link: 'https://www.patreon.com/V1Engineering'
 
 extra_css: 
  - v1.css
