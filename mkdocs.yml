@@ -57,12 +57,11 @@ nav:
      - Previous Version: zenxy/og_zen.md
 
  - Control:
+   - Wiring The Steppers: electronics/steppers.md
    - Some Control Board Options:
      - SKR Pro: electronics/skrpro.md
      - Ultimachine Boards: electronics/ultimachine.md
      - Ramps: electronics/ramps.md
-   - Steppers:
-     - Wiring The Steppers: electronics/steppers.md
    - Some Advanced Options:
      - V1pi - Headless: electronics/v1pi.md
      - Dual Endstops: electronics/dual-endstops.md
@@ -85,8 +84,7 @@ nav:
      - Drag Knife/Vinyl: tools/drag-knife.md
      - Needle Cutter: tools/foam-needle-cutter.md
    - Troubleshoot:
-     - Reversing a Stepper: software/reverse-motor.md
-
+     - Reversing a Stepper: https://docs.v1engineering.com/electronics/steppers/#reversing-the-axis-direction
  - Learn:
     - Editing mkdocs: mkdocs_info.md
     - Software Workflow: learn/software_overview.md

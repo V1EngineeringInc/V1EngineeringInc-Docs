@@ -48,7 +48,9 @@ More details to my loosened restrictions can be found here on [the home page](ht
 
 ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (4).jpg){: loading=lazy width="600"}
 
-### Files can be found at the links below
+### Files
+
+Printed parts files can be found at the links below:
 
 Printables.com
 :   [Printables.com Link](https://www.printables.com/model/204709-lowrider-3-cnc)

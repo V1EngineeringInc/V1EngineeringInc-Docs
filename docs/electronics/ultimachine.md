@@ -127,9 +127,18 @@ Shop [link](https://vicious1-com.myshopify.com/collections/parts/products/rambo-
 
 The most common way the Rambo will be used on the Mostly Printed CNC or LowRider CNC is to plug in
 the X, Y, and Z steppers. Then you need power to both the logic and stepper circuits.
-([moving the wrong way?](../software/reverse-motor.md))
 
-All the details in their full glory, https://reprap.org/wiki/Rambo_v1.4
+### MPCNC dual endstop wiring.
+![!Rambo1](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo.jpg){: loading=lazy width="400"}
+![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/Rambo14-DUAL-help-fixed.jpg){: loading=lazy width="400"}
+
+Pay attention the endstop pins are opposite each other, but clearly labeled on the board. For the safest configuration the endstops should be wired in the Normally Closed position (NC), to prevent wire disconnects from damaging the machine during the homing sequence.
+
+Mechanical endstops are connected to the signal and ground pins filtered or optical endstops use all three pins, connect these with extreme caution. Using the wrongs pins will damage your control board.
+
+Optical endstops are not recommended on a machine used for milling or routing. The debris can inhibit there function.   
+
+All the Rambo details in their full glory, https://reprap.org/wiki/Rambo_v1.4
 
 ### Power
 
