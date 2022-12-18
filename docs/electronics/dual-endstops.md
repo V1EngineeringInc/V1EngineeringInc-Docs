@@ -2,16 +2,14 @@
 
 ## Basics
 
-The Dual EndStop firmware enables unprecedented precision more easily than ever before. Since
-day one I have never encouraged endstops be used, until now.
+The Dual EndStop firmware update enables unprecedented precision more easily than ever before. Since
+day one I have not encouraged endstops be used, until now.
 
-The Mostly Printed CNC and LowRider CNC are unique in the fact that two of the axes are powered at
-each end of the axis. Using this fact and the new dual endstop firmware we can now more precisely
+![Squaremelons](https://www.v1engineering.com/wp-content/uploads/2017/11/Squaremelon.jpg){ loading=lazy width="300" align=right }
+The Mostly Printed CNC and LowRider CNC are unique compaired to other machines in the fact that two of the axes are powered at
+each end. Using this fact and the new dual endstop firmware we can now more precisely
 and accurately set the position of every single stepper on the machine independently. This should
-reliably give you repeat-ability on the order of your endstops resolution, even after powering off.
-
-This also allows for autosquaring and leveling of your axis.
-![Squaremelons](https://www.v1engineering.com/wp-content/uploads/2017/11/Squaremelon.jpg){: loading=lazy width="400"}
+reliably give you repeatability on the order of your endstops resolution, even after powering off.
 
 Before this new firmware update all the machines in this category relied 100% on the users build
 accuracy, or manual measuring. This involves setting of each axis before engaging the steppers and
@@ -20,8 +18,8 @@ an endstop can accurately be accounted for. This makes fixturing, tool changes, 
 extremely difficult to get repeatable results. A poor build or lack of axis alignment before each
 job would result in a non-square skewed axis. A skewed axis will result in ovals and parallelograms
 instead of circles and 90° cornered rectangles. Changes in build accuracy due to use and
-environmental conditions need to be adjusted out or accounted for manually. Now just a minor offset
-adjustment will correct  all of this.
+environmental conditions need to be adjusted out or accounted for manually. **Now** just a minor offset
+adjustment from the control panel will correct this.
 
 Here is a look at the very first test of autosquaring. It is even more accurate now, it will square the axis, then do it again slower to account for any initial endstop offsets due to the skew.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F-tw3WuV8jk"

@@ -156,6 +156,8 @@ extra_javascript:
 copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2022 V1Engineering Inc."
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - admonition
   - codehilite:
       guess_lang: false
