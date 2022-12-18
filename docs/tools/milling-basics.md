@@ -152,42 +152,77 @@ Equal steps – Depth of cut, DOC, Should be planned for. Making equal steps wil
 
 ### Starting Gcode
 
-What your machine will do **before** the job starts. 
+What your machine will do **before** the job starts. The LowRider Configs show examples of how an IOT relay would be tied in. You would use something similar to [this](https://amzn.to/3vjqzFH) to turn a router, vacuum, or other things on and off with Gcode.
 
-```
-G91 ; Relative positioning, just in case
-G92 X0 Y0 Z0 ; Set Current position to 0, all axes
-G00 Z5.0000 F500 ; Raise Z 5mm at 8.3mm/s to clear clamps and screws
-G28 X Y Z ; Home in order, w/zprobe
-G92 Z0.5 ; Account for probe thickness (set your thickness)
-G00 Z5.000 F500 ; Raise Z probe off of surface
-M00 ; pause for LCD button press
-M03 S<s> ; PID, set spindle speed
-G90 ; Absolute positioning, just in case
-```
+=== "MPCNC" 
+    On the MPCNC you will typically home the XY axis before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
+    ```
+    G92 X0 Y0 Z0 ; Set Current position to 0, all axes
+    G00 Z5.0000 F500 ; Raise Z 5mm at 8.3mm/s to clear clamps and screws
+    G28 X Y Z ; Home in order, w/z touchplate
+    G92 Z0.5 ; Account for probe thickness (set your thickness)
+    G00 Z5.000 F500 ; Raise Z probe off of surface
+    M00 ; pause for LCD button press so you can remove the touchplate
+    ```
+
+=== "LowRider V3" 
+    On the Lowrider V3 you will typically home all axis before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
+    ```
+    G92 X0 Y0 ; Set Current position to 0 on the X and Y axes.
+    M0 Attach probe ; Pause to connect touchplate
+    G38.2 Z0 ; Probe down to touchplate
+    G92 Z0.5 ; Set new Z position to thickness of touchplate
+    G1 Z2 F900 ; Lift off touchplate
+    M0 Remove probe ; Pause and wait for touchplate removal
+    M106 ; This will turn on an IOT relay to start a router or vacuum
+    ```
 
 ### Tool Change
 
+
 Only happens if you change a tool during your job. It happens at each tool change if there are multiple.
 
-```
-G0 Z35 F500 ; Raise Z axis 35mm
-M84 ; Disable steppers
-M00 ; Wait for LCD button press
-G28 X Y Z ; Home in order, w/zprobe
-G92 Z0.15 ; Account for probe thickness (set your thickness)
-G00 Z5.0000 F500 ; Raise Z probe off of surface
-M00 ; pause for LCD button press
-```
+=== "MPCNC" 
+    ```
+    G0 Z35 F500 ; Raise Z axis 35mm make sure you have enough room
+    M00 ; Pause and wait for the tool change
+    G28 Z ; Home the Z axis to establish the new Z position
+    G92 Z0.5 ; Account for probe thickness (set your thickness)
+    G00 Z5.0000 F500 ; Lift off touchplate
+    M00 ; pause to remove the touchplate
+    ```
+=== "LowRider V3" 
+    ```
+    M107 ; turn fan 1 off IOT relay
+    G28 Z ; Raise Z
+    G0 X0 Y0 F2520 ; Drive to tool change side
+    M00 change tool, probe ; Pause to change tool and attach probe.
+    G38.2 Z0 ; Probe to touchplate
+    G92 Z0.5 ; Set Z to touchplate thickness
+    G00 Z5.0000 F500 ; Lift off touchplate
+    M00 remove probe ; Pause to remove touchplate
+    M106 ; turn fan 1 on IoT relay
+    ```    
 
 ### Ending
 
 Happens directly after your last move from your job file.
 
-```
-G0 Z5 ; Lift Z axis 30mm
-M00 ; Pause so the Z axis does not fall
-```
+=== "MPCNC"
+    ```
+    G0 Z5 ; Lift Z axis 5mm
+    M00 ; Pause so the Z axis does not fall
+    ```
+
+=== "LowRider V3"
+    ```
+    M107 ; Turn off IOT Relay
+    G28 Z ; Lift Z axis
+    M0 Diggidy Done! ; Pause to keep steppers energized
+    ```    
+
+#### Estlcam Gcode
+Here where the above snippets would go in EstlCAM. It would look similar in other programs.
 
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/start.jpg){: loading=lazy width="400"}
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/Change.jpg){: loading=lazy width="400"}

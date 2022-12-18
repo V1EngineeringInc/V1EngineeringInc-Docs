@@ -1,8 +1,5 @@
 site_name: V1 Engineering Documentation
 site_url: https://docs.v1engineering.com
-#google_analytics:
- #- 'UA-36825469-4'
- #- 'auto'
 repo_name: V1EngineeringInc/V1EngineeringInc-Docs
 repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
 edit_uri: 'edit/master/docs/'
@@ -114,13 +111,13 @@ theme:
     accent: red
     toggle:
       icon: material/brightness-4
-      name: Switch to light mode  
-    
+      name: Switch to light mode    
   features:
   - navigation.tabs
   - navigation.top
   - toc.follow
-  #- toc.integrate
+  - navigation.instant
+  - content.tabs.link
   logo: "img/favicon.ico"
   favicon: "img/favicon.ico"
 
@@ -153,7 +150,7 @@ extra_css:
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
-copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2022 V1Engineering Inc."
+copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2023 V1Engineering Inc."
 
 markdown_extensions:
   - attr_list
@@ -176,6 +173,8 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
@@ -184,3 +183,4 @@ markdown_extensions:
   - toc:
       permalink: true
   - lightgallery
+  
