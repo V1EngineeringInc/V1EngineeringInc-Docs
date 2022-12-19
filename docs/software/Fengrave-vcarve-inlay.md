@@ -1,5 +1,17 @@
 
-# V Carve Inlay Process Using F-engrave
+# Inlays
+
+Here are a few methods to make a good inlay.
+
+## #1 Darwin's Method
+
+Here is a good video explaining how to use inkscape and Estlcam to do inlays.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c-3kuWSwDnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+## #2 V Carve Inlay Process Using F-engrave
 
 These are instructions for combining the F-Engrave software with the MODfef script to create
 a V-Carve Inlay with an MPCNC.
@@ -10,7 +22,7 @@ a V-Carve Inlay with an MPCNC.
 
 This video shows the process. Press (f) to show the video full screen.
 
-## F-Engrave Preprocessing
+### F-Engrave Preprocessing
 
 <img src="/img/simplelogo.png" alt="V1 Engineering Logo" width="350" align="right">
 
@@ -22,7 +34,7 @@ This video shows the process. Press (f) to show the video full screen.
     - I use Inkscape or Gimp or plain old Windows Paint
     - You may have to do some work on simplifying the picture or enhancing the details
 
-## Starting F-Engrave
+### Starting F-Engrave
 
 1. Start F-engrave and import your picture
 
@@ -34,7 +46,7 @@ This video shows the process. Press (f) to show the video full screen.
 
 ![F-Engrave Screen](../img/FengraveCapture1.jpg){: loading=lazy width="650"}
 
-### F-Engrave Settings
+#### F-Engrave Settings
 
 **Here are some working F-Engrave settings:**
 
@@ -50,9 +62,9 @@ This video shows the process. Press (f) to show the video full screen.
 
 ----
 
-## Post Processing with MODfef
+### Post Processing with MODfef
 
-### Start MODfef and process the output files from F-engrave
+#### Start MODfef and process the output files from F-engrave
 
 1. Select the MAIN file, the “VCLEAN” file and the “CLEAN” file
 1. You can also select a custom start file and end file (these are not produced by F-engrave)
@@ -67,7 +79,7 @@ This video shows the process. Press (f) to show the video full screen.
 
 ----
 
-## Carving
+### Carving
 
 1. Load the MODfef processed gcode file into Octoprint (or your gcode streamer)
 ![Octoprint Screen](../img/FengraveCapture6.jpg){: loading=lazy width="750"}
@@ -86,7 +98,7 @@ This video shows the process. Press (f) to show the video full screen.
 1. Cut the male part.
 1. Once more if you have clean files you may have a tool change. It’s the same process that you completed with the "female" part.
 
-## Clean up and Assembly
+### Clean up and Assembly
 
 1. Once its complete clean up both parts.
     - I use a scalpel to clean any edges or corners that need it.
@@ -105,7 +117,7 @@ This video shows the process. Press (f) to show the video full screen.
 
 ----
 
-## Additional Information and References:
+### Additional Information and References:
 
 F-Engrave - [Website](https://www.scorchworks.com/Fengrave/fengrave.html "Scorchworks F-Engrave site")
 
