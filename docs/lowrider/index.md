@@ -288,6 +288,8 @@ A Removable spoil board section that can be easily replaced comes in handy as we
 
 #### Core Assembly
 
+[Quick Animation](https://youtu.be/WCgN_NUhKv4)
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (1).jpg){: loading=lazy width="400"}
 
  * LR Core, and six M5 nuts.
