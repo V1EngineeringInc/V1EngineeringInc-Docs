@@ -1,20 +1,20 @@
 # V1 Engineering Documentation
 
-[![Main V1 Engineering Site](https://www.v1engineering.com/wp-content/uploads/2017/12/120-Rectangle-drop-11-e1514049864768.png){: loading=lazy width="75%" }](https://www.v1engineering.com/)
-
 This is where you will find parts lists, instructions, cut calculators, and lots of other related information.
 
+[![Main V1 Engineering Site](img/120-Rectangle-logo.png){: loading=lazy width="75%" }](https://www.v1engineering.com/)
+
+The [Forums](https://forum.v1engineering.com) are the best place to ask any questions you might have, the [HomePage](https://www.v1engineering.com/) is where you will find updates, the online shop, and more.
+
 ## About V1
+| The Lineup |
+| ----------- |
+| ![MPCNC](img/primo.png){: loading=lazy width="150" align=left} <br/> V1 Engineering Inc all started with the [MPCNC platform](mpcnc/intro.md), from there it kept expanding. |
+|  ![LowRider CNC](img/Lr3.png){: loading=lazy width="150" align=right} <br/> All the same precision as the MPCNC but in a larger form factor for sheet goods? Welcome to the [LowRider CNC](lowrider/index.md). |
+| ![MP3DP](img/MP3DP.png){: loading=lazy width="150" align=left} <br/> Have a shiny new CNC and not sure what to do with it? Make a 3D printer, [Milled / Printed 3D Printer (MP3DP)](mp3dp/index.md). |
+| ![ZenXY](img/ZenXY.png){: loading=lazy width="150" align=right} <br/> Want to spice up your office, living room, or dining room?  Make a slick art table with the [ZenXY](zenxy/index.md). |
 
-V1 Engineering Inc all started with the [MPCNC platform](mpcnc/intro.md), from there it kept expanding.
-
-All the same precision as the MPCNC but in a larger form factor for sheet goods? Try the [LowRider CNC](lowrider/index.md).
-
-Have a shiny new CNC and not sure what to do with it? Make a 3D printer, [Milled / Printed 3D Printer (MP3DP)](mp3dp/index.md).
-
-Want to spice up your office, living room, or dining room?  Make a slick art table with the [ZenXY](zenxy/index.md).
-
-If you can’t tell I like to make things and share them, If you have any questions you will find me in the [forums](https://forum.v1engineering.com/). **- Ryan**
+If you can’t tell, I like to make things and share them. If you have any questions you will find me in the [forums](https://forum.v1engineering.com/). **- Ryan**
 
 ## About The Community Documents
 
@@ -22,8 +22,8 @@ These instructions are a collection of knowledge from the V1 Engineering communi
 designed for collaboration in mind and edits are welcome. Please help us make this documentation
 better.
 
-**The forums are a great way to get help. Please stop by and ask questions or share what you're
-building.** This [Community Documentation](https://forum.v1engineering.com/t/community-documentation/11435) idea started in the forums. 
+**The [forums](https://forum.v1engineering.com) are a great way to get help. Please stop by and ask questions or share what you're
+building.** This [Community Documentation](https://forum.v1engineering.com/t/community-documentation/11435) idea actually started in the forums. 
 
 [This documentation is hosted on github.io](https://docs.v1engineering.com), [The source code is on github](https://github.com/V1EngineeringInc/V1EngineeringInc-Docs)
 
@@ -60,11 +60,8 @@ awesome you are for making a contribution.
 
 ## Contributors
 
-This is a community project. Ryan Zellars started the whole thing with his MPCNC, and other machine
-designs. His documentation and design is the core of these instructions. Jeff Eberl worked to create
-the documentation infrastructure.
-
-Content was created, edited, and shared by:
+This is a community project. Ryan Zellars started the whole thing with his MPCNC. His documentation and designs are the core of these instructions. Jeff Eberl worked to create
+the documentation infrastructure, and we would like to thank the following contributors and editors;
 
 Ryan Zellars (allted, vicious1) - Jeff Eberl (jeffeb3) - Mark Frost (fr0sty1) - Jamie (vector76) -
 Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett - Ian (ianj001) - Gene Merritt
@@ -76,7 +73,7 @@ Special thanks to;
 The Primo test crew. Without you fellas Primo would not be the absolute beast that it is!
 Tim (timonjkl) - GP (gpagnozzi) - Barry (barry99705)
 
-The LowRider 3 CNC Beta Test Build Crew. Lots of help and valuable input on this one.
+The LowRider 3 CNC Beta Test Crew. Lots of help and valuable input on this one.
 GP (gpagnozzi) - Jeff Eberl (jeffeb3) - Jonathan (JKStewart) - Dan (SupraGuy)
 
 ## License

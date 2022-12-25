@@ -80,8 +80,8 @@ available at the bottom of that page. If you ask for help I will ask about your 
 
 Now the machine can draw pictures it is time to get it dirty. Hope you didn’t make a white one…
 
-When you are ready to try and cut something, here are some [Intermediate instructions](../software/estlcam-2p5d.md).
+When you are ready to try and cut something, here are some [Milling Basics](../software/estlcam-basics.md).
  
 ## CNC Step 3 – Getting Creative
 
-[This page](https://www.v1engineering.com/information/how-to/) has all sorts of things to try.
+[This page](https://forum.v1engineering.com/tag/gallery-mpcnc) and [This One](https://forum.v1engineering.com/tag/gallery-lowrider-cnc) have all sorts of things to try.

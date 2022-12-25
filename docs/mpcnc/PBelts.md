@@ -83,3 +83,5 @@ ___
 ___
 
 No belts for me I use suspenders....So much less complicated.
+
+Next step is [wiring the steppers](../electronics/steppers.md).

@@ -128,19 +128,22 @@ your z axis is backwards. [Flip the plug](../software/reverse-motor.md).
 
 ## Test File
 
-[Test Crown 12mm/s GCODE](https://www.v1engineering.com/wp-content/uploads/2015/09/Test-Crown-12mms.gcode)– [Test Crown 12mm/s Zipped file](https://www.v1engineering.com/wp-content/uploads/2018/02/Test-Crown-12mms.zip)
-.
-
-
-## Final
+[Test Crown 12mm/s GCODE](https://www.v1engineering.com/wp-content/uploads/2015/09/Test-Crown-12mms.gcode)– [Test Crown 12mm/s Zipped file](https://www.v1engineering.com/wp-content/uploads/2018/02/Test-Crown-12mms.zip).
 
 This all it takes to plot with a pen or do basic 2D (2.5D) milling, some of the most common
 things this type of mill is used for. Make sure to adjust your tool and its settings depending on
 the material in use. Always do a test cut!
 
-Here is an old video, the [new Burly pen holder](https://www.thingiverse.com/thing:1612207) or [Primo pen / knife holder](https://github.com/V1EngineeringInc/MPCNC_Primo_Tool_Mounts/tree/master/Knife_Pen_Mount) has built in
-spring so you will get even more consistent results.
+Here is an old video, the new [Primo pen / knife holder](https://github.com/V1EngineeringInc/MPCNC_Primo_Tool_Mounts/tree/master/Knife_Pen_Mount) has built in spring so you will get even more consistent results.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s8YwkcK3P9U"
   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
   clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This video is of the very first MPCNC, drawing the very first test crown (that I still have framed in my room). This video still makes me smile ear to ear, I am very proud of it even though we can do so much more and so much faster these days. At the time this was amazing and I hope your first crown feels the same way.
+
+P.S. the crown's "jewel" is not perfectly round. 
+
+## Milling Basics
+
+Once you can do some drawings and you are ready to try and cut something, here are some [Milling Basics](../software/estlcam-basics.md).

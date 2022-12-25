@@ -892,7 +892,9 @@ Size, options, routing, grounding.  *to do
 
 [Quick release coupler](https://www.printables.com/model/168405-vacuum-hose-coupler) for 1.5" hose.
 
+### Wiring
 
+Next step is [wiring the steppers](../electronics/steppers.md).
 
 ### Using the machine.
 
