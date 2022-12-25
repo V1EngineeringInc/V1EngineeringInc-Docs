@@ -5,14 +5,11 @@
 Using [this wiring kit](https://vicious1-com.myshopify.com/collections/parts/products/wiring-kit-1),
 you really just need to plug in the motors and endstops, tape or otherwise secure the connection, and go.
 
-More info on which ports to plug in your wires is found in the next instructions section "Some Control Board Options".
-
-The MPCNC and LowRider CNC now come with endstops paired with each stepper. We call this "dual endstop", more information [MPCNC info here](../electronics/dual-endstops.md), [LowRider info here](../electronics/dual-lr.md)
-
-
 ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/05/IMG_20180529_1806062.jpg){: loading=lazy width="400"}
 
 **Make sure to always secure the connections with tape.**
+
+More info on which ports to plug in your wires is found in the next instructions section "Some Control Board Options" here are the current [Skr Pro](../electronics/skrpro.md), [Rambo](../electronics/ultimachine.md) links.
 
 # Reversing the Axis Direction
 

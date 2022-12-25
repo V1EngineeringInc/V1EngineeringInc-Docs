@@ -59,17 +59,17 @@ nav:
      - SKR Pro: electronics/skrpro.md
      - Ultimachine Boards: electronics/ultimachine.md
      - Ramps: electronics/ramps.md
+   - Setup: software/index.md
    - Some Advanced Options:
      - V1pi - Headless: electronics/v1pi.md
      - Dual Endstops: electronics/dual-endstops.md
      - Dual Endstops Low Rider: electronics/dual-lr.md
-   - Setup: software/index.md
 
  - Use:
    - Tools:
      - Milling:
-       - Milling Basics: tools/milling-basics.md
        - EstlCAM Setup: software/estlcam-basics.md
+       - Milling Basics: tools/milling-basics.md
        - EstlCAM Intermediate (2.5d): software/estlcam-2p5d.md
        - Milling Metal: tools/milling-metal.md
        - Inlays: software/Fengrave-vcarve-inlay.md
@@ -113,8 +113,8 @@ theme:
       icon: material/brightness-4
       name: Switch to light mode    
   features:
-  - navigation.tabs
-  - navigation.top
+  - navigation.sections
+  - toc.integrate
   - toc.follow
   - navigation.instant
   - content.tabs.link
