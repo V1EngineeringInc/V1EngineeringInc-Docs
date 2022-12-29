@@ -912,4 +912,8 @@ wired in series (using a 4 driver board). You will just use hardstops like the L
 
 [Firmware page.](../electronics/marlin-firmware.md)
 
+### Build experience poll
+
+[How did it go for you?](https://forum.v1engineering.com/t/lr3-how-many-hours-to-build-lr3/34307/2)
+
 ## Go get it dirty, be safe, have fun!
