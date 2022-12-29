@@ -56,7 +56,7 @@ Printables.com
 :   [Printables.com Link](https://www.printables.com/model/204709-lowrider-3-cnc)
 
 Thingiverse Printed parts files:
-:   [Thingiverse.com Link](https://) Coming soon!
+:   [Thingiverse.com Link]([https://](https://www.thingiverse.com/thing:5436094)
 
 ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (7).jpg){: loading=lazy width="600"}
 
@@ -285,6 +285,9 @@ A Removable spoil board section that can be easily replaced comes in handy as we
 
 
 ## Assembly
+
+Here is a wonderful video showing what you are getting into. Lots of time stamps if you want to skip around.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FJ7nYio8oOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Core Assembly
 
