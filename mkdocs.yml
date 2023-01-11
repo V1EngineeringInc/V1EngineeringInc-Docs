@@ -54,11 +54,11 @@ nav:
      - Previous Version: zenxy/og_zen.md
 
  - Control:
-   - Wiring The Steppers: electronics/steppers.md
-   - Some Control Board Options:
+   - Control Boards:
      - SKR Pro: electronics/skrpro.md
      - Ultimachine Boards: electronics/ultimachine.md
      - Ramps: electronics/ramps.md
+   - Wiring The Steppers: electronics/steppers.md
    - Setup: software/index.md
    - Some Advanced Options:
      - V1pi - Headless: electronics/v1pi.md
