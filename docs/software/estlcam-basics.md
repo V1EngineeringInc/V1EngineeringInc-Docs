@@ -146,4 +146,4 @@ P.S. the crown's "jewel" is not perfectly round.
 
 ## Milling Basics
 
-Once you can do some drawings and you are ready to try and cut something, here are some [Milling Basics](../software/estlcam-basics.md).
+Once you can do some drawings and you are ready to try and cut something, here are some [Milling Basics](../tools/milling-basics.md).
