@@ -1,7 +1,7 @@
 
 ### Kiri:Moto BASICS 
 
-**Kiri:Moto** is a unique browser-based slicer for 3D printing and a tool-path generator for CNC mills and laser cutters. It is completely free and open-source with a focus on privacy and ease-of-use. It is actively being developed and updated.
+[Kiri:Moto](https://grid.space/kiri/) is a unique browser-based slicer for 3D printing and a tool-path generator for CNC mills and laser cutters. It is completely free and open-source with a focus on privacy and ease-of-use. It is actively being developed and updated.
 
 **Ease of use.**
 
@@ -9,44 +9,40 @@ The author of this document had not previously opened a CAM application,  His pr
 
 **1) Language**
 
-![!Kiri:Moto](../img/kiri/0-icon.png){: loading=lazy width="200"}
+![!Kiri:Moto](../img/kiri/0-icon.png){: align=left loading=lazy width="l00"} Open [Kiri:Moto](https://grid.space/kiri/) and choose your language from the icon in the top right of your screen.
 
-Open Kiri:Moto and choose your language from the icon in the top right of your screen.
-
-
+**2) Preferences Setup**
 
 ![!Kiri:Moto](../img/kiri/1-Application_Preferences.jpg){: loading=lazy width="600"}
-
-**2) Preferences Setup**. 
 
 Open the Setup Menu (top of the left hand toolbar) and select “Prefs”.
 
 The default setup should not need changing unless you have some specific requirements, but make sure that you have selected the correct workspace units for your purpose.
 
-![!Kiri:Moto](../img/kiri/2-Machine_setup.jpg){: loading=lazy width="600"}
-
 **3) Machine Setup**
+
+![!Kiri:Moto](../img/kiri/2-Machine_setup.jpg){: loading=lazy width="600"}
 
 Open the Setup Menu and select “Machine”
 
 Check that the “CNC” button is shaded then select any Standard Device (I used “any generic Gbrl” which seems to talk nicely in Marlin too),  and make the following changes:
 
- - Change the Name of the machine to whatever you fancy.
+- To make changes, click the customize button in the lower right corner of the settings screen.
 
- - Enter the build volume of your machine.
+- Change the Name of the machine to whatever you fancy.
 
- - Change the Max Spindle Length to match the longest spindle you will be using.
+- Enter the build volume of your machine.
 
 - In the **Output** menu check that the file extension is “gcode”.
 
-- In the menu **Gcode Macros**, there is provision for insertion of special instructions for tool changes, and at the beginning and end of the project, but since this is day one, we’ll ignore those until a slightly further down this page.
-
-
-![!Kiri:Moto](../img/kiri/3-operation_modifier_setup.jpg){: loading=lazy width="600"}
+- In the menu **Gcode Macros**, there is provision for insertion of special instructions for starting gcode, tool changes, and ending gcode, but since this is day one, we’ll ignore those until a slightly further down this page.
+- Make sure to hit "Save", and you can export and save your setting locally as well.
 
 **4) Setting up the Operation Modifiers (Right Hand Menu)**
 
-Click on the **Limits** menu and change the following values: 
+![!Kiri:Moto](../img/kiri/3-operation_modifier_setup.jpg){: loading=lazy width="600"}
+
+Click on the **Limits** menu on teh right side of the screen and change the following values: 
 
  - **Z Thru** to (say 1mm) - this is the amount your bit will travel into the spoil board in through cuts.
 
@@ -69,7 +65,7 @@ Finally (for now) the **Origin** menu;
 
 **5)Tools**
 
-Now we are ready to look at **TOOLS**.
+Now we are ready to look at custom **TOOLS**.
 
 
 There is a basic set of tools ready to be modified and there is absolutely no need to create a tool called “Sharpie” but it’s a nice exercise to help create an understanding of how the tool setup works.   Each tool to be used, requires a new setup so that the software can figure out what needs to be done.
@@ -123,7 +119,7 @@ Now click on the little **+**  sign in the bottom of the **trace** popup, you ca
 
 It’s time to pop back up to the **start** menu and check on our handiwork.  Preview the tool travel path and even check out an animation although for this one, if the tool (Sharpie) is at Z0 there may not be any lines left so it could be a bit uninteresting!
 
-If thngs work as expected you can export your first bit of gcode and run breathlessly to your waiting machine, where no doubt you’ve had the Sharpie set up for just this minute! 
+If things work as expected you can export your first bit of gcode and run breathlessly to your waiting machine, where no doubt you’ve had the Sharpie set up for just this minute! 
 
 ![!Kiri:Moto](../img/kiri/10-Export_Box_Crown.jpg){: loading=lazy width="600"}
 
@@ -194,7 +190,6 @@ Set the tabs dimensions to taste (there’s a tool tip on every menu and these a
  Just for fun, I’ve decided to taper the edges of the letters V1, to make them a little finer, and to give us an excuse to set up a tool change.   At the beginning of this document I may have suggested leaving out the “tool change” code for a later time, which is a shame, because that time has arrived.
 
 ![!Kiri:Moto](../img/kiri/18-Toolchange-code_setup.jpg){: loading=lazy width="600"}
-(https://docs.v1engineering.com/tools/milling-basics/#gcode-start-tool-change-and-ending)
 
 Race back to the **setup** menu, select **Device>gcode macros> tool change**,  and cut and paste the code that best suits your machine from the "Milling Basics page, see [GCode Starting Ending and Tool Change. ](https://docs.v1engineering.com/tools/milling-basics/#gcode-start-tool-change-and-ending)
 
