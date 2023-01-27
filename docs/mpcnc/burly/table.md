@@ -4,12 +4,12 @@
 You can really use any table you have, the sturdier the better of course. If you don’t have a spare table your willing to get really dirty, here is one I put together for a few dollars’ worth of 2×4’s.
 
 
-![!Table Structure](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20151022_175857.jpg){: loading=lazy width="400"}
+![!Table Structure](../../img/old/2015/10/IMG_20151022_175857.jpg){: loading=lazy width="400"}
 
 Basic 2×4 table, screwed together.
 ___
 
-![!Table Structure](https://www.v1engineering.com/wp-content/uploads/2015/10/IMG_20151023_101508.jpg){: loading=lazy width="400"}
+![!Table Structure](../../img/old/2015/10/IMG_20151023_101508.jpg){: loading=lazy width="400"}
 
 I screw the table top on to keep it square, then cut the center out as a spoil board. That way it is easy to replace without the need to disassemble the machine.
 ___

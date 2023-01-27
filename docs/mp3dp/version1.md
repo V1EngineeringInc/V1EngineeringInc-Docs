@@ -101,13 +101,13 @@ Assembly
 
 No instructions for Version 1. Just look at these images to give you some help though.
 
-![!image](https://www.v1engineering.com/wp-content/uploads/2016/03/IMG_20160325_161225-1.jpg)
-![!image](https://www.v1engineering.com/wp-content/uploads/2016/03/IMG_20160325_161234-1.jpg)
-![!image](https://www.v1engineering.com/wp-content/uploads/2016/03/IMG_20160325_161244-1.jpg)
-![!image](https://www.v1engineering.com/wp-content/uploads/2016/03/IMG_20160325_161253-1.jpg)
-![!image](https://www.v1engineering.com/wp-content/uploads/2016/03/IMG_20160328_111316.jpg)
-![!image](https://www.v1engineering.com/wp-content/uploads/2016/03/IMG_20160328_111338.jpg)
-![!image](https://www.v1engineering.com/wp-content/uploads/2016/03/IMG_20160328_111356.jpg)
-![!image](https://www.v1engineering.com/wp-content/uploads/2016/03/IMG_20160328_111403.jpg)
+![!image](../img/old/2016/03/IMG_20160325_161225-1.jpg)
+![!image](../img/old/2016/03/IMG_20160325_161234-1.jpg)
+![!image](../img/old/2016/03/IMG_20160325_161244-1.jpg)
+![!image](../img/old/2016/03/IMG_20160325_161253-1.jpg)
+![!image](../img/old/2016/03/IMG_20160328_111316.jpg)
+![!image](../img/old/2016/03/IMG_20160328_111338.jpg)
+![!image](../img/old/2016/03/IMG_20160328_111356.jpg)
+![!image](../img/old/2016/03/IMG_20160328_111403.jpg)
 
 

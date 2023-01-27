@@ -14,7 +14,7 @@ voltages, WiFi Ports, future expansion port for USB, and the Trinamic TMC driver
 There are many options involved here. To offer the best experience for most users I have settled
 on the TMC2209 drivers, and the TFT35 V3 E3 screen.
 
-![!SKR Bundle](https://www.v1engineering.com/wp-content/uploads/2020/07/srkbundle.jpg){: loading=lazy width="400"}
+![!SKR Bundle](../img/old/2020/07/srkbundle.jpg){: loading=lazy width="400"}
 
 !!! 2209 Drivers
     The Trinamic 2209 V1.2 drivers offer UART communication for dynamic control, 2A RMS with a 2.8A
@@ -30,7 +30,7 @@ on the TMC2209 drivers, and the TFT35 V3 E3 screen.
 Sensorless homing is not as accurate as mechanical end stops. All the pre-compiled
 firmware has this disabled so you will need to bend the pins out of the way.
 
-![!2209 bend](https://www.v1engineering.com/wp-content/uploads/2020/07/sensorles-bend.jpg){: loading=lazy width="400"}
+![!2209 bend](../img/old/2020/07/sensorles-bend.jpg){: loading=lazy width="400"}
 
 Bend this pin on each driver to allow mechanical switches to be used on the SKR board.
 
@@ -40,11 +40,11 @@ For the firmware to be able to control the current and receive feedback from eac
 needs to be set for UART communication. To do this you remove the 4 jumpers from each port and place
 one jumper on the black (UART) pins. **There is no need to monkey with the tiny potentiometers!**
 
-![!Highlighted UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/uart2-Arrows.jpg){: loading=lazy width="400"}
+![!Highlighted UART pins](../img/old/2020/07/uart2-Arrows.jpg){: loading=lazy width="400"}
 
 The completed board looks like this. Notice there are no jumpers under the drivers. **Lowrider and MPCNC builds will have only 5 drivers**, MP3DP uses 6.
 
-![!UART pins](https://www.v1engineering.com/wp-content/uploads/2020/07/Uart-scaled.jpg){: loading=lazy width="400"}
+![!UART pins](../img/old/2020/07/Uart-scaled.jpg){: loading=lazy width="400"}
 
 At this point you can add the heat sinks being careful not to short any of the pins and only stick
 them to the copper pads centered on the top.
@@ -56,7 +56,7 @@ The current V1 Engineering wiring kits have the Molex style terminations on them
 Depending on what wires you are plugging in you can take them off the end stops and stepper ports. Even after doing this you should always constrain your wires directly after the connection to the board to prevent them from wiggling loose.
 
 
-![!Shields off](https://www.v1engineering.com/wp-content/uploads/2021/03/PXL_20201122_212218205.jpg){: loading=lazy width="400"}
+![!Shields off](../img/old/2021/03/PXL_20201122_212218205.jpg){: loading=lazy width="400"}
 
 
 ## Wiring Steppers
@@ -88,15 +88,15 @@ common ways we might use it.
 | E0  | Y2 |
 | E1  | Z2 |
 
-![!dual 0](https://www.v1engineering.com/wp-content/uploads/2020/07/dual2-scaled.jpg){: loading=lazy width="400"}
+![!dual 0](../img/old/2020/07/dual2-scaled.jpg){: loading=lazy width="400"}
 
 ### Reversing a stepper
 
 If your stepper is moving the wrong way you can power down, unplug the power, and flip the stepper plug over to change the
 direction of rotation. 
 
-![!flip 1](https://www.v1engineering.com/wp-content/uploads/2020/07/flip1-scaled.jpg){: loading=lazy width="400"}
-![!flip 2](https://www.v1engineering.com/wp-content/uploads/2020/07/flip2-scaled.jpg){: loading=lazy width="400"}
+![!flip 1](../img/old/2020/07/flip1-scaled.jpg){: loading=lazy width="400"}
+![!flip 2](../img/old/2020/07/flip2-scaled.jpg){: loading=lazy width="400"}
 
 ## Screen TFT35 V3 E3
 
@@ -104,7 +104,7 @@ We can use it from both
 Touchscreen mode and Classic mode, simultaneously. **Switching between modes is as easy as pressing
 the knob in for 3 seconds.**
 
-![!screen](https://www.v1engineering.com/wp-content/uploads/2021/01/lcd-touch-Labels-scaled-1.jpg){: loading=lazy width="400"}
+![!screen](../img/old/2021/01/lcd-touch-Labels-scaled-1.jpg){: loading=lazy width="400"}
 
 You do not need to use both; pay attention to the direction the wires are facing when connecting
 them.
@@ -113,7 +113,7 @@ them.
 
 All the V1 firmware is ready for a touch plate. Easy as plugging into the Z min port. Use Ground "G" and Signal  "S" pins, they are labeled on the back of the board.
 
-![!Probe](https://www.v1engineering.com/wp-content/uploads/2020/07/Z-probe-scaled.jpg){: loading=lazy width="400"}
+![!Probe](../img/old/2020/07/Z-probe-scaled.jpg){: loading=lazy width="400"}
 
 ## Dual End Stops, End Stops
 
@@ -123,7 +123,7 @@ Closed (NC), this is the outer two tabs on the endstops, we do not use the middl
 Optical endstops are not recommended on a machine used for milling or routing. The debris can inhibit there function.
 
 ### MPCNC Dual Endstops
-![!endstops](https://www.v1engineering.com/wp-content/uploads/2020/07/endstops-scaled.jpg){: loading=lazy width="400"}
+![!endstops](../img/old/2020/07/endstops-scaled.jpg){: loading=lazy width="400"}
 
 ### LowRider Dual endstops
 ![!LR3 endstops](../img/LR3_endstops.jpg){: loading=lazy width="400"}
@@ -152,7 +152,7 @@ When you unzip the file you have a .bin file. Rename to FIRMWARE.bin and save it
     Do not use a SKR Pro based machine with the microSD card in the SKR Pro board unless you are using the headless module. This seems to cause random performance issues otherwise.
 
 
-![!SKR file](https://www.v1engineering.com/wp-content/uploads/2020/08/SKR_Bin.jpg){: loading=lazy width="400"}
+![!SKR file](../img/old/2020/08/SKR_Bin.jpg){: loading=lazy width="400"}
 
 The file will change extensions when a successful flash happens.
 
@@ -170,7 +170,7 @@ BIGTREE_TFT35_V3.0_E3.****.bin
 config.ini
 TFT35 (folder)
 
-![!TFT files](https://www.v1engineering.com/wp-content/uploads/2020/08/TFT35_bin.jpg){: loading=lazy width="400"}
+![!TFT files](../img/old/2020/08/TFT35_bin.jpg){: loading=lazy width="400"}
 
 Now reset the screen (or board) and watch the screen update itself. You can double check and the files will have a new extension after a successful flash.
 

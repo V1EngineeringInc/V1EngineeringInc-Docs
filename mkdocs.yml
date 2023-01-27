@@ -150,7 +150,7 @@ extra_css:
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
-copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a> Copyright 2023 V1Engineering Inc."
+copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA</a> Copyright 2023 V1Engineering Inc."
 
 markdown_extensions:
   - attr_list

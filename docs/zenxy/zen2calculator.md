@@ -10,7 +10,7 @@ minimum dimensions needed to build it. The "image dimension" is the size of the 
 produce designs in (the firmware number). The one consideration is the image area also contains the steel ball width, so
 "image dimension" (X or Y) + diameter (one radius on each side) gives you the "actual area needed".
 
-![!ZenXY v2 Working area](https://www.v1engineering.com/wp-content/uploads/2021/03/Working-area.jpg){: loading=lazy width="400"}
+![!ZenXY v2 Working area](../img/old/2021/03/Working-area.jpg){: loading=lazy width="400"}
 
 This picture does not include the ball diameter. For example the offset (92mm) for a half inch ball
 (12.7mm) would be 92mm-6.35mm or 85.65mm. For table designs that are not exact fitting this doesn't

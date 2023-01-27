@@ -2,7 +2,7 @@
 
 # ZenXY
 
-![!FirstZenXY](https://www.v1engineering.com/wp-content/uploads/2017/07/IMG_20170717_103443.jpg){: loading=lazy width="450"}
+![!FirstZenXY](../img/old/2017/07/IMG_20170717_103443.jpg){: loading=lazy width="450"}
 
 Inspired by the awesome Sisyphus Table by Bruce Shapiro, [http://www.sisyphus-industries.com/](http://www.sisyphus-industries.com/), Zen gardens that my mom used to love, and the crazy CoreXY belting system.
 
@@ -11,7 +11,7 @@ This is my attempt at an easily sourced automated Zen Table.
 ## Software
 
 ### Sandify
-![!Sandify](https://www.v1engineering.com/wp-content/uploads/2019/01/screenshot-2019-01-02-1546472560.png){: loading=lazy width="450"}
+![!Sandify](../img/old/2019/01/screenshot-2019-01-02-1546472560.png){: loading=lazy width="450"}
 
 Amazing patterns are easily possible by using [Sandify.org](https://sandify.org/), the back end is here [Sandify on GitHub](https://github.com/jeffeb3/sandify),
 This table would be nothing without this tool! ([feel free to show some appreciation for this amazing free piece of
@@ -99,13 +99,13 @@ Since every table will be a different size a cut calculator is a bit difficult.
 
 
 ## Table
-![!ZenXY Table Dims](https://www.v1engineering.com/wp-content/uploads/2017/08/dims-corner-1.png){: loading=lazy width="450"}
+![!ZenXY Table Dims](../img/old/2017/08/dims-corner-1.png){: loading=lazy width="450"}
 
 ## Assembly
-![!ZenXY Center](https://www.v1engineering.com/wp-content/uploads/2017/08/Center-zxy.png){: loading=lazy width="450"}
-![!ZenXY Corner L&R](https://www.v1engineering.com/wp-content/uploads/2017/08/Corners-ZXY.png){: loading=lazy width="450"}
-![!ZenXY Motor L&R](https://www.v1engineering.com/wp-content/uploads/2017/08/Motor.png){: loading=lazy width="450"}
-![!ZenXY Roller L&R](https://www.v1engineering.com/wp-content/uploads/2017/08/XYZ-ROller.png){: loading=lazy width="450"}
+![!ZenXY Center](../img/old/2017/08/Center-zxy.png){: loading=lazy width="450"}
+![!ZenXY Corner L&R](../img/old/2017/08/Corners-ZXY.png){: loading=lazy width="450"}
+![!ZenXY Motor L&R](../img/old/2017/08/Motor.png){: loading=lazy width="450"}
+![!ZenXY Roller L&R](../img/old/2017/08/XYZ-ROller.png){: loading=lazy width="450"}
 
 ## Firmware
 
@@ -115,8 +115,8 @@ This is running coreXY belting and requires homing Y before X, as set in the fir
 
 ## More Info
 
-![!ZenXY Animation](https://www.v1engineering.com/wp-content/uploads/2017/10/ZenXY_712SpiralAnimate.gif){: loading=lazy width="450"}
+![!ZenXY Animation](../img/old/2017/10/ZenXY_712SpiralAnimate.gif){: loading=lazy width="450"}
 
 ### Some Old Guy Coding, Belt Routing
 
-[![Some Old Guy Coding, Belt Routing](https://www.v1engineering.com/wp-content/uploads/2018/04/SOGC-routing-1080x665.jpg){: loading=lazy width="450"}](https://youtu.be/L_GTP3r846g)
+[![Some Old Guy Coding, Belt Routing](../img/old/2018/04/SOGC-routing-1080x665.jpg){: loading=lazy width="450"}](https://youtu.be/L_GTP3r846g)

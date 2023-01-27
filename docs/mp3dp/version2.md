@@ -1,6 +1,6 @@
 # MP3DP -V2-
 
-![!mp3dp](https://www.v1engineering.com/wp-content/uploads/2018/01/MVIMG_20180111_1403212.jpg)
+![!mp3dp](../img/old/2018/01/MVIMG_20180111_1403212.jpg)
 
 This is my take on a Prusa I3, with a CNC mill friendly frame. This is the MP3DP -V2- __Milled/Printed
 3D Printer Version 2__.  This is a fun project to use your new CNC mill for.
@@ -129,12 +129,12 @@ As an Amazon Associate I earn from qualifying purchases.
 
 I love me some cable ties…
 
-![!belts](https://www.v1engineering.com/wp-content/uploads/2018/01/MVIMG_20180111_1404332.jpg){: loading=lazy width="500"}
+![!belts](../img/old/2018/01/MVIMG_20180111_1404332.jpg){: loading=lazy width="500"}
 
 For the bed I tried something new, and I like it. Pass through the block and tension the other
 parts. Make sure the ends clear and do not hit the pulley or idler. Better alignment?
 
-![!bed](https://www.v1engineering.com/wp-content/uploads/2018/01/MVIMG_20180111_140446.jpg){: loading=lazy width="500"}
+![!bed](../img/old/2018/01/MVIMG_20180111_140446.jpg){: loading=lazy width="500"}
 
 ## GT2 Idlers
 
@@ -147,16 +147,16 @@ have to be superhuman here. Start loose and only tighten the belts if you notice
 Easy adjust, more consistent belt tension. Use the screws to set the smooth rods into place, or use
 super glue like before.
 
-![!xaxis](https://www.v1engineering.com/wp-content/uploads/2018/01/xscrews.jpg){: loading=lazy width="500"}
+![!xaxis](../img/old/2018/01/xscrews.jpg){: loading=lazy width="500"}
 
 They should be adjusted top and bottom, to 301mm. you can measure this top and bottom to ensure the
 ends are parallel.
 
-![!xdims](https://www.v1engineering.com/wp-content/uploads/2018/01/XDistance.png){: loading=lazy width="500"}
+![!xdims](../img/old/2018/01/XDistance.png){: loading=lazy width="500"}
  
 ## Wires
 
-![!wires](https://www.v1engineering.com/wp-content/uploads/2018/02/MVIMG_20180126_110618.jpg){: loading=lazy width="400"}
+![!wires](../img/old/2018/02/MVIMG_20180126_110618.jpg){: loading=lazy width="400"}
 
 If you need a good first printing project how about a box to hide those wires, 
 [Gnarly Mini-Rambo Case](https://www.thingiverse.com/thing:2778151), or a case for the
@@ -164,8 +164,8 @@ If you need a good first printing project how about a box to hide those wires,
 
 ## Extruders
 
-![!extruder](https://www.v1engineering.com/wp-content/uploads/2018/01/IMG_20170708_120642_large.jpg)
-![!extruder](https://www.v1engineering.com/wp-content/uploads/2018/01/IMG_20150809_15173301_large.jpg)
+![!extruder](../img/old/2018/01/IMG_20170708_120642_large.jpg)
+![!extruder](../img/old/2018/01/IMG_20150809_15173301_large.jpg)
 
 I have designed this with both the [Titan Aero][sh2] , and the 
 [MK8](https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/3d-printing-extruder)
@@ -231,7 +231,7 @@ This is the hard part. A 3/4″ screw is a thread or two away from fitting a 3/8
 sinking would make them fit. I chose to use 1″ instead. you need .423″ (that is the printed part and
 nut thickness) plus the thickness of your frame / bed material, minimum. Longer should not be an issue.
 
-![!render](https://www.v1engineering.com/wp-content/uploads/2018/01/Fast-render.jpg)
+![!render](../img/old/2018/01/Fast-render.jpg)
 
 ## Bed bearings
 
@@ -239,7 +239,7 @@ Trying out a new style here, one side is shorter to allow for clamping if necess
 usually is not, If you over tighten it you can actually crush the bearings and damage them. Default
 to super loose or no clamp screw/nut at all. Just a screw on the flush side should be enough.
 
-![!bearings](https://www.v1engineering.com/wp-content/uploads/2018/01/Clampper.png){: loading=lazy width="400"}
+![!bearings](../img/old/2018/01/Clampper.png){: loading=lazy width="400"}
 
 ## EndStops
 

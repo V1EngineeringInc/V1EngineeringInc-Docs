@@ -90,7 +90,7 @@ design and adjust it.
 
 ## Toolpath Generation/CAM
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/3Island.jpg)
+![!pic](../img/old/2018/03/3Island.jpg)
 
 !!! note
     If you are familiar with 3D printing, this is similar to the slicer step (but not as automated).
@@ -129,7 +129,7 @@ There is a lot more detailed information in the [Milling Basics](../tools/millin
 
 ## G-code Sender
 
-![!eRep](https://www.v1engineering.com/wp-content/uploads/2015/05/eRep.png)
+![!eRep](../img/old/2015/05/eRep.png)
 
 The term "G-code Sender" isn't a very technical term, because there are so many ways to "play back"
 a g-code file.
@@ -154,7 +154,7 @@ image](../electronics/v1pi.md). You can use [CNC.js](https://github.com/cncjs/cn
 
 ## Controller/Firmware
 
-![pic](https://www.v1engineering.com/wp-content/uploads/2015/05/Marlin-Logo-GitHub.png)
+![pic](../img/old/2015/05/Marlin-Logo-GitHub.png)
 
 The final step is to actually do the milling/cutting.  Obviously this is done by the tool at the end of the gantry, but it is facilitated by the controller.  The controller takes movement commands, and drives the motors. If you bought the controller from
 the V1Engineering shop, then it is running Marlin. Marlin is designed for 3D printing (and so are a

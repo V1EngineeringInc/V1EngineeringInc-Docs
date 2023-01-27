@@ -30,8 +30,8 @@ With all the motors plugged in, plug in the USB cable and the power to the contr
 connect in the upper left corner of repetier, it should take a few seconds and turn green to
 indicate it is connected.
 
-![Not Connected - Red](https://www.v1engineering.com/wp-content/uploads/2015/11/rrred.jpg){: loading=lazy width="350"}
-![Connected - Green](https://www.v1engineering.com/wp-content/uploads/2015/11/rgreen.jpg){: loading=lazy width="350"}
+![Not Connected - Red](../img/old/2015/11/rrred.jpg){: loading=lazy width="350"}
+![Connected - Green](../img/old/2015/11/rgreen.jpg){: loading=lazy width="350"}
 
 !!! note 
     If you are using a dual end stop firmware flashed board, you have to have the end stops
@@ -48,7 +48,7 @@ If it doesn’t move as expected hit disconnect, unplug the power and USB, any a
 wrong way simply [flip the plug](../software/reverse-motor.md). If one stepper is moving the wrong way
 power down and flip it’s plug. Power back up and test again.
 
-![Repetier Controls](https://www.v1engineering.com/wp-content/uploads/2015/11/rcontrols.jpg){: loading=lazy width="350"}
+![Repetier Controls](../img/old/2015/11/rcontrols.jpg){: loading=lazy width="350"}
  
 ## Control Software
 

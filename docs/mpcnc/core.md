@@ -3,14 +3,14 @@ ___
 
 ## First Z Bearings
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreBZ1-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreBZ1-scaled.jpg){: loading=lazy width="400"}
 
 !!! note
     Take these steps in order. The Core is very dependent on the order of assembly.
 
 * You will need 4 bolts, nuts, bearings, and the Core printed part
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreBZ2-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreBZ2-scaled.jpg){: loading=lazy width="400"}
 
 * Snap the bearings into the slots.
     * You can line them up and give them a tap with the ratchet handle and they should pop into place.
@@ -19,7 +19,7 @@ ___
 !!! Hint
     If you pop the bearings in too far or need to get them out, the rear has a hole for an Allen key to push them back out.
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreBZ3-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreBZ3-scaled.jpg){: loading=lazy width="400"}
 
 * Paying attention to the direction of the bolt heads, insert the bolts and nuts.
 * Snug these bolts up, just 1/16th of a turn past seated (touching the plastic on both sides).
@@ -32,11 +32,11 @@ ___
 
 ## Inner Z Bearings
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreIZ1-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreIZ1-scaled.jpg){: loading=lazy width="400"}
 
 * 4 more bolts, nuts, and bearings
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreIZ2-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreIZ2-scaled.jpg){: loading=lazy width="400"}
 
 * Attach all 4 bearings, paying attention to the direction of the bolt heads (for Z clearance).
 * Snug these up, 7in/lbs, just past seated.
@@ -45,13 +45,13 @@ ___
 
 ## Core Clamps
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreXY1-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreXY1-scaled.jpg){: loading=lazy width="400"}
 
 * For each Core Clamp printed part you will also need 2 bolts, 2 nuts, and 2 bearings.
 * The bolt head direction and the part orientation are easy to miss. Pay attention to the pictures
     to make sure you don't have clearance issues later.
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreXY2-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreXY2-scaled.jpg){: loading=lazy width="400"}
 
 * This first one is the Core Clamp**Y**.
 * The flat side faces towards the logo and needs to be in this location.
@@ -61,7 +61,7 @@ ___
 !!! note
     Don't miss these two bearings.
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreXY3-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreXY3-scaled.jpg){: loading=lazy width="400"}
 
 * Add All 4 sets.
 * Snug up all these bolts, 7in/lbs, just past seated. Do not crush the 1 mm spacers.
@@ -75,17 +75,17 @@ ___
 
 ## Gantry Rail Tension Bolts
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreYZ1-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreYZ1-scaled.jpg){: loading=lazy width="400"}
 
 * 4 bolts and bearings
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreYZ2-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreYZ2-scaled.jpg){: loading=lazy width="400"}
 
 * Slide a bearing in the Core Clamps.
 * The bolt heads should all be up - let gravity keep them in place.
 * Do not use a nut yet.
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreYZ3-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreYZ3-scaled.jpg){: loading=lazy width="400"}
 
 * All 4 bolt heads up, no nuts yet.
 
@@ -93,11 +93,11 @@ ___
 
 ## Setting the Gantry Rails
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/CoreRail1-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/CoreRail1-scaled.jpg){: loading=lazy width="400"}
 
 * You will need a rail and nuts for each tension bolt.
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/Core-Rail2-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/Core-Rail2-scaled.jpg){: loading=lazy width="400"}
 
 * Slide the rail in the assembly.
 * The rail should have slight tension and feel good with no nuts in place.
@@ -115,7 +115,7 @@ ___
 
 ## Truck Locks
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/TLock1-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/TLock1-scaled.jpg){: loading=lazy width="400"}
 
 * Add both gantry rails.
 * The open face of the Core should face the 0,0 corner (left nearest corner).
@@ -124,7 +124,7 @@ ___
     Because of the asymmetry of the Trucks, if the Core doesn't point to 0,0, the work area will be
     smaller.
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/TLock2-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/TLock2-scaled.jpg){: loading=lazy width="400"}
 
 * Snug up the Truck Clamps.
 * There is a gap here, same as the clamping parts. Do not try to close the gap.
@@ -132,11 +132,11 @@ ___
 
 ## Leadscrew Nut
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/Znut1-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/Znut1-scaled.jpg){: loading=lazy width="400"}
 
 * You will need the brass T8 lead screw nut and two M3x10 screws.
 
-![!Primo layout](https://www.v1engineering.com/wp-content/uploads/2020/06/Znut2-scaled.jpg){: loading=lazy width="400"}
+![!Primo layout](../img/old/2020/06/Znut2-scaled.jpg){: loading=lazy width="400"}
 
 * The nut has, and needs, some wiggle room.
 * Seat two of the screws and then back them off about 1/2 turn.

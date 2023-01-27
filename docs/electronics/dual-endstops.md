@@ -5,7 +5,7 @@
 The Dual EndStop firmware update enables unprecedented precision more easily than ever before. Since
 day one I have not encouraged endstops be used, until now.
 
-![Squaremelons](https://www.v1engineering.com/wp-content/uploads/2017/11/Squaremelon.jpg){ loading=lazy width="300" align=right }
+![Squaremelons](../img/old/2017/11/Squaremelon.jpg){ loading=lazy width="300" align=right }
 The Mostly Printed CNC and LowRider CNC are unique compaired to other machines in the fact that two of the axes are powered at
 each end. Using this fact and the new dual endstop firmware we can now more precisely
 and accurately set the position of every single stepper on the machine independently. This should
@@ -110,11 +110,11 @@ Make sure your job has a work offset if you use the endstops.
 A typical part has the gcode built with the origin at the parts corner. If you were to cut out that
 part it would result in going negative past your endstops and misalign your machine.
 
-![!negative moves](https://www.v1engineering.com/wp-content/uploads/2017/11/Negative.jpg){: loading=lazy width="400"}
+![!negative moves](../img/old/2017/11/Negative.jpg){: loading=lazy width="400"}
 
 Negative moves do not work on the X and Y axis with endstops.
 
-![!stay positive](https://www.v1engineering.com/wp-content/uploads/2017/11/good.jpg){: loading=lazy width="400"}
+![!stay positive](../img/old/2017/11/good.jpg){: loading=lazy width="400"}
 
 Moving the origin in your CAM program is the easiest fix.
 
