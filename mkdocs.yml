@@ -124,11 +124,11 @@ theme:
 extra:
   social:
     - icon: 'fontawesome/solid/house'
-      link: 'https://www.v1engineering.com'
+      link: 'https://www.v1e.com'
     - icon: 'fontawesome/solid/cart-plus'
-      link: 'https://shop.v1engineering.com'
+      link: 'https://www.v1e.com/collections.com'
     - icon: 'material/forum'
-      link: 'https://forum.v1engineering.com/'
+      link: 'https://forum.v1e.com/'
     - icon: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/V1Engineering'
     - icon: 'fontawesome/brands/facebook'
@@ -150,7 +150,7 @@ extra_css:
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
-copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">CC-BY-SA</a> Copyright 2023 V1Engineering Inc."
+copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a> Copyright 2023 V1Engineering Inc."
 
 markdown_extensions:
   - attr_list
