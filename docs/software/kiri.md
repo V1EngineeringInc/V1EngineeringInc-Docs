@@ -87,7 +87,7 @@ You are ready to generate some GCode.
 
 Let’s start with generating some 2D gcode, Good for pen plotting or 2D milling (cutting things out).
 
-Download the [Crown Vector](https://www.v1engineering.com/wp-content/uploads/2018/08/0102.zip) drawing, and import the SVG file directly into Kiri:Moto.  Kiri:Moto will automatically convert the 2d drawing to a 3d object with a depth of 5mm so there's no need to fiddle with any other format.
+Download the [Crown Vector](../img/old/2018/08/0102.zip) drawing, and import the SVG file directly into Kiri:Moto.  Kiri:Moto will automatically convert the 2d drawing to a 3d object with a depth of 5mm so there's no need to fiddle with any other format.
 
 ![!Kiri:Moto](../img/kiri/5-Stock_modifier-Crown.jpg){: loading=lazy width="600"}
 

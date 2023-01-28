@@ -28,7 +28,7 @@ Remember you are engraving the backside of the mirror so you have to flip your i
 it appears the correct way on the front of the mirror. If you do not, it will be backwards and you
 will need to start over.
 
-![!screen1](https://www.v1engineering.com/wp-content/uploads/2016/11/Screen1.jpg)
+![!screen1](../img/old/2016/11/Screen1.jpg)
 
 You can also Turn the gamma way down too this will help darken the blacks more if need be. You want
 the laser blasting as strongly as possible on the mirror.
@@ -36,7 +36,7 @@ the laser blasting as strongly as possible on the mirror.
 Next on the Laser profile tab you want to leave Min Power at `0` and change Max Power to `255` or
 select the Max radio button. No other changes required to the defaults here.
 
-![!screen2](https://www.v1engineering.com/wp-content/uploads/2016/11/Screen2.jpg)
+![!screen2](../img/old/2016/11/Screen2.jpg)
 
 On the last and final GCODE tab there are a few changes I make here. In the Gcode header section I
 add the following code:
@@ -58,7 +58,7 @@ I like to use diagonal scanning for best quality. You can choose to engrave an e
 like or not by selecting the check box. Click Generate file, give your file a name and the GCODE
 will be output.
 
-![!screen3](https://www.v1engineering.com/wp-content/uploads/2016/11/Screen3.jpg)
+![!screen3](../img/old/2016/11/Screen3.jpg)
 
 ### G Code Sender
 
@@ -70,7 +70,7 @@ In repetier click -File, -Load then find your file. Setting your laser to the `0
 mirror and click print. Several hours later you should end up with something that resembles your
 file like this.
 
-![!jets-9x9-2-1](https://www.v1engineering.com/wp-content/uploads/2016/11/Jets-9x9-2.1.jpg){: loading=lazy width="400"}
+![!jets-9x9-2-1](../img/old/2016/11/Jets-9x9-2.1.jpg){: loading=lazy width="400"}
 
 (Sorry I did not have a picture handy of the exact file I used in this example.)
 

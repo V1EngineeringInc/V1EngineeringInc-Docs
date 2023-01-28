@@ -2,7 +2,7 @@
 
 ## The Goal
 
-![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/OverHead-scaled.jpg){: loading=lazy width="400"}
+![!MPCNC stationary bearings](../img/old/2020/06/OverHead-scaled.jpg){: loading=lazy width="400"}
 
 * This step is just to get the gantry rails as perpendicular to each other as possible.
 * The squarer your build, the more accurate your cuts.
@@ -11,7 +11,7 @@
 
 ## Test
 
-![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/NearSide-scaled.jpg){: loading=lazy width="400"}
+![!MPCNC stationary bearings](../img/old/2020/06/NearSide-scaled.jpg){: loading=lazy width="400"}
 
 * An easy test is to measure and compare the Trucks as they sit.
 * You should have no belts attached at this point.
@@ -19,7 +19,7 @@
 * Measure each Truck pair without moving the gantry in the process.
 
 
-![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/FarSide-scaled.jpg){: loading=lazy width="400"}
+![!MPCNC stationary bearings](../img/old/2020/06/FarSide-scaled.jpg){: loading=lazy width="400"}
 
 * Measure the other Truck.
 * Test both pairs of Trucks.
@@ -27,7 +27,7 @@
 
 ## Adjust
 
-![!MPCNC stationary bearings](https://www.v1engineering.com/wp-content/uploads/2020/06/OverHead-Diagram-scaled.jpg){: loading=lazy width="400"}
+![!MPCNC stationary bearings](../img/old/2020/06/OverHead-Diagram-scaled.jpg){: loading=lazy width="400"}
 
 * Start with whichever gantry rail has the most error.
 * Tightening a Core Clamp will move the rail and Truck away from that bolt. 

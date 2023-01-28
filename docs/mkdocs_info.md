@@ -9,7 +9,7 @@ A good markdown cheat sheet is available [here](https://www.markdownguide.org/ch
 
 Here's a link to the forums:
 
-[V1Engineering Forum Link](https://www.v1engineering.com/forum/topic/community-documentation/)
+[V1Engineering Forum Link](https://forum.v1e.com/forum/topic/community-documentation/)
 
 Here's a link to another page in the documentation:
 
@@ -32,7 +32,7 @@ markdown like this:
 ![Backup Text](image URL "Hover text")
 ```
 
-![V1Engineering.com's logo](https://www.v1engineering.com/wp-content/uploads/2017/12/V1-Engineering-logo-260wide.png "This logo is linked from v1engineering.com")
+![V1Engineering.com's logo](/img/old/2017/12/V1-Engineering-logo-260wide.png "This logo is linked from v1engineering.com")
 
 If the image is something you want to share, and it's the right size, then it can be added to the
 docs/img folder and linked like this:

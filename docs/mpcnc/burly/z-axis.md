@@ -1,6 +1,6 @@
 # Z Axis
 
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_133304.jpg){: loading=lazy width="400"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_133304.jpg){: loading=lazy width="400"}
 
 !!! info "Important"
     Please do not attach anything to this assembly above the tool mount.  You will see lots of
@@ -11,8 +11,8 @@
 
 ---
 
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_1235462.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_1238532.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_1235462.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_1238532.jpg){: loading=lazy width="200"}
 
 The tool mount piece uses either #6 lock nuts or M4. Insert the nuts facing the right direction and
 if they are not a snug fit a tiny drop of glue in the corner will keep them from falling out. I add
@@ -22,33 +22,33 @@ use they do not depend on the glue at all.
 
 ---
 
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_1219562.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_1225043.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_1219562.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_1225043.jpg){: loading=lazy width="200"}
 
 Insert the 4 nuts into the nut traps, if they aren’t a tight fit a drop of glue here will help in
 assembly later.
 
 ---
 
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_124132.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_1243072.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_124713.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_124132.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_1243072.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_124713.jpg){: loading=lazy width="200"}
 
 Insert the nut traps into your cut and drilled Z rails, pointed end up. Align the holes. Get all
 four screws 3/4″ (M4 X 20) started but leave them extremely loose for a later alignment step.
 
 ---
 
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_1248182.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_124903.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_1248182.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_124903.jpg){: loading=lazy width="200"}
 
 Press the bearing into the Z-Lower bracket. Make sure it is seated all the way and not crooked.
 
 ---
 
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_130244_12.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_1308082.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/07/Coupler-use.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_130244_12.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_1308082.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/07/Coupler-use.jpg){: loading=lazy width="200"}
 
 Tighten the coupler onto the shaft, first tighten grub screw on the stepper shaft flat spot, then
 the grub screw on the round part. Make sure the shaft is most of the way into the coupler as shown
@@ -58,7 +58,7 @@ Do not insert the Lead Screw yet. The picture is to show you how far the shaft s
 
 ---
 
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_131152.jpg){: loading=lazy width="400"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_131152.jpg){: loading=lazy width="400"}
 
 Use no screws on the Z mounts yet. Slide the Z-lower bracket onto the z rails open bearing side will
 face away from the tool mount. Slide it all the way to just above the tool mount. Next add the motor
@@ -67,8 +67,8 @@ if you hear a crack you went overboard.
 
 ---
 
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_1317492.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_1316542.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_1317492.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_1316542.jpg){: loading=lazy width="200"}
 
 Slide the lower tool mount to where it just touches the coupler but does not compress it at all.
 
@@ -82,18 +82,18 @@ are twisted it will rock back and forth…that is bad.
 
 ---
 
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_132153.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_1322262.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_132153.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_1322262.jpg){: loading=lazy width="200"}
 
 Try to get the gap between mounts to be relatively equal while still touching the coupler and
 bearing. This dimension will be different for every build. Check again, are the rails still flat?
 
 ---
 
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_131928.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_133133.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/10/IMG_20181029_133316.jpg){: loading=lazy width="200"}
-![!zaxis](https://www.v1engineering.com/wp-content/uploads/2018/07/Coupler-use.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_131928.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_133133.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/10/IMG_20181029_133316.jpg){: loading=lazy width="200"}
+![!zaxis](../../img/old/2018/07/Coupler-use.jpg){: loading=lazy width="200"}
 
 Add the screws 3/4″ (M4 X 20) and nuts to the Z brackets, snug slightly.
 

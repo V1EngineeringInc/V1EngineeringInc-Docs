@@ -6,7 +6,7 @@
 The LowRider CNC is my answer to you that want a full 4’x8′ sheet router, or of course you can go
 smaller. If the MPCNC is not big enough for you this picks up where that left off.
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/LowRider-CNC-lowres.jpg)
+![!pic](../../img/old/2017/01/LowRider-CNC-lowres.jpg)
 
 Size Calculator
 
@@ -29,27 +29,27 @@ All quantities shown in the drawings are for each assembly, not total quantities
 
 ### Center Assembly
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/carriage-Assm.jpg)
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/YRoller-Assm-1.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/Ymotor-ASSM.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/611.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/carriage-assm-explode.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/carriage-Assm.jpg)
+![!pic](../../img/old/2017/01/YRoller-Assm-1.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/Ymotor-ASSM.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/611.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/carriage-assm-explode.jpg){: loading=lazy width="400"}
 
 ### Z Assembly
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/Z-assm.jpg)
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/zmount.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/CORNERXZ.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/XZFinal.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/Z-assm.jpg)
+![!pic](../../img/old/2017/01/zmount.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/CORNERXZ.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/XZFinal.jpg){: loading=lazy width="400"}
 
 ### Side Assembly
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/Side-Assm-crop.jpg)
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/Y-Motor-Assm.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/ZLeadNut-Assm.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/Wheel-Assm.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/Side1.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/Y-Plate.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/RollerAssms.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/rollerassmsside.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/01/Standoff-Plate.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/Side-Assm-crop.jpg)
+![!pic](../../img/old/2017/01/Y-Motor-Assm.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/ZLeadNut-Assm.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/Wheel-Assm.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/Side1.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/Y-Plate.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/RollerAssms.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/rollerassmsside.jpg){: loading=lazy width="400"}
+![!pic](../../img/old/2017/01/Standoff-Plate.jpg){: loading=lazy width="400"}

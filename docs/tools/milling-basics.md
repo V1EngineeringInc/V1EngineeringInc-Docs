@@ -29,7 +29,7 @@ be the material you make a first test cut in, then on to test cuts in the materi
 You can make test cuts on both sides and the $5 it costs will pay for itself many times over in
 saved bits and refined CAM settings (time & accuracy).
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/IMG_20170921_101639.jpg){: loading=lazy width="400"}
+![!pic](../img/old/2017/09/IMG_20170921_101639.jpg){: loading=lazy width="400"}
 
 Some of the first cuts ever made on an MPCNC.
 
@@ -67,13 +67,13 @@ following information please let me know…politely.
 An island is that pesky little thing in the center of a cut, like the middle on an “O”, or the center of the logo. Super easy only takes 3 steps.
 
 Using the **Part** tool select the inner feature.
-:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/1Part.jpg){: loading=lazy width="200"}
+:   ![!pic](../img/old/2018/03/1Part.jpg){: loading=lazy width="200"}
 
 Next is the **Hole** tool, select the outer feature.
-:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/2hole.jpg){: loading=lazy width="200"}
+:   ![!pic](../img/old/2018/03/2hole.jpg){: loading=lazy width="200"}
 
 Then in the Properties box select **Island**.
-:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/3Island.jpg){: loading=lazy width="200"}
+:   ![!pic](../img/old/2018/03/3Island.jpg){: loading=lazy width="200"}
 
 ### Work offsets
 
@@ -82,10 +82,10 @@ operation in your job, multiple fixtures can be used, locating pins, or other lo
 typically for us to avoid Negative X and Y moves when using endstops.
 
 Not Offset - Notice teh Blue origin point in the lower left of the picture and how the red cut paths cross over the lines extending from it. These will be negative XY moves. If you have endstops negative XY moves will not happen.
-:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/Negative.jpg){: loading=lazy width="200"}
+:   ![!pic](../img/old/2017/11/Negative.jpg){: loading=lazy width="200"}
 
 Offset (Good for Dual Endstops)
-:   ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/11/good.jpg){: loading=lazy width="200"}
+:   ![!pic](../img/old/2017/11/good.jpg){: loading=lazy width="200"}
 
 ### Finishing Pass
 
@@ -97,17 +97,17 @@ By leaving a bit of material on your roughing cut you can then cut off a very sm
 - Use a 5-25% tool diameter allowance. Shown in the yellow box.
 - The finishing pass is show in the picture as the lighter red path.
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/03/3Island.jpg){: loading=lazy width="200"}
+![!pic](../img/old/2018/03/3Island.jpg){: loading=lazy width="200"}
 
 ### Climb vs. Conventional Milling
 
 For the most part you always want to Climb mill. The edge of the cutter starts with a large bite and ends small, reducing deflection, work hardening, and heat retention.
 
 !!! note "Conventional milling"
-    [![pic](https://www.v1engineering.com/wp-content/uploads/2017/09/blog_conventional-climb-milling2.jpg){: loading=lazy width="200"}]( http://www.harveyperformance.com/in-the-loupe/conventional-vs-climb-milling/)
+    [![pic](../img/old/2017/09/blog_conventional-climb-milling2.jpg){: loading=lazy width="200"}]( http://www.harveyperformance.com/in-the-loupe/conventional-vs-climb-milling/)
 
 !!! note "Climb milling"
-    [![pic](https://www.v1engineering.com/wp-content/uploads/2017/09/blog_conventional-climb-milling3.jpg){: loading=lazy width="200"}](http://www.harveyperformance.com/in-the-loupe/conventional-vs-climb-milling/)
+    [![pic](../img/old/2017/09/blog_conventional-climb-milling3.jpg){: loading=lazy width="200"}](http://www.harveyperformance.com/in-the-loupe/conventional-vs-climb-milling/)
 
 ### Feeds and Speeds Calculator
 
@@ -117,7 +117,7 @@ get reliable numbers for your machine. If you keep track of the chip load and cu
 
 https://fswizard.com/www/
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/10/FZ-1080x783.jpg){: loading=lazy width="400"}
+![!pic](../img/old/2018/10/FZ-1080x783.jpg){: loading=lazy width="400"}
 
 ### Stepover
 
@@ -128,25 +128,25 @@ Stepover is the amount of material your tool encounters in percentage of your to
 **Finishing** is 20% or less stepover depending on amount if detail and tolerances desired. The more aggressive your roughing pass the more material needs to be left for finishing. For wood and plastic 10-15% tool diameter is a good starting point, 3D milling and carves should use 2-10% depending on tool diameter and desired surface finish.
 
 !!! note "50% stepover"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/50D.jpg){: loading=lazy width="200"}
+    ![!pic](../img/old/2017/09/50D.jpg){: loading=lazy width="200"}
 
 !!! note "25% stepover"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2017/09/25D.jpg){: loading=lazy width="200"}
+    ![!pic](../img/old/2017/09/25D.jpg){: loading=lazy width="200"}
 
 ### Depth of Cut
 
 Equal steps – Depth of cut, DOC, Should be planned for. Making equal steps will produce the fastest cuts. Know the deepest you can cut the material with your machine (remember those test cuts from earlier?) and from there divide the cut equally.
 
 !!! note "Equal Steps"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/Equal-steps.jpg){: loading=lazy width="400"}
+    ![!pic](../img/old/2019/01/Equal-steps.jpg){: loading=lazy width="400"}
 
 !!! note "Unequal Steps - This can be used to improve a pockets surface finish"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/PointlessSteps.jpg){: loading=lazy width="400"}
+    ![!pic](../img/old/2019/01/PointlessSteps.jpg){: loading=lazy width="400"}
 
 **Through all** – Through all cuts are intended to go all the way through the material. They should move past the bottom of your material. The amount past depends on the flatness of your build, all build have some sort of variance. A 0.5mm-4mm over cut would be pretty typical. Factor this into your equal DOC from above.
 
 !!! note "Through All"
-    ![!pic](https://www.v1engineering.com/wp-content/uploads/2019/01/ThroughCuts.jpg){: loading=lazy width="400"}
+    ![!pic](../img/old/2019/01/ThroughCuts.jpg){: loading=lazy width="400"}
 
 ## Gcode - Start, Tool Change, and Ending
 
@@ -224,9 +224,9 @@ Happens directly after your last move from your job file.
 #### Estlcam Gcode
 Here where the above snippets would go in EstlCAM. It would look similar in other programs.
 
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/start.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/Change.jpg){: loading=lazy width="400"}
-![!pic](https://www.v1engineering.com/wp-content/uploads/2018/06/End.jpg){: loading=lazy width="400"}
+![!pic](../img/old/2018/06/start.jpg){: loading=lazy width="400"}
+![!pic](../img/old/2018/06/Change.jpg){: loading=lazy width="400"}
+![!pic](../img/old/2018/06/End.jpg){: loading=lazy width="400"}
 
 ## Post Processors
 

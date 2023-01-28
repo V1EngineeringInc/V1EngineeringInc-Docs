@@ -3,7 +3,7 @@
 Click on the images to embiggen.
 
 ## Legs
-![!MPCNC legs](https://www.v1engineering.com/wp-content/uploads/2020/06/Legs-scaled.jpg){: loading=lazy width="400"}
+![!MPCNC legs](../img/old/2020/06/Legs-scaled.jpg){: loading=lazy width="400"}
 
 * The leg lengths come from the [cut calculator](calculator.md).
 * Do whatever it takes to get the legs as equal in length as possible. This will really help in leveling and keeping it level.
@@ -16,21 +16,21 @@ Click on the images to embiggen.
 ___
 
 ## Tools
-![!Tools Needed](https://www.v1engineering.com/wp-content/uploads/2020/06/foot-tools-scaled.jpg){: loading=lazy width="400"}
+![!Tools Needed](../img/old/2020/06/foot-tools-scaled.jpg){: loading=lazy width="400"}
 
 * 8mm Socket or nut driver
 * Phillips #2 Screwdriver
 ___
 
 ## Legs and Feet
-![!Parts and hardware](https://www.v1engineering.com/wp-content/uploads/2020/06/foot-ready-scaled.jpg){: loading=lazy width="400"}
+![!Parts and hardware](../img/old/2020/06/foot-ready-scaled.jpg){: loading=lazy width="400"}
 
 * You will need the legs, printed feet, M5x30 screws and locknuts.
 
 !!! Tip
     It is best to pre-thread all the locknuts before assembly. This will loosen them and prevent mangling of the printed parts.
 
-![!Assembling](https://www.v1engineering.com/wp-content/uploads/2020/06/foot-snug-scaled.jpg){: loading=lazy width="400"}
+![!Assembling](../img/old/2020/06/foot-snug-scaled.jpg){: loading=lazy width="400"}
 
 * Insert the leg and make sure it is seated all the way to the table.
 * The feet have a small side for the head of the screw and a larger opening for the nut and socket.
@@ -39,7 +39,7 @@ ___
 ___
 
 ## Base Layout
-![!Foot placement](https://www.v1engineering.com/wp-content/uploads/2020/06/base-layout-scaled.jpg){: loading=lazy width="400"}
+![!Foot placement](../img/old/2020/06/base-layout-scaled.jpg){: loading=lazy width="400"}
 
 * Use whatever screws are appropriate for your table, these are not included in the V1 Kits.
 * Layout the foot assemblies on your table according to the dimensions from the [cut calculator](calculator.md).
@@ -49,11 +49,11 @@ ___
 * Validate that the front length exactly matches the back length, and that the left and right lengths match.
 * Measure diagonally across the leg tops.
 
-![!Square check](https://www.v1engineering.com/wp-content/uploads/2020/06/base-check1-scaled.jpg){: loading=lazy width="400"}
+![!Square check](../img/old/2020/06/base-check1-scaled.jpg){: loading=lazy width="400"}
 
 * Compare this measurement to the next one.
 
-![!Compare measurements](https://www.v1engineering.com/wp-content/uploads/2020/06/base-check-2-scaled.jpg){: loading=lazy width="400"}
+![!Compare measurements](../img/old/2020/06/base-check-2-scaled.jpg){: loading=lazy width="400"}
 
 * This next diagonal should match the previous one. Squaring this way can be extremely accurate because any error in the leg locations is multiplied in this measurement.
 * Adjust both rear legs until you are satisfied with the precision.
@@ -66,18 +66,18 @@ ___
 ___
 
 ## Leg Locks
-![!Parts and hardware](https://www.v1engineering.com/wp-content/uploads/2020/06/lock-parts-scaled.jpg){: loading=lazy width="400"}
+![!Parts and hardware](../img/old/2020/06/lock-parts-scaled.jpg){: loading=lazy width="400"}
 
 * You will need the printed Corner Leg Locks and M5 locknuts.
 * It is best to pre-thread all the locknuts before assembly. This will loosen them and prevent mangling of the printed parts.
 
-![!Embedded nut](https://www.v1engineering.com/wp-content/uploads/2020/06/lock-ready-scaled.jpg){: loading=lazy width="400"}
+![!Embedded nut](../img/old/2020/06/lock-ready-scaled.jpg){: loading=lazy width="400"}
 
 * Push the nut into the Corner Leg Lock and fully seat it. If it does not stay on its own you can use a drop of glue.
 
 * If the nut does not stay on its own, you can attach the Corner Bottom very loosely with its bolt.
 
-![!Orientation](https://www.v1engineering.com/wp-content/uploads/2020/06/base-lock-scaled.jpg){: loading=lazy width="400"}
+![!Orientation](../img/old/2020/06/base-lock-scaled.jpg){: loading=lazy width="400"}
 
 * Fully seat the Corner Leg Locks onto the legs.
 * Orient to match the Feet below.
@@ -86,42 +86,42 @@ ___
 ___
 
 ## Corner Bottoms
-![!Parts and hardware](https://www.v1engineering.com/wp-content/uploads/2020/06/corner-bottom-scaled.jpg){: loading=lazy width="400"}
+![!Parts and hardware](../img/old/2020/06/corner-bottom-scaled.jpg){: loading=lazy width="400"}
 
 * You will need the printed Corner Bottoms and Corner Bottom Mirrored and M5x30 screws.
 
 !!! Warning
     If you are not using the V1 Kit, please make sure your screw heads are low profile enough not to interfere with the Lower Rail.
 
-![!Belt Orientation](https://www.v1engineering.com/wp-content/uploads/2020/06/base-bottom-arrows-scaled.jpg){: loading=lazy width="400"}
+![!Belt Orientation](../img/old/2020/06/base-bottom-arrows-scaled.jpg){: loading=lazy width="400"}
 
 * The Corner Bottoms go on the Leg Locks as shown. Pay attention to how the belt slider slots are oriented. They point towards each other on the outside of the build area.
 * This picture is taken with the 0,0 (home) corner in the bottom nearest left. The corners should be as shown.
 
-![!Assemble](https://www.v1engineering.com/wp-content/uploads/2020/06/base-bottom-scaled.jpg){: loading=lazy width="400"}
+![!Assemble](../img/old/2020/06/base-bottom-scaled.jpg){: loading=lazy width="400"}
 
 * Get the screws started to hold the Leg Locks and Corner Bottoms together.
 * Leave them loose, just tight enough to make the screw head clear the rail.
 
-![!Add Y rails](https://www.v1engineering.com/wp-content/uploads/2020/06/rails-1-scaled.jpg){: loading=lazy width="400"}
+![!Add Y rails](../img/old/2020/06/rails-1-scaled.jpg){: loading=lazy width="400"}
 
 * Temporarily adding the Y rails will align the corners.
 
 ___
 
 ## Lock The Legs
-![!Hardware needed](https://www.v1engineering.com/wp-content/uploads/2020/06/leglock1-scaled.jpg){: loading=lazy width="400"}
+![!Hardware needed](../img/old/2020/06/leglock1-scaled.jpg){: loading=lazy width="400"}
 
 * You will need four sets of the M5 screws and locknuts.
 * It is best to pre-thread all the locknuts before assembly. This will loosen them and prevent mangling of the printed parts.
 
-![!Snugged up Lock](https://www.v1engineering.com/wp-content/uploads/2020/06/leglock2-scaled.jpg){: loading=lazy width="400"}
+![!Snugged up Lock](../img/old/2020/06/leglock2-scaled.jpg){: loading=lazy width="400"}
 
 * Snug up all four Leg Locks.
 * Snug is just that, 1/4 turn past the screw and nut seating into the part. Just tight enough to make the corner have some resistance if you try to take it off the leg. 
 * All clamping parts have a gap. ***Do not clamp it hard enough to close the gap***!
 
-![!Assemble](https://www.v1engineering.com/wp-content/uploads/2020/06/base-bottom-scaled.jpg){: loading=lazy width="400"}
+![!Assemble](../img/old/2020/06/base-bottom-scaled.jpg){: loading=lazy width="400"}
 
 * Now remove the rails and snug up the screw in the bottom of the corner pieces.
 
@@ -130,7 +130,7 @@ ___
 ___
 
 ## Leveling
-![!Rail Height](https://www.v1engineering.com/wp-content/uploads/2020/06/rail-height-scaled.jpg){: loading=lazy width="400"}
+![!Rail Height](../img/old/2020/06/rail-height-scaled.jpg){: loading=lazy width="400"}
 
 * Put the Y rails back in place.
 * Use whatever means you have at your disposal to assure all four corners are at the same level.
@@ -140,12 +140,12 @@ ___
 ___
 
 ## Final Check.
-![!Square check](https://www.v1engineering.com/wp-content/uploads/2020/06/square1-scaled.jpg){: loading=lazy width="400"}
+![!Square check](../img/old/2020/06/square1-scaled.jpg){: loading=lazy width="400"}
 
 * Best practice is to check your work at every step.
 * Measure the diagonal measurement to the best of your abilities.
 
-![!Compare measurements](https://www.v1engineering.com/wp-content/uploads/2020/06/square2-scaled.jpg){: loading=lazy width="400"}
+![!Compare measurements](../img/old/2020/06/square2-scaled.jpg){: loading=lazy width="400"}
 
 * This diagonal should match. You should aim for no more than 1 mm deviation.
 * If there is an issue, loosen the screws into the table and nudge a leg assembly. 

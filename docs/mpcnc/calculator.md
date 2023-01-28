@@ -12,9 +12,9 @@ also means it will be faster and more accurate with the right settings. Every mi
 **the Z axis has the largest effect on rigidity**. For a Primo MPCNC, 81mm is the shortest and **I
 highly** recommend that. More sizing details on [this page](https://www.v1engineering.com/assembly/machine-size/).
 
-![!MPCNC ISO Diagram](https://www.v1engineering.com/wp-content/uploads/2020/06/ISO-Diagram2.jpg){: loading=lazy width="400"}
+![!MPCNC ISO Diagram](../img/old/2020/06/ISO-Diagram2.jpg){: loading=lazy width="400"}
 
-![!MPCNC Side Diagram](https://www.v1engineering.com/wp-content/uploads/2020/06/Primo-Calc-diagram-1.jpg){: loading=lazy width="400"}
+![!MPCNC Side Diagram](../img/old/2020/06/Primo-Calc-diagram-1.jpg){: loading=lazy width="400"}
 
 ----
 ## Inputs
