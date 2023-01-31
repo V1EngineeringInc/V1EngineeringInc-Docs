@@ -85,7 +85,7 @@ flexing.
 
 !!! info
     As for wire management I have found nothing works better than the tape measure trick
-    [In use here](https://www.v1engineering.com/forum/topic/red-black-and-wheels/)! 
+    [In use here](https://forum.v1e.com/t/red-black-and-wheels/7303)! 
     Again, nothing should be connected to your Z axis, especially
     cable chain, it will mess with your accuracy.
 

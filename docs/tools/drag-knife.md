@@ -7,7 +7,7 @@ by Ryan | Oct 30, 2016 | Hardware & Electronics
 ### Insert the Blade
 
 - This is for the Liyu style blade holder, [from the
-    shop](https://vicious1-com.myshopify.com/collections/parts/products/drag-knife-vinyl-cutter).
+    shop](https://www.v1e./collections/parts/products/drag-knife-vinyl-cutter).
 ![!pic](../img/old/2016/10/IMG_20161030_111137.jpg){: loading=lazy width="400"}
 - First take the protective cover off of the carbide knife
 ![!pic](../img/old/2016/10/IMG_20161030_111230.jpg){: loading=lazy width="400"}

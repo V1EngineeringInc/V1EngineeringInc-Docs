@@ -18,7 +18,7 @@ thing or two! Currently this is just a guide, not a full set of instructions. If
 
 [GitHub](https://github.com/Allted)
 
-Questions comment – [HERE](https://www.v1engineering.com/forum/topic/i-made-another-mp3dp-kinda/).
+Questions comment – [HERE](https://forum.v1e.com/t/i-made-another-mp3dp-kinda/6786).
 
 !!! info "Version 1"
     Version one instructions are [here](version1.md)
@@ -84,25 +84,25 @@ The important features are in there so again, get creative this is just a blank 
 |3    |Bed Springs             |                             |[Shop][shh] – [Amazon][azh]|
 |1.5M |Belt GT2                |                             |[Shop][shi] – [Amazon][azi]|
 
-[sh1]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/mini-rambo-1-3
-[sh2]: https://shop.v1engineering.com/collections/3dprinter-parts
+[sh1]: https://www.v1e./collections/3dprinter-parts/products/mini-rambo-1-3
+[sh2]: https://www.v1e.com/collections/3dprinter-parts
 [sh3]: N/A
-[sh4]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
-[sh5]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/mk3-aluminum-heated-bed
-[sh6]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/8mm-smooth-rod-set
-[sh7]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/8mm-smooth-rod-set
-[sh8]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/8mm-smooth-rod-set
-[sh9]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/lm8uu-bearing
-[sh0]: https://vicious1-com.myshopify.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
-[sha]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/300mm-leadscrew-and-nut
-[shb]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/300mm-leadscrew-and-nut
-[shc]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/5mm-to-8mm-flex-coupler
-[shd]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2
-[she]: https://vicious1-com.myshopify.com/products/16t-toothed-idler
-[shf]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/roller-limit-switch
-[shg]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/fan
-[shh]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/spring
-[shi]: https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/gt2-belt
+[sh4]: https://www.v1e./collections/3dprinter-parts/products/nema-17-76oz-in-steppers
+[sh5]: https://www.v1e./collections/3dprinter-parts/products/mk3-aluminum-heated-bed
+[sh6]: https://www.v1e./collections/3dprinter-parts/products/8mm-smooth-rod-set
+[sh7]: https://www.v1e./collections/3dprinter-parts/products/8mm-smooth-rod-set
+[sh8]: https://www.v1e./collections/3dprinter-parts/products/8mm-smooth-rod-set
+[sh9]: https://www.v1e./collections/3dprinter-parts/products/lm8uu-bearing
+[sh0]: https://www.v1e./products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
+[sha]: https://www.v1e./collections/3dprinter-parts/products/300mm-leadscrew-and-nut
+[shb]: https://www.v1e./collections/3dprinter-parts/products/300mm-leadscrew-and-nut
+[shc]: https://www.v1e./collections/3dprinter-parts/products/5mm-to-8mm-flex-coupler
+[shd]: https://www.v1e./collections/3dprinter-parts/products/pulley-16-tooth-gt2
+[she]: https://www.v1e./products/16t-toothed-idler
+[shf]: https://www.v1e./collections/3dprinter-parts/products/roller-limit-switch
+[shg]: https://www.v1e./collections/3dprinter-parts/products/fan
+[shh]: https://www.v1e./collections/3dprinter-parts/products/spring
+[shi]: https://www.v1e./collections/3dprinter-parts/products/gt2-belt
 
 [az1]: https://amzn.to/2DlLb3i
 [az2]: https://amzn.to/2FVRQ69
@@ -139,7 +139,7 @@ parts. Make sure the ends clear and do not hit the pulley or idler. Better align
 ## GT2 Idlers
 
 I took a while to release these parts because my idlers kept seizing up. I have two suggestions,
-first lube them well, I am using the [super lube](https://vicious1-com.myshopify.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) from the shop, no issues since. Second belt tension does not
+first lube them well, I am using the [super lube](https://www.v1e./products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) from the shop, no issues since. Second belt tension does not
 have to be superhuman here. Start loose and only tighten the belts if you notice issues. Too tight=excessive ringing and premature idler damage, Too loose=soft rounded corners and poor wall consistency.
 
 ## X Axis
@@ -168,7 +168,7 @@ If you need a good first printing project how about a box to hide those wires,
 ![!extruder](../img/old/2018/01/IMG_20150809_15173301_large.jpg)
 
 I have designed this with both the [Titan Aero][sh2] , and the 
-[MK8](https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/3d-printing-extruder)
+[MK8](https://www.v1e./collections/3dprinter-parts/products/3d-printing-extruder)
 in mind they both work great choice is yours. The mounting plate is pretty straight forward the
 holes are easy enough to utilize for anything you might need if you don’t like either of those. The
 holes are 64mm apart.

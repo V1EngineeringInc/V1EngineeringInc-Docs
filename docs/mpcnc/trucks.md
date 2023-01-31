@@ -87,7 +87,7 @@ ___
 * Steppers
 * Pulleys
 * Wire Darryl / pulley spacer
-* (optional) [Loctite](https://shop.v1engineering.com/collections/miscellaneous/products/0-5ml-threadlocker-242)
+* (optional) [Loctite](https://www.v1e.com/collections/miscellaneous/products/0-5ml-threadlocker-242)
 
 ![!MPCNC set the pulleys](../img/old/2020/06/Pulley2-scaled.jpg){: loading=lazy width="400"}
 

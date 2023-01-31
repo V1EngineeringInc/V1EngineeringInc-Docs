@@ -18,7 +18,7 @@ This table would be nothing without this tool! ([feel free to show some apprecia
 software](https://liberapay.com/jeffeb3/)).
 
 ### Karl’s EstlEgg-ify
-Karl’s way allows for some custom vector graphics to be easily drawn. Here in the [Forum](https://www.v1engineering.com/forum/topic/artistic-designs-with-inkscape-eggbot-tools-and-estlcam/).
+Karl’s way allows for some custom vector graphics to be easily drawn. Here in the [Forum](https://forum.v1e.com/t/artistic-designs-with-inkscape-eggbot-tools-and-estlcam/6302).
 
 
 ## Parts
@@ -55,25 +55,25 @@ Print with 10% infill or higher, 3 perimeters.
 ### Specialized Parts
 | QTY | Part                                            | Link                 |
 |-----|-------------------------------------------------|----------------------|
-| 1   |  5A or larger power supply (optionally battery) | [Shop](https://shop.v1engineering.com/products/12v-6a-power-supply), [Amazon](https://amzn.to/2vs4d4I)         |
-| 1   | Any Control Board                               | [Shop](https://shop.v1engineering.com/products/mini-rambo-1-3), Ramps        |
-| 1   | LCD                                             | [Shop](https://shop.v1engineering.com/products/full-graphic-smart-controller-big), [Amazon](https://amzn.to/2vnHWGT)         |
+| 1   |  5A or larger power supply (optionally battery) | [Shop](https://www.v1e.com/products/12v-6a-power-supply), [Amazon](https://amzn.to/2vs4d4I)         |
+| 1   | Any Control Board                               | [Shop](https://www.v1e.com/products/mini-rambo-1-3), Ramps        |
+| 1   | LCD                                             | [Shop](https://www.v1e.com/products/full-graphic-smart-controller-big), [Amazon](https://amzn.to/2vnHWGT)         |
 |     |                                                 |                      |
 | 1   | Magnet 1/2″ Diameter 1/2″ Tall High “N” rating  | [United Nuclear](https://unitednuclear.com/index.php?main_page=product_info&cPath=70_71&products_id=982) |
-| 1   | 1/2″ diameter steel ball                        | [Shop](https://shop.v1engineering.com/products/1-2d-steel-ball), [Amazon](https://amzn.to/2hPecOB)         |
+| 1   | 1/2″ diameter steel ball                        | [Shop](https://www.v1e.com/products/1-2d-steel-ball), [Amazon](https://amzn.to/2hPecOB)         |
 | ?   | Baking Soda (The HD version of Sand)            | [Amazon](https://amzn.to/2vWrmiO)               |
 
 ### Hardware
 | QTY |         Part         |     Metric     |      Link     |
 |-----|----------------------|----------------|---------------|
-| 2   | Nema 17              |                |  [Shop](https://shop.v1engineering.com/products/nema-17-76oz-in-steppers), [Amazon](https://amzn.to/2vnPQQA) |
-| 2   | GT2_16t Tooth Pulley |                |  [Shop](https://shop.v1engineering.com/products/pulley-16-tooth-gt2), [Amazon](https://amzn.to/2vrC4e7) |
-| 8   | GT2 16t Idler        |                |  [Shop](https://shop.v1engineering.com/products/16t-idler), [Amazon](https://amzn.to/2wyMlFv) |
-|     | GT2 Belt             |                |  [Shop](https://shop.v1engineering.com/products/gt2-belt), [Amazon](https://amzn.to/2wNzsHf) |
-| 5   | Cable Ties           |                |  [Shop](https://shop.v1engineering.com/products/25x-5-cable-ties), [Amazon](https://amzn.to/2vs8w06) |
-| 14  | 608 Bearings         |                |  [Shop](https://shop.v1engineering.com/products/bearings-608-2rs), [Amazon](https://amzn.to/2vs0DrH) |
-| 5   | Bearing Spacer       |                |  [Shop](https://shop.v1engineering.com/products/axle-spacers), [Amazon](https://amzn.to/2vs0owN) |
-| 2   | Roller Limit Switch  |                |  [Shop](https://shop.v1engineering.com/products/roller-limit-switch), [Amazon](https://amzn.to/2vrQ2Ni) |
+| 2   | Nema 17              |                |  [Shop](https://www.v1e.com/products/nema-17-76oz-in-steppers), [Amazon](https://amzn.to/2vnPQQA) |
+| 2   | GT2_16t Tooth Pulley |                |  [Shop](https://www.v1e.com/products/pulley-16-tooth-gt2), [Amazon](https://amzn.to/2vrC4e7) |
+| 8   | GT2 16t Idler        |                |  [Shop](https://www.v1e.com/products/16t-idler), [Amazon](https://amzn.to/2wyMlFv) |
+|     | GT2 Belt             |                |  [Shop](https://www.v1e.com/products/gt2-belt), [Amazon](https://amzn.to/2wNzsHf) |
+| 5   | Cable Ties           |                |  [Shop](https://www.v1e.com/products/25x-5-cable-ties), [Amazon](https://amzn.to/2vs8w06) |
+| 14  | 608 Bearings         |                |  [Shop](https://www.v1e.com/products/bearings-608-2rs), [Amazon](https://amzn.to/2vs0DrH) |
+| 5   | Bearing Spacer       |                |  [Shop](https://www.v1e.com/products/axle-spacers), [Amazon](https://amzn.to/2vs0owN) |
+| 2   | Roller Limit Switch  |                |  [Shop](https://www.v1e.com/products/roller-limit-switch), [Amazon](https://amzn.to/2vrQ2Ni) |
 |     |                      |                |               |
 | 2   | X Rail               |                |               |
 | 2   | Y Rail               |                |               |

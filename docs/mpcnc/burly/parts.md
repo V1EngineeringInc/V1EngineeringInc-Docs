@@ -46,7 +46,7 @@ Thingiverse.com;
 | |               |           |&asymp;115 hrs  |1.8 kg|
 
 \*: The asterisk stands for part letter (C, J, F) and anything after that is the current revision (Burly, v1, v2)  
-M: Mirrored parts, either see the build instructions or [FAQ](https://www.v1engineering.com/frequently-asked-questions/) if you are worried.
+M: Mirrored parts, either see the build instructions
 
 ![](../../img/parts_labeled.png)
 
@@ -68,15 +68,15 @@ didn’t know amazon prime is [free for students](https://www.amazon.com/gp/stud
 
 |Qty|Part|Link|
 |--|--|--|
-|1|Mini-RAMBo (or RAMBo)|[Amazon](https://amzn.to/2jDGltm) or [Shop](https://shop.v1engineering.com/products/mini-rambo-1-3)|
-|1|12v &ge;5A power supply|[Amazon](https://amzn.to/2yZJWVt) or [Shop](https://vicious1-com.myshopify.com/collections/parts/products/12v-6a-power-supply)|
-|4m (&asymp;13 ft)<br/>**[Note 1]**|GT2 belt, do not get the steel reinforced ones|[Amazon](https://amzn.to/1L6MyCe) or [Shop](https://vicious1-com.myshopify.com/collections/parts/products/gt2-belt)|
-|4|GT2 16T Pulley|[Amazon](https://amzn.to/2B2UeWi) or [Shop](https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2)|
-|53|608 2-RS Bearings|[Amazon](https://amzn.to/2xah39e) or [Shop](https://vicious1-com.myshopify.com/collections/parts/products/bearings-608-2rs)|
+|1|Mini-RAMBo (or RAMBo)|[Amazon](https://amzn.to/2jDGltm) or [Shop](https://www.v1e.com/products/mini-rambo-1-3)|
+|1|12v &ge;5A power supply|[Amazon](https://amzn.to/2yZJWVt) or [Shop](https://www.v1e./collections/parts/products/12v-6a-power-supply)|
+|4m (&asymp;13 ft)<br/>**[Note 1]**|GT2 belt, do not get the steel reinforced ones|[Amazon](https://amzn.to/1L6MyCe) or [Shop](https://www.v1e./collections/parts/products/gt2-belt)|
+|4|GT2 16T Pulley|[Amazon](https://amzn.to/2B2UeWi) or [Shop](https://www.v1e./collections/3dprinter-parts/products/pulley-16-tooth-gt2)|
+|53|608 2-RS Bearings|[Amazon](https://amzn.to/2xah39e) or [Shop](https://www.v1e./collections/parts/products/bearings-608-2rs)|
 |&asymp;18ft **[Note 1]**|Rails (Conduit or Stainless Steel)|[Info](https://amzn.to/1Lfet2a), [Info](http://www.homedepot.com/p/Allied-Tube-Conduit-3-4-in-EMT-Conduit-101550/100400406) – [Calculator](../calculator.md)|
-|5|Nema 17 Steppers|[Amazon](https://amzn.to/1MnEXhs) or [Shop](https://vicious1-com.myshopify.com/collections/parts/products/nema-17-76oz-in-steppers)|
-|1|Wiring harness (Or extended your stepper plugs with Stranded Wire)|[Wiring Kit](https://vicious1-com.myshopify.com/products/wiring-kit-1), [Stranded Wire](https://vicious1-com.myshopify.com/collections/parts/products/22-4-wire)|
-|&ge;20|Zip Ties|[Amazon](https://amzn.to/2zRvJgk) or [Shop](https://shop.v1engineering.com/products/25x-5-cable-ties)|
+|5|Nema 17 Steppers|[Amazon](https://amzn.to/1MnEXhs) or [Shop](https://www.v1e./collections/parts/products/nema-17-76oz-in-steppers)|
+|1|Wiring harness (Or extended your stepper plugs with Stranded Wire)|[Wiring Kit](https://www.v1e./products/wiring-kit-1), [Stranded Wire](https://www.v1e./collections/parts/products/22-4-wire)|
+|&ge;20|Zip Ties|[Amazon](https://amzn.to/2zRvJgk) or [Shop](https://www.v1e.com/products/25x-5-cable-ties)|
 
 **Note 1**: These dimensions are for a 24"x24" working area (610x610 mm).  This size has approximately 36"x36" external dimensions (914x914 mm).  See the [calculator](../calculator.md) for other dimensions.
 
@@ -94,9 +94,9 @@ Hardware and quantities needed:
 
 |Qty|Imperial|Metric|Link|
 |---|--------|------|----|
-|1|T8 Leadscrew and nut|T8 Leadscrew and nut|[Amazon](https://amzn.to/2OQbXta) or [Shop](https://shop.v1engineering.com/collections/parts/products/300mm-leadscrew-and-nut)|
-|1|Lube for the T8|Lube for the T8|[Shop](https://vicious1-com.myshopify.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe)|
-|1|5mm-8mm coupler|5mm-8mm coupler|[Shop](https://vicious1-com.myshopify.com/collections/parts/products/5mm-to-8mm-flex-coupler)|
+|1|T8 Leadscrew and nut|T8 Leadscrew and nut|[Amazon](https://amzn.to/2OQbXta) or [Shop](https://www.v1e.com/collections/parts/products/300mm-leadscrew-and-nut)|
+|1|Lube for the T8|Lube for the T8|[Shop](https://www.v1e./products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe)|
+|1|5mm-8mm coupler|5mm-8mm coupler|[Shop](https://www.v1e./collections/parts/products/5mm-to-8mm-flex-coupler)|
 |1| 5/16-18 X 5|M8 X 130|[Amazon](https://amzn.to/2yFWGzB)|
 |12| 5/16-18 X 2.5|M8 X 65|[Amazon](https://amzn.to/2AVvum4)|
 |2| 5/16-18 X 1.5|M8 X 40 **[Note 2]**|[Amazon](https://amzn.to/2ATErMX)|

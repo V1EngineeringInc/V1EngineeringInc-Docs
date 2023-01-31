@@ -100,17 +100,17 @@ V1ZXY
 ### Board Type
 
 Rambo
-:   The [Ultimachine Rambo](ultimachine.md#rambo-13-14) board. For purchase in the [Shop](https://shop.v1engineering.com/collections/parts/products/rambo-v1-3l).
+:   The [Ultimachine Rambo](ultimachine.md#rambo-13-14) board. For purchase in the [Shop](https://www.v1e.com/collections/parts/products/rambo-v1-3l).
 
 Mini-Rambo
-:   The [Ultimachine Mini-Rambo](ultimachine.md#mini-rambo) board. For purchase in the [Shop](https://vicious1-com.myshopify.com/products/mini-rambo-1-3).
+:   The [Ultimachine Mini-Rambo](ultimachine.md#mini-rambo) board.
 
 Archim1, Archim2
-:   The [Ultimachine Archim 1 or Archim 2](ultimachine.md#archim). For purchase in the [Shop](https://vicious1-com.myshopify.com/collections/miscellaneous/products/archim-1-0a).
+:   The [Ultimachine Archim 1 or Archim 2](ultimachine.md#archim).
 
 SkrPro
 :   The [BigTreeTech Skr Pro v1.2](skrpro.md) (or v1.1), with 6 drivers. For purchase in the
-[Shop](https://shop.v1engineering.com/collections/parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3)
+[Shop](https://www.v1e.com/collections/parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3)
 This does not work for the Skr Turbo, Skr mini, or the Skr 1.3/1.4 (without the pro, turbo, or mini
 name).
 

@@ -53,23 +53,7 @@ But these arduino instructions may be useful for someone, so we have archived th
     |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
     |  [Ultimachine Boards](../electronics/ultimachine.md)                                                                                              | [Ramps](../electronics/ramps.md)                                                                                                            |
 
-    ## Smoothie
-
-    The X and Y steppers are wired in series (or parallel) and wired to a single port. The picture below
-    is an example of a board running smoothieware. Many other boards are available.
-
-    ![!pic](../img/old/2016/12/IMG_20170405_184727.jpg){: loading=lazy width="400"}
-
-    Here is my Pre-Configured Basic config file.
-
-    This is just me getting my feet wet and there are a lot of other options you can add to the file.
-
-    **This is for 32nd stepping, 16 Tooth Pulleys and  5/16″ threaded rod.**
-
-    Config for smoothie boards..[config](../img/old/2016/09/config.zip)
-
-    [More info here](https://www.v1engineering.com/forum/topic/sbase-smoothieware/)
-
+    
     ### Change log
 
     9/15/16- Initial release

@@ -2,9 +2,9 @@
 
 This is where you will find parts lists, instructions, cut calculators, and lots of other related information.
 
-[![Main V1 Engineering Site](img/120-Rectangle-logo.png){: loading=lazy width="75%" }](https://www.v1engineering.com/)
+[![Main V1 Engineering Site](img/120-Rectangle-logo.png){: loading=lazy width="75%" }](https://www.v1e.com/)
 
-The [Forums](https://forum.v1engineering.com) are the best place to ask any questions you might have, the [HomePage](https://www.v1engineering.com/) is where you will find updates, the online shop, and more.
+The [Forums](https://forum.v1engineering.com) are the best place to ask any questions you might have, the [HomePage](https://www.v1e.com/) is where you will find updates, the online shop, and more.
 
 ## About V1
 | The Lineup |
@@ -82,4 +82,4 @@ The documentation here at https://docs.v1engineering.com/ is under a
 copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2022 V1Engineering Inc."
 
 The machine design files, logos, and images hosted on v1engineering.com have their own license
-here: https://www.v1engineering.com/license/
+here: https://www.v1e.com/pages/trademark-and-file-licenses

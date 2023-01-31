@@ -13,7 +13,7 @@ Thingiverse Printed parts files:
 :   [Thingiverse Link](https://www.thingiverse.com/thing:3064287)
 
 Hardware list
-:   [Link](https://www.v1engineering.com/lowrider-parts/) TODO Should we be converting this parts list too?
+:   [Link](https://www.v1engineering.com/lowrider-parts/) missing link?
 
 This CNC router can handle any length (within reason), the Y direction is only bound by your table
 length.
@@ -90,7 +90,7 @@ flat screw first then the one that hits the round surface.
 ![!pic](../../img/old/2018/10/IMG_20181026_1609512.jpg){: loading=lazy width="350"}
 
 Do not forget to
-[lube](https://vicious1-com.myshopify.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe)
+[lube](https://www.v1e./products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe)
 the Z lead screws.
 
 ![!pic](../../img/old/2019/01/notch-1.jpg){: loading=lazy width="350"}
@@ -170,7 +170,7 @@ For the creative of you, you could use the dual end stop firmware for Y alignmen
 ## Hose Channel
 
 I use 1.5″-2″ aluminum angle with a few
-[Velcro](https://vicious1-com.myshopify.com/collections/miscellaneous/products/double-sided-hook-loop)
+[Velcro](https://www.v1e./collections/miscellaneous/products/double-sided-hook-loop)
 straps to keep the hose and cords contained. Bigger or smaller works depending on the hose size you
 use.
 

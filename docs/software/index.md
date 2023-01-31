@@ -5,7 +5,7 @@
 Install the [Arduino](https://www.arduino.cc/en/Main/Software) software and its drivers before you plug in your control board. You might need
 its included drivers, so it is best to let them install.
 
-**MAC User?** -IT should work as is but here is some [info](https://www.v1engineering.com/forum/topic/cannot-connect-to-rampsarduino-maclinuxwindows/#post-11485) 
+**MAC User?** -IT should work as is but here is some [info](https://forum.v1e.com/t/cannot-connect-to-ramps-arduino-mac-linux-windows/4066#post-11485) 
 if you find you are having issues you might need to change the firmware baud rate and perhaps a different driver.
 
 ## Firmware
@@ -35,7 +35,7 @@ indicate it is connected.
 
 !!! note 
     If you are using a dual end stop firmware flashed board, you have to have the end stops
-    properly connected first, [Info](https://www.v1engineering.com/auto-square-dual-endstops/). If you have a series flashed board no end stops are needed.
+    properly connected first, [Info](https://docs.v1engineering.com/electronics/dual-endstops/). If you have a series flashed board no end stops are needed.
 
 You can now use the control in the manual tab to move the machine. The arrows allow for .1, 1, 10, 50mm 
 movements. Start small 1 mm at a time. The arrows should move it in that direction.
@@ -53,7 +53,7 @@ power down and flip it’s plug. Power back up and test again.
 ## Control Software
 
 Now that your machine can talk to your computer you need to be able to control it. You can either use an
-[lcd screen](https://vicious1-com.myshopify.com/collections/parts/products/full-graphic-smart-controller-big) 
+[lcd screen](https://www.v1e./collections/parts/products/full-graphic-smart-controller-big) 
 or control software. For the beginners software is usually easier to learn than the LCD screen.
 
 This can move the machine along any of the three axis and can also send gcode generated in any

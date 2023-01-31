@@ -88,24 +88,24 @@ machine use it!
 |*    |PTFE Tube               |Optional Extruder to filament    |[Shop][sh17] – [Amazon][az17]|
 |*    |Print Fan               |Optional fits hemera mount       |[Shop][sh18] – [Amazon][az18]|
 
-[sh1]: https://shop.v1engineering.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3
-[sh2]: https://shop.v1engineering.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
+[sh1]: https://www.v1e.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3
+[sh2]: https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
 [sh3]: https://www.filastruder.com/collections/e3d-hemera/products/e3d-hemera?variant=39486550507591
-[sh4]: https://shop.v1engineering.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm
-[sh5]: https://shop.v1engineering.com/products/idler-10mm-20t-5mm-bore
-[sh6]: https://shop.v1engineering.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm
-[sh7]: https://shop.v1engineering.com/collections/3dprinter-parts/products/gt2-10mm-belt
-[sh8]: https://shop.v1engineering.com/collections/3dprinter-parts/products/optical-endstop
-[sh9]: https://shop.v1engineering.com/collections/zenxy/products/v-wheel
-[sh10]: https://shop.v1engineering.com/collections/3dprinter-parts/products/mk3-aluminum-heated-bed
-[sh11]: https://shop.v1engineering.com/collections/3dprinter-parts/products/spring
+[sh4]: https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm
+[sh5]: https://www.v1e.com/products/idler-10mm-20t-5mm-bore
+[sh6]: https://www.v1e.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm
+[sh7]: https://www.v1e.com/collections/3dprinter-parts/products/gt2-10mm-belt
+[sh8]: https://www.v1e.com/collections/3dprinter-parts/products/optical-endstop
+[sh9]: https://www.v1e.com/collections/zenxy/products/v-wheel
+[sh10]: https://www.v1e.com/collections/3dprinter-parts/products/mk3-aluminum-heated-bed
+[sh11]: https://www.v1e.com/collections/3dprinter-parts/products/spring
 [sh12]: https://www.filastruder.com/products/ldo-linear-rails?variant=31796304150599
 [sh13]: https://hobbyking.com/en_us/carbon-fibre-square-tube-20-x-20-x-800mm.html
 [sh14]: https://www.filastruder.com/products/meanwell-lrs-350-24-psu?_pos=3&_sid=4a733ffaa&_ss=r
-[sh15]: https://shop.v1engineering.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
-[sh16]: https://shop.v1engineering.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
-[sh17]: https://shop.v1engineering.com/collections/3dprinter-parts/products/ptfe-liner?variant=39521587331187
-[sh18]: https://shop.v1engineering.com/collections/3dprinter-parts/products/5015-12v-fan-blower
+[sh15]: https://www.v1e.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
+[sh16]: https://www.v1e.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe
+[sh17]: https://www.v1e.com/collections/3dprinter-parts/products/ptfe-liner?variant=39521587331187
+[sh18]: https://www.v1e.com/collections/3dprinter-parts/products/5015-12v-fan-blower
 
 [az1]: https://amzn.to/3mp6nOk
 [az2]: https://amzn.to/3FcxGlE

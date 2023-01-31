@@ -20,11 +20,11 @@ This table would be nothing without this tool! ([feel free to show some apprecia
 software](https://liberapay.com/jeffeb3/)).
 
 **Karl’s EstlEgg-ify**
-Karl’s way allows for some custom vector graphics to be easily drawn. Here in the [Forum](https://www.v1engineering.com/forum/topic/artistic-designs-with-inkscape-eggbot-tools-and-estlcam/).
+Karl’s way allows for some custom vector graphics to be easily drawn. Here in the [Forum](https://forum.v1e.com/t/artistic-designs-with-inkscape-eggbot-tools-and-estlcam/6302).
 
 ## Bill of Materials
 
-**[Printed Parts Sets](https://shop.v1engineering.com/products/zenxy-v2-printed-parts-set)**
+**[Printed Parts Sets](https://www.v1e.com/products/zenxy-v2-printed-parts-set)**
 
 ___
 
@@ -63,7 +63,7 @@ Most any semi-rigid material will work for printing these parts. PLA or PETG are
 
 ___
 
-[Hardware & Components kits](https://shop.v1engineering.com/collections/zenxy/products/zenxy-v2-hardware-bundle) are available in the shop.
+[Hardware & Components kits](https://www.v1e.com/collections/zenxy/products/zenxy-v2-hardware-bundle) are available in the shop.
 
 | Hardware                          | QTY. |
 |-----------------------------------|------|
@@ -77,14 +77,14 @@ ___
 
 | Components                       | QTY. |
 |----------------------------------|------|
-| [½” x ½” Magnet](https://shop.v1engineering.com/collections/zenxy/products/1-2-x-1-2-magnet)                   | 1    |
-| [½” Steel Ball](https://shop.v1engineering.com/collections/zenxy/products/1-2d-steel-ball)                   | 1    |
-| [Mini V Wheel](https://shop.v1engineering.com/collections/zenxy/products/v-wheel)                    | 19   |
-| [GT2 10mm 16 Tooth Pulley](https://shop.v1engineering.com/collections/zenxy/products/pulley-16-tooth-gt2-10mm)         | 2    |
-| [GT2 10mm 20t Idler](https://shop.v1engineering.com/collections/zenxy/products/20t-idler-gt2-10mm)               | 8    |
-| [GT2 10mm Belt](https://shop.v1engineering.com/collections/zenxy/products/gt2-10mm-belt)                    | [Calc](zen2calculator.md)    |
-| [NEMA 17 Stepper 22mm shaft (min)](https://shop.v1engineering.com/collections/zenxy/products/nema-17-76oz-in-steppers) | 2    |
-| [Optical Endstop](https://shop.v1engineering.com/collections/zenxy/products/optical-endstop)                  | 2    |
+| [½” x ½” Magnet](https://www.v1e.com/collections/zenxy/products/1-2-x-1-2-magnet)                   | 1    |
+| [½” Steel Ball](https://www.v1e.com/collections/zenxy/products/1-2d-steel-ball)                   | 1    |
+| [Mini V Wheel](https://www.v1e.com/collections/zenxy/products/v-wheel)                    | 19   |
+| [GT2 10mm 16 Tooth Pulley](https://www.v1e.com/collections/zenxy/products/pulley-16-tooth-gt2-10mm)         | 2    |
+| [GT2 10mm 20t Idler](https://www.v1e.com/collections/zenxy/products/20t-idler-gt2-10mm)               | 8    |
+| [GT2 10mm Belt](https://www.v1e.com/collections/zenxy/products/gt2-10mm-belt)                    | [Calc](zen2calculator.md)    |
+| [NEMA 17 Stepper 22mm shaft (min)](https://www.v1e.com/collections/zenxy/products/nema-17-76oz-in-steppers) | 2    |
+| [Optical Endstop](https://www.v1e.com/collections/zenxy/products/optical-endstop)                  | 2    |
 
 ___
 

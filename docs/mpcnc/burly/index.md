@@ -9,10 +9,10 @@ The Mostly Printed CNC (MPCNC) is a platform to precisely control motion. This c
 
 -All components are easily sourced, or you can buy the parts from this site. Here is a price breakdown.
 
-* The [Bundle](https://vicious1-com.myshopify.com/collections/bundles/products/mostly-printed-cnc-parts-bundle) has all the hardware and electronics except the [conduit/rails](https://www.v1engineering.com/assembly/conduit-rails-tubes-pipes/) which are cheaper to source locally than to ship – $271 + shipping if international.
+* The [Bundle](https://www.v1e.com/collections/parts) has all the hardware and electronics except the [conduit/rails](https://www.v1engineering.com/assembly/conduit-rails-tubes-pipes/) which are cheaper to source locally than to ship – $271 + shipping if international.
 * 20′ of [Conduit](https://www.v1engineering.com/assembly/conduit-rails-tubes-pipes/) **≈\$12** (or stainless-steel tubing for a little more ≈\$43) .
-* Plastic parts, filament, less than 2 spools **≈\$30** if you own a 3D printer, if not buy it from [here](https://shop.v1engineering.com/collections/bundles) for $135.
-* Tool. Either a [Dewalt](https://amzn.to/1MoBSQq), [import spindle](https://amzn.to/2arEPEg) or an [extruder](https://vicious1-com.myshopify.com/collections/3dprinter-parts/products/3d-printing-extruder) (3D Printer) $53, or anything else you might want to bolt on, laser, [drag knife](https://shop.v1engineering.com/collections/parts/products/drag-knife-vinyl-cutter), foam cutting needle (awesome), etc.
+* Plastic parts, filament, less than 2 spools **≈\$30** if you own a 3D printer, if not buy it from [here](https://www.v1e.com/collections/bundles) for $135.
+* Tool. Either a [Dewalt](https://amzn.to/1MoBSQq), [import spindle](https://amzn.to/2arEPEg) or an [extruder](https://www.v1e./collections/3dprinter-parts/products/3d-printing-extruder) (3D Printer) $53, or anything else you might want to bolt on, laser, [drag knife](https://www.v1e.com/collections/parts/products/drag-knife-vinyl-cutter), foam cutting needle (awesome), etc.
 
 Total Cost… if you have a 3D printer **Under $370**, $475 if you buy the printed parts from here.
 

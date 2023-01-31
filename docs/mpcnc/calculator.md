@@ -10,7 +10,7 @@ tool can reach. Smaller machines are more rigid. The more rigid a machine is, th
 forgiving it is to use. This gives you a larger acceptable feeds and speeds window. More rigid
 also means it will be faster and more accurate with the right settings. Every millimeter counts but
 **the Z axis has the largest effect on rigidity**. For a Primo MPCNC, 81mm is the shortest and **I
-highly** recommend that. More sizing details on [this page](https://www.v1engineering.com/assembly/machine-size/).
+highly** recommend that. More sizing details on [this page](https://docs.v1engineering.com/mpcnc/intro/#size).
 
 ![!MPCNC ISO Diagram](../img/old/2020/06/ISO-Diagram2.jpg){: loading=lazy width="400"}
 

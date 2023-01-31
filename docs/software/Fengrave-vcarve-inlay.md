@@ -129,6 +129,6 @@ Gimp - [Website](https://www.gimp.org/ "Gimp site")
 
 Octoprint - [Website](https://www.octoprint.org/ "Octoprint site")
 
-MPCNC - [Website](https://www.v1engineering.com/ "V1 Engineering site")
+MPCNC - [Website](https://www.v1e.com/ "V1 Engineering site")
 
 

@@ -1,6 +1,6 @@
 # MP3DP Version1
 
-Questions comments – [Link](https://www.v1engineering.com/forum/topic/milledprinted-prusa-style-printer/)
+Questions comments – [Link](https://forum.v1e.com/t/milled-printed-prusa-style-printer/4059)
 
 MP3DP   IMG_20160328_111500~3   IMG_20160829_152820
 
@@ -85,7 +85,7 @@ help so I don’t have to put a description for each part.
 |M3 x 10                 |16  |For Steppers|
 |Cable ties              |~20 |40lb|
 
-[shop]: https://shop.v1engineering.com/collections/3dprinter-parts
+[shop]: https://www.v1e.com/collections/3dprinter-parts
 
 *#6 hardware can be metric equivalent M3.5
 

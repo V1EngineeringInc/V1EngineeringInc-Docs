@@ -4,7 +4,7 @@ Click on the images to embiggen.
 # Ramps 1.4 Stack
 If you bought this from V1 Engineering then this has already been done for you just plug in the steppers and go.
 Ramps 1.4 – Any control board can be used to control the Mostly Printed CNC, Here is how to set up a ramps stack.
-[Mac user?](https://www.v1engineering.com/forum/topic/cannot-connect-to-rampsarduino-maclinuxwindows/#post-11485)
+[Mac user?](https://forum.v1e.com/t/cannot-connect-to-ramps-arduino-mac-linux-windows/4066#post-11485)
 
 
 ![!RAMPS driver plugs](../img/old/2015/10/IMG_20151023_103915.jpg){: loading=lazy width="400"}

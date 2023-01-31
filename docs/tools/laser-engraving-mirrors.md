@@ -21,7 +21,7 @@ also adjust your levels to make the whites as white as possible and the blacks a
 ### Image2GCode
 
 After you have your image sized and ready to go open up
-[Image2GCode](https://www.v1engineering.com/forum/topic/image2gcode-free-raster-image-laser-engraving-software-modified-for-mpcnc/)
+[Image2GCode](https://forum.v1e.com/t/image2gcode-free-raster-image-laser-engraving-software-modified-for-mpcnc/3801)
 and load your image. The linked version has been modified for the Mostly Printed CNC.
 
 Remember you are engraving the backside of the mirror so you have to flip your image horizontally so
@@ -74,6 +74,6 @@ file like this.
 
 (Sorry I did not have a picture handy of the exact file I used in this example.)
 
-Feel free to ask questions [here](https://www.v1engineering.com/forum/topic/engraved-mirror-logos/).
+Feel free to ask questions [here](https://forum.v1e.com/t/engraved-mirror-logos/4735).
 
 **Check out all the work we do @ [banjags3dprinting](https://www.facebook.com/banjags3dprinting/)**
