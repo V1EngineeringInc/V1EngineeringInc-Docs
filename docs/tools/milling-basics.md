@@ -17,7 +17,7 @@ learn something.
 ## Baby Steps
 
 You should have already done some plotting, as [shown
-here](https://www.v1engineering.com/estlcam-basics/). You should have a very clean drawing if you
+here](https://docs.v1engineering.com/software/estlcam-basics/). You should have a very clean drawing if you
 don’t you should not be milling yet. Make sure the pen picks up all the way (clearance plane), and
 **the parts are the right size**. This ensure your machine works correctly and you are familiar with the
 basics of CAM and how your machine moves.
@@ -37,7 +37,7 @@ Some of the first cuts ever made on an MPCNC.
 
 If you just want to get the machine dirty here is the generic recipe. This should work in every material softer than metal; you can optimize later.
 
-- **Single flute 1/8″** [upcut bit](https://vicious1-com.myshopify.com/collections/sharp-stuff/products/1-8-single-flute).
+- **Single flute 1/8″** [upcut bit](https://www.v1e./collections/sharp-stuff/products/1-8-single-flute).
 - 8mm/s **Feed Rate** (The speed at which you move through the material).
 - 3mm/s **Plunge Rate** (The speed at which you move vertically into the material).
 - 1mm **Depth of Cut** (The thickness of material your bit will be removing per pass).
@@ -269,7 +269,7 @@ post processor addresses the issues introduced by the F360 Hobby version. This i
 - Recovery of G0 Rapids that occur at a safe level above the work
 
 #### Vectric, Aspire, Vcarve
-:   What we have so far, [Here](https://www.v1engineering.com/forum/topic/z-slip-over-large-topographical-map/#post-51193). How to [install](https://forum.v1engineering.com/t/vectric-aspire/12047/8?u=vicious1).
+:   What we have so far, [Here](https://forum.v1e.com/t/z-slip-over-large-topographical-map/6905#post-51193). How to [install](https://forum.v1e.com/t/vectric-aspire/12047/8?u=vicious1).
 
 #### Kiri:Moto
 

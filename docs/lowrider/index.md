@@ -44,7 +44,7 @@ make the table surface adjustable by using something like a drop table. This kee
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-More details to my loosened restrictions can be found here on [the home page](https://www.v1engineering.com/license/). 
+More details to my loosened restrictions can be found here on [the home page](https://www.v1e.com/pages/trademark-and-file-licenses). 
 
 ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (4).jpg){: loading=lazy width="600"}
 
@@ -67,7 +67,7 @@ Thingiverse Printed parts files:
 
 ### Printed Parts
 
-Buy a set here, [V1 Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/lowrider-v3-printed-parts).
+Buy a set here, [V1 Shop](https://www.v1e.com/collections/lowrider-parts/products/lowrider-v3-printed-parts).
 
 Or print your own. No supports needed, keep the default orientation. PLA is recommended for ultimate rigidity, other 
 filaments should be evaluated for rigidity. 2-3 walls rectilinear infill. Thicker layers since these are large parts, no 
@@ -104,13 +104,13 @@ more than 80% nozzle diameter to keep overhangs working.
 |2   |YZ Plate                    |50%    |Best as a milled part                |[Shop][yz1] - [DXF](/lowrider/#yz-plates)|
 
 [Wheels]: https://www.printables.com/model/211714-lr3-60mm-wheel-brackets
-[xz1]: https://shop.v1engineering.com/products/lowrider-3-metal-xz-plates
-[yz1]: https://shop.v1engineering.com/collections/lowrider-parts/products/lowrider-cnc-v3-yz-plates
+[xz1]: https://www.v1e.com/products/lowrider-3-metal-xz-plates
+[yz1]: https://www.v1e.com/collections/lowrider-parts/products/lowrider-cnc-v3-yz-plates
 
  * Optional Version- You can use 58-62mm X 25mm urethane wheels with the optional brackets. The urethane wheels might provide for a smoother ride over 
  a rough table or debris with the downside being a bit of "give" and the possibility of the wheels steering a non parallel build. 
- The bearings are preferred, should be more precise and make for a more forgiving build. [Wheels](https://shop.v1engineering.com/collections/lowrider-parts/products/urethane-wheels) 
- [Spacers](https://shop.v1engineering.com/collections/all/products/axle-spacers)
+ The bearings are preferred, should be more precise and make for a more forgiving build. [Wheels](https://www.v1e.com/collections/lowrider-parts/products/urethane-wheels) 
+ [Spacers](https://www.v1e.com/collections/all/products/axle-spacers)
 
  * Brace note-  Print the two left and right end braces with 50% infill and oriented so you can have the top facing out on each end, and the rest with 30% infill. 2' wide builds need 6 total,
  4 foot versions need 8 total. One every 200mm (8") or less. 
@@ -190,7 +190,7 @@ thicker you will need to counter bore the heads.
 
 ### Specialty Parts
 
-You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/lowrider-v3-hardware-kit)
+You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://www.v1e.com/collections/lowrider-parts/products/lowrider-v3-hardware-kit)
 
 |QTY  |Description             |Comment                                        |Link                        | 
 |-----|------------------------|-----------------------------------------------|----------------------------|
@@ -210,20 +210,20 @@ You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://sho
 |*    |Lube                    |Optional for idlers and linear rails           |[Shop][sh14] – [Amazon][az14]|
 |*    |Vac Hose                |Optional any 1.5" OD Vacuum hose should work   | – [Amazon][az15]|
 
-[sh1]: https://shop.v1engineering.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3
-[sh2]: https://shop.v1engineering.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
-[sh3]: https://shop.v1engineering.com/products/wiring-kit-1
-[sh4]: https://shop.v1engineering.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm
-[sh5]: https://shop.v1engineering.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm 
-[sh6]: https://shop.v1engineering.com/collections/3dprinter-parts/products/gt2-10mm-belt
-[sh7]: https://shop.v1engineering.com/collections/parts/products/limit-switch-endstop
-[sh8]: https://shop.v1engineering.com/collections/lowrider-parts/products/bearings-608-2rs 
-[sh9]: https://shop.v1engineering.com/collections/lowrider-parts/products/110mm-t8-leadscrew-and-nut 
-[sh10]: https://shop.v1engineering.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler
-[sh11]: https://shop.v1engineering.com/products/150mm-mgn12h-linear-guides
-[sh12]: https://shop.v1engineering.com/collections/lowrider-parts/products/12v-6a-power-supply
-[sh13]: https://shop.v1engineering.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
-[sh14]: https://shop.v1engineering.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe 
+[sh1]: https://www.v1e.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3
+[sh2]: https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
+[sh3]: https://www.v1e.com/products/wiring-kit-1
+[sh4]: https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm
+[sh5]: https://www.v1e.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm 
+[sh6]: https://www.v1e.com/collections/3dprinter-parts/products/gt2-10mm-belt
+[sh7]: https://www.v1e.com/collections/parts/products/limit-switch-endstop
+[sh8]: https://www.v1e.com/collections/lowrider-parts/products/bearings-608-2rs 
+[sh9]: https://www.v1e.com/collections/lowrider-parts/products/110mm-t8-leadscrew-and-nut 
+[sh10]: https://www.v1e.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler
+[sh11]: https://www.v1e.com/products/150mm-mgn12h-linear-guides
+[sh12]: https://www.v1e.com/collections/lowrider-parts/products/12v-6a-power-supply
+[sh13]: https://www.v1e.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
+[sh14]: https://www.v1e.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe 
 
 [az1]: https://amzn.to/3mp6nOk
 [az2]: https://amzn.to/3FcxGlE
@@ -270,8 +270,8 @@ This is what is needed for a 4' x 8' (1.2M x 2.4M) build. You will need more or 
 |10   |M2.5 x 12mm             |None                                           |
 |24   |3mm x 12mm Wood/metal   |#4 x 1/2" Wood or Sheet metal screws           |
 |22   |M4 x 12mm+ Wood/metal   |#8 x 1/2"+ Screws to mount things to your table|
-|4    |150mm MGN12H Rails      |[Shop Link](https://shop.v1engineering.com/collections/lowrider-parts/products/150mm-mgn12h-linear-guides)|
-|3    |Wire Extenders          |[Shop Link](https://shop.v1engineering.com/collections/lowrider-parts/products/wiring-kit-1)|
+|4    |150mm MGN12H Rails      |[Shop Link](https://www.v1e.com/collections/lowrider-parts/products/150mm-mgn12h-linear-guides)|
+|3    |Wire Extenders          |[Shop Link](https://www.v1e.com/collections/lowrider-parts/products/wiring-kit-1)|
 
 ### Table
 

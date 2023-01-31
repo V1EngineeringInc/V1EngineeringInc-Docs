@@ -179,7 +179,7 @@ ___
 
 ## **Lubricate the Leadscrew**
 
-The leadscrew needs [lubrication](https://shop.v1engineering.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe).
+The leadscrew needs [lubrication](https://www.v1e.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe).
 ___
 
 Nice work....Break time?

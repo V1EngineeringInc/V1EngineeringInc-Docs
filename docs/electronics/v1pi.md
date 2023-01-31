@@ -22,7 +22,7 @@ piece of work.
 
 ![!Octoprint](../img/old/2018/05/octo.jpg){: loading=lazy width="400"}
 
-The [forum thread](https://www.v1engineering.com/forum/topic/v1pi-raspberry-pi-image-with-octoprint-and-cnc-js-and-wifi-hotspot/).
+The [forum thread](https://forum.v1e.com/t/v1pi-raspberry-pi-image-with-octoprint-and-cnc-js-and-wifi-hotspot/7497).
 
 GitHub link to the [file and instructions](https://github.com/jeffeb3/v1pi).
 

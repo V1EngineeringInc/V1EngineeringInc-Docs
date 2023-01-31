@@ -9,10 +9,10 @@ The Mostly Printed CNC (MPCNC) is a platform to precisely control motion. This c
 
 All components are easily sourced, or you can buy the parts from this site. Here is a price breakdown.
 
-* The [Bundle](https://shop.v1engineering.com/collections/parts/products/mostly-printed-cnc-parts-bundle-primo-version) has all the hardware, electronics, and control board, everything except the [conduit/rails](https://docs.v1engineering.com/mpcnc/calculator/) which are cheaper to source locally than to ship – $353 + shipping if international.
+* The [Bundle](https://www.v1e.com/collections/parts/products/mostly-printed-cnc-parts-bundle-primo-version) has all the hardware, electronics, and control board, everything except the [conduit/rails](https://docs.v1engineering.com/mpcnc/calculator/) which are cheaper to source locally than to ship – $353 + shipping if international.
 * 20′ of [Conduit](https://docs.v1engineering.com/mpcnc/calculator/) **≈\$12** (or stainless-steel tubing or DOM Tubing for a little more ≈\$65) .
-* Plastic parts, filament, less than 2 spools **≈\$35** if you own a 3D printer. If not, buy the printed parts from [here](https://shop.v1engineering.com/collections/parts) for $165.
-* Tool. Either a [Dewalt](https://amzn.to/1MoBSQq), [import spindle](https://amzn.to/3dkKgl0) or an [extruder](https://amzn.to/37ZjygN) (3D Printer) $63, or anything else you might want to bolt on, [laser](https://amzn.to/37OcdQK), [drag knife](https://shop.v1engineering.com/collections/parts/products/drag-knife-vinyl-cutter), foam cutting needle (awesome), etc.
+* Plastic parts, filament, less than 2 spools **≈\$35** if you own a 3D printer. If not, buy the printed parts from [here](https://www.v1e.com/collections/parts) for $165.
+* Tool. Either a [Dewalt](https://amzn.to/1MoBSQq), [import spindle](https://amzn.to/3dkKgl0) or an [extruder](https://amzn.to/37ZjygN) (3D Printer) $63, or anything else you might want to bolt on, [laser](https://amzn.to/37OcdQK), [drag knife](https://www.v1e.com/collections/parts/products/drag-knife-vinyl-cutter), foam cutting needle (awesome), etc.
 
 Total Cost… if you have a 3D printer Under $465, $595 if you buy the printed parts from here.
 
@@ -37,7 +37,7 @@ Have a look at this video from 2016. Keep in mind we have evolved considerably s
 
 - The smaller you make this the faster you can move it and the more rigid/accurate it will be, and more importantly the easier it will be to get the desired accuracy.
 
-- The linear motion is ball bearings on electrical conduit (or stainless steel)… seriously, easy to use and source. More information on this [here](https://www.v1engineering.com/assembly/machine-size/). If this machine isn’t big enough I have also designed the [LowRider CNC](../lowrider/index.md), all the same specs and resolution just designed to be bigger!
+- The linear motion is ball bearings on electrical conduit (or stainless steel)… seriously, easy to use and source. More information on this [here](https://docs.v1engineering.com/mpcnc/intro/#size). If this machine isn’t big enough I have also designed the [LowRider CNC](../lowrider/index.md), all the same specs and resolution just designed to be bigger!
  
 ## Power
 
@@ -82,4 +82,4 @@ And finally the current Primo Version!
 
 ## More info
 
-To see some of the capabilities, and some interesting builds check out some [videos](https://www.v1engineering.com/videos/), or the user galleries, [MPCNC gallery](https://forum.v1engineering.com/tag/gallery-mpcnc), [LowRider CNC gallery](https://forum.v1engineering.com/tag/gallery-lowrider-cnc).
+To see some of the capabilities, and some interesting builds check out some [videos](https://www.v1e.com/pages/social), or the user galleries, [MPCNC gallery](https://forum.v1e.com/tag/gallery-mpcnc), [LowRider CNC gallery](https://forum.v1e.com/tag/gallery-lowrider-cnc).

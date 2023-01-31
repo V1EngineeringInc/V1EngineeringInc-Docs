@@ -9,7 +9,7 @@ voltages, WiFi Ports, future expansion port for USB, and the Trinamic TMC driver
 
 **Want to Buy one?**
 
-[SKR Pro Bundle is available here in the shop.](https://shop.v1engineering.com/collections/parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3)
+[SKR Pro Bundle is available here in the shop.](https://www.v1e.com/collections/parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3)
 
 There are many options involved here. To offer the best experience for most users I have settled
 on the TMC2209 drivers, and the TFT35 V3 E3 screen.

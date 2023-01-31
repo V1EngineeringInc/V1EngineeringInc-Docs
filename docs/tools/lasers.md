@@ -127,9 +127,9 @@ using your laser your material will produce smoke. This smoke if not directed aw
 material you are working with producing a sooty poor looking cut or etching. This smoke will also
 stick to the laser’s lens and very quickly build up heat before you know it the lens will break.
 Bare minimum you need to have a
-[40mm](https://shop.v1engineering.com/collections/miscellaneous/products/fan) fan clearing the area,
+[40mm](https://www.v1e.com/collections/miscellaneous/products/fan) fan clearing the area,
 even better are
-[radial](https://shop.v1engineering.com/collections/miscellaneous/products/radial-fan) fans (higher
+[radial](https://www.v1e.com/collections/miscellaneous/products/radial-fan) fans (higher
 pressure more direct), or even better yet a [small compressor](https://amzn.to/2SBnbkg). If you have
 the ability to hook up your compressor and aim the air stream you can get significantly better cuts
 this way. Once again don’t forget to vent your fumes safely and accordingly.
@@ -241,14 +241,13 @@ Lightburn has several versions of focus and raster test programs built in as wel
 
 ### Free Software to try
 
-[Image2Gcode](https://www.thingiverse.com/thing:2726163) – [Forum link](https://www.v1engineering.com/forum/topic/image2gcode-free-raster-image-laser-engraving-software-modified-for-mpcnc/page/11/#post-78280)
+[Image2Gcode](https://www.thingiverse.com/thing:2726163)
 
 Vector based, Solid lines
 
 [Inkscape Plug-In –](https://jtechphotonics.com/?page_id=2012)
 
-[dxf2gcode](https://sourceforge.net/projects/dxf2gcode/) – [Forum link](https://www.v1engineering.com/forum/topic/dxf2gcode-a-quick-simple-open-source-app-for-vectordxfpdf-laser-engraving/)
-
+[dxf2gcode](https://sourceforge.net/projects/dxf2gcode/)
 
 ## Galleries
 

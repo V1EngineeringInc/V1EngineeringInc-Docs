@@ -151,7 +151,7 @@ ___
 
 ## TIPS
 
-- [Lube](https://vicious1-com.myshopify.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) the lead screw.
+- [Lube](https://www.v1e./products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) the lead screw.
 
 - If you are new to all of this, don’t worry about perfect here yet. Most people never even know or
     care how perfectly square there machine is. Carving a name into a piece of wood no one would

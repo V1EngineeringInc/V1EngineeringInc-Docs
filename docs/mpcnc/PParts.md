@@ -66,7 +66,7 @@ ___
 
 ## Hardware
 
-The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) contain all of the following hardware. Currently it is not available separately.
+The kits in the [V1 Shop](https://www.v1e.com/collections/parts) contain all of the following hardware. Currently it is not available separately.
 
 | Hardware     | Type  | Alternative | QTY |
 |--------------|-------|-------------|-----|
@@ -86,7 +86,7 @@ ___
 
 ## Components
 
-The kits in the [V1 Shop](https://shop.v1engineering.com/collections/parts) contain all of the following components.
+The kits in the [V1 Shop](https://www.v1e.com/collections/parts) contain all of the following components.
 Some of these are affiliate links, you can buy from these links or just use them for information.
 
 !!! note
@@ -96,17 +96,17 @@ Some of these are affiliate links, you can buy from these links or just use them
 
 | Part                | QTY | V1 Link                                                                                                                              | Other Link                                                |
 |---------------------|-----|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| Nema 17 50OZ/in+    | 5   | [Shop](https://shop.v1engineering.com/collections/parts/products/nema-17-76oz-in-steppers)                                           | [Amazon](https://amzn.to/3hQKILc)                         |
-| * Belt GT2 10mm     | 4   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/gt2-10mm-belt)                                             | [Amazon](https://amzn.to/2V5pfo8)                         |
-| Pulley 16t gt2 10mm (5mm bore) | 4   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/pulley-16-tooth-gt2-10mm)                                  | [Amazon](https://amzn.to/2VmDWTR)                         |
-| Idler 20t gt2 10mm  (5mm bore)| 8   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/20t-idler-gt2-10mm)                                        | [Amazon](https://amzn.to/37TNJWh)                         |
-| Power Supply        | 1   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/12v-6a-power-supply)                                       | [Amazon](https://amzn.to/2Cwlp0M)                         |
-| Wiring kit          | 1   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/wiring-kit-1)                                              | Custom Made for V1                                        |
-| Bearings            | 45  | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/bearings-608-2rs)                                          | [Amazon](https://amzn.to/2Cxe7tJ)                         |
-| leadscrew/nut       | 1   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/300mm-leadscrew-and-nut)                                   | [Amazon](https://amzn.to/2V7wUSK)                         |
-| 5mm to 8mm Coupler  | 1   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler)                                   | [Amazon](https://amzn.to/2APIifi)                         |
-| Lube                | 1   | [Shop](https://shop.v1engineering.com/collections/lowrider-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) | [Amazon](https://amzn.to/2BzXbC7)                         |
-| Control Board       | 1   | [Shop](https://shop.v1engineering.com/collections/parts)                                                                             | [Ultimachine](https://ultimachine.com/products/rambo-1-4) |
+| Nema 17 50OZ/in+    | 5   | [Shop](https://www.v1e.com/collections/parts/products/nema-17-76oz-in-steppers)                                           | [Amazon](https://amzn.to/3hQKILc)                         |
+| * Belt GT2 10mm     | 4   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/gt2-10mm-belt)                                             | [Amazon](https://amzn.to/2V5pfo8)                         |
+| Pulley 16t gt2 10mm (5mm bore) | 4   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/pulley-16-tooth-gt2-10mm)                                  | [Amazon](https://amzn.to/2VmDWTR)                         |
+| Idler 20t gt2 10mm  (5mm bore)| 8   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/20t-idler-gt2-10mm)                                        | [Amazon](https://amzn.to/37TNJWh)                         |
+| Power Supply        | 1   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/12v-6a-power-supply)                                       | [Amazon](https://amzn.to/2Cwlp0M)                         |
+| Wiring kit          | 1   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/wiring-kit-1)                                              | Custom Made for V1                                        |
+| Bearings            | 45  | [Shop](https://www.v1e.com/collections/lowrider-parts/products/bearings-608-2rs)                                          | [Amazon](https://amzn.to/2Cxe7tJ)                         |
+| leadscrew/nut       | 1   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/300mm-leadscrew-and-nut)                                   | [Amazon](https://amzn.to/2V7wUSK)                         |
+| 5mm to 8mm Coupler  | 1   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler)                                   | [Amazon](https://amzn.to/2APIifi)                         |
+| Lube                | 1   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) | [Amazon](https://amzn.to/2BzXbC7)                         |
+| Control Board       | 1   | [Shop](https://www.v1e.com/collections/parts)                                                                             | [Ultimachine](https://ultimachine.com/products/rambo-1-4) |
 
 * Use the [calculator](calculator.md) to determine belt length.
 
@@ -147,7 +147,7 @@ ___
 
 ### Update from Burly to Primo
 
-Kits are available in the [V1 Shop](https://shop.v1engineering.com/products/mpcnc-burly-to-primo-hardware-kit).
+Kits are available in the [V1 Shop](https://www.v1e.com/products/mpcnc-burly-to-primo-hardware-kit).
 
 | Part                               | QTY |
 |------------------------------------|-----|

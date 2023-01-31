@@ -22,7 +22,7 @@ needed. Threaded inserts are available, press fit or heat set.
 ![!mp3dp repeat assembly](../img/repeat/PXL_20211221_005905879.jpg){: loading=lazy width="600"}
 
 * Best to start by threading all the M5 nuts onto the screws to loosen up the lock nuts. Do this for all M5's.
-* Lube the Idlers (all idlers), [Super lube](https://shop.v1engineering.com/collections/parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) is nice but others will work.
+* Lube the Idlers (all idlers), [Super lube](https://www.v1e.com/collections/parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) is nice but others will work.
 
 ![!mp3dp repeat assembly](../img/repeat/PXL_20211221_010504049.jpg){: loading=lazy width="600"}
 

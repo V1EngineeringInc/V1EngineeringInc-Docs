@@ -5,9 +5,9 @@ by Ryan | Apr 11, 2017 | Hardware & Electronics, News & Updates, Uncategorized
 ## Ultimachine Boards
 
 Want to Buy one?
-Mini-RAMBo [Here](https://vicious1-com.myshopify.com/products/mini-rambo-1-3),
-RAMBo [Here](https://shop.v1engineering.com/collections/parts/products/rambo-v1-3l),
-Archim1 [Here](https://vicious1-com.myshopify.com/collections/miscellaneous/products/archim-1-0a).
+Mini-RAMBo [Here](https://www.v1e./products/mini-rambo-1-3),
+RAMBo [Here](https://www.v1e.com/collections/parts/products/rambo-v1-3l),
+Archim1 [Here](https://www.v1e./collections/miscellaneous/products/archim-1-0a).
 
 ![!ulti](../img/old/2017/04/IMG_20170411_181548.jpg)
 
@@ -37,7 +37,7 @@ links in each section.
 
 ## Mini Rambo
 
-Shop [link](https://vicious1-com.myshopify.com/collections/parts/products/mini-rambo-1-3)
+Shop [link](https://www.v1e./collections/parts/products/mini-rambo-1-3)
 
 All the Details you could need, http://reprap.org/wiki/MiniRambo
 
@@ -123,7 +123,7 @@ Need a fancy Box for your fancy board?
 
 ![!rambo](../img/old/2017/04/MVIMG_20180207_1608522.jpg)
 
-Shop [link](https://vicious1-com.myshopify.com/collections/parts/products/rambo-v1-3l)
+Shop [link](https://www.v1e./collections/parts/products/rambo-v1-3l)
 
 The most common way the Rambo will be used on the Mostly Printed CNC or LowRider CNC is to plug in
 the X, Y, and Z steppers. Then you need power to both the logic and stepper circuits.
@@ -155,7 +155,7 @@ directly, again double check the polarity, some red and white wires are opposite
 ??? "Rambo 1.4"
     The **Rambo 1.4** no longer needs an adapter but the first batch have shrouded pins (custom
     un-shrouded 1.4’s are on the way). This means some of the LCD cables will be backwards…
-    [Easy fix here](https://www.v1engineering.com/forum/topic/rambo-1-4-and-lcd-issues/#post-60917).
+    [Easy fix here](https://forum.v1e.com/t/cannot-connect-to-ramps-arduino-mac-linux-windows/4066#post-11485).
 
 ??? "Rambo 1.3"
     Using an LCD requires an adapter on the full sized **Rambo 1.3**.
@@ -219,7 +219,7 @@ Need a fancy Box for your fancy board?
 
 ## Archim
 
-Shop [link](https://vicious1-com.myshopify.com/collections/miscellaneous/products/archim-1-0a)
+Shop [link](https://www.v1e./collections/miscellaneous/products/archim-1-0a)
 
 Wiki links, 
 [Archim 1](http://reprap.org/wiki/Archim_v1.0) & [Archim 2](http://reprap.org/wiki/Archim_v2.0)

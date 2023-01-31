@@ -99,7 +99,7 @@ the most accurate results and a pen mount with some give should be used, [exampl
 mount](https://www.thingiverse.com/thing:1612207).
 
 My trials and tribulations figuring this out….Feel free to make fun of me. [Forum
-link](https://www.v1engineering.com/forum/topic/accuracy-step-1-pen/).
+link](https://forum.v1e.com/t/accuracy-step-1-pen/7317).
 ___
 
 
