@@ -68,6 +68,7 @@ Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett - Ian (ianj001) - Ge
 (merrittgene) - Kenny (techguy682) - geechorama (?) - Adam Reineke (AdamTReineke) - Dan Roscigno
 (droscigno) - Dan Fontanesi - Kevin Selavko (kselavko) - Ryan Connolly (rynam0) - Clark Stephens
 (clarkspeed) - Thijs Triemstra (thijstriemstra) - Aaron Sethi (aaronse) - William Hunter (wjHunter)
+- Peter H (bitingmidge)
 
 Special thanks to;
 The Primo test crew. Without you fellas Primo would not be the absolute beast that it is!
