@@ -70,7 +70,7 @@ nav:
      - Milling:
        - EstlCAM Setup: software/estlcam-basics.md
        - Milling Basics: tools/milling-basics.md
-       - Kiri;Moto Basics: software/kiri.md
+       - "Kiri:Moto Basics": software/kiri.md
        - EstlCAM Intermediate (2.5d): software/estlcam-2p5d.md
        - Milling Metal: tools/milling-metal.md
        - Inlays: software/Fengrave-vcarve-inlay.md
