@@ -119,6 +119,7 @@ theme:
   - toc.follow
   - navigation.instant
   - content.tabs.link
+  - content.action.edit
   logo: "img/favicon.ico"
   favicon: "img/favicon.ico"
 
