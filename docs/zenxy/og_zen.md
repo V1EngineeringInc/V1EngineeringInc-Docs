@@ -55,7 +55,7 @@ Print with 10% infill or higher, 3 perimeters.
 ### Specialized Parts
 | QTY | Part                                            | Link                 |
 |-----|-------------------------------------------------|----------------------|
-| 1   |  5A or larger power supply (optionally battery) | [Shop](https://www.v1e.com/products/12v-6a-power-supply), [Amazon](https://amzn.to/2vs4d4I)         |
+| 1   |12-24v power supply (optionally battery) | [Shop](https://www.v1e.com/products/24v-power-supply), [Amazon](https://amzn.to/2vs4d4I)         |
 | 1   | Any Control Board                               | [Shop](https://www.v1e.com/products/mini-rambo-1-3), Ramps        |
 | 1   | LCD                                             | [Shop](https://www.v1e.com/products/full-graphic-smart-controller-big), [Amazon](https://amzn.to/2vnHWGT)         |
 |     |                                                 |                      |

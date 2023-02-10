@@ -221,7 +221,7 @@ You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://www
 [sh9]: https://www.v1e.com/collections/lowrider-parts/products/110mm-t8-leadscrew-and-nut 
 [sh10]: https://www.v1e.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler
 [sh11]: https://www.v1e.com/products/150mm-mgn12h-linear-guides
-[sh12]: https://www.v1e.com/collections/lowrider-parts/products/12v-6a-power-supply
+[sh12]: https://www.v1e.com/products/24v-power-supply
 [sh13]: https://www.v1e.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
 [sh14]: https://www.v1e.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe 
 
