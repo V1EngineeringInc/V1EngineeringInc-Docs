@@ -1,5 +1,5 @@
 site_name: V1 Engineering Documentation
-site_url: https://docs.v1engineering.com
+site_url: https://docs.v1e.com
 repo_name: V1EngineeringInc/V1EngineeringInc-Docs
 repo_url: https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/
 edit_uri: 'edit/master/docs/'
@@ -82,7 +82,7 @@ nav:
      - Drag Knife/Vinyl: tools/drag-knife.md
      - Needle Cutter: tools/foam-needle-cutter.md
    - Troubleshoot:
-     - Reversing a Stepper: https://docs.v1engineering.com/electronics/steppers/#reversing-the-axis-direction
+     - Reversing a Stepper: https://docs.v1e.com/electronics/steppers/#reversing-the-axis-direction
  - Learn:
     - Editing mkdocs: mkdocs_info.md
     - Software Workflow: learn/software_overview.md
