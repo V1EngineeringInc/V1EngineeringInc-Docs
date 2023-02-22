@@ -199,19 +199,18 @@ parts, then you need to follow these rules:
 ### Multiple Workspaces
 A workspace defines where the operating origin is, and the origin is the point where X, Y and Z = 0.
 
-When you turn your machine on you will be working in a default workspace, usually called G54.
+When you turn your machine on you will be working in a default workspace.
 
-All commands you enter related to coordinates (G92, G0, G1, etc) will set or move you around in the G54 workspace.
+All commands you enter related to coordinates (G92, G0, G1, etc) will set or move you around in the workspace.
 
 Usually you will set the workspace origin to something relative to the stock material you are working on just before running your gcode by jogging your router to your desired origin and running a G92 command (e.g. G92 X0, Y0).
 
-![LR3 Top Down Image G54](https://user-images.githubusercontent.com/10994647/219782449-bfb91bd0-d798-483d-a58e-54238a8db81c.png)
+![LR3 Top Down Image Startup](https://user-images.githubusercontent.com/10994647/220621514-693acaa7-da51-4b04-a23a-836540647df6.png)
 
 
-Other workspaces also exist (https://marlinfw.org/docs/gcode/G054-G059.html).
+Multiple workspaces exist (https://marlinfw.org/docs/gcode/G054-G059.html).
 
-For Marlin they are: G55, G56, G57, G58, G59, G59.1, G59.2 and G59.3
-
+For Marlin they are: G54, G55, G56, G57, G58, G59, G59.1, G59.2 and G59.3
 
 To use a different workspace, simply send the workspace code for the workspace you want to operate in (e.g. sending G55 will put the machine in the G55 workspace) then all G92, G0, G1 etc commands will relate to the new workspace coordinates.
 
@@ -219,6 +218,7 @@ Use: This allows you to have multiple jobs set up on your machine at once and no
 
 ![LR3 Top Down Image G54 and G55](https://user-images.githubusercontent.com/10994647/219782606-cc59a7e8-dc3c-4df7-b7c1-42cb0c3d58d8.png)
 
+Note: If you have set an origin with G92 prior to sending a command to change workspaces then all workspaces will start with the origin you set, except for the G53 Native Workspace described below, which will have it's origin reset to the point where the machine started, or where the endstops were used to set the machine boundaries. 
 
 Saving to EEPROM with M500 (https://marlinfw.org/docs/gcode/M500.html) will save the workspace origins so they can be used the next time you turn the machine on.
 
