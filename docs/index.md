@@ -2,17 +2,17 @@
 
 This is where you will find parts lists, instructions, cut calculators, and lots of other related information.
 
-[![Main V1 Engineering Site](img/120-Rectangle-logo.png){: loading=lazy width="75%" }](https://www.v1e.com/)
+[![Main V1 Engineering Site](img/120-Rectangle-logo.png){: width="75%" }](https://www.v1e.com/)
 
 The [Forums](https://forum.v1engineering.com) are the best place to ask any questions you might have, the [HomePage](https://www.v1e.com/) is where you will find updates, the online shop, and more.
 
 ## About V1
 | The Lineup |
 | ----------- |
-| ![MPCNC](img/primo.png){: loading=lazy width="150" align=left} <br/> V1 Engineering Inc all started with the [MPCNC platform](mpcnc/intro.md), from there it kept expanding. |
-|  ![LowRider CNC](img/Lr3.png){: loading=lazy width="150" align=right} <br/> All the same precision as the MPCNC but in a larger form factor for sheet goods? Welcome to the [LowRider CNC](lowrider/index.md). |
-| ![MP3DP](img/MP3DP.png){: loading=lazy width="150" align=left} <br/> Have a shiny new CNC and not sure what to do with it? Make a 3D printer, [Milled / Printed 3D Printer (MP3DP)](mp3dp/index.md). |
-| ![ZenXY](img/ZenXY.png){: loading=lazy width="150" align=right} <br/> Want to spice up your office, living room, or dining room?  Make a slick art table with the [ZenXY](zenxy/index.md). |
+| ![MPCNC](img/primo.png){: width="150" align=left} <br/> V1 Engineering Inc all started with the [MPCNC platform](mpcnc/intro.md), from there it kept expanding. |
+|  ![LowRider CNC](img/Lr3.png){: width="150" align=right} <br/> All the same precision as the MPCNC but in a larger form factor for sheet goods? Welcome to the [LowRider CNC](lowrider/index.md). |
+| ![MP3DP](img/MP3DP.png){: width="150" align=left} <br/> Have a shiny new CNC and not sure what to do with it? Make a 3D printer, [Milled / Printed 3D Printer (MP3DP)](mp3dp/index.md). |
+| ![ZenXY](img/ZenXY.png){: width="150" align=right} <br/> Want to spice up your office, living room, or dining room?  Make a slick art table with the [ZenXY](zenxy/index.md). |
 
 If you can’t tell, I like to make things and share them. If you have any questions you will find me in the [forums](https://forum.v1engineering.com/). **- Ryan**
 
@@ -68,7 +68,7 @@ Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett - Ian (ianj001) - Ge
 (merrittgene) - Kenny (techguy682) - geechorama (?) - Adam Reineke (AdamTReineke) - Dan Roscigno
 (droscigno) - Dan Fontanesi - Kevin Selavko (kselavko) - Ryan Connolly (rynam0) - Clark Stephens
 (clarkspeed) - Thijs Triemstra (thijstriemstra) - Aaron Sethi (aaronse) - William Hunter (wjHunter)
-- Peter H (bitingmidge)
+- Peter H (bitingmidge) - Darwin M (Darwin)
 
 Special thanks to;
 The Primo test crew. Without you fellas Primo would not be the absolute beast that it is!
