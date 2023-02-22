@@ -195,3 +195,55 @@ parts, then you need to follow these rules:
     reference](https://en.wikipedia.org/wiki/Cartesian_coordinate_system#Orientation_and_handedness).
 - Z should be the up/down coordinate. Some features, like arcs, assume you are in the XY plane for
     most operations.
+    
+### Multiple Workspaces
+A workspace defines where the operating origin is, and the origin is the point where X, Y and Z = 0.
+
+When you turn your machine on you will be working in a default workspace.
+
+All commands you enter related to coordinates (G92, G0, G1, etc) will set or move you around in the workspace.
+
+Usually you will set the workspace origin to something relative to the stock material you are working on just before running your gcode by jogging your router to your desired origin and running a G92 command (e.g. G92 X0, Y0).
+
+![LR3 Top Down Image Startup](https://user-images.githubusercontent.com/10994647/220621514-693acaa7-da51-4b04-a23a-836540647df6.png)
+
+
+Multiple workspaces exist (https://marlinfw.org/docs/gcode/G054-G059.html).
+
+For Marlin they are: G54, G55, G56, G57, G58, G59, G59.1, G59.2 and G59.3
+
+To use a different workspace, simply send the workspace code for the workspace you want to operate in (e.g. sending G55 will put the machine in the G55 workspace) then all G92, G0, G1 etc commands will relate to the new workspace coordinates.
+
+Use: This allows you to have multiple jobs set up on your machine at once and not have to reset your origin to switch between jobs. Simply switch workspaces.
+
+![LR3 Top Down Image G54 and G55](https://user-images.githubusercontent.com/10994647/219782606-cc59a7e8-dc3c-4df7-b7c1-42cb0c3d58d8.png)
+
+Note: If you have set an origin with G92 prior to sending a command to change workspaces then all workspaces will start with the origin you set, except for the G53 Native Workspace described below, which will have it's origin reset to the point where the machine started, or where the endstops were used to set the machine boundaries. 
+
+Saving to EEPROM with M500 (https://marlinfw.org/docs/gcode/M500.html) will save the workspace origins so they can be used the next time you turn the machine on.
+
+### Native Workspace and Machine Coordinates
+For multiple workspaces to actually work your machine needs to keep track of where it is in something called the Native Workspace.
+
+Coordinates in the Native Workspace are called Machine Coordinates because the origin in the Native Workspace is the location that your machine is sitting at when the steppers are first engaged or after homing operations using endstops have been executed to reset the origin to a physical limit of your machine’s working area.
+
+
+The origin in the Native Workspace is usually set to a corner of your entire operating space.
+
+
+This means that the machine always knows where it is relative to a start point, regardless of where it is doing actual work.
+
+
+G92 will not change the origin in machine coordinates. Only homing operations will change the origin to ensure the machine does not forget its position in real space.
+
+![LR3 Top Down Image G54 and G55 and Native](https://user-images.githubusercontent.com/10994647/219782855-56d04410-186d-499e-a3fb-fed750e434c9.png)
+
+Moving in machine coordinates is done using the G53 modifier (https://marlinfw.org/docs/gcode/G053.html).
+E.g. G53 G0 X200 Y300 Z15 moves to X,Y,Z = 200,300,15 in Machine Coordinate space
+
+
+Use:
+This allows you to use real physical distances repeatedly on your machine allowing for “parking” locations or tool change sites that never change their real world positioning.
+
+Note: Setting a location in a workspace coordinate system is actually telling the machine to remember the machine coordinates of that location as a workspace offset. E.g. Homing the machine and then jogging to X=250, Y=320, Z=15 and using G92 X0 Y0 Z0 to set X,Y,Z = 0 in workspace G54 is actually telling the machine to remember the G54 origin as Machine Coordinates X=250, Y=320, Z=15.
+
