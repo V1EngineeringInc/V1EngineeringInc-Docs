@@ -251,10 +251,10 @@ This is what is needed for a 4' x 8' (1.2M x 2.4M) build. You will need more or 
 |-----|------------------------|-----------------------------------------------|
 |14   |M8 x 40mm               |5/16" x 1.5"                                   |
 |14   |M8 Nylock nuts          |5/16" Nylock                                   |
-|100  |M5 x 30mm               |None                                           |
+|100  |M5 x 30mm               |Machine Screws                                 |
 |100  |M5 Nylock               |None                                           |
-|44   |M3 x 10mm               |None                                           |
-|10   |M2.5 x 12mm             |None                                           |
+|44   |M3 x 10mm               |Machine Screws                                 |
+|10   |M2.5 x 12mm             |Machine Screws                                 |
 |24   |3mm x 12mm Wood/metal   |#4 x 1/2" Wood or Sheet metal screws           |
 |*22  |M4 x 12mm+ Wood/metal   |#8 x 1/2"+ Screws to mount things to your table|
 
