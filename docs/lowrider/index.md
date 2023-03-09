@@ -275,9 +275,16 @@ This is what is needed for a 4' x 8' (1.2M x 2.4M) build. You will need more or 
 
 ### Table
 
-Any flat surface you can screw into will work great. Basic torsion box tables can 
-be a step up in terms of long term stability with not all that much added complexity. 
-A Removable spoil board section that can be easily replaced comes in handy as well.
+Your table needs only be as fancy as a sheet of wood on a relatively flat, smooth surface. A CNC can self correct many of its own imperfections if needed. Typically, our tables only support the CNC and some material, so nothing heavy duty is typically required.
+
+Any existing table that is large enough is fine, you can use it’s surface directly or a more popular option is to add a waste board of some sort that is replaceable as it gets used.
+
+Next would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better.
+
+If you have a table saw, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time.
+
+Of course, once you have a CNC you can use it to cut out its own torsion box with fit together joints and all the fancy features you might want. This is a good feature that lets you build and use your CNC and then make any changes and do a minor rebuild.
+
 
 ![!LR3 Dimensions Picture](../img/lr3/LR3 Dims.jpg){: loading=lazy width="600"}
 
