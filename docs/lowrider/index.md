@@ -182,8 +182,11 @@ you will need to counter bore the heads.
 
 ![!LR3 Fancy Picture](../img/lr3/nomorethan7.jpg){: loading=lazy width="600"}
 
-The M3 screws provided with the kit need 6.35mm to 7mm plate thickness. If you go thinner you will needs washers, to go 
-thicker you will need to counter bore the heads. 
+The M3 screws provided with the kit need 6.35mm to 7mm plate thickness. 
+
+!!! note
+
+    If you go thinner you will needs washers, to go thicker you will need to counter bore the heads. The DXF contains the counter bore locations, only cut the smaller holes through all.
 
 [XZ Plate DXF](../img/lr3/XZ Plate.dxf)
 
