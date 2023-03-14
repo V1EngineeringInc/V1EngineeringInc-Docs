@@ -63,7 +63,6 @@ nav:
    - Some Advanced Options:
      - V1pi - Headless: electronics/v1pi.md
      - Dual Endstops: electronics/dual-endstops.md
-     - Dual Endstops Low Rider: electronics/dual-lr.md
 
  - Use:
    - Tools:

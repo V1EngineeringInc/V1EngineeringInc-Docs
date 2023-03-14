@@ -135,7 +135,7 @@ endstops](dual-endstops.md)
 
 DualLR
 :   This indicates a configuration for a Dual Endstop Low Rider. Check out [more information about
-dual endstops for Low Rider](dual-lr.md)
+dual endstops for Low Rider](dual-endstops.md)
 
 ### Driver Type
 
