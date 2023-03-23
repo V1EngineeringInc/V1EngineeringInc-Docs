@@ -189,7 +189,7 @@ The V1 Engineering version of the SKR Pro firmware can be found on
 [github](https://github.com/V1EngineeringInc/MarlinBuilder/releases), there are two versions, series and MPCNC dual endstop.
 
 The V1 Engineering generic version of the TFT firmware is in this [GitHub
-repo](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware)
+repo](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/releases)
 
 ## Cases
 
