@@ -281,9 +281,7 @@ Any existing table that is large enough is fine, you can use it’s surface dire
 
 Next would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better.
 
-If you have a table saw, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time.
-
-Of course, once you have a CNC you can use it to cut out its own torsion box with fit together joints and all the fancy features you might want. This is a good feature that lets you build and use your CNC and then make any changes and do a minor rebuild.
+If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. Here is a basic parametric set of plans that are easily configurable [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698).
 
 
 ![!LR3 Dimensions Picture](../img/lr3/LR3 Dims.jpg){: loading=lazy width="600"}
