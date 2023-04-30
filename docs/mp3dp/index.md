@@ -1,8 +1,8 @@
 # MP3DP v4 CoreXY
 
-Having fun, this is the second CoreXY version for me, 4th printer design overall. Works fantastic, can be scaled on all axis. Physical and mesh bed leveling. You will need a 6 driver board for this one.
+Having fun, this is the second CoreXY version for me, 4th printer design overall. Works fantastic, can be scaled on all axis. Physical and mesh bed leveling. You will need a 6 driver board for this one. Linear rails on all axes.
 
-The V1 Engineering printers are not as well documented as the CNC's. Building a printer is surprisingly much more difficult than making a large CNC.
+The V1 Engineering printers are not as well documented as the CNC's. Building a printer is surprisingly much more difficult than making a large CNC. This is very much DIY, ask questions in the forums and we will help you out and hopefully fill in the details here as we go.
 
 **These instuctions are getting filled in as questions are asked**
 
@@ -25,11 +25,11 @@ This printer is designed open ended and open source. There are so many variables
 
 **5 steppers**, The Z steppers can be quite small, the X and Y steppers in a core XY should be higher end so speed is not an issue. [Good Shop Steppers](https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers)
 
-2 pulleys
-2 smooth idlers
-6 Toothed Idlers
-Belt
-Endstops, 2 X and Y, Z used the probe. [Shop Endstops](https://www.v1e.com/collections/miscellaneous/products/limit-switch-endstop)
+2 [Pulleys](https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm)
+2 [Smooth idlers](https://www.v1e.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm)
+6 [Toothed Idlers](https://www.v1e.com/collections/3dprinter-parts/products/idler-10mm-20t-5mm-bore)
+Belt [10mm GT2](https://www.v1e.com/collections/3dprinter-parts/products/gt2-10mm-belt) length calculation needed. Rough estimate 4x(X length)+4x(YLength)+3x(Z length).
+Endstops, 2 X and Y, Z uses the probe. [Shop Endstops](https://www.v1e.com/collections/miscellaneous/products/limit-switch-endstop)
 Power Supply, 12-24V make sure all the components match this voltage. 45W+ for printer and hotend, Heated beds needs 300W plus unless you are doing mains powered.
 Heated Bed, DC beds are easy, AC beds are faster but require a Solid State Relay.
 Bed standoffs or springs
@@ -56,13 +56,35 @@ Quantities vary depending on build size, more info to come for the assembly.
 
 Slide in T nuts are better then twist in. You will need some of both.
 
+Cut all your rails a 2-3mm short so you have some room to adjust for square. There is no advantage to a tight fit on the extrusions. If you are using panels you can leave 5mm of room and even more on the Z extrusions to allow for wire management.
+
 ## Assembly
+
+I find it best to start with the back of the frame, build it as accurate as possible, and use that as your reference for all other frame pieces.
+
+The X dimension (left to right as you face the printer) is by far the most critical. This makes the X rail fit into the printed pieces.
 
 Belts, cut the belts to a point if you are having a hard time passing them through the slots. If they do not stay put put a piece of filament in the loop.
 
 
 
 ### Squaring and calibration
+
+#### Frame squaring
+
+Frame squaring takes the longest and the more perfect you get this, the easier it will be to get dimensionally accurate parts. This mainly consists of measuring the diagonals of all faces of the frame and making them match, to the best of your abilities.
+
+#### Printer Calibration
+
+X, Y, and Z dimensions should be spot on, the axes are geared. 
+
+Acceleration, jerk/junction deviation, and extrusion temp are all easily testable and tuned.
+
+Make sure to calibrate your E steps to your extruder with the 100mm extrusion test.
+
+The part I spend the most time on is testing digonals. For example printing a large square on the bed, measuring the diagonals, and ensuring I am printing squares. This course adjustment is the postion of the X rail (it has some wiggle room in the 4 screws), the fine adjust ment is actually the XY belt tensions (if you tug on a belt you will see how it tweaks teh X rail position. From there the Y rails can be adjusted in relation to the Z rails. If you were to print somthing tall if it is leaning or not 90 degrees one of you Y rails can be moved up or down to compensate. I am able to get 150mm digonals in XY (flat), YZ (tall front to back), XZ (tall left to right) within 0.1mm with a few test prints. If you are not really printing dimensionally critical funtional parts, you can mostly skip this step.
+
+Make sure not to overtighten the belts, plucking them you should barely get a sound. Since it is doubled up, 1/16 turn of the tensions screws provides a lot of movement. You can easily stall your steppers with too much belt tension.
 
 ## Wiring and Electronics
 
