@@ -1,10 +1,10 @@
 # MP3DP v4 CoreXY
 
-Having fun, this is the second CoreXY version for me, 4th printer design overall. Works fantastic, can be scaled on all axis. Physical and mesh bed leveling. You will need a 6 driver board for this one. Linear rails on all axes.
+Having fun, this is the second CoreXY version for me, 4th printer design overall. Works fantastic, can be scaled on all axes. Physical and mesh bed leveling. You will need a 6 driver board for this one. Linear rails on all axes.
 
-The V1 Engineering printers are not as well documented as the CNC's. Building a printer is surprisingly much more difficult than making a large CNC. This is very much DIY, ask questions in the forums and we will help you out and hopefully fill in the details here as we go.
+The V1 Engineering printers are not as well documented as the CNC's. Building a printer is surprisingly much more difficult than making a large CNC. This is very much DIY, ask questions in the forums, and we will help you out and hopefully fill in the details here as we go.
 
-**These instuctions are getting filled in as questions are asked**
+**These instructions are getting filled in as questions are asked**
 
 ![!mp3dp v4](../img/mp3dpv4/mp3dpv4_1.jpg){: width="400"}
 
@@ -17,11 +17,11 @@ More details to come, [forum thread](https://forum.v1engineering.com/t/repeat-v2
 ![!mp3dp v4](../img/mp3dpv4/MP3DP v4 v52.png){: loading=lazy width="400"}
 
 ## Parts
-This printer is designed open ended and open source. There are so many variables to making a printer the way YOU want it I can not possibly cover everything. I will list how I made it, that will be the easiest path to follow, and from there I will try to provide tips and tricks to modify it to suit your needs. For example, I use a BLTouch, you can use anything you want just know you will need to modify your extruder mount to fit it and edit the firmware accordingly.
+This printer is designed open-ended and open source. There are so many variables to making a printer the way YOU want it I can not possibly cover everything. I will list how I made it, that will be the easiest path to follow, and from there I will try to provide tips and tricks to modify it to suit your needs. For example, I use a BLTouch, you can use anything you want just know you will need to modify your extruder mount to fit it and edit the firmware accordingly.
 
 ### Electronics and specialized printer parts
 
-**Control board**, You will need at least 6 driver. I have used the [SKR Pro](https://www.v1e.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3) with Marlin, a sample config is available in the [marlin builder](https://github.com/V1EngineeringInc/MarlinBuilder/releases). Here is an extra [2209 driver](https://www.v1e.com/collections/miscellaneous/products/trinamic-tmc-2209-v1-2-uart-drivers).
+**Control board**, You will need at least 6 drivers. I have used the [SKR Pro](https://www.v1e.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3) with Marlin, a sample config is available in the [marlin builder](https://github.com/V1EngineeringInc/MarlinBuilder/releases). Here is an extra [2209 driver](https://www.v1e.com/collections/miscellaneous/products/trinamic-tmc-2209-v1-2-uart-drivers).
 
 **5 steppers**, The Z steppers can be quite small, the X and Y steppers in a core XY should be higher end so speed is not an issue. [Good Shop Steppers](https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers)
 
@@ -48,15 +48,15 @@ There are lots of wire clip options in the CAD.
 
 ### Hardware and frame
 
-The frame can be just extrusion, extrusions and panels, if you are hardcore you can build it out of just panels but I found that to be to seasonally varible to have an accurate printer. Extrusions and panels is teh easiest if you have a CNC to make the panels. If you use panels and extrusions you will use M3x10mm screws and T Nuts, just extrusions you will use whatever your brackets come with (M5 and T nuts).
+The frame can be just extrusion, extrusions and panels, if you are hardcore you can build it out of just panels but, I found that to be too seasonally variable to have an accurate printer. Extrusions and panels is the easiest if you have a CNC to make the panels. If you use panels and extrusions you will use M3x10mm screws and T Nuts, just extrusions you will use whatever your brackets come with (M5 and T nuts).
 
 Hardware, linear rails all use M3x8 (plus the one stepper mount marked with an “8”, "Y" stepper.) M2.5x12 for the endstops, M3x10mm for the steppers, X rail connection, and rail bearings, M5x30 & nuts for all of the assembly.
 
 Quantities vary depending on build size, more info to come for the assembly.
 
-Slide in T nuts are better then twist in. You will need some of both.
+Slide in T nuts are better than twist in. You will need some of both.
 
-Cut all your rails a 2-3mm short so you have some room to adjust for square. There is no advantage to a tight fit on the extrusions. If you are using panels you can leave 5mm of room and even more on the Z extrusions to allow for wire management.
+Cut all your rails a 2-3mm short so you have some room to adjust for square. There is no advantage to a tight fit on the extrusions. If you are using panels, you can leave 5mm of room and even more on the Z extrusions to allow for wire management.
 
 ## Assembly
 
@@ -64,7 +64,7 @@ I find it best to start with the back of the frame, build it as accurate as poss
 
 The X dimension (left to right as you face the printer) is by far the most critical. This makes the X rail fit into the printed pieces.
 
-Belts, cut the belts to a point if you are having a hard time passing them through the slots. If they do not stay put put a piece of filament in the loop.
+Belts, cut the belts to a point if you are having a hard time passing them through the slots. If they do not stay put a piece of filament in the loop.
 
 
 
@@ -82,8 +82,7 @@ Acceleration, jerk/junction deviation, and extrusion temp are all easily testabl
 
 Make sure to calibrate your E steps to your extruder with the 100mm extrusion test.
 
-The part I spend the most time on is testing digonals. For example printing a large square on the bed, measuring the diagonals, and ensuring I am printing squares. This course adjustment is the postion of the X rail (it has some wiggle room in the 4 screws), the fine adjust ment is actually the XY belt tensions (if you tug on a belt you will see how it tweaks teh X rail position. From there the Y rails can be adjusted in relation to the Z rails. If you were to print somthing tall if it is leaning or not 90 degrees one of you Y rails can be moved up or down to compensate. I am able to get 150mm digonals in XY (flat), YZ (tall front to back), XZ (tall left to right) within 0.1mm with a few test prints. If you are not really printing dimensionally critical funtional parts, you can mostly skip this step.
-
+The part I spend the most time on is testing diagonals. For example, printing a large square on the bed, measuring the diagonals, and ensuring I am printing squares. This course adjustment is the position of the X rail (it has some wiggle room in the 4 screws), the fine adjustment is actually the XY belt tensions (if you tug on a belt you will see how it tweaks the X rail position. From there, the Y rails can be adjusted in relation to the Z rails. If you were to print something tall if it is leaning or not 90 degrees one of you Y rails can be moved up or down to compensate. I am able to get 150mm diagonals in XY (flat), YZ (tall front to back), XZ (tall left to right) within 0.1mm with a few test prints. If you are not really printing dimensionally critical functional parts, you can mostly skip this step.
 Make sure not to overtighten the belts, plucking them you should barely get a sound. Since it is doubled up, 1/16 turn of the tensions screws provides a lot of movement. You can easily stall your steppers with too much belt tension.
 
 ## Wiring and Electronics
