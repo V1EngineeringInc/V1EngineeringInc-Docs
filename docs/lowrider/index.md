@@ -428,7 +428,7 @@ Here is a wonderful video showing what you are getting into. Lots of time stamps
 ![!LR3 Fancy Picture](../img/lr3/LR3 (25).jpg){: loading=lazy width="400"}
 
  * Notice the direction of the switch levers
- * Tuck the wires nicely into the grove and make sure not to pinch them when installing them later.
+ * Tuck the wires nicely into the groove and make sure not to pinch them when installing them later.
  * Gentle with the small M2.5 screws.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (26).jpg){: loading=lazy width="400"}
