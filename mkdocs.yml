@@ -36,6 +36,7 @@ nav:
    - LowRider:
      - LowRider CNC V3: lowrider/index.md
      - LowRider V3 Calculator: lowrider/calculator.md
+     - LowRider Table Builds: lowrider/tables.md
      - Previous Versions:
        - LR2 Assembly: lowrider/lrv2/indexv2.md
        - LR2 Calculator: lowrider/lrv2/calculatorv2.md
