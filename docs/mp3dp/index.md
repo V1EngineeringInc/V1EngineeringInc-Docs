@@ -1,6 +1,6 @@
 # MP3DP v4 CoreXY
 
-Having fun, this is the second CoreXY version for me, 4th printer design overall. Works fantastic, can be scaled on all axes. Physical and mesh bed leveling. You will need a 6 driver board for this one. Linear rails on all axes.
+Having fun, this is the second CoreXY version for me, 4th printer design overall. Works fantastic, can be scaled on all axes. Physical and mesh bed leveling. You will need a 6 driver board for this one. Linear rails on all axes, belt drive Z axes.
 
 The V1 Engineering printers are not as well documented as the CNC's. Building a printer is surprisingly much more difficult than making a large CNC. This is very much DIY, ask questions in the forums, and we will help you out and hopefully fill in the details here as we go.
 
@@ -21,27 +21,41 @@ This printer is designed open-ended and open source. There are so many variables
 
 ### Electronics and specialized printer parts
 
-**Control board**, You will need at least 6 drivers. I have used the [SKR Pro](https://www.v1e.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3) with Marlin, a sample config is available in the [marlin builder](https://github.com/V1EngineeringInc/MarlinBuilder/releases). Here is an extra [2209 driver](https://www.v1e.com/collections/miscellaneous/products/trinamic-tmc-2209-v1-2-uart-drivers).
+**Control board**, You will need at least 6 drivers. I have used the [SKR Pro](https://www.v1e.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3) with Marlin, a sample config is available in the [marlin builder](https://github.com/V1EngineeringInc/MarlinBuilder/releases). Here is an extra [2209 driver](https://www.v1e.com/collections/miscellaneous/products/trinamic-tmc-2209-v1-2-uart-drivers). ~$147
 
-**5 steppers**, The Z steppers can be quite small, the X and Y steppers in a core XY should be higher end so speed is not an issue. [Good Shop Steppers](https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers)
+**5 steppers**, The Z steppers can be quite small, the X and Y steppers in a core XY should be higher end so speed is not an issue. [Good Shop Steppers](https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers) ~$57
 
-2 [Pulleys](https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm)
-2 [Smooth idlers](https://www.v1e.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm)
-6 [Toothed Idlers](https://www.v1e.com/collections/3dprinter-parts/products/idler-10mm-20t-5mm-bore)
-Belt [10mm GT2](https://www.v1e.com/collections/3dprinter-parts/products/gt2-10mm-belt) length calculation needed. Rough estimate 4x(X length)+4x(YLength)+3x(Z length).
-Endstops, 2 X and Y, Z uses the probe. [Shop Endstops](https://www.v1e.com/collections/miscellaneous/products/limit-switch-endstop)
-Power Supply, 12-24V make sure all the components match this voltage. 45W+ for printer and hotend, Heated beds needs 300W plus unless you are doing mains powered.
-Heated Bed, DC beds are easy, AC beds are faster but require a Solid State Relay.
-Bed standoffs or springs
+2 [Pulleys](https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm) ~$5.60
 
-Linear rails, sizes per the CAD, Linear rails will be X=Usable+100mm Y=Usable +50mm Z=Usable+50mm
+2 [Smooth idlers](https://www.v1e.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm) ~$4.80
 
-Extruder -I used the Hemera
-Probe - I used the BL Touch
+6 [Toothed Idlers](https://www.v1e.com/collections/3dprinter-parts/products/idler-10mm-20t-5mm-bore) ~$14.40
+
+Belt [10mm GT2](https://www.v1e.com/collections/3dprinter-parts/products/gt2-10mm-belt) length calculation needed. Rough estimate 4x(X length)+4x(YLength)+3x(Z length)+ 750mm. ~$10
+
+Endstops, 2 X and Y, Z uses the probe. [Shop Endstops](https://www.v1e.com/collections/miscellaneous/products/limit-switch-endstop) ~$3.20
+
+Power Supply, 12-24V make sure all the components match this voltage. 45W+ for printer and hotend, Heated beds needs 300W plus unless you are doing mains powered. [Example](https://amzn.to/3M2Io3I) ~$25
+
+Heated Bed, DC beds are easy, AC beds are faster but require a Solid State Relay. ~$25
+
+PEI sheet or other print adhesion methods. ~$30
+
+Bed standoffs, silcone tube, or springs ~$1
+
+Linear rails, sizes per the CAD, Linear rails will be X=Usable+100mm Y=Usable +50mm Z=Usable+50mm. [Example](https://amzn.to/3W48Azh)  ~$95
+
+Extruder -I used the [Hemera](https://amzn.to/42WjARt) ~$170 
+
+Probe - I used the [BL Touch](https://amzn.to/42yp3hS) ~$40
+
+Total for this section ~$627
 
 ### Printed Parts
 
 [Files link](https://www.printables.com/model/282346-mp3dp-v4).
+
+Less than a spool of filament, IF you print them yourself ~$20
 
 There are lots of wire clip options in the CAD.
 
@@ -50,13 +64,25 @@ There are lots of wire clip options in the CAD.
 
 The frame can be just extrusion, extrusions and panels, if you are hardcore you can build it out of just panels but, I found that to be too seasonally variable to have an accurate printer. Extrusions and panels is the easiest if you have a CNC to make the panels. If you use panels and extrusions you will use M3x10mm screws and T Nuts, just extrusions you will use whatever your brackets come with (M5 and T nuts).
 
-Hardware, linear rails all use M3x8 (plus the one stepper mount marked with an “8”, "Y" stepper.) M2.5x12 for the endstops, M3x10mm for the steppers, X rail connection, and rail bearings, M5x30 & nuts for all of the assembly.
+Hardware, linear rails all use M3x8 (plus the one stepper mount marked with an “8”, "Y" stepper). Min 3 per rail +1 (16), max 1 per 25mm of rail +1 (30+).  
+
+M2.5x12 for the endstops, 4 qty
+
+M3x10mm for the steppers (19), X rail connection (4), rail bearing blocks (24), printed parts to frame (20), Optional panels (~80). ~150 qty+
+
+M5x30 & nuts for all of the assembly. ~17qty
 
 Quantities vary depending on build size, more info to come for the assembly.
 
 Slide in T nuts are better than twist in. You will need some of both.
 
 Cut all your rails a 2-3mm short so you have some room to adjust for square. There is no advantage to a tight fit on the extrusions. If you are using panels, you can leave 5mm of room and even more on the Z extrusions to allow for wire management.
+
+~$100
+
+### Cost 
+
+The running totals here can vary, ~$750 if you buy everything new. If you have any parts you can reuse than you can quickly bring that price down.
 
 ## Assembly
 
