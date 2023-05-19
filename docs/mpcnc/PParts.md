@@ -107,6 +107,8 @@ Some of these are affiliate links, you can buy from these links or just use them
 | 5mm to 8mm Coupler  | 1   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler)                                   | [Amazon](https://amzn.to/2APIifi)                         |
 | Lube                | 1   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) | [Amazon](https://amzn.to/2BzXbC7)                         |
 | Control Board       | 1   | [Shop](https://www.v1e.com/collections/parts)                                                                             | [Ultimachine](https://ultimachine.com/products/rambo-1-4) |
+| Endstops        | 4   | [Shop](https://www.v1e.com/products/limit-switch-endstop)                                                                             |   |
+
 
 * Use the [calculator](calculator.md) to determine belt length.
 
