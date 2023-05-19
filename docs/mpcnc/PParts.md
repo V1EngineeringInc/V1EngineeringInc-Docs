@@ -106,7 +106,7 @@ Some of these are affiliate links, you can buy from these links or just use them
 | leadscrew/nut       | 1   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/300mm-leadscrew-and-nut)                                   | [Amazon](https://amzn.to/2V7wUSK)                         |
 | 5mm to 8mm Coupler  | 1   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler)                                   | [Amazon](https://amzn.to/2APIifi)                         |
 | Lube                | 1   | [Shop](https://www.v1e.com/collections/lowrider-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe) | [Amazon](https://amzn.to/2BzXbC7)                         |
-| Control Board       | 1   | [Shop](https://www.v1e.com/collections/parts)                                                                             | [Ultimachine](https://ultimachine.com/products/rambo-1-4) |
+| Control Board       | 1   | [Shop](https://www.v1e.com/collections/parts)                                                                             | [Ultimachine](https://www.v1e.com/collections/parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3) |
 | Endstops        | 4   | [Shop](https://www.v1e.com/products/limit-switch-endstop)                                                                             |   |
 
 
