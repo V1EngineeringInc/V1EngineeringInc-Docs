@@ -81,7 +81,7 @@ A work offset is simply moving your origin. This is typically used when there ar
 operation in your job, multiple fixtures can be used, locating pins, or other locating methods. More
 typically for us to avoid Negative X and Y moves when using endstops.
 
-Not Offset - Notice teh Blue origin point in the lower left of the picture and how the red cut paths cross over the lines extending from it. These will be negative XY moves. If you have endstops negative XY moves will not happen.
+Not Offset - Notice the Blue origin point in the lower left of the picture and how the red cut paths cross over the lines extending from it. These will be negative XY moves. If you have endstops negative XY moves will not happen.
 :   ![!pic](../img/old/2017/11/Negative.jpg){: loading=lazy width="200"}
 
 Offset (Good for Dual Endstops)
