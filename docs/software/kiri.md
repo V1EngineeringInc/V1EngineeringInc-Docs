@@ -42,7 +42,7 @@ Check that the “CNC” button is shaded then select any Standard Device (I use
 
 ![!Kiri:Moto](../img/kiri/3-operation_modifier_setup.jpg){: loading=lazy width="600"}
 
-Click on the **Limits** menu on teh right side of the screen and change the following values: 
+Click on the **Limits** menu on the right side of the screen and change the following values: 
 
  - **Z Thru** to (say 1mm) - this is the amount your bit will travel into the spoil board in through cuts.
 
