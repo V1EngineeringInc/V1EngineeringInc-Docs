@@ -25,7 +25,7 @@ This printer is designed open-ended and open source. There are so many variables
 
 **5 steppers**, The Z steppers can be quite small, the X and Y steppers in a core XY should be higher end so speed is not an issue. [Good Shop Steppers](https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers) ~$57
 
-2 [Pulleys](https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm) ~$5.60
+5 [Pulleys](https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm) ~$14
 
 2 [Smooth idlers](https://www.v1e.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm) ~$4.80
 
@@ -49,7 +49,7 @@ Extruder -I used the [Hemera](https://amzn.to/42WjARt) ~$170
 
 Probe - I used the [BL Touch](https://amzn.to/42yp3hS) ~$40
 
-Total for this section ~$627
+Total for this section ~$636
 
 ### Printed Parts
 
