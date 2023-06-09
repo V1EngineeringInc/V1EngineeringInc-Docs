@@ -98,6 +98,12 @@ direction of rotation.
 ![!flip 1](../img/old/2020/07/flip1-scaled.jpg){: loading=lazy width="400"}
 ![!flip 2](../img/old/2020/07/flip2-scaled.jpg){: loading=lazy width="400"}
 
+## Powering the board
+
+Add the power supply, polarity matters, and then add a jumper to power both "motor pow" and "power ports".
+
+![!skr power](../img/SRKProPower.jpg){: loading=lazy width="400"}
+
 ## Screen TFT35 V3 E3
 
 We can use it from both
