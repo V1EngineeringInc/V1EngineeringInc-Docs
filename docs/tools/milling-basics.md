@@ -37,7 +37,7 @@ Some of the first cuts ever made on an MPCNC.
 
 If you just want to get the machine dirty here is the generic recipe. This should work in every material softer than metal; you can optimize later.
 
-- **Single flute 1/8″** [upcut bit](https://www.v1e./collections/sharp-stuff/products/1-8-single-flute).
+- **Single flute 1/8″** [upcut bit](https://www.v1e.com/collections/sharp-stuff/products/1-8-single-flute).
 - 8mm/s **Feed Rate** (The speed at which you move through the material).
 - 3mm/s **Plunge Rate** (The speed at which you move vertically into the material).
 - 1mm **Depth of Cut** (The thickness of material your bit will be removing per pass).
