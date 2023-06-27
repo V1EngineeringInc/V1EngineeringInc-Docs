@@ -53,10 +53,10 @@ More details to my loosened restrictions can be found here on [the home page](ht
 Printed parts files can be found at the links below:
 
 Printables.com
-:   [Printables.com Link](https://www.printables.com/model/204709-lowrider-3-cnc)
+:   [Printables.com Link](https://www.printables.com/model/204709-lowrider-3-cnc){:target="_blank"}
 
 Thingiverse Printed parts files:
-:   [Thingiverse.com Link](https://www.thingiverse.com/thing:5436094)
+:   [Thingiverse.com Link](https://www.thingiverse.com/thing:5436094){:target="_blank"}
 
 ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (7).jpg){: loading=lazy width="600"}
 
@@ -67,7 +67,7 @@ Thingiverse Printed parts files:
 
 ### Printed Parts
 
-Buy a set here, [V1 Shop](https://www.v1e.com/collections/lowrider-parts/products/lowrider-v3-printed-parts).
+Buy a set here, [V1 Shop](https://www.v1e.com/collections/lowrider-parts/products/lowrider-v3-printed-parts){:target="_blank"}.
 
 Or print your own. No supports needed, keep the default orientation. PLA is recommended for ultimate rigidity, other 
 filaments should be evaluated for rigidity. 2-3 walls rectilinear infill. Thicker layers since these are large parts, no 
@@ -123,20 +123,20 @@ more than 80% nozzle diameter to keep overhangs working.
 
 
 ### Tool Mounts
-Recommended [Makita 700 series router](https://amzn.to/3PnQKUf) (available in many countries with slightly different model 
-numbers), [tool mount and dust shoe](https://www.printables.com/model/167678-makita-700-series-mount-and-removable-dust-shoe-fo).
+Recommended [Makita 700 series router](https://amzn.to/3PnQKUf){:target="_blank"} (available in many countries with slightly different model 
+numbers), [tool mount and dust shoe](https://www.printables.com/model/167678-makita-700-series-mount-and-removable-dust-shoe-fo){:target="_blank"}.
 
-[DeWalt 611](https://amzn.to/3leu6zL), [Tool mount and dust shoe](https://www.printables.com/model/166254-dewalt-611-mount-and-removable-dust-shoe-for-the-l).
+[DeWalt 611](https://amzn.to/3leu6zL){:target="_blank"}, [Tool mount and dust shoe](https://www.printables.com/model/166254-dewalt-611-mount-and-removable-dust-shoe-for-the-l){:target="_blank"}.
 
-Build your own, [CAD](https://a360.co/3vbUQFX) and [step files](https://www.printables.com/model/167687-lowrider-3-cnc-blank-tool-mount).
+Build your own, [CAD](https://a360.co/3vbUQFX){:target="_blank"} and [step files](https://www.printables.com/model/167687-lowrider-3-cnc-blank-tool-mount){:target="_blank"}.
 
 ### Board Boxes
 
-[SKR Pro](https://www.printables.com/model/209348-skr-pro-lr3-specific-case)
-[Rambo](https://www.printables.com/model/209411-rambo-or-mini-rambo-lr3-specific-case)
-[Mini Rambo](https://www.printables.com/model/209411-rambo-or-mini-rambo-lr3-specific-case)
+[SKR Pro](https://www.printables.com/model/209348-skr-pro-lr3-specific-case){:target="_blank"}
+[Rambo](https://www.printables.com/model/209411-rambo-or-mini-rambo-lr3-specific-case){:target="_blank"}
+[Mini Rambo](https://www.printables.com/model/209411-rambo-or-mini-rambo-lr3-specific-case){:target="_blank"}
 
-Blank Box, DIY your own case, [Fusion 360 CADlink](https://www.printables.com/model/215441-blank-cad-for-lr3-control-box-case).
+Blank Box, DIY your own case, [Fusion 360 CADlink](https://www.printables.com/model/215441-blank-cad-for-lr3-control-box-case){:target="_blank"}.
 
 ## Flat Parts
 
@@ -151,9 +151,9 @@ Here are the pre-made most common Strut Plate sizes.
 
 [2' Strut Plate DXF](../img/lr3/Strut Plate 790mm.dxf)
 
-[Strut Plate CAD/Fusion360](https://a360.co/3CrRkKw) - Fully parametric, change the single user parameter from the [Calculator](calculator.md).
+[Strut Plate CAD/Fusion360](https://a360.co/3CrRkKw){:target="_blank"} - Fully parametric, change the single user parameter from the [Calculator](calculator.md){:target="_blank"}.
 
-For other Strut Plate sizes, use [Calculator](calculator.md), enter your build dimensions, then click on _Download Strut .SVG_ link.  
+For other Strut Plate sizes, use [Calculator](calculator.md){:target="_blank"}, enter your build dimensions, then click on _Download Strut .SVG_ link.  
 If you're custom designing a Strut Plate for some reason (for [example](https://github.com/aaronse/v1engineering-mods/tree/main/lowrider3/front-grill-strut)), ensure no more than 200mm (8") between the braces.
 
 ![Strut Edit Picture](../img/lr3/strut edit.jpg){: loading=lazy width="600"}
@@ -164,7 +164,7 @@ The YZ Plates can be nearly any thickness. Again here, rigidity is key. 1/2" (12
 that and you will need to clearance some for the coupler. At 16.5mm and thicker you will need to counter bore for the M5 nuts
  or get longer screws.
 
-[YZ Plate DXF](../img/lr3/YZ plate DXF.dxf) or [printable model](https://www.printables.com/model/204709-lowrider-3-cnc)
+[YZ Plate DXF](../img/lr3/YZ plate DXF.dxf) or [printable model](https://www.printables.com/model/204709-lowrider-3-cnc){:target="_blank"}
 
 
 #### XZ Plates
@@ -190,7 +190,7 @@ The M3 screws provided with the kit need 6.35mm to 7mm plate thickness.
 
 ### Specialty Parts
 
-You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://www.v1e.com/collections/lowrider-parts/products/lowrider-v3-hardware-kit)
+You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://www.v1e.com/collections/lowrider-parts/products/lowrider-v3-hardware-kit){:target="_blank"}
 
 |QTY  |Description             |Comment                                        |Link                        | 
 |-----|------------------------|-----------------------------------------------|----------------------------|
@@ -270,8 +270,8 @@ This is what is needed for a 4' x 8' (1.2M x 2.4M) build. You will need more or 
 |10   |M2.5 x 12mm             |None                                           |
 |24   |3mm x 12mm Wood/metal   |#4 x 1/2" Wood or Sheet metal screws           |
 |22   |M4 x 12mm+ Wood/metal   |#8 x 1/2"+ Screws to mount things to your table|
-|4    |150mm MGN12H Rails      |[Shop Link](https://www.v1e.com/collections/lowrider-parts/products/150mm-mgn12h-linear-guides)|
-|3    |Wire Extenders          |[Shop Link](https://www.v1e.com/collections/lowrider-parts/products/wiring-kit-1)|
+|4    |150mm MGN12H Rails      |[Shop Link](https://www.v1e.com/collections/lowrider-parts/products/150mm-mgn12h-linear-guides){:target="_blank"}|
+|3    |Wire Extenders          |[Shop Link](https://www.v1e.com/collections/lowrider-parts/products/wiring-kit-1){:target="_blank"}|
 
 ### Table
 
@@ -281,12 +281,12 @@ Any existing table that is large enough is fine, you can use it’s surface dire
 
 Next would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better.
 
-If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. Here is a basic parametric set of plans that are easily configurable [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698).
+If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. Here is a basic parametric set of plans that are easily configurable [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698){:target="_blank"}.
 
 
 ![!LR3 Dimensions Picture](../img/lr3/LR3 Dims.jpg){: loading=lazy width="600"}
 
-[Calculator for table, rail, and belt lengths.](calculator.md)
+[Calculator for table, rail, and belt lengths.](calculator.md){:target="_blank"}
 
 
 ## Assembly
@@ -296,7 +296,7 @@ Here is a wonderful video showing what you are getting into. Lots of time stamps
 
 #### Core Assembly
 
-[Quick Animation](https://youtu.be/WCgN_NUhKv4)
+[Quick Animation](https://youtu.be/WCgN_NUhKv4){:target="_blank"}
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (1).jpg){: loading=lazy width="400"}
 
@@ -535,7 +535,7 @@ Here is a wonderful video showing what you are getting into. Lots of time stamps
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (43).jpg){: loading=lazy width="400"}
 
- * Optional Urethane Wheel brackets [Link](https://www.printables.com/model/211714-lr3-60mm-wheel-brackets)
+ * Optional Urethane Wheel brackets [Link](https://www.printables.com/model/211714-lr3-60mm-wheel-brackets){:target="_blank"}
  * Use spacers to prevent over tightening 
  * Seat the bolt, but no need to over-snug it.
 
@@ -695,9 +695,9 @@ Here is a wonderful video showing what you are getting into. Lots of time stamps
 
 #### Wire Routing
 
-[SKR Pro Info](../electronics/skrpro.md)
+[SKR Pro Info](../electronics/skrpro.md){:target="_blank"}
 
-[Rambo / Mini Info](../electronics/ultimachine.md)
+[Rambo / Mini Info](../electronics/ultimachine.md){:target="_blank"}
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (70).jpg){: loading=lazy width="400"}
 
@@ -767,16 +767,16 @@ Here is a wonderful video showing what you are getting into. Lots of time stamps
 At this point you should be able to power up and give your build a little test move. 
 Depending on how your machine is built, you can use your control screen, repetier host, other software over USB, or over the air.
 
-Here is a quick overview of a [basic movement test](../software/#testing).
+Here is a quick overview of a [basic movement test](../software/#testing){:target="_blank"}.
 
 
 #### Initial Squaring
 
 To square the machine you need to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the rail. You will probably need to repeat this a couple times to get it under 1mm difference.
 
-You can cable tie a pen to the vacuum mount as shown below, or here is a pen mount that fits on most router bodies. [V1 Printables](https://www.printables.com/model/237997-basic-lr3-pen-mount)
+You can cable tie a pen to the vacuum mount as shown below, or here is a pen mount that fits on most router bodies. [V1 Printables](https://www.printables.com/model/237997-basic-lr3-pen-mount){:target="_blank"}
 
-You can also automate this process with Jamie's ["Squareness Marks"](https://vector76.github.io/gcode_tpgen/) test. 
+You can also automate this process with Jamie's ["Squareness Marks"](https://vector76.github.io/gcode_tpgen/){:target="_blank"} test. 
  * Start with G92 X0 Y0 Z0 - Check this box and where the pen tip is will be 0,0,0. I suggest starting the pen just above the paper.
  * Z level for pen-down - Make this number more negative if you find some of your marks are not hitting the paper, but you want as light a touch as possible.
  * Z level for pen-up - You can go as high as you need to not drag the pen tip.
@@ -843,9 +843,9 @@ make a test cut in high density foam, or simply making an air cut. To make an ai
 your machine above the table and run the gcode. This lets you watch that it moves as you would 
 expect it to and doesn't snag or have any faults in the code.
 
-[Basic software setup](../software/estlcam-basics.md)
+[Basic software setup](../software/estlcam-basics.md){:target="_blank"}
 
-[Basic CAM settings](../tools/milling-basics.md)
+[Basic CAM settings](../tools/milling-basics.md){:target="_blank"}
 
 Gcode making - TODO
 
@@ -898,11 +898,11 @@ You will want to cut each plate as close to the side of your build as you can to
 
 Size, options, routing, grounding.  *to do
 
-[Quick release coupler](https://www.printables.com/model/168405-vacuum-hose-coupler) for 1.5" hose.
+[Quick release coupler](https://www.printables.com/model/168405-vacuum-hose-coupler){:target="_blank"} for 1.5" hose.
 
 ### Wiring
 
-Next step is [wiring the steppers](../electronics/steppers.md).
+Next step is [wiring the steppers](../electronics/steppers.md){:target="_blank"}.
 
 ### Using the machine.
 
@@ -915,10 +915,10 @@ at least a 5 driver control board. This allows you to align the Y axis and Z axi
 The standard MPCNC firmware will work with any board on the LowRider  if you are not using endstops or 
 wired in series (using a 4 driver board). You will just use hardstops like the LR2 did.
 
-[Firmware page.](../electronics/marlin-firmware.md)
+[Firmware page.](../electronics/marlin-firmware.md){:target="_blank"}
 
 ### Build experience poll
 
-[How did it go for you?](https://forum.v1engineering.com/t/lr3-how-many-hours-to-build-lr3/34307/2)
+[How did it go for you?](https://forum.v1engineering.com/t/lr3-how-many-hours-to-build-lr3/34307/2){:target="_blank"}
 
 ## Go get it dirty, be safe, have fun!
