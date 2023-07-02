@@ -1,6 +1,6 @@
 # Low Rider CNC Table Builds
 
-![!RG Animated Table](../img/MetalTubing.gif){: loading=lazy width="600"}
+![!RG Animated Table](../img/tables/example_table.jpeg){: loading=lazy width="600"}
 
 The LowRider CNC is an incredible CNC router that can handle up to full sheet material! However, it is not a table. It is a CNC that can be mounted to a table. This page is dedicated to the table builds that have been done by the community, which can help you in designing and building your own. The tables listed on this page are the ones which are recommended to build, however, if you were interested in finding more complex or a larger variety of designs, there are many other designs which can be found on the [V1 Engineering Forum](https://forum.v1engineering.com/), or more specifically [with the tag parametric table](https://forum.v1e.com/tag/parametric-table).
 
