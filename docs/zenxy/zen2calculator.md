@@ -12,8 +12,8 @@ produce designs in (the firmware number). The one consideration is the image are
 
 ![!ZenXY v2 Working area](../img/old/2021/03/Working-area.jpg){: loading=lazy width="400"}
 
-This picture does not include the ball diameter. For example the offset (92mm) for a half inch ball
-(12.7mm) would be 92mm-6.35mm or 85.65mm. For table designs that are not exact fitting this doesn't
+This picture does not include the ball diameter, meaning it is 92mm from the edge to the center of the magnet. For example the offset (92mm) for a half inch ball
+(12.7mm) would be 92mm-6.35mm or 85.65mm to the edge of the work area (glass). Don't forget to also add some offset for the lip to support the glass. For table designs that are not exact fitting this doesn't
 really come into play. The calculator below does have this factored in.
 
 The height/thickness of the machine is 66mm plus the thickness of your spacers. Most steppers will protrude
