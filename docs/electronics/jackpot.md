@@ -9,7 +9,7 @@ MicroSD card slot. The board runs FluidNC which is fully GRBL compatible with ex
 
 [JAckpot CNC Controller is available here in the shop.](https://www.v1e.com/collections/parts/products/)
 
-![!Jackpot CNC controller](../img/jackpot/jackpot.jpg){: width="600"}
+![!Jackpot CNC controller](../img/jackpot/jp7.jpg){: width="800"}
 
 ##Specifications
 
