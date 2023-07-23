@@ -19,71 +19,68 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
 
 ## Specifications
 
-* ESP32-wroom-32 Based control board
-
-    32bit dual-core 2450mhz board.
-
-    WiFi, Bluetooth, or USB Direct connection
-
-    Onboard or external antenna
-
-    Socket based for easy swapping if anything were to ever go wrong
-
-    38 pin
-
-    25.4mm header width
+**ESP32-wroom-32 Based control board**
+:   32bit dual-core 2450mhz board.
+:   WiFi, Bluetooth, or USB Direct connection
+:   Onboard or external antenna
+:   Socket based for easy swapping if anything were to ever go wrong
+:   38 pin
+:   25.4mm header width
     
-* 9-24VDC
+**9-24VDC**
 
-* Current - Variable depending on use but...
+**Current - Variable depending on use but...**
 
-* 6- Stepper driver sockets
-    This controller is designed for use with TMC2209 drivers in UART control mode only
-    Typically, TMC2209 drivers are limited to 4 addresses. This controller uses a CS (chip select) pin for 3 of the drivers to allow 6 drivers to be individually controlled.
-    The sockets are labeled XYZABC, but you can use any socket for any axis or motor number. The letters are just for reference only.
-    * No Stallguard
+**6- Stepper driver sockets**
+:   This controller is designed for use with TMC2209 drivers in UART control mode only
+:   Typically, TMC2209 drivers are limited to 4 addresses. This controller uses a CS (chip select) pin for 3 of the drivers to allow 6 drivers to be individually controlled.
+:   The sockets are labeled XYZABC, but you can use any socket for any axis or motor number. The letters are just for reference only.
+:   **No Stallguard**
 
-* 7- Inputs
-    All switch inputs are active low, the LED goes on when ground is connected to the pin.
-    They have a 10k pullup external to the ESP32. The signal pin (S) should be connected to the ground pin (G) to activate the switch. 
-    The 5V is optional and is used for external switches that require 5V. 
-    Define the pins in the config file like this...
-    Define an N.O. switch like this. gpio.xx.low
-    Define an N.C. switch like this. gpio.xx
+**7- Inputs**
+:   All switch inputs are active low, the LED goes on when ground is connected to the pin.
+:   They have a 10k pullup external to the ESP32. The signal pin (S) should be connected to the ground pin (G) to activate the switch. 
+:   The 5V is optional and is used for external switches that require 5V. 
+:   Define the pins in the config file like this...
+:   Define an N.O. switch like this. gpio.xx.low
+:   Define an N.C. switch like this. gpio.xx
 
-* 2- Line level out
-    PWM Capable
-    The MOSFETs switch to ground. You can use any voltage up to the VMot max as the positive, as long as it uses the same ground reference.
-    They can be used to drive 2.5A continuously before they overheat. You can use them intermittently up to 3.5A. If using above 2.5A you should test to see if they start to overheat.
-    They can be used with inductive loads (solenoids, relays, DC fans)
+**2- Line level out**
+:   PWM Capable
+:   The MOSFETs switch to ground. You can use any voltage up to the VMot max as the positive, as long as it uses the same ground reference.
+:   They can be used to drive 2.5A continuously before they overheat. You can use them intermittently up to 3.5A. If using above 2.5A you should test to see if they start to overheat.
+:   They can be used with inductive loads (solenoids, relays, DC fans)
 
-* 2- 5V out
-    PWM Capable
-    These will source and sink about 25mA each.
-    See the "Spindle" section of the FluidNC wiki for common uses.
+**2- 5V out**
+:   PWM Capable
+:   These will source and sink about 25mA each.
+:   See the "Spindle" section of the FluidNC wiki for common uses.
 
-* 1- Expansion Module socket
-    [6 PACK expansion module](https://oshwlab.com/bdring?tab=project&page=1)
-    [SHOP](https://www.tindie.com/stores/33366583/)
-    This should be able to use any CNC I/O module. Use an 11mm standoff or a 3D printed support in the mounting hole provided.
-    These Modules can be just about anything you need, more inputs, outputs, relays, spindle, VFD, Servo, OLED...
+**1- Expansion Module socket**
+:   [6 PACK expansion module source](https://oshwlab.com/bdring?tab=project&page=1)
+:   [Buy Them](https://www.tindie.com/stores/33366583/)
+:   This should be able to use any CNC I/O module. Use an 11mm standoff or a 3D printed support in the mounting hole provided.
+:   These Modules can be just about anything you need, more inputs, outputs, relays, spindle, VFD, Servo, OLED...
 
-* 1- MicroSD card slot
-    >2gb needed
-    Fat32
-    30 character or less file names, 100 character or less file location
+**1- MicroSD card slot**
+:   >2gb needed
+:   Fat32
+:   30 character or less file names, 100 character or less file location
 
-* Firmware- [FluidNC](https://github.com/bdring/FluidNC)
-    Text based config file for simple firmware edits.
-    No compiling to flash a board or change the configuration.
-    ~100% GRBL compatible
-    Custom ESD3D-UI which includes a tablet mode with Gcode viewer.
+**Firmware-**
+:   [FluidNC](https://github.com/bdring/FluidNC)
+:   Text based config file for simple firmware edits.
+:   No compiling to flash a board or change the configuration.
+:   ~100% GRBL compatible
+:   Custom ESD3D-UI which includes a tablet mode with Gcode viewer.
     
 
-* 80mmx100mm Solid Model Link Dimensions
-
-
-
+**80mmx100mm Dimensions**
+:   [CAD/Step link](https://a360.co/3KchBBL)
+:   [Dimensions](../img/jackpot/Jackpot_2023-07-08 Drawing.pdf)
+![!Jackpot dims](../img/jackpot/drawingsample.png){: loading=lazy width="400"}
+:   ISO
+![!Jackpot iso](../img/jackpot/StepISO.png){: loading=lazy width="400"}
 
 ## Initial Setup
 
@@ -110,7 +107,6 @@ The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmwar
 
 ## Cases
 
-![!Jackpot CNC controller](../img/jackpot/jp7.jpg){: loading=lazy width="400"}
 
 ## Changelog
 RC1- 
@@ -122,4 +118,4 @@ RC2-
 :   Stepper header label change
 
 ## License
-Links
+Link
