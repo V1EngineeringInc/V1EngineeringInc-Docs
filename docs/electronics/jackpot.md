@@ -63,7 +63,7 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
 :   These Modules can be just about anything you need, more inputs, outputs, relays, spindle, VFD, Servo, OLED...
 
 **1- MicroSD card slot**
-:   >2gb needed
+:   larger than 2gb needed
 :   Fat32
 :   30 character or less file names, 100 character or less file location
 
