@@ -57,8 +57,8 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
 :   See the "Spindle" section of the FluidNC wiki for common uses.
 
 **1- Expansion Module socket**
-:   [6 PACK expansion module](https://oshwlab.com/bdring?tab=project&page=1)
-:   [SHOP](https://www.tindie.com/stores/33366583/)
+:   [6 PACK expansion module source](https://oshwlab.com/bdring?tab=project&page=1)
+:   [Buy Them](https://www.tindie.com/stores/33366583/)
 :   This should be able to use any CNC I/O module. Use an 11mm standoff or a 3D printed support in the mounting hole provided.
 :   These Modules can be just about anything you need, more inputs, outputs, relays, spindle, VFD, Servo, OLED...
 
@@ -75,10 +75,12 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
 :   Custom ESD3D-UI which includes a tablet mode with Gcode viewer.
     
 
-**80mmx100mm Solid Model Link Dimensions**
-
-
-
+**80mmx100mm Dimensions**
+:   [CAD/Step link](https://a360.co/3KchBBL)
+:   [Dimensions](../img/jackpot/Jackpot_2023-07-08 Drawing.pdf)
+![!Jackpot dims](../img/jackpot/drawingsample.png){: loading=lazy width="400"}
+:   ISO
+![!Jackpot iso](../img/jackpot/StepISO.png){: loading=lazy width="400"}
 
 ## Initial Setup
 
@@ -117,4 +119,4 @@ RC2-
 :   Stepper header label change
 
 ## License
-Links
+Link
