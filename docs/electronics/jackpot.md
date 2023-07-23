@@ -107,7 +107,6 @@ The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmwar
 
 ## Cases
 
-![!Jackpot CNC controller](../img/jackpot/jp7.jpg){: loading=lazy width="400"}
 
 ## Changelog
 RC1- 
