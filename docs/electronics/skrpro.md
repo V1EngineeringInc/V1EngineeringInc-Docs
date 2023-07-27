@@ -115,6 +115,10 @@ the knob in for 3 seconds.**
 You do not need to use both; pay attention to the direction the wires are facing when connecting
 them.
 
+!!! You can kill your screen
+    Pay attention to the direction the wires are facing when connecting
+them. The single wire faces toward the drivers, 5V closest to the memory card.
+
 ## Touch plate
 
 All the V1 firmware is ready for a touch plate. Easy as plugging into the Z min port. Use Ground "G" and Signal  "S" pins, they are labeled on the back of the board.
