@@ -2,7 +2,7 @@
 
 ## Basics
 
-The Jackpot CNC Controller is a 32bit dual-core 2450mhz board, WiFi, Bluetooth, or hardwired capable (esp32). It has 6x TMC2209 drivers, 7 inputs, 2x 5V outputs, 2x input level outputs, one expansion module socket.
+The Jackpot CNC Controller is a 32bit dual-core 240mhz board, WiFi, Bluetooth, or hardwired capable (esp32). It has 6x TMC2209 drivers, 7 inputs, 2x 5V outputs, 2x input level outputs, one expansion module socket.
 MicroSD card slot. The board runs FluidNC which is fully GRBL compatible with extended features and easier configuration.
 
 **Want to buy one?**
