@@ -49,7 +49,7 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
     * PWM Capable
     * The MOSFETs switch to ground. You can use any voltage up to the VMot max as the positive, as long as it uses the same ground reference.
     * Can be used to drive 2.5A continuously before they overheat. You can use them intermittently up to 3.5A. If using above 2.5A you should test to see if they start to overheat.
-    * Chey can be used with inductive loads (solenoids, relays, DC fans)
+    * They can be used with inductive loads (solenoids, relays, DC fans)
 
 + 2x 5V outputs
     * PWM Capable
