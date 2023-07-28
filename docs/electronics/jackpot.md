@@ -28,8 +28,8 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
     * 25.4mm header width
     
 + 9-24VDC
-    * Current required is a minimum of 36W (24Vx1.5A), less actually.
-    * If you plan on using the high current outputs anjust accordingly.
+    * Current required is a minimum of 19W (24Vx0.8A).
+    * If you plan on using the high current outputs adjust accordingly.
 
 + 6x Stepper driver sockets
     * This controller is designed for use with TMC2209 drivers in UART control mode only
@@ -97,7 +97,8 @@ Some tips, run install-wifi.bat, then install-fs.bat.
 
 From here you can load the Config files in one of two ways. 
 
-Prefered - FluidTerm from that same folder and hit ctrl+u to selec the config.yaml for your machine (linked below), hit enter to accept the name. After that is done uploading you can hit ctrl+r to reset. The Fluid term is a crazy goot tool If you ever have any issues this is how we will check it. When you are all wired and powered up I suggest using it to reset the baord and check to see everything is working (except the one driver we do not typically use). A web based version of this whole process is coming very soon.
+Preferred - FluidTerm from that same folder and hit ctrl+u to select the config.yaml for your machine (linked below), hit enter to accept the name. After that is done uploading, you can hit ctrl+r to reset. The Fluid term is a crazy good tool If you ever have any issues, this is how we will check it. When you are all wired and powered up, I suggest using it to reset the board and check to see everything is working (except the one driver we do not typically use). A web based version of this whole process is coming very soon.
+
 
 OTA - Or you can sign into your board over wifi (SSID- FluidNC PASS - 12345678) and upload the config.yaml directly with the FluincNC settings/files Tab.
 
