@@ -7,3 +7,7 @@
   --md-default-bg-color: #464646;
   --md-primary-fg-color: #2a2a2a;
 }
+
+.md-grid {
+  max-width: 1440px; 
+}
