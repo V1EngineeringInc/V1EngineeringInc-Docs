@@ -19,7 +19,7 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
 
 ## Specifications
 
-### ESP32-wroom-32 Based control board
++ ESP32-wroom-32 Based control board
     * 32bit dual-core 2450mhz board.
     * WiFi, Bluetooth (rarely used), or USB Direct connection
     * Onboard or external antenna
@@ -27,17 +27,17 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
     * 38 pin - [ESP32-DevKitC CP2102 - MicroUSB](https://amzn.to/4766q7B), These seem to be the most reliable.
     * 25.4mm header width
     
-### 9-24VDC
++ 9-24VDC
     * Current required is a minimum of 36W (24Vx1.5A), less actually.
     * If you plan on using the high current outputs anjust accordingly.
 
-### 6x Stepper driver sockets
++ 6x Stepper driver sockets
     * This controller is designed for use with TMC2209 drivers in UART control mode only
     * Typically, TMC2209 drivers are limited to 4 addresses. This controller uses a CS (chip select) pin for 3 of the drivers to allow 6 drivers to be individually controlled.
     * The sockets are labeled XYZABC, but you can use any socket for any axis or motor number. The letters are just for reference only.
     * **No Stallguard**
 
-### 7x Inputs
++ 7x Inputs
     * All switch inputs are active low, the LED goes on when ground is connected to the pin.
     * They have a 10k pullup external to the ESP32. The signal pin (S) should be connected to the ground pin (G) to activate the switch. 
     * The 5V is optional and is used for external switches that require 5V. 
@@ -45,29 +45,29 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
     * Define an N.O. switch like this. gpio.xx.low
     * Define an N.C. switch like this. gpio.xx
 
-### 2x Line level outputs
++ 2x Line level outputs
     * PWM Capable
     * The MOSFETs switch to ground. You can use any voltage up to the VMot max as the positive, as long as it uses the same ground reference.
     * Can be used to drive 2.5A continuously before they overheat. You can use them intermittently up to 3.5A. If using above 2.5A you should test to see if they start to overheat.
     * Chey can be used with inductive loads (solenoids, relays, DC fans)
 
-### 2x 5V outputs
++ 2x 5V outputs
     * PWM Capable
     * These will source and sink about 25mA each.
     * See the "Spindle" section of the FluidNC wiki for common uses.
 
-### 1x Expansion Module socket
++ 1x Expansion Module socket
     * [6 PACK expansion module source](https://oshwlab.com/bdring?tab=project&page=1)
     * [Buy Them](https://www.tindie.com/stores/33366583/)
     * This should be able to use any CNC I/O module. Use an 11mm standoff or a 3D printed support in the mounting hole provided.
     * These Modules can be just about anything you need, more inputs, outputs, relays, spindle, VFD, Servo, OLED...
 
-### 1x MicroSD card slot
++ 1x MicroSD card slot
     * larger than 2gb needed
     * Fat32
     * 30 character or less file names, 100 character or less file location
 
-### Firmware
++ Firmware
     * [FluidNC](https://github.com/bdring/FluidNC)
     * Text based config file for simple firmware edits.
     * No compiling to flash a board or change the configuration.
@@ -75,7 +75,7 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
     * Custom ESD3D-UI which includes a tablet mode with Gcode viewer.
     
 
-### Dimensions
++ Dimensions
     * 80mmx100mm Board footprint
     * [CAD/Step link](https://a360.co/3KchBBL)
     * [Dimensions](../img/jackpot/Jackpot_2023-07-08 Drawing.pdf)
@@ -87,7 +87,7 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
 
 ### Initial "flashing"
 
-There is no need for compiling or any of the previous steps need to "flash" a marllin based board.
+There is no need for compiling or any of the previous steps need to "flash" a marlin based board.
 
 There are three basic steps, Firmware, GUI, Config. It is probably best to follow these steps.
 
@@ -124,6 +124,8 @@ For the fastest raster etching, the most reasource intensive thing we can do. Ei
 $Wifi/Mode=off - if you are using the USB connection to Lightburn to use some of the built-in tools use this command to turn off the radio. It will come back after a power cycle. 
 
 If you have a laser defined in the config you are always in "laser" mode. So you can either leave it defined and use M5 (turn off laser mode) in your starting gcode for non-laser CNC use, or just comment out the laser in the config (like I ship it).
+
+Raster speed depends on dot size, for a 0.19mm resolution I am getting 70-120mm/s depending on the type of raster.
 
 ## Detailed FluidNC info
 
