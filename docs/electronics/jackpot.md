@@ -2,7 +2,7 @@
 
 ## Basics
 
-The Jackpot CNC Controller is a 32bit dual-core 2450mhz board, WiFi, Bluetooth, or hardwired capable (esp32). It has 6xTMC2209 drivers, 7 inputs, 2x 5V outputs, 2x input level outputs, one expansion module socket.
+The Jackpot CNC Controller is a 32bit dual-core 2450mhz board, WiFi, Bluetooth, or hardwired capable (esp32). It has 6x TMC2209 drivers, 7 inputs, 2x 5V outputs, 2x input level outputs, one expansion module socket.
 MicroSD card slot. The board runs FluidNC which is fully GRBL compatible with extended features and easier configuration.
 
 **Want to buy one?**
@@ -19,84 +19,111 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
 
 ## Specifications
 
-**ESP32-wroom-32 Based control board**
-:   32bit dual-core 2450mhz board.
-:   WiFi, Bluetooth, or USB Direct connection
-:   Onboard or external antenna
-:   Socket based for easy swapping if anything were to ever go wrong
-:   38 pin
-:   25.4mm header width
+### ESP32-wroom-32 Based control board
+    * 32bit dual-core 2450mhz board.
+    * WiFi, Bluetooth (rarely used), or USB Direct connection
+    * Onboard or external antenna
+    * Socket based for easy swapping if anything were to ever go wrong
+    * 38 pin - [ESP32-DevKitC CP2102 - MicroUSB](https://amzn.to/4766q7B), These seem to be the most reliable.
+    * 25.4mm header width
     
-**9-24VDC**
+### 9-24VDC
+    * Current required is a minimum of 36W (24Vx1.5A), less actually.
+    * If you plan on using the high current outputs anjust accordingly.
 
-**Current - Variable depending on use but...**
+### 6x Stepper driver sockets
+    * This controller is designed for use with TMC2209 drivers in UART control mode only
+    * Typically, TMC2209 drivers are limited to 4 addresses. This controller uses a CS (chip select) pin for 3 of the drivers to allow 6 drivers to be individually controlled.
+    * The sockets are labeled XYZABC, but you can use any socket for any axis or motor number. The letters are just for reference only.
+    * **No Stallguard**
 
-**6- Stepper driver sockets**
-:   This controller is designed for use with TMC2209 drivers in UART control mode only
-:   Typically, TMC2209 drivers are limited to 4 addresses. This controller uses a CS (chip select) pin for 3 of the drivers to allow 6 drivers to be individually controlled.
-:   The sockets are labeled XYZABC, but you can use any socket for any axis or motor number. The letters are just for reference only.
-:   **No Stallguard**
+### 7x Inputs
+    * All switch inputs are active low, the LED goes on when ground is connected to the pin.
+    * They have a 10k pullup external to the ESP32. The signal pin (S) should be connected to the ground pin (G) to activate the switch. 
+    * The 5V is optional and is used for external switches that require 5V. 
+    * Define the pins in the config file like this...
+    * Define an N.O. switch like this. gpio.xx.low
+    * Define an N.C. switch like this. gpio.xx
 
-**7- Inputs**
-:   All switch inputs are active low, the LED goes on when ground is connected to the pin.
-:   They have a 10k pullup external to the ESP32. The signal pin (S) should be connected to the ground pin (G) to activate the switch. 
-:   The 5V is optional and is used for external switches that require 5V. 
-:   Define the pins in the config file like this...
-:   Define an N.O. switch like this. gpio.xx.low
-:   Define an N.C. switch like this. gpio.xx
+### 2x Line level outputs
+    * PWM Capable
+    * The MOSFETs switch to ground. You can use any voltage up to the VMot max as the positive, as long as it uses the same ground reference.
+    * Can be used to drive 2.5A continuously before they overheat. You can use them intermittently up to 3.5A. If using above 2.5A you should test to see if they start to overheat.
+    * Chey can be used with inductive loads (solenoids, relays, DC fans)
 
-**2- Line level out**
-:   PWM Capable
-:   The MOSFETs switch to ground. You can use any voltage up to the VMot max as the positive, as long as it uses the same ground reference.
-:   They can be used to drive 2.5A continuously before they overheat. You can use them intermittently up to 3.5A. If using above 2.5A you should test to see if they start to overheat.
-:   They can be used with inductive loads (solenoids, relays, DC fans)
+### 2x 5V outputs
+    * PWM Capable
+    * These will source and sink about 25mA each.
+    * See the "Spindle" section of the FluidNC wiki for common uses.
 
-**2- 5V out**
-:   PWM Capable
-:   These will source and sink about 25mA each.
-:   See the "Spindle" section of the FluidNC wiki for common uses.
+### 1x Expansion Module socket
+    * [6 PACK expansion module source](https://oshwlab.com/bdring?tab=project&page=1)
+    * [Buy Them](https://www.tindie.com/stores/33366583/)
+    * This should be able to use any CNC I/O module. Use an 11mm standoff or a 3D printed support in the mounting hole provided.
+    * These Modules can be just about anything you need, more inputs, outputs, relays, spindle, VFD, Servo, OLED...
 
-**1- Expansion Module socket**
-:   [6 PACK expansion module source](https://oshwlab.com/bdring?tab=project&page=1)
-:   [Buy Them](https://www.tindie.com/stores/33366583/)
-:   This should be able to use any CNC I/O module. Use an 11mm standoff or a 3D printed support in the mounting hole provided.
-:   These Modules can be just about anything you need, more inputs, outputs, relays, spindle, VFD, Servo, OLED...
+### 1x MicroSD card slot
+    * larger than 2gb needed
+    * Fat32
+    * 30 character or less file names, 100 character or less file location
 
-**1- MicroSD card slot**
-:   larger than 2gb needed
-:   Fat32
-:   30 character or less file names, 100 character or less file location
-
-**Firmware-**
-:   [FluidNC](https://github.com/bdring/FluidNC)
-:   Text based config file for simple firmware edits.
-:   No compiling to flash a board or change the configuration.
-:   ~100% GRBL compatible
-:   Custom ESD3D-UI which includes a tablet mode with Gcode viewer.
+### Firmware
+    * [FluidNC](https://github.com/bdring/FluidNC)
+    * Text based config file for simple firmware edits.
+    * No compiling to flash a board or change the configuration.
+    * ~100% GRBL compatible
+    * Custom ESD3D-UI which includes a tablet mode with Gcode viewer.
     
 
-**80mmx100mm Dimensions**
-:   [CAD/Step link](https://a360.co/3KchBBL)
-:   [Dimensions](../img/jackpot/Jackpot_2023-07-08 Drawing.pdf)
+### Dimensions
+    * 80mmx100mm Board footprint
+    * [CAD/Step link](https://a360.co/3KchBBL)
+    * [Dimensions](../img/jackpot/Jackpot_2023-07-08 Drawing.pdf)
 ![!Jackpot dims](../img/jackpot/drawingsample.png){: loading=lazy width="400"}
-:   ISO
+    * ISO
 ![!Jackpot iso](../img/jackpot/StepISO.png){: loading=lazy width="400"}
 
 ## Initial Setup
 
-Intial "flashing"
+### Initial "flashing"
 
-Wiring
+There is no need for compiling or any of the previous steps need to "flash" a marllin based board.
 
-Test endstops led/terminal
+There are three basic steps, Firmware, GUI, Config. It is probably best to follow these steps.
+
+[FluidNC WIKI Install](http://wiki.fluidnc.com/en/installation#using-pre-compiled-files)
+
+Some tips, run install-wifi.bat, then install-fs.bat.
+
+From here you can load the Config files in one of two ways. 
+
+Prefered - FluidTerm from that same folder and hit ctrl+u to selec the config.yaml for your machine (linked below), hit enter to accept the name. After that is done uploading you can hit ctrl+r to reset. The Fluid term is a crazy goot tool If you ever have any issues this is how we will check it. When you are all wired and powered up I suggest using it to reset the baord and check to see everything is working (except the one driver we do not typically use). A web based version of this whole process is coming very soon.
+
+OTA - Or you can sign into your board over wifi (SSID- FluidNC PASS - 12345678) and upload the config.yaml directly with the FluincNC settings/files Tab.
+
+#### Wiring
+
+#### Test endstops led/terminal
 
 ## Configurations
 
+Github link coming soon.
+
 ## Updating
+
+If you ever want or need to update the actual firmware or GUI you can do it with the FluidTerm or OTA. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware) This is as easy as uploading a file and reseting with USB or WiFi. Very easy, no compiling.
 
 ## Common Gcode Scripts
 
+$MD - Disables the steppers, power them down.
+
 ## Laser tips
+
+For the fastest raster etching, the most reasource intensive thing we can do. Either use AP mode with a microSD card, or turn off the wifi and use only the USB (with [Lightburn](https://lightburnsoftware.com/)).
+
+$Wifi/Mode=off - if you are using the USB connection to Lightburn to use some of the built-in tools use this command to turn off the radio. It will come back after a power cycle. 
+
+If you have a laser defined in the config you are always in "laser" mode. So you can either leave it defined and use M5 (turn off laser mode) in your starting gcode for non-laser CNC use, or just comment out the laser in the config (like I ship it).
 
 ## Detailed FluidNC info
 
@@ -109,13 +136,14 @@ The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmwar
 
 
 ## Changelog
-RC1- 
-:   Initial release
 
 RC2- 
 :   Power and output headers, smaller holes for cleaner assembly
 :   Logo change on the back
 :   Stepper header label change
+
+RC1- 
+:   Initial release
 
 ## License
 Link
