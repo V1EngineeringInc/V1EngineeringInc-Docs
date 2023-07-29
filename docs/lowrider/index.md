@@ -688,8 +688,8 @@ Here is a wonderful video showing what you are getting into. Lots of time stamps
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (69).jpg){: loading=lazy width="400"}
 
- * Place the Y tension bases inline with the front blocks and far enough in to act as a hard stop not to drive your machine of the edge of the table.
- * 30mm in from the edge is good. More in from the edge (88mm) if you do not want your hose holders to moves past the edge of the able.
+ * Place the Y tension bases inline with the front blocks and far enough in to act as a hard stop not to drive your machine off the edge of the table.
+ * 30mm in from the edge is good. More in from the edge (88mm) if you do not want your hose holders to moves past the edge of the table.
 
 ---
 
