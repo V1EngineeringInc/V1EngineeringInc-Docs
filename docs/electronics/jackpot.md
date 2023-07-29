@@ -106,17 +106,25 @@ OTA - Or you can sign into your board over wifi (SSID- FluidNC PASS - 12345678) 
 
 #### Test endstops led/terminal
 
+The onboard LED's test the wiring connections. Our Normally Closed (NC) endstop wiring will have a lit LED when not triggered and not lit when triggered. The Probe is the opposite, lit when triggered.
+
+You can test the firmware by running "$Limits", this will show a real time trigger display. "!" to exit that mode.
+
 ## Configurations
 
 Github link coming soon.
 
 ## Updating
 
-If you ever want or need to update the actual firmware or GUI you can do it with the FluidTerm or OTA. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware) This is as easy as uploading a file and reseting with USB or WiFi. Very easy, no compiling.
+If you ever want or need to update the actual firmware or GUI you can do it with the FluidTerm or OTA. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware) This is as easy as uploading a file and reseting with USB or WiFi. Very easy, no compiling. You can also do it from the WebUI in the file section.
 
 ## Common Gcode Scripts
 
+$H - Equivalent to Marlin's "Home All" or G28. $HX, $HY, $HZ for individual axes.
+
 $MD - Disables the steppers, power them down.
+
+$CD=config.yaml - saves any config changes you make to the file. To allow it to be there after a reboot.
 
 ## Laser tips
 
