@@ -2,7 +2,7 @@
 
 ## Basics
 
-The Jackpot CNC Controller is a 32bit dual-core 240mhz board, WiFi, Bluetooth, or hardwired capable (esp32). It has 6x TMC2209 drivers, 7 inputs, 2x 5V outputs, 2x input level outputs, one expansion module socket.
+The Jackpot CNC Controller is a 32bit dual-core 240mhz board, WiFi, Bluetooth, or hardwired capable (esp32). It has 6x TMC2209 driver ports, 7 inputs, 2x 5V outputs, 2x input level outputs, one expansion module socket.
 MicroSD card slot. The board runs FluidNC which is fully GRBL compatible with extended features and easier configuration.
 
 **Want to buy one?**
@@ -72,7 +72,7 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
     * Text based config file for simple firmware edits.
     * No compiling to flash a board or change the configuration.
     * ~100% GRBL compatible
-    * Custom ESD3D-UI which includes a tablet mode with Gcode viewer.
+    * Custom ESP3D-UI which includes a tablet mode with Gcode viewer.
     
 
 + Dimensions
@@ -93,16 +93,26 @@ There are three basic steps, Firmware, GUI, Config. It is probably best to follo
 
 [FluidNC WIKI Install](http://wiki.fluidnc.com/en/installation#using-pre-compiled-files)
 
-Some tips, run install-wifi.bat, then install-fs.bat.
+Some tips, run erase.bat (unless you are purposely updating only one part), install-wifi.bat, then install-fs.bat.
 
 From here you can load the Config files in one of two ways. 
 
-Preferred - FluidTerm from that same folder and hit ctrl+u to select the config.yaml for your machine (linked below), hit enter to accept the name. After that is done uploading, you can hit ctrl+r to reset. The Fluid term is a crazy good tool If you ever have any issues, this is how we will check it. When you are all wired and powered up, I suggest using it to reset the board and check to see everything is working (except the one driver we do not typically use). A web based version of this whole process is coming very soon.
+**Preferred** - FluidTerm from that same folder and hit ctrl+u to select the config.yaml for your machine (linked below), hit enter to accept the name. After that is done uploading, you can hit ctrl+r to reset. The Fluid term is a crazy good tool If you ever have any issues, this is how we will check it. When you are all wired and powered up, I suggest using it to reset the board and check to see everything is working (except the one driver we do not typically use). A web based version of this whole process is coming very soon.
 
+You can also load the preferences.json, and macrocfg.json files using CTRL+U. After you log in you can more quickly load the "macro**.g" files
 
-OTA - Or you can sign into your board over wifi (SSID- FluidNC PASS - 12345678) and upload the config.yaml directly with the FluincNC settings/files Tab.
+**OTA** - Or you can sign into your board over wifi (SSID- FluidNC PASS - 12345678) and upload the config.yaml and other files directly with the FluincNC settings/files Tab.
 
 #### Wiring
+
+Pictures coming when the final boards show up.
+
+The steppers and endstops plug in in this order
+MPCNC = X, Y, Z, X2, Y2
+
+LR = X, Y, Z, Y2, Z2
+
+The touchplate plugs into the last port (gpoi.36), on both boards.
 
 #### Test endstops led/terminal
 
@@ -112,7 +122,8 @@ You can test the firmware by running "$Limits", this will show a real time trigg
 
 ## Configurations
 
-Github link coming soon.
+[Github link](https://github.com/V1EngineeringInc/FluidNC_Configs) 
+You can sign up for notifications of any updates if you would like.
 
 ## Updating
 
@@ -125,6 +136,8 @@ $H - Equivalent to Marlin's "Home All" or G28. $HX, $HY, $HZ for individual axes
 $MD - Disables the steppers, power them down.
 
 $CD=config.yaml - saves any config changes you make to the file. To allow it to be there after a reboot.
+
+$S - This shows all the values, the config file does not contain them all only changes from default.
 
 ## Laser tips
 
@@ -145,8 +158,18 @@ The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmwar
 
 ## Cases
 
+## Estlcam
+
+This section is for setting up estlcam for GRBL/FluiNC
+
+[Config file](9999999999), How to use it.
+
+Some screen shots needed here.
+
 
 ## Changelog
+
+V1 - 8/10/23 - Just a graphics change from RC2.
 
 RC2- 
 :   Power and output headers, smaller holes for cleaner assembly
