@@ -119,7 +119,7 @@ more than 80% nozzle diameter to keep overhangs working.
 
  * XZ Note- Can be a flat part. Milled or Purchased. If you do use a flat part you will need to print both `XZ Leadscrew Stub Right.3mf` and `XZ Leadscrew Stub.3mf`. These also need 70% infill.
 
- * Rail Block note- You want the gap between these to be no larger than 200mm (8") or less. You will need 8 for a 4' build and 14 for a 8' build. There are three different rail block sizes provided - `Rail block 18p1.3mf`, `Rail block 23p4.3mf`, and `Rail block 25p4.3mf` which correspond to the diameter of the Y rail in millimeters. For US based builds, the recommended Y rail size is US 1/2" EMT conduit which has a diameter equal to 18.1mm, so print the `Rail Block 18p1.3mf` parts for this size Y rail. 
+ * Rail Block note- You want the gap between these to be no larger than 200mm (8") or less. You will need 8 for a 4' build and 14 for a 8' build. There are four different rail block sizes provided - `Rail block 18p1.3mf`, `Rail block 23p4.3mf`, `Rail block 25mm.3mf`, and `Rail block 25p4.3mf` which correspond to the diameter of the Y rail in millimeters. For US based builds, the recommended Y rail size is US 3/4" EMT conduit which has a diameter equal to 23.4mm, so print the `Rail Block 23p4.3mf` parts for this size Y rail.
 
 
 ### Tool Mounts
