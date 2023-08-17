@@ -95,6 +95,9 @@ There are three basic steps, Firmware, GUI, Config. It is probably best to follo
 
 Some tips, run erase.bat (unless you are purposely updating only one part), install-wifi.bat, then install-fs.bat.
 
+!!! Note
+    Some ESP32 boards require you to hold the boot button to start flashing them, then you can release it when it starts. This is the button closest to pin D0.
+
 From here you can load the Config files in one of two ways. 
 
 **Preferred** - FluidTerm from that same folder and hit ctrl+u to select the config.yaml for your machine (linked below), hit enter to accept the name. After that is done uploading, you can hit ctrl+r to reset. The Fluid term is a crazy good tool If you ever have any issues, this is how we will check it. When you are all wired and powered up, I suggest using it to reset the board and check to see everything is working (except the one driver we do not typically use). A web based version of this whole process is coming very soon.
@@ -129,15 +132,17 @@ You can sign up for notifications of any updates if you would like.
 
 If you ever want or need to update the actual firmware or GUI you can do it with the FluidTerm or OTA. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware) This is as easy as uploading a file and reseting with USB or WiFi. Very easy, no compiling. You can also do it from the WebUI in the file section.
 
-## Common Gcode Scripts
+## Common Commands
 
-$H - Equivalent to Marlin's "Home All" or G28. $HX, $HY, $HZ for individual axes.
+**$H** - Equivalent to Marlin's "Home All" or G28. $HX, $HY, $HZ for individual axes.
 
-$MD - Disables the steppers, power them down.
+**$MD** - Disables the steppers, power them down.
 
-$CD=config.yaml - saves any config changes you make to the file. To allow it to be there after a reboot.
+**~** - Resume from a Pause (M0), feedhold, or safety trigger. Can be a input button, "cycle_start_pin:".
 
-$S - This shows all the values, the config file does not contain them all only changes from default.
+**$CD=config.yaml** - saves any config changes you make to the file. To allow it to be there after a reboot.
+
+**$S** - This shows all the values, the config file does not contain them all only changes from default.
 
 ## Laser tips
 
@@ -153,8 +158,6 @@ Raster speed depends on dot size, for a 0.19mm resolution I am getting 70-120mm/
 
 The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmware, with an excellent search bar. If you still get stuck you can of course turn to the [V1E.com forum](https://forum.v1e.com/) or there are links to a FluidNC specific discord in the wiki.
 
-!!! Note
-    save for later 
 
 ## Cases
 
