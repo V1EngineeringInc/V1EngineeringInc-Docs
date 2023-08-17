@@ -129,15 +129,17 @@ You can sign up for notifications of any updates if you would like.
 
 If you ever want or need to update the actual firmware or GUI you can do it with the FluidTerm or OTA. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware) This is as easy as uploading a file and reseting with USB or WiFi. Very easy, no compiling. You can also do it from the WebUI in the file section.
 
-## Common Gcode Scripts
+## Common Commands
 
-$H - Equivalent to Marlin's "Home All" or G28. $HX, $HY, $HZ for individual axes.
+**$H** - Equivalent to Marlin's "Home All" or G28. $HX, $HY, $HZ for individual axes.
 
-$MD - Disables the steppers, power them down.
+**$MD** - Disables the steppers, power them down.
 
-$CD=config.yaml - saves any config changes you make to the file. To allow it to be there after a reboot.
+**~** - Resume from a Pause (M0), feedhold, or safety trigger. Can be a input button, "cycle_start_pin:".
 
-$S - This shows all the values, the config file does not contain them all only changes from default.
+**$CD=config.yaml** - saves any config changes you make to the file. To allow it to be there after a reboot.
+
+**$S** - This shows all the values, the config file does not contain them all only changes from default.
 
 ## Laser tips
 
