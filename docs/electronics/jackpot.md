@@ -98,13 +98,15 @@ Some tips, run erase.bat (unless you are purposely updating only one part), inst
 !!! Note
     Some ESP32 boards require you to hold the boot button to start flashing them, then you can release it when it starts. This is the button closest to pin D0.
 
-From here you can load the Config files in one of two ways. 
+From here you can load the Config files in one of three ways. 
 
 **Preferred** - FluidTerm from that same folder and hit ctrl+u to select the config.yaml for your machine (linked below), hit enter to accept the name. After that is done uploading, you can hit ctrl+r to reset. The Fluid term is a crazy good tool If you ever have any issues, this is how we will check it. When you are all wired and powered up, I suggest using it to reset the board and check to see everything is working (except the one driver we do not typically use). A web based version of this whole process is coming very soon.
 
 You can also load the preferences.json, and macrocfg.json files using CTRL+U. After you log in you can more quickly load the "macro**.g" files
 
 **OTA** - Or you can sign into your board over wifi (SSID- FluidNC PASS - 12345678) and upload the config.yaml and other files directly with the FluincNC settings/files Tab.
+
+**Browser Based** - There is also a [browser based tool by Joacim](https://breiler.github.io/fluid-installer/) (works best in Chrome). Still in Beta.
 
 #### Wiring
 
@@ -130,7 +132,7 @@ You can sign up for notifications of any updates if you would like.
 
 ## Updating
 
-If you ever want or need to update the actual firmware or GUI you can do it with the FluidTerm or OTA. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware) This is as easy as uploading a file and reseting with USB or WiFi. Very easy, no compiling. You can also do it from the WebUI in the file section.
+If you ever want or need to update the actual firmware or GUI you can do it with the FluidTerm or OTA. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware) This is as easy as uploading a file and reseting with USB or WiFi. Very easy, no compiling. You can also do it from the WebUI in the file section of the baord itself. There is also a [browser based tool by Joacim](https://breiler.github.io/fluid-installer/) (works best in Chrome).
 
 ## Common Commands
 
@@ -161,6 +163,10 @@ The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmwar
 
 ## Cases
 
+[Printables collection link](https://www.printables.com/@V1Engineering/collections/815309).
+
+If you have a case that is not part of this collection please let me know and I will add it.
+
 ## Estlcam
 
 This section is for setting up estlcam for GRBL/FluiNC
@@ -186,5 +192,9 @@ RC2-
 RC1- 
 :   Initial release
 
-## License
-Link
+## License and Source
+
+This project is released under the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+[V1 Source](https://oshwlab.com/allted/4layer-desktop-rc1_copy
+Link)
