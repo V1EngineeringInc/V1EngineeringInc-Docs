@@ -200,5 +200,4 @@ RC1-
 
 This project is released under the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-[V1 Source](https://oshwlab.com/allted/4layer-desktop-rc1_copy
-Link)
+[V1 Source](https://oshwlab.com/allted/4layer-desktop-rc1_copy)
