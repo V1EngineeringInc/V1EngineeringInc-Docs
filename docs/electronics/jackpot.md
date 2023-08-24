@@ -104,9 +104,12 @@ From here you can load the Config files in one of three ways.
 
 You can also load the preferences.json, and macrocfg.json files using CTRL+U. After you log in you can more quickly load the "macro**.g" files
 
+
 **OTA** - Or you can sign into your board over wifi (SSID- FluidNC PASS - 12345678) and upload the config.yaml and other files directly with the FluincNC settings/files Tab.
 
+
 **Browser Based** - There is also a [browser based tool by Joacim](https://breiler.github.io/fluid-installer/) (works best in Chrome). Still in Beta.
+
 
 #### Wiring
 
@@ -160,6 +163,7 @@ Raster speed depends on dot size, for a 0.19mm resolution I am getting 70-120mm/
 
 The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmware, with an excellent search bar. If you still get stuck you can of course turn to the [V1E.com forum](https://forum.v1e.com/) or there are links to a FluidNC specific discord in the wiki.
 
+gpio.26 can have a quick pulse when starting. If you are using a 5V pin for your laser pin 27 is the better option for your enable pin.
 
 ## Cases
 
