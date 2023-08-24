@@ -20,7 +20,7 @@ Mitch Bradley deserves a lot of thanks for handling the day to day of FluidNC an
 ## Specifications
 
 + ESP32-wroom-32 Based control board
-    * 32bit dual-core 2450mhz board.
+    * 32bit dual-core 240mhz board.
     * WiFi, Bluetooth (rarely used), or USB Direct connection
     * Onboard or external antenna
     * Socket based for easy swapping if anything were to ever go wrong
