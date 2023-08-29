@@ -155,18 +155,18 @@ Equal steps – Depth of cut, DOC, Should be planned for. Making equal steps wil
 What your machine will do **before** the job starts. The LowRider Configs show examples of how an IOT relay would be tied in. You would use something similar to [this](https://amzn.to/3vjqzFH) to turn a router, vacuum, or other things on and off with Gcode.
 
 === "MPCNC" 
-    On the MPCNC you will typically home the XY axis before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
+    On the MPCNC you will typically home the XY axes before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
     ```
     G92 X0 Y0 Z0 ; Set Current position to 0, all axes
     G00 Z5.0000 F500 ; Raise Z 5mm at 8.3mm/s to clear clamps and screws
-    G28 X Y Z ; Home in order, w/z touchplate
+    G28 X Y Z ; Home in order, with Z touchplate
     G92 Z0.5 ; Account for probe thickness (set your thickness)
     G00 Z5.000 F500 ; Raise Z probe off of surface
-    M00 ; pause for LCD button press so you can remove the touchplate
+    M00 ; Pause for LCD button press so you can remove the touchplate
     ```
 
 === "LowRider V3" 
-    On the Lowrider V3 you will typically home all axis before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
+    On the Lowrider V3 you will typically home all axes before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
     ```
     G92 X0 Y0 ; Set Current position to 0 on the X and Y axes.
     M0 Attach probe ; Pause to connect touchplate
@@ -189,19 +189,19 @@ Only happens if you change a tool during your job. It happens at each tool chang
     G28 Z ; Home the Z axis to establish the new Z position
     G92 Z0.5 ; Account for probe thickness (set your thickness)
     G00 Z5.0000 F500 ; Lift off touchplate
-    M00 ; pause to remove the touchplate
+    M00 ; Pause to remove the touchplate
     ```
 === "LowRider V3" 
     ```
-    M107 ; turn fan 1 off IOT relay
-    G28 Z ; Raise Z
+    M107 ; Turn fan 1 off IOT relay
+    G28 Z ; Raise Z axis
     G0 X0 Y0 F2520 ; Drive to tool change side
     M00 change tool, probe ; Pause to change tool and attach probe.
     G38.2 Z0 ; Probe to touchplate
     G92 Z0.5 ; Set Z to touchplate thickness
     G00 Z5.0000 F500 ; Lift off touchplate
     M00 remove probe ; Pause to remove touchplate
-    M106 ; turn fan 1 on IoT relay
+    M106 ; Turn fan 1 on IoT relay
     ```    
 
 ### Ending
@@ -231,13 +231,13 @@ Here where the above snippets would go in EstlCAM. It would look similar in othe
 ## Post Processors
 
 When making Gcode with your CAM program it outputs raw coordinates, speeds, and a few other
-commands. A post processor simply formats in a way that your firmware will recognize.
+commands. A post processor (PP) simply formats in a way that your firmware will recognize.
 
 All machines require a post processor, specific to the control board firmware.
 
 ### The ones we have working
 
-Please share your links to other PP’s. I know there are more.
+Please share your links to other post processors. I know there are more.
 
 #### Estlcam
 :   Built in, Christian was happy to work with us to get this correct. [Here are the recommended
