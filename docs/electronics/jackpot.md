@@ -24,7 +24,7 @@ Mitch Bradley also deserves a lot of thanks for handling the day to day of Fluid
     * WiFi, USB Direct connection, or Bluetooth (rarely used).
     * Onboard or external antenna
     * Micro USB, or USB-C
-    * Socket based for easy swapping if anything were to ever go wrong, or you wnat to quickly change configs.
+    * Socket based for easy swapping if anything were to ever go wrong, or you want to quickly change configs.
     * 38 pin - [ESP32-DevKitC CP2102 - MicroUSB](https://amzn.to/4766q7B), These seem to be the most reliable.
     * 25.4mm header width
     
@@ -217,6 +217,13 @@ Change the basic settings to GRBL.
 
 
 Some screen shots needed here.
+
+## Troubleshooting
+Some issues we have seen.
+
+-No connection - Charge only USB cable, make sure yours is data capable.
+
+
 
 
 ## Changelog
