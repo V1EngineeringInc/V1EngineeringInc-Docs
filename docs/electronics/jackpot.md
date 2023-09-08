@@ -210,7 +210,7 @@ If you have a case that is not part of this collection please let me know and I 
 
 This section is for setting up estlcam for GRBL/FluiNC
 
-![!Jackpot estlcam basics](../img/jackpot/esbasicsettings.jpg){: width="400"}
+![!Jackpot estlcam basics](../img/jackpot/esbasicsettings.jpg){: loading=lazy width="400"}
 Change the basic settings to GRBL.
 
 [Config file](../img/jackpot/FluidNC.pp), to install this file open EstlCAM, setup, CNC Programs, open settings at the bottom. This will import all the settings, starting, toolchange, and endding gcode sections. Everything in one file.
