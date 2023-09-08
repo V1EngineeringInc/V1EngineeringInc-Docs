@@ -150,7 +150,7 @@ MPCNC = X, Y, Z, X2(A), Y2(B)
 
 LR = X, Y, Z, Y2(A), Z2(B)
 
-The touchplate plugs into the last port (gpoi.36), on both boards.
+The touchplate plugs into the last port (gpio.36), on both boards.
 
 #### Test endstops led/terminal
 
