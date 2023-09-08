@@ -137,11 +137,16 @@ If needed the ESP32 USB drivers are here [CP2012 drivers](https://www.silabs.com
 
 #### Wiring
 
-Pictures coming when the final boards show up.
 
 The steppers and endstops plug in in this order from left to right
 
+Click on the image to enlarge.
+
+![!Jackpot CNC mpcnc pins](../img/jackpot/MPCNC Labels.png){: width="400"}
+
 MPCNC = X, Y, Z, X2(A), Y2(B)
+
+![!Jackpot CNC LR pins](../img/jackpot/Lowrider labels.png){: width="400"}
 
 LR = X, Y, Z, Y2(A), Z2(B)
 
