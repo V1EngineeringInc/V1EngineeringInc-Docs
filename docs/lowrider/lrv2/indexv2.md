@@ -13,7 +13,7 @@ Thingiverse Printed parts files:
 :   [Thingiverse Link](https://www.thingiverse.com/thing:3064287)
 
 Hardware list
-:   [Link](https://www.v1engineering.com/lowrider-parts/) missing link?
+:   [Link](lowrider-parts.md)
 
 This CNC router can handle any length (within reason), the Y direction is only bound by your table
 length.
