@@ -122,7 +122,7 @@ You can sign up for notifications on github to keep up with any updates as they 
 
 If you ever want or need to update the actual firmware, GUI, or configs you can do it with the FluidTerm,[browser based tool by Joacim](https://breiler.github.io/fluid-installer/), or OTA in the WIFI GUI. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware). This is very easy, no compiling. 
 
-**Config, GUI, or MAcro button chnages or updates** Three options. 1-Use the FluidTerm program to upload the new file/s, power down, power up. 2-Use teh file browser in the Wifi GUI, to upload the file/s and restart. 3-3-[Web Installer](https://breiler.github.io/fluid-installer/), plug in USB, connect, "upgrade FLuidNC", select version number, "wifi", "firmware update", power down, power up.
+**Config, GUI, or Macro button changes or updates** Three options. 1-Use the FluidTerm program to upload the new file/s, power down, power up. 2-Use teh file browser in the Wifi GUI, to upload the file/s and restart. 3-3-[Web Installer](https://breiler.github.io/fluid-installer/), plug in USB, connect, "upgrade FluidNC", select version number, "wifi", "firmware update", power down, power up.
 
 The GUI update file is, "index.html.gz", and found in the wifi folder [here](https://github.com/bdring/FluidNC/releases).
 

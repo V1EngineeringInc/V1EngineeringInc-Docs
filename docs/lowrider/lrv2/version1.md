@@ -1,6 +1,6 @@
 # The LowRider CNC
 
-**!!! warning**
+!!! warning
     This is for an old version of the Low Rider. The current version is [HERE](../index.md)
 
 The LowRider CNC is my answer to you that want a full 4’x8′ sheet router, or of course you can go
