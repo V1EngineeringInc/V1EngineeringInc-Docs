@@ -153,7 +153,9 @@ Here are the pre-made most common Strut Plate sizes.
 
 [Strut Plate CAD/Fusion360](https://a360.co/3CrRkKw){:target="_blank"} - Fully parametric, change the single user parameter from the [Calculator](calculator.md){:target="_blank"}.
 
-For other Strut Plate sizes, use [Calculator](calculator.md){:target="_blank"}, enter your build dimensions, then click on _Download Strut .SVG_ link.  
+
+For other Strut Plate sizes, use [Calculator](calculator.md){:target="_blank"}. Enter your build dimensions, then click on *Download Strut.SVG* link.
+
 If you're custom designing a Strut Plate for some reason (for [example](https://github.com/aaronse/v1engineering-mods/tree/main/lowrider3/front-grill-strut)), ensure no more than 200mm (8") between the braces.
 
 ![Strut Edit Picture](../img/lr3/strut edit.jpg){: loading=lazy width="600"}
@@ -201,7 +203,7 @@ You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://www
 |6    |Idlers Smooth 20T       |20T Smooth 5mm Bore                            |[Shop][sh5] – [Amazon][az5]|
 |8M   |Belt GT2 10mm           |See [Calculator](calculator.md), no steel belt |[Shop][sh6] – [Amazon][az6]|
 |5    |Endstops                |                                               |[Shop][sh7] – [Amazon][az7]|
-|14   |6082rs Bearings         |                                               |[Shop][sh8] – [Amazon][az8]|
+|14   |608-2RS Bearings        |                                               |[Shop][sh8] – [Amazon][az8]|
 |2    |T8 Leadscrew & nut      |110mm or larger                                |[Shop][sh9] – [Amazon][az9]|
 |2    |Coupler                 |8mm to 5mm                                     |[Shop][sh10] – [Amazon][az10]|
 |4    |Linear rails MGN        |MGN12H 150mm                                   |[Shop][sh11] – [Amazon][az11]|
@@ -245,7 +247,7 @@ As an Amazon Associate, I earn from qualifying purchases.
 
 ### Hardware
 
-This is what is needed for a 4' x 8' (1.2M x 2.4M) build. You will need more or less depending on what size you build.
+This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or less depending on what size you build.
 
 |QTY  |Description             |US Equivalent                                  | 
 |-----|------------------------|-----------------------------------------------|
@@ -310,7 +312,7 @@ Here is a wonderful video showing what you are getting into. Lots of time stamps
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (3).jpg){: loading=lazy width="400"}
 
- * Bolts, 6082RS bearings and nuts for the next step.
+ * Bolts, 608-2RS bearings and nuts for the next step.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (4).jpg){: loading=lazy width="400"}
 
@@ -402,7 +404,7 @@ Here is a wonderful video showing what you are getting into. Lots of time stamps
 ![!LR3 Fancy Picture](../img/lr3/LR3 (20).jpg){: loading=lazy width="400"}
 
  * Make sure the pulley teeth are centered with the idlers.
- * Snug The stepper in place with the M3 Screws.
+ * Snug the stepper in place with the M3 Screws.
  * Wires should face one in each direction (mirrored), just like the Y drives.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (21).jpg){: loading=lazy width="400"}
@@ -525,7 +527,7 @@ Here is a wonderful video showing what you are getting into. Lots of time stamps
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (41).jpg){: loading=lazy width="400"}
 
- * 608rs and bolts, Bearing Wheel Bracket Front & Rear.
+ * 608-2RS and bolts, Bearing Wheel Bracket Front & Rear.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (42).jpg){: loading=lazy width="400"}
 
