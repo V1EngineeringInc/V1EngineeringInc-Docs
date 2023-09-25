@@ -228,6 +228,8 @@ Some issues we have seen.
 
 -No connection - Charge only USB cable, make sure yours is data capable.
 
+-No memory card showing up - Try a [class 6 card](https://amzn.to/3t4lVgF), or slower formatted in fat32. New fancy high speed cards are hit or miss. [A1 rated cards](https://amzn.to/3PRpYpx) seem particularly troublesome.
+
 
 
 
