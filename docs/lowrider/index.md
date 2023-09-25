@@ -279,7 +279,7 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
 
 Your table needs only be as fancy as a sheet of wood on a relatively flat, smooth surface. A CNC can self correct many of its own imperfections if needed. Typically, our tables only support the CNC and some material, so nothing heavy duty is typically required.
 
-Any existing table that is large enough is fine, you can use it’s surface directly or a more popular option is to add a waste board of some sort that is replaceable as it gets used.
+Any existing table that is large enough is fine. You can use its surface directly, or a more popular option is to add a waste board of some sort that is replaceable as it gets used.
 
 Next would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better.
 
