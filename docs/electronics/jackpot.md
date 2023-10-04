@@ -87,56 +87,14 @@ Mitch Bradley also deserves a lot of thanks for handling the day to day of Fluid
 
 ## Initial Setup
 
-### Initial "flashing"
+If you bought it from the V1E.com store it should be ready to go. You should be able to log in directly (SSID- FluidNC PASS - 12345678). From there you can control your machine, upload files, change settings, even update the firmware and GUI all OTA.
 
-There is no need for compiling or any of the previous steps need to "flash" a marlin based board.
-
-There are three basic steps, Firmware, GUI, Config. It is probably best to follow these steps.
-
-[FluidNC WIKI Install](http://wiki.fluidnc.com/en/installation#using-pre-compiled-files)
-
-Some tips, run erase.bat (unless you are purposely updating only one part), install-wifi.bat, then install-fs.bat.
+We use the Jackpot board in AP mode (access point), this is a direct connection betwean your web enabled device and the board itself. If you have a touch screen device that should function as well as zoom if you need it for big fingers. Of course keyboarrd and mouse will work just as well.
 
 !!! Note
-    Some ESP32 boards require you to hold the boot button to start flashing them, then you can release it when it starts. This is the button closest to pin D0.
-
-From here you can load the Config and macro files in one of three ways. 
-
-**Preferred** - FluidTerm from that same folder and hit ctrl+u to select the config.yaml for your machine (linked below), hit enter to accept the name. After that is done uploading, you can hit ctrl+r to reset. The Fluid term is a crazy good tool If you ever have any issues, this is how we will check it. When you are all wired and powered up, I suggest using it to reset the board and check to see everything is working (except the one driver we do not typically use).
-
-You can also load the preferences.json, and macrocfg.json files using CTRL+U. After you log in you can more quickly load the "macro**.g" files
-
-
-**OTA** - Or you can sign into your board over wifi (SSID- FluidNC PASS - 12345678) and upload the config.yaml and other files directly with the FluincNC settings/files Tab.
-
-
-**Browser Based** - There is also a [browser based tool by Joacim](https://breiler.github.io/fluid-installer/) (works best in Chrome). Soon to be the prefered method.
-
-[Firmware files are here](https://github.com/bdring/FluidNC/releases)
-
-[Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs)
-
-You can sign up for notifications on github to keep up with any updates as they are released or changed.
-
-### Updating
-
-If you ever want or need to update the actual firmware, GUI, or configs you can do it with the FluidTerm,[browser based tool by Joacim](https://breiler.github.io/fluid-installer/), or OTA in the WIFI GUI. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware). This is very easy, no compiling. 
-
-**Config, GUI, or Macro button changes or updates** Three options. 1-Use the FluidTerm program to upload the new file/s, power down, power up. 2-Use teh file browser in the Wifi GUI, to upload the file/s and restart. 3-3-[Web Installer](https://breiler.github.io/fluid-installer/), plug in USB, connect, "upgrade FluidNC", select version number, "wifi", "firmware update", power down, power up.
-
-The GUI update file is, "index.html.gz", and found in the wifi folder [here](https://github.com/bdring/FluidNC/releases).
-
-Config files are config.yaml (the name can be changed).
-
-**For a firmware update**, download the new files from [here](https://github.com/bdring/FluidNC/releases). Three options. 1-You can then run the install-wifi.bat file to update, power down, power up. 2-Use the OTA funtion in the WIFI GUI, the firmware.bin file is in the "wifi" folder, power down, power up. 3-[Web Installer](https://breiler.github.io/fluid-installer/), plug in USB, connect, "File browser", select and upload files, power down, power up.
-
-
-### Drivers
-
-If needed the ESP32 USB drivers are here [CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
+    You can also configure your device in STA mode. This will get your board connected to your local network. This is advanced and not reccomended unless you are very confident in your networking setup. If you choose to do this [disabling SSDP](http://wiki.fluidnc.com/en/features/wifi_bt#wifi-settings) is reccomended to save memory. The FLuidNC wiki does currently say STA mode is reccomended but do to network differences it is not reccomended here as it is impossible to support and troubleshoot, also the reason for this reccomendation might be outdated.
 
 #### Wiring
-
 
 The steppers and endstops plug in in this order from left to right
 
@@ -157,11 +115,6 @@ The touchplate plugs into the last port (gpio.36), on both boards.
 The onboard LED's test the wiring connections. Our Normally Closed (NC) endstop wiring, our CNC standard, will have a lit LED when not triggered and not lit when triggered. The Probe is the opposite, lit when triggered.
 
 You can test the firmware by running "$Limits", this will show a real time trigger display. "!" to exit that mode.
-
-## Configuration Files
-
-[Github link](https://github.com/V1EngineeringInc/FluidNC_Configs) 
-You can sign up for notifications of any updates if you would like.
 
 ## Common Commands
 
@@ -185,10 +138,126 @@ If you have a laser defined in the config you are always in "laser" mode (M4). S
 
 Raster speed depends on dot size, for a 0.19mm resolution I am getting 70-120mm/s depending on the type of raster.
 
-## Detailed FluidNC info
+### Laser Config.yaml Edits
 
-The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmware, with an excellent search bar. If you still get stuck you can of course turn to the [V1E.com forum](https://forum.v1e.com/) or there are links to a FluidNC specific discord in the wiki.
+Replace the following section in your yaml file. Change any settings you need to this scales the output from 1-1000.
 
+```markdown
+user_outputs:
+  analog0_pin: NO_PIN
+  analog1_pin: NO_PIN
+  analog2_pin: NO_PIN
+  analog3_pin: NO_PIN
+  analog0_hz: 5000
+  analog1_hz: 5000
+  analog2_hz: 5000
+  analog3_hz: 5000
+  digital0_pin: gpio.26
+  digital1_pin: NO_PIN
+  digital2_pin: NO_PIN
+  digital3_pin: NO_PIN
+
+Laser:
+  pwm_hz: 5000
+  output_pin: gpio.27
+  enable_pin: NO_PIN
+  disable_with_s0: false
+  s0_with_disable: true
+  tool_num: 0
+  speed_map: 0=0.000% 1000=100.000%
+  off_on_alarm: true
+```
+
+## Setting up Estlcam
+
+This section is for setting up estlcam for GRBL/FluiNC
+
+![!Jackpot estlcam basics](../img/jackpot/esbasicsettings.jpg){: loading=lazy width="400"}
+
+Change the basic settings to GRBL.
+
+[Config file](../img/jackpot/FluidNC.pp), to install this file open EstlCAM, setup, CNC Programs, open settings at the bottom. This will import all the settings, feedrates, rapids, starting gcode, toolchange, and ending gcode sections. Everything in one file and it is ready to use. Below are the details of this file.
+
+Some screen shots needed here.
+
+Starting Gcode-
+```markdown
+G21
+G90
+G94
+G92 X0 Y0
+M0 (MSG Attach probe)
+G38.2 Z-80 F200 P0.5 (probe down set thickness )
+G1 Z10 F900
+M0 (MSG Remove probe)
+M62 P1 (If used start spindle pin27 )
+```
+
+Tool Change-
+```markdown
+M63 P1 ( turn off pin 27)
+$HZ (Home Z)
+G0 X0 Y10 F2520 
+M0 (MSG change tool, probe)
+G38.2 Z-80 F200 P0.5 ( Probe set thickness)
+G00 Z10.0000 F500 ( Clearance )
+M0 (MSG remove probe)
+M62 P1 ( turn on pin27 )
+```
+
+Ending Gcode-
+```markdown
+M63 P1 ( stop spindle pin27 )
+$HZ
+M30
+```
+
+
+### Initial "flashing"
+
+If you bought it from the V1E.com store it should be ready to go. This is in case you want to update or start fresh.
+
+There is no need for compiling or any of the previous steps needed to "flash" a marlin based board. There are three options for doing this.
+
+Keep an eye on this page or you can even subscribe to updates to know anytime the files are changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
+
+Some PC's will need USB drivers, if needed the ESP32 USB drivers are here [CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
+
+
+**Preferred - Browser Based** - There is a [browser based tool by Joacim](https://breiler.github.io/fluid-installer/) (works best in Chrome). From here you need to connect your esp32 to your computer. Select connect, and follow the prompts. It is best to always start fresh.
+
+After you have loaded the firmware you can restart and use the file borwser to load our configs and macros from here, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
+
+!!! Note
+    Some ESP32 boards require you to hold the boot button to start flashing them, then you can release it when it starts. This is the button closest to pin D0. The Web installer will prompt you if this is needed, manual metheds will not.
+
+**Manually** -
+[Firmware files are here](https://github.com/bdring/FluidNC/releases) 
+[Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs)
+
+Detailed instructions [FluidNC WIKI Install](http://wiki.fluidnc.com/en/installation#using-pre-compiled-files)
+
+When you download the files you can unzip the folder and run erase.bat (unless you are purposely updating only one part), install-wifi.bat, then install-fs.bat. Run FluidTerm from that same folder and hit ctrl+u to select the config.yaml for your machine (linked above), hit enter to accept the name. After that is done uploading, you can hit ctrl+r to reset. The Fluid term is a crazy good tool If you ever have any issues, this is how we will check it. When you are all wired and powered up, I suggest using it to reset the board and check to see everything is working.
+
+You can also load the preferences.json, and macrocfg.json files using CTRL+U. After you log in you can more quickly load the "macro**.g" files
+
+**Compile from source** - You can also download the source files and compile and flash it directly from something like platform.io.
+
+### Updating
+
+If you ever want or need to update the actual firmware, GUI, or configs you can do it with the [browser based tool by Joacim](https://breiler.github.io/fluid-installer/), OTA in the WIFI GUI, [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware), or manually with FluidTerm,[browser based tool by Joacim](https://breiler.github.io/fluid-installer/). This is very easy, no compiling. 
+
+The GUI update file is, "index.html.gz", and found in the wifi folder [here](https://github.com/bdring/FluidNC/releases). To update this just overwrite the current file and reboot.
+
+Config files are config.yaml (the name can be changed). To update this just overwrite the current file and reboot.
+
+The Firmware bin update is automated using the web tool, ran from the OTA section of the GUI, or run install-wifi.bat manually.
+
+
+## Configuration Files
+
+[Github link](https://github.com/V1EngineeringInc/FluidNC_Configs) 
+You can sign up for notifications of any updates if you would like.
 
 ## Input / Output / Module port
 
@@ -205,23 +274,16 @@ uart2:
   mode: 8N1
 ```
 
+## Detailed FluidNC info
+
+The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmware, with an excellent search bar. If you still get stuck you can of course turn to the [V1E.com forum](https://forum.v1e.com/) or there are links to a FluidNC specific discord in the wiki.
+
 ## Cases
 
 [Printables collection link](https://www.printables.com/@V1Engineering/collections/815309).
 
 If you have a case that is not part of this collection please let me know and I will add it.
 
-## Estlcam
-
-This section is for setting up estlcam for GRBL/FluiNC
-
-![!Jackpot estlcam basics](../img/jackpot/esbasicsettings.jpg){: loading=lazy width="400"}
-Change the basic settings to GRBL.
-
-[Config file](../img/jackpot/FluidNC.pp), to install this file open EstlCAM, setup, CNC Programs, open settings at the bottom. This will import all the settings, starting, toolchange, and endding gcode sections. Everything in one file.
-
-
-Some screen shots needed here.
 
 ## Troubleshooting
 Some issues we have seen.
@@ -229,8 +291,6 @@ Some issues we have seen.
 -No connection - Charge only USB cable, make sure yours is data capable.
 
 -No memory card showing up - Try a [class 6 card](https://amzn.to/3t4lVgF), or slower formatted in fat32. New fancy high speed cards are hit or miss. [A1 rated cards](https://amzn.to/3PRpYpx) seem particularly troublesome.
-
-
 
 
 ## Changelog
