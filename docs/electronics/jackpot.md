@@ -11,7 +11,7 @@ MicroSD card slot. The board runs FluidNC which is fully GRBL compatible with ex
 
 ![!Jackpot CNC controller](../img/jackpot/jp7.jpg){: width="800"}
 
-## Thanks
+### Thanks
 
 First and foremost, thank you, Bart Dring for the amazing design and custom firmware required to make this happen. This is based off the [6 Pack Universal CNC Controller Development Board](https://www.tindie.com/products/33366583/6-pack-universal-cnc-controller/) and changes were made to accommodate all the use cases I have seen with the V1 CNC Machines except for 3D printing. Also, many thanks for GRBL-ESP32 and now [FluidNC](https://github.com/bdring/FluidNC).
 
@@ -213,8 +213,7 @@ Laser:
 ```
 Quick note, **gpio.26** can have a quick pulse when starting. If you are using a 5V pin for your laser pin 27 is the better option for your enable pin.
 
-### Initial "flashing"
-
+## Firmware
 If you bought it from the V1E.com store it should be ready to go. This is in case you want to update or start fresh.
 
 Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
@@ -253,7 +252,7 @@ Config files are config.yaml (the name can be changed). To update this just over
 The Firmware bin update is automated using the web tool, ran from the OTA section of the GUI, or run install-wifi.bat manually.
 
 
-## Configuration Files
+### Configuration Files
 
 [Github link](https://github.com/V1EngineeringInc/FluidNC_Configs) 
 You can sign up for notifications of any updates if you would like.
@@ -273,7 +272,7 @@ uart2:
   mode: 8N1
 ```
 
-## Detailed FluidNC info
+### FluidNC Details
 
 The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmware, with an excellent search bar. If you still get stuck you can of course turn to the [V1E.com forum](https://forum.v1e.com/) or there are links to a FluidNC specific discord in the wiki.
 
