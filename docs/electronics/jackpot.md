@@ -87,12 +87,12 @@ Mitch Bradley also deserves a lot of thanks for handling the day to day of Fluid
 
 ## Initial Setup
 
-If you bought it from the V1E.com store it should be ready to go. You should be able to log in directly (SSID- FluidNC PASS - 12345678). From there you can control your machine, upload files, change settings, even update the firmware and GUI all OTA.
+If you bought it from the V1E.com store it should be ready to go. You should be able to log in directly (SSID- FluidNC PASS - 12345678). From there you can control your machine, upload files, change settings, even update the firmware or GUI all OTA.
 
-We use the Jackpot board in AP mode (access point), this is a direct connection betwean your web enabled device and the board itself. If you have a touch screen device that should function as well as zoom if you need it for big fingers. Of course keyboarrd and mouse will work just as well.
+We use the Jackpot board in AP mode (access point), this is a direct connection betwean your web enabled device and the board itself. If you have a touch screen device that should function as well as zoom if you need it for big fingers. Of course keyboard and mouse will work just as well.
 
 !!! Note
-    You can also configure your device in STA mode. This will get your board connected to your local network. This is advanced and not reccomended unless you are very confident in your networking setup. If you choose to do this [disabling SSDP](http://wiki.fluidnc.com/en/features/wifi_bt#wifi-settings) is reccomended to save memory. The FLuidNC wiki does currently say STA mode is reccomended but do to network differences it is not reccomended here as it is impossible to support and troubleshoot, also the reason for this reccomendation might be outdated.
+    You can also configure your device in STA mode. This will get your board connected to your local network. This is advanced and not reccomended unless you are very confident in your networking setup. If you choose to do this [disabling SSDP](http://wiki.fluidnc.com/en/features/wifi_bt#wifi-settings) is reccomended to save memory. The FluidNC wiki does currently say STA mode is reccomended but do to network differences it is not reccomended here as it is impossible to support and troubleshoot, also the reason for this reccomendation might be outdated.
 
 #### Wiring
 
@@ -127,46 +127,6 @@ You can test the firmware by running "$Limits", this will show a real time trigg
 **$CD=config.yaml** - saves any config changes you make to the file. To allow it to be there after a reboot.
 
 **$S** - This shows all the values, the config file does not contain them all only changes from default.
-
-## Laser tips
-
-For the fastest raster etching, the most reasource intensive thing we can do. Either use AP mode with a microSD card, or turn off the wifi and use only the USB (with [Lightburn](https://lightburnsoftware.com/)).
-
-**$Wifi/Mode=off** - if you are using the USB connection to Lightburn to use some of the built-in tools use this command to turn off the radio. It will come back after a power cycle. 
-
-If you have a laser defined in the config you are always in "laser" mode (M4). So you can either leave it defined and use M5 (turn off laser mode) in your starting gcode for non-laser CNC use, or just comment out the laser in the config (like I ship it). The Jackpot can have multiple config files stored on it.
-
-Raster speed depends on dot size, for a 0.19mm resolution I am getting 70-120mm/s depending on the type of raster.
-
-### Laser Config.yaml Edits
-
-Replace the following section in your yaml file. Change any settings you need to this scales the output from 1-1000.
-
-```markdown
-user_outputs:
-  analog0_pin: NO_PIN
-  analog1_pin: NO_PIN
-  analog2_pin: NO_PIN
-  analog3_pin: NO_PIN
-  analog0_hz: 5000
-  analog1_hz: 5000
-  analog2_hz: 5000
-  analog3_hz: 5000
-  digital0_pin: gpio.26
-  digital1_pin: NO_PIN
-  digital2_pin: NO_PIN
-  digital3_pin: NO_PIN
-
-Laser:
-  pwm_hz: 5000
-  output_pin: gpio.27
-  enable_pin: NO_PIN
-  disable_with_s0: false
-  s0_with_disable: true
-  tool_num: 0
-  speed_map: 0=0.000% 1000=100.000%
-  off_on_alarm: true
-```
 
 ## Setting up Estlcam
 
@@ -212,21 +172,60 @@ $HZ
 M30
 ```
 
+## Laser tips
+
+For the fastest raster etching, the most reasource intensive thing we can do. Either use AP mode with a microSD card, or turn off the wifi and use only the USB (with [Lightburn](https://lightburnsoftware.com/)).
+
+**$Wifi/Mode=off** - if you are using the USB connection to Lightburn to use some of the built-in tools use this command to turn off the radio. It will come back after a power cycle. 
+
+If you have a laser defined in the config you are always in "laser" mode (M4). So you can either leave it defined and use M5 (turn off laser mode) in your starting gcode for non-laser CNC use, or just comment out the laser in the config (like I ship it). The Jackpot can have multiple config files stored on it.
+
+Raster speed depends on dot size, for a 0.19mm resolution I am getting 70-120mm/s depending on the type of raster.
+
+### Laser Config.yaml Edits
+
+Replace the following section in your yaml file. Change any settings you need to this scales the output from 1-1000.
+
+```markdown
+user_outputs:
+  analog0_pin: NO_PIN
+  analog1_pin: NO_PIN
+  analog2_pin: NO_PIN
+  analog3_pin: NO_PIN
+  analog0_hz: 5000
+  analog1_hz: 5000
+  analog2_hz: 5000
+  analog3_hz: 5000
+  digital0_pin: gpio.26
+  digital1_pin: NO_PIN
+  digital2_pin: NO_PIN
+  digital3_pin: NO_PIN
+
+Laser:
+  pwm_hz: 5000
+  output_pin: gpio.27
+  enable_pin: NO_PIN
+  disable_with_s0: false
+  s0_with_disable: true
+  tool_num: 0
+  speed_map: 0=0.000% 1000=100.000%
+  off_on_alarm: true
+```
+Quick note, **gpio.26** can have a quick pulse when starting. If you are using a 5V pin for your laser pin 27 is the better option for your enable pin.
 
 ### Initial "flashing"
 
 If you bought it from the V1E.com store it should be ready to go. This is in case you want to update or start fresh.
 
-There is no need for compiling or any of the previous steps needed to "flash" a marlin based board. There are three options for doing this.
-
-Keep an eye on this page or you can even subscribe to updates to know anytime the files are changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
+Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
 Some PC's will need USB drivers, if needed the ESP32 USB drivers are here [CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
 
+There is no need for compiling or any of the previous steps needed to "flash" a marlin based board. There are three options for doing this.
 
 **Preferred - Browser Based** - There is a [browser based tool by Joacim](https://breiler.github.io/fluid-installer/) (works best in Chrome). From here you need to connect your esp32 to your computer. Select connect, and follow the prompts. It is best to always start fresh.
 
-After you have loaded the firmware you can restart and use the file borwser to load our configs and macros from here, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
+After you have loaded the firmware you can restart and use the file browser to load our configs and macros from here, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
 !!! Note
     Some ESP32 boards require you to hold the boot button to start flashing them, then you can release it when it starts. This is the button closest to pin D0. The Web installer will prompt you if this is needed, manual metheds will not.
