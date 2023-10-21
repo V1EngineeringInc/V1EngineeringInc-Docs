@@ -89,7 +89,7 @@ Mitch Bradley also deserves a lot of thanks for handling the day to day of Fluid
 
 The Jackpot Control board can use most any control software that supports GRBL. Most people will likely use the built in WebUI. This can be used from any device that has a web browser. If you are using a small touchscreen you can even zoom in so the buttons are easier to hit.
 
-screenshot
+![!WebUI](../img/jackpot/LUI.jpg){: loading=lazy width="400"}
 
 This Interface is a slightly modified version of the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for most of the Jackpot's outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settigns all from the WebUI.You can wirelessly transfer your gcode files, but manually using teh MicorSD card is still preferd. Most will probably never even plug the USB port in. 
 
@@ -182,13 +182,13 @@ M30
 
 ## Auto Square
 
-Auto Square on this board no longer uses Gcode commands. You can edit each endstop indivdually directly from the Config section of the WebUI.
+Auto Square on this board no longer uses Gcode commands. You can edit each endstop indivdually directly from the "Config" section of the WebUI (or directly to the yaml file).
 
-ui screenshot
+![!CONFIG WebUI](../img/jackpot/confg.png){: loading=lazy width="400"}
 
 From there you have a "pulloff_mm" setting for each endstop. This setting is how far the machine backs away from the endstop after it triggers it. This needs to be far enough to reset the trigger at a minimum and if your values should be within 3mm of each other. If they are not it is best to move the endstop triggers.
 
-Pulloff screenshot
+![!CONFIG pulloff](../img/jackpot/pulloff.png){: loading=lazy width="400"}
 
 ## Laser tips
 
