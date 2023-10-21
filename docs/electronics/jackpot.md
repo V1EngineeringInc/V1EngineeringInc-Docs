@@ -85,6 +85,14 @@ Mitch Bradley also deserves a lot of thanks for handling the day to day of Fluid
     * ISO
 ![!Jackpot iso](../img/jackpot/StepISO.png){: loading=lazy width="400"}
 
+## Controls
+
+The Jackpot Control board can use most any control software that supports GRBL. Most people will likely use the built in WebUI. This can be used from any device that has a web browser. If you are using a small touchscreen you can even zoom in so the buttons are easier to hit.
+
+screenshot
+
+This Interface is a slightly modified version of the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for most of the Jackpot's outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settigns all from the WebUI.You can wirelessly transfer your gcode files, but manually using teh MicorSD card is still preferd. Most will probably never even plug the USB port in. 
+
 ## Initial Setup
 
 If you bought it from the V1E.com store it should be ready to go. You should be able to log in directly (SSID- FluidNC PASS - 12345678). From there you can control your machine, upload files, change settings, even update the firmware or GUI all OTA.
@@ -172,6 +180,16 @@ $HZ
 M30
 ```
 
+## Auto Square
+
+Auto Square on this board no longer uses Gcode commands. You can edit each endstop indivdually directly from the Config section of the WebUI.
+
+ui screenshot
+
+From there you have a "pulloff_mm" setting for each endstop. This setting is how far the machine backs away from the endstop after it triggers it. This needs to be far enough to reset the trigger at a minimum and if your values should be within 3mm of each other. If they are not it is best to move the endstop triggers.
+
+Pulloff screenshot
+
 ## Laser tips
 
 For the fastest raster etching, the most reasource intensive thing we can do. Either use AP mode with a microSD card, or turn off the wifi and use only the USB (with [Lightburn](https://lightburnsoftware.com/)).
@@ -256,6 +274,7 @@ The Firmware bin update is automated using the web tool, ran from the OTA sectio
 
 [Github link](https://github.com/V1EngineeringInc/FluidNC_Configs) 
 You can sign up for notifications of any updates if you would like.
+
 
 ## Input / Output / Module port
 
