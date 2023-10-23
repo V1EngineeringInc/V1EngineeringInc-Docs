@@ -2,7 +2,7 @@
 
 ![!pic](../img/old/2017/11/IMG_20180529_175849.jpg){: loading=lazy width="400"}
 
-Using [this wiring kit](https://www.v1e./collections/parts/products/wiring-kit-1),
+Using [this wiring kit](https://www.v1e.com/collections/parts/products/wiring-kit-1),
 you really just need to plug in the motors and endstops, tape or otherwise secure the connection, and go.
 
 ![!pic](../img/old/2018/05/IMG_20180529_1806062.jpg){: loading=lazy width="400"}
