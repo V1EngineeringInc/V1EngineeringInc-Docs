@@ -96,7 +96,7 @@ This Interface is a slightly modified version of the [ESP3D WebUI project](https
 
 ## Initial Setup
 
-If you bought it from the V1E.com store it should be ready to go. You should be able to log in directly (SSID- FluidNC PASS - 12345678). From there you can control your machine, upload files, change settings, even update the firmware or GUI all OTA.
+If you bought it from the V1E.com store it should be ready to go. You should be able to log in directly to SSID=FluidNC PASS=12345678 (some browswer will then need to be pointed to 192.168.0.1, best to bookmark that address). From there you can control your machine, upload files, change settings, even update the firmware or GUI all OTA.
 
 We use the Jackpot board in AP mode (access point), this is a direct connection betwean your web enabled device and the board itself. If you have a touch screen device that should function as well as zoom if you need it for big fingers. Of course keyboard and mouse will work just as well.
 
