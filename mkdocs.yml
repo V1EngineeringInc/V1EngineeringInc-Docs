@@ -157,6 +157,9 @@ copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA
 
 plugins:
   - glightbox
+  - search
+  - search.suggest
+  - search.highlight
 
 markdown_extensions:
   - attr_list
