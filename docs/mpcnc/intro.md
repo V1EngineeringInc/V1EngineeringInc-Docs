@@ -9,26 +9,20 @@ The Mostly Printed CNC (MPCNC) is a platform to precisely control motion. This c
 
 All components are easily sourced, or you can buy the parts from this site. Here is a price breakdown.
 
-* The [Bundle](https://www.v1e.com/collections/parts/products/mostly-printed-cnc-parts-bundle-primo-version) has all the hardware, electronics, and control board, everything except the [conduit/rails](https://docs.v1engineering.com/mpcnc/calculator/) which are cheaper to source locally than to ship – $353 + shipping if international.
-* 20′ of [Conduit](https://docs.v1engineering.com/mpcnc/calculator/) **≈\$12** (or stainless-steel tubing or DOM Tubing for a little more ≈\$65) .
+* The [Bundle](https://www.v1e.com/collections/parts/products/mostly-printed-cnc-parts-bundle-primo-version) has all the hardware, electronics, and Jackpot CNC Control board $301 + shipping if international.
+* 20′ of [Conduit](https://docs.v1engineering.com/mpcnc/calculator/) **≈\$12** (which are cheaper to source locally than to ship) – or stainless-steel tubing or DOM Tubing for ≈$65 .
 * Plastic parts, filament, less than 2 spools **≈\$35** if you own a 3D printer. If not, buy the printed parts from [here](https://www.v1e.com/collections/parts) for $165.
-* Tool. Either a [Dewalt](https://amzn.to/1MoBSQq), [import spindle](https://amzn.to/3dkKgl0) or an [extruder](https://amzn.to/37ZjygN) (3D Printer) $63, or anything else you might want to bolt on, [laser](https://amzn.to/37OcdQK), [drag knife](https://www.v1e.com/collections/parts/products/drag-knife-vinyl-cutter), foam cutting needle (awesome), etc.
+* Tool. Either a [Kobalt](https://www.lowes.com/pd/Kobalt/5014100299), [Makita](https://amzn.to/3sfwDB0), [Dewalt](https://amzn.to/1MoBSQq), [import spindle](https://amzn.to/3dkKgl0) ~$99, or anything else you might want to bolt on, [laser](https://amzn.to/37OcdQK), [drag knife](https://www.v1e.com/collections/parts/products/drag-knife-vinyl-cutter), foam cutting needle (awesome), etc.
 
-Total Cost… if you have a 3D printer Under $465, $595 if you buy the printed parts from here.
+Total Cost… if you have a 3D printer Under $450, $577 if you buy the printed parts from here.
 
 
-I would like to drive that price home one more time. You can have a CNC router for all sorts of work ([here](https://forum.v1engineering.com/tag/gallery-mpcnc), or the full sheet version[here](https://forum.v1engineering.com/tag/gallery-lowrider-cnc) all the way up to [aluminum milling](https://forum.v1engineering.com/t/lionkevs-aluminum-attempts/6047/101?u=vicious1) and [plasma cutting](https://forum.v1engineering.com/t/plasma-build/5662) steel for under $600). That is all you need to spend, throw in a few endmills and you are still under $620.  **There is no other machine more versatile than the Mostly Printed CNC at any price point.**
+Let's drive that price home one more time. You can have a CNC router for all sorts of work [Users project Gallery](https://forum.v1engineering.com/tag/gallery-mpcnc), Laser cutting and etching, yes aluminum milling is possible, even making it a plasma cutter, for under $580. That is all you need to spend, throw in a few endmills and you are still under $600.  **There is no other machine more versatile than the Mostly Printed CNC at any price point.**
 
 
 ## Specs…
 
 Not easy to make a specs page when it can have almost any specs you want. The idea behind this is to be extremely adaptable, easy to self source, and inexpensive. Why buy a single use machine when you can have one that does it all for less than the cost of any single function machine. No proprietary hardware or software, build it any size and shape you want (more on this later), buy it from this site or source it all yourself, helpful forums, low cost, and capable. What more could you ask for?
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qJfYTv88YvI"
-  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
-Have a look at this video from 2016. Keep in mind we have evolved considerably since then.
 
  
 ## Size
