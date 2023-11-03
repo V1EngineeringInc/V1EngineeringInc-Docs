@@ -149,6 +149,7 @@ Change the basic settings to GRBL.
 
 Some screen shots needed here.
 
+**Lowrider**
 Starting Gcode-
 ```markdown
 G21
@@ -178,6 +179,43 @@ Ending Gcode-
 ```markdown
 M63 P1 ( stop spindle pin27 )
 $HZ
+M30
+```
+
+**MPCNC**
+Starting Gcode-
+```markdown
+G21
+G90
+G94
+G92 X0 Y0
+M0 (MSG Attach probe)
+G38.2 Z-80 F200 P0.5 (probe down set thickness )
+G1 Z10 F900
+M0 (MSG Remove probe)
+M62 P1 (If used start spindle pin27 )
+```
+
+Tool Change-
+```markdown
+M63 P1 ( turn off pin 27)
+G91
+G0 Z10
+G90
+G0 X0 Y10 F2520 
+M0 (MSG change tool, probe)
+G38.2 Z-80 F200 P0.5 ( Probe set thickness)
+G00 Z10.0000 F500 ( Clearance )
+M0 (MSG remove probe)
+M62 P1 ( turn on pin27 )
+```
+
+Ending Gcode-
+```markdown
+M63 P1 ( stop spindle pin27 )
+G91
+G0 Z10
+G90
 M30
 ```
 
