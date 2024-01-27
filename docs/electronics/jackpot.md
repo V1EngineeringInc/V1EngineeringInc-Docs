@@ -96,12 +96,12 @@ This Interface is a slightly modified version of the [ESP3D WebUI project](https
 
 ## Initial Setup
 
-If you bought it from the V1E.com store it should be ready to go. You should be able to log in directly to SSID=FluidNC PASS=12345678 (some browswer will then need to be pointed to http://192.168.0.1, best to bookmark that address). From there you can control your machine, upload files, change settings, even update the firmware or GUI all OTA.
+If you bought it from the V1E.com store it should be ready to go. You should be able to log in directly to SSID=FluidNC PASS=12345678 (some browsera will then need to be pointed to http://192.168.0.1, best to bookmark that address). From there you can control your machine, upload files, change settings, even update the firmware or GUI all OTA.
 
-We use the Jackpot board in AP mode (access point), this is a direct connection betwean your web enabled device and the board itself. If you have a touch screen device that should function as well as zoom if you need it for big fingers. Of course keyboard and mouse will work just as well.
+We typically use the Jackpot board in AP mode (access point), this is a direct connection betwean your web enabled device and the board itself. If you have a touch screen device that should function as well as zoom if you need it for big fingers. Of course keyboard and mouse will work just as well.
 
 !!! Note
-    You can also configure your device in STA mode. This will get your board connected to your local network. This is advanced and not reccomended unless you are very confident in your networking setup. If you choose to do this [disabling SSDP](http://wiki.fluidnc.com/en/features/wifi_bt#wifi-settings) is reccomended to save memory. The FluidNC wiki does currently say STA mode is reccomended but do to network differences it is not reccomended here as it is impossible to support and troubleshoot, also the reason for this reccomendation might be outdated.
+    You can also configure your device in STA mode, http://fluid.local, if you have a strong signal to your home WiFi network. This will get your board connected to your local network. This is advanced and not reccomended unless you are very confident in your networking setup. The FluidNC wiki does currently say STA mode is reccomended but do to network differences it is not reccomended here until you are familiar with how the firmware and your machine work as it is impossible to support and troubleshoot network issues. Stick to AP mode until everything is stable with your workflow.
 
 #### Wiring
 
@@ -237,7 +237,7 @@ For the fastest raster etching, the most reasource intensive thing we can do. Ei
 
 **$Wifi/Mode=off** - if you are using the USB connection to Lightburn to use some of the built-in tools use this command to turn off the radio. It will come back after a power cycle. 
 
-If you have a laser defined in the config you are always in "laser" mode (M4). So you can either leave it defined and use M5 (turn off laser mode) in your starting gcode for non-laser CNC use, or just comment out the laser in the config (like I ship it). The Jackpot can have multiple config files stored on it.
+If you have a laser defined in the config you are always in "laser" mode (M4). So you can either leave it defined and use M5 (turn off laser mode) in your starting gcode for non-laser CNC use, or just comment out the laser in the config (like I ship it). The Jackpot can have multiple config files stored on it. So the best way to do this is have config.yaml, and configlaser.yaml, if you want to use both. Then select the proper config and power cycle the board.
 
 Raster speed depends on dot size, for a 0.19mm resolution I am getting 70-120mm/s depending on the type of raster.
 
@@ -273,55 +273,44 @@ Laser:
 Quick note, **gpio.26** can have a quick pulse when starting. If you are using a 5V pin for your laser pin 27 is the better option for your enable pin.
 
 ## Firmware
-If you bought it from the V1E.com store it should be ready to go. This is in case you want to update or start fresh.
+If you bought it from the V1E.com store it should be ready to go. This section is in case you want to update or start fresh.
 
 Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
+**The Current tested and confimed FluidNC version is 3.7.12**, use anything newer than this with caution. 
+
+
+There is no need for compiling or any of the previous steps needed to "flash" a marlin based board. There are several options for doing this.
+
+1- **Preferred - Browser Based** - There is a [browser based tool by Joacim](https://breiler.github.io/fluid-installer/) (works best in Chrome). From here you need to connect your esp32 to your computer. Select connect, and follow the prompts. It is best to always start fresh.
+
 Some PC's will need USB drivers, if needed the ESP32 USB drivers are here [CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
-
-There is no need for compiling or any of the previous steps needed to "flash" a marlin based board. There are three options for doing this.
-
-**Preferred - Browser Based** - There is a [browser based tool by Joacim](https://breiler.github.io/fluid-installer/) (works best in Chrome). From here you need to connect your esp32 to your computer. Select connect, and follow the prompts. It is best to always start fresh.
 
 After you have loaded the firmware you can restart and use the file browser to load our configs and macros from here, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
 !!! Note
     Some ESP32 boards require you to hold the boot button to start flashing them, then you can release it when it starts. This is the button closest to pin D0. The Web installer will prompt you if this is needed, manual metheds will not.
-
-**Manually** -
-[Firmware files are here](https://github.com/bdring/FluidNC/releases) 
-[Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs)
-
-Detailed instructions [FluidNC WIKI Install](http://wiki.fluidnc.com/en/installation#using-pre-compiled-files)
-
-When you download the files you can unzip the folder and run erase.bat (unless you are purposely updating only one part), install-wifi.bat, then install-fs.bat. Run FluidTerm from that same folder and hit ctrl+u to select the config.yaml for your machine (linked above), hit enter to accept the name. After that is done uploading, you can hit ctrl+r to reset. The Fluid term is a crazy good tool If you ever have any issues, this is how we will check it. When you are all wired and powered up, I suggest using it to reset the board and check to see everything is working.
-
-You can also load the preferences.json, and macrocfg.json files using CTRL+U. After you log in you can more quickly load the "macro**.g" files
-
-**Compile from source** - You can also download the source files and compile and flash it directly from something like platform.io.
-
-### Updating
-
-If you ever want or need to update the actual firmware, GUI, or configs you can do it with the [browser based tool by Joacim](https://breiler.github.io/fluid-installer/), OTA in the WIFI GUI, [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware), or manually with FluidTerm,[browser based tool by Joacim](https://breiler.github.io/fluid-installer/). This is very easy, no compiling. 
-
-The GUI update file is, "index.html.gz", and found in the wifi folder [here](https://github.com/bdring/FluidNC/releases). To update this just overwrite the current file and reboot.
-
-Config files are config.yaml (the name can be changed). To update this just overwrite the current file and reboot.
-
-The Firmware bin update is automated using the web tool, ran from the OTA section of the GUI, or run install-wifi.bat manually.
-
-
-### Configuration Files
-
-[Github link](https://github.com/V1EngineeringInc/FluidNC_Configs) 
-You can sign up for notifications of any updates if you would like.
+    
+??? More
+    2- **OTA** - you can update the UI or the firmware in the interface itself. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware)
+   
+    3- **Manually** -
+    [Firmware files are here](https://github.com/bdring/FluidNC/releases) , [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs)
+   
+    Detailed instructions [FluidNC WIKI Install](http://wiki.fluidnc.com/en/installation#using-pre-compiled-files)
+   
+    When you download the files you can unzip the folder and run erase.bat (unless you are purposely updating only one part), install-wifi.bat, then install-fs.bat. Run FluidTerm from that same folder and hit ctrl+u to select the config.yaml for your machine (linked above), hit enter to accept the name.    After that is done uploading, you can hit ctrl+r to reset. The Fluid term is a crazy good tool If you ever have any issues, this is how we will check it. When you are all wired and powered up, I suggest using it to reset the board and check to see everything is working.
+   
+    You can also load the preferences.json, and macrocfg.json files using CTRL+U. After you log in you can more quickly load the "macro**.g" files
+   
+    4- **Compile from source** - You can also download the source files and compile and flash it directly from something like platform.io.
 
 
 ## Input / Output / Module port
 
 **gpio.26** can have a quick pulse when starting. If you are using a 5V pin for your laser pin 27 is the better option for your enable pin.
 
-If you use a module that needs UART you will need to add;
+If you use an expansion module that needs UART you will need to add;
 
 ```markdown
 uart2:
@@ -346,12 +335,27 @@ If you have a case that is not part of this collection please let me know and I 
 ## Troubleshooting
 Some issues we have seen.
 
--No connection - Charge only USB cable, make sure yours is data capable.
+-No connection - Charge only USB cable? make sure yours is data capable.
+
+-Flashing issues - Remove the ESP32 from the Jackpot and try the web based installer again.
 
 -No memory card showing up - Try a [class 6 card](https://amzn.to/3t4lVgF), or slower formatted in fat32. New fancy high speed cards are hit or miss. [A1 rated cards](https://amzn.to/3PRpYpx) seem particularly troublesome.
 
+-Some PC's will need USB drivers, if needed the ESP32 USB drivers are here [CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
 
-## Changelog
+-If you use STA mode and lose your Jackpot on the network you can find it's IP on your router, reboot with the antenna covered for 2 minutes with metal so it boots into AP mode, or just reflash.
+
+-If you made any changes to the config use the web based tool, or fluid term, to watch the boot messages. You can also view them by typing $SS. If you do not understand it cut and paste the first half into the V1 forums.
+
+
+
+## Jackpot Hardware Changelog
+
+V1.2.1 - Change a few components for more common versions. Adjust the header holes for better alignment.
+
+V1.2 - Pull up resistor added for more robust boot on more ESP32 boards.
+
+V1.1 - Added OSHWA Logos
 
 V1 - 8/10/23 - Just a graphics change from RC2.
 
