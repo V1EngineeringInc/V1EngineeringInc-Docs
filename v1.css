@@ -1,0 +1,13 @@
+:root > * {
+  --md-typeset-a-color: #D60000;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #D60000;
+  --md-default-bg-color: #464646;
+  --md-primary-fg-color: #2a2a2a;
+}
+
+.md-grid {
+  max-width: 1200px; 
+}
