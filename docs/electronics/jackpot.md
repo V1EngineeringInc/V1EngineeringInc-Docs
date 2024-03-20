@@ -277,7 +277,7 @@ If you bought it from the V1E.com store it should be ready to go. This section i
 
 Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
-**The Current tested and confimed FluidNC version is 3.7.12**, use anything newer than this with caution. 
+**The Current tested and confimed FluidNC version is 3.7.15**, use anything newer than this with caution. 
 
 
 There is no need for compiling or any of the previous steps needed to "flash" a marlin based board. There are several options for doing this.
