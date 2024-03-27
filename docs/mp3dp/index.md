@@ -148,4 +148,72 @@ There are 20 total pieces of extrusion that need to be cut
 
 ### Frame
 
+The process is very similar for a corner bracket frame. Panels are easier to build but harder to make.
+
+Building on a very flat and solid surface will make this part easier.
+
+Frame parts and tools. We will start with the back panel.
+
+![!image](../img/mp3dpv5/FrameAssembly1.jpeg){: width="600"}
+
+
+Load up the t-nuts. It's important at this stage to insert all t-nuts that will be necessary if you are using the trapped t-nuts instead of twist-ins. I only use twist in’s when I forget to load one in.
+
+![!image](../img/mp3dpv5/FrameAssembly2.jpeg){: width="600"}
+
+Slide the extrusion on. Going to use this same process a lot.
+
+![!image](../img/mp3dpv5/FrameAssembly3.jpeg){: width="600"}
+
+Top and bottom
+
+![!image](../img/mp3dpv5/FrameAssembly4.jpeg){: width="600"}
+
+Load in the trapped Tnuts (if you are not using twist in’s).
+
+![!image](../img/mp3dpv5/FrameAssembly5.jpeg){: width="600"}
+
+Add the other rails, load in more trapped T nuts. Remember top and bottoms as well.
+
+![!image](../img/mp3dpv5/FrameAssembly6.jpeg){: width="600"}
+
+Add last rear rail. Verify all dimensions, Diagonals are very important as well (cut ends are not accurate to measure from so inside corner to inside corner works best).
+
+![!image](../img/mp3dpv5/FrameAssembly7.jpeg){: width="600"}
+
+Verify Z rail location to the CAD dimensions. Do yourself a favor and get them all very accurate.
+
+![!image](../img/mp3dpv5/FrameAssembly8.jpeg){: width="600"}
+
+![!image](../img/mp3dpv5/FrameAssembly9.jpeg){: width="600"}
+
+Build out the side panels, stop at this point to load in trapped T Nuts.
+
+![!image](../img/mp3dpv5/FrameAssembly10.jpeg){: width="600"}
+
+![!image](../img/mp3dpv5/FrameAssembly11.jpeg){: width="600"}
+
+Verify verify dims
+
+![!image](../img/mp3dpv5/FrameAssembly12.jpeg){: width="600"}
+
+Load in the Nuts for attaching the sides
+
+![!image](../img/mp3dpv5/FrameAssembly13.jpeg){: width="600"}
+
+![!image](../img/mp3dpv5/FrameAssembly14.jpeg){: width="600"}
+
+You can slide the sides in to get ready for the bottom.
+
+![!image](../img/mp3dpv5/FrameAssembly15.jpeg){: width="600"}
+
+Add the front bottom rail to the bottom panel.
+
+![!image](../img/mp3dpv5/FrameAssembly16.jpeg){: width="600"}
+
+Attach the bottom and check all the dimensions again, snug up the screws. Check every diagonal you can.
+I stop here to add the hardware in while it is easy to reach in. If you are building a corner bracket frame feel free to build the whole cube.
+
+![!image](../img/mp3dpv5/FrameAssembly17.jpeg){: width="600"}
+
 ### XY Gantry
