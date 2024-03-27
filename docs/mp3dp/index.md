@@ -1,252 +1,219 @@
-# MP3DP v4 CoreXY
+# MP3DP v5 CoreXY
 
-Having fun, this is the second CoreXY version for me, 4th printer design overall. Works fantastic, can be scaled on all axes. Physical and mesh bed leveling. You will need a 6 driver board for this one. Linear rails on all axes, belt drive Z axes.
+This is the 3rd CoreXY version for me, 5th printer design overall. This printer was a group effort and a direct result of everyone’s input, [Forum Thread](https://forum.v1e.com/t/help-develop-the-next-mp3dp/41947)
 
-The V1 Engineering printers are not as well documented as the CNC's. Building a printer is surprisingly much more difficult than making a large CNC. This is very much DIY, ask questions in the forums, and we will help you out and hopefully fill in the details here as we go.
+This is a CoreXY with easily machinable plates for ultimate rigidity where it counts but 3D printed parts where it does not matter to save from complicated multi-sided milling.
 
-**These instructions are getting filled in as questions are asked**
+Belted Z axis, with free floating bed to allow for physical tilt correction as well as mesh correction, and possible non-planer printer in the future. Electronic brakes provide easy drop protection for the bed.
 
-![!mp3dp v4](../img/mp3dpv4/mp3dpv4_1.jpg){: width="400"}
+![!mp3dp v5](../img/mp3dpv5/printer.jpeg){: width="600"}
 
-More details to come, [forum thread](https://forum.v1engineering.com/t/repeat-v2/33330/55).**
+This first build of mine has a 300x300x200 build area, running Klipper, **Costs about $800**. [Forum Thread](https://forum.v1e.com/t/v5-1-the-plated-printer/42809).**
 
-[CAD link](https://forum.v1engineering.com/t/repeat-v2/33330/85?u=vicious1).
 
-[Files link](https://www.printables.com/model/282346-mp3dp-v4).
+!!! Warning
+    ### **Note for potential builders**
 
-![!mp3dp v4](../img/mp3dpv4/MP3DP v4 v52.png){: loading=lazy width="400"}
+    If you are thinking about building a printer… a V1 Engineering CNC is an easy to intermediate build, a 3D printer is an advanced to expert build. A lot of personal build decisions need to be made, wiring is on the advanced end, firmware edits are required, CAD reference and possible edits are required, and overall build precision is higher.
 
-## Parts
-This printer is designed open-ended and open source. There are so many variables to making a printer the way YOU want it I can not possibly cover everything. I will list how I made it, that will be the easiest path to follow, and from there I will try to provide tips and tricks to modify it to suit your needs. For example, I use a BLTouch, you can use anything you want just know you will need to modify your extruder mount to fit it and edit the firmware accordingly.
+    Because the builds vary, so wildly, instructions might not exist for the exact combination of hardware and electronics you choose. As always you can come here for help but if you chose random parts we might not have enough experience with them to help. If you are on the fence and want to tackle this, it would be best to follow my build exactly.
 
-### Electronics and specialized printer parts
 
-**Control board**, You will need at least 6 drivers. I have used the [SKR Pro](https://www.v1e.com/collections/3dprinter-parts/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3) with Marlin, a sample config is available in the [marlin builder](https://github.com/V1EngineeringInc/MarlinBuilder/releases). Here is an extra [2209 driver](https://www.v1e.com/collections/miscellaneous/products/trinamic-tmc-2209-v1-2-uart-drivers). ~$147
+## Parametric Options
 
-**5 steppers**, The Z steppers can be quite small, the X and Y steppers in a core XY should be higher end so speed is not an issue. [Good Shop Steppers](https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers) ~$57
+If you want a printer that is different than the standard build size, or has a custom extruder/hot end, you'll need to edit some parameters in the CAD file to generate the correct part sizes for your build.
 
-5 [Pulleys](https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm) ~$14
+[CAD link - Fusion](https://myhub.autodesk360.com/ue29a24ab/g/shares/SH512d4QTec90decfa6e972762faaa11c772).
 
-2 [Smooth idlers](https://www.v1e.com/collections/3dprinter-parts/products/20t-idler-gt2-10mm) ~$4.80
+This is how you adjust the model. Open the modify menu, Change parameters Menu.
+![!Open Parameters](../img/mp3dpv5/Parameters%20-%20open.png){: width="600"}
 
-6 [Toothed Idlers](https://www.v1e.com/collections/3dprinter-parts/products/idler-10mm-20t-5mm-bore) ~$14.40
 
-Belt [10mm GT2](https://www.v1e.com/collections/3dprinter-parts/products/gt2-10mm-belt) length calculation needed. Rough estimate 4x(X length)+4x(YLength)+3x(Z length)+ 750mm. ~$10
+### Build Size
 
-Endstops, 2 X and Y, Z uses the probe. [Shop Endstops](https://www.v1e.com/collections/miscellaneous/products/limit-switch-endstop) ~$3.20
+!!! Note
+    The Three Bed cut parts (Bed A-C) are the only parts that are size dependent. Make sure to set the correct build size before cutting these parts. 300X x 300Y is the default included size.
 
-Power Supply, 12-24V make sure all the components match this voltage. 45W+ for printer and hotend, Heated beds needs 300W plus unless you are doing mains powered. [Example](https://amzn.to/3M2Io3I) ~$25
+These three settings are how you adjust the size of the build. Z is not exact as it depends on the hotend you chose but it should be close.
 
-Heated Bed, DC beds are easy, AC beds are faster but require a Solid State Relay. ~$25
+![!Parameters - Usable](../img/mp3dpv5/Parameters%20-%20UsableSize.png){: width="600"}
 
-PEI sheet or other print adhesion methods. ~$30
+**Note: The CAD will fail if you go up and down in size. Make one edit and it should be fine. If you have an issue, start fresh.**
 
-Bed standoffs, silcone tube, or springs ~$1
+### Optional hole size
 
-Linear rails, sizes per the CAD, Linear rails will be X=Usable+100mm Y=Usable +50mm Z=Usable+50mm. [Example](https://amzn.to/3W48Azh)  ~$95
+This lets you adjust the hole size for the Plates to frame.
 
-Extruder -I used the [Hemera](https://amzn.to/42WjARt) ~$170 
+ I was asked to allow for M5 hardware. This is where you do that. You will need to export new DXF files for the corners and tensioner parts.
 
-Probe - I used the [BL Touch](https://amzn.to/42yp3hS) ~$40
+![!Parameters - Hole Size](../img/mp3dpv5/Parameters%20-%20AdjustableHoleSize.png){: width="600"}
 
-Total for this section ~$636
+### Belt Grip
+
+If you want to make the Belt have a tighter or looser grip on the core bottom or Z top pieces, you can change it here.
+
+![!Parameters - Belt Grip](../img/mp3dpv5/Parameters%20-%20BeltGrip.png){: width="600"}
+
+## CAD Help
+
+### Exporting DXFs
+
+If you want to export your own DXF’s this is where you find them.
+
+![!DXF Export](../img/mp3dpv5/DXF%20Export.png){: width="600"}
+
+## BOM
+
+### Flat Parts
+
+The flat parts are designed for you to be able to mill them yourself with your MPCNC or LowRider out of 3/16" (4.7mm-5mm) aluminum. 
+
+!!! Note
+    The Three Bed cut parts (Bed A-C) are the only parts that are size dependent. Make sure to set the correct build size before cutting these parts. 300X x 300Y is the default included size.
+
+|QTY |File Name                   |Comment                              |Link                                     | 
+|----|----------------------------|-------------------------------------|-----------------------------------------|
+|2   |Corner Top                  |                                     |                                         |
+|2   |Corner Stepper              |                                     |                                         |
+|2   |Truck Rail                  |                                     |                                         |
+|2   |Truck Top                   |                                     |                                         |
+|3   |Z Front                     |                                     |                                         |
+|3   |Z Back                      |                                     |                                         |
+|4   |Tensioner                   |                                     |                                         |
+|1   |Bed A                       |                                     |                                         |
+|1   |Bed B                       |                                     |                                         |
+|1   |Bed C                       |                                     |                                         |
 
 ### Printed Parts
 
-[Files link](https://www.printables.com/model/282346-mp3dp-v4).
+No supports needed, keep the default orientation. 
+PLA is recommended for ultimate rigidity, other filaments should be evaluated for rigidity.
+2-3 walls 
+rectilinear infill. 
 
-Less than a spool of filament, IF you print them yourself ~$20
 
-There are lots of wire clip options in the CAD.
+|QTY |File Name                   |Infill |Comment                              |Link                                     | 
+|----|----------------------------|-------|-------------------------------------|-----------------------------------------|
+|1   |Core Top*                   |55%    |                                     |                                         |
+|1   |Core Bottom*                |55%    |                                     |                                         |
+|3   |Z Belt Lower                |40%    |                                     |                                         |
+|3   |Z Belt Upper                |40%    |                                     |                                         |
+|3   |Z Stepper - Z Bearing Mount |40%    |                                     |                                         |
+|6   |Z Stepper - Z spacer        |40%    |                                     |                                         |
+|3   |Z Stepper - Bed Mount       |40%    |                                     |                                         |
+|2   |Y Truck                     |40%    |                                     |                                         |
+|4   |Y Truck - spacer            |40%    |                                     |                                         |
+|2   |X Rail - Nut holder         |40%    |                                     |                                         |
+|4   |Rear Spacer                 |40%    |                                     |                                         |
+|1   |Smoother                    |40%    |                                     |                                         |
+|2   |Front Spacer                |40%    |                                     |                                         |
+
+### Frame
+
+The frame is built with 2020 extrusion.
+
+Cuts should be planned carefully to reduce waste. A site like [Opticutter](https://www.opticutter.com/linear-cut-list-calculator) can be used to verify the amount necessary for your printer size.
+
+**It is highly recommended that you calculate this before ordering your extrusion to reduce potential extra cost**
+
+#### Extrusion List
+
+There are 20 total pieces of extrusion that need to be cut
+
+|QTY |Name                   |
+|----|----------------------------|
+|6   |Y Rails                     |
+|5   |X Rails                     |
+|4   |Z Uprights                  |
+|3   |Z Linear Rail Mount         |
+|1   |Bed Support 1               |
+|1   |Bed Support 2               |
+
+*Cut all extrusions 2-3mm short. This lets you have not perfect cuts and still build an extremely accurate frame.
+
+### Bed Parts
+
+### Extruder
 
 
-### Hardware and frame
+### Frame
 
-The frame can be just extrusion, extrusions and panels, if you are hardcore you can build it out of just panels but, I found that to be too seasonally variable to have an accurate printer. Extrusions and panels is the easiest if you have a CNC to make the panels. If you use panels and extrusions you will use M3x10mm screws and T Nuts, just extrusions you will use whatever your brackets come with (M5 and T nuts).
+2020 Extrusion - [Amazon](https://amzn.to/3P7TBCl)
 
-Hardware, linear rails all use M3x8 (plus the one stepper mount marked with an “8”, "Y" stepper). Min 3 per rail +1 (16), max 1 per 25mm of rail +1 (30+).  
+### Electronics
 
-M2.5x12 for the endstops, 4 qty
-
-M3x10mm for the steppers (19), X rail connection (4), rail bearing blocks (24), printed parts to frame (20), Optional panels (~80). ~150 qty+
-
-M5x30 & nuts for all of the assembly. ~17qty
-
-Quantities vary depending on build size, more info to come for the assembly.
-
-Slide in T nuts are better than twist in. You will need some of both.
-
-Cut all your rails a 2-3mm short so you have some room to adjust for square. There is no advantage to a tight fit on the extrusions. If you are using panels, you can leave 5mm of room and even more on the Z extrusions to allow for wire management.
-
-~$100
-
-### Cost 
-
-The running totals here can vary, ~$750 if you buy everything new. If you have any parts you can reuse than you can quickly bring that price down.
+### Hardware
 
 ## Assembly
 
-I find it best to start with the back of the frame, build it as accurate as possible, and use that as your reference for all other frame pieces.
+### Frame
 
-The X dimension (left to right as you face the printer) is by far the most critical. This makes the X rail fit into the printed pieces.
+The process is very similar for a corner bracket frame. Panels are easier to build but harder to make.
 
-Belts, cut the belts to a point if you are having a hard time passing them through the slots. If they do not stay put a piece of filament in the loop.
+Building on a very flat and solid surface will make this part easier.
 
+Frame parts and tools. We will start with the back panel.
 
+![!image](../img/mp3dpv5/FrameAssembly1.jpeg){: width="600"}
 
-### Squaring and calibration
 
-#### Frame squaring
+Load up the t-nuts. It's important at this stage to insert all t-nuts that will be necessary if you are using the trapped t-nuts instead of twist-ins. I only use twist in’s when I forget to load one in.
 
-Frame squaring takes the longest and the more perfect you get this, the easier it will be to get dimensionally accurate parts. This mainly consists of measuring the diagonals of all faces of the frame and making them match, to the best of your abilities.
+![!image](../img/mp3dpv5/FrameAssembly2.jpeg){: width="600"}
 
-#### Printer Calibration
+Slide the extrusion on. Going to use this same process a lot.
 
-X, Y, and Z dimensions should be spot on, the axes are geared. 
+![!image](../img/mp3dpv5/FrameAssembly3.jpeg){: width="600"}
 
-Acceleration, jerk/junction deviation, and extrusion temp are all easily testable and tuned.
+Top and bottom
 
-Make sure to calibrate your E steps to your extruder with the 100mm extrusion test.
+![!image](../img/mp3dpv5/FrameAssembly4.jpeg){: width="600"}
 
-The part I spend the most time on is testing diagonals. For example, printing a large square on the bed, measuring the diagonals, and ensuring I am printing squares. This course adjustment is the position of the X rail (it has some wiggle room in the 4 screws), the fine adjustment is actually the XY belt tensions (if you tug on a belt you will see how it tweaks the X rail position. From there, the Y rails can be adjusted in relation to the Z rails. If you were to print something tall if it is leaning or not 90 degrees one of you Y rails can be moved up or down to compensate. I am able to get 150mm diagonals in XY (flat), YZ (tall front to back), XZ (tall left to right) within 0.1mm with a few test prints. If you are not really printing dimensionally critical functional parts, you can mostly skip this step.
-Make sure not to overtighten the belts, plucking them you should barely get a sound. Since it is doubled up, 1/16 turn of the tensions screws provides a lot of movement. You can easily stall your steppers with too much belt tension.
+Load in the trapped Tnuts (if you are not using twist in’s).
 
-## Wiring and Electronics
+![!image](../img/mp3dpv5/FrameAssembly5.jpeg){: width="600"}
 
-Stepper location
-Z1 to Z port
-Z2 to E1 port
-Z3 to E2 port
-|  3  |
-|     |
-|1   2|
+Add the other rails, load in more trapped T nuts. Remember top and bottoms as well.
 
+![!image](../img/mp3dpv5/FrameAssembly6.jpeg){: width="600"}
 
-### Firmware
+Add last rear rail. Verify all dimensions, Diagonals are very important as well (cut ends are not accurate to measure from so inside corner to inside corner works best).
 
-Firmware is in the builder for an SKR Pro, V13RP_V4_SkrPro_2209-2.x.x.zip , configured for 200x200x200. If you make size changes you will need to change the bed size, and/or mesh size, and/or Z height. Then recompile and flash.
+![!image](../img/mp3dpv5/FrameAssembly7.jpeg){: width="600"}
 
-![!mp3dp v4](../img/mp3dpv4/mp3dpv4_2.jpg){: loading=lazy width="400"}
-![!mp3dp v4](../img/mp3dpv4/PXL_20230130_015435002.jpg){: loading=lazy width="400"}
+Verify Z rail location to the CAD dimensions. Do yourself a favor and get them all very accurate.
 
-![!mp3dp v4](../img/mp3dpv4/PXL_20230130_015441608.jpg){: loading=lazy width="400"}
-![!mp3dp v4](../img/mp3dpv4/PXL_20230130_015502268.jpg){: loading=lazy width="400"}
-![!mp3dp v4](../img/mp3dpv4/PXL_20230130_015512792.jpg){: loading=lazy width="400"}
-![!mp3dp v4](../img/mp3dpv4/PXL_20230130_015643044.jpg){: loading=lazy width="400"}
-![!mp3dp v4](../img/mp3dpv4/mp3dpv4_3.webp){: loading=lazy width="400"}
+![!image](../img/mp3dpv5/FrameAssembly8.jpeg){: width="600"}
 
+![!image](../img/mp3dpv5/FrameAssembly9.jpeg){: width="600"}
 
-![!mp3dp v4](../img/mp3dpv4/mp3dpv4_4.webp){: loading=lazy width="400"}
+Build out the side panels, stop at this point to load in trapped T Nuts.
 
-![!mp3dp v4](../img/mp3dpv4/PXL_20230130_015632259.jpg){: loading=lazy width="400"}
-![!mp3dp v4](../img/mp3dpv4/PXL_20230130_015521765.jpg){: loading=lazy width="400"}
+![!image](../img/mp3dpv5/FrameAssembly10.jpeg){: width="600"}
 
+![!image](../img/mp3dpv5/FrameAssembly11.jpeg){: width="600"}
 
-## Resizing
+Verify verify dims
 
-Some rules for resizing. Your X dimension has to be in multiples of 25mm. All of the other axis can be any length you want, the CAD just might look a little funny with the rail hole spacing, that is just cosmetic in CAD. No functional issues other than rails are typically sold in multiples of 25mm. 
+![!image](../img/mp3dpv5/FrameAssembly12.jpeg){: width="600"}
 
+Load in the Nuts for attaching the sides
 
-![!mp3dp v4](../img/mp3dpv4/link.jpg){: loading=lazy width="400"}
+![!image](../img/mp3dpv5/FrameAssembly13.jpeg){: width="600"}
 
- * Open the link wither on this page, or the Printables.com page.
+![!image](../img/mp3dpv5/FrameAssembly14.jpeg){: width="600"}
 
----
+You can slide the sides in to get ready for the bottom.
 
+![!image](../img/mp3dpv5/FrameAssembly15.jpeg){: width="600"}
 
-![!mp3dp v4](../img/mp3dpv4/Step0.jpg){: loading=lazy width="400"}
+Add the front bottom rail to the bottom panel.
 
- * Click the link to open in Fusion360
+![!image](../img/mp3dpv5/FrameAssembly16.jpeg){: width="600"}
 
----
+Attach the bottom and check all the dimensions again, snug up the screws. Check every diagonal you can.
+I stop here to add the hardware in while it is easy to reach in. If you are building a corner bracket frame feel free to build the whole cube.
 
-![!mp3dp v4](../img/mp3dpv4/step1.jpg){: loading=lazy width="400"}
+![!image](../img/mp3dpv5/FrameAssembly17.jpeg){: width="600"}
 
- * Open the Parameters file. It will appear blank.
-
----
-
-![!mp3dp v4](../img/mp3dpv4/Step2.jpg){: loading=lazy width="400"}
-
- * Click "Modify"
- * Click "Change Parameters"
-
----
-
-![!mp3dp v4](../img/mp3dpv4/step3.jpg){: loading=lazy width="400"}
-
-* These number represent the **Usable area** of your bed, and how tall you want the Z axis.
-* Note it is best to work in multiples of 25mm. It is a must for the X axis, but you can do whatever you would like for the X and Y axes.
-
----
-
-![!mp3dp v4](../img/mp3dpv4/step4.jpg){: loading=lazy width="400"}
-
- * Save the file, and close it.
-
----
-
-![!mp3dp v4](../img/mp3dpv4/step5.jpg){: loading=lazy width="400"}
-
- * Open all three of the rail files. All at once or one at a time.
-
----
-
-![!mp3dp v4](../img/mp3dpv4/step6.jpg){: loading=lazy width="400"}
-
- * Click the update icon at the top (red arrow).
- * Save the file and close, for each file (black arrow).
-
----
-
-![!mp3dp v4](../img/mp3dpv4/step7.jpg){: loading=lazy width="400"}
-
- * Open the complete assembly.
-
----
-
-![!mp3dp v4](../img/mp3dpv4/step8.jpg){: loading=lazy width="400"}
-
- * Update and save this new assembly.
-
-
----
-
-### Bed Resizing
-
-![!mp3dp v4](../img/mp3dpv4/Bed1.jpg){: loading=lazy width="400"}
-
- * Open the bed support component by clicking the small circular button next to it (red arrow).
- * The usable area should already be correct but you can adjust the rest to fit your specific bed.
- * Open the first sketch (black arrow). 
- * From here you can adjust the mounting hole locations (green arrows).
- * You can also move the center of the bed to account for the nozzle offset. The Hemera is offset by 12.5mm.
- * "Finish Sketch" to save any changes.
-
----
-
-![!mp3dp v4](../img/mp3dpv4/Bed2.jpg){: loading=lazy width="400"}
-
- * You can fine tune the mounting hole sizes here.
- * The strain relief can also be adjusted.
-
----
-
-![!mp3dp v4](../img/mp3dpv4/Bed3.jpg){: loading=lazy width="400"}
-
- * The step will let you adjust the plate to work for 3 or 4 mounting hole beds.
- * Any area in blue wil become part of the component.
-
----
-
-![!mp3dp v4](../img/mp3dpv4/Bed4.jpg){: loading=lazy width="400"}
-
- * This is the sketch to export for cutting, just right click "Export DXF".
-
----
-
-![!mp3dp v4](../img/mp3dpv4/Bed5.jpg){: loading=lazy width="400"}
-
- * Click the icon at the top to get the full assembly back.
-
----
+### XY Gantry
