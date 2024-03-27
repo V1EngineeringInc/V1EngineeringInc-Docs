@@ -66,7 +66,7 @@ If you want to export your own DXF’s this is where you find them.
 
 ### Flat Parts
 
-The flat parts are designed for you to be able to mill them yourself with your MPCNC or LowRider out of 3/16" (4.7mm) aluminum. 
+The flat parts are designed for you to be able to mill them yourself with your MPCNC or LowRider out of 3/16" (4.7mm-5mm) aluminum. 
 
 !!! Note
     The Three Bed cut parts (Bed A-C) are the only parts that are size dependent. Make sure to set the correct build size before cutting these parts. 300X x 300Y is the default included size.
