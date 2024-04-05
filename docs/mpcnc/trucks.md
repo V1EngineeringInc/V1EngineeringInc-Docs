@@ -6,7 +6,7 @@ Click on the images to embiggen.
 ![!MPCNC Truck parts](../img/old/2020/06/TParts-scaled.jpg){: loading=lazy width="400"}
 
 * You will need 5 sets of 5/16 x 1 1/2" (M8 x 40mm) bolts and locknuts.
-* Two 1/2" sockets and ratchets (or 13mm for M8's).
+* Two 1/2" sockets and ratchets (or 13mm for M8's), or one and a wrench.
 * 5 bearings.
 * Printed Truck and Truck Mirrored parts.
 
