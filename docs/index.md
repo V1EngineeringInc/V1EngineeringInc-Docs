@@ -71,16 +71,21 @@ Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett - Ian (ianj001) - Ge
 Peter H (bitingmidge) - Darwin M (Darwin) - Archie C (Sonosus) - Dave Latka (Davejavu) - Mike M (michmela44)
 
 Special thanks to;
-The Primo test crew. Without you fellas Primo would not be the absolute beast that it is!
-Tim (timonjkl) - GP (gpagnozzi) - Barry (barry99705)
+
+The MP3DP V5 Test Crew. Mike M (michmela44) - Jonathan Jones (Jonathjon)
 
 The LowRider 3 CNC Beta Test Crew. Lots of help and valuable input on this one.
 GP (gpagnozzi) - Jeff Eberl (jeffeb3) - Jonathan (JKStewart) - Dan (SupraGuy)
 
+The Primo test crew. Without you fellas Primo would not be the absolute beast that it is!
+Tim (timonjkl) - GP (gpagnozzi) - Barry (barry99705)
+
+
+
 ## License
 
 The documentation here at https://docs.v1engineering.com/ is under a 
-copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2022 V1Engineering Inc."
+copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2024 V1 Engineering Inc."
 
 The machine design files, logos, and images hosted on v1engineering.com have their own license
 here: https://www.v1e.com/pages/trademark-and-file-licenses

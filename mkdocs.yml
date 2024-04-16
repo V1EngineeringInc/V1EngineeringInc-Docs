@@ -156,7 +156,10 @@ extra_css:
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
-copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA</a> Copyright 2023 V1Engineering Inc."
+copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA</a> Copyright 2024 V1Engineering Inc."
+
+plugins:
+  - privacy
 
 plugins:
   - glightbox
@@ -175,7 +178,7 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.extra
   - pymdownx.inlinehilite
