@@ -86,27 +86,30 @@ The flat parts are designed for you to be able to mill them yourself with your M
 
 ### Printed Parts
 
+Printed Parts can be found here:
+[Printables](https://www.printables.com/model/799513-mp3dp-v5)
+
 No supports needed, keep the default orientation. 
 PLA is recommended for ultimate rigidity, other filaments should be evaluated for rigidity.
-2-3 walls 
-rectilinear infill. 
+2-3 walls
+rectilinear infill.
 
 
-|QTY |File Name                   |Infill |Comment                              |Link                                     | 
-|----|----------------------------|-------|-------------------------------------|-----------------------------------------|
-|1   |Core Top*                   |55%    |                                     |                                         |
-|1   |Core Bottom*                |55%    |                                     |                                         |
-|3   |Z Belt Lower                |40%    |                                     |                                         |
-|3   |Z Belt Upper                |40%    |                                     |                                         |
-|3   |Z Stepper - Z Bearing Mount |40%    |                                     |                                         |
-|6   |Z Stepper - Z spacer        |40%    |                                     |                                         |
-|3   |Z Stepper - Bed Mount       |40%    |                                     |                                         |
-|2   |Y Truck                     |40%    |                                     |                                         |
-|4   |Y Truck - spacer            |40%    |                                     |                                         |
-|2   |X Rail - Nut holder         |40%    |                                     |                                         |
-|4   |Rear Spacer                 |40%    |                                     |                                         |
-|1   |Smoother                    |40%    |                                     |                                         |
-|2   |Front Spacer                |40%    |                                     |                                         |
+|QTY |File Name                   |Infill |Comment                              |
+|----|----------------------------|-------|-------------------------------------|
+|1   |Core Top*                   |55%    |                                     |
+|1   |Core Bottom*                |55%    |                                     |
+|3   |Z Belt Lower                |40%    |                                     |
+|3   |Z Belt Upper                |40%    |                                     |
+|3   |Z Stepper - Z Bearing Mount |40%    |                                     |  
+|6   |Z Stepper - Z spacer        |40%    |                                     |
+|3   |Z Stepper - Bed Mount       |40%    |                                     |
+|2   |Y Truck                     |40%    |                                     |
+|4   |Y Truck - spacer            |40%    |                                     |
+|2   |X Rail - Nut holder         |40%    |                                     |
+|4   |Rear Spacer                 |40%    |                                     |
+|1   |Smoother                    |40%    |                                     |
+|2   |Front Spacer                |40%    |                                     |
 
 ### Frame
 
@@ -120,7 +123,7 @@ Cuts should be planned carefully to reduce waste. A site like [Opticutter](https
 
 There are 20 total pieces of extrusion that need to be cut
 
-|QTY |Name                   |
+|QTY |Name                        |
 |----|----------------------------|
 |6   |Y Rails                     |
 |5   |X Rails                     |
@@ -215,5 +218,190 @@ Attach the bottom and check all the dimensions again, snug up the screws. Check 
 I stop here to add the hardware in while it is easy to reach in. If you are building a corner bracket frame feel free to build the whole cube.
 
 ![!image](../img/mp3dpv5/FrameAssembly17.jpeg){: width="600"}
+
+### Z Belt
+
+#### Parts required for this step
+
+<div class="grid" markdown>
+
+=== "Printed Parts"
+
+    |QTY |Name                        |
+    |----|----------------------------|
+    |3   |Z Belt Lower                |
+
+=== "Hardware"
+
+    |QTY |Name                        |
+    |----|----------------------------|
+    |9   |M3x10mm screws              |
+    |6   |M3 t-nuts             |
+
+</div>
+
+#### Assembly
+
+This is a new style of fastening. Using a M3x8mm screw, you can easily and securely anchor the belts
+
+![!image](../img/mp3dpv5/ZBelts1.jpeg){: width="600"}
+
+Get the belt started, you don’t need to it be as big of a loop as this picture, but do what is easy for you. This will be trimmed later.
+
+![!image](../img/mp3dpv5/ZBelts2.jpeg){: width="600"}
+
+You will see there is a slightly larger opening on one side for the head of the fastener.
+
+![!image](../img/mp3dpv5/ZBelts3.jpeg){: width="600"}
+
+Pull it all the way in nice and tight.
+
+![!image](../img/mp3dpv5/ZBelts4.jpeg){: width="600"}
+
+Trim the belt off, make sure it is not too far over the top of the block.
+
+![!image](../img/mp3dpv5/ZBelts5.jpeg){: width="600"}
+
+Get the belt ready for the rest of the Z axis.
+
+![!image](../img/mp3dpv5/ZBelts6.jpeg){: width="600"}
+
+### Z Axis
+
+The next step will be to assemble and install the motion system for the Z axis.
+
+!!! Note 
+
+    Pay close attention while installing to the orientation of stepper motors. The 3 axes are NOT all assembled exactly the same.
+
+    The 3 bed mount plates are also not the same, and orientation matters. Make sure your placement matches the picture below. Pay attention to the shape of the holes in each plate
+
+
+The final result will look something like this.
+
+![!image](../img/mp3dpv5/ZAxisFinal.jpeg){: width="600"}
+
+#### Parts required for this step
+
+
+<div class="grid" markdown>
+
+=== "Milled Parts"
+
+    |QTY |Name                        |
+    |----|----------------------------|
+    |4   |Z Front                     |
+    |3   |Z Back                      |
+    |1   |Bed A                       |
+    |1   |Bed B                       |
+    |1   |Bed C                       |
+
+=== "Printed Parts"
+
+    |QTY |Name                        |
+    |----|----------------------------|
+    |3   |Z Stepper - Bed Mount       |
+    |6   |Z Stepper - Z spacer        |
+    |3   |Z Belt Upper                |
+    |3   |Z Stepper - Z Bearing Mount |
+
+=== "Hardware"
+
+    |QTY |Name                        |
+    |----|----------------------------|
+    |8-12|M3x8mm screws               |
+    |4-8 |M3 t-nuts                   |
+    |4   |M5x35mm screws              |
+    |4   |M5 locknuts                 |
+    |4   |M3x10 screws                |
+    |3   |Bed Spring                  |
+    |3   |Stepper Motor               |
+    |3   |Z Linear Rail               |
+    |6   |Smooth Idler                |
+    |3   |Pulley                      |
+
+</div>
+
+
+
+![!image](../img/mp3dpv5/ZAxisParts.jpeg){: width="600"}
+#### Assembly
+
+Start by installing the Z Truck to the Rail block with 4 M3x10 screws
+
+![!image](../img/mp3dpv5/ZAxisAssembly1.jpeg){: width="600"}
+
+Add the 2 side plates to the Z truck. Make sure the plates are oriented correctly for the corresponding axis you are working on according to the picture above. This step is what sets the direction.
+
+![!image](../img/mp3dpv5/ZAxisAssembly2.jpeg){: width="600"}
+
+Add the bed mount between the plates and secure with a M5x35 Screw and locknut.
+
+![!image](../img/mp3dpv5/ZAxisAssembly3.jpeg){: width="600"}
+
+Add your idlers and spacers to the assembly M5x35 screws and locknuts. Make sure the idlers are not squished. You need some play here.
+
+!!! tip inline end
+
+    Feel free to lightly sand the spacers to give more room if needed.
+
+    If the M5 screw does not easily slide into the spacer, use a drill bit to open the hole up a little. The spacer needs to be able to slide without grabbing on to the screw.
+
+![!image](../img/mp3dpv5/ZAxisAssembly4.jpeg){: width="600"}
+
+Add the bed mount plate and "spring" to the assembly using a M5x35 screw and locknut.
+
+The locknut here is a captured nut. Insert the nut into the hole as far possible to ensure it will grab. Careful not to over-tighten.
+
+!!! warning inline end
+
+    Be sure you have the correct bed mount plate for the axis you are working on. Orientation Matters!!
+
+    See final assembly picture above to verify.
+
+![!image](../img/mp3dpv5/ZAxisAssembly5.jpeg){: width="600"}
+
+
+Add the pulley to the stepper motor shaft. A sheet of paper is an ideal spacer for pulley placement.
+
+!!! tip inline end
+
+    Use of thread locker on the set screws is highly recommended here
+
+![!image](../img/mp3dpv5/ZAxisAssembly6.jpeg){: width="600"}
+
+Add the stepper motor to the mount plate with 4 M3x8 screws. Pay attention to wire orientation. Wires facing to the middle allow for easiest wire routing later.
+
+![!image](../img/mp3dpv5/ZAxisAssembly7.jpeg){: width="600"}
+
+Now is a good time to check that the pulley and idlers are in line with each other
+
+![!image](../img/mp3dpv5/ZAxisAssembly8.jpeg){: width="600"}
+
+Center your rail on the extrusion, and line up your t-nuts. The Z Rail should be touching the lower belt mount.
+
+Snug the rail on with M3x8mm screws.
+
+!!! tip inline end
+
+    Use of rail aligners are highly recommended here. You can print a few yourself from [Printables - Rail Aligner.3mf](https://www.printables.com/model/282346-mp3dp-v41/files)
+
+![!image](../img/mp3dpv5/ZAxisAssembly9.jpeg){: width="600"}
+
+Add the Z Belt upper to the extrusion above the rail using a M3x10mm screw and t-nut
+
+Thread in the belt and add some tension, you should be 2-10mm gap from the top of the rail. The test here is to make sure your Y trucks don’t hit in a later step.
+
+!!! tip inline end
+
+    To tension the belt, loosen the screw on the upper Z mount a little. Push up on the bottom of the mount until the Z belt has tension on it. Tighten the screw back down while holding the tension on the belts.
+
+    The Z belts do not need an excessive amount of tension on them.
+
+![!image](../img/mp3dpv5/ZAxisAssembly10.jpeg){: width="600"}
+
+All three Z axes mounted and ready to rock. Notice the bed mounts are different and the way the steppers are facing.
+
+![!image](../img/mp3dpv5/ZAxisFinal.jpeg){: width="600"}
 
 ### XY Gantry
