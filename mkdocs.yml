@@ -159,11 +159,9 @@ extra_javascript:
 copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA</a> Copyright 2024 V1Engineering Inc."
 
 plugins:
-  - privacy
-
-plugins:
   - glightbox
   - search
+  - privacy
 
 markdown_extensions:
   - attr_list
