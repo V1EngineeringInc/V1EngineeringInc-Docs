@@ -221,6 +221,51 @@ I stop here to add the hardware in while it is easy to reach in. If you are buil
 
 ### Z Belt
 
+#### Parts required for this step
+
+<div class="grid" markdown>
+
+=== "Printed Parts"
+
+    |QTY |Name                        |
+    |----|----------------------------|
+    |3   |Z Belt Lower                |
+
+=== "Hardware"
+
+    |QTY |Name                        |
+    |----|----------------------------|
+    |9   |M3x10mm screws              |
+    |6   |M3 t-nuts             |
+
+</div>
+
+#### Assembly
+
+This is a new style of fastening. Using a M3x8mm screw, you can easily and securely anchor the belts
+
+![!image](../img/mp3dpv5/ZBelts1.jpeg){: width="600"}
+
+Get the belt started, you don’t need to it be as big of a loop as this picture, but do what is easy for you. This will be trimmed later.
+
+![!image](../img/mp3dpv5/ZBelts2.jpeg){: width="600"}
+
+You will see there is a slightly larger opening on one side for the head of the fastener.
+
+![!image](../img/mp3dpv5/ZBelts3.jpeg){: width="600"}
+
+Pull it all the way in nice and tight.
+
+![!image](../img/mp3dpv5/ZBelts4.jpeg){: width="600"}
+
+Trim the belt off, make sure it is not too far over the top of the block.
+
+![!image](../img/mp3dpv5/ZBelts5.jpeg){: width="600"}
+
+Get the belt ready for the rest of the Z axis.
+
+![!image](../img/mp3dpv5/ZBelts6.jpeg){: width="600"}
+
 ### Z Axis
 
 The next step will be to assemble and install the motion system for the Z axis.
@@ -265,6 +310,7 @@ The final result will look something like this.
     |QTY |Name                        |
     |----|----------------------------|
     |8-12|M3x8mm screws               |
+    |4-8 |M3 t-nuts                   |
     |4   |M5x35mm screws              |
     |4   |M5 locknuts                 |
     |4   |M3x10 screws                |
