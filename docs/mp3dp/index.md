@@ -388,7 +388,15 @@ Snug the rail on with M3x8mm screws.
 
 ![!image](../img/mp3dpv5/ZAxisAssembly9.jpeg){: width="600"}
 
+Add the Z Belt upper to the extrusion above the rail using a M3x10mm screw and t-nut
+
 Thread in the belt and add some tension, you should be 2-10mm gap from the top of the rail. The test here is to make sure your Y trucks don’t hit in a later step.
+
+!!! tip inline end
+
+    To tension the belt, loosen the screw on the upper Z mount a little. Push up on the bottom of the mount until the Z belt has tension on it. Tighten the screw back down while holding the tension on the belts.
+
+    The Z belts do not need an excessive amount of tension on them.
 
 ![!image](../img/mp3dpv5/ZAxisAssembly10.jpeg){: width="600"}
 
