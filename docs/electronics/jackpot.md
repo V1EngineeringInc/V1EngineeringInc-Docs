@@ -91,7 +91,7 @@ The Jackpot Control board can use most any control software that supports GRBL. 
 
 ![!WebUI](../img/jackpot/LUI.jpg){: loading=lazy width="400"}
 
-This Interface is a slightly modified version of the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for most of the Jackpot’s outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settings all from the WebUI.You can wirelessly transfer your gcode files, but manually using the MicorSD card is still preferred. Most will probably never even plug the USB port in.
+This Interface is a slightly modified  of the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for most of the Jackpot’s outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settings all from the WebUI.You can wirelessly transfer your gcode files, but manually using the MicorSD card is still preferred. Most will probably never even plug the USB port in.
 
 
 ## Initial Setup
@@ -277,7 +277,7 @@ If you bought it from the V1E.com store it should be ready to go. This section i
 
 Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
-**The Current tested and confimed FluidNC version is 3.7.15**, use anything newer than this with caution. 
+**The Current tested and confimed FluidNC version is 3.7.16**, use anything newer than this with caution. 
 
 
 There is no need for compiling or any of the previous steps needed to "flash" a marlin based board. There are several options for doing this.
