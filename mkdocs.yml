@@ -84,7 +84,7 @@ nav:
      - Drag Knife/Vinyl: tools/drag-knife.md
      - Needle Cutter: tools/foam-needle-cutter.md
    - Troubleshoot:
-     - Reversing a Stepper: https://docs.v1e.com/electronics/steppers/#reversing-the-axis-direction
+     - Reversing a Stepper: software/reverse-motor.md
  - Learn:
     - Editing mkdocs: mkdocs_info.md
     - Software Workflow: learn/software_overview.md
