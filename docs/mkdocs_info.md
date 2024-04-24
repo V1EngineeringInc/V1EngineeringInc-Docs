@@ -1,6 +1,6 @@
 # mkdocs Information
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+For full documentation visit [mkdocs.org](http://mkdocs.org) and [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/).
 
 A good markdown cheat sheet is available [here](https://www.markdownguide.org/cheat-sheet). The complete syntax is available
 [here](https://daringfireball.net/projects/markdown/)
@@ -68,16 +68,12 @@ the aspect ratio. You can also add `height=""` and set the height.
 ## Organization
 
 Documentation can be found at
-[mkdocs.org](https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation)
-
-mkdocs 0.16.0 was too old for the nav tag. The 1.0 version works though.
+[mkdocs.org navigation](https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation)
 
 The organization is in the `nav` section of [mkdocs.yml](https://github.com/V1EngineeringInc/V1EngineeringInc-Docs/blob/master/mkdocs.yml), 
 and nesting more than two is funky. Also, top levels can't be pages, so it's really more like just two deep.
 
  - style/css/theme.
-
- - DONE. CC-BY-SA info in the pages.
 
 ## Bonus stuff
 
@@ -115,9 +111,9 @@ $p(x|y) = \frac{p(y|x)p(x)}{p(y)}$, \(p(x|y) = \frac{p(y|x)p(x)}{p(y)}\).$$
  
 ### Details
 
-https://facelessuser.github.io/pymdown-extensions/extensions/details/
+https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition-icons-octicons
 
-??? More details here
+??? info "More details here"
     Here are some more details
 
 ### Task Lists
@@ -162,10 +158,6 @@ Ray
 :   A drop of golden sun
 
 
-### Favicon
-
-TODO: https://www.mkdocs.org/#changing-the-favicon-icon
-
 ### Code Highlighting
 
 https://python-markdown.github.io/extensions/code_hilite/
@@ -189,7 +181,7 @@ It basically works like this:
 markdown parts.
 1. mkdocs uses the mkdocs.yml file to configure itself for this project.
 1. mkdocs configures and runs our markdown files through python-markdown.
-1. If you're running `mkdocs serve`, then the html output is immediately served locally, and you can
+1. If you're running `mkdocs serve` or `py -m mkdocs serve`, then the html output is immediately served locally, and you can
 get to it at http://localhost:8000 .
 1. As soon as you change a file, the mkdocs serve will reload the page in your browser, which
 immediately shows the change. *Cool!*.
@@ -212,6 +204,10 @@ To make sure you have the requirements, and you're trying to build the docs on y
 can do this:
 
     pip install -r requirements.txt
+or
+
+    py -m pip install -r requirements.txt
+
 
 I recommend doing this in a virtualenv environment, which will let you easily remove the things
 you've installed if you've made a mistake.
