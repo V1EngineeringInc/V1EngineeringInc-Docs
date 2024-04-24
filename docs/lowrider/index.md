@@ -89,8 +89,8 @@ more than 80% nozzle diameter to keep overhangs working.
 |6-8 |Brace -Choose one size-     |30-50% |* See Brace Note below               |                                         |
 |6-8 |Hose Hanger                 |30%    |Same number as braces, Optional part |                                         |
 |1   |X Tensioner                 |30%    |                                     |                                         |
-|1   |XZ Plate Left               |70%    |* See XZ note below - Can be milled  |[Shop][xz1] - [DXF](/lowrider/#xz-plates)|
-|1   |XZ Plate Right              |70%    |* See XZ note below - Can be milled  |[Shop][xz1] - [DXF](/lowrider/#xz-plates)|
+|1   |XZ Plate Left               |70%    |* See XZ note below - Can be milled  |[Shop][xz1] - [DXF](#xz-plates)|
+|1   |XZ Plate Right              |70%    |* See XZ note below - Can be milled  |[Shop][xz1] - [DXF](#xz-plates)|
 |1   |Front Y Belt Holder         |30%    |                                     |                                         |
 |1   |Front Y Belt Base           |30%    |                                     |                                         |
 |1   |Front Y Belt Holder Right   |30%    |                                     |                                         |
@@ -101,7 +101,7 @@ more than 80% nozzle diameter to keep overhangs working.
 |1   |Y Tension Base Rear Right   |30%    |                                     |                                         |
 |8-14|Rail Block -Choose one size-|30%    |* See Rail block note below          |                                         |
 |    |Optionally Printed          |       |                                     |                                         |
-|2   |YZ Plate                    |50%    |Best as a milled part                |[Shop][yz1] - [DXF](/lowrider/#yz-plates)|
+|2   |YZ Plate                    |50%    |Best as a milled part                |[Shop][yz1] - [DXF](#yz-plates)|
 
 [Wheels]: https://www.printables.com/model/211714-lr3-60mm-wheel-brackets
 [xz1]: https://www.v1e.com/products/lowrider-3-metal-xz-plates
@@ -769,7 +769,7 @@ Here is a wonderful video showing what you are getting into. Lots of time stamps
 At this point you should be able to power up and give your build a little test move. 
 Depending on how your machine is built, you can use your control screen, repetier host, other software over USB, or over the air.
 
-Here is a quick overview of a [basic movement test](../software/#testing){:target="_blank"}.
+Here is a quick overview of a [basic movement test](../software/index.md#testing){:target="_blank"}.
 
 
 #### Initial Squaring

@@ -32,7 +32,7 @@ markdown like this:
 ![Backup Text](image URL "Hover text")
 ```
 
-![V1Engineering.com's logo](/img/old/2017/12/V1-Engineering-logo-260wide.png "This logo is linked from v1engineering.com")
+![V1Engineering.com's logo](https://www.v1e.com/cdn/shop/files/120_Rectangle_98d8b9d7-59f5-4097-b1d3-37bcd5ee6893.png?v=1666540758&width=250 "This logo is linked from v1engineering.com")
 
 If the image is something you want to share, and it's the right size, then it can be added to the
 docs/img folder and linked like this:
