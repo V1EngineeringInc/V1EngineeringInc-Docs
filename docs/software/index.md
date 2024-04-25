@@ -12,7 +12,7 @@ if you find you are having issues you might need to change the firmware baud rat
 
 If you bought a system from me the firmware is pre-loaded, and you do not need to make any changes.
 [Marlin](../electronics/marlin-firmware.md) is the firmware currently used and it is pre-flashed on the control board included in the
-kit ([download the pre-configured files here](../electronics/marlin-firmware)). If you are building your own feel free to use any
+kit ([download the pre-configured files here](../electronics/marlin-firmware.md)). If you are building your own feel free to use any
 board/firmware you want.
 
 ## Testing

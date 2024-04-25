@@ -35,13 +35,11 @@ is safe, “above last position” is the fastest.
 
 ![!Esetup](../img/old/2015/09/Esetup1.jpg){: loading=lazy width="400"}
 
-The creator of Estlcam recently updated his software for us! In the CNC Program Generation tab,
-choose Marlin (if you are using my firmware). **Important – Set feed unit to mm/min-** (this is what the
-marlin firmware needs). Change the file extension “gcode” so all the programs recognize it.
+In the CNC Program Generation tab, choose Marlin or GRBL ( for the Jackpot). **Important – Set feed unit to mm/min-**. Change the file extension “gcode” so all the programs recognize it.
 
 ![!Ecoord](../img/old/2015/09/Ecoord.jpg){: loading=lazy width="400"}
 
-Next up is the travel feed rates. 2100/60=35mm/s, 480=8mm/s (keep the Z low)
+Next up is the travel feed rates. 2100/60=35mm/s, 900=15mm/s (keep the Z low)
 
 ![!e4](../img/old/2015/09/e4.png){: loading=lazy width="400"}
 
@@ -106,9 +104,9 @@ You can then preview the path.
 
 ## Step 7 – Control Software
 
-Open [repetier-host](http://www.repetier.com). load the .gcode (or .nc , .ngc)  file you just saved. If you have the bed size
-adjusted you can get a sense of scale. If you can’t see the lines check the box Print Preview>Show
-Travel moves.
+Open [repetier-host](http://www.repetier.com) or log into your Jackpot (ssid-fluidnc). load the  file you just saved. If you have the bed size
+adjusted you can get a sense of scale. 
+If you can’t see the lines in reptier-host check the box "Print Preview>Show Travel moves".
 
 ![!eRep](../img/old/2015/05/eRep.png){: loading=lazy width="400"}
 

@@ -154,7 +154,7 @@ Equal steps – Depth of cut, DOC, Should be planned for. Making equal steps wil
 
 What your machine will do **before** the job starts. The LowRider Configs show examples of how an IOT relay would be tied in. You would use something similar to [this](https://amzn.to/3vjqzFH) to turn a router, vacuum, or other things on and off with Gcode.
 
-=== "MPCNC" 
+=== "MPCNC - Marlin" 
     On the MPCNC you will typically home the XY axes before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
     ```
     G92 X0 Y0 Z0 ; Set Current position to 0, all axes
@@ -165,7 +165,21 @@ What your machine will do **before** the job starts. The LowRider Configs show e
     M00 ; Pause for LCD button press so you can remove the touchplate
     ```
 
-=== "LowRider V3" 
+=== "MPCNC - GRBL/Jackpot" 
+    On the MPCNC you will typically home the XY axes before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
+    ```
+    G21
+    G90
+    G94
+    G92 X0 Y0
+    M0 (MSG Attach probe)
+    G38.2 Z-80 F200 P0.5 (probe down set thickness )
+    G1 Z10 F900
+    M0 (MSG Remove probe)
+    M62 P1 (If used start spindle pin27 )
+    ```    
+
+=== "LowRider V3 - Marlin" 
     On the Lowrider V3 you will typically home all axes before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
     ```
     G92 X0 Y0 ; Set Current position to 0 on the X and Y axes.
@@ -177,12 +191,26 @@ What your machine will do **before** the job starts. The LowRider Configs show e
     M106 ; This will turn on an IOT relay to start a router or vacuum
     ```
 
+=== "Lowrider V3 - GRBL/Jackpot"
+    On the Lowrider V3 you will typically home all axes before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
+    ```
+    G21
+    G90
+    G94
+    G92 X0 Y0
+    M0 (MSG Attach probe)
+    G38.2 Z-80 F200 P0.5 (probe down set thickness )
+    G1 Z10 F900
+    M0 (MSG Remove probe)
+    M62 P1 (If used start spindle pin27 )
+    ```
+
 ### Tool Change
 
 
 Only happens if you change a tool during your job. It happens at each tool change if there are multiple.
 
-=== "MPCNC" 
+=== "MPCNC - Marlin" 
     ```
     G0 Z35 F500 ; Raise Z axis 35mm make sure you have enough room
     M00 ; Pause and wait for the tool change
@@ -191,7 +219,22 @@ Only happens if you change a tool during your job. It happens at each tool chang
     G00 Z5.0000 F500 ; Lift off touchplate
     M00 ; Pause to remove the touchplate
     ```
-=== "LowRider V3" 
+
+=== "MPCNC - GRBL/Jackpot" 
+    ```
+    M63 P1 (turn off pin 27)
+    G91
+    G0 Z10
+    G90
+    G0 X0 Y10 F2520 
+    M0 (MSG change tool, probe)
+    G38.2 Z-80 F200 P0.5 (Probe set thickness)
+    G00 Z10.0000 F500 (Clearance)
+    M0 (MSG remove probe)
+    M62 P1 (turn on pin27)
+    ```
+
+=== "LowRider V3 - Marlin" 
     ```
     M107 ; Turn fan 1 off IOT relay
     G28 Z ; Raise Z axis
@@ -202,23 +245,51 @@ Only happens if you change a tool during your job. It happens at each tool chang
     G00 Z5.0000 F500 ; Lift off touchplate
     M00 remove probe ; Pause to remove touchplate
     M106 ; Turn fan 1 on IoT relay
-    ```    
+    ```
+
+=== "LowRider V3 - GRBL/Jackpot" 
+    ```
+    M63 P1 (turn off pin 27)
+    $HZ (Home Z)
+    G0 X0 Y10 F2520 
+    M0 (MSG change tool, probe)
+    G38.2 Z-80 F200 P0.5 (Probe set thickness)
+    G00 Z10.0000 F500 (Clearance)
+    M0 (MSG remove probe)
+    M62 P1 (turn on pin27)
+    ```
 
 ### Ending
 
 Happens directly after your last move from your job file.
 
-=== "MPCNC"
+=== "MPCNC - Marlin"
     ```
     G0 Z5 ; Lift Z axis 5mm
     M00 ; Pause so the Z axis does not fall
     ```
 
-=== "LowRider V3"
+=== "MPCNC - GRBL/Jackpot"
+    ```
+    M63 P1 (stop spindle pin27)
+    G91
+    G0 Z10
+    G90
+    M30
+    ```
+
+=== "LowRider V3 - Marlin"
     ```
     M107 ; Turn off IOT Relay
     G28 Z ; Lift Z axis
     M0 Diggidy Done! ; Pause to keep steppers energized
+    ```
+
+=== "LowRider V3 - GRBL/Jackpot"
+    ```
+    M63 P1 (stop spindle pin27)
+    $HZ
+    M30
     ```    
 
 #### Estlcam Gcode
@@ -274,6 +345,7 @@ post processor addresses the issues introduced by the F360 Hobby version. This i
 #### Kiri:Moto
 
 Kiri:Moto has the post processor built in for Marlin and GRBL.
+Our instruction page is [here](../software/kiri.md).
 
 ## Endmill Basics
 
