@@ -110,7 +110,11 @@ Click on the images to enlarge them.
 The probe/touchplate plugs into the last port (gpio.36), on either configuration.
 
 ### Controls
-If you bought your Jackpot CNC Controller from the [V1E.com](https://www.v1e.com/) store it should be ready to go. You should be able to log in directly to the WiFi SSID "FluidNC" and the password = 12345678 (some browsers will then need to be pointed to http://192.168.0.1, best to bookmark that address). If you get a drop down message about no internet just hit "use this network anyway".
+If you bought your Jackpot CNC Controller from the [V1E.com](https://www.v1e.com/) store it should be ready to go. You should be able to log in directly to the WiFi SSID "FluidNC" and the password = 12345678 
+
+![!Jackpot SSID](../img/jackpot/jackpotwifi.jpg){: loading=lazy  width="380"}
+
+(some browsers will then need to be pointed to http://192.168.0.1, best to bookmark that address). If you get a drop down message about no internet just hit "use this network anyway".
 
 ![!WebUI](../img/jackpot/LUI.jpg){: loading=lazy width="500"}
 
