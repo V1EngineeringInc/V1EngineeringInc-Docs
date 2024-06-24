@@ -223,7 +223,7 @@ If you bought it from the V1E.com store it should be ready to go. This section i
 
 V1 Engineering Specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). You need to download these to load them after flashing.
 
-FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.7.16**, use anything newer than this with caution. 
+FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.7.18** (make sure to update your config file as well to add the homing Amps to each stepper), use anything newer than this with caution. 
 
 ### Updating / Installing Firmware
 
@@ -287,9 +287,11 @@ Some issues we have seen.
 
 -Some PC's will need USB drivers, if needed the ESP32 USB drivers are here [CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
 
--If you use STA mode and lose your Jackpot on the network you can find it's IP on your router, reboot with the antenna covered for 2 minutes with metal so it boots into AP mode, or just reflash.
+-If you use STA mode and lose your Jackpot on the network you can find it's IP on your router, reboot with the antenna covered for 2 minutes with metal so it boots into AP mode, reflash, use the web installer's wifi tools.
 
 -If you made any changes to the config use the web based tool, or fluid term, to watch the boot messages. You can also view them by typing $SS. If you do not understand it cut and paste the first half into the V1 forums.
+
+-If you switch from the V2 to V3 of the interface, all the files need to be wiped and uploaded again from the V1 github repo.
 
 
 
