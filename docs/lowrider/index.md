@@ -112,8 +112,7 @@ more than 80% nozzle diameter to keep overhangs working.
  The bearings are preferred, should be more precise and make for a more forgiving build. [Wheels](https://www.v1e.com/collections/lowrider-parts/products/urethane-wheels) 
  [Spacers](https://www.v1e.com/collections/all/products/axle-spacers)
 
- * Brace note-  Print the two left and right end braces with 50% infill and oriented so you can have the top facing out on each end, and the rest with 30% infill. 2' wide builds need 6 total,
- 4 foot versions need 8 total. One every 200mm (8") or less. 
+  * Brace note-  Print the two left and right end braces with 50% infill, with one at default orientation and one rotated 180 degrees along the y-axis.  Print the rest with 30% infill at default orientation. 2' wide builds need 6 total, 4 foot versions need 8 total. One every 200mm (8") or less.
  There are three different brace sizes provided - `Brace 25.3mf`, `Brace 25p4.3mf`, and `Brace 23p4.3mf` which correspond to the diameter of the X rail in millimeters. 
  For US based builds, the recommended X rail size is US 3/4" EMT conduit which has a diameter equal to 23.4mm, so print the `Brace 23p4.3mf` parts for this size X rail. 
 
