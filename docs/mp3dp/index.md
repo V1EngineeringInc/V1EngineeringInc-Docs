@@ -404,4 +404,101 @@ All three Z axes mounted and ready to rock. Notice the bed mounts are different 
 
 ![!image](../img/mp3dpv5/ZAxisFinal.jpeg){: width="600"}
 
-### XY Gantry
+### The Bed
+
+The bed frame gets built as square as possible. Take note of the dimensions in the CAD, the rail is not centered.
+![!image](../img/mp3dpv5/TheBed1.jpeg){: width="600"}
+
+To make it easy on myself, I made a little mark to where the bed mounts are going to line up, dims taken from CAD.
+
+![!image](../img/mp3dpv5/TheBed2.jpeg){: width="600"}
+
+Load up some Tnuts.
+
+![!image](../img/mp3dpv5/TheBed3.jpeg){: width="600"}
+
+Line up the marks and snug it down.
+
+![!image](../img/mp3dpv5/TheBed4.jpeg){: width="600"}
+
+Showing some wire runs. Steppers on one side power on the other.
+
+![!image](../img/mp3dpv5/TheBed5.jpeg){: width="600"}
+
+### Plated Power Corners
+
+Tops in place, might want to assure your frame is square again, as this locks it in.
+
+![!image](../img/mp3dpv5/PlatedPowerCorners1.jpeg){: width="600"}
+
+![!image](../img/mp3dpv5/PlatedPowerCorners2.jpeg){: width="600"}
+
+Bottoms in place
+
+![!image](../img/mp3dpv5/PlatedPowerCorners3.jpeg){: width="600"}
+
+![!image](../img/mp3dpv5/PlatedPowerCorners4.jpeg){: width="600"}
+
+Adding in the spacers and idlers. Toothed idler in the front, the other two are smooth. These need to be very free to move, do not crush them.
+
+![!image](../img/mp3dpv5/PlatedPowerCorners5.jpeg){: width="600"}
+
+If you need to sand down the surface of the spacers, a few light passes should do it.
+
+![!image](../img/mp3dpv5/PlatedPowerCorners6.jpeg){: width="600"}
+
+Add in the stepper, the pulleys get the same paper gap as the rest. If you are super fancy you can color in the top of your stepper to highlight that ultra sexy logo I snuck in.
+
+![!image](../img/mp3dpv5/PlatedPowerCorners7.jpeg){: width="600"}
+
+![!image](../img/mp3dpv5/PlatedPowerCorners8.jpeg){: width="600"}
+
+Both corners done. Wires getting routed towards the electronics area of your choice.
+
+![!image](../img/mp3dpv5/PlatedPowerCorners9.jpeg){: width="600"}
+
+Add in the wire harness and belt separator.
+
+![!image](../img/mp3dpv5/PlatedPowerCorners10.jpeg){: width="600"}
+
+### Optional Filament Sensor
+
+The end of the sensor output tube goes in the middle of the travel for your Y axis in relation to the feed tube input of your extruder.
+
+![!image](../img/mp3dpv5/OptionalFilamentSensor1.jpeg){: width="600"}
+
+![!image](../img/mp3dpv5/OptionalFilamentSensor2.jpeg){: width="600"}
+
+![!image](../img/mp3dpv5/OptionalFilamentSensor3.jpeg){: width="600"}
+
+### Y Axis
+
+Center the rail on the extrusion, The end is flush with the corners. M3x8mm screws to secure.
+
+![!image](../img/mp3dpv5/YAxis1.jpeg){: width="600"}
+
+Snug down the truck
+
+![!image](../img/mp3dpv5/YAxis2.jpeg){: width="600"}
+
+Add and snug the plates.
+
+![!image](../img/mp3dpv5/YAxis3.jpeg){: width="600"}
+
+Add the idlers and spacers, again, be sure to leave free play, sand the spacers if you need.
+
+![!image](../img/mp3dpv5/YAxis4.jpeg){: width="600"}
+
+### X Axis
+
+Showing some t-nuts in the optional X axis locks, you can use washers and locknuts if you prefer.
+
+![!image](../img/mp3dpv5/XAxis1.jpeg){: width="600"}
+
+- Add the rail, make sure it is centered left to right, and that it is centered front to back on the lower rail plate. In this step when you snug up this rail you will want to make sure both corners hit the trucks the same and there is no gap on either side. This will mean your axis is starting nice and square (you can move it with the belt tension but more on that later).
+
+- Move the rail front to back make sure it is smooth. This is the best place to make robot noises while testing, if you have kids make them help.
+
+- Make sure the front upper frame corners do not move in and out, measure them when it is all the way to the front and the back. If they move in and out, there is a big issue with the frame, fix it now.
+
+![!image](../img/mp3dpv5/XAxis2.jpeg){: width="600"}
