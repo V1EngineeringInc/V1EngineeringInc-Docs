@@ -502,3 +502,67 @@ Showing some t-nuts in the optional X axis locks, you can use washers and locknu
 - Make sure the front upper frame corners do not move in and out, measure them when it is all the way to the front and the back. If they move in and out, there is a big issue with the frame, fix it now.
 
 ![!image](../img/mp3dpv5/XAxis2.jpeg){: width="600"}
+
+### Belt Tensioners
+
+Add the tensioner screw and nut. Be sure the nut is seated, or later on it will bum you out when you try to play this thing like a guitar. this the screw that sets the belt tension.
+
+![!image](../img/mp3dpv5/BeltTensioners1.jpeg){: width="600"}
+![!image](../img/mp3dpv5/BeltTensioners2.jpeg){: width="600"}
+
+Add the top and bottom brackets. You will loosen and tighten these four screws when adjusting the belt tension, these lock the tension you set.
+
+![!image](../img/mp3dpv5/BeltTensioners3.jpeg){: width="600"}
+
+Spacer and idler…is that idler able to move freely??
+
+![!image](../img/mp3dpv5/BeltTensioners4.jpeg){: width="600"}
+
+Ready for belts.
+
+![!image](../img/mp3dpv5/BeltTensioners5.jpeg){: width="600"}
+
+Initial position is touching the rail.
+
+![!image](../img/mp3dpv5/BeltTensioners6.jpeg){: width="600"}
+
+
+### Y endstop
+
+Wired, Normally Closed for easy diagnosing of crimp issues, and highest safety. Mounted to the bracket with M2.5mm screws.
+
+![!image](../img/mp3dpv5/YEndstop1.jpeg){: width="600"}
+
+M3x10mm screws mount this to the frame.
+
+![!image](../img/mp3dpv5/YEndstop2.jpeg){: width="600"}
+
+Set the trigger point to as close to the corner as you can without getting any snags. You can move and hear it trigger. The further into the corner you get it, the more Y axis room you have to work with later.
+
+![!image](../img/mp3dpv5/YEndstop3.jpeg){: width="600"}
+
+### XY Belts
+
+Add your lower core piece and snug it in place.
+
+![!image](../img/mp3dpv5/XYBelts1.jpeg){: width="600"}
+
+Take your time. Follow the numbers. Make sure your twists are the same direction. The belts should look like they are doing the same thing in each half twist.
+
+![!image](../img/mp3dpv5/XYBelts2.jpeg){: width="600"}
+
+Skip the middle lock for now.
+
+![!image](../img/mp3dpv5/XYBelts3.jpeg){: width="600"}
+
+Look at the twists.
+
+![!image](../img/mp3dpv5/XYBelts4.jpeg){: width="600"}
+
+Lock the belt ends in place with a M3x10 fastener.
+
+![!image](../img/mp3dpv5/XYBelts5.jpeg){: width="600"}
+
+Lock in the tension equalizer section. Make sure the corners are still touch the trucks the same on both sides to know you are starting off with fairly equal belt tension.
+
+![!image](../img/mp3dpv5/XYBelts6.jpeg){: width="600"}
