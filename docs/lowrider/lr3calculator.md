@@ -7,11 +7,11 @@
   var maxStrutLen = 1700;
 </script>
 
-# LowRider v4 Size Calculator
+# LowRider v3 Size Calculator
 
 (The photo and drawing below are sized for a 48"x96" available cutting area.)
 
-![!LR3 Fancy Picture](../img/lr4/LR4Render.png){: loading=lazy width="600"}
+![!LR3 Fancy Picture](../img/lr3/LR3_Render.png){: loading=lazy width="600"}
 
 ![!LR3 Dimensions Picture](../img/lr3/LR3 Dims.jpg){: loading=lazy width="600"}
 
@@ -23,7 +23,7 @@
 <input type="radio" onchange="to_inch()" name="units" value="inches">Inch<br/>
 
 #### Model
-<input type="radio" onchange="from_working()" name="model" value="v4" checked> LowRider v4<br/>
+<input type="radio" onchange="from_working()" name="model" value="v3" checked> LowRider v3<br/>
 
 #### Usable Cutting Area
 <!-- These "value"s are going to be overwritten by the reset_work() function below. -->
@@ -31,9 +31,9 @@
 <input class="calc" type="number" onchange="from_working()" name="ywork" value="2440" size="6"><span class="units">mm</span> Y<br/>
 
 #### XZ Plate Thickness
-Shop Aluminum plates are 6.35mm (0.25").
+Printed Plates are 9.5mm (0.374"), Shop Aluminum plates are 6.35mm (0.25").
 
-<input class="calc" type="number" onchange="from_working()" name="xzplate" value="6.35" size="6"><span class="units">mm</span> XZ Plate<br/>
+<input class="calc" type="number" onchange="from_working()" name="xzplate" value="9.5" size="6"><span class="units">mm</span> XZ Plate<br/>
 <button class="reset" onclick="reset_work()">Reset</button>
 
 ----
@@ -97,18 +97,18 @@ function get_offsets() {
 
   const unit_convert = get_unit_convert();
 
-  var v4 = {};
-  v4.xrail_core = 180 * unit_convert;
-  v4.yrail_minus_work = 316 * unit_convert;
-  v4.ytable_minus_work = 383 * unit_convert;
-  v4.xbelt_extra = 80 * unit_convert;
-  v4.ybelt_extra = 100 * unit_convert;
-  v4.xtable_extra = 126 * unit_convert;
+  var v3 = {};
+  v3.xrail_core = 180 * unit_convert;
+  v3.yrail_minus_work = 316 * unit_convert;
+  v3.ytable_minus_work = 383 * unit_convert;
+  v3.xbelt_extra = 80 * unit_convert;
+  v3.ybelt_extra = 100 * unit_convert;
+  v3.xtable_extra = 126 * unit_convert;
   
 
   var model = $("input[name=model]:checked").val();
-  if (model == "v4") {
-    return v4;
+  if (model == "v3") {
+    return v3;
   }
     else {
     alert("internal error: unrecognized model " + model);
@@ -188,7 +188,7 @@ function reset_work() {
   const unit_convert = get_unit_convert();
   $("input[name=xwork]").val(clip(1220 * unit_convert));
   $("input[name=ywork]").val(clip(2440 * unit_convert));
-  $("input[name=xzplate]").val(clip(6.35 * unit_convert));
+  $("input[name=xzplate]").val(clip(9.5 * unit_convert));
   from_working();
 }
 
