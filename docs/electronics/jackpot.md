@@ -227,9 +227,17 @@ FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.7.18**
 
 ### Updating / Installing Firmware
 
-1- **Preferred method - Browser Based** - There is a [browser based tool by Joacim](https://breiler.github.io/fluid-installer/) (uses the Chrome browser). From here you need to connect your esp32 to your computer via USB. Select connect, and follow the prompts. It is best to always start fresh by using the erase option.
+1- **Preferred method - Browser Based** 
 
-Some PC's will need USB drivers if your ESP is not recognized by the computer. If needed the ESP32 USB drivers are here [CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
+If the ESP32 is mounted to a Jackpot, then ensure Jackpot's main 24V power supply is powered **OFF** before connecting a USB cable between the ESP32 and computer.  The ESP32 can be updated while mounted, or removed from the Jackpot board.  
+
+If/when removing the ESP32 from Jackpot for flashing, be careful to not bend, or apply force to the ESP32's integrated antenna.
+
+Browse to [FluidNC Web Installer](https://installer.fluidnc.com/) ( created by [Joacim](https://github.com/breiler/fluid-installer) ) using Chrome, or another [browser that supports Serial API](https://caniuse.com/web-serial).  
+
+Within FluidNC Web Installer, select _Connect_, and follow the prompts. It is best to always start fresh by using the erase option.
+
+Some PC's will need USB drivers if your ESP32 is not recognized by the computer. If needed the ESP32 USB drivers are here [Silabs CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
 
 After you have loaded the firmware you can use the file browser to load our configs and macros from here, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
