@@ -10,11 +10,11 @@ Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptabl
 **No support should be needed for any part I have designed.**
 
 !!!Note
-     If your 3D printer is of questionable quality it is best to run a quick [basic frame test](https://www.prusaprinters.org/prints/36412-xy-size-and-square-calibration-print) to make sure the parts will print as intended.  If the test indicates that your frame is not square, then carefully check the frame and adjust, and retest.  If you have to square the frame, then you might also consider printing the [Advanced frame test](https://www.prusaprinters.org/prints/38846-zx-and-zy-printer-frame-test). Investing time on this up front is much better than printing parts for four days and then finding that your calibration or frame is off. 
+     If your 3D printer is of questionable quality it is best to run a quick [basic frame test](https://www.printables.com/model/36412-xy-size-and-square-calibration-print) to make sure the parts will print as intended.  If the test indicates that your frame is not square, then carefully check the frame and adjust, and retest.  If you have to square the frame, then you might also consider printing the [Advanced frame test](https://www.printables.com/model/38846-zx-and-zy-printer-frame-test). Investing time on this up front is much better than printing parts for four days and then finding that your calibration or frame is off. 
 
 | Files can be found at                                    |                                                                           |                                                         |
 |----------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------|
-| [GitHub](https://github.com/V1EngineeringInc/MPCNC_Primo) | [PrusaPrinters](https://www.prusaprinters.org/social/47417-ryan-z/prints) | [Thingiverse](https://www.thingiverse.com/allted/about) |
+| [GitHub](https://github.com/V1EngineeringInc/MPCNC_Primo) | [Printables](https://www.printables.com/@V1Engineering) | [Thingiverse](https://www.thingiverse.com/allted/about) |
 
 ## Primo Printed Parts List
 
@@ -50,7 +50,7 @@ Recommended Print Settings: PLA for dimensional accuracy (PETG is also acceptabl
 |   1 | Core ClampY            | 45%+   |   A   |
 |   1 | Core                   | 70%    |   B   |
 
-A tool mount is also needed for your specific tool. A list of mounts I have designed are [below](#spindle-options). You can also find user designed mounts on PrusaPrinters and Thingiverse by searching "MPCNC Primo" and your tool name.
+A tool mount is also needed for your specific tool. A list of mounts I have designed are [below](#spindle-options). You can also find user designed mounts on Printables and Thingiverse by searching "MPCNC Primo" and your tool name.
 
 Color is the default color scheme I use to print the kits. Color `A` is one color of filament, and
 `B` is the second color of filament.
@@ -129,7 +129,7 @@ Internationally there are many options with lots of user submitted mounts, take 
 
 | Mount Files can be found at                                           |                                                                           |                                                         |
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------|
-| [GitHub](https://github.com/V1EngineeringInc/MPCNC_Primo_Tool_Mounts) | [PrusaPrinters](https://www.prusaprinters.org/social/47417-ryan-z/collections/26592) | [Thingiverse](https://www.thingiverse.com/allted/about) |
+| [GitHub](https://github.com/V1EngineeringInc/MPCNC_Primo_Tool_Mounts) | [Printables](https://www.printables.com/@V1Engineering/collections/26592) | [Thingiverse](https://www.thingiverse.com/allted/about) |
 
 
 More to come.
