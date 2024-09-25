@@ -223,7 +223,7 @@ If you bought it from the V1E.com store it should be ready to go. This section i
 
 V1 Engineering Specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). You need to download these to load them after flashing.
 
-FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.7.18** (make sure to update your config file as well to add the homing Amps to each stepper), use anything newer than this with caution. 
+FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.8.0** (make sure to update your config file as well to add the homing Amps to each stepper), use anything newer than this with caution. 
 
 ### Updating / Installing Firmware
 
