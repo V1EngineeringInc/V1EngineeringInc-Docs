@@ -154,8 +154,9 @@ extra_css:
  - v1.css
 
 extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  
 copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA</a> Copyright 2024 V1Engineering Inc."
 
 plugins:
@@ -170,6 +171,7 @@ markdown_extensions:
   - codehilite:
       guess_lang: false
   - pymdownx.arithmatex
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
