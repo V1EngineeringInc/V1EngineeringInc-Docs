@@ -44,7 +44,7 @@ Shop Aluminum plates are 6.35mm (0.25").
 |Length (<span class="units">mm</span>)| Qty | Name |
 |--------------------------------------|-----|------|
 |<span name="xrails"     ></span>|2|X rails, also the strut plate width|
-|<span name="yrail"     ></span>|1|Y rail (for looks you might want to match your table length)|
+|<span name="yrail"     ></span>|1|Y rail|
 
 #### Belt Dimensions
 |Length (<span class="units">mm</span>)| Qty | Name |
@@ -98,12 +98,12 @@ function get_offsets() {
   const unit_convert = get_unit_convert();
 
   var v4 = {};
-  v4.xrail_core = 167.75 * unit_convert;
+  v4.xrail_core = 168 * unit_convert;
   v4.yrail_minus_work = 255 * unit_convert;
   v4.ytable_minus_work = 313 * unit_convert;
   v4.xbelt_extra = 160 * unit_convert;
   v4.ybelt_extra = 120 * unit_convert;
-  v4.xtable_extra = 107.25 * unit_convert;
+  v4.xtable_extra = 107.5 * unit_convert;
   
 
   var model = $("input[name=model]:checked").val();
