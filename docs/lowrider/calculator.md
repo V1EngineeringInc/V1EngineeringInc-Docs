@@ -98,12 +98,12 @@ function get_offsets() {
   const unit_convert = get_unit_convert();
 
   var v4 = {};
-  v4.xrail_core = 180 * unit_convert;
-  v4.yrail_minus_work = 316 * unit_convert;
-  v4.ytable_minus_work = 383 * unit_convert;
-  v4.xbelt_extra = 80 * unit_convert;
-  v4.ybelt_extra = 100 * unit_convert;
-  v4.xtable_extra = 126 * unit_convert;
+  v4.xrail_core = 167.75 * unit_convert;
+  v4.yrail_minus_work = 255 * unit_convert;
+  v4.ytable_minus_work = 313 * unit_convert;
+  v4.xbelt_extra = 160 * unit_convert;
+  v4.ybelt_extra = 120 * unit_convert;
+  v4.xtable_extra = 107.25 * unit_convert;
   
 
   var model = $("input[name=model]:checked").val();
