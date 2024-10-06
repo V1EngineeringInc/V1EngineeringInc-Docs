@@ -57,8 +57,8 @@ tension, you might not even need to add any, the mounts are interference fit.
 * Check for correct orientation of XZ Main and XZ. 
 Stepper mounting hole in XZ Main, pointy side should face outward (facing away from the table).
 Belt mounting hole on XZ should face inward (Facing the table).See pictures for details. 
-![pic](https://user-images.githubusercontent.com/11182219/148236113-0078d643-84f6-42fb-8bc8-609eb4faddbb.jpeg)
-![pic](https://user-images.githubusercontent.com/11182219/148236135-992e7ae6-36e7-47e2-afed-f5ce1098664e.jpeg)
+![pic](../../img/old/2018/08/148236113-0078d643-84f6-42fb-8bc8-609eb4faddbb.jpeg)
+![pic](../../img/old/2018/08/148236135-992e7ae6-36e7-47e2-afed-f5ce1098664e.jpeg)
 
 When fully assembled the XZ main’s should sit completely flat on the YZ rollers. If not check these
 three points.

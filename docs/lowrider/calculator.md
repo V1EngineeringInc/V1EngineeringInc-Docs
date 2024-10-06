@@ -54,12 +54,10 @@ Shop Aluminum plates are 6.35mm (0.25").
 |<span name="belt_total"></span>|**total length**| belts (all 3)|
 
 #### Struts
-Length (<span class="units">mm</span>)|Qty|Name|
+|Length (<span class="units">mm</span>)|Qty|Name|
 |-------------------------------------|---|----|
 |<span name="strut"     ></span>|3|Strut length (same as Tube Length)|
-<button name="btnStrutDownload" class="download" onclick="download_svg()"><span name="strut2" ></span></button>
 
-Have a look at the SVG file linked above to see how many braces and hose holders you need.
 
 #### Table Size
 
@@ -192,18 +190,6 @@ function reset_work() {
   from_working();
 }
 
-function updateDownloadStrutLink(strutLenMetric) {
-  if (!strutLenMetric || strutLenMetric < minStrutLen || strutLenMetric > maxStrutLen) {
-    var text = "" + strutLenMetric + "mm Strut not available, must be " + minStrutLen + "mm - " + maxStrutLen + "mm";
-    $("button[name=btnStrutDownload]").prop('disabled', true);
-    $("span[name=strut2]").text(text);
-  } else {
-    var text = "Download " + strutLenMetric + "mm Strut .SVG";
-    $("button[name=btnStrutDownload]").prop('disabled', false);
-    $("span[name=strut2]").text(text);
-  }
-    
-}
 
 function from_working() {
   var offsets = get_offsets();

@@ -147,5 +147,5 @@ ___
     Another tip is to screw them in as shown in the picture, then move the nut back (away from them). If you find you are getting some binding, try moving the screws to the back instead. Left or right can also work.
 
 ___
-![slow clap](https://media.tenor.co/images/657e144fa560d4ad525ff71651f24a7d/raw)
+![slow clap](../img/old/2020/06/raw.gif)
 ___
