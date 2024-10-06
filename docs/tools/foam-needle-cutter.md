@@ -12,7 +12,7 @@ start the machine. Twenty minutes or so later you have a sheet of parts that are
 easily punched out, and hot-glued together. Score cuts are no problem. You can build the cutter for
 about **$20**, but you probably have some of the parts already.
 
-![needle cutter](https://us1.dh-cdn.net/uploads/db5587/optimized/3X/5/3/53baef25c0498a1ba9222d3d8b1e387f5b727755_2_666x500.jpeg)
+![needle cutter](../img/old/2018/08/needle.jpeg)
 
 ## Description
 
