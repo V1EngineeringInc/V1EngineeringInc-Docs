@@ -1,19 +1,9 @@
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script>
-  // Base URL template for Strut SVG files. 
-  var strutUrlTemplate = "https://docs.v1engineering.com/lowrider/lr3_strut/{folder}/lr3-strut-plate-variable_{len}.svg";
-  var strutSvgFolderPrefix = "svg_";
-  var minStrutLen = 480;
-  var maxStrutLen = 1700;
-</script>
 
 # LowRider v4 Size Calculator
 
-(The photo and drawing below are sized for a 48"x96" available cutting area.)
 
-![!LR3 Fancy Picture](../img/lr4/LR4Render.png){: loading=lazy width="600"}
-
-![!LR3 Dimensions Picture](../img/lr3/LR3 Dims.jpg){: loading=lazy width="600"}
+![!LR4 2'x4'](../img/lr4/lr4_simple.jpg){: loading=lazy width="600"}
 
 ----
 ## Inputs
@@ -40,11 +30,11 @@ Shop Aluminum plates are 6.35mm (0.25").
 
 ## Size Calculator
 
-#### Tube Lengths
+#### Rail Lengths
 |Length (<span class="units">mm</span>)| Qty | Name |
 |--------------------------------------|-----|------|
-|<span name="xrails"     ></span>|2|X rails, also the strut plate width|
-|<span name="yrail"     ></span>|1|Y rail|
+|<span name="xrails"     ></span>|2|X Rails|
+|<span name="yrail"     ></span>|1|Y Rail|
 
 #### Belt Dimensions
 |Length (<span class="units">mm</span>)| Qty | Name |
@@ -53,10 +43,10 @@ Shop Aluminum plates are 6.35mm (0.25").
 |<span name="ybelts"    ></span>|2|Belt length along Y|
 |<span name="belt_total"></span>|**total length**| belts (all 3)|
 
-#### Struts
+#### Strut Plates
 |Length (<span class="units">mm</span>)|Qty|Name|
 |-------------------------------------|---|----|
-|<span name="strut"     ></span>|3|Strut length (same as Tube Length)|
+|<span name="strut"     ></span>|3|Strut input length (They will cut a millimeter shorter)|
 
 
 #### Table Size

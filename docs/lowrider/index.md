@@ -2,7 +2,7 @@
 
 The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handle up to full sheet material. If the MPCNC is not big enough for you this picks up where that left off. 
 
-![!LR4 Fancy Picture](../img/lr4/LR4Render.png){: loading=lazy width="600"}
+![!LR4 Fancy Picture](../img/lr4/lr4_neon.jpg){: width="600"}
 
 ### Key Points
 
@@ -22,9 +22,9 @@ The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handl
 
  * Can be used with most any firmware Marlin, RepRap firmware, GRBL, FluidNC, or others.
 
- * The Average total build cost is under $TED!!
+ * The average total build cost is under $TED!!
 
- ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (2).jpg){: loading=lazy width="600"} 
+ ![!LR4 Core Picture](../img/lr4/lr4_core.jpg){: width="600"} 
  
 ### Geometry
 
@@ -40,7 +40,7 @@ The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handl
 
  * This router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines. So the lower the axis the more rigid the machine.
 
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (3).jpg){: loading=lazy width="600"}
+![!LR4 Render](../img/lr4/LowRider4_Main.png){: loading=lazy width="600"}
  
 ### Tool Options
 
@@ -76,7 +76,7 @@ Thingiverse Printed parts files:
 Rather not spend the time printing all the parts, you can buy a set here, [V1 Shop](https://www.v1e.com/collections/lowrider-parts/products/....TED){:target="_blank"}.
 
 Or print your own. No supports needed, keep the default orientation. PLA is recommended for ultimate rigidity, other 
-filaments should be evaluated for rigidity (PET-GF/CF and PC-GF/CF are great alternatives). 
+filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/CF.  You will need about 2.7kg of filament for a full set with tool mount and a board box.
 
 3 walls rectilinear or cubic infill for most parts. Thicker layers since these are large parts, no more than 80% nozzle diameter to layer thickness ratio to keep steep walls working.
 
@@ -220,17 +220,19 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
 * Not included in the hardware kit. 
 
 ### LR2 to LR3 hardware differences for updating your build
-|QTY  |Description             |US Equivalent                                  | 
+|QTY  |Description             |Notes                                 | 
 |-----|------------------------|-----------------------------------------------|
-|39   |M3 x 10mm               |None                                           |
+|39   |M3 x 10mm               |                                               |
 |2    |145mm+ Leadscrews       |                                               |
+|set  |XZ Plates               |                                               |
+
 ### Table
 
-Your table needs only be as fancy as a sheet of wood on a relatively flat, smooth surface. A CNC can self correct many of its own imperfections if needed. Typically, our tables only support the CNC and some material, so nothing heavy duty is typically required.
+Your table needs only be as fancy as a sheet of wood on a relatively flat, smooth surface. A CNC can self correct many of its own imperfections if needed. Typically, our tables only support the CNC and some material, so nothing heavy duty is required.
 
 Any existing table that is large enough is fine. You can use its surface directly, or a more popular option is to add a waste board of some sort that is replaceable as it gets used and cut into.
 
-Next would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better.
+Next option would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better.
 
 If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. Here is a basic parametric set of plans that are easily configurable [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698){:target="_blank"}.
 
@@ -244,7 +246,7 @@ If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion 
 
 ### YZ Plate Assemblies
 
- * Mount Back Whhels
+ * Mount Back Wheels
  * Mount Z End Stop
  * Mount Y Stepper
  * Mount Front Wheels
@@ -267,21 +269,22 @@ If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion 
 
 #### Initial Squaring
 
-To square the machine you need to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the rail. You will probably need to repeat this a couple times to get it under 1mm difference.
+To square the machine it is easiest to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the rail. You will probably need to repeat this a couple times to get it under 1mm difference. This is a multipled error so 1mm or less is very very good.
 
-You can cable tie a pen to the vacuum mount as shown below, or here is a pen mount that fits on most router bodies. [V1 Printables](https://www.printables.com/model/237997-basic-lr3-pen-mount){:target="_blank"}
+You can cable tie a pen to the vacuum mount Or even easier is use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in your router to pop a tiny hole into some tape.
 
 You can also automate this process with Jamie's ["Squareness Marks"](https://vector76.github.io/gcode_tpgen/){:target="_blank"} test. 
- * Start with G92 X0 Y0 Z0 - Check this box and where the pen tip is will be 0,0,0. I suggest starting the pen just above the paper.
- * Z level for pen-down - Make this number more negative if you find some of your marks are not hitting the paper, but you want as light a touch as possible.
- * Z level for pen-up - You can go as high as you need to not drag the pen tip.
- * Feedrate - This is set at a safe travel rate.
+ * Home the X and Y axis.
+ * Start with G92 X0 Y0 Z0 - Check this box and where the tip is will be 0,0,0. I suggest starting the tip just above the paper.
+ * Z level for tip-down - Make this number more negative if you find some of your marks are not hitting the paper, but you want as light a touch as possible.
+ * Z level for tip-up - You can go as high as you need to not drag the pen tip.
+ * Feedrate - This is set at a safe travel rate. The Default is safe.
  * Extents - This is where you set the dimensions of your table. The further apart the marks the more accurate your table will be.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: loading=lazy width="400"}
 
  * I use tape, so I can be sure I am using the correct mark.
- * Home the X and Y axis.
+ * Home the X and Y axis. This step is important.
  * Use the Z axis to mark a small dot at 0,0.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (82).jpg){: loading=lazy width="400"}
@@ -297,13 +300,18 @@ You can also automate this process with Jamie's ["Squareness Marks"](https://vec
 
  * Now measure the diagonals to the best of your ability. Note the longer one, and subtract to find the difference. Under 1mm is very good.
 
-If you are over 1mm in difference you can use the terminal on your SKR Pro or a USB 
+JackPot CNC Controller - In the WebUI you can add to your Y axis pull-off distance to correct any skew. Scroll all teh way down and hit save. Back on the main screen use the "Save" macro to make the changes stick after a re-boot.
+
+SKR Pro / Marlin - If you are over 1mm in difference you can use the terminal on your SKR Pro or a USB 
 connection and repetier host to add a homing offset. "M666 Y0.5" will move your Y1 
 stepper 0.5mm away from the stop block after it homes. "M666 Y-0.5" will move your 
 Y2 stepper away instead. You want to move the longer dimension side away from the 
 block. A good first guess is the difference in your measurements (or you can use a 
 trig calculator and add a bit because your end stops are further away than the 
 dots). Now Use "M500" to save it to the EEPROM. Re-home X and Y and test it again.
+
+Old Video of this on an SKR Pro
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w5H1AZ40YHk?si=GJcbqE_V3bhuVvV1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -321,8 +329,9 @@ dots). Now Use "M500" to save it to the EEPROM. Re-home X and Y and test it agai
  1. Home all three of your axis.
 
  2. Get Readings
-   * Touch plate
-     * If you are using the touch plate, you probe by using G38.2 Z0. When it gets there, take note of the current Z position (M114). Then move it up and over to your X axis extreme and probe again, taking note of the Z axis position. Take the difference and adjust the side that moved furthest.
+    * Touch plate  
+     * If you are using the touch plate, You can use the probe tab for the Jackpot CNC controller or for the SKR Pro / Marlin- you probe by using G38.2 Z0 in the terminal window.
+     * When it gets there, take note of the current Z position (top of the Jackpot screen or terminal-M114). Then move it up and over to your X axis extreme and probe again, taking note of the Z axis position. Take the difference and adjust the side that moved furthest.
      * The way I have started to do this is Home and probe twice on each side. So G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114, Then move over G0 X1250, G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114. From there subtract the average of both sides, M666 Z0.5, M500. Then test again. G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114, Then move over G0 X1250, G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114.
 
    * Feeler Gauge
@@ -331,9 +340,16 @@ dots). Now Use "M500" to save it to the EEPROM. Re-home X and Y and test it agai
 ![!LR3 Fancy Picture](../img/lr3/LR3 (87).jpg){: loading=lazy width="400"}
 
  3. Make adjustments
-   * You adjust by running "M666 Z0.5" the number is in millimeters. These numbers are counting down from 200, so 120 is further away than than 130. Start by adjusting 0.2mm more than your difference.
-   * Save with M500 after each adjustment
-   * Home all three axis and check your work (go back to Step #2). 
+
+   * Jackpot CNC Controller / FluidNC
+     * Adjust the Z pulloff in the settings tab.
+     * Save at the bottom of the screen
+     * Save macro on the home screen.
+
+   * SKR Pro / Marlin
+     * You adjust by running "M666 Z0.5" the number is in millimeters. These numbers are counting down from 200, so 120 is further away than than 130. Start by adjusting 0.2mm more than your difference.
+     * Save with M500 after each adjustment
+     * Home all three axis and check your work (go back to Step #2). 
 
 ---
 
@@ -342,8 +358,9 @@ dots). Now Use "M500" to save it to the EEPROM. Re-home X and Y and test it agai
 
 !!! warning 
    NEED INFO
+
 At this point you should be ready to make some cuts. To be certain it all goes as planned, you can 
-make a test cut in high density foam, or simply making an air cut. To make an air cut you, just home 
+make a test cut in high density foam, or simply make an air cut. To make an air cut you, just home 
 your machine above the table and run the gcode. This lets you watch that it moves as you would 
 expect it to and doesn't snag or have any faults in the code.
 
@@ -351,10 +368,10 @@ expect it to and doesn't snag or have any faults in the code.
 
 [Basic CAM settings](../tools/milling-basics.md){:target="_blank"}
 
-Gcode making - TODO
+TED-----Gcode making - TODO
 
-The three strut plates should be 6.35mm (1/4") or thinner MDF or similarly rigid material.
-You will want to cut each plate as close to the side of your build as you can to assure your build has the rigidity to do so.
+The two strut plates should be 6.35mm (1/4") or thinner MDF or similarly rigid material. Plastic or metal are fine.
+You will want to cut each plate as close to the side of your build as you can to assure your build has the rigidity to do so. Meaning in the center of your table is NOT the best place to make cuts before you have strut plates.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (88).jpg){: loading=lazy width="400"}
 
@@ -373,17 +390,13 @@ You will want to cut each plate as close to the side of your build as you can to
 ![!LR3 Fancy Picture](../img/lr3/LR3 (91).jpg){: loading=lazy width="400"}
 
  * This is what a finished cut looks like. All parts are held in place with small tabs of material that can be cut with a saw or utility knife.
- * Do this two more times.
+ 
 
 ---
 
 #### Disassembly
 
-![!LR3 Fancy Picture](../img/lr3/LR3 (92).jpg){: loading=lazy width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (93).jpg){: loading=lazy width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (94).jpg){: loading=lazy width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (95).jpg){: loading=lazy width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (96).jpg){: loading=lazy width="400"}
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (97).jpg){: loading=lazy width="400"}
 ---
 
@@ -400,9 +413,7 @@ You will want to cut each plate as close to the side of your build as you can to
 ### Vacuum
 ![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (8).jpg){: loading=lazy width="600"}
 
-Size, options, routing, grounding.  *to do
-
-[Quick release coupler](https://www.printables.com/model/168405-vacuum-hose-coupler){:target="_blank"} for 1.5" hose.
+Size, options, routing, grounding.  TED
 
 ### Wiring
 
@@ -413,12 +424,12 @@ Next step is [wiring the steppers](../electronics/steppers.md){:target="_blank"}
 
 ### Firmware
 
-TED
+[Jackpot CNC Controller](../electronics/jackpot.md){:target="_blank"}
 
-[Firmware page.](../electronics/marlin-firmware.md){:target="_blank"}
+[Marlin / SKR Pro](../electronics/marlin-firmware.md){:target="_blank"}
 
 ### Build experience poll
 
-[How did it go for you?](https://forum.v1engineering.com/t/lr3-how-many-hours-to-build-lr3/34307){:target="_blank"}
+[How did it go for you?](https://forum.TED){:target="_blank"}
 
 ## Go get it dirty, be safe, have fun!
