@@ -246,16 +246,186 @@ If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion 
 
 ### YZ Plate Assemblies
 
- * Mount Back Wheels
- * Mount Z End Stop
- * Mount Y Stepper
- * Mount Front Wheels
- * Mount Linear Rails and XZ Plates
- * Mount Y Belt, and End Stop
- * Mount Z Axis
- * Mount Rail Rollers
- * Snug Z Endstop
- * Snug steppers (tighten just right)
+Start the assembly with the YZ plate. 
+
+![!LR4 yz assm](../img/lr4/fullYZplate.jpg){: loading=lazy width="600"}
+
+ * This is what the finished assembly will look like.
+
+![!LR4 yz assm](../img/lr4/label.jpg){: loading=lazy width="600"}
+
+ * Start by doing yourself a favor by labeling all the wires before you run them.
+ * As small and as tight to the wire as you can get makes things the easiest.
+ * Label the wires and not the pugs so they still fit in the control board and you can read them without unplugging.
+ * Typically as you face the machine Left is Y and Z zero, and the right side is Y1 and Z1.
+
+
+![!LR4 yz assm](../img/lr4/yze1.jpg){: loading=lazy width="600"}
+
+ * Use the M2.5 screws to secure the crimped or soldered endstop to the Z_Stop_Min/Max part
+
+![!LR4 yz assm](../img/lr4/yze2.jpg){: loading=lazy width="600"} 
+
+ * Notice what way the lever faces, away from the flat side.
+ * Sorry fo rthe blurry image, I need to take a new one.
+
+![!LR4 yz assm](../img/lr4/yze3.jpg){: loading=lazy width="600"} 
+
+ * Run the  wire through the channel
+
+
+![!LR4 yz assm](../img/lr4/yze4.jpg){: loading=lazy width="600"} 
+
+ * Lightly secure the Z stop part with an M5 Screw and nut.
+ * The nut gets pressed in from the YZ plate face.
+ * Start with the assembly in teh low postion this will get adjusted later.
+ 
+![!LR4 yz assm](../img/lr4/yze5.jpg){: loading=lazy width="600"} 
+
+ * Run the endstop wire all the way out the bottom of the YZ plate.
+
+![!LR4 yz assm](../img/lr4/yze6.jpg){: loading=lazy width="600"}  
+
+ * Insert both M5 idler nuts into place
+
+![!LR4 yz assm](../img/lr4/yze7.jpg){: loading=lazy width="600"}  
+
+ * Add the M5 Screws to hold the nuts into place until later.
+
+
+![!LR4 yz assm](../img/lr4/yzs1.jpg){: loading=lazy width="600"} 
+
+ * Use the alignment gauge on the top of the YZ plate to align the pulley.
+ * Secure the pulley with the set/grub screw on the flat face first, then the other screw.
+
+![!LR4 yz assm](../img/lr4/yzs2.jpg){: loading=lazy width="600"}
+
+ * Notice the labeled wire
+ * Feed the wire through the channel
+
+![!LR4 yz assm](../img/lr4/yzs3.jpg){: loading=lazy width="600"}
+
+ * Use two M3 screws to hold the stepper in place lightly, the other two screws come later.
+
+![!LR4 yz assm](../img/lr4/yzw1.jpg){: loading=lazy width="600"}
+
+ * Build the front wheel, both are similar. The Heads face outside the machine or down.
+ * Snug up the large bolts do not crush the part.
+
+![!LR4 yz assm](../img/lr4/yzw2.jpg){: loading=lazy width="600"}
+
+ * Two M3 screws will secure the front wheel and the rest of the Y stepper.
+
+![!LR4 yz assm](../img/lr4/yzw3.jpg){: loading=lazy width="600"}
+
+ * Snug up all 4 stepper screws.
+ * If there is any play make sure the outer faces are flush with each other. You can lay the parts on a flat table with the wheels hanging off the edge to align them before snugging it up.
+
+![!LR4 yz assm](../img/lr4/yzb1.jpg){: loading=lazy width="600"}
+
+ * Load your Y axis belt
+ * Cut it to length according to the calculator
+ * You can remove the M5 screws to make this easier
+ * Add the idlers and M5 screws back into place.
+ * Seat the screws but to not crush the plastic or the idler bearings.
+ * A drop of light oil or lube on these bearings can help to extend the life of them.
+
+![!LR4 yz assm](../img/lr4/yze8.jpg){: loading=lazy width="600"}
+
+ * Wire labeled
+
+
+![!LR4 yz assm](../img/lr4/yze9.jpg){: loading=lazy width="600"}
+
+* Run the wires through the first channel.
+* Use the M2.5 screws to secure the endstop with the arm facing out.
+
+!!! warning
+
+    From this point on be cautious not to snag the little lever on anything.
+    You can hang the wheels and lever off the edge of the table if needed.
+
+
+
+
+![!LR4 yz assm](../img/lr4/yzw4.jpg){: loading=lazy width="600"}
+
+ * Run the small wires through the wire keepr first
+ * Then run teh stepper wire to hold them all in.
+ * If you are having a hard time do not pry the tab simply push the wires in with your pulley allen key or a flat head screwdriver.
+
+![!LR4 yz assm](../img/lr4/yzw5.jpg){: loading=lazy width="600"}
+
+ * All the wires should be to the back of the plate.
+ * Feed them one at a time out the slot in the slot in the back.
+
+![!LR4 yz assm](../img/lr4/yzw6.jpg){: loading=lazy width="600"} 
+ 
+ * When you get all the wires through it is best to bundle them.
+
+![!LR4 yz assm](../img/lr4/yzz1.jpg){: loading=lazy width="600"}
+
+ * Use the guide on the top of the YZ plate to align the coupler.
+ * Tighten the set/grub screw on the flat first, the other.
+
+![!LR4 yz assm](../img/lr4/yzz2.jpg){: loading=lazy width="600"} 
+
+ * Run the wire out the back channel.
+ * You might need to jiggle the other wires to let it feed through.
+ * Bundle for safety.
+ * M3 screws to secure the stepper, Start all 4 first then final snug.
+
+![!LR4 yz assm](../img/lr4/yzz3.jpg){: loading=lazy width="600"}
+
+ * Use the sharp edge of the Linear rail to chisel the rail bed smooth.
+ * This simple step makes both rails work easier.
+
+![!LR4 yz assm](../img/lr4/yzz4.jpg){: loading=lazy width="600"}
+
+ * Loosely add all the M3 screws to the linear rails, get the heads just under the rail surface.
+ * Keep any eye out for offcenter M3 screw heads, they can be sneaky and make this next step harder. 
+
+![!LR4 yz assm](../img/lr4/yzz5.jpg){: loading=lazy width="600"}
+
+ * Notice the Y endstop hanging off teh table as to not bother the small lever.
+ * Add XZ plate using M3 screws. Snug.
+ * XZ max has the large hole, Shown.
+ * XZ Min has the slot at the top.
+
+![!LR4 yz assm](../img/lr4/yzz6.jpg){: loading=lazy width="600"}
+
+ * Snug all the rail screws 
+ * Move the XZ plate the full range of motion for each screw to assure there is no binding and everything stays smooth.
+ * Add the T8 Leadscrew to the coupler. Make sure the leadscrew is fully seated and touching the stepper shaft.
+
+![!LR4 yz assm](../img/lr4/yzz7.jpg){: loading=lazy width="600"}
+
+ * Add the brass nut to the Z_Nut
+ * 1-2 M3 screws is all that is needed.
+ * This could be a snug fit use pliers to press fit if needed. 
+ * Thread this on to the leadscrew brass face down
+
+![!LR4 yz assm](../img/lr4/yzs4.jpg){: loading=lazy width="600"}
+
+ * The Z stubs get 2 hidden nuts and are secured to the XZ plates with M5 screws.
+
+![!LR4 yz assm](../img/lr4/yzs5.jpg){: loading=lazy width="600"}
+
+ * The hidden M5 nuts get pressed in and fully seated.
+
+![!LR4 yz assm](../img/lr4/yzs6.jpg){: loading=lazy width="600"}
+
+ * If you have trouble seating the nuts you can;
+ * Press them in with a flat head as shown here
+ * Or you can thread the M5 through the XZ plate and use it to pull them into place.
+
+![!LR4 yz assm](../img/lr4/yzs7.jpg){: loading=lazy width="600"}
+
+ * Snug in the Z stubs using the two M5 screws.
+ * Leave out the cross tensioner screws for now.
+
+
+
 
 ### Core Assembly
  * X Drive
