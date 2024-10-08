@@ -86,11 +86,6 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
     Printer Skew calibration is highly recommended, [Vector3D](https://vector3d.shop/products/calilantern-calibration){:target="balnk"}, makes a wonderful tool. Skew calibration is enough size calibration should not be needed.
 
 
-!!! warning
-    Cura based slicers seem to work a little different. Make sure the parts are aligned on your bad as they appear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way.
-    Repetier\PrusaSlicer based slicers have been tested to work as expected.
-
-
 
 |QTY |File Name                   |Infill |Comment                              |Link                                     | 
 |----|----------------------------|-------|-------------------------------------|-----------------------------------------|
@@ -101,15 +96,15 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 |1   |FrontWheel_Max              |20%    |                                     |                                         |
 |1   |BackWheel_Min               |20%    |                                     |                                         |
 |1   |BackWheel_Max               |20%    |                                     |                                         |
-|1   |Y_Belt_MinF                 |30%    |                                     |[Link][Wheels]                           |
-|1   |Y_Belt_MinB                 |30%    |                                     |[Link][Wheels]                           |
+|1   |Y_Belt_MinF                 |30%    |                                     |                                         |
+|1   |Y_Belt_MinB                 |30%    |                                     |                                         |
 |1   |Y_Belt_MaxF                 |30%    |                                     |                                         |
 |1   |Y_Belt_MaxB                 |30%    |                                     |                                         |
 |1   |Y_Belt_Max_Lock             |30%    |                                     |                                         |
-|1   |Y_Belt_Min_Tension          |30%    | |                                         |
+|1   |Y_Belt_Min_Tension          |30%    |                                     |                                         |
 |1   |Y_Belt_Min_Lock             |30%    |                                     |                                         |
-|1   |Y_Belt_Max_Tension          |30%    |                                     |[Shop][xz1] - [DXF](#xz-plates)|
-|1   |ZStop_Min                   |30%    |                                     |[Shop][xz1] - [DXF](#xz-plates)|
+|1   |Y_Belt_Max_Tension          |30%    |                                     |                                         |
+|1   |ZStop_Min                   |30%    |                                     |                                         |
 |1   |ZStop_Max                   |30%    |                                     |                                         |
 |2   |Z_Nut                       |30%    |                                     |                                         |
 |1   |Z_Stub_Min                  |30%    |                                     |                                         |
@@ -133,6 +128,13 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
  * Brace note- Print Brace_Max_### and one Brace_### at 60% infill. These will be the end braces and benefit from added rigidity.
 
+ * If a part name if followed by a verion number use the highest one. V1, V2, V3... Means there was a fix or edit.
+
+!!! warning
+    Cura based slicers seem to work a little different. Make sure the parts are aligned on your bad as they appear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way.
+    Repetier\PrusaSlicer based slicers have been tested to work as expected.
+
+
 
 ## Flat Parts
 
@@ -150,7 +152,7 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
 ### Specialty Parts
 
-You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://www.v1e.com/collections/lowrider-parts/products/TED){:target="_blank"}
+You can buy most of the specialty parts and hardware here, [V1 Shop](https://www.v1e.com/products/lowrider-v4-hardware-kit){:target="_blank"}
 
 |QTY  |Description             |Comment                                        |Link                        | 
 |-----|------------------------|-----------------------------------------------|----------------------------|
@@ -220,6 +222,9 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
 * Not included in the hardware kit. 
 
 ### LR2 to LR3 hardware differences for updating your build
+
+Lr3 to Lr4 Upgrade kit is available here in the [V1E.com shop](https://www.v1e.com/products/lowrider-v3-to-lowrider-v4-hardware-upgrade-kit){:target="_blank"}.
+
 |QTY  |Description             |Notes                                 | 
 |-----|------------------------|-----------------------------------------------|
 |39   |M3 x 10mm               |                                               |
