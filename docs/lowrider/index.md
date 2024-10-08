@@ -1,14 +1,14 @@
 # Low Rider CNC v4
 
-The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handle up to full sheet material. If the MPCNC is not big enough for you this picks up where that left off. 
+The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handle up to full sheet material. If the MPCNC is not big enough for you, this picks up where that left off. 
 
 ![!LR4 Fancy Picture](../img/lr4/lr4_neon.jpg){: width="600"}
 
 ### Key Points
 
- * Foams, wood and plastic are no problem, aluminum and brass are no problem for an experinced user.
+ * Foams, wood and plastic are no problem, aluminum and brass are no problem for an experienced user.
 
- * Most parts can be 3D printed. To save from shipping or printing large parts the machine can be partially assembled to cut them itself.
+ * Most parts can be 3D printed. To save from shipping or printing large parts, the machine can be partially assembled to cut them itself.
 
  * Easily Removable from the table for storage.
 
@@ -20,9 +20,9 @@ The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handl
 
  * Works with any 5 driver board.
 
- * Can be used with most any firmware Marlin, RepRap firmware, GRBL, FluidNC, or others.
+ * Can be used with almost any firmware Marlin, RepRap firmware, GRBL, FluidNC, or others.
 
- * The average total build cost is under $TED!!
+ * The average total build cost is easily under $800!!
 
  ![!LR4 Core Picture](../img/lr4/lr4_core.jpg){: width="600"} 
  
@@ -38,13 +38,13 @@ The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handl
 
  * The Z direction (height) is 100mm (4") of travel. A standard build would give you 50mm of Z cutting depth, or you can use a drop table to use all 100mm. 
 
- * This router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines. So the lower the axis the more rigid the machine.
+ * This router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines. So the lower the axis, the more rigid the machine.
 
 ![!LR4 Render](../img/lr4/LowRider4_Main.png){: loading=lazy width="600"}
  
 ### Tool Options
 
-This is a CNC platform so just about any tool can easily be mounted to the LowRider CNC. The most typical is a router or spindle, Diode laser, pen or even a drag knive. The [Makita 700](https://amzn.to/3NgdqGg) series is available world wide and highly reccomended. Here is a link to the current tool mount collection on [Printables](TED)
+This is a CNC platform, so just about any tool can easily be mounted to the LowRider CNC. The most typical is a router or spindle, Diode laser, pen or even a drag knife. The [Makita 700](https://amzn.to/3NgdqGg) series is available worldwide and highly recommended. Here is a link to the current tool mount collection on [Printables](BLANK)
 
 ### License
 
@@ -52,19 +52,19 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 More details to my loosened restrictions can be found here on [the home page](https://www.v1e.com/pages/trademark-and-file-licenses). 
 
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (4).jpg){: loading=lazy width="600"}
+![!LR4 Wide Picture](../img/lr4/widelr4.jpg){: loading=lazy width="600"}
 
 ### Files
 
 Printed parts files can be found at the links below:
 
 Printables.com
-:   [Printables.com Link](https://www.printables.com......TED){:target="_blank"}
+:   [Printables.com Link](https://www.printables.com......BLANK){:target="_blank"}
 
 Thingiverse Printed parts files:
-:   [Thingiverse.com Link](https://www.thingiverse.com/......TED){:target="_blank"}
+:   [Thingiverse.com Link](https://www.thingiverse.com/......Blank){:target="_blank"}
 
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (7).jpg){: loading=lazy width="600"}
+![!LR4 JJ's Picture](../img/lr4/JJs.jpeg){: loading=lazy width="600"}
 
 !!! info Previous build "LR V3"
     Version 3 instructions are [here](../lowrider/lowrider3.md)
@@ -78,16 +78,16 @@ Rather not spend the time printing all the parts, you can buy a set here, [V1 Sh
 Or print your own. No supports needed, keep the default orientation. PLA is recommended for ultimate rigidity, other 
 filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/CF.  You will need about 2.7kg of filament for a full set with tool mount and a board box.
 
-3 walls rectilinear or cubic infill for most parts. Thicker layers since these are large parts, no more than 80% nozzle diameter to layer thickness ratio to keep steep walls working.
+3 walls rectilinear or cubic infill for most parts. Thicker layers, since these are large parts, no more than 80% nozzle diameter to layer thickness ratio to keep steep walls working.
 
 
 !!! info 
 
-    Printer Skew calibration is highly reccomended, [Vector3D](https://vector3d.shop/products/calilantern-calibration){:target="balnk"}, makes a wonderful tool. Skew calibration is enough size calibration should not be needed.
+    Printer Skew calibration is highly recommended, [Vector3D](https://vector3d.shop/products/calilantern-calibration){:target="balnk"}, makes a wonderful tool. Skew calibration is enough size calibration should not be needed.
 
 
 !!! warning
-    Cura based slicers seem to work a little different. Make sure the parts are aligned on your bad as they apprear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way.
+    Cura based slicers seem to work a little different. Make sure the parts are aligned on your bad as they appear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way.
     Repetier\PrusaSlicer based slicers have been tested to work as expected.
 
 
@@ -165,7 +165,7 @@ You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://www
 |2    |T8 Leadscrew & nut      |145mm or larger                                |[Shop][sh9] – [Amazon][az9]|
 |2    |Coupler                 |8mm to 5mm                                     |[Shop][sh10] – [Amazon][az10]|
 |4    |Linear rails MGN        |MGN12H 150mm                                   |[Shop][sh11] – [Amazon][az11]|
-|1    |Power Supply            |9-24V Board dependant 36W+                     |[Shop][sh12] – [Amazon][az12]|
+|1    |Power Supply            |9-24V Board dependent 36W+                     |[Shop][sh12] – [Amazon][az12]|
 |*    |Thread locker           |Optional for grubs screws                      |[Shop][sh13] – [Amazon][az13]|
 |*    |Lube                    |Optional for idlers and linear rails           |[Shop][sh14] – [Amazon][az14]|
 |*    |Vac Hose                |Optional 2.5" (70mm) OD Vacuum hose steel rib  | – [Amazon][az15]|
@@ -237,7 +237,7 @@ Next option would be to build a basic table with any material that is easy to so
 If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. Here is a basic parametric set of plans that are easily configurable [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698){:target="_blank"}.
 
 
-![!LR3 Dimensions Picture](../img/lr3/LR3 Dims.jpg){: loading=lazy width="600"}
+![!LR4 overhead Picture](../img/lr4/Top.png){: loading=lazy width="600"}
 
 [Calculator for table, rail, and belt lengths.](calculator.md){:target="_blank"}
 
@@ -257,7 +257,7 @@ Start the assembly with the YZ plate.
  * Start by doing yourself a favor by labeling all the wires before you run them.
  * As small and as tight to the wire as you can get makes things the easiest.
  * Label the wires and not the pugs so they still fit in the control board and you can read them without unplugging.
- * Typically as you face the machine Left is Y and Z zero, and the right side is Y1 and Z1.
+ * Typically, as you face the machine, the left side is Y and Z zero, and the right side is Y1 and Z1.
 
 
 ![!LR4 yz assm](../img/lr4/yze1.jpg){: loading=lazy width="600"}
@@ -267,7 +267,7 @@ Start the assembly with the YZ plate.
 ![!LR4 yz assm](../img/lr4/yze2.jpg){: loading=lazy width="600"} 
 
  * Notice what way the lever faces, away from the flat side.
- * Sorry fo rthe blurry image, I need to take a new one.
+ * Sorry for the blurry image, I need to take a new one.
 
 ![!LR4 yz assm](../img/lr4/yze3.jpg){: loading=lazy width="600"} 
 
@@ -278,7 +278,7 @@ Start the assembly with the YZ plate.
 
  * Lightly secure the Z stop part with an M5 Screw and nut.
  * The nut gets pressed in from the YZ plate face.
- * Start with the assembly in teh low postion this will get adjusted later.
+ * Start with the assembly in the low position, this will get adjusted later.
  
 ![!LR4 yz assm](../img/lr4/yze5.jpg){: loading=lazy width="600"} 
 
@@ -309,7 +309,7 @@ Start the assembly with the YZ plate.
 
 ![!LR4 yz assm](../img/lr4/yzw1.jpg){: loading=lazy width="600"}
 
- * Build the front wheel, both are similar. The Heads face outside the machine or down.
+ * Build the front wheel, both are similar. The heads face outside the machine or down.
  * Snug up the large bolts do not crush the part.
 
 ![!LR4 yz assm](../img/lr4/yzw2.jpg){: loading=lazy width="600"}
@@ -319,7 +319,7 @@ Start the assembly with the YZ plate.
 ![!LR4 yz assm](../img/lr4/yzw3.jpg){: loading=lazy width="600"}
 
  * Snug up all 4 stepper screws.
- * If there is any play make sure the outer faces are flush with each other. You can lay the parts on a flat table with the wheels hanging off the edge to align them before snugging it up.
+ * If there is any play, make sure the outer faces are flush with each other. You can lay the parts on a flat table with the wheels hanging off the edge to align them before snugging it up.
 
 ![!LR4 yz assm](../img/lr4/yzb1.jpg){: loading=lazy width="600"}
 
@@ -327,7 +327,7 @@ Start the assembly with the YZ plate.
  * Cut it to length according to the calculator
  * You can remove the M5 screws to make this easier
  * Add the idlers and M5 screws back into place.
- * Seat the screws but to not crush the plastic or the idler bearings.
+ * Seat the screws, but do not crush the plastic or the idler bearings.
  * A drop of light oil or lube on these bearings can help to extend the life of them.
 
 ![!LR4 yz assm](../img/lr4/yze8.jpg){: loading=lazy width="600"}
@@ -342,7 +342,7 @@ Start the assembly with the YZ plate.
 
 !!! warning
 
-    From this point on be cautious not to snag the little lever on anything.
+    From this point on, be cautious not to snag the little lever on anything.
     You can hang the wheels and lever off the edge of the table if needed.
 
 
@@ -350,18 +350,18 @@ Start the assembly with the YZ plate.
 
 ![!LR4 yz assm](../img/lr4/yzw4.jpg){: loading=lazy width="600"}
 
- * Run the small wires through the wire keepr first
- * Then run teh stepper wire to hold them all in.
- * If you are having a hard time do not pry the tab simply push the wires in with your pulley allen key or a flat head screwdriver.
+ * Run the small wires through the wire keeper first
+ * Then run the stepper wire to hold them all in.
+ * If you are having a hard time do not pry the tab, simply push the wires in with your pulley allen key or a flat head screwdriver.
 
 ![!LR4 yz assm](../img/lr4/yzw5.jpg){: loading=lazy width="600"}
 
  * All the wires should be to the back of the plate.
- * Feed them one at a time out the slot in the slot in the back.
+ * Feed them one at a time out of the slot in the slot in the back.
 
 ![!LR4 yz assm](../img/lr4/yzw6.jpg){: loading=lazy width="600"} 
  
- * When you get all the wires through it is best to bundle them.
+ * When you get all the wires through, it is best to bundle them.
 
 ![!LR4 yz assm](../img/lr4/yzz1.jpg){: loading=lazy width="600"}
 
@@ -373,7 +373,7 @@ Start the assembly with the YZ plate.
  * Run the wire out the back channel.
  * You might need to jiggle the other wires to let it feed through.
  * Bundle for safety.
- * M3 screws to secure the stepper, Start all 4 first then final snug.
+ * M3 screws to secure the stepper, start all 4 first, then final snug.
 
 ![!LR4 yz assm](../img/lr4/yzz3.jpg){: loading=lazy width="600"}
 
@@ -383,11 +383,11 @@ Start the assembly with the YZ plate.
 ![!LR4 yz assm](../img/lr4/yzz4.jpg){: loading=lazy width="600"}
 
  * Loosely add all the M3 screws to the linear rails, get the heads just under the rail surface.
- * Keep any eye out for offcenter M3 screw heads, they can be sneaky and make this next step harder. 
+ * Keep an eye out for off center M3 screw heads, they can be sneaky and make this next step harder. 
 
 ![!LR4 yz assm](../img/lr4/yzz5.jpg){: loading=lazy width="600"}
 
- * Notice the Y endstop hanging off teh table as to not bother the small lever.
+ * Notice the Y endstop hanging off the table as to not bother the small lever.
  * Add XZ plate using M3 screws. Snug.
  * XZ max has the large hole, Shown.
  * XZ Min has the slot at the top.
@@ -402,7 +402,7 @@ Start the assembly with the YZ plate.
 
  * Add the brass nut to the Z_Nut
  * 1-2 M3 screws is all that is needed.
- * This could be a snug fit use pliers to press fit if needed. 
+ * This could be a snug fit, use pliers to press fit if needed. 
  * Thread this on to the leadscrew brass face down
 
 ![!LR4 yz assm](../img/lr4/yzs4.jpg){: loading=lazy width="600"}
@@ -415,7 +415,7 @@ Start the assembly with the YZ plate.
 
 ![!LR4 yz assm](../img/lr4/yzs6.jpg){: loading=lazy width="600"}
 
- * If you have trouble seating the nuts you can;
+ * If you have trouble seating the nuts, you can;
  * Press them in with a flat head as shown here
  * Or you can thread the M5 through the XZ plate and use it to pull them into place.
 
@@ -424,11 +424,31 @@ Start the assembly with the YZ plate.
  * Snug in the Z stubs using the two M5 screws.
  * Leave out the cross tensioner screws for now.
 
+![!LR4 yz assm](../img/lr4/yzw7.jpg){: loading=lazy width="600"}
 
+ * Assemble the back wheel.
+ * Bolt heads facing out or down.
+ * Snug up the bolts.
 
+![!LR4 yz assm](../img/lr4/yzw8.jpg){: loading=lazy width="600"}
+
+ * Insert the "hidden" M5 Nut
+ * Snug up the wheel assembly with the M5
+ * If there is any play make sure the outer faces are flush.
+ * Sloppy wheel alignment can lead to the whole beam not being very square to the table.
+
+![!LR4 yz assm](../img/lr4/yzw9.jpg){: loading=lazy width="600"} 
+
+ * Take the time to set your Z endstops.
+ * You want them to trigger before the bearing blocks hit the top stop block
+ 
+![!LR4 yz assm](../img/lr4/fullYZplate.jpg){: loading=lazy width="600"}
+
+ * How did you do, wanna yell at me or did you have fun?
+ * Now is a great time to take a photo and share it on some social media.
+ * You are building a robot that will hold a power tool, everyone needs to hear about that.
 
 ### Core Assembly
- * X Drive
 ### Beam Assembly
 ### X Belt
 ### Y Rail
@@ -439,7 +459,7 @@ Start the assembly with the YZ plate.
 
 #### Initial Squaring
 
-To square the machine it is easiest to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the rail. You will probably need to repeat this a couple times to get it under 1mm difference. This is a multipled error so 1mm or less is very very good.
+To square the machine, it is easiest to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the rail. You will probably need to repeat this a couple of times to get it under 1mm difference. This is a multiplied error, so 1mm or less is very very good.
 
 You can cable tie a pen to the vacuum mount Or even easier is use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in your router to pop a tiny hole into some tape.
 
@@ -449,7 +469,7 @@ You can also automate this process with Jamie's ["Squareness Marks"](https://vec
  * Z level for tip-down - Make this number more negative if you find some of your marks are not hitting the paper, but you want as light a touch as possible.
  * Z level for tip-up - You can go as high as you need to not drag the pen tip.
  * Feedrate - This is set at a safe travel rate. The Default is safe.
- * Extents - This is where you set the dimensions of your table. The further apart the marks the more accurate your table will be.
+ * Extents - This is where you set the dimensions of your table. The further apart the marks, the more accurate your table will be.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: loading=lazy width="400"}
 
@@ -517,7 +537,7 @@ Old Video of this on an SKR Pro
      * Save macro on the home screen.
 
    * SKR Pro / Marlin
-     * You adjust by running "M666 Z0.5" the number is in millimeters. These numbers are counting down from 200, so 120 is further away than than 130. Start by adjusting 0.2mm more than your difference.
+     * You adjust by running "M666 Z0.5" the number is in millimeters. These numbers are counting down from 200, so 120 is further away than 130. Start by adjusting 0.2mm more than your difference.
      * Save with M500 after each adjustment
      * Home all three axis and check your work (go back to Step #2). 
 
