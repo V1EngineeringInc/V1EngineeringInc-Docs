@@ -1,19 +1,9 @@
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script>
-  // Base URL template for Strut SVG files. 
-  var strutUrlTemplate = "https://docs.v1engineering.com/lowrider/lr3_strut/{folder}/lr3-strut-plate-variable_{len}.svg";
-  var strutSvgFolderPrefix = "svg_";
-  var minStrutLen = 480;
-  var maxStrutLen = 1700;
-</script>
 
-# LowRider v3 Size Calculator
+# LowRider v4 Size Calculator
 
-(The photo and drawing below are sized for a 48"x96" available cutting area.)
 
-![!LR3 Fancy Picture](../img/lr3/LR3_Render.png){: loading=lazy width="600"}
-
-![!LR3 Dimensions Picture](../img/lr3/LR3 Dims.jpg){: loading=lazy width="600"}
+![!LR4 2'x4'](../img/lr4/lr4_simple.jpg){: loading=lazy width="600"}
 
 ----
 ## Inputs
@@ -23,7 +13,7 @@
 <input type="radio" onchange="to_inch()" name="units" value="inches">Inch<br/>
 
 #### Model
-<input type="radio" onchange="from_working()" name="model" value="v3" checked> LowRider v3<br/>
+<input type="radio" onchange="from_working()" name="model" value="v4" checked> LowRider v4<br/>
 
 #### Usable Cutting Area
 <!-- These "value"s are going to be overwritten by the reset_work() function below. -->
@@ -31,20 +21,20 @@
 <input class="calc" type="number" onchange="from_working()" name="ywork" value="2440" size="6"><span class="units">mm</span> Y<br/>
 
 #### XZ Plate Thickness
-Printed Plates are 9.5mm (0.374"), Shop Aluminum plates are 6.35mm (0.25").
+Shop Aluminum plates are 6.35mm (0.25").
 
-<input class="calc" type="number" onchange="from_working()" name="xzplate" value="9.5" size="6"><span class="units">mm</span> XZ Plate<br/>
+<input class="calc" type="number" onchange="from_working()" name="xzplate" value="6.35" size="6"><span class="units">mm</span> XZ Plate<br/>
 <button class="reset" onclick="reset_work()">Reset</button>
 
 ----
 
 ## Size Calculator
 
-#### Tube Lengths
+#### Rail Lengths
 |Length (<span class="units">mm</span>)| Qty | Name |
 |--------------------------------------|-----|------|
-|<span name="xrails"     ></span>|2|X rails, also the strut plate width|
-|<span name="yrail"     ></span>|1|Y rail (for looks you might want to match your table length)|
+|<span name="xrails"     ></span>|2|X Rails|
+|<span name="yrail"     ></span>|1|Y Rail|
 
 #### Belt Dimensions
 |Length (<span class="units">mm</span>)| Qty | Name |
@@ -53,13 +43,11 @@ Printed Plates are 9.5mm (0.374"), Shop Aluminum plates are 6.35mm (0.25").
 |<span name="ybelts"    ></span>|2|Belt length along Y|
 |<span name="belt_total"></span>|**total length**| belts (all 3)|
 
-#### Struts
-Length (<span class="units">mm</span>)|Qty|Name|
+#### Strut Plates
+|Length (<span class="units">mm</span>)|Qty|Name|
 |-------------------------------------|---|----|
-|<span name="strut"     ></span>|3|Strut length (same as Tube Length)|
-<button name="btnStrutDownload" class="download" onclick="download_svg()"><span name="strut2" ></span></button>
+|<span name="strut"     ></span>|3|Strut input length (They will cut a millimeter shorter)|
 
-Have a look at the SVG file linked above to see how many braces and hose holders you need.
 
 #### Table Size
 
@@ -97,18 +85,18 @@ function get_offsets() {
 
   const unit_convert = get_unit_convert();
 
-  var v3 = {};
-  v3.xrail_core = 180 * unit_convert;
-  v3.yrail_minus_work = 316 * unit_convert;
-  v3.ytable_minus_work = 383 * unit_convert;
-  v3.xbelt_extra = 80 * unit_convert;
-  v3.ybelt_extra = 100 * unit_convert;
-  v3.xtable_extra = 126 * unit_convert;
+  var v4 = {};
+  v4.xrail_core = 168 * unit_convert;
+  v4.yrail_minus_work = 255 * unit_convert;
+  v4.ytable_minus_work = 313 * unit_convert;
+  v4.xbelt_extra = 160 * unit_convert;
+  v4.ybelt_extra = 120 * unit_convert;
+  v4.xtable_extra = 107.5 * unit_convert;
   
 
   var model = $("input[name=model]:checked").val();
-  if (model == "v3") {
-    return v3;
+  if (model == "v4") {
+    return v4;
   }
     else {
     alert("internal error: unrecognized model " + model);
@@ -188,22 +176,10 @@ function reset_work() {
   const unit_convert = get_unit_convert();
   $("input[name=xwork]").val(clip(1220 * unit_convert));
   $("input[name=ywork]").val(clip(2440 * unit_convert));
-  $("input[name=xzplate]").val(clip(9.5 * unit_convert));
+  $("input[name=xzplate]").val(clip(6.35 * unit_convert));
   from_working();
 }
 
-function updateDownloadStrutLink(strutLenMetric) {
-  if (!strutLenMetric || strutLenMetric < minStrutLen || strutLenMetric > maxStrutLen) {
-    var text = "" + strutLenMetric + "mm Strut not available, must be " + minStrutLen + "mm - " + maxStrutLen + "mm";
-    $("button[name=btnStrutDownload]").prop('disabled', true);
-    $("span[name=strut2]").text(text);
-  } else {
-    var text = "Download " + strutLenMetric + "mm Strut .SVG";
-    $("button[name=btnStrutDownload]").prop('disabled', false);
-    $("span[name=strut2]").text(text);
-  }
-    
-}
 
 function from_working() {
   var offsets = get_offsets();
