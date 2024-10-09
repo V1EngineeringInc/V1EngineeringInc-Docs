@@ -25,4 +25,4 @@ jobs:
           pip install $(mkdocs get-deps)
           
       - name: mkdocs build
-        run: mkdocs build --clean --strict
+        run: py -m mkdocs build --clean --strict
