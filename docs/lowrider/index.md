@@ -118,7 +118,7 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 |1   |Makita, DeWalt, Kobalt      |30%    | Print info in the part description  |[Makita][mak] [DeWalt][dew] [Kobalt][kob]|
 |1   |Board Box                   |20%    |                                     |[Jackpot][jac] [SKR Pro][skr]            |
  
-[mak]: https://www.printables.com/model/TED
+[mak]: https://www.printables.com/model/1033926-makita-701-tool-mount-and-dust-shoe-for-the-lowrid
 [dew]: https://www.v1e.com/products/TED
 [kob]: https://www.v1e.com/collections/TED
 [jac]: TED
@@ -140,7 +140,7 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
 #### Strut Plates
 
-You can assemble the machine using the printed temp strut plates and use the machien to cut it's own strut plates. You will need a rigid material 6.35mm (1/4") or thinner. MDF or hardboard is a great easy to find option, plastics or metals are a premium option. Jamie, Vector76, made this easy to use site so you can have any size plates you can dream of. His site has all sorts of other helpful things linked on other Docs pages.
+You can assemble the machine using the printed temp strut plates and use the machine to cut its own strut plates. You will need a rigid material 6.35mm (1/4") or thinner. MDF or hardboard is a great easy to find option, plastics or metals are a premium option. Jamie, Vector76, made this easy to use site so you can have any size plates you can dream of. His site has all sorts of other helpful things linked on other Docs pages.
 
 [Vector76 Strut Generator](https://vector76.github.io/Web_OpenSCAD_Customizer/strut_plate.html){:target="_blank"}.
 
@@ -151,8 +151,7 @@ The strut length comes from the calculator, but it will cut slightly smaller (0.
 
 #### XZ Plates
 
-!!! warning 
-    NEED INFO
+The Metal XZ plates can be purchased in the [V1E.com shop](https://www.v1e.com/products/lowrider-4-aluminium-xz-plates), or you can find the DXF to cut your own with the printed parts files linked above. Aluminum or steel 1/4" (6.35mm) thick material is suggested to work well with the hardware as is. If you want to use thicker or thinner material you will need to adjust the 16 M3x10mm screws to compensate. There is currently no printed option this time.
 
 
 ### Specialty Parts
@@ -224,9 +223,9 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
 |10   |M2.5 x 12mm             |Machine Screws                                 |
 |*18  |M4 x 12mm+ Wood/metal   |#8 x 1/2"+ Screws to mount things to your table|
 
-* Not included in the hardware kit. 
+*Not included in the hardware kit. 
 
-### LR2 to LR3 hardware differences for updating your build
+### LR3 to LR4 hardware differences for updating your build
 
 Lr3 to Lr4 Upgrade kit is available here in the [V1E.com shop](https://www.v1e.com/products/lowrider-v3-to-lowrider-v4-hardware-upgrade-kit){:target="_blank"}.
 
@@ -267,7 +266,7 @@ Start the assembly with the YZ plate.
  * Start by doing yourself a favor by labeling all the wires before you run them.
  * As small and as tight to the wire as you can get makes things the easiest.
  * Label the wires and not the pugs so they still fit in the control board and you can read them without unplugging.
- * Typically, as you face the machine, the left side is Y and Z zero, and the right side is Y1 and Z1.
+ * Typically, as you face the machine, the left side is Y0 and Z0, and the right side is Y1 and Z1.
 
 
 ![!LR4 yz assm](../img/lr4/yze1.jpg){: loading=lazy width="600"}
@@ -281,7 +280,7 @@ Start the assembly with the YZ plate.
 
 ![!LR4 yz assm](../img/lr4/yze3.jpg){: loading=lazy width="600"} 
 
- * Run the  wire through the channel
+ * Run the wire through the channel
 
 
 ![!LR4 yz assm](../img/lr4/yze4.jpg){: loading=lazy width="600"} 
