@@ -140,7 +140,7 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
 #### Strut Plates
 
-You can assemble the machine using the printed temp strut plates and use the machien to cut it's own strut plates. You will need a rigid material 6.35mm (1/4") or thinner. MDF or hardboard is a great easy to find option, plastics or metals are a premium option. Jamie, Vector76, made this easy to use site so you can have any size plates you can dream of. His site has all sorts of other helpful things linked on other Docs pages.
+You can assemble the machine using the printed temp strut plates and use the machine to cut its own strut plates. You will need a rigid material 6.35mm (1/4") or thinner. MDF or hardboard is a great easy to find option, plastics or metals are a premium option. Jamie, Vector76, made this easy to use site so you can have any size plates you can dream of. His site has all sorts of other helpful things linked on other Docs pages.
 
 [Vector76 Strut Generator](https://vector76.github.io/Web_OpenSCAD_Customizer/strut_plate.html){:target="_blank"}.
 
@@ -224,9 +224,9 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
 |10   |M2.5 x 12mm             |Machine Screws                                 |
 |*18  |M4 x 12mm+ Wood/metal   |#8 x 1/2"+ Screws to mount things to your table|
 
-* Not included in the hardware kit. 
+*Not included in the hardware kit. 
 
-### LR2 to LR3 hardware differences for updating your build
+### LR3 to LR4 hardware differences for updating your build
 
 Lr3 to Lr4 Upgrade kit is available here in the [V1E.com shop](https://www.v1e.com/products/lowrider-v3-to-lowrider-v4-hardware-upgrade-kit){:target="_blank"}.
 
@@ -267,7 +267,7 @@ Start the assembly with the YZ plate.
  * Start by doing yourself a favor by labeling all the wires before you run them.
  * As small and as tight to the wire as you can get makes things the easiest.
  * Label the wires and not the pugs so they still fit in the control board and you can read them without unplugging.
- * Typically, as you face the machine, the left side is Y and Z zero, and the right side is Y1 and Z1.
+ * Typically, as you face the machine, the left side is Y0 and Z0, and the right side is Y1 and Z1.
 
 
 ![!LR4 yz assm](../img/lr4/yze1.jpg){: loading=lazy width="600"}
@@ -367,7 +367,7 @@ Start the assembly with the YZ plate.
 ![!LR4 yz assm](../img/lr4/yzw5.jpg){: loading=lazy width="600"}
 
  * All the wires should be to the back of the plate.
- * Feed them one at a time out of the slot in the slot in the back.
+ * Feed them one at a time out of the wire keeper via the slot in the back.
 
 ![!LR4 yz assm](../img/lr4/yzw6.jpg){: loading=lazy width="600"} 
  
@@ -406,6 +406,7 @@ Start the assembly with the YZ plate.
 
  * Snug all the rail screws 
  * Move the XZ plate the full range of motion for each screw to assure there is no binding and everything stays smooth.
+ * If Z movement is not free, there can be two causes: linear guides not parallel, or MGN12-H sliding trucks not parallel. Try loosening one, but not the other, sliding up and down, and retightening.
  * Add the T8 Leadscrew to the coupler. Make sure the leadscrew is fully seated and touching the stepper shaft.
 
 ![!LR4 yz assm](../img/lr4/yzz7.jpg){: loading=lazy width="600"}
