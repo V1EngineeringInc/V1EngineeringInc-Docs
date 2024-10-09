@@ -131,7 +131,7 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
  * If a part name if followed by a verion number use the highest one. V1, V2, V3... Means there was a fix or edit.
 
 !!! warning
-    Cura based slicers seem to work a little different. Make sure the parts are aligned on your bad as they appear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way.
+    Cura based slicers seem to work a little different. Make sure the parts are aligned on your bed as they appear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way.
     Repetier\PrusaSlicer based slicers have been tested to work as expected.
 
 
@@ -140,8 +140,13 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
 #### Strut Plates
 
-!!! warning 
-    NEED INFO
+You can assemble the machine using the printed temp strut plates and use the machien to cut it's own strut plates. You will need a rigid material 6.35mm (1/4") or thinner. MDF or hardboard is a great easy to find option, plastics or metals are a premium option. Jamie, Vector76, made this easy to use site so you can have any size plates you can dream of. His site has all sorts of other helpful things linked on other Docs pages.
+
+[Vector76 Strut Generator](https://vector76.github.io/Web_OpenSCAD_Customizer/strut_plate.html){:target="_blank"}.
+
+The strut length comes from the calculator, but it will cut slightly smaller (0.5mm) by design.
+
+![!LR4 strut plate Picture](../img/lr4/strut.png){: loading=lazy width="600"}
 
 
 #### XZ Plates
