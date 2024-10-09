@@ -10,7 +10,7 @@ The [Forums](https://forum.v1engineering.com) are the best place to ask any ques
 | The Lineup |
 | ----------- |
 | ![MPCNC](img/primo.png){: width="150" align=left} <br/> V1 Engineering Inc all started with the [MPCNC platform](mpcnc/intro.md), from there it kept expanding. |
-|  ![LowRider CNC](img/Lr3.png){: width="150" align=right} <br/> All the same precision as the MPCNC but in a larger form factor for sheet goods? Welcome to the [LowRider CNC](lowrider/index.md). |
+|  ![LowRider CNC](img/lr4/lr4_simple.jpg){: width="150" align=right} <br/> All the same precision as the MPCNC but in a larger form factor for sheet goods? Welcome to the [LowRider CNC](lowrider/index.md). |
 | ![MP3DP](img/MP3DP.png){: width="150" align=left} <br/> Have a shiny new CNC and not sure what to do with it? Make a 3D printer, [Milled / Printed 3D Printer (MP3DP)](mp3dp/index.md). |
 | ![ZenXY](img/ZenXY.png){: width="150" align=right} <br/> Want to spice up your office, living room, or dining room?  Make a slick art table with the [ZenXY](zenxy/index.md). |
 
@@ -72,7 +72,7 @@ Peter H (bitingmidge) - Darwin M (Darwin) - Archie C (Sonosus) - Dave Latka (Dav
 
 Special thanks to;
 
-The LowRider 4 CNC Beta Test Crew. Jonathan Jones (Jonathjon) - Philip (Tokoloshe) - orob - Jamie (vector76) - Doug Joseph (DougJoseph) - Dan (SupraGuy)
+The LowRider 4 CNC Beta Test Crew. Jonathan Jones (Jonathjon) - Philip (Tokoloshe) - orob - Jamie (vector76) - Doug Joseph (DougJoseph) - Dan (SupraGuy) - azab2c (Aza B2C) - MakerJim - Peter H (bitingmidge) - Last minute addition, RockinRiley. Thanks to all the rest of you that participated in the Lounge section, it was a wild ride, nearly 5K posts.
 
 The MP3DP V5 Test Crew. Mike M (michmela44) - Jonathan Jones (Jonathjon)
 
