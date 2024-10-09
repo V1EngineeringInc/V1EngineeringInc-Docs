@@ -119,7 +119,7 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 |1   |Board Box                   |20%    |                                     |[Jackpot][jac] [SKR Pro][skr]            |
  
 [mak]: https://www.printables.com/model/1033926-makita-701-tool-mount-and-dust-shoe-for-the-lowrid
-[dew]: https://www.v1e.com/products/TED
+[dew]: https://www.printables.com/model/1034374-dewalt-611-tool-mount-and-dust-shoe-for-the-lowrid
 [kob]: https://www.v1e.com/collections/TED
 [jac]: TED
 [skr]: TED
