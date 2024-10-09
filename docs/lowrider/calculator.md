@@ -46,7 +46,7 @@ Shop Aluminum plates are 6.35mm (0.25").
 #### Strut Plates
 |Length (<span class="units">mm</span>)|Qty|Name|
 |-------------------------------------|---|----|
-|<span name="strut"     ></span>|3|Strut input length (They will cut a millimeter shorter)|
+|<span name="strut"     ></span>|2|Strut length|
 
 
 #### Table Size
@@ -104,6 +104,12 @@ function get_offsets() {
 }
 
 function to_mm() {
+  // Query whether unit type is changing
+  var isUnitChanging = false;
+  if ($(".units").first().text() != "mm") {
+    isUnitChanging = true;
+  }
+
   // Find all the labels and change them to mm
   $(".units").text("mm");
 
@@ -118,18 +124,20 @@ function to_mm() {
     "step": 0.1  
   });
 
-  // Get the current values.
-  var xwork = parseFloat($("input[name=xwork]").val());
-  var ywork = parseFloat($("input[name=ywork]").val());
-  var xzplate = parseFloat($("input[name=xzplate]").val());
+  // Get the current units
+  if (isUnitChanging) {
+    // Get the current values.
+    var xwork = parseFloat($("input[name=xwork]").val());
+    var ywork = parseFloat($("input[name=ywork]").val());
+    var xzplate = parseFloat($("input[name=xzplate]").val());
 
-  // Change the units.
-  // This Math.round(... * 10.0) / 10.0 is to round to the step.
-  $("input[name=xwork]").val(Math.round(xwork * 25.4 * 0.1) / 0.1);
-  $("input[name=ywork]").val(Math.round(ywork * 25.4 * 0.1) / 0.1);
-  $("input[name=xzplate]").val(Math.round(xzplate * 25.4));
+    // Change the units.
+    // This Math.round(... * 10.0) / 10.0 is to round to the step.
+    $("input[name=xwork]").val(Math.round(xwork * 25.4 * 0.1) / 0.1);
+    $("input[name=ywork]").val(Math.round(ywork * 25.4 * 0.1) / 0.1);
+    $("input[name=xzplate]").val(Math.round(xzplate * 25.4));
+  }
   
-
   // Recalculate the rest of the page.
   from_working();
 }
@@ -207,7 +215,6 @@ function from_working() {
   $("span[name=xtable]").text(clip(xtable));
   $("span[name=ytable]").text(clip(ytable));
   $("span[name=strut]").text(clip(xrails));
-  updateDownloadStrutLink(convertToMetric(xrails));
 }
 
 function download_svg()
