@@ -12,7 +12,7 @@
 <input type="radio" onchange="to_mm()" name="units" value="mm" checked>Millimeter (mm)<br/>
 <input type="radio" onchange="to_inch()" name="units" value="inches">Inch<br/>
 
-#### Model
+#### Machine
 <input type="radio" onchange="from_working()" name="model" value="v4" checked> LowRider v4<br/>
 
 #### Usable Cutting Area
@@ -172,7 +172,7 @@ function to_inch() {
 }
 
 function clip(value) {
-  return Math.round(value * 4) / 4; // Round to 0.25
+  return Math.round(value * 8) / 8; // Round to .125
 }
 
 function convertToMetric(num) {
@@ -215,25 +215,6 @@ function from_working() {
   $("span[name=xtable]").text(clip(xtable));
   $("span[name=ytable]").text(clip(ytable));
   $("span[name=strut]").text(clip(xrails));
-}
-
-function download_svg()
-{
-  var offsets = get_offsets();
-  var xwork = parseFloat($("input[name=xwork]").val());
-  var xrails = xwork + offsets.xrail_core;
-
-  var xrailsMetric = convertToMetric(xrails);
-
-  var folder = strutSvgFolderPrefix + ((xrailsMetric < 1000) ? "0" : "1" );
-  var strutUrl = strutUrlTemplate
-    .replace("{folder}", folder)
-    .replace("{len}", xrailsMetric);
-
-  window.open(
-    strutUrl,
-    '_blank'
-  );
 }
 
 // Set these up the first time.
