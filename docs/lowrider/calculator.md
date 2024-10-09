@@ -46,7 +46,7 @@ Shop Aluminum plates are 6.35mm (0.25").
 #### Strut Plates
 |Length (<span class="units">mm</span>)|Qty|Name|
 |-------------------------------------|---|----|
-|<span name="strut"     ></span>|2|Front Strut, and Bottom Strut input length.  Cut 0.5mm shorter on left and right sides so they don't contact or push against XZ plate.|
+|<span name="strut"     ></span>|2|Strut length|
 
 
 #### Table Size
