@@ -4,6 +4,8 @@ The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handl
 
 ![!LR4 Fancy Picture](../img/lr4/lr4_neon.jpg){: width="600"}
 
+The Beta team put in months of effort helping to refine and improve all aspects of this design. Countless prints were made only to be scrutinized, revised, and remade. Debates were had, caps lock was used, it was not easy for any of us, but it was very fun. I am sure I can speak for the whole team, we are proud of what we accomplished, and I am confident it will outperform your expectations.
+
 ### Key Points
 
  * Foams, wood and plastic are no problem, aluminum and brass are no problem for an experienced user.
@@ -44,7 +46,7 @@ The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handl
  
 ### Tool Options
 
-This is a CNC platform, so just about any tool can easily be mounted to the LowRider CNC. The most typical is a router or spindle, Diode laser, pen or even a drag knife. The [Makita 700](https://amzn.to/3NgdqGg) series is available worldwide and highly recommended. Here is a link to the current tool mount collection on [Printables](BLANK)
+This is a CNC platform, so just about any tool can easily be mounted to the LowRider CNC. The most typical is a router or spindle, Diode laser, pen or even a drag knife. The [Makita 700](https://amzn.to/3NgdqGg) series is available worldwide and highly recommended. Here is a link to the current tool mount collection on [Printables](https://www.printables.com/@V1Engineering/collections/1752399)
 
 ### License
 
@@ -59,10 +61,10 @@ More details to my loosened restrictions can be found here on [the home page](ht
 Printed parts files can be found at the links below:
 
 Printables.com
-:   [Printables.com Link](https://www.printables.com......BLANK){:target="_blank"}
+:   [Printables.com Link](https://www.printables.com/model/1034840-lowrider-cnc-v4){:target="_blank"}
 
 Thingiverse Printed parts files:
-:   [Thingiverse.com Link](https://www.thingiverse.com/......Blank){:target="_blank"}
+:   [Thingiverse.com Link----soon](https://www.thingiverse.com/......Blank){:target="_blank"}
 
 ![!LR4 JJ's Picture](../img/lr4/JJs.jpeg){: loading=lazy width="600"}
 
@@ -70,6 +72,19 @@ Thingiverse Printed parts files:
     Version 3 instructions are [here](../lowrider/lowrider3.md)
 
 ## Parts Needed
+
+### Rails
+
+You are looking for either 29.5mm, 30mm, or 32mm Outside Dimension steel tubes. In the U.S. and parts of Canada this will be 1" OD EMT Conduit, off the shelf hardware store conduit (not rigid conduit). In other countries if you use metal conduit it same thing but you will either be 30mm or 32mm OD.
+
+ * You want the right OD +-0.2mm.
+ * At least 1.3mm thick wall.
+ * Steel, Stainless Steel, DOM Steel (aluminum and carbon fiber will not work)
+
+ If your country does not use metal conduit things to look for are metal supply companies, closet rods, or boat suppliers tend to have stainless tubes.
+
+ Super thick walls, solid rods, and filled tubes will gain little to no rigidity and just add mass.
+
 
 ### Printed Parts
 
@@ -88,39 +103,40 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
 
 |QTY |File Name                   |Infill |Comment                              |Link                                     | 
-|----|----------------------------|-------|-------------------------------------|-----------------------------------------|
-|1   |Core                        |30%    |                                     |                                         |
-|1   |YZ_Plate_Min                |25%    |                                     |                                         |
-|1   |YZ_Plate_Max                |25%    |                                     |                                         |
-|1   |FrontWheel_Min              |20%    |                                     |                                         |
-|1   |FrontWheel_Max              |20%    |                                     |                                         |
-|1   |BackWheel_Min               |20%    |                                     |                                         |
-|1   |BackWheel_Max               |20%    |                                     |                                         |
-|1   |Y_Belt_MinF                 |30%    |                                     |                                         |
-|1   |Y_Belt_MinB                 |30%    |                                     |                                         |
-|1   |Y_Belt_MaxF                 |30%    |                                     |                                         |
-|1   |Y_Belt_MaxB                 |30%    |                                     |                                         |
-|1   |Y_Belt_Max_Lock             |30%    |                                     |                                         |
-|1   |Y_Belt_Min_Tension          |30%    |                                     |                                         |
-|1   |Y_Belt_Min_Lock             |30%    |                                     |                                         |
-|1   |Y_Belt_Max_Tension          |30%    |                                     |                                         |
-|1   |ZStop_Min                   |30%    |                                     |                                         |
-|1   |ZStop_Max                   |30%    |                                     |                                         |
-|2   |Z_Nut                       |30%    |                                     |                                         |
-|1   |Z_Stub_Min                  |30%    |                                     |                                         |
-|1   |Z_Stub_Max                  |30%    |                                     |                                         |
-|1   |X_Belt                      |30%    |                                     |                                         |
-|4-6 |Brace_###                   |30%    | * See Brace note below              |                                         |
-|1   |Brace_Max_###               |60%    | * See Brace note below              |                                         |
-|4-6 |Hose_Hook_##                |30%    | Print one for each Brace            |                                         |
-|7-10|Y_Clip_###                  |30%    | No more than 300mm center to center |                                         |
-|    |Tool Mount Set              |       |                                     |                                         |
-|1   |Makita, DeWalt, Kobalt      |30%    | Print info in the part description  |[Makita][mak] [DeWalt][dew] [Kobalt][kob]|
-|1   |Board Box                   |20%    |                                     |[Jackpot][jac] [SKR Pro][skr]            |
+|----|----------------------------|-----|-------------------------------------|-----------------------------------------|
+|1   |Core                        |30%  |                                     |                                         |
+|1   |YZ_Plate_Min                |25%  |                                     |                                         |
+|1   |YZ_Plate_Max                |25%  |                                     |                                         |
+|1   |FrontWheel_Min              |20%  |                                     |                                         |
+|1   |FrontWheel_Max              |20%  |                                     |                                         |
+|1   |BackWheel_Min               |20%  |                                     |                                         |
+|1   |BackWheel_Max               |20%  |                                     |                                         |
+|1   |Y_Belt_MinF                 |30%  |                                     |                                         |
+|1   |Y_Belt_MinB                 |30%  |                                     |                                         |
+|1   |Y_Belt_MaxF                 |30%  |                                     |                                         |
+|1   |Y_Belt_MaxB                 |30%  |                                     |                                         |
+|1   |Y_Belt_Max_Lock             |30%  |                                     |                                         |
+|1   |Y_Belt_Min_Tension          |30%  |                                     |                                         |
+|1   |Y_Belt_Min_Lock             |30%  |                                     |                                         |
+|1   |Y_Belt_Max_Tension          |30%  |                                     |                                         |
+|1   |ZStop_Min                   |30%  |                                     |                                         |
+|1   |ZStop_Max                   |30%  |                                     |                                         |
+|2   |Z_Nut                       |30%  |                                     |                                         |
+|1   |Z_Stub_Min                  |30%  |                                     |                                         |
+|1   |Z_Stub_Max                  |30%  |                                     |                                         |
+|1   |X_Belt                      |30%  |                                     |                                         |
+|4-6 |Brace_###                   |30%  | * See Brace note below              |                                         |
+|1   |Brace_Max_###               |60%  | * See Brace note below              |                                         |
+|4-6 |Hose_Hook_##                |30%  | Print one for each Brace            |                                         |
+|7-10|Y_Clip_###                  |30%  | No more than 300mm center to center |                                         |
+|4   | Temp Strut                 |15%  |                                     |                                         |
+|    |Tool Mount Set              |     |                                     |                                         |
+|1   |Makita, DeWalt, Kobalt      |30%  | Print info in the part description  |[Makita][mak], [DeWalt][dew], [Kobalt][kob]|
+|1   |Board Box                   |20%  |                                     |[Jackpot][jac] [SKR Pro][skr]            |
  
 [mak]: https://www.printables.com/model/1033926-makita-701-tool-mount-and-dust-shoe-for-the-lowrid
 [dew]: https://www.printables.com/model/1034374-dewalt-611-tool-mount-and-dust-shoe-for-the-lowrid
-[kob]: https://www.v1e.com/collections/TED
+[kob]: https://www.printables.com/model/1034828-kobalt-tool-mount-and-dust-shoe-for-the-lowrider-c
 [jac]: TED
 [skr]: TED
 
@@ -135,16 +151,15 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
     Repetier\PrusaSlicer based slicers have been tested to work as expected.
 
 
-
 ## Flat Parts
 
 #### Strut Plates
 
-You can assemble the machine using the printed temp strut plates and use the machine to cut its own strut plates. You will need a rigid material 6.35mm (1/4") or thinner. MDF or hardboard is a great easy to find option, plastics or metals are a premium option. Jamie, Vector76, made this easy to use site so you can have any size plates you can dream of. His site has all sorts of other helpful things linked on other Docs pages.
+You can assemble the machine using the printed temp strut plates and then use the machine to cut its own strut plates. You will need a rigid material 6.35mm (1/4") or thinner. MDF or hardboard is a great easy to find option, plastics or metals are a premium option. Jamie, Vector76, made this easy to use site so you can have any size plates you can dream of. His site has all sorts of other helpful things linked on other Docs pages.
 
 [Vector76 Strut Generator](https://vector76.github.io/Web_OpenSCAD_Customizer/strut_plate.html){:target="_blank"}.
 
-The strut length comes from the calculator, but it will cut slightly smaller (0.5mm) by design.
+The strut length comes from the calculator, but it will cut slightly smaller (0.5mm) by design.The Wings are refering to the parts that make the plate nearly touch the rails to fill in the gaps.
 
 ![!LR4 strut plate Picture](../img/lr4/strut.png){: loading=lazy width="600"}
 
