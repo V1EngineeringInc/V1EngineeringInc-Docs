@@ -8,7 +8,7 @@ The Beta team put in months of effort helping to refine and improve all aspects 
 
 ### Key Points
 
- * Foams, wood and plastic are no problem, aluminum and brass are no problem for an experienced user.
+ * Foams, wood, and plastic are no problem, aluminum and brass are no problem for an experienced user.
 
  * Most parts can be 3D printed. To save from shipping or printing large parts, the machine can be partially assembled to cut them itself.
 
