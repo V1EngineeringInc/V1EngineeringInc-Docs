@@ -88,7 +88,7 @@ You are looking for either 29.5mm, 30mm, or 32mm Outside Dimension steel tubes. 
 
 ### Printed Parts
 
-Rather not spend the time printing all the parts, you can buy a set here, [V1 Shop](https://www.v1e.com/collections/lowrider-parts/products/....TED){:target="_blank"}.
+Rather not spend the time printing all the parts, you can buy a set here, [V1 Shop](https://www.v1e.com/products/lowrider-v4-printed-parts-with-aluminum-xz-plates){:target="_blank"}.
 
 Or print your own. No supports needed, keep the default orientation. PLA is recommended for ultimate rigidity, other 
 filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/CF.  You will need about 2.7kg of filament for a full set with tool mount and a board box.
@@ -137,7 +137,7 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 [mak]: https://www.printables.com/model/1033926-makita-701-tool-mount-and-dust-shoe-for-the-lowrid
 [dew]: https://www.printables.com/model/1034374-dewalt-611-tool-mount-and-dust-shoe-for-the-lowrid
 [kob]: https://www.printables.com/model/1034828-kobalt-tool-mount-and-dust-shoe-for-the-lowrider-c
-[jac]: TED
+[jac]: https://www.printables.com/model/1037842-jackpot-cnc-control-box-for-the-lowrider-4-cnc
 [skr]: TED
 
  * "###" = various Sizes
