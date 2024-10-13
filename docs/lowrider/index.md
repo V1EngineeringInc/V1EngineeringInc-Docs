@@ -222,6 +222,8 @@ You can buy most of the specialty parts and hardware here, [V1 Shop](https://www
 [az14]: https://amzn.to/31H7yS6
 [az15]: https://amzn.to/47V20Ba
 
+* Vac Hoses need to be grounded at one end. Using a steel ribbed hose makes this very easy to use the ground port from your power source. If you use a non-conductive vac hose you can run a bare wire through the hose secure at one end and ground at the other. If you do not ground your hose static will build up and can damage your control board or other components.
+
 As an Amazon Associate, I earn from qualifying purchases.
 
 ### Hardware
