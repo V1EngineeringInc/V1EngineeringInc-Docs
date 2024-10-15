@@ -475,6 +475,84 @@ Start the assembly with the YZ plate.
  * You are building a robot that will hold a power tool, everyone needs to hear about that.
 
 ### Core Assembly
+
+![!LR4 Core assm](../img/lr4/cn1.jpg){: loading=lazy width="600"}
+
+ * Insert the M5 Tool Holder nuts one at a time.
+ * Get some filament ready
+
+![!LR4 Core assm](../img/lr4/cn2.jpg){: loading=lazy width="600"}
+
+ * When you insert the filament it can help to cut it at an angle.
+ * The angle is different for each side.
+
+![!LR4 Core assm](../img/lr4/cn3.jpg){: loading=lazy width="600"}
+
+ * Make sure it is fully seated
+
+![!LR4 Core assm](../img/lr4/cn4.jpg){: loading=lazy width="600"}
+
+ * Clip the filament just above the core's surface, so it can not snag on anything.
+
+![!LR4 Core assm](../img/lr4/ch1.jpg){: loading=lazy width="600"}
+
+ * Insert the bearings
+ * Snug up all but the two bolts that cross the seam at the top.
+ * The top seam controls the core to rail tension.
+
+![!LR4 Core assm](../img/lr4/ch2.jpg){: loading=lazy width="600"}
+
+ * The bottom bolts have to have the heads up like shown
+ * The Top bolts can face whichever way you prefer, heads showing is favorable if you are using a vac hose.
+
+![!LR4 Core assm](../img/lr4/ch3.jpg){: loading=lazy width="600"}
+
+ * Set the X pulley depth
+ * Tighten the flat grub screw first then the other.
+
+![!LR4 Core assm](../img/lr4/ce2.jpg){: loading=lazy width="600"}
+
+ * Optional Touch plate
+ * Run the wires through 
+ * 140mm - 5.5" hanging out is minimum.
+
+![!LR4 Core assm](../img/lr4/ce3.jpg){: loading=lazy width="600"}
+
+ * Optional
+ * Run the touch plate wires across
+
+![!LR4 Core assm](../img/lr4/ce1.jpg){: loading=lazy width="600"}
+
+ * Run the Endstop wire though
+ * Did you label both wires?
+
+![!LR4 Core assm](../img/lr4/ce4.jpg){: loading=lazy width="600"}
+
+ * Optional
+ * Run the touch plate wires through to the front
+
+![!LR4 Core assm](../img/lr4/ce5.jpg){: loading=lazy width="600"}
+
+ * Secure the endstop, notice the trigger direction.
+
+![!LR4 Core assm](../img/lr4/cs1.jpg){: loading=lazy width="600"}
+
+ * Snug up the X Stepper
+
+![!LR4 Core assm](../img/lr4/cs2.jpg){: loading=lazy width="600"}
+
+ * Run the X belt
+
+![!LR4 Core assm](../img/lr4/cs3.jpg){: loading=lazy width="600"}
+
+ * Insert the X idlers
+
+![!LR4 Core assm](../img/lr4/cs4.jpg){: loading=lazy width="600"}
+
+ * Well, does it look like this?
+ * If so preceed to the next step
+ * If not, take a break, take some pictures, head to the V1E.com forums. 
+
 ### Beam Assembly
 ### X Belt
 ### Y Rail
