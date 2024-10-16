@@ -26,6 +26,8 @@ The Beta team put in months of effort helping to refine and improve all aspects 
 
  * The average total build cost is easily under $800!!
 
+ * Want an idea of how long things take from [actual users?](https://forum.v1e.com/t/lr4-how-many-hours-to-build-lr4/45641/1){:target="_blank"}
+
  ![!LR4 Core Picture](../img/lr4/lr4_core.jpg){: width="600"} 
  
 ### Geometry
@@ -98,7 +100,8 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
 !!! info 
 
-    Printer Skew calibration is highly recommended, [Vector3D](https://vector3d.shop/products/calilantern-calibration){:target="balnk"}, makes a wonderful tool. Skew calibration is enough size calibration should not be needed.
+    Printer Skew calibration is suggested, we are trying to make sure parts are vertical and not tilted, this can be done easily with a carpenters square and a tall printed part. Or [Vector3D](https://vector3d.shop/products/calilantern-calibration){:target="balnk"}, makes a wonderful tool. Skew calibration is enough size calibration should not be needed.
+    You can also print the two small parts, Z_Stub and Z_Nut to make sure they fit togher easily and you can get the m5 nuts insertes before printing the larger parts.
 
 
 
@@ -282,7 +285,7 @@ Start the assembly with the YZ plate.
 
  * Start by doing yourself a favor by labeling all the wires before you run them.
  * As small and as tight to the wire as you can get makes things the easiest.
- * Label the wires and not the pugs so they still fit in the control board and you can read them without unplugging.
+ * Label the wires and not the plugs so they still fit in the control board and you can read them without unplugging.
  * Typically, as you face the machine, the left side is Y0 and Z0, and the right side is Y1 and Z1.
 
 
@@ -554,6 +557,64 @@ Start the assembly with the YZ plate.
  * If not, take a break, take some pictures, head to the V1E.com forums. 
 
 ### Beam Assembly
+
+![!LR4 Beam assm](../img/lr4/B1.jpg){: loading=lazy width="600"}
+
+ * Gather your Beam parts.
+ * If you bought the V1 kit notice to two end Braces have a differnt surface pattern.
+ * If you printed your own, make sure to use the heavy infill on the ends.
+
+![!LR4 Beam assm](../img/lr4/B2.jpg){: loading=lazy width="600"}
+
+ * Equally space your braces and snap in the rails.
+ * Make sure the rails do not stick out bast your braces.
+ * If you use the temp struts space the end 4 braces to fit.
+ * If you already have your strut plate cut, now is your time to shine.
+ * If you just finished cutting your own strut plate, you have already done this, you don't need my help.
+
+![!LR4 Beam assm](../img/lr4/B3.jpg){: loading=lazy width="600"}
+
+ * Install the (temp)strut plates.
+ * Do not crush the front rail clamps.
+ * As you tighten the screws you will feel the clamps start to engage, that is all you need.
+ * Tubes will still be able to rotate, if you try hard enough you can pull them out.
+ * Trust, just a tiny bit of tension is all you need. 
+ * The rails carry no sideways loads, do not overtioghten them, it only causes issues.
+
+![!LR4 Beam assm](../img/lr4/B4.jpg){: loading=lazy width="600"}
+
+ * Notice the orientation, there is a screw head cutout.
+
+![!LR4 Beam assm](../img/lr4/B5.jpg){: loading=lazy width="600"}
+
+ * Only one way this side fits
+
+![!LR4 Beam assm](../img/lr4/B6.jpg){: loading=lazy width="600"}
+
+ * Install the bottom temp struts as well.
+ * No specific orientation here.
+
+![!LR4 Beam assm](../img/lr4/B71.jpg){: loading=lazy width="600"}
+
+ * Install and fully seat the X belt tensioner nut
+
+![!LR4 Beam assm](../img/lr4/B7.jpg){: loading=lazy width="600"}
+
+ * If you need to you can use the screw to fully seat it.
+ * Take the screw back out.
+
+![!LR4 Beam assm](../img/lr4/B8.jpg){: loading=lazy width="600"}
+
+ * If you use a V1 board box you can use it to mark and then drill the holes in your strut plate
+ * M3x10 to secure.
+ * For the temp strut users you can set the box in place with the screws partially installed and it should not move while you cut your permanent strut plates.
+
+![!LR4 Beam assm](../img/lr4/B9.jpg){: loading=lazy width="600"}
+
+ * Position is not critical, center is probably best though.
+
+
+
 ### X Belt
 ### Y Rail
 ### Wire routing
@@ -722,8 +783,10 @@ Next step is [wiring the steppers](../electronics/steppers.md){:target="_blank"}
 
 [Marlin / SKR Pro](../electronics/marlin-firmware.md){:target="_blank"}
 
-### Build experience poll
+### Build experience 
 
-[How did it go for you?](https://forum.TED){:target="_blank"}
+[How did it go for you?](https://forum.v1e.com/t/lr4-how-many-hours-to-build-lr4/45641/1){:target="_blank"}
+
+Now that you have a V1 Engineering CNC Machine how about you put a [little pin in our map](https://www.v1e.com/blogs/news/user-map)!?!
 
 ## Go get it dirty, be safe, have fun!
