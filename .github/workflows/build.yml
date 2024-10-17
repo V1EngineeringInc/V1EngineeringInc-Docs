@@ -1,4 +1,4 @@
-name: build and deploy insiders
+name: Build mkdocs
 on:
   push:
     branches:
