@@ -614,10 +614,86 @@ Start the assembly with the YZ plate.
  * Position is not critical, center is probably best though.
 
 
+### Main Assembly
 
-### X Belt
-### Y Rail
+![!LR4 main assm](../img/lr4/ms1.jpg){: loading=lazy width="600"}
+
+ * Screw together the YZ max assembly to the beam.
+ * These 3 screws get snugged down.
+ * It tends to be easier to hold them with the screwdriver and use a wrench to tighten the nuts.
+ * Snug....don't crush. It is very easy to leave them a bit light and check them again later.
+
+![!LR4 main assm](../img/lr4/ms2.jpg){: loading=lazy width="600"}
+
+ * Looking good right, like you almost have a machine!
+
+![!LR4 main assm](../img/lr4/ms3.jpg){: loading=lazy width="600"}
+
+ * Slide on the core, be sure not to snag any wires.
+ * Now is the best time to tension the top two core tension bolts.
+ * You want these bolts seated and the core not to rattle when you wiggle it.
+ * If you are too tight you will actually start to feel the core get tighter and looser as you cross over the braces.
+ * The right tension is better than too tight or too loose.
+
+![!LR4 main assm](../img/lr4/ms4.jpg){: loading=lazy width="600"}
+
+ * Now you can add the YZ min assembly
+
+![!LR4 main assm](../img/lr4/ms5.jpg){: loading=lazy width="600"}
+
+ * Easy section, admire your work. Some people like to make robot sounds as they drive it around the table at this point.
+
 ### Wire routing
+
+![!LR4 Wire Routing](../img/lr4/w1.jpg){: loading=lazy width="600"}
+
+ * It is easy to run your wires from the YZ assembly to the beam with the beam at full height.
+ * Make sure the travel is free, clear, and smooth. The wires should have slack at all positions.
+ * Cable ties to the braces work well.
+
+![!LR4 Wire Routing](../img/lr4/w2.jpg){: loading=lazy width="600"}
+
+ * Add the extensions from the end furthest from the control board and the Core wires.
+ * Fold the wires and get ready for tape.
+
+![!LR4 Wire Routing](../img/lr4/w3.jpg){: loading=lazy width="600"}
+
+ * Taping them like this takes all the strain off the connectors
+
+![!LR4 Wire Routing](../img/lr4/w4.jpg){: loading=lazy width="600"}
+
+ * This is an easy way to deal with the extra wire.
+ * Run it all the way to the board, plug it in.
+ * Secure all wires at each brace.
+ * All the slack at the furthest section
+
+![!LR4 Wire Routing](../img/lr4/w5.jpg){: loading=lazy width="600"}
+
+ * Fold up on itself and make a nice bundle. Most builds will have much less extra than this.
+
+![!LR4 Wire Routing](../img/lr4/w6.jpg){: loading=lazy width="600"}
+
+ * Get ready to run the Core wires.
+ * Secure them to the top of the core.
+
+![!LR4 Wire Routing](../img/lr4/w7.jpg){: loading=lazy width="600"}
+
+ * Wire cover is nice but not needed.
+ * Leave a small loop at the far end of travel.
+ * You will be securing it the the brace just past halfway.
+
+![!LR4 Wire Routing](../img/lr4/w8.jpg){: loading=lazy width="600"}
+
+ * Move the core to the far end to make sure your wires travel easily.
+ * Run it back and forth to make sure it sits well.
+ * If you use a vac hose you can try this again after that is installed. 
+
+![!LR4 Wire Routing](../img/lr4/w9.jpg){: loading=lazy width="600"}
+
+ * Run the YZ Min assembly wires.
+ * The slack can get bundled on the side or ran behind the board box and bundled on the other side.
+ * Leave the board box as open to breathe as possible, do not bundles wires inside.
+
 ### Y Belt
 
 ---
