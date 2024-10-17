@@ -561,7 +561,7 @@ Start the assembly with the YZ plate.
 ![!LR4 Beam assm](../img/lr4/B1.jpg){: loading=lazy width="600"}
 
  * Gather your Beam parts.
- * If you bought the V1 kit notice to two end Braces have a differnt surface pattern.
+ * If you bought the V1 printed parts set you will notice the two end Braces have a differnt surface pattern.
  * If you printed your own, make sure to use the heavy infill on the ends.
 
 ![!LR4 Beam assm](../img/lr4/B2.jpg){: loading=lazy width="600"}
