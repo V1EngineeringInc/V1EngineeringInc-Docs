@@ -1,10 +1,10 @@
 V1 Engineering Inc Documentation
 ================================
 
-This is the home of most of the [V1 Engineering](https://www.v1e.com/) documentation...
+This is the home of the user editable [V1 Engineering](https://www.v1e.com/) documentation...
 
-[This documentation is hosted on
-github.io](https://docs.v1engineering.com)
+This documentation is hosted on
+github.io at [https://docs.v1e.com](https://docs.v1e.com)
 
 [The source code is on github](https://github.com/V1EngineeringInc/V1EngineeringInc-Docs)
 
