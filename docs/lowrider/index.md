@@ -263,7 +263,7 @@ Any existing table that is large enough is fine. You can use its surface directl
 
 Next option would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better.
 
-If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. Here is a basic parametric set of plans that are easily configurable [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698){:target="_blank"}.
+If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. Here is a basic parametric set of plans that are easily configurable [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698/156?u=vicious1){:target="_blank"}.
 
 
 ![!LR4 overhead Picture](../img/lr4/Top.png){: loading=lazy width="600"}
@@ -694,8 +694,142 @@ Start the assembly with the YZ plate.
  * The slack can get bundled on the side or ran behind the board box and bundled on the other side.
  * Leave the board box as open to breathe as possible, do not bundles wires inside.
 
-### Y Belt
+### Belts
 
+![!LR4 Belts](../img/lr4/yr1.png){: loading=lazy width="600"}
+
+ * First step to mounting the CNC to the table is setting the Y rail
+ * Do your best to make a perfectly rectangular table, but once the rail is set that becomes your referenceand the table edges mean nothing.
+ * The belt holders and Y_Clips all share the outer edge
+ * No more than 300mm gap is reccomended.
+ 
+![!LR4 Belts](../img/lr4/yr2.png){: loading=lazy width="600"}
+
+ * Pre-drilling is highly reccomended so your parts lay flat on the table when screwed down.
+ * You can draw a centerline down the table to make this easy.
+ * There is +-1.5mm so it has a little wiggle room if you are not perfect.
+ * Best to set both Y Max belt ends and the first and last Y clips.
+ * Then measure the remaining gap and equally divide the rest of your clips.
+
+![!LR4 Belts](../img/lr4/yr3.jpg){: loading=lazy width="600"}
+
+ * Make sure both Y Min belt holders get a M3 screw fully inserted
+ * This is for coarse Y squaring adjustment
+
+![!LR4 Belts](../img/lr4/yr4.jpg){: loading=lazy width="600"}
+
+ * Both ends set and predrilled.
+
+![!LR4 Belts](../img/lr4/yr5.jpg){: loading=lazy width="600"}
+
+ * Put the clips on your rail
+ * Snug each clip to the table one at a time.
+ * Use the table edge or any straight surface you might have (a level work well as a straight edge)
+
+![!LR4 Belts](../img/lr4/yb1.jpg){: loading=lazy width="600"}
+
+ * Loop the belt around an M3 screw
+
+![!LR4 Belts](../img/lr4/yb2.jpg){: loading=lazy width="600"}
+
+ * Pull the belt to set the screw and lock the belt
+ * Notice the end of the belt does come through and has a couple extra teeth showing
+ * This is the same for all the belts
+
+![!LR4 Belts](../img/lr4/yb3.jpg){: loading=lazy width="600"}
+
+ * Set the Y Min into place
+ * This is a quick release for removing from the table
+
+![!LR4 Belts](../img/lr4/yb4.jpg){: loading=lazy width="600"}
+
+ * Prepare the Y_Max belt tensioner.
+
+![!LR4 Belts](../img/lr4/yb5.jpg){: loading=lazy width="600"}
+
+ * Sink the nut and insert the screw
+
+![!LR4 Belts](../img/lr4/yb6.jpg){: loading=lazy width="600"}
+
+ * Secure the belt with an M3 just as before
+ * This ends sets the initial tension so it can take a few tries to get the distance right
+ * Make sure the belt is on the pulley and in both idlers correctly.
+
+![!LR4 Belts](../img/lr4/yb7.jpg){: loading=lazy width="600"}
+
+ * You want the tension to hold the belt taut, but not crazy
+ * You want 7lbs (3.2kg) tension, it is not as much as you think.
+ * It will NOT pluck like a guitar. 
+ * Always best to start loose, if all your parts come out several milimeters small, then you might be too loose
+ * If you overtighten you can prevent the steppers from turning, you will certainly break parts.
+ * The parts will break long before the belt does.
+
+![!LR4 Belts](../img/lr4/yb8.jpg){: loading=lazy width="600"}
+
+ * Setting the Y min distance can be done from the calculator, or
+ * Using a piece of belt on the table to set a one belt gap width.
+ * Mark and predrill all your holes.
+ * I used a pencil sharpened by hand to get into the deep holes
+
+![!LR4 Belts](../img/lr4/yb85.jpg){: loading=lazy width="600"}
+
+ * Set the Y stop screw so the endstop triggers just before the LowRider hits the end
+ * If the endstop gets past the screw there is a good chance you will pop or bend the endstop lever.
+ * Take your time here. I get a trigger and about 4mm more travel.
+
+![!LR4 Belts](../img/lr4/yb9.jpg){: loading=lazy width="600"}
+
+ * Finish this belt just like the max side
+ * M3's to secure, correct tension
+ * Y axis squaring gets set later.
+
+![!LR4 Belts](../img/lr4/yh1.jpg){: loading=lazy width="600"}
+
+ * If you are using a vacuum hose, it is best to set it before attaching the X belt.
+ * Plug in the tool end
+ * Route the hose up and cable tie / secure it to the top of the core
+
+![!LR4 Belts](../img/lr4/yh2.jpg){: loading=lazy width="600"}
+
+ * Arrange the hose and wires starting at X max
+ * Best to leave a slight curve even all the way at the end
+ * If you work up against a wall make sure your hose does not touch the wall
+ * Secure the hose again at just past the halfway point
+
+![!LR4 Belts](../img/lr4/yh3.jpg){: loading=lazy width="600"}
+
+ * Move to X min, and back and forth to get the hose to behave for the entore range of motion
+ * You may need to add a bit of a twist one way or the other
+ * Make sure the hose is never pulled tight
+
+![!LR4 Belts](../img/lr4/yh4.jpg){: loading=lazy width="600"}
+
+ * The hose should sit relaxed and always fall back in to the cradle.
+ * Keep an eye on your wires as well, typically they move differnt from the hose so you can not attach them to each other.
+
+![!LR4 Belts](../img/lr4/xb1.jpg){: loading=lazy width="600"}
+
+ * Now the X belt
+ * Wrap around an M3 screw
+
+![!LR4 Belts](../img/lr4/xb2.jpg){: loading=lazy width="600"}
+
+ * Push the belt and screw to the bottom with a screw driver
+
+![!LR4 Belts](../img/lr4/xb3.jpg){: loading=lazy width="600"}
+
+ * Load the belt into the X Belt tensioner
+ * Make sure to get the distance right
+ * Move the core back and forth SLOWLY to make sure the belt is on teh pulley and idlers properly
+
+![!LR4 Belts](../img/lr4/xb4.jpg){: loading=lazy width="600"}
+
+ * Tension to ~7lbs (3.2kg) same as before. Loose is better than breaking things. 
+
+That is nearly it...You are ready to plug it in and take it for a test ride. No more making noises, it will do that itself!!
+
+
+Setting the Z stub distance......coming soon
 ---
 
 #### Initial Squaring
