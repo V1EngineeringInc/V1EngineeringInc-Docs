@@ -77,7 +77,7 @@ Thingiverse Printed parts files:
 
 ### Rails
 
-You are looking for either 29.5mm, 30mm, or 32mm Outside Dimension steel tubes. In the U.S. and parts of Canada this will be 1" OD EMT Conduit, off the shelf hardware store conduit (not rigid conduit). In other countries if you use metal conduit it same thing but you will either be 30mm or 32mm OD.
+You are looking for either 29.5mm, 30mm, or 32mm Outside Dimension steel tubes. In the U.S. and parts of Canada this will be 1" EMT Conduit, off the shelf hardware store conduit (not rigid conduit). In other countries if you use metal conduit it same thing but you will either be 30mm or 32mm OD.
 
  * You want the right OD +-0.2mm.
  * At least 1.3mm thick wall.
