@@ -36,4 +36,7 @@ Answering questions you are unsure about - It is amazing to get a reply or answe
 
 Spindles - You can add any tool that fits. A spindle costs more, needs firmware edits, adds mass (slows down the machine), and are notoriously sketchy in terms of electrical noise. You are adding a lot of complexity for the one added benefit of not as loud as a router. All shop vacs are far more loud than a router, if you have fancy dust collection surely you hava a spare free trim router to use. On top of all that the power tends to be less than that of a trim router.
 
+CAM Software - Anything that makes Gcode will probabaly work. Most people here have used ESTLCAM at least once. Estlcam is extremly simple to get working gcode from. If a user says they do not understand it....FusionCAM is not the answer to that. Getting started with ESTLCAM is great so we can all help troubleshoot if needed with the posted code or a screenshot. If they want to try something else, that is fine but support is extremely difficult with any other software do to the spread out nature of all the settings. Other software is not discouraged, just discouraged for the new user.
+
+
 If you do not agree with anything feel free to start a forum thread and add @vicious1 to bring me into the conversation. If you want to add to this please use the edit/pencil icon at the top of the page or start a forum topic and @ me.
