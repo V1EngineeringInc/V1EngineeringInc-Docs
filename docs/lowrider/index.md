@@ -245,15 +245,49 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
 
 *Not included in the hardware kit. 
 
-### LR3 to LR4 hardware differences for updating your build
 
-Lr3 to Lr4 Upgrade kit is available here in the [V1E.com shop](https://www.v1e.com/products/lowrider-v3-to-lowrider-v4-hardware-upgrade-kit){:target="_blank"}.
+### Update and conversion info
+??? abstract "Click here for required hardware for converting older LowRiders or your MPCNC to an LR4"
 
-|QTY  |Description             |Notes                                 | 
-|-----|------------------------|-----------------------------------------------|
-|39   |M3 x 10mm               |                                               |
-|2    |145mm+ Leadscrews       |                                               |
-|set  |XZ Plates               |                                               |
+    **LR3 to LR4 hardware differences for updating your build**
+
+    Lr3 to Lr4 Upgrade kit is available here in the [V1E.com shop](https://www.v1e.com/products/lowrider-v3-to-lowrider-v4-hardware-upgrade-kit){:target="_blank"}.
+
+    |QTY  |Description             |Notes                                 | 
+    |-----|------------------------|-----------------------------------------------|
+    |39   |M3 x 10mm               |                                               |
+    |2    |145mm+ Leadscrews       |                                               |
+    |set  |XZ Plates               |                                               |
+    |~8m  |10mm belt               |Use the calc for accurate length for your build |
+
+    ---
+
+    **LR2 to LR4 hardware differences for updating your build**
+
+    |QTY  |Description             |Notes                                 | 
+    |-----|------------------------|-----------------------------------------------|
+    |14   |5/16x1.5" (8mm bolts)   |                                               |
+    |14   |5/16 (8mm) nuts         |                                               |
+    |54   |M5x30mm screws          |                                               |
+    |54   |M5 nut                  |                                               |
+    |10   |M2.5x12mm               |                                               |
+    |59   |M3 x 10mm               |                                               |
+    |5    |endstops                |                                               |
+    |4    |linear rails            |                                               |
+    |set  |XZ Plates               |                                               |
+    |~8m  |10mm belt               |Use the calc for accurate length for your build |
+     
+    * 5 driver board is reccomended
+    * Updating to a 24v Power supply is also reccomended.
+    ---
+    
+    **MPCNC Primo to LR4 hardware differences for converting your build**
+
+    |QTY  |Description             |Notes                                 | 
+    |-----|------------------------|-----------------------------------------------|
+
+
+
 
 ### Table
 
