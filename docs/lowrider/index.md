@@ -402,7 +402,7 @@ Start the assembly with the YZ plate.
 
 * Run the wires through the first channel.
 * Use the M2.5 screws to secure the endstop with the arm facing out.
-* 99% of builds are going to use this endstop, homing to Ymin. The locations for the endstops located at the back or only for those who want to home to Ymax (not recommended for beginners, needs changes to the config).
+* 99% of builds are going to use this endstop, homing to Ymin. The locations for the endstops located at the back are only for those who want to home to Ymax (not recommended for beginners, needs changes to the config).
 
 !!! warning
 
