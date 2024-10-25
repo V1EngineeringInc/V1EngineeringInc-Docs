@@ -402,6 +402,7 @@ Start the assembly with the YZ plate.
 
 * Run the wires through the first channel.
 * Use the M2.5 screws to secure the endstop with the arm facing out.
+* 99% of builds are going to use this endstop, homing to Ymin. The locations for the endstops located at the back are only for those who want to home to Ymax (not recommended for beginners, needs changes to the config).
 
 !!! warning
 
@@ -571,6 +572,7 @@ Start the assembly with the YZ plate.
 ![!LR4 Core assm](../img/lr4/ce5.jpg){: loading=lazy width="600"}
 
  * Secure the endstop, notice the trigger direction.
+ * 99% of builds are going to use this endstop, homing to Xmin. The location for the endstop located at the left side of the core (when looking at it from behind) are for homing to Xmax (not recommended for beginners, needs changes to the config).
 
 ![!LR4 Core assm](../img/lr4/cs1.jpg){: loading=lazy width="600"}
 
