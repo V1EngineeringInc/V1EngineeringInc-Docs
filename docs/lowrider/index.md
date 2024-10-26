@@ -141,7 +141,7 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 [dew]: https://www.printables.com/model/1034374-dewalt-611-tool-mount-and-dust-shoe-for-the-lowrid
 [kob]: https://www.printables.com/model/1034828-kobalt-tool-mount-and-dust-shoe-for-the-lowrider-c
 [jac]: https://www.printables.com/model/1037842-jackpot-cnc-control-box-for-the-lowrider-4-cnc
-[skr]: TED
+[skr]: https://www.printables.com/model/1051517-skr-pro-box-for-the-lowrider-4-cnc
 
  * "###" = various Sizes
 
