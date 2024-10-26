@@ -305,18 +305,18 @@ Some issues we have seen.
 
 This is a tough topic. It goes very deep, here are the basics.
 
-The Jackpot is roughly half the cost.
-The Jackpot has better performance in dots per laser raster etching. Everything else in terms of motion is nearly identical.
-The Jackpot [expansion slot](https://www.tindie.com/stores/33366583/) allows for many extended options, or even DIY modules.
-The Jackpot can have the config edited on screen or with a text editor and be live with a reboot, as well as OTA firmware updates and file transfers.
-The Jackpot has a smaller footprint.
-The Jackpot uses any web enabled device as its wireless screen. It can make its own network, use your home network, or Bluetooth.
-The Jackpot uses FluidNC a ~95% GRBL compatible firmware (or Marlin thanks Jamie!)
-The Jackpot can easily use macros for all sorts of special use cases.
+* The Jackpot is roughly half the cost.
+* The Jackpot has better performance in dots per laser raster etching. Everything else in terms of motion is nearly identical.
+* The Jackpot [expansion slot](https://www.tindie.com/stores/33366583/) allows for many extended options, or even DIY modules.
+* The Jackpot can have the config edited on screen or with a text editor and be live with a reboot, as well as OTA firmware updates and file transfers.
+* The Jackpot has a smaller footprint.
+* The Jackpot uses any web enabled device as its wireless screen. It can make its own network, use your home network, or Bluetooth.
+* The Jackpot uses FluidNC a ~95% GRBL compatible firmware (or Marlin thanks Jamie!)
+* The Jackpot can easily use macros for all sorts of special use cases.
 
-The SKR Pro has more onboard IO
-The SKR Pro from V1e.com comes with a wired LCD screen.
-The SKR pro uses Marlin Firmware.
+* The SKR Pro has more onboard IO
+* The SKR Pro from V1e.com comes with a wired LCD screen.
+* The SKR pro uses Marlin Firmware.
 
 The Jackpot was developed for us by Bart Dring (FluidNC), It has everything we need in one package and nothing extra. This is how you get the best bang for the buck in a small footprint. If you ask me, I will honestly recommend the Jackpot, by far. The main feature people seem to buy the SKR for anymore is the wired LCD screen. The Jackpot can also have a stand-alone controller, there is a wired pendant, a wireless custom tablet, your cell phone, or any computer, but yes the SKR screen is just kinda easy and comfortable to those that came from an older Marlin 3D printer.
 
