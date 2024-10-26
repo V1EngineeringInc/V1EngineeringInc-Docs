@@ -223,7 +223,7 @@ If you bought it from the V1E.com store it should be ready to go. This section i
 
 V1 Engineering Specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). You need to download these to load them after flashing.
 
-FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.8.0** (make sure to update your config file as well to add the homing Amps to each stepper), use anything newer than this with caution. 
+FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.7.17**, use anything newer than this with caution. 10/25/24-anything newer currently has a randmo crashing bug....Mitch almost has it fixed, hang tight.
 
 ### Updating / Installing Firmware
 
@@ -301,6 +301,24 @@ Some issues we have seen.
 
 -If you switch from the V2 to V3 of the interface, all the files need to be wiped and uploaded again from the V1 github repo.
 
+## Jackpot VS The SKR Pro
+
+This is a tough topic. It goes very deep, here are the basics.
+
+The Jackpot is roughly half the cost.
+The Jackpot has better performance in dots per laser raster etching. Everything else in terms of motion is nearly identical.
+The Jackpot [expansion slot](https://www.tindie.com/stores/33366583/) allows for many extended options, or even DIY modules.
+The Jackpot can have the config edited on screen or with a text editor and be live with a reboot, as well as OTA firmware updates and file transfers.
+The Jackpot has a smaller footprint.
+The Jackpot uses any web enabled device as its wireless screen. It can make its own network, use your home network, or Bluetooth.
+The Jackpot uses FluidNC a ~95% GRBL compatible firmware (or Marlin thanks Jamie!)
+The Jackpot can easily use macros for all sorts of special use cases.
+
+The SKR Pro has more onboard IO
+The SKR Pro from V1e.com comes with a wired LCD screen.
+The SKR pro uses Marlin Firmware.
+
+The Jackpot was developed for us by Bart Dring (FluidNC), It has everything we need in one package and nothing extra. This is how you get the best bang for the buck in a small footprint. If you ask me, I will honestly recommend the Jackpot, by far. The main feature people seem to buy the SKR for anymore is the wired LCD screen. The Jackpot can also have a stand-alone controller, there is a wired pendant, a wireless custom tablet, your cell phone, or any computer, but yes the SKR screen is just kinda easy and comfortable to those that came from an older Marlin 3D printer.
 
 
 ## Changelog
