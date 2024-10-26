@@ -277,19 +277,13 @@ uart2:
 
 The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmware, with an excellent search bar. If you still get stuck you can of course turn to the [V1E.com forum](https://forum.v1e.com/) or there are links to a FluidNC specific discord in the wiki.
 
-## Jackpot Cases
-
-[Printables collection link](https://www.printables.com/@V1Engineering/collections/815309).
-
-If you have a case that is not part of this collection please let me know and I will add it.
-
 
 ## Troubleshooting
 Some issues we have seen.
 
--No USB connection - Charge only USB cable? make sure yours is data capable.
+-No USB connection - Charge only USB cable? Make sure yours is data capable.
 
--Flashing issues - Remove the ESP32 from the Jackpot and try the web based installer again.
+-Flashing issues - Remove the ESP32 from the Jackpot and try the web based installer again. Pressing the boot button is needed on some boards.
 
 -No memory card showing up - Try a [class 6 card](https://amzn.to/3t4lVgF), or slower formatted in fat32. New fancy high speed cards are hit or miss. [A1 rated cards](https://amzn.to/3PRpYpx) seem particularly troublesome.
 
@@ -301,24 +295,31 @@ Some issues we have seen.
 
 -If you switch from the V2 to V3 of the interface, all the files need to be wiped and uploaded again from the V1 github repo.
 
+
 ## Jackpot VS The SKR Pro
 
-This is a tough topic. It goes very deep, here are the basics.
+This can be a tough topic. It goes very deep but lets keep it simple, here are the basics.
 
-* The Jackpot is roughly half the cost.
-* The Jackpot has better performance in dots per laser raster etching. Everything else in terms of motion is nearly identical.
-* The Jackpot [expansion slot](https://www.tindie.com/stores/33366583/) allows for many extended options, or even DIY modules.
-* The Jackpot can have the config edited on screen or with a text editor and be live with a reboot, as well as OTA firmware updates and file transfers.
-* The Jackpot has a smaller footprint.
-* The Jackpot uses any web enabled device as its wireless screen. It can make its own network, use your home network, or Bluetooth.
-* The Jackpot uses FluidNC a ~95% GRBL compatible firmware (or Marlin thanks Jamie!)
-* The Jackpot can easily use macros for all sorts of special use cases.
+#### Jackpot
+* Is roughly half the cost.
+* Has better performance in dots per second in laser raster etching. Everything else in terms of motion is nearly identical since we use the same drivers.
+* [The expansion slot](https://www.tindie.com/stores/33366583/) allows for many extended options, or even DIY modules.
+* Can have the config edited on screen or with a text editor and be live with a reboot, as well as OTA firmware updates and file transfers. No recompile and flash needed.
+* Has a smaller footprint so it is less obtrusive.
+* Uses any web enabled device as its wireless screen. This is how you will move the machine, start cuts, change tools, and do calibrations. 
+* It can make its own network, use your home network, or Bluetooth (or wired if you really really prefer).
+* Uses FluidNC a ~95% GRBL compatible firmware (or Marlin thanks Jamie!). GRBL does not have any of the 3D Printer overhead of Marlin and was designed for CNC.
+* Can easily use macros for all sorts of special use cases. Want to home your machine, Probe for zero, move to Z max and then move to the far side of the table all in one click, easy.
 
-* The SKR Pro has more onboard IO
-* The SKR Pro from V1e.com comes with a wired LCD screen.
-* The SKR pro uses Marlin Firmware.
+#### SKR Pro
+* Has more onboard IO, this lets you plug more things in without an expansion port, but firmware edits, a recompile, and flash will be needed to use them.
+* When ordered from V1E.com comes with a wired LCD screen instead of using a web capable device.
+* Uses Marlin Firmware, tried and true, but a bit more complcated to edit if needed.
 
-The Jackpot was developed for us by Bart Dring (FluidNC), It has everything we need in one package and nothing extra. This is how you get the best bang for the buck in a small footprint. If you ask me, I will honestly recommend the Jackpot, by far. The main feature people seem to buy the SKR for anymore is the wired LCD screen. The Jackpot can also have a stand-alone controller, there is a wired pendant, a wireless custom tablet, your cell phone, or any computer, but yes the SKR screen is just kinda easy and comfortable to those that came from an older Marlin 3D printer.
+The Jackpot CNC Controller was developed by Bart Dring (FluidNC) and myself, with the biggest notable change being TMC2209 drivers using less I/O in FluidNC. The new board and FluidNC firmware revision were further refined with help from a lot of great community member here in the V1E.com forums. It has everything we need in one package with a few sensible extra ports. This is how you get the best bang for the buck in a 
+small footprint. If you ask me, I will honestly recommend the Jackpot, by far. The main feature people seem to buy the SKR for anymore is the wired LCD screen. The Jackpot can also have 
+a stand-alone controller, there is a wired pendant, a wireless custom tablet, your cell phone, or any computer, but yes the SKR screen is just kinda easy and comfortable to those that came 
+from an older Marlin 3D printer.
 
 
 ## Changelog
