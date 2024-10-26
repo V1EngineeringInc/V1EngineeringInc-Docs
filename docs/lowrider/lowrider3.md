@@ -151,10 +151,10 @@ Here are the pre-made most common Strut Plate sizes.
 
 [2' Strut Plate DXF](../img/lr3/Strut Plate 790mm.dxf)
 
-[Strut Plate CAD/Fusion360](https://a360.co/3CrRkKw){:target="_blank"} - Fully parametric, change the single user parameter from the [Calculator](calculator.md){:target="_blank"}.
+[Strut Plate CAD/Fusion360](https://a360.co/3CrRkKw){:target="_blank"} - Fully parametric, change the single user parameter from the [Calculator](lr3calculator.md){:target="_blank"}.
 
 
-For other Strut Plate sizes, use [Calculator](calculator.md){:target="_blank"}. Enter your build dimensions, then click on *Download Strut.SVG* link.
+For other Strut Plate sizes, use [Calculator](lr3calculator.md){:target="_blank"}. Enter your build dimensions, then click on *Download Strut.SVG* link.
 
 If you're custom designing a Strut Plate for some reason (for [example](https://github.com/aaronse/v1engineering-mods/tree/main/lowrider3/front-grill-strut)), ensure no more than 200mm (8") between the braces.
 
@@ -201,7 +201,7 @@ You can buy most of the Specialty Parts and hardware here, [V1 Shop](https://www
 |3    |stepper wire extenders  |                                               |[Shop][sh3] – [Amazon][az3]|
 |3    |Pulleys 16T 10mm        |10mm GT2 16 Tooth                              |[Shop][sh4] – [Amazon][az4]|
 |6    |Idlers Smooth 20T       |20T Smooth 5mm Bore                            |[Shop][sh5] – [Amazon][az5]|
-|8M   |Belt GT2 10mm           |See [Calculator](calculator.md), no steel belt |[Shop][sh6] – [Amazon][az6]|
+|8M   |Belt GT2 10mm           |See [Calculator](lr3calculator.md), no steel belt |[Shop][sh6] – [Amazon][az6]|
 |5    |Endstops                |                                               |[Shop][sh7] – [Amazon][az7]|
 |14   |608-2RS Bearings        |                                               |[Shop][sh8] – [Amazon][az8]|
 |2    |T8 Leadscrew & nut      |110mm or larger                                |[Shop][sh9] – [Amazon][az9]|
@@ -288,7 +288,7 @@ If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion 
 
 ![!LR3 Dimensions Picture](../img/lr3/LR3 Dims.jpg){: loading=lazy width="600"}
 
-[Calculator for table, rail, and belt lengths.](calculator.md){:target="_blank"}
+[Calculator for table, rail, and belt lengths.](lr3calculator.md){:target="_blank"}
 
 
 ## Assembly
