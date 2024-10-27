@@ -178,7 +178,7 @@ You can buy most of the specialty parts and hardware here, [V1 Shop](https://www
 
 |QTY  |Description             |Comment                                        |Link                        | 
 |-----|------------------------|-----------------------------------------------|----------------------------|
-|1    |Control Board           |5 driver minimum -Jackpot Suggested            |[Shop][sh1] – [Elecrow][az1]|
+|1    |Control Board           |5 driver minimum, Jackpot suggested *Info below|[Shop][sh1] – [Elecrow][az1]|
 |5    |Steppers, Nema17        |20mm+ shaft length                             |[Shop][sh2] – [Amazon][az2]|
 |3    |stepper wire extenders  |                                               |[Shop][sh3] – [Amazon][az3]|
 |3    |Pulleys 16T 10mm        |10mm GT2 16 Tooth                              |[Shop][sh4] – [Amazon][az4]|
@@ -226,6 +226,8 @@ You can buy most of the specialty parts and hardware here, [V1 Shop](https://www
 [az15]: https://amzn.to/47V20Ba
 
 * Vac Hoses need to be grounded at one end. Using a steel ribbed hose makes this very easy to use the ground port from your power source. If you use a non-conductive vac hose you can run a bare wire through the hose secure at one end and ground at the other. If you do not ground your hose static will build up and can damage your control board or other components.
+
+* [Jackpot Versus SKR Pro link](https://docs.v1e.com/electronics/jackpot/#jackpot-vs-the-skr-pro)
 
 As an Amazon Associate, I earn from qualifying purchases.
 
@@ -679,6 +681,20 @@ Start the assembly with the YZ plate.
 
  * Easy section, admire your work. Some people like to make robot sounds as they drive it around the table at this point.
 
+![!LR4 main assm](../img/lr4/ht1.jpg){: loading=lazy width="600"}
+
+ * Okay now is a good time to make sure your heal toe measurements are equal.
+ * Simply measure across the front of your machine
+
+
+![!LR4 main assm](../img/lr4/ht2.jpg){: loading=lazy width="600"}
+
+ * Now measure across the back
+ * The two numbers should be identical.
+ * If they are not the machine can wander when not under power.
+ * The adjustment would be to check your end braces to rail connection and to verify your lower X rail is not actually touching the XZ plate. If it is trim or file your rail a bit shorter. 
+
+
 ### Wire routing
 
 ![!LR4 Wire Routing](../img/lr4/w1.jpg){: loading=lazy width="600"}
@@ -995,39 +1011,50 @@ You will want to cut each plate as close to the side of your build as you can to
 
 ---
 
-#### Disassembly
+#### Temp to Custom Strut Plates
+
+![!LR4 Belts](../img/lr4/sr1.jpg){: loading=lazy width="600"}
+
+ * Swapping to the custom strut plates is pretty easy.
+ * Start by removing the X belt, and both Y belts.
+
+![!LR4 Belts](../img/lr4/sr2.jpg){: loading=lazy width="600"}
+
+ * Loosen and remove all the front plate X rail screws.
+ * Remove all four temp strut plates.
+ * Raise the gantry up so the rail will clear the YZ plate
+
+![!LR4 Belts](../img/lr4/sr3.jpg){: loading=lazy width="600"}
+
+ * Slide the Top X rail out one section
+
+![!LR4 Belts](../img/lr4/sr4.jpg){: loading=lazy width="600"}
+
+ * Remove the core.
+ * Add the custom strut plates keeping the screws loose.
+ * Put the Core back on
+ * Slide the top rail back into place
+ * Snug up all the plate screws.
+
+![!LR4 main assm](../img/lr4/ht1.jpg){: loading=lazy width="600"}
+
+ * Okay now is a good time to double check your heal toe measurements are equal.
+ * Simply measure across the front of your machine
 
 
-![!LR3 Fancy Picture](../img/lr3/LR3 (97).jpg){: loading=lazy width="400"}
+![!LR4 main assm](../img/lr4/ht2.jpg){: loading=lazy width="600"}
+
+ * Now measure across the back
+ * The two numbers should be identical.
+ * If they are not the machine can wander when not under power.
+ * The adjustment would be to check your end braces to rail connection and to verify your lower X rail is not actually touching the XZ plate. If it is trim or file your rail a bit shorter. 
+
+It is best practice to verify your XY square and you Z beam level, they should not have changed unless something got bumped so always run a quick check. 
+
+At this point you are done, you have a fully functional machine! How cool is that!?!
+
+
 ---
-
-#### Final Assembly
-
-![!LR3 Fancy Picture](../img/lr3/LR3 (98).jpg){: loading=lazy width="400"}
-
-* Measure the heel and toe distances across your machine, make sure they are equal. If not adjust the end clamps. Problems can arrise if your rails are too long after you install the strut plates.
-
-![!LR3 Fancy Picture](../img/lr3/LR3 (99).jpg){: loading=lazy width="400"}
-![!LR3 Fancy Picture](../img/lr3/LR3 (100).jpg){: loading=lazy width="400"}
----
-
-### Vacuum
-![!LR3 Fancy Picture](../img/lr3/LR3_Fancy (8).jpg){: loading=lazy width="600"}
-
-Size, options, routing, grounding.  TED
-
-### Wiring
-
-Next step is [wiring the steppers](../electronics/steppers.md){:target="_blank"}.
-
-### Using the machine.
-
-
-### Firmware
-
-[Jackpot CNC Controller](../electronics/jackpot.md){:target="_blank"}
-
-[Marlin / SKR Pro](../electronics/marlin-firmware.md){:target="_blank"}
 
 ### Build experience 
 
