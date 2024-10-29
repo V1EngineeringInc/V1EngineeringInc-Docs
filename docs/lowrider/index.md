@@ -134,8 +134,8 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 |7-10|Y_Clip_###                  |30%  | No more than 300mm center to center |                                         |
 |4   | Temp Strut                 |15%  |                                     |                                         |
 |    |Tool Mount Set              |     |                                     |                                         |
-|1   |Makita, DeWalt, Kobalt      |30%  | Print info in the part description  |[Makita][mak], [DeWalt][dew], [Kobalt][kob]|
-|1   |Board Box                   |20%  |                                     |[Jackpot][jac] [SKR Pro][skr]            |
+|1   |Makita, DeWalt, Kobalt      |30%  | Print info in the part description  |[Makita][mak] \| [DeWalt][dew] \| [Kobalt][kob]|
+|1   |Board Box                   |20%  |                                     |[Jackpot][jac] \| [SKR Pro][skr]            |
  
 [mak]: https://www.printables.com/model/1033926-makita-701-tool-mount-and-dust-shoe-for-the-lowrid
 [dew]: https://www.printables.com/model/1034374-dewalt-611-tool-mount-and-dust-shoe-for-the-lowrid
