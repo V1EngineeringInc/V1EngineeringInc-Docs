@@ -123,13 +123,13 @@ This Interface is from the [ESP3D WebUI project](https://github.com/luc-github/E
 ??? example "Control Options"
     The Jackpot Control board can use most any control software that supports GRBL such as CNC.js or Lightburn, although most people will likely use the built in WebUI's wireless connection. This can be used from most any device that has a web browser. If you are using a small touchscreen you can even zoom in so the buttons are easier to hit.
 
-We typically use the Jackpot board in AP mode (access point), this is a direct connection betwean your web enabled device and the board itself. No internet conenction is used in this case, this is a direct connection to the Jackpot only. Touch screens work (with zoom), or keyboard and mouse will work just as well.
+We typically use the Jackpot board in AP mode (access point), this is a direct connection between your web enabled device and the board itself. No internet conenction is used in this case, this is a direct connection to the Jackpot only. Touch screens work (with zoom), or keyboard and mouse will work just as well.
 
 ??? Info "Other Networking Options"
     You can also configure your device in STA mode, http://fluid.local, if you have a strong signal to your home WiFi network. This will get your board connected to your local network. This is advanced and not reccomended unless you are very confident in your networking setup. It is not reccomended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
 
 ### Tests
-The onboard LED's test the wiring connections. Our CNC standard is Normally Closed (NC) endstop wiring. This means you will have a lit LED when not triggered and not lit when triggered. The Probe is the opposite, lit when triggered.
+The onboard LED's test the wiring connections to your end stops. Our CNC standard is Normally Closed (NC) endstop wiring. This means you will have a lit LED when not triggered and not lit when triggered. The Probe is the opposite, lit when triggered.
 
 You can also test the firmware by running "$Limits" in the terminal windows of the WebUI, this will show a real time trigger display. "!" to exit that mode.
 
@@ -143,7 +143,7 @@ From there you have a "pulloff_mm" setting for each endstop. This setting is how
 
 ![!CONFIG pulloff](../img/jackpot/pulloff.png){: loading=lazy width="400"}
 
-Be sure to **save** your edits by using the red save button on the homescreen!
+Be sure to **save** your edits at the bottom of the config screen, and then by also using the red save button (macro) on the homescreen!
 
 ### Terminal Commands
 Here are some other useful terminal commands, for a full list please see the [FluidNC Wiki](http://wiki.fluidnc.com/).
@@ -221,9 +221,9 @@ Quick note, **gpio.26** can have a quick pulse when starting. If you are using a
 ## Firmware
 If you bought it from the V1E.com store it should be ready to go. This section is in case you want to update or start fresh.
 
-V1 Engineering Specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). You need to download these to load them after flashing.
+V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). **The Current tested and confimed files are in the V2 folder for your machine type** You need to download these to load them after flashing.
 
-FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.7.17**, use anything newer than this with caution. 10/25/24-anything newer currently has a randmo crashing bug....Mitch almost has it fixed, hang tight.
+FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.7.17**, use anything newer than this with caution. 10/28/24-anything newer currently has a random crashing bug....Mitch almost has it fixed, hang tight, pre 9 looks promising.
 
 ### Updating / Installing Firmware
 
@@ -283,13 +283,13 @@ Some issues we have seen.
 
 -No USB connection - Charge only USB cable? Make sure yours is data capable.
 
--Flashing issues - Remove the ESP32 from the Jackpot and try the web based installer again. Pressing the boot button is needed on some boards.
+-Flashing issues - Remove the ESP32 from the Jackpot and try the web based installer again. Pressing the boot button is needed on some boards. If that does not work use the manual method described above.
 
 -No memory card showing up - Try a [class 6 card](https://amzn.to/3t4lVgF), or slower formatted in fat32. New fancy high speed cards are hit or miss. [A1 rated cards](https://amzn.to/3PRpYpx) seem particularly troublesome.
 
 -Some PC's will need USB drivers, if needed the ESP32 USB drivers are here [CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
 
--If you use STA mode and lose your Jackpot on the network you can find it's IP on your router, reboot with the antenna covered for 2 minutes with metal so it boots into AP mode, reflash, use the web installer's wifi tools.
+-If you use STA mode and lose your Jackpot on the network you can find it's IP on your router, use the web installer's wifi tools.
 
 -If you made any changes to the config use the web based tool, or fluid term, to watch the boot messages. You can also view them by typing $SS. If you do not understand it cut and paste the first half into the V1 forums.
 
