@@ -332,17 +332,18 @@ Start the assembly with the YZ plate.
 ![!LR4 yz assm](../img/lr4/yze2.jpg){: loading=lazy width="600"} 
 
  * Notice what way the lever faces, away from the flat side.
- * Sorry for the blurry image, I need to take a new one.
+
+![!LR4 yz assm](../img/lr4/yze2a.jpg){: loading=lazy width="600"} 
+ 
+ * The nut gets pressed in from the YZ plate face.
 
 ![!LR4 yz assm](../img/lr4/yze3.jpg){: loading=lazy width="600"} 
 
  * Run the wire through the channel
 
-
 ![!LR4 yz assm](../img/lr4/yze4.jpg){: loading=lazy width="600"} 
 
  * Lightly secure the Z stop part with an M5 Screw and nut.
- * The nut gets pressed in from the YZ plate face.
  * Start with the assembly in the low position, this will get adjusted later.
  
 ![!LR4 yz assm](../img/lr4/yze5.jpg){: loading=lazy width="600"} 
