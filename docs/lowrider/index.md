@@ -336,6 +336,7 @@ Start the assembly with the YZ plate.
 ![!LR4 yz assm](../img/lr4/yze2a.jpg){: loading=lazy width="600"} 
  
  * The nut gets pressed in from the YZ plate face.
+ * If your nut is not tight you can use a flat head screw driver to hold it in place while tightening in a few steps.
 
 ![!LR4 yz assm](../img/lr4/yze3.jpg){: loading=lazy width="600"} 
 
@@ -348,7 +349,7 @@ Start the assembly with the YZ plate.
  
 ![!LR4 yz assm](../img/lr4/yze5.jpg){: loading=lazy width="600"} 
 
- * Run the endstop wire all the way out the bottom of the YZ plate.
+ * Run the endstop wire all the way out of the bottom of the YZ plate.
 
 ![!LR4 yz assm](../img/lr4/yze6.jpg){: loading=lazy width="600"}  
 
@@ -357,17 +358,20 @@ Start the assembly with the YZ plate.
 ![!LR4 yz assm](../img/lr4/yze7.jpg){: loading=lazy width="600"}  
 
  * Add the M5 Screws to hold the nuts into place until later.
+ * If you have a hard time with the nuts moving a flat head screw driver can help push them into place.
 
 
 ![!LR4 yz assm](../img/lr4/yzs1.jpg){: loading=lazy width="600"} 
 
  * Use the alignment gauge on the top of the YZ plate to align the pulley.
  * Secure the pulley with the set/grub screw on the flat face first, then the other screw.
+ * The little black fasteners are set screws or grub screws.
+ * Notice the stepper is on the chamfered / endstop side.
 
 ![!LR4 yz assm](../img/lr4/yzs2.jpg){: loading=lazy width="600"}
 
- * Notice the labeled wire
- * Feed the wire through the channel
+ * make sure to label the wire, Y0 or Y1.
+ * Feed the wire through the channel, make sure you are on the larger side of the hole.
 
 ![!LR4 yz assm](../img/lr4/yzs3.jpg){: loading=lazy width="600"}
 
@@ -385,25 +389,28 @@ Start the assembly with the YZ plate.
 ![!LR4 yz assm](../img/lr4/yzw3.jpg){: loading=lazy width="600"}
 
  * Snug up all 4 stepper screws.
- * If there is any play, make sure the outer faces are flush with each other. You can lay the parts on a flat table with the wheels hanging off the edge to align them before snugging it up.
+ * Make sure the outer faces of the YZ plate and Wheel are flush with each other. You can lay the parts on a flat table with the wheels hanging off the edge to align them before snugging it up.
 
 ![!LR4 yz assm](../img/lr4/yzb1.jpg){: loading=lazy width="600"}
 
- * Load your Y axis belt
+ * Load your Y axis belt around the pulley.
  * Cut it to length according to the calculator
  * You can remove the M5 screws to make this easier
+
+![!LR4 yz assm](../img/lr4/yzb2.jpg){: loading=lazy width="600"}
+
  * Add the idlers and M5 screws back into place.
  * Seat the screws, but do not crush the plastic or the idler bearings.
- * A drop of light oil or lube on these bearings can help to extend the life of them.
+ * A drop of light oil or lube from the hardware kit inside these bearings can help to extend the life of them. 
 
 ![!LR4 yz assm](../img/lr4/yze8.jpg){: loading=lazy width="600"}
 
- * Wire labeled
+ * Wire labeled as Y0 or Y1
+ * Run the wires through the first channel.
 
 
 ![!LR4 yz assm](../img/lr4/yze9.jpg){: loading=lazy width="600"}
 
-* Run the wires through the first channel.
 * Use the M2.5 screws to secure the endstop with the arm facing out.
 * 99% of builds are going to use this endstop, homing to Ymin. The locations for the endstops located at the back are only for those who want to home to Ymax (not recommended for beginners, needs changes to the config).
 
@@ -411,8 +418,6 @@ Start the assembly with the YZ plate.
 
     From this point on, be cautious not to snag the little lever on anything.
     You can hang the wheels and lever off the edge of the table if needed.
-
-
 
 
 ![!LR4 yz assm](../img/lr4/yzw4.jpg){: loading=lazy width="600"}
@@ -425,6 +430,7 @@ Start the assembly with the YZ plate.
 
  * All the wires should be to the back of the plate.
  * Feed them one at a time out of the slot in the slot in the back.
+ * Some people are finding it easier to run the Z stepper wire first.
 
 ![!LR4 yz assm](../img/lr4/yzw6.jpg){: loading=lazy width="600"} 
  
@@ -433,18 +439,25 @@ Start the assembly with the YZ plate.
 ![!LR4 yz assm](../img/lr4/yzz1.jpg){: loading=lazy width="600"}
 
  * Use the guide on the top of the YZ plate to align the coupler.
+ * Use the small furthest line
+ * Make sure the stepper is on the endstop side of the plate.
  * Tighten the set/grub screw on the flat first, the other.
 
 ![!LR4 yz assm](../img/lr4/yzz2.jpg){: loading=lazy width="600"} 
 
  * Run the wire out the back channel.
+ * Notice what side of the hole this goes in from.
  * You might need to jiggle the other wires to let it feed through.
  * Bundle for safety.
+ * Some find it easier to do this wire first then the rest.
+
+![!LR4 yz assm](../img/lr4/yzz2a.jpg){: loading=lazy width="600"} 
+
  * M3 screws to secure the stepper, start all 4 first, then final snug.
 
 ![!LR4 yz assm](../img/lr4/yzz3.jpg){: loading=lazy width="600"}
 
- * Use the sharp edge of the Linear rail to chisel the rail bed smooth.
+ * CARMEN -Use the sharp edge of the Linear rail to chisel the rail bed smooth.
  * This simple step makes both rails work easier.
 
 ![!LR4 yz assm](../img/lr4/yzz4.jpg){: loading=lazy width="600"}
