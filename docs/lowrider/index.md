@@ -393,7 +393,7 @@ Start the assembly with the YZ plate.
 
 ![!LR4 yz assm](../img/lr4/yzb1.jpg){: loading=lazy width="600"}
 
- * Load your Y axis belt around the pulley.
+ * Load your Y axis belt around the pulley, tweezers or a small screwdriver can help guide it.
  * Cut it to length according to the calculator
  * You can remove the M5 screws to make this easier
 
@@ -457,32 +457,39 @@ Start the assembly with the YZ plate.
 
 ![!LR4 yz assm](../img/lr4/yzz3.jpg){: loading=lazy width="600"}
 
- * CARMEN -Use the sharp edge of the Linear rail to chisel the rail bed smooth.
- * This simple step makes both rails work easier.
+ * Use the sharp edge of the Linear rail to chisel the rail bed smooth.
+ * Any print artifacts, blobs, or rough spots, should just come right off.
+ * This simple step makes both rails sit on teh printed parts better preventing tists of any kind.
 
 ![!LR4 yz assm](../img/lr4/yzz4.jpg){: loading=lazy width="600"}
 
+ * Notice the Y endstop hanging off the table as to not bother the small lever.
  * Loosely add all the M3 screws to the linear rails, get the heads just under the rail surface.
  * Keep an eye out for off center M3 screw heads, they can be sneaky and make this next step harder. 
 
 ![!LR4 yz assm](../img/lr4/yzz5.jpg){: loading=lazy width="600"}
 
- * Notice the Y endstop hanging off the table as to not bother the small lever.
- * Add XZ plate using M3 screws. Snug.
- * XZ max has the large hole, Shown.
- * XZ Min has the slot at the top.
+ * Add XZ plate using M3 screws to the bearing blocks. Snug.
+ * XZ max has the large hole.
+ * XZ Min has the slot at the top, the one that is shown in this picture.
 
 ![!LR4 yz assm](../img/lr4/yzz6.jpg){: loading=lazy width="600"}
 
  * Snug all the rail screws 
  * Move the XZ plate the full range of motion for each screw to assure there is no binding and everything stays smooth.
+ * After the rails are tight, it is a good idea to loosen up the each bearing block and snug it back up.
+ * That little step always seems to gain a little more smooth action.
+
+![!LR4 yz assm](../img/lr4/yzz6a.jpg){: loading=lazy width="600"}
+
  * Add the T8 Leadscrew to the coupler. Make sure the leadscrew is fully seated and touching the stepper shaft.
+ * Snug both grub screws.
 
 ![!LR4 yz assm](../img/lr4/yzz7.jpg){: loading=lazy width="600"}
 
  * Add the brass nut to the Z_Nut
  * 1-2 M3 screws is all that is needed.
- * This could be a snug fit, use pliers to press fit if needed. 
+ * This can be a snug fit, use pliers to press fit if needed. 
  * Thread this on to the leadscrew brass face down
 
 ![!LR4 yz assm](../img/lr4/yzs4.jpg){: loading=lazy width="600"}
@@ -496,17 +503,18 @@ Start the assembly with the YZ plate.
 ![!LR4 yz assm](../img/lr4/yzs6.jpg){: loading=lazy width="600"}
 
  * If you have trouble seating the nuts, you can;
- * Press them in with a flat head as shown here
- * Or you can thread the M5 through the XZ plate and use it to pull them into place.
+ * Press them in with a flat head as shown here (loose print)
+ * Or you can thread the M5 through the XZ plate and use it to pull them into place (tight print).
 
 ![!LR4 yz assm](../img/lr4/yzs7.jpg){: loading=lazy width="600"}
 
  * Snug in the Z stubs using the two M5 screws.
  * Leave out the cross tensioner screws for now.
+ * Make sure the Z_nut is already in place.
 
 ![!LR4 yz assm](../img/lr4/yzw7.jpg){: loading=lazy width="600"}
 
- * Assemble the back wheel.
+ * Carmen- Assemble the back wheel.
  * Bolt heads facing out or down.
  * Snug up the bolts.
 
