@@ -89,8 +89,8 @@ function get_offsets() {
   v4.xrail_core = 168 * unit_convert;
   v4.yrail_minus_work = 255 * unit_convert;
   v4.ytable_minus_work = 313 * unit_convert;
-  v4.xbelt_extra = 160 * unit_convert;
-  v4.ybelt_extra = 120 * unit_convert;
+  v4.xbelt_extra = 180 * unit_convert;
+  v4.ybelt_extra = 200 * unit_convert;
   v4.xtable_extra = 107.5 * unit_convert;
   
 
