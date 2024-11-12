@@ -287,7 +287,14 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
 
     |QTY  |Description             |Notes                                 | 
     |-----|------------------------|-----------------------------------------------|
-
+    |61   |M3 x 10mm               |                                               |
+    |2    |M2.5 x 12mm             |                                               |
+    |1    |Endstops                |                                               |
+    |2    |145mm+ Leadscrews       |                                               |
+    |1    |Coupler                 |8mm to 5mm                                     |
+    |4    |Linear rails MGN        |MGN12H 150mm                                   |
+    |set  |XZ Plates               |                                               |
+    |~8m  |10mm belt               |Use the calc for accurate length for your build |
 
 
 
