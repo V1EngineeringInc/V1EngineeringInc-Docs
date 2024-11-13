@@ -223,7 +223,7 @@ If you bought it from the V1E.com store it should be ready to go. This section i
 
 V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). **The Current tested and confimed files are in the V2 folder for your machine type** You need to download these to load them after flashing.
 
-FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.7.17**, use anything newer than this with caution. 10/28/24-anything newer currently has a random crashing bug....Mitch almost has it fixed, hang tight, pre 9 looks promising.
+FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.9.1**, use anything newer than this with caution. 11/1/2024- Configs updated as well, good idea to update them as well. Be sure to test homing after updates as some of the numbers have changed, also take note of your pull off values to keep things level and square after an update.
 
 ### Updating / Installing Firmware
 
