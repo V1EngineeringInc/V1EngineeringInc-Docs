@@ -173,14 +173,14 @@ What your machine will do **before** the job starts. The LowRider Configs show e
     G94
     G92 X0 Y0
     M0 (MSG Attach probe)
-    G38.2 Z-80 F200 P0.5 (probe down set thickness )
+    G38.2 Z-110 F200 P0.5 (probe down set thickness )
     G1 Z10 F900
     M0 (MSG Remove probe)
     M62 P1 (If used start spindle pin27 )
     ```    
 
-=== "LowRider V3 - Marlin" 
-    On the Lowrider V3 you will typically home all axes before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
+=== "LowRider V3/4 - Marlin" 
+    On the Lowrider V3/4 you will typically home all axes before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
     ```
     G92 X0 Y0 ; Set Current position to 0 on the X and Y axes.
     M0 Attach probe ; Pause to connect touchplate
@@ -191,15 +191,15 @@ What your machine will do **before** the job starts. The LowRider Configs show e
     M106 ; This will turn on an IOT relay to start a router or vacuum
     ```
 
-=== "Lowrider V3 - GRBL/Jackpot"
-    On the Lowrider V3 you will typically home all axes before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
+=== "Lowrider V3/4 - GRBL/Jackpot"
+    On the Lowrider V3/4 you will typically home all axes before starting your job and drive the machine with the control panel to the starting position. This gcode would then run to reset the coordinates and probe the surface.
     ```
     G21
     G90
     G94
     G92 X0 Y0
     M0 (MSG Attach probe)
-    G38.2 Z-80 F200 P0.5 (probe down set thickness )
+    G38.2 Z-110 F200 P0.5 (probe down set thickness )
     G1 Z10 F900
     M0 (MSG Remove probe)
     M62 P1 (If used start spindle pin27 )
@@ -228,13 +228,13 @@ Only happens if you change a tool during your job. It happens at each tool chang
     G90
     G0 X0 Y10 F2520 
     M0 (MSG change tool, probe)
-    G38.2 Z-80 F200 P0.5 (Probe set thickness)
+    G38.2 Z-110 F200 P0.5 (Probe set thickness)
     G00 Z10.0000 F500 (Clearance)
     M0 (MSG remove probe)
     M62 P1 (turn on pin27)
     ```
 
-=== "LowRider V3 - Marlin" 
+=== "LowRider V3/4 - Marlin" 
     ```
     M107 ; Turn fan 1 off IOT relay
     G28 Z ; Raise Z axis
@@ -247,13 +247,13 @@ Only happens if you change a tool during your job. It happens at each tool chang
     M106 ; Turn fan 1 on IoT relay
     ```
 
-=== "LowRider V3 - GRBL/Jackpot" 
+=== "LowRider V3/4 - GRBL/Jackpot" 
     ```
     M63 P1 (turn off pin 27)
     $HZ (Home Z)
     G0 X0 Y10 F2520 
     M0 (MSG change tool, probe)
-    G38.2 Z-80 F200 P0.5 (Probe set thickness)
+    G38.2 Z-110 F200 P0.5 (Probe set thickness)
     G00 Z10.0000 F500 (Clearance)
     M0 (MSG remove probe)
     M62 P1 (turn on pin27)
@@ -278,14 +278,14 @@ Happens directly after your last move from your job file.
     M30
     ```
 
-=== "LowRider V3 - Marlin"
+=== "LowRider V3/4 - Marlin"
     ```
     M107 ; Turn off IOT Relay
     G28 Z ; Lift Z axis
     M0 Diggidy Done! ; Pause to keep steppers energized
     ```
 
-=== "LowRider V3 - GRBL/Jackpot"
+=== "LowRider V3/4 - GRBL/Jackpot"
     ```
     M63 P1 (stop spindle pin27)
     $HZ
