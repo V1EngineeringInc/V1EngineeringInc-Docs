@@ -196,8 +196,9 @@ function from_working() {
   var ywork = parseFloat($("input[name=ywork]").val());
   var xzplate = parseFloat($("input[name=xzplate]").val());
 
-  var xrails = xwork + offsets.xrail_core;
+  var xrails = xwork + offsets.xrail_core - 2;
   var yrail = ywork + offsets.yrail_minus_work;
+   var xstrut = xwork + offsets.xrail_core;
 
   var xbelts = xwork + offsets.xrail_core + offsets.xbelt_extra;
   var ybelts = yrail + offsets.ybelt_extra;
@@ -214,7 +215,7 @@ function from_working() {
   $("span[name=xzplate]").text(clip(xzplate));
   $("span[name=xtable]").text(clip(xtable));
   $("span[name=ytable]").text(clip(ytable));
-  $("span[name=strut]").text(clip(xrails));
+  $("span[name=strut]").text(clip(xstrut));
 }
 
 // Set these up the first time.
