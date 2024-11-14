@@ -92,6 +92,7 @@ function get_offsets() {
   v4.xbelt_extra = 180 * unit_convert;
   v4.ybelt_extra = 200 * unit_convert;
   v4.xtable_extra = 107.5 * unit_convert;
+  v4.xrail_2mm = 2 * unit_convert;
   
 
   var model = $("input[name=model]:checked").val();
@@ -196,7 +197,7 @@ function from_working() {
   var ywork = parseFloat($("input[name=ywork]").val());
   var xzplate = parseFloat($("input[name=xzplate]").val());
 
-  var xrails = xwork + offsets.xrail_core - 2;
+  var xrails = xwork + offsets.xrail_core - offsets.xrail_2mm;
   var yrail = ywork + offsets.yrail_minus_work;
    var xstrut = xwork + offsets.xrail_core;
 
