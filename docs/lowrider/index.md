@@ -514,22 +514,33 @@ Start the assembly with the YZ plate.
 
 ![!LR4 yz assm](../img/lr4/yzw7.jpg){: loading=lazy width="600"}
 
- * Carmen- Assemble the back wheel.
+ * Assemble the back wheel.
  * Bolt heads facing out or down.
  * Snug up the bolts.
 
 ![!LR4 yz assm](../img/lr4/yzw8.jpg){: loading=lazy width="600"}
 
  * Be sure to pre-thread the nut on to the screw to loosen up the lock nut before assembly. More than once can help as well.
- * Insert the "hidden" M5 Nut
- * Snug up the wheel assembly with the M5
- * If there is any play make sure the outer faces are flush.
+ * Slow and easy on the next step. Make sure not to cross thread the nut is it gets moved and ends up crooked.
+
+![!LR4 yz assm](../img/lr4/yzw8a.jpg){: loading=lazy width="600"}
+
+ * Again, be sure to pre-thread the nut on to the screw to loosen up the lock nut before assembly. More than once can help as well.
+ * Insert the "hidden" M5 Nut. This picture shows how to make sure it is aligned if you want to add a drop of glue to hold the nut.
+ * Snug up the wheel assembly with the M5, if there is any resistance make certain it is not cross threaded. 
+ * Make sure the outer faces of both parts are flush.
+ * Sloppy wheel alignment can lead to the whole beam not being very square to the table If your finished build is sitting crooked this is one place to check.
+
+![!LR4 yz assm](../img/lr4/yzw8b.jpg){: loading=lazy width="600"}
+
+ * Make sure the outer faces of both parts are flush.
  * Sloppy wheel alignment can lead to the whole beam not being very square to the table If your finished build is sitting crooked this is one place to check.
 
 ![!LR4 yz assm](../img/lr4/yzw9.jpg){: loading=lazy width="600"} 
 
  * Take the time to set your Z endstops.
- * You want them to trigger before the bearing blocks hit the top stop block
+ * You want them to trigger just before the bearing blocks hit the top stop block. On both sides.
+ * You can measure the trigger position from a fixed point to get them really close, this can make Z leveling a bit faster later on.
  
 ![!LR4 yz assm](../img/lr4/fullYZplate.jpg){: loading=lazy width="600"}
 
@@ -551,7 +562,7 @@ Start the assembly with the YZ plate.
 
 ![!LR4 Core assm](../img/lr4/cn3.jpg){: loading=lazy width="600"}
 
- * Make sure it is fully seated
+ * Make sure it is fully seated all the way into the lower hole.
 
 ![!LR4 Core assm](../img/lr4/cn4.jpg){: loading=lazy width="600"}
 
@@ -559,14 +570,14 @@ Start the assembly with the YZ plate.
 
 ![!LR4 Core assm](../img/lr4/ch1.jpg){: loading=lazy width="600"}
 
- * Insert the bearings
+ * Insert the bearings, one at a time with its bolt
  * Snug up all but the two bolts that cross the seam at the top.
- * The top seam controls the core to rail tension.
+ * The top seam controls the core to rail tension, this stays loose for now.
 
 ![!LR4 Core assm](../img/lr4/ch2.jpg){: loading=lazy width="600"}
 
- * The bottom bolts have to have the heads up like shown
- * The Top bolts can face whichever way you prefer, heads showing is favorable if you are using a vac hose.
+ * The 4 bottom bolts have to have the heads up like shown
+ * The top bolts can face whichever way you prefer, heads showing is favorable if you are using a vac hose.
 
 ![!LR4 Core assm](../img/lr4/ch3.jpg){: loading=lazy width="600"}
 
@@ -596,7 +607,7 @@ Start the assembly with the YZ plate.
 
 ![!LR4 Core assm](../img/lr4/ce5.jpg){: loading=lazy width="600"}
 
- * Secure the endstop, notice the trigger direction.
+ * Secure the endstop, using M2.5x12mm screws, notice the trigger direction.
  * 99% of builds are going to use this endstop, homing to Xmin. The location for the endstop located at the left side of the core (when looking at it from behind) are for homing to Xmax (not recommended for beginners, needs changes to the config).
 
 ![!LR4 Core assm](../img/lr4/cs1.jpg){: loading=lazy width="600"}
