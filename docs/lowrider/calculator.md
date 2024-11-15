@@ -2,29 +2,26 @@
 
 # LowRider v4 Size Calculator
 
-
-![!LR4 2'x4'](../img/lr4/lr4_simple.jpg){: loading=lazy width="600"}
-
-----
+<div class="inline end" style="width: 500px">
+   <img src="/../../img/lr4/lr4_simple.jpg" style="width: 500px">
+</div>
 ## Inputs
 
 #### Units
 <input type="radio" onchange="to_mm()" name="units" value="mm" checked>Millimeter (mm)<br/>
 <input type="radio" onchange="to_inch()" name="units" value="inches">Inch<br/>
 
-#### Machine
-<input type="radio" onchange="from_working()" name="model" value="v4" checked> LowRider v4<br/>
-
 #### Usable Cutting Area
 <!-- These "value"s are going to be overwritten by the reset_work() function below. -->
-<input class="calc" type="number" onchange="from_working()" name="xwork" value="1220" size="6"><span class="units">mm</span> X<br/>
-<input class="calc" type="number" onchange="from_working()" name="ywork" value="2440" size="6"><span class="units">mm</span> Y<br/>
+<input class="calc" type="number" onkeyup="from_working()" name="xwork" value="1220" size="6"><span class="units">mm</span> X<br/>
+<input class="calc" type="number" onkeyup="from_working()" name="ywork" value="2440" size="6"><span class="units">mm</span> Y<br/>
 
 #### XZ Plate Thickness
 Shop Aluminum plates are 6.35mm (0.25").
 
-<input class="calc" type="number" onchange="from_working()" name="xzplate" value="6.35" size="6"><span class="units">mm</span> XZ Plate<br/>
-<button class="reset" onclick="reset_work()">Reset</button>
+<input class="calc" type="number" onkeyup="from_working()" name="xzplate" value="6.35" size="6"><span class="units">mm</span> XZ Plate<br/>
+
+<p><a  class="btn btn-default" href="javascript:reset_work()">Reset</a></p>
 
 ----
 
@@ -94,14 +91,7 @@ function get_offsets() {
   v4.xtable_extra = 107.5 * unit_convert;
   v4.xrail_2mm = 2 * unit_convert;
   
-
-  var model = $("input[name=model]:checked").val();
-  if (model == "v4") {
-    return v4;
-  }
-    else {
-    alert("internal error: unrecognized model " + model);
-  }
+  return v4;
 }
 
 function to_mm() {
