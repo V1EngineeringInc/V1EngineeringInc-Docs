@@ -459,7 +459,7 @@ Start the assembly with the YZ plate.
 
  * Use the sharp edge of the Linear rail to chisel the rail bed smooth.
  * Any print artifacts, blobs, or rough spots, should just come right off.
- * This simple step makes both rails sit on teh printed parts better preventing tists of any kind.
+ * This simple step makes both rails sit on the printed parts better preventing twists of any kind.
 
 ![!LR4 yz assm](../img/lr4/yzz4.jpg){: loading=lazy width="600"}
 
