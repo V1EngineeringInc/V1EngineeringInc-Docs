@@ -98,13 +98,13 @@ Also, Bart Dring and Mitch Bradley many thanks for GRBL-ESP32 and now [FluidNC](
 Click on the images to enlarge them.
 
 <figure markdown="span">
-![!Jackpot CNC mpcnc pins](../img/jackpot/MPCNC Labels.png){: loading=lazy  width="400"}
-<figcaption>MPCNC = X, Y, Z, X2(A), Y2(B)</figcaption>
+![!Jackpot CNC mpcnc pins](../img/jackpot/mpcnclabel.png){: loading=lazy  width="400"}
+<figcaption>MPCNC = X0, Y0, Z, X1(A), Y1(B)</figcaption>
 </figure>
 
 <figure markdown="span">
-![!Jackpot CNC LR pins](../img/jackpot/Lowrider labels.png){: loading=lazy  width="400"}
-<figcaption>LR = X, Y, Z, Y2(A), Z2(B)</figcaption>
+![!Jackpot CNC LR pins](../img/jackpot/lowriderlabel.png){: loading=lazy  width="400"}
+<figcaption>LR = X, Y0, Z0, Y1(A), Z1(B)</figcaption>
 </figure>
 
 The probe/touchplate plugs into the last port (gpio.36), on either configuration.
