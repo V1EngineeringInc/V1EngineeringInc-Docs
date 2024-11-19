@@ -97,6 +97,8 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
 3 walls rectilinear or cubic infill for most parts. Thicker layers, since these are large parts, no more than 80% nozzle diameter to layer thickness ratio to keep steep walls working.
 
+200mmx200mmx190mm available build volume is needed to print these parts.
+
 
 !!! info 
 
@@ -280,15 +282,25 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
     |~8m  |10mm belt               |Use the calc for accurate length for your build |
      
     * 5 driver board is reccomended
-    * Updating to a 24v Power supply is also reccomended.
+    * Updating to a 24v Power supply is also reccomended if you only have a 12V.
     ---
     
     **MPCNC Primo to LR4 hardware differences for converting your build**
 
     |QTY  |Description             |Notes                                 | 
     |-----|------------------------|-----------------------------------------------|
-
-
+    |61   |M3 x 10mm               |                                               |
+    |2    |M2.5 x 12mm             |                                               |
+    |1    |Endstop                 |                                               |
+    |1    |145mm+ Leadscrews       |You can use the one you have and add one       |
+    |1    |Coupler                 |8mm to 5mm                                     |
+    |4    |Linear rails MGN        |MGN12H 150mm                                   |
+    |set  |XZ Plates               |                                               |
+    |~8m  |10mm belt               |Use the calc for accurate length for your build |
+    
+    * 5 driver board is reccomended
+    * Updating to a 24v Power supply is also reccomended if you only have a 12V.
+    ---
 
 
 ### Table
