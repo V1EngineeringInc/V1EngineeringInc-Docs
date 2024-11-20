@@ -159,7 +159,7 @@ What your machine will do **before** the job starts. The LowRider Configs show e
     ```
     G92 X0 Y0 Z0 ; Set Current position to 0, all axes
     G00 Z5.0000 F500 ; Raise Z 5mm at 8.3mm/s to clear clamps and screws
-    G28 X Y Z ; Home in order, with Z touchplate
+    G28 Z ; Home Z touchplate
     G92 Z0.5 ; Account for probe thickness (set your thickness)
     G00 Z5.000 F500 ; Raise Z probe off of surface
     M00 ; Pause for LCD button press so you can remove the touchplate
