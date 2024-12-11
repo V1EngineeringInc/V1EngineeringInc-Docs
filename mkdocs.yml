@@ -167,7 +167,12 @@ plugins:
   - glightbox
   - search
   - privacy
-
+  - git-committers:
+      repository: V1EngineeringInc/V1EngineeringInc-Docs
+      branch: master
+      token: !ENV ["CI_JOB_TOKEN"]
+      enabled: !ENV [CI, false]
+      
 markdown_extensions:
   - attr_list
   - md_in_html
