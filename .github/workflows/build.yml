@@ -23,4 +23,6 @@ jobs:
           pip install $(mkdocs get-deps)
           
       - name: mkdocs build
-        run: mkdocs build --clean
+        env:
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: mkdocs build --clean --strict
