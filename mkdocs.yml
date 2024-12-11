@@ -171,6 +171,7 @@ plugins:
       repository: V1EngineeringInc/V1EngineeringInc-Docs
       branch: master
       enabled: !ENV [CI, false]
+      token: !ENV ["secrets.GITHUB_TOKEN"]
       
 markdown_extensions:
   - attr_list
