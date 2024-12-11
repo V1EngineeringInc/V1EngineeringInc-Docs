@@ -95,7 +95,7 @@ You will also need some extra wire for the power supply, end stops, and fans.
 
 5/11/17
 
-See [firmware](index.md#firmware)
+See [firmware](../electronics/marlin-firmware.md)
 
 Assembly
 

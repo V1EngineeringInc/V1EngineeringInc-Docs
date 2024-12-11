@@ -63,12 +63,8 @@ nav:
      - SKR Pro: electronics/skrpro.md
      - Ultimachine Boards: electronics/ultimachine.md
      - Ramps: electronics/ramps.md
-   - Wiring The Steppers: electronics/steppers.md
    - Setup: software/index.md
-   - Some Advanced Options:
-     - V1pi - Headless: electronics/v1pi.md
-     - Dual Endstops: electronics/dual-endstops.md
-
+     
  - Use:
    - Tools:
      - Milling:
@@ -76,17 +72,13 @@ nav:
        - Milling Basics: tools/milling-basics.md
        - "Kiri:Moto Basics": software/kiri.md
        - EstlCAM Intermediate (2.5d): software/estlcam-2p5d.md
-       - Milling Metal: tools/milling-metal.md
        - Inlays: software/Fengrave-vcarve-inlay.md
-     - 3D Printing:
-       - Import Extruder: tools/import-extruder.md
      - Lasers:
        - Main: tools/lasers.md
        - Engraving Mirrors: tools/laser-engraving-mirrors.md
      - Drag Knife/Vinyl: tools/drag-knife.md
      - Needle Cutter: tools/foam-needle-cutter.md
-   - Troubleshoot:
-     - Reversing a Stepper: software/reverse-motor.md
+
  - Learn:
     - FAQ's: learn/faq.md
     - Editing mkdocs: mkdocs_info.md
@@ -99,6 +91,14 @@ nav:
     - G-code: learn/gcode.md
     - Motion: learn/motion.md
     - Coordinates: learn/coordinates.md
+    - V1pi - Headless: electronics/v1pi.md
+
+ - Archive:
+    - Wiring The Steppers: electronics/steppers.md
+    - Dual Endstops: electronics/dual-endstops.md
+    - Milling Metal: tools/milling-metal.md
+    - Import Extruder: tools/import-extruder.md
+    - Reversing a Stepper: software/reverse-motor.md
 
 theme:
   font: false
@@ -119,12 +119,13 @@ theme:
       icon: material/brightness-4
       name: Switch to light mode    
   features:
-  - navigation.sections
+  - navigation.tracking
+  - navigation.instant
+  - navigation.top
   - toc.integrate
   - toc.follow
   - search.suggest
   - search.highlight
-  - navigation.instant
   - content.tabs.link
   - content.action.edit
   logo: "img/favicon.ico"

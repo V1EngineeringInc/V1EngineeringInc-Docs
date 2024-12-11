@@ -48,7 +48,7 @@ you will be guided to make the change and submit the changes back to the project
 "Pull Request". After that, your changes will be reviewed, approved, and merged into the documentation, and
 that way others can avoid the same problems you had.
 
-Before you go, make sure you add yourself to the [Contributors](index.md#Contributors) section below so that everyone knows how
+Before you go, make sure you add yourself to the [Contributors](index.md#contributors) section below so that everyone knows how
 awesome you are for making a contribution.
 
 ??? "I want to develop more, faster, better, stronger"
