@@ -167,6 +167,10 @@ plugins:
   - glightbox
   - search
   - privacy
+  - git-committers:
+      repository: V1EngineeringInc/V1EngineeringInc-Docs
+      branch: master
+      enabled: !ENV [CI, false]
 
 markdown_extensions:
   - attr_list
