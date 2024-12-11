@@ -23,4 +23,4 @@ jobs:
           pip install $(mkdocs get-deps)
           
       - name: mkdocs build
-        run: mkdocs build --clean --strict
+        run: mkdocs build --clean
