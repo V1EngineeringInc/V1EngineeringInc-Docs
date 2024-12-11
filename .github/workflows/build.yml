@@ -25,5 +25,5 @@ jobs:
       - name: mkdocs build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MKDOCS_GIT_COMMITTERS_APIKEY: {{ secrets.GITHUB_TOKEN }}
+          MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.GITHUB_TOKEN }}
         run: mkdocs build --clean --strict
