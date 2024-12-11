@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
-        uses: actions/checkout@v4.1.3
+        uses: actions/checkout@v4.2.2
 
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
