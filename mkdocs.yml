@@ -171,7 +171,7 @@ plugins:
       repository: V1EngineeringInc/V1EngineeringInc-Docs
       branch: master
       enabled: !ENV [CI, false]
-      token: !ENV ["contributors"]
+      token: !ENV ["contributors_token"]
 
 markdown_extensions:
   - attr_list
