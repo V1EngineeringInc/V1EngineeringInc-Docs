@@ -72,7 +72,7 @@ Peter H (bitingmidge) - Darwin M (Darwin) - Archie C (Sonosus) - Dave Latka (Dav
 
 Special thanks to;
 
-The LowRider 4 CNC Beta Test Crew. Jonathan Jones (Jonathjon) - Philip (Tokoloshe) - orob - Jamie (vector76) - Doug Joseph (DougJoseph) - Dan (SupraGuy) - azab2c (Aza B2C) - MakerJim - Peter H (bitingmidge) - Last minute addition, RockinRiley. Thanks to all the rest of you that participated in the Lounge section, it was a wild ride, nearly 5K posts.
+The LowRider 4 CNC Beta Test Crew. Jonathan Jones (Jonathjon) - Philipp (Tokoloshe) - orob - Jamie (vector76) - Doug Joseph (DougJoseph) - Dan (SupraGuy) - azab2c (Aza B2C) - MakerJim - Peter H (bitingmidge) - Last minute addition, RockinRiley. Thanks to all the rest of you that participated in the Lounge section, it was a wild ride, nearly 5K posts.
 
 The MP3DP V5 Test Crew. Mike M (michmela44) - Jonathan Jones (Jonathjon)
 
