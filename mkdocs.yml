@@ -92,13 +92,13 @@ nav:
     - Motion: learn/motion.md
     - Coordinates: learn/coordinates.md
     - V1pi - Headless: electronics/v1pi.md
+    - Archive:
+      - Wiring The Steppers: electronics/steppers.md
+      - Dual Endstops: electronics/dual-endstops.md
+      - Milling Metal: tools/milling-metal.md
+      - Import Extruder: tools/import-extruder.md
+      - Reversing a Stepper: software/reverse-motor.md
 
- - Archive:
-    - Wiring The Steppers: electronics/steppers.md
-    - Dual Endstops: electronics/dual-endstops.md
-    - Milling Metal: tools/milling-metal.md
-    - Import Extruder: tools/import-extruder.md
-    - Reversing a Stepper: software/reverse-motor.md
 
 theme:
   font: false

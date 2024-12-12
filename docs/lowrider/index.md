@@ -323,6 +323,9 @@ If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion 
 
 ### YZ Plate Assemblies
 
+Wonderful Video showing the process here.
+<iframe width="500" height="315" src="https://www.youtube.com/embed/p4FYVLI73Ss?si=-nDs4DK_aEjRvKrh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Start the assembly with the YZ plate. 
 
 ![!LR4 yz assm](../img/lr4/fullYZplate.jpg){: loading=lazy width="600"}
@@ -561,6 +564,9 @@ Start the assembly with the YZ plate.
  * You are building a robot that will hold a power tool, everyone needs to hear about that.
 
 ### Core Assembly
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KLDDJx-OUmQ?si=oM2-10K-UGxsQ31P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ![!LR4 Core assm](../img/lr4/cn1.jpg){: loading=lazy width="600"}
 
@@ -929,6 +935,8 @@ That is nearly it...You are ready to plug it in and take it for a test ride. No 
 
 Setting the Z stub distance......coming soon
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TwWMBFpjfRU?si=-1p3vmnfCMOMpmL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### Initial Squaring
 
