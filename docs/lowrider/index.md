@@ -188,7 +188,7 @@ You can buy most of the specialty parts and hardware here, [V1 Shop](https://www
 |8M   |Belt GT2 10mm           |See [Calculator](calculator.md), no steel belt |[Shop][sh6] – [Amazon][az6]|
 |5    |Endstops                |                                               |[Shop][sh7] – [Amazon][az7]|
 |14   |608-2RS Bearings        |                                               |[Shop][sh8] – [Amazon][az8]|
-|2    |T8 Leadscrew & nut      |145mm or larger                                |[Shop][sh9] – [Amazon][az9]|
+|2    |T8 Leadscrew & nut      |145mm or larger, 4 start 2mm pitch, 8mm/Rev    |[Shop][sh9] – [Amazon][az9]|
 |2    |Coupler                 |8mm to 5mm                                     |[Shop][sh10] – [Amazon][az10]|
 |4    |Linear rails MGN        |MGN12H 150mm                                   |[Shop][sh11] – [Amazon][az11]|
 |1    |Power Supply            |9-24V Board dependent 36W+                     |[Shop][sh12] – [Amazon][az12]|
