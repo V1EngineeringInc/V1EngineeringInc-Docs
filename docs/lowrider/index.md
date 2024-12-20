@@ -204,7 +204,7 @@ You can buy most of the specialty parts and hardware here, [V1 Shop](https://www
 [sh6]: https://www.v1e.com/collections/3dprinter-parts/products/gt2-10mm-belt
 [sh7]: https://www.v1e.com/collections/parts/products/limit-switch-endstop
 [sh8]: https://www.v1e.com/collections/lowrider-parts/products/bearings-608-2rs 
-[sh9]: https://www.v1e.com/collections/lowrider-parts/products/TED
+[sh9]: https://www.v1e.com/products/lowrider-v4-cnc-t8-leadscrews
 [sh10]: https://www.v1e.com/collections/lowrider-parts/products/5mm-to-8mm-flex-coupler
 [sh11]: https://www.v1e.com/products/150mm-mgn12h-linear-guides
 [sh12]: https://www.v1e.com/products/24v-power-supply
