@@ -33,8 +33,7 @@ There are 4 components to the workflow and associated software as follows:
 
 [G-code Sender](#g-code-sender)
 :   The g-code is just a list of instructions that define where the tool should go. The software
-    used to "play" these instructions is the g-code sender and communicates with the controller. There are a number of options 
-    for this software.  Most people have a personal preference along with it being well matched with your controller.
+    used to "play" these instructions is the g-code sender and communicates with the controller. There are a number of options for this software, if you are using the SKR Pro the LCD can act as the sender, or on the Jackpot CNC Controller the built in web interface is usually the sender. Either board can also be hardwared and traditional G-code senders can be used.
 
 [Controller](#controllerfirmware)
 :   The controller is responsible for taking g-code instructions and managing the precise movements
@@ -143,28 +142,22 @@ also needs to be able to set the "zero" location to set up the cut. In dual ends
 should also be able to command the homing sequence (Most CNC machines don't need endstops like 3D
 printers because the start location is on the workpiece, not the machine).
 
-The simplest method to do this is with [Repetier-Host](../software/repetier-host.md).
+The most simple method is to use the built in web interface on the Jackpot CNC controller or the 
+included LCD on the SKR Pro, which will take an onbpoard SD card. You can put the file on the SD card, and set the whole thing up on the LCD, and play the file without bringing a computer into the shop.
 
-The other simple method is to also install an LCD screen on the controller, which will take an SD
-card. You can put the file on the SD card, and set the whole thing up on the LCD, and play the file
-without bringing a computer into the shop.
+The other simple method to do this is with [Repetier-Host](../software/repetier-host.md) or [CNC.js](https://cnc.js.org/).
 
 There are many other advanced ways to send gcode. You can hook up a raspberry pi, and use the [v1pi
-image](../electronics/v1pi.md). You can use [CNC.js](https://github.com/cncjs/cncjs/wiki/Electron-App) standalone on your computer, or use pronterface.
+image](../electronics/v1pi.md). 
 
 ## Controller/Firmware
 
 ![pic](../img/old/2015/05/Marlin-Logo-GitHub.png)
 
-The final step is to actually do the milling/cutting.  Obviously this is done by the tool at the end of the gantry, but it is facilitated by the controller.  The controller takes movement commands, and drives the motors. If you bought the controller from
-the V1Engineering shop, then it is running Marlin. Marlin is designed for 3D printing (and so are a
-lot of tools we use). Don't be surprised if you see something labeled "print" when you think it
-should be "cut".
+The final step is to actually do the milling/cutting.  Obviously this is done by the tool at the end of the gantry, but it is facilitated by the controller.  The controller takes movement commands, and drives the motors. If you bought the controller from the V1Engineering shop, then it is running Grbl or Marlin. Marlin is designed for 3D printing (and so are a lot of tools we use). Don't be surprised if you see something labeled "print" when you think it should be "cut".
 
 The V1Engineering Shop sells the controllers flashed and ready to use. If you want to update them,
-or you need to change the software for some reason, there are preconfigured versions of Marlin for
-some boards. There are a lot more detailed instructions in the [Marlin
-firmware](../electronics/marlin-firmware.md) section of the docs.'
+or you need to change the software for some reason, there are preconfigured versions of all the firmware linked in each boards page here in the documentaion Control/Control Boards/...
 
 !!! warning
     You will see "Arduino" used a lot in discussions around the V1Engineering machines. It is the
