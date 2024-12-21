@@ -109,7 +109,19 @@ Click on the images to enlarge them.
 
 The probe/touchplate plugs into the last port (gpio.36), on either configuration.
 
-### Controls
+If you choose to use a case fan to cool your drivers you will typically wire the fan directly into the Jackpot main power so when the board is energized so is the fan. This means you need to get a fan that uses the same voltage as your power supply. We use a 24V power supply in the kit and sell a [24V fan](https://www.v1e.com/products/5015-12v-fan-blower) in the shop.
+
+#### Running the wires.
+
+![!Jackpot Clean Wires](../img/jackpot/cleanjpot.jpg){: loading=lazy  width="380"}
+
+Wires should always be ran beside or under the board. Always secure all connections to the board before they leave the board box so they do not wiggle or vibrate loose.
+
+![!Covered Antenna](../img/jackpot/covered_ant.jpg){: loading=lazy  width="380"}
+
+Never cross wires over the top of the Jackpot, this blocks the antenna signal and impedes cooling of the drivers and ESP32.
+
+### Onboard Controls
 If you bought your Jackpot CNC Controller from the [V1E.com](https://www.v1e.com/) store it should be ready to go. You should be able to log in directly to the WiFi SSID "FluidNC" and the password = 12345678 
 
 ![!Jackpot SSID](../img/jackpot/jackpotwifi.jpg){: loading=lazy  width="380"}
@@ -129,13 +141,28 @@ We typically use the Jackpot board in AP mode (access point), this is a direct c
     You can also configure your device in STA mode, http://fluid.local, if you have a strong signal to your home WiFi network. This will get your board connected to your local network. This is advanced and not reccomended unless you are very confident in your networking setup. It is not reccomended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
 
 ### Tests
+
+#### Motion
+
+You can now use the control in the manual tab to move the machine. The arrows allow for .1, 1, 10, 100mm movements. Start small 1 mm at a time. The arrows should move it in that direction.
+
+* X positive (Right arrow) should move Right, X negative should move Left,
+* Y positive (up arrow) is back or away from you, Y negative is towards you.
+* Z positive (Z up arrow) moves the z axis up, meaning the tool away from the work surface.
+
+If it doesn’t move as expected hit disconnect, unplug the power and USB, any axis that is moving the wrong way simply flip the plug. If one stepper is moving the wrong way power down and flip it’s plug. Power back up and test again.
+
+#### Endstops
+
 The onboard LED's test the wiring connections to your end stops. Our CNC standard is Normally Closed (NC) endstop wiring. This means you will have a lit LED when not triggered and not lit when triggered. The Probe is the opposite, lit when triggered.
 
 You can also test the firmware by running "$Limits" in the terminal windows of the WebUI, this will show a real time trigger display. "!" to exit that mode.
 
+It is important to note the endstops are only active during the homing procedure for that axis, they will not stop a machine in motion or running g-code. You can set them to do that but that is an advanced topic.
+
 ### Auto Square
 
-Auto Square on this board no longer uses Gcode commands. You can edit each endstop indivdually directly from the "Config" section of the WebUI (or directly to the yaml file).
+Auto Square on this board is as easy as editing each endstop indivdually directly from the "Config" section of the WebUI (or directly to the yaml file).
 
 ![!CONFIG WebUI](../img/jackpot/confg.png){: loading=lazy width="400"}
 
@@ -163,13 +190,15 @@ Here are some other useful terminal commands, for a full list please see the [Fl
 
 ## CAM Settings
 
+The [estlcam](../software/estlcam-basics.md) page has more detailed instructions on what to do after your board is wired and tested.
+
 This section is setting up estlcam for GRBL/FluidNC
+
+...
 
 ![!Jackpot estlcam basics](../img/jackpot/esbasicsettings.jpg){: loading=lazy width="400"}
 
 Change the basic settings to GRBL.
-
-[Config file](../img/jackpot/FluidNC.pp) for V11, to install this file open EstlCAM, setup, CNC Programs, open settings at the bottom. This will import all the settings, feedrates, rapids, starting gcode, toolchange, and ending gcode sections. Everything in one file and it is ready to use. Below are the details of this file.
 
 Some screen shots needed here.
 

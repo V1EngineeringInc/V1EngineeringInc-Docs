@@ -92,14 +92,6 @@ common ways we might use it.
 
 ![!dual 0](../img/old/2020/07/dual2-scaled.jpg){: loading=lazy width="400"}
 
-### Reversing a stepper
-
-If your stepper is moving the wrong way you can power down, unplug the power, and flip the stepper plug over to change the
-direction of rotation. 
-
-![!flip 1](../img/old/2020/07/flip1-scaled.jpg){: loading=lazy width="400"}
-![!flip 2](../img/old/2020/07/flip2-scaled.jpg){: loading=lazy width="400"}
-
 ## Powering the board
 
 Add the power supply, polarity matters, and then add a jumper to power both "motor pow" and "power ports".
@@ -119,6 +111,25 @@ them.
 
 !!! Caution
     Pay attention to the direction the wires are facing when connecting them. The single wire faces toward the drivers, 5V closest to the memory card. Getting this wrong can damage the board.
+
+#### Testing the motion
+
+You can now use the LCD to move the machine. The Motion Menu allow for .1, 1, 10, 100mm movements. Start small 1 mm at a time. Test each axis one at a time.
+
+* X positive should move Right, X negative should move Left,
+* Y positive is back or away from you, Y negative is towards you.
+* Z positive moves the z axis up, meaning the tool away from the work surface.
+
+If it doesn’t move as expected, unplug the power and USB, any axis that is moving the wrong way simply flip the plug. If one stepper is moving the wrong way power down and flip it’s plug. Power back up and test again.
+
+### Reversing a stepper
+
+If your stepper is moving the wrong way you can power down, unplug the power, and flip the stepper plug over to change the
+direction of rotation. 
+
+![!flip 1](../img/old/2020/07/flip1-scaled.jpg){: loading=lazy width="400"}
+![!flip 2](../img/old/2020/07/flip2-scaled.jpg){: loading=lazy width="400"}
+
 
 ## Touch plate
 
@@ -149,6 +160,11 @@ Optical endstops are not recommended on a machine used for milling or routing. T
 
 The SKR Pro and TFT screen both can use a bin file to re-flash the firmware. This is as simple as
 placing some files directly on the memory card and rebooting them. The boards come already flashed from the store. This would only be used if you want to update.
+
+## CAM
+
+The [estlcam](../software/estlcam-basics.md) page has detailed instructions on what to do after your board is wired and tested.
+
 
 ### SKR Bin
 
