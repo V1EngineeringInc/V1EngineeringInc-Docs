@@ -42,7 +42,7 @@ one jumper on the black (UART) pins. **There is no need to monkey with the tiny 
 
 ![!Highlighted UART pins](../img/old/2020/07/uart2-Arrows.jpg){: loading=lazy width="400"}
 
-The completed board looks like this. Notice there are no jumpers under the drivers. **Lowrider and MPCNC builds will have only 5 drivers**, MP3DP uses 6.
+The completed board looks like this. Notice there are no jumpers under the drivers. **LowRider and MPCNC builds will have only 5 drivers**, MP3DP uses 6.
 
 ![!UART pins](../img/old/2020/07/Uart-scaled.jpg){: loading=lazy width="400"}
 
@@ -145,7 +145,7 @@ Closed" (NC), this is the outer two tabs on the endstops, we do not use the midd
 Optical endstops are not recommended on a machine used for milling or routing. The debris can inhibit their function.
 
 !!! Troubleshooting End Stops
-    There is a known issue on **OLDER** SKR Pro1.2 boards where a small percentage of boards intermittently do not trigger a stop in the firmware. The technical reason is the on board circuit was designed with a voltage divider that is on the edge of the microprocessors HIGH/LOW signal limit. This results in random missing of the stop signal. A symtom of this is that one or more of the steppers keep driving after the limit switch triggers. You will find the stop LEDs on the SKR board will illuminate, but the firmware does not react. This is discussed in [this thread](https://forum.v1e.com/t/firmware-issues/39109/5) There are a few ways to address this: 1) Replace the SKR board. 2) Solder 1.5K ohm resistors on the bottom of the board. 3) Modify the end stop wires to add the 1.5K ohm resistor.
+    There is a known issue on **OLDER** SKR Pro1.2 boards where a small percentage of boards intermittently do not trigger a stop in the firmware. The technical reason is the on board circuit was designed with a voltage divider that is on the edge of the microprocessors HIGH/LOW signal limit. This results in random missing of the stop signal. A symptom of this is that one or more of the steppers keep driving after the limit switch triggers. You will find the stop LEDs on the SKR board will illuminate, but the firmware does not react. This is discussed in [this thread](https://forum.v1e.com/t/firmware-issues/39109/5) There are a few ways to address this: 1) Replace the SKR board. 2) Solder 1.5K ohm resistors on the bottom of the board. 3) Modify the end stop wires to add the 1.5K ohm resistor.
 
 ### MPCNC Endstops
 ![!endstops](../img/old/2020/07/endstops-scaled.jpg){: loading=lazy width="400"}
@@ -154,7 +154,7 @@ Optical endstops are not recommended on a machine used for milling or routing. T
 ![!LR3 endstops](../img/LR3_endstops.jpg){: loading=lazy width="400"}
 
 !!! note
-    Do not use the + (positive) pins or you will ruin your SKR Pro board. These are only used whith powered endstops, and those are uncommon.
+    Do not use the + (positive) pins or you will ruin your SKR Pro board. These are only used with powered endstops, and those are uncommon.
 
 ## Firmware
 
@@ -241,6 +241,6 @@ Box for the [TFT35 E3 V3](https://www.prusaprinters.org/prints/74330-tft35-e3-v3
 
 Available [here](https://www.thingiverse.com/thing:4678675) on Thingiverse.
 
-![!Flyflisher604 SKR Pro Case](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case.jpg){: loading=lazy width="400"}
+![!Flyfisher604 SKR Pro Case](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case.jpg){: loading=lazy width="400"}
 
-![!Flyflisher604 SKR Pro Case Inside](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case_Inside.jpg){: loading=lazy width="400"}
+![!Flyfisher604 SKR Pro Case Inside](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case_Inside.jpg){: loading=lazy width="400"}

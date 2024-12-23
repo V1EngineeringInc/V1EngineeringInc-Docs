@@ -1,41 +1,69 @@
 # Estlcam Basics
 
-[Estlcam is found here.](http://estlcam.com)
 
 ![!Estlcam Preview](../img/old/2015/05/ESTLCAM.png){: loading=lazy width="400"}
 
-**EstlCAM is for generating GCode.**
+**EstlCAM is for making tool paths.**
 
-This software seems to do everything I want. It also seems to be translated into every language I’ve
-ever heard of, if not you can add translations in the software. The installer is in German I think
-but the options are easy to understand. Please buy a copy if you find this works for you.
+Estlcam seem to be the easiest way to generate CNC tool paths that we can find. Generally this is used for everything except work with lasers, for that [lightburn](../tools/lasers.md/#lightburn) is the better program. This is a low cost program with a mostly unlimited free trial. anything you learn from estlcam will transfer over to other cam software so no time is "wasted" by starting with this program even if you are confident you will use another software package later.
+
+Estlcam is also very easy for everyone here to troubleshoot. If you have CAM issues with other software you are pretty much on your own. Most of us know estlcam very well and can help you get going very easily.
+
+If you are unsure what a tool path or CAM is I suggest taking a look at this page, [CNC Software Basics](../learn/software_overview.md/#tool-path-generationcam)
 
 ## Step one – Install Estlcam
 
-Install Estlcam. Using the default options in the installer, add Icon to start menu and desktop. The
-first window that pops up I set the language, change the display units, and set it to show the feed
-rate in mm/s on the tool popups.
+[Estlcam is found here.](http://estlcam.com) Currently we recommend Estlcam V12.
 
-![!e1](../img/old/2015/09/e1.png){: loading=lazy width="400"}
+![!language](../img/software/es1.jpg){: loading=lazy width="400"}
+The installer starts in German, you will be able to change this later.
+
+---
+
+![!controller deselect](../img/software/es2.jpg){: loading=lazy width="400"}
+Install Estlcam. Using the default options in the installer, remove the one controller option shown here.
+
+---
+
+![!language](../img/software/es3.jpg){: loading=lazy width="400"}
+
+ You will now need to launch Estlcam and continue the setup. In the top menu select Setup/basic setting. MAtch all the setting shown here, paying close attention to the seconds and minutes selection shown, it is common for people to get this wrong.
+
+ If you are using the Jackpot CNC controller select **"GRBL"** here.
+
+ If you are using the SKR pro or tother older V1 boards select **"Marlin"** here.
+
+ For now other than language it is best just to match all of the settings shown. Only change these later if you understand them completely and have completed a job on your own. If you as for help chances are we are going to ask to see this screen.
 
 After you click okay close Estlcam and restart it to update the settings.
 
-## Step 2 – Setup
 
-After restarting Estlcam, open the setup tab, these are the settings from the first window plus a few extra.
+## Step 2 – First Use Estlcam Setup
 
-![!e2](../img/old/2015/09/e2.png){: loading=lazy width="400"}
 
-Changing the clearance plane to something a little smaller really speeds up a job since the z axis
-is the slowest. This is how far above the material it should travel to before it moves. You should
-change the milling direction depending on what kind of material you are cutting, more on this in
-another post. Setting the z-axis origin to the top of the material makes it easy to set the home
-position, along with that is program start – at origin. Choosing to end the program “above origin”
-is safe, “above last position” is the fastest.
+![!Esetup](../img/software/e4.jpg){: loading=lazy width="400"}
 
-![!Esetup](../img/old/2015/09/Esetup1.jpg){: loading=lazy width="400"}
+Next menu is "Setup/CNC Programs" Then "Presets" tab. Change the file extension “gcode” so all the programs recognize it.
 
-In the CNC Program Generation tab, choose Marlin or GRBL ( for the Jackpot). **Important – Set feed unit to mm/min-**. Change the file extension “gcode” so all the programs recognize it.
+---
+
+![!texts setup](../img/software/es5.jpg){: loading=lazy width="400"}
+
+The next tab to set is the "texts" tab. This is where you enter the starting, ending, and tool change setting from the [Milling Basics](../tools/milling-basics.md/#gcode---start-tool-change-and-ending) Gcode section. 
+
+These will vary depending on your control board, but you can simply cut and paste the sections if you are using GRBL or Marlin.
+
+---
+
+![!values setup](../img/software/es6.jpg){: loading=lazy width="400"}
+
+In the "Values" tab, It is best to repeat the "F" values on each line, and this is where you set your "rapids" values. The values shown should work for everyone but can be modified later after evaluating your build to save a little time and move faster between cuts.
+
+CLick "OK" to save, That is all it takes to get estlcam speaking the language the control board needs. You should not have to change any of those setting often if ever again.
+
+---
+
+
 
 ![!Ecoord](../img/old/2015/09/Ecoord.jpg){: loading=lazy width="400"}
 
@@ -106,7 +134,7 @@ You can then preview the path.
 
 Open [repetier-host](http://www.repetier.com) or log into your Jackpot (ssid-fluidnc). load the  file you just saved. If you have the bed size
 adjusted you can get a sense of scale. 
-If you can’t see the lines in reptier-host check the box "Print Preview>Show Travel moves".
+If you can’t see the lines in repetier-host check the box "Print Preview>Show Travel moves".
 
 ![!eRep](../img/old/2015/05/eRep.png){: loading=lazy width="400"}
 

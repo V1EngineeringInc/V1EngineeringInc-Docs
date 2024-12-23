@@ -102,8 +102,8 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
 !!! info 
 
-    Printer Skew calibration is suggested, we are trying to make sure parts are vertical and not tilted, this can be done easily with a carpenters square and a tall printed part. Or [Vector3D](https://vector3d.shop/products/calilantern-calibration){:target="balnk"}, makes a wonderful tool. Skew calibration is enough size calibration should not be needed.
-    You can also print the two small parts, Z_Stub and Z_Nut to make sure they fit togher easily and you can get the m5 nuts insertes before printing the larger parts.
+    Printer Skew calibration is suggested, we are trying to make sure parts are vertical and not tilted, this can be done easily with a carpenters square and a tall printed part. Or [Vector3D](https://vector3d.shop/products/calilantern-calibration){:target="blank"}, makes a wonderful tool. Skew calibration is enough size calibration should not be needed.
+    You can also print the two small parts, Z_Stub and Z_Nut to make sure they fit together easily and you can get the m5 nuts inserts before printing the larger parts.
 
 
 
@@ -149,7 +149,7 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
  * Brace note- Print Brace_Max_### and one Brace_### at 60% infill. These will be the end braces and benefit from added rigidity.
 
- * If a part name if followed by a verion number use the highest one. V1, V2, V3... Means there was a fix or edit.
+ * If a part name if followed by a version number use the highest one. V1, V2, V3... Means there was a fix or edit.
 
 !!! warning
     Cura based slicers seem to work a little different. Make sure the parts are aligned on your bed as they appear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way.
@@ -164,7 +164,7 @@ You can assemble the machine using the printed temp strut plates and then use th
 
 [Vector76 Strut Generator](https://vector76.github.io/Web_OpenSCAD_Customizer/strut_plate.html){:target="_blank"}.
 
-The strut length comes from the calculator, but it will cut slightly smaller (0.5mm) by design.The Wings are refering to the parts that make the plate nearly touch the rails to fill in the gaps.
+The strut length comes from the calculator, but it will cut slightly smaller (0.5mm) by design.The Wings are referring to the parts that make the plate nearly touch the rails to fill in the gaps.
 
 ![!LR4 strut plate Picture](../img/lr4/strut.png){: loading=lazy width="600"}
 
@@ -281,8 +281,8 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
     |set  |XZ Plates               |                                               |
     |~8m  |10mm belt               |Use the calc for accurate length for your build |
      
-    * 5 driver board is reccomended
-    * Updating to a 24v Power supply is also reccomended if you only have a 12V.
+    * 5 driver board is recommended
+    * Updating to a 24v Power supply is also recommended if you only have a 12V.
     ---
     
     **MPCNC Primo to LR4 hardware differences for converting your build**
@@ -298,8 +298,8 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
     |set  |XZ Plates               |                                               |
     |~8m  |10mm belt               |Use the calc for accurate length for your build |
     
-    * 5 driver board is reccomended
-    * Updating to a 24v Power supply is also reccomended if you only have a 12V.
+    * 5 driver board is recommended
+    * Updating to a 24v Power supply is also recommended if you only have a 12V.
     ---
 
 
@@ -643,7 +643,7 @@ Start the assembly with the YZ plate.
 ![!LR4 Core assm](../img/lr4/cs4.jpg){: loading=lazy width="600"}
 
  * Well, does it look like this?
- * If so preceed to the next step
+ * If so precede to the next step
  * If not, take a break, take some pictures, head to the V1E.com forums. 
 
 ### Beam Assembly
@@ -651,7 +651,7 @@ Start the assembly with the YZ plate.
 ![!LR4 Beam assm](../img/lr4/B1.jpg){: loading=lazy width="600"}
 
  * Gather your Beam parts.
- * If you bought the V1 printed parts set you will notice the two end Braces have a differnt surface pattern.
+ * If you bought the V1 printed parts set you will notice the two end Braces have a different surface pattern.
  * If you printed your own, make sure to use the heavy infill on the ends.
 
 ![!LR4 Beam assm](../img/lr4/B2.jpg){: loading=lazy width="600"}
@@ -669,7 +669,7 @@ Start the assembly with the YZ plate.
  * As you tighten the screws you will feel the clamps start to engage, that is all you need.
  * Tubes will still be able to rotate, if you try hard enough you can pull them out.
  * Trust, just a tiny bit of tension is all you need. 
- * The rails carry no sideways loads, do not overtioghten them, it only causes issues.
+ * The rails carry no sideways loads, do not overtightened them, it only causes issues.
 
 ![!LR4 Beam assm](../img/lr4/B4.jpg){: loading=lazy width="600"}
 
@@ -803,13 +803,13 @@ Start the assembly with the YZ plate.
 ![!LR4 Belts](../img/lr4/yr1.png){: loading=lazy width="600"}
 
  * First step to mounting the CNC to the table is setting the Y rail
- * Do your best to make a perfectly rectangular table, but once the rail is set that becomes your referenceand the table edges mean nothing.
+ * Do your best to make a perfectly rectangular table, but once the rail is set that becomes your reference, and the table edges mean nothing.
  * The belt holders and Y_Clips all share the outer edge
- * No more than 300mm gap is reccomended.
+ * No more than 300mm gap is recommended.
  
 ![!LR4 Belts](../img/lr4/yr2.png){: loading=lazy width="600"}
 
- * Pre-drilling is highly reccomended so your parts lay flat on the table when screwed down.
+ * Pre-drilling is highly recommended so your parts lay flat on the table when screwed down.
  * You can draw a centerline down the table to make this easy.
  * There is +-1.5mm so it has a little wiggle room if you are not perfect.
  * Best to set both Y Max belt ends and the first and last Y clips.
@@ -822,7 +822,7 @@ Start the assembly with the YZ plate.
 
 ![!LR4 Belts](../img/lr4/yr4.jpg){: loading=lazy width="600"}
 
- * Both ends set and predrilled.
+ * Both ends set and pre-drilled.
 
 ![!LR4 Belts](../img/lr4/yr5.jpg){: loading=lazy width="600"}
 
@@ -864,7 +864,7 @@ Start the assembly with the YZ plate.
  * You want the tension to hold the belt taut, but not crazy
  * You want 7lbs (3.2kg) tension, it is not as much as you think.
  * It will NOT pluck like a guitar. 
- * Always best to start loose, if all your parts come out several milimeters small, then you might be too loose
+ * Always best to start loose, if all your parts come out several millimeters small, then you might be too loose
  * If you overtighten you can prevent the steppers from turning, you will certainly break parts.
  * The parts will break long before the belt does.
 
@@ -872,7 +872,7 @@ Start the assembly with the YZ plate.
 
  * Setting the Y min distance can be done from the calculator, or
  * Using a piece of belt on the table to set a one belt gap width.
- * Mark and predrill all your holes.
+ * Mark and pre-drill all your holes.
  * I used a pencil sharpened by hand to get into the deep holes
 
 ![!LR4 Belts](../img/lr4/yb85.jpg){: loading=lazy width="600"}
@@ -902,14 +902,14 @@ Start the assembly with the YZ plate.
 
 ![!LR4 Belts](../img/lr4/yh3.jpg){: loading=lazy width="600"}
 
- * Move to X min, and back and forth to get the hose to behave for the entore range of motion
+ * Move to X min, and back and forth to get the hose to behave for the entire range of motion
  * You may need to add a bit of a twist one way or the other
  * Make sure the hose is never pulled tight
 
 ![!LR4 Belts](../img/lr4/yh4.jpg){: loading=lazy width="600"}
 
  * The hose should sit relaxed and always fall back in to the cradle.
- * Keep an eye on your wires as well, typically they move differnt from the hose so you can not attach them to each other.
+ * Keep an eye on your wires as well, typically they move different from the hose so you can not attach them to each other.
 
 ![!LR4 Belts](../img/lr4/xb1.jpg){: loading=lazy width="600"}
 
@@ -937,6 +937,7 @@ Setting the Z stub distance......coming soon
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TwWMBFpjfRU?si=-1p3vmnfCMOMpmL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 #### Initial Squaring
 
