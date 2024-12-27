@@ -97,12 +97,16 @@ grid. Found in teh bottom left hand corner of the screen. I set mine to a number
 
 ![!eGrid](../img/software/es10.jpg){: loading=lazy width="400"}
 
+---
+
 The crown imported at about 55mm wide I want about 150mm wide.
 
 **Select>Resize>Drawing Layers**, then click on the DXF to select it. I scaled the crown 250x to get it
 to 150mm (5 3/4″).  Zoom out to see your DXF.
 
 ![!eescale](../img/software/es11.jpg){: loading=lazy width="400"}
+
+---
 
 **Zero>Create arbitrary point**, then select outside of the DXF paths. This is how to set your origin
 (or Home). The little blue plus symbol is what your machine sees as 0,0 (x=0, y=0, generally the
@@ -112,15 +116,21 @@ center for round or oval objects.
 
 ![!ezero](../img/software/es12.jpg){: loading=lazy width="400"}
 
-## Step 5 – Select the tool paths
+---
 
----- NEED to setup fake pen tool/small endmill
+## Step 5 – Make the tool paths
 
-To use the pen you want to draw on the line so use engrave (tool centered on line), if you were
-cutting a part you can choose part (tool edge on the outside of line), or cutout (tool edge in
-inside of line). Click **Engrave** then just click on each line segment.
+Before making a tool path you need to define your tool. For this example I will set it up as a "pen" but this will work with an endmill if you want to live dangerously. Setting the right diameter will help visualize how the job will actually look.
 
-![!eSelect](../img/old/2015/05/eSelect.png){: loading=lazy width="400"}
+![!ezero](../img/software/espen.jpg){: loading=lazy width="400"}
+
+---
+
+when using a pen you want to draw **on** the line, so use engrave tool (centered on line). Click **Engrave** then just click on each line segment.
+
+![!ezero](../img/software/espaths.jpg){: loading=lazy width="400"}
+
+---
 
 ## Step 6 – Save
 
@@ -128,19 +138,27 @@ Export. **File>Save CNC Program**. Give it a name. You will get a depth popup, f
 less, anything else, set it to the thickness of your material plus a bit to cut all the way through.
 You can then preview the path.
 
-## Step 7 – Control Software
+![!ezero](../img/software/essim.jpg){: loading=lazy width="400"}
 
-log into your Jackpot (ssid-fluidnc), load the file from your SD card, or open [repetier-host](http://www.repetier.com). load the  file you just saved. (In repetier-host if you can’t see the lines  check the box "Print Preview>Show Travel moves").
+---
 
+If you hold the left mouse button and drag you will get a depth view of your job. Always check this to make sure the moves look right. Red dashed lines are travel moves and should be above your work.
 
-## Step 8
+![!ezero](../img/software/esleftmouse.jpg){: loading=lazy width="400"}
 
-Start. Put the tip of the pen (or tool) a hair above where you want it to start and hit run. It
-should pick up, move to the start, move down and start drawing/cutting. 
+---
+
+## Step 7 – Running the Code
+
+Power up your machine and drive the pen or router to surface of your material. Drive the tip of the pen (or tool) a hair above where you want it to start and start the file you just created. 
+
+It should pick up, move to the start, move down and start drawing/cutting. 
 
 ## Test File
 
----- Need GRBL version [Test Crown 12mm/s GCODE](../img/old/2015/09/Test-Crown-12mms.gcode)– [Test Crown 12mm/s Zipped file](../img/Test-Crown-12mms.zip).
+Marlin, SKR Pro, rambo, ramps -  [Test Crown GCODE](../img/old/2015/09/Test-Crown-12mms.gcode)– [Test Crown Zipped file](../img/Test-Crown-12mms.zip).
+
+GRBL, Jackpot - [Grbl Test Crown](../img/software/crownGRBL.gcode) - [Grbl Test Crown Zip](../img/software/crownGRBL.zip)
 
 This all it takes to plot with a pen or do basic 2D (2.5D) milling, some of the most common
 things this type of mill is used for. Make sure to adjust your tool and its settings depending on
@@ -154,7 +172,7 @@ Here is an old video
 
 This video is of the very first MPCNC, drawing the very first test crown (that I still have framed in my room). This video still makes me smile ear to ear, I am very proud of it even though we can do so much more and so much faster these days. At the time this was amazing and I hope your first crown feels the same way.
 
-**P.S.** the crown's "jewel" is not perfectly round. 
+**P.S.** The crown's "Jewel" is not perfectly round. 
 
 ## Milling Basics
 
