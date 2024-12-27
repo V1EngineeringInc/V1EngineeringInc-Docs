@@ -13,7 +13,7 @@ There are 4 components to the workflow and associated software as follows:
 | |Step|Software|
 |-|----|--------|
 |1|Design|CAD (Computer Assisted Design) or Vector Graphics Editor|
-|2|Toolpath Generation|CAM (Computer Assisted Machining)|
+|2|Tool path Generation|CAM (Computer Assisted Machining)|
 |3|G-Code Sending|Sender|
 |4|Milling|Controller|
 
@@ -25,7 +25,7 @@ There are 4 components to the workflow and associated software as follows:
     The output of this step is typically either a 2D file (like a .DXF or .SVG) or sometimes (but not
     often) a 3D file (like a .STL).
 
-[Toolpath Generation](#toolpath-generationcam)
+[Tool path Generation](#tool-path-generationcam)
 :   This is the step where you take your design, and describe which lines to engrave, which areas to
     cut out, and which parts to leave. It defines what "paths" your "tool" is going to take.  CAM also is where you will 
     define what kinds of milling bits you have, and how fast and deep you want to move them through the material. The output of
@@ -33,7 +33,7 @@ There are 4 components to the workflow and associated software as follows:
 
 [G-code Sender](#g-code-sender)
 :   The g-code is just a list of instructions that define where the tool should go. The software
-    used to "play" these instructions is the g-code sender and communicates with the controller. There are a number of options for this software, if you are using the SKR Pro the LCD can act as the sender, or on the Jackpot CNC Controller the built in web interface is usually the sender. Either board can also be hardwared and traditional G-code senders can be used.
+    used to "play" these instructions is the g-code sender and communicates with the controller. There are a number of options for this software, if you are using the SKR Pro the LCD can act as the sender, or on the Jackpot CNC Controller the built in web interface is usually the sender. Either board can also be hardwired and traditional G-code senders can be used.
 
 [Controller](#controllerfirmware)
 :   The controller is responsible for taking g-code instructions and managing the precise movements
@@ -62,7 +62,7 @@ If you are making functional parts, then you want a CAD tool. The output you wan
 .DXF. Imagine you want to make a toolbox, you would draw out each side of the toolbox and export a
 .DXF for each face of the box. You care a lot about the size of each side, because it all has to fit
 together when you are done. These programs can all create DXF files and they all have a lot of
-information on their use (This is not an exhaustive list, but if you want to add something else,
+information on their use (This is not an exhaustive list), but if you want to add something else,
 feel free to [edit this document](../index.md#editing-and-contributing).
 
  - Autodesk Fusion 360
@@ -87,7 +87,7 @@ design and adjust it.
     it usable, you can use Inkscape. Try searching for [inkscape trace bitmap
     tutorial](https://duckduckgo.com/?q=inkscape+trace+bitmap+tutorial)
 
-## Toolpath Generation/CAM
+## Tool Path Generation/CAM
 
 ![!pic](../img/old/2018/03/3Island.jpg)
 
@@ -143,7 +143,7 @@ should also be able to command the homing sequence (Most CNC machines don't need
 printers because the start location is on the workpiece, not the machine).
 
 The most simple method is to use the built in web interface on the Jackpot CNC controller or the 
-included LCD on the SKR Pro, which will take an onbpoard SD card. You can put the file on the SD card, and set the whole thing up on the LCD, and play the file without bringing a computer into the shop.
+included LCD on the SKR Pro, which will take an onboard SD card. You can put the file on the SD card, and set the whole thing up on the LCD, and play the file without bringing a computer into the shop.
 
 The other simple method to do this is with [Repetier-Host](../software/repetier-host.md) or [CNC.js](https://cnc.js.org/).
 
@@ -157,7 +157,7 @@ image](../electronics/v1pi.md).
 The final step is to actually do the milling/cutting.  Obviously this is done by the tool at the end of the gantry, but it is facilitated by the controller.  The controller takes movement commands, and drives the motors. If you bought the controller from the V1Engineering shop, then it is running Grbl or Marlin. Marlin is designed for 3D printing (and so are a lot of tools we use). Don't be surprised if you see something labeled "print" when you think it should be "cut".
 
 The V1Engineering Shop sells the controllers flashed and ready to use. If you want to update them,
-or you need to change the software for some reason, there are preconfigured versions of all the firmware linked in each boards page here in the documentaion Control/Control Boards/...
+or you need to change the software for some reason, there are pre-configured versions of all the firmware linked in each boards page here in the documentation Control/Control Boards/...
 
 !!! warning
     You will see "Arduino" used a lot in discussions around the V1Engineering machines. It is the

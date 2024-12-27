@@ -130,15 +130,15 @@ If you bought your Jackpot CNC Controller from the [V1E.com](https://www.v1e.com
 
 ![!WebUI](../img/jackpot/LUI.jpg){: loading=lazy width="500"}
 
-This Interface is from the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for any of the Jackpot’s outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settings all from the WebUI.You can wirelessly transfer your gcode files, but manually using the MicoSD card is still preferred. Most will probably never even plug the USB port in.
+This Interface is from the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for any of the Jackpot’s outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settings all from the WebUI.You can wirelessly transfer your gcode files, but manually using the MicroSD card is still preferred. Most will probably never even plug the USB port in.
 
 ??? example "Control Options"
     The Jackpot Control board can use most any control software that supports GRBL such as CNC.js or Lightburn, although most people will likely use the built in WebUI's wireless connection. This can be used from most any device that has a web browser. If you are using a small touchscreen you can even zoom in so the buttons are easier to hit.
 
-We typically use the Jackpot board in AP mode (access point), this is a direct connection between your web enabled device and the board itself. No internet conenction is used in this case, this is a direct connection to the Jackpot only. Touch screens work (with zoom), or keyboard and mouse will work just as well.
+We typically use the Jackpot board in AP mode (access point), this is a direct connection between your web enabled device and the board itself. No internet connection is used in this case, this is a direct connection to the Jackpot only. Touch screens work (with zoom), or keyboard and mouse will work just as well.
 
 ??? Info "Other Networking Options"
-    You can also configure your device in STA mode, http://fluid.local, if you have a strong signal to your home WiFi network. This will get your board connected to your local network. This is advanced and not reccomended unless you are very confident in your networking setup. It is not reccomended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
+    You can also configure your device in STA mode, http://fluid.local, if you have a strong signal to your home WiFi network. This will get your board connected to your local network. This is advanced and not recommended unless you are very confident in your networking setup. It is not recommended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
 
 ### Tests
 
@@ -162,7 +162,7 @@ It is important to note the endstops are only active during the homing procedure
 
 ### Auto Square
 
-Auto Square on this board is as easy as editing each endstop indivdually directly from the "Config" section of the WebUI (or directly to the yaml file).
+Auto Square on this board is as easy as editing each endstop individually directly from the "Config" section of the WebUI (or directly to the yaml file).
 
 ![!CONFIG WebUI](../img/jackpot/confg.png){: loading=lazy width="400"}
 
@@ -170,7 +170,7 @@ From there you have a "pulloff_mm" setting for each endstop. This setting is how
 
 ![!CONFIG pulloff](../img/jackpot/pulloff.png){: loading=lazy width="400"}
 
-Be sure to **save** your edits at the bottom of the config screen, and then by also using the red save button (macro) on the homescreen!
+Be sure to **save** your edits at the bottom of the config screen, and then by also using the red save button (macro) on the home screen!
 
 ### Terminal Commands
 Here are some other useful terminal commands, for a full list please see the [FluidNC Wiki](http://wiki.fluidnc.com/).
@@ -250,9 +250,9 @@ Quick note, **gpio.26** can have a quick pulse when starting. If you are using a
 ## Firmware
 If you bought it from the V1E.com store it should be ready to go. This section is in case you want to update or start fresh.
 
-V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). **The Current tested and confimed files are in the V2 folder for your machine type** You need to download these to load them after flashing.
+V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). **The Current tested and confirmed files are in the V2 folder for your machine type** You need to download these to load them after flashing.
 
-FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.9.1**, use anything newer than this with caution. 11/1/2024- Configs updated as well, good idea to update them as well. Be sure to test homing after updates as some of the numbers have changed, also take note of your pull off values to keep things level and square after an update.
+FluidNC Firmware - **The Current tested and confirmed FluidNC version is 3.9.1**, use anything newer than this with caution. 11/1/2024- Configs updated as well, good idea to update them as well. Be sure to test homing after updates as some of the numbers have changed, also take note of your pull off values to keep things level and square after an update.
 
 ### Updating / Installing Firmware
 
@@ -343,7 +343,7 @@ This can be a tough topic. It goes very deep but lets keep it simple, here are t
 #### SKR Pro
 * Has more onboard IO, this lets you plug more things in without an expansion port, but firmware edits, a recompile, and flash will be needed to use them.
 * When ordered from V1E.com comes with a wired LCD screen instead of using a web capable device.
-* Uses Marlin Firmware, tried and true, but a bit more complcated to edit if needed.
+* Uses Marlin Firmware, tried and true, but a bit more complicated to edit if needed.
 
 The Jackpot CNC Controller was developed by Bart Dring (FluidNC) and myself, with the biggest notable change being TMC2209 drivers using less I/O in FluidNC. The new board and FluidNC firmware revision were further refined with help from a lot of great community member here in the V1E.com forums. It has everything we need in one package with a few sensible extra ports. This is how you get the best bang for the buck in a 
 small footprint. If you ask me, I will honestly recommend the Jackpot, by far. The main feature people seem to buy the SKR for anymore is the wired LCD screen. The Jackpot can also have 
