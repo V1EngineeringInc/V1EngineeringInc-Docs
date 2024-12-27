@@ -332,6 +332,8 @@ Start the assembly with the YZ plate.
 
  * This is what the finished assembly will look like.
 
+---
+
 ![!LR4 yz assm](../img/lr4/label.jpg){: loading=lazy width="600"}
 
  * Start by doing yourself a favor by labeling all the wires before you run them.
@@ -339,42 +341,58 @@ Start the assembly with the YZ plate.
  * Label the wires and not the plugs so they still fit in the control board and you can read them without unplugging.
  * Typically, as you face the machine, the left side is Y0 and Z0, and the right side is Y1 and Z1.
 
+---
 
 ![!LR4 yz assm](../img/lr4/yze1.jpg){: loading=lazy width="600"}
 
  * Use the M2.5 screws to secure the crimped or soldered endstop to the Z_Stop_Min/Max part
 
+---
+
 ![!LR4 yz assm](../img/lr4/yze2.jpg){: loading=lazy width="600"} 
 
  * Notice what way the lever faces, away from the flat side.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yze2a.jpg){: loading=lazy width="600"} 
  
  * The nut gets pressed in from the YZ plate face.
  * If your nut is not tight you can use a flat head screw driver to hold it in place while tightening in a few steps.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yze3.jpg){: loading=lazy width="600"} 
 
  * Run the wire through the channel
+
+---
 
 ![!LR4 yz assm](../img/lr4/yze4.jpg){: loading=lazy width="600"} 
 
  * Lightly secure the Z stop part with an M5 Screw and nut.
  * Start with the assembly in the low position, this will get adjusted later.
- 
+
+---
+
 ![!LR4 yz assm](../img/lr4/yze5.jpg){: loading=lazy width="600"} 
 
  * Run the endstop wire all the way out of the bottom of the YZ plate.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yze6.jpg){: loading=lazy width="600"}  
 
  * Insert both M5 idler nuts into place
+
+---
 
 ![!LR4 yz assm](../img/lr4/yze7.jpg){: loading=lazy width="600"}  
 
  * Add the M5 Screws to hold the nuts into place until later.
  * If you have a hard time with the nuts moving a flat head screw driver can help push them into place.
 
+---
 
 ![!LR4 yz assm](../img/lr4/yzs1.jpg){: loading=lazy width="600"} 
 
@@ -383,28 +401,40 @@ Start the assembly with the YZ plate.
  * The little black fasteners are set screws or grub screws.
  * Notice the stepper is on the chamfered / endstop side.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzs2.jpg){: loading=lazy width="600"}
 
  * make sure to label the wire, Y0 or Y1.
  * Feed the wire through the channel, make sure you are on the larger side of the hole.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzs3.jpg){: loading=lazy width="600"}
 
  * Use two M3 screws to hold the stepper in place lightly, the other two screws come later.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzw1.jpg){: loading=lazy width="600"}
 
  * Build the front wheel, both are similar. The heads face outside the machine or down.
  * Snug up the large bolts do not crush the part.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzw2.jpg){: loading=lazy width="600"}
 
  * Two M3 screws will secure the front wheel and the rest of the Y stepper.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzw3.jpg){: loading=lazy width="600"}
 
  * Snug up all 4 stepper screws.
  * Make sure the outer faces of the YZ plate and Wheel are flush with each other. You can lay the parts on a flat table with the wheels hanging off the edge to align them before snugging it up.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzb1.jpg){: loading=lazy width="600"}
 
@@ -412,17 +442,22 @@ Start the assembly with the YZ plate.
  * Cut it to length according to the calculator
  * You can remove the M5 screws to make this easier
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzb2.jpg){: loading=lazy width="600"}
 
  * Add the idlers and M5 screws back into place.
  * Seat the screws, but do not crush the plastic or the idler bearings.
  * A drop of light oil or lube from the hardware kit inside these bearings can help to extend the life of them. 
 
+---
+
 ![!LR4 yz assm](../img/lr4/yze8.jpg){: loading=lazy width="600"}
 
  * Wire labeled as Y0 or Y1
  * Run the wires through the first channel.
 
+---
 
 ![!LR4 yz assm](../img/lr4/yze9.jpg){: loading=lazy width="600"}
 
@@ -435,11 +470,15 @@ Start the assembly with the YZ plate.
     You can hang the wheels and lever off the edge of the table if needed.
 
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzw4.jpg){: loading=lazy width="600"}
 
  * Run the small wires through the wire keeper first
  * Then run the stepper wire to hold them all in.
  * If you are having a hard time do not pry the tab, simply push the wires in with your pulley allen key or a flat head screwdriver.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzw5.jpg){: loading=lazy width="600"}
 
@@ -447,9 +486,13 @@ Start the assembly with the YZ plate.
  * Feed them one at a time out of the slot in the slot in the back.
  * Some people are finding it easier to run the Z stepper wire first.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzw6.jpg){: loading=lazy width="600"} 
  
  * When you get all the wires through, it is best to bundle them.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzz1.jpg){: loading=lazy width="600"}
 
@@ -457,6 +500,8 @@ Start the assembly with the YZ plate.
  * Use the small furthest line
  * Make sure the stepper is on the endstop side of the plate.
  * Tighten the set/grub screw on the flat first, the other.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzz2.jpg){: loading=lazy width="600"} 
 
@@ -466,9 +511,13 @@ Start the assembly with the YZ plate.
  * Bundle for safety.
  * Some find it easier to do this wire first then the rest.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzz2a.jpg){: loading=lazy width="600"} 
 
  * M3 screws to secure the stepper, start all 4 first, then final snug.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzz3.jpg){: loading=lazy width="600"}
 
@@ -476,17 +525,23 @@ Start the assembly with the YZ plate.
  * Any print artifacts, blobs, or rough spots, should just come right off.
  * This simple step makes both rails sit on the printed parts better preventing twists of any kind.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzz4.jpg){: loading=lazy width="600"}
 
  * Notice the Y endstop hanging off the table as to not bother the small lever.
  * Loosely add all the M3 screws to the linear rails, get the heads just under the rail surface.
  * Keep an eye out for off center M3 screw heads, they can be sneaky and make this next step harder. 
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzz5.jpg){: loading=lazy width="600"}
 
  * Add XZ plate using M3 screws to the bearing blocks. Snug.
  * XZ max has the large hole.
  * XZ Min has the slot at the top, the one that is shown in this picture.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzz6.jpg){: loading=lazy width="600"}
 
@@ -495,10 +550,14 @@ Start the assembly with the YZ plate.
  * After the rails are tight, it is a good idea to loosen up the each bearing block and snug it back up.
  * That little step always seems to gain a little more smooth action.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzz6a.jpg){: loading=lazy width="600"}
 
  * Add the T8 Leadscrew to the coupler. Make sure the leadscrew is fully seated and touching the stepper shaft.
  * Snug both grub screws.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzz7.jpg){: loading=lazy width="600"}
 
@@ -507,13 +566,19 @@ Start the assembly with the YZ plate.
  * This can be a snug fit, use pliers to press fit if needed. 
  * Thread this on to the leadscrew brass face down
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzs4.jpg){: loading=lazy width="600"}
 
  * The Z stubs get 2 hidden nuts and are secured to the XZ plates with M5 screws.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzs5.jpg){: loading=lazy width="600"}
 
  * The hidden M5 nuts get pressed in and fully seated.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzs6.jpg){: loading=lazy width="600"}
 
@@ -521,11 +586,15 @@ Start the assembly with the YZ plate.
  * Press them in with a flat head as shown here (loose print)
  * Or you can thread the M5 through the XZ plate and use it to pull them into place (tight print).
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzs7.jpg){: loading=lazy width="600"}
 
  * Snug in the Z stubs using the two M5 screws.
  * Leave out the cross tensioner screws for now.
  * Make sure the Z_nut is already in place.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzw7.jpg){: loading=lazy width="600"}
 
@@ -533,10 +602,14 @@ Start the assembly with the YZ plate.
  * Bolt heads facing out or down.
  * Snug up the bolts.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzw8.jpg){: loading=lazy width="600"}
 
  * Be sure to pre-thread the nut on to the screw to loosen up the lock nut before assembly. More than once can help as well.
  * Slow and easy on the next step. Make sure not to cross thread the nut is it gets moved and ends up crooked.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzw8a.jpg){: loading=lazy width="600"}
 
@@ -546,22 +619,30 @@ Start the assembly with the YZ plate.
  * Make sure the outer faces of both parts are flush.
  * Sloppy wheel alignment can lead to the whole beam not being very square to the table If your finished build is sitting crooked this is one place to check.
 
+---
+
 ![!LR4 yz assm](../img/lr4/yzw8b.jpg){: loading=lazy width="600"}
 
  * Make sure the outer faces of both parts are flush.
  * Sloppy wheel alignment can lead to the whole beam not being very square to the table If your finished build is sitting crooked this is one place to check.
+
+---
 
 ![!LR4 yz assm](../img/lr4/yzw9.jpg){: loading=lazy width="600"} 
 
  * Take the time to set your Z endstops.
  * You want them to trigger just before the bearing blocks hit the top stop block. On both sides.
  * You can measure the trigger position from a fixed point to get them really close, this can make Z leveling a bit faster later on.
+
+---
  
 ![!LR4 yz assm](../img/lr4/fullYZplate.jpg){: loading=lazy width="600"}
 
  * How did you do, wanna yell at me or did you have fun?
  * Now is a great time to take a photo and share it on some social media.
  * You are building a robot that will hold a power tool, everyone needs to hear about that.
+
+---
 
 ### Core Assembly
 
@@ -573,18 +654,26 @@ Start the assembly with the YZ plate.
  * Insert the M5 Tool Holder nuts one at a time.
  * Get some filament ready
 
+---
+
 ![!LR4 Core assm](../img/lr4/cn2.jpg){: loading=lazy width="600"}
 
  * When you insert the filament it can help to cut it at an angle.
  * The angle is different for each side.
 
+---
+
 ![!LR4 Core assm](../img/lr4/cn3.jpg){: loading=lazy width="600"}
 
  * Make sure it is fully seated all the way into the lower hole.
 
+---
+
 ![!LR4 Core assm](../img/lr4/cn4.jpg){: loading=lazy width="600"}
 
  * Clip the filament just above the core's surface, so it can not snag on anything.
+
+---
 
 ![!LR4 Core assm](../img/lr4/ch1.jpg){: loading=lazy width="600"}
 
@@ -592,15 +681,21 @@ Start the assembly with the YZ plate.
  * Snug up all but the two bolts that cross the seam at the top.
  * The top seam controls the core to rail tension, this stays loose for now.
 
+---
+
 ![!LR4 Core assm](../img/lr4/ch2.jpg){: loading=lazy width="600"}
 
  * The 4 bottom bolts have to have the heads up like shown
  * The top bolts can face whichever way you prefer, heads showing is favorable if you are using a vac hose.
 
+---
+
 ![!LR4 Core assm](../img/lr4/ch3.jpg){: loading=lazy width="600"}
 
  * Set the X pulley depth
  * Tighten the flat grub screw first then the other.
+
+---
 
 ![!LR4 Core assm](../img/lr4/ce2.jpg){: loading=lazy width="600"}
 
@@ -608,43 +703,61 @@ Start the assembly with the YZ plate.
  * Run the wires through 
  * 140mm - 5.5" hanging out is minimum.
 
+---
+
 ![!LR4 Core assm](../img/lr4/ce3.jpg){: loading=lazy width="600"}
 
  * Optional
  * Run the touch plate wires across
+
+---
 
 ![!LR4 Core assm](../img/lr4/ce1.jpg){: loading=lazy width="600"}
 
  * Run the Endstop wire though
  * Did you label both wires?
 
+---
+
 ![!LR4 Core assm](../img/lr4/ce4.jpg){: loading=lazy width="600"}
 
  * Optional
  * Run the touch plate wires through to the front
+
+---
 
 ![!LR4 Core assm](../img/lr4/ce5.jpg){: loading=lazy width="600"}
 
  * Secure the endstop, using M2.5x12mm screws, notice the trigger direction.
  * 99% of builds are going to use this endstop, homing to Xmin. The location for the endstop located at the left side of the core (when looking at it from behind) are for homing to Xmax (not recommended for beginners, needs changes to the config).
 
+---
+
 ![!LR4 Core assm](../img/lr4/cs1.jpg){: loading=lazy width="600"}
 
  * Snug up the X Stepper
+
+---
 
 ![!LR4 Core assm](../img/lr4/cs2.jpg){: loading=lazy width="600"}
 
  * Run the X belt
 
+---
+
 ![!LR4 Core assm](../img/lr4/cs3.jpg){: loading=lazy width="600"}
 
  * Insert the X idlers
+
+---
 
 ![!LR4 Core assm](../img/lr4/cs4.jpg){: loading=lazy width="600"}
 
  * Well, does it look like this?
  * If so precede to the next step
  * If not, take a break, take some pictures, head to the V1E.com forums. 
+
+---
 
 ### Beam Assembly
 
@@ -654,6 +767,8 @@ Start the assembly with the YZ plate.
  * If you bought the V1 printed parts set you will notice the two end Braces have a different surface pattern.
  * If you printed your own, make sure to use the heavy infill on the ends.
 
+---
+
 ![!LR4 Beam assm](../img/lr4/B2.jpg){: loading=lazy width="600"}
 
  * Equally space your braces and snap in the rails.
@@ -661,6 +776,8 @@ Start the assembly with the YZ plate.
  * If you use the temp struts space the end 4 braces to fit.
  * If you already have your strut plate cut, now is your time to shine.
  * If you just finished cutting your own strut plate, you have already done this, you don't need my help.
+
+---
 
 ![!LR4 Beam assm](../img/lr4/B3.jpg){: loading=lazy width="600"}
 
@@ -671,27 +788,39 @@ Start the assembly with the YZ plate.
  * Trust, just a tiny bit of tension is all you need. 
  * The rails carry no sideways loads, do not overtightened them, it only causes issues.
 
+---
+
 ![!LR4 Beam assm](../img/lr4/B4.jpg){: loading=lazy width="600"}
 
  * Notice the orientation, there is a screw head cutout.
 
+---
+
 ![!LR4 Beam assm](../img/lr4/B5.jpg){: loading=lazy width="600"}
 
  * Only one way this side fits
+
+---
 
 ![!LR4 Beam assm](../img/lr4/B6.jpg){: loading=lazy width="600"}
 
  * Install the bottom temp struts as well.
  * No specific orientation here.
 
+---
+
 ![!LR4 Beam assm](../img/lr4/B71.jpg){: loading=lazy width="600"}
 
  * Install and fully seat the X belt tensioner nut
+
+---
 
 ![!LR4 Beam assm](../img/lr4/B7.jpg){: loading=lazy width="600"}
 
  * If you need to you can use the screw to fully seat it.
  * Take the screw back out.
+
+---
 
 ![!LR4 Beam assm](../img/lr4/B8.jpg){: loading=lazy width="600"}
 
@@ -699,9 +828,13 @@ Start the assembly with the YZ plate.
  * M3x10 to secure.
  * For the temp strut users you can set the box in place with the screws partially installed and it should not move while you cut your permanent strut plates.
 
+---
+
 ![!LR4 Beam assm](../img/lr4/B9.jpg){: loading=lazy width="600"}
 
  * Position is not critical, center is probably best though.
+
+---
 
 
 ### Main Assembly
@@ -713,9 +846,13 @@ Start the assembly with the YZ plate.
  * It tends to be easier to hold them with the screwdriver and use a wrench to tighten the nuts.
  * Snug....don't crush. It is very easy to leave them a bit light and check them again later.
 
+---
+
 ![!LR4 main assm](../img/lr4/ms2.jpg){: loading=lazy width="600"}
 
  * Looking good right, like you almost have a machine!
+
+---
 
 ![!LR4 main assm](../img/lr4/ms3.jpg){: loading=lazy width="600"}
 
@@ -725,19 +862,26 @@ Start the assembly with the YZ plate.
  * If you are too tight you will actually start to feel the core get tighter and looser as you cross over the braces.
  * The right tension is better than too tight or too loose.
 
+---
+
 ![!LR4 main assm](../img/lr4/ms4.jpg){: loading=lazy width="600"}
 
  * Now you can add the YZ min assembly
 
+---
+
 ![!LR4 main assm](../img/lr4/ms5.jpg){: loading=lazy width="600"}
 
  * Easy section, admire your work. Some people like to make robot sounds as they drive it around the table at this point.
+
+---
 
 ![!LR4 main assm](../img/lr4/ht1.jpg){: loading=lazy width="600"}
 
  * Okay now is a good time to make sure your heal toe measurements are equal.
  * Simply measure across the front of your machine
 
+---
 
 ![!LR4 main assm](../img/lr4/ht2.jpg){: loading=lazy width="600"}
 
@@ -746,6 +890,7 @@ Start the assembly with the YZ plate.
  * If they are not the machine can wander when not under power.
  * The adjustment would be to check your end braces to rail connection and to verify your lower X rail is not actually touching the XZ plate. If it is trim or file your rail a bit shorter. 
 
+---
 
 ### Wire routing
 
@@ -755,14 +900,20 @@ Start the assembly with the YZ plate.
  * Make sure the travel is free, clear, and smooth. The wires should have slack at all positions.
  * Cable ties to the braces work well.
 
+---
+
 ![!LR4 Wire Routing](../img/lr4/w2.jpg){: loading=lazy width="600"}
 
  * Add the extensions from the end furthest from the control board and the Core wires.
  * Fold the wires and get ready for tape.
 
+---
+
 ![!LR4 Wire Routing](../img/lr4/w3.jpg){: loading=lazy width="600"}
 
  * Taping them like this takes all the strain off the connectors
+
+---
 
 ![!LR4 Wire Routing](../img/lr4/w4.jpg){: loading=lazy width="600"}
 
@@ -771,14 +922,20 @@ Start the assembly with the YZ plate.
  * Secure all wires at each brace.
  * All the slack at the furthest section
 
+---
+
 ![!LR4 Wire Routing](../img/lr4/w5.jpg){: loading=lazy width="600"}
 
  * Fold up on itself and make a nice bundle. Most builds will have much less extra than this.
+
+---
 
 ![!LR4 Wire Routing](../img/lr4/w6.jpg){: loading=lazy width="600"}
 
  * Get ready to run the Core wires.
  * Secure them to the top of the core.
+
+---
 
 ![!LR4 Wire Routing](../img/lr4/w7.jpg){: loading=lazy width="600"}
 
@@ -786,17 +943,23 @@ Start the assembly with the YZ plate.
  * Leave a small loop at the far end of travel.
  * You will be securing it the the brace just past halfway.
 
+---
+
 ![!LR4 Wire Routing](../img/lr4/w8.jpg){: loading=lazy width="600"}
 
  * Move the core to the far end to make sure your wires travel easily.
  * Run it back and forth to make sure it sits well.
  * If you use a vac hose you can try this again after that is installed. 
 
+---
+
 ![!LR4 Wire Routing](../img/lr4/w9.jpg){: loading=lazy width="600"}
 
  * Run the YZ Min assembly wires.
  * The slack can get bundled on the side or ran behind the board box and bundled on the other side.
  * Leave the board box as open to breathe as possible, do not bundles wires inside.
+
+---
 
 ### Belts
 
@@ -806,6 +969,8 @@ Start the assembly with the YZ plate.
  * Do your best to make a perfectly rectangular table, but once the rail is set that becomes your reference, and the table edges mean nothing.
  * The belt holders and Y_Clips all share the outer edge
  * No more than 300mm gap is recommended.
+
+---
  
 ![!LR4 Belts](../img/lr4/yr2.png){: loading=lazy width="600"}
 
@@ -815,14 +980,20 @@ Start the assembly with the YZ plate.
  * Best to set both Y Max belt ends and the first and last Y clips.
  * Then measure the remaining gap and equally divide the rest of your clips.
 
+---
+
 ![!LR4 Belts](../img/lr4/yr3.jpg){: loading=lazy width="600"}
 
  * Make sure both Y Min belt holders get a M3 screw fully inserted
  * This is for coarse Y squaring adjustment
 
+---
+
 ![!LR4 Belts](../img/lr4/yr4.jpg){: loading=lazy width="600"}
 
  * Both ends set and pre-drilled.
+
+---
 
 ![!LR4 Belts](../img/lr4/yr5.jpg){: loading=lazy width="600"}
 
@@ -830,9 +1001,13 @@ Start the assembly with the YZ plate.
  * Snug each clip to the table one at a time.
  * Use the table edge or any straight surface you might have (a level work well as a straight edge)
 
+---
+
 ![!LR4 Belts](../img/lr4/yb1.jpg){: loading=lazy width="600"}
 
  * Loop the belt around an M3 screw
+
+---
 
 ![!LR4 Belts](../img/lr4/yb2.jpg){: loading=lazy width="600"}
 
@@ -840,24 +1015,34 @@ Start the assembly with the YZ plate.
  * Notice the end of the belt does come through and has a couple extra teeth showing
  * This is the same for all the belts
 
+---
+
 ![!LR4 Belts](../img/lr4/yb3.jpg){: loading=lazy width="600"}
 
  * Set the Y Min into place
  * This is a quick release for removing from the table
 
+---
+
 ![!LR4 Belts](../img/lr4/yb4.jpg){: loading=lazy width="600"}
 
  * Prepare the Y_Max belt tensioner.
 
+---
+
 ![!LR4 Belts](../img/lr4/yb5.jpg){: loading=lazy width="600"}
 
  * Sink the nut and insert the screw
+
+---
 
 ![!LR4 Belts](../img/lr4/yb6.jpg){: loading=lazy width="600"}
 
  * Secure the belt with an M3 just as before
  * This ends sets the initial tension so it can take a few tries to get the distance right
  * Make sure the belt is on the pulley and in both idlers correctly.
+
+---
 
 ![!LR4 Belts](../img/lr4/yb7.jpg){: loading=lazy width="600"}
 
@@ -868,6 +1053,8 @@ Start the assembly with the YZ plate.
  * If you overtighten you can prevent the steppers from turning, you will certainly break parts.
  * The parts will break long before the belt does.
 
+---
+
 ![!LR4 Belts](../img/lr4/yb8.jpg){: loading=lazy width="600"}
 
  * Setting the Y min distance can be done from the calculator, or
@@ -875,11 +1062,15 @@ Start the assembly with the YZ plate.
  * Mark and pre-drill all your holes.
  * I used a pencil sharpened by hand to get into the deep holes
 
+---
+
 ![!LR4 Belts](../img/lr4/yb85.jpg){: loading=lazy width="600"}
 
  * Set the Y stop screw so the endstop triggers just before the LowRider hits the end
  * If the endstop gets past the screw there is a good chance you will pop or bend the endstop lever.
  * Take your time here. I get a trigger and about 4mm more travel.
+
+---
 
 ![!LR4 Belts](../img/lr4/yb9.jpg){: loading=lazy width="600"}
 
@@ -887,11 +1078,15 @@ Start the assembly with the YZ plate.
  * M3's to secure, correct tension
  * Y axis squaring gets set later.
 
+---
+
 ![!LR4 Belts](../img/lr4/yh1.jpg){: loading=lazy width="600"}
 
  * If you are using a vacuum hose, it is best to set it before attaching the X belt.
  * Plug in the tool end
  * Route the hose up and cable tie / secure it to the top of the core
+
+---
 
 ![!LR4 Belts](../img/lr4/yh2.jpg){: loading=lazy width="600"}
 
@@ -900,25 +1095,35 @@ Start the assembly with the YZ plate.
  * If you work up against a wall make sure your hose does not touch the wall
  * Secure the hose again at just past the halfway point
 
+---
+
 ![!LR4 Belts](../img/lr4/yh3.jpg){: loading=lazy width="600"}
 
  * Move to X min, and back and forth to get the hose to behave for the entire range of motion
  * You may need to add a bit of a twist one way or the other
  * Make sure the hose is never pulled tight
 
+---
+
 ![!LR4 Belts](../img/lr4/yh4.jpg){: loading=lazy width="600"}
 
  * The hose should sit relaxed and always fall back in to the cradle.
  * Keep an eye on your wires as well, typically they move different from the hose so you can not attach them to each other.
+
+---
 
 ![!LR4 Belts](../img/lr4/xb1.jpg){: loading=lazy width="600"}
 
  * Now the X belt
  * Wrap around an M3 screw
 
+---
+
 ![!LR4 Belts](../img/lr4/xb2.jpg){: loading=lazy width="600"}
 
  * Push the belt and screw to the bottom with a screw driver
+
+---
 
 ![!LR4 Belts](../img/lr4/xb3.jpg){: loading=lazy width="600"}
 
@@ -926,9 +1131,13 @@ Start the assembly with the YZ plate.
  * Make sure to get the distance right
  * Move the core back and forth SLOWLY to make sure the belt is on teh pulley and idlers properly
 
+---
+
 ![!LR4 Belts](../img/lr4/xb4.jpg){: loading=lazy width="600"}
 
  * Tension to ~7lbs (3.2kg) same as before. Loose is better than breaking things. 
+
+---
 
 That is nearly it...You are ready to plug it in and take it for a test ride. No more making noises, it will do that itself!!
 

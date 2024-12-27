@@ -25,7 +25,7 @@ The default setup should not need changing unless you have some specific require
 
 Open the Setup Menu and select “Machine”
 
-Check that the “CNC” button is shaded then select any Standard Device (I used “any generic Gbrl” which seems to talk nicely in Marlin too),  and make the following changes:
+Check that the “CNC” button is shaded then select any Standard Device (I used “any generic GRBL” which seems to talk nicely in Marlin too),  and make the following changes:
 
 - To make changes, click the customize button in the lower right corner of the settings screen.
 
@@ -46,7 +46,7 @@ Click on the **Limits** menu on the right side of the screen and change the foll
 
  - **Z Thru** to (say 1mm) - this is the amount your bit will travel into the spoil board in through cuts.
 
- - **Z Clearance** - 2mm - the amount your bit will lift above the work while travelling.   Changing the clearance plane to something a little smaller really speeds up a job since the z axis is the slowest. This is how far above the material it should travel to before it moves.
+ - **Z Clearance** - 2mm - the amount your bit will lift above the work while traveling.   Changing the clearance plane to something a little smaller really speeds up a job since the z axis is the slowest. This is how far above the material it should travel to before it moves.
 
  - **Z Feed** -  this is the maximum Z travel rate in mm/minute, set it to 480.
 
@@ -57,7 +57,7 @@ The **Output** menu is next.
  - Leaving **Conventional** unchecked will set milling direction at **climb cutting**. You should change the milling direction depending on what kind of material you are cutting. 
  - **Ease Down** will automatically ease linear cuts and spiral plunge cuts. 
 
- - **Depth First** optimises pocket cuts with depth priority.
+ - **Depth First** optimizes pocket cuts with depth priority.
 
 Finally (for now) the **Origin** menu;
 
@@ -83,7 +83,7 @@ You are ready to generate some GCode.
 
 Let’s start with generating some 2D gcode, Good for pen plotting or 2D milling (cutting things out).
 
-Download the [Crown Vector](../img/old/2018/08/0102.zip) drawing, and import the SVG file directly into Kiri:Moto.  Kiri:Moto will automatically convert the 2d drawing to a 3d object with a depth of 5mm so there's no need to fiddle with any other format.
+Download the [Crown Vector](../img/software/crown.zip) drawing, and import the SVG file directly into Kiri:Moto.  Kiri:Moto will automatically convert the 2d drawing to a 3d object with a depth of 5mm so there's no need to fiddle with any other format.
 
 ![!Kiri:Moto](../img/kiri/5-Stock_modifier-Crown.jpg){: loading=lazy width="600"}
 
@@ -195,7 +195,7 @@ Race back to the **setup** menu, select **Device>gcode macros> tool change**,  a
 
 This will tell the machine to pause and do whatever machines do while you fiddle with the tool change and to start again where it left off when you tell it to do so.
 
-Curiously (or not) you can skip that bit if you download the gcode as a zipfile.  When you unbundle the file each operation will appear as a separately titled bit of code so you can manually simply start each in your own time.   The gcode link will give you all of the operations in one bundle of code.
+Curiously (or not) you can skip that bit if you download the gcode as a zipfile.  When you un-bundle the file each operation will appear as a separately titled bit of code so you can manually simply start each in your own time.   The gcode link will give you all of the operations in one bundle of code.
 
 While that’s sinking in, whizz back to the **Output** menu and check that the **Tool Init** box is checked, unless you have an automatic tool changer, in which case it should not be checked, but if you have a tool changer, you probably aren't reading this beginner's guide! 
 

@@ -25,7 +25,7 @@ There are 4 components to the workflow and associated software as follows:
     The output of this step is typically either a 2D file (like a .DXF or .SVG) or sometimes (but not
     often) a 3D file (like a .STL).
 
-[Tool path Generation](#toolpath-generationcam)
+[Tool path Generation](#tool-path-generationcam)
 :   This is the step where you take your design, and describe which lines to engrave, which areas to
     cut out, and which parts to leave. It defines what "paths" your "tool" is going to take.  CAM also is where you will 
     define what kinds of milling bits you have, and how fast and deep you want to move them through the material. The output of
