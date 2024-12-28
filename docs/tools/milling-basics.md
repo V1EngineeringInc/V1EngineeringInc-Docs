@@ -22,7 +22,7 @@ don’t you should not be milling yet. Make sure the pen picks up all the way (c
 **the parts are the right size**. This ensure your machine works correctly and you are familiar with the
 basics of CAM and how your machine moves.
 
-After plotting the next step in milling would be [HD foam](https://amzn.to/2fCJIvs), (I find it at
+After plotting the next step in milling would be [HD foam](https://amzn.to/4gvaDpK), rigid insulation foam (I find it at
 the big box store “foamular” $5 for a 1/4 sheet), this material holds amazing tolerances, mills very
 well, and will not destroy your machine when you make a mistake. If you are new this should always
 be the material you make a first test cut in, then on to test cuts in the material you want to use.
@@ -96,6 +96,7 @@ By leaving a bit of material on your roughing cut you can then cut off a very sm
 - Just select your finishing tool, usually the current tool you are using. Shown in the yellow box.
 - Use a 5-25% tool diameter allowance. Shown in the yellow box.
 - The finishing pass is show in the picture as the lighter red path.
+- When ever possible make your finishing pass full depth, this is the most accurate and will leave the cleanest surface finish.
 
 ![!pic](../img/old/2018/03/3Island.jpg){: loading=lazy width="200"}
 
@@ -346,7 +347,3 @@ post processor addresses the issues introduced by the F360 Hobby version. This i
 
 Kiri:Moto has the post processor built in for Marlin and GRBL.
 Our instruction page is [here](../software/kiri.md).
-
-## Endmill Basics
-
-To Do

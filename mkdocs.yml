@@ -82,21 +82,22 @@ nav:
  - Learn:
     - FAQ's: learn/faq.md
     - Editing mkdocs: mkdocs_info.md
-    - Repetier-Host: software/repetier-host.md
     - Marlin Firmware: electronics/marlin-firmware.md
-    - XLoader: electronics/xloader.md
     - PlatformIO: learn/platformio.md
-    - Arduino: electronics/arduino.md
-    - G-code: learn/gcode.md
     - Motion: learn/motion.md
     - Coordinates: learn/coordinates.md
-    - V1pi - Headless: electronics/v1pi.md
     - Archive:
       - Wiring The Steppers: electronics/steppers.md
       - Dual Endstops: electronics/dual-endstops.md
       - Milling Metal: tools/milling-metal.md
       - Import Extruder: tools/import-extruder.md
       - Reversing a Stepper: software/reverse-motor.md
+      - XLoader: electronics/xloader.md
+      - Repetier-Host: software/repetier-host.md
+      - Arduino: electronics/arduino.md
+      - G-code: learn/gcode.md
+      - V1pi - Headless: electronics/v1pi.md
+
 
 
 theme:
