@@ -9,31 +9,42 @@ After downloading the right firmware below, you can flash it to your controller 
 Ramps](xloader.md), or [Skr](skrpro.md#firmware)). Or compile and flash using
 [platformio](../learn/platformio.md) or [arduino](arduino.md).
 
-## Levels of Testing
+This page does **not** apply to the Jackpot CNC Controller.
+
+### Levels of Testing
 
 Not all of these configurations go through the same rigor before being released. There are just too
 many to test, but that doesn't mean we shouldn't share what *should* work. These levels give you a
 rough idea of which configurations have the most users and the most testing.
 
-### V1Engineering Tested Configurations
+#### V1Engineering Tested Configurations
 
 !!! success "Officially Tested Firmware Configurations"
     These options are tested at V1Engineering.
 
-### Community Tested Configurations
+#### Community Tested Configurations
 
 !!! note "Community Tested Firmware Configurations"
     These options are not tested at V1Engineering, but community members in the
     [forums](https://forums.v1engineering.com) have tested them and report that they work.
 
-### Untested Configurations
+#### Untested Configurations
 
 !!! warning "Not Tested Firmware Configurations"
     These options are not tested. Let us know if they work for you in the [forums](https://forums.v1engineering.com).
 
     Use at your own risk.
 
-## V1CNC (MPCNC or Low Rider CNC) Configurations
+### First Use
+
+If you are flashing your own boards you will probably need to install the [Arduino](https://www.arduino.cc/en/Main/Software) software and its drivers before you plug in your control board. You might need
+its included drivers, so it is best to let them install.
+
+**MAC User?** -It should work as is but here is some [info](https://forum.v1e.com/t/cannot-connect-to-ramps-arduino-mac-linux-windows/4066#post-11485) 
+if you find you are having issues you might need to change the firmware baud rate and perhaps a different driver.
+
+
+# V1CNC (MPCNC or Low Rider CNC) Configurations
 
 ![!MPCNC Render](../img/old/2020/06/Primo-scaled.jpg){: loading=lazy width="450"}
 
