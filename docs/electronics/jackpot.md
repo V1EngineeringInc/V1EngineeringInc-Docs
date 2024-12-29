@@ -4,13 +4,14 @@
 
 The Jackpot CNC Controller is a 32bit dual-core 240mhz control board.
 
+- Built in wireless control software
 - WiFi, Bluetooth, or hardwired capable (esp32). 
 - 6x TMC2209 driver ports
 - 7 inputs, 2x 5V outputs, 2x input level (9-24V) outputs.
-- one expansion module socket.
+- one expansion module socket (more IO, or other specialty add on cards).
 - MicroSD card slot. 
 
-The Jackpot CNC Control board runs FluidNC which is fully GRBL compatible with extended features and easy configuration and flashing.
+The Jackpot CNC Control board runs FluidNC which is fully GRBL compatible with extended features featuring easy configuration and updating.
 
 ??? abstract "Click here for full specifications"
 
@@ -82,20 +83,20 @@ The Jackpot CNC Control board runs FluidNC which is fully GRBL compatible with e
 **Want to buy one?** Jackpot CNC Controller is available [here](https://www.v1e.com/products/jackpot-cnc-controller) in the shop.
 
 <figure markdown="span">
-![!Jackpot CNC controller](../img/jackpot/jp7.jpg){: width="800"}
+![!Jackpot CNC controller](../img/jackpot/jp7.jpg){: width="700"}
 </figure>
 
 
 ### Thanks
-First and foremost, thank you, Bart Dring, for the amazing design and custom firmware required to make this happen. This is based off the [6 Pack Universal CNC Controller Development Board](https://www.tindie.com/products/33366583/6-pack-universal-cnc-controller/), changes were made to accommodate all the use cases I have seen with the V1 CNC Machines except for 3D printing. 
-
-Also, Bart Dring and Mitch Bradley many thanks for GRBL-ESP32 and now [FluidNC](https://github.com/bdring/FluidNC).
+First and foremost, thank you, Bart Dring, for the amazing design and custom firmware required to make this happen. This is based off the [6 Pack Universal CNC Controller Development Board](https://www.tindie.com/products/33366583/6-pack-universal-cnc-controller/), changes were made to accommodate all the use cases I have seen with the V1 CNC Machines except for 3D printing. Also, Bart Dring and Mitch Bradley many thanks for GRBL-ESP32 and now [FluidNC](https://github.com/bdring/FluidNC).
 
 ## Initial Setup
 
 ### Wiring
 
 Click on the images to enlarge them.
+
+<div class="grid" markdown>
 
 <figure markdown="span">
 ![!Jackpot CNC mpcnc pins](../img/jackpot/mpcnclabel.png){: loading=lazy  width="400"}
@@ -106,6 +107,8 @@ Click on the images to enlarge them.
 ![!Jackpot CNC LR pins](../img/jackpot/lowriderlabel.png){: loading=lazy  width="400"}
 <figcaption>LR = X, Y0, Z0, Y1(A), Z1(B)</figcaption>
 </figure>
+
+</div>
 
 The probe/touchplate plugs into the last port (gpio.36), on either configuration.
 
@@ -126,13 +129,13 @@ If you bought your Jackpot CNC Controller from the [V1E.com](https://www.v1e.com
 
 ![!Jackpot SSID](../img/jackpot/jackpotwifi.jpg){: loading=lazy  width="380"}
 
-(some browsers will then need to be pointed to http://192.168.0.1, best to bookmark that address). If you get a drop down message about no internet just hit "use this network anyway".
+Some browsers will then need to be pointed to http://192.168.0.1, best to bookmark that address. If you get a drop down message about no internet just hit "use this network anyway".
 
 ![!WebUI](../img/jackpot/LUI.jpg){: loading=lazy width="500"}
 
 This Interface is from the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for any of the Jackpot’s outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settings all from the WebUI.You can wirelessly transfer your gcode files, but manually using the MicroSD card is still preferred. Most will probably never even plug the USB port in.
 
-??? example "Control Options"
+??? example "Other Control Options"
     The Jackpot Control board can use most any control software that supports GRBL such as CNC.js or Lightburn, although most people will likely use the built in WebUI's wireless connection. This can be used from most any device that has a web browser. If you are using a small touchscreen you can even zoom in so the buttons are easier to hit.
 
 We typically use the Jackpot board in AP mode (access point), this is a direct connection between your web enabled device and the board itself. No internet connection is used in this case, this is a direct connection to the Jackpot only. Touch screens work (with zoom), or keyboard and mouse will work just as well.
@@ -158,7 +161,9 @@ The onboard LED's test the wiring connections to your end stops. Our CNC standar
 
 You can also test the firmware by running "$Limits" in the terminal windows of the WebUI, this will show a real time trigger display. "!" to exit that mode.
 
-It is important to note the endstops are only active during the homing procedure for that axis, they will not stop a machine in motion or running g-code. You can set them to do that but that is an advanced topic.
+!!! note
+
+    It is important to note the endstops are only active during the homing procedure for that axis, they will not stop a machine in motion or running g-code. You can set them to do that but that is an advanced topic.
 
 ### Auto Square
 

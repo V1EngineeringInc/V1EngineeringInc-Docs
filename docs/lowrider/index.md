@@ -4,19 +4,21 @@ The LowRider CNC v4 is the V1 Engineering version of a CNC router that can handl
 
 ![!LR4 Fancy Picture](../img/lr4/lr4_neon.jpg){: width="600"}
 
-The Beta team put in months of effort helping to refine and improve all aspects of this design. Countless prints were made only to be scrutinized, revised, and remade. Debates were had, caps lock was used, it was not easy for any of us, but it was very fun. I am sure I can speak for the whole team, we are proud of what we accomplished, and I am confident it will outperform your expectations.
+The Beta team put in months of effort helping to refine and improve all aspects of this design. Countless prints were made only to be scrutinized, revised, and remade. Debates were had, caps lock was used, it was not easy for any of us, but it was very fun for all of us. I am sure I can speak for the whole team, we are proud of what we accomplished, and I am confident it will outperform your expectations.
 
-### Key Points
+## Key Points
 
- * Foams, wood, and plastic are no problem, aluminum and brass are no problem for an experienced user.
+ * The average total build cost is easily under $800!!
+ 
+ * Foams, wood, and plastic are easy, aluminum and other soft are no problem for an experienced user. A few users have even machined steel.
 
- * Most parts can be 3D printed. To save from shipping or printing large parts, the machine can be partially assembled to cut them itself.
+ * A lot of the parts are 3D printed. To save from shipping large parts, the machine can be partially assembled to cut them itself.
 
  * Easily Removable from the table for storage.
 
  * Inexpensive hardware store conduit is the recommended rail. Rails ranging from 29.5mm to 32mm will work.
 
- * Many tool options, in terms of functionality and brands. Blank DIY mount files are available.
+ * Many tool options, in terms of functionality and brands. Routers, laser, plasma, pens, etc. Blank DIY mount files are available to implement your own custom functionality.
 
  * Full Y axis squaring, Z axis leveling, and Z probing are standard for excellent precision and accuracy.
 
@@ -24,25 +26,23 @@ The Beta team put in months of effort helping to refine and improve all aspects 
 
  * Can be used with almost any firmware Marlin, RepRap firmware, GRBL, FluidNC, or others.
 
- * The average total build cost is easily under $800!!
-
  * Want an idea of how long things take from [actual users?](https://forum.v1e.com/t/lr4-how-many-hours-to-build-lr4/45641/1){:target="_blank"}
 
  ![!LR4 Core Picture](../img/lr4/lr4_core.jpg){: width="600"} 
  
-### Geometry
+### Size and Shape
 
- * A Typical full sized Build has a working volume of 2440mmx1220mmx100mm (8x4'x4"), of course the smaller you can build it the faster it will be.
+ * A Typical full sized Build has a working volume of 2440mmx1220mmx100mm (8'x4'x4"), of course many build them smaller.The smaller you can build it the faster it will be.
 
- * This CNC router can handle any length (within reason), the Y direction is only bound by your table length (or your shop floor).
+ * This CNC router can handle any width or length (within reason).
 
- * The single Y rail keeps the machine properly constrained while maintaining ease of use. Two rails are extremely difficult to align, and fully constrained rails do not allow for easy removal of the machine.
+ * The single Y rail keeps the machine properly constrained while maintaining ease of use. Two rails are extremely difficult to align.
 
  * Width (X axis or "Beam") should always be the shorter axis.
 
  * The Z direction (height) is 100mm (4") of travel. A standard build would give you 50mm of Z cutting depth, or you can use a drop table to use all 100mm. 
 
- * This router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines. So the lower the axis, the more rigid the machine.
+ * This CNC router is most rigid when working near the table surface, opposite of most conventional gantry CNC machines. So as your cut progresses the machines rigidity increases.
 
 ![!LR4 Render](../img/lr4/LowRider4_Main.png){: loading=lazy width="600"}
  
@@ -52,7 +52,7 @@ This is a CNC platform, so just about any tool can easily be mounted to the LowR
 
 ### License
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+This is released with a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 More details to my loosened restrictions can be found here on [the home page](https://www.v1e.com/pages/trademark-and-file-licenses). 
 
@@ -77,7 +77,7 @@ Thingiverse Printed parts files:
 
 ### Rails
 
-You are looking for either 29.5mm, 30mm, or 32mm Outside Dimension steel tubes. In the U.S. and parts of Canada this will be 1" EMT Conduit, off the shelf hardware store conduit (not rigid conduit). In other countries if you use metal conduit it same thing but you will either be 30mm or 32mm OD.
+You are looking for either 29.5mm, 30mm, or 32mm Outside Dimension steel tubes. In the U.S. and parts of Canada this will be 1" EMT Conduit, off the shelf hardware store conduit (not "rigid" conduit). In other countries if you use metal conduit it same thing but you will either be 30mm or 32mm OD.
 
  * You want the right OD +-0.2mm.
  * At least 1.3mm thick wall.
@@ -85,19 +85,21 @@ You are looking for either 29.5mm, 30mm, or 32mm Outside Dimension steel tubes. 
 
  If your country does not use metal conduit things to look for are metal supply companies, closet rods, or boat suppliers tend to have stainless tubes.
 
- Super thick walls, solid rods, and filled tubes will gain little to no rigidity and just add mass.
+ Super thick walls, solid rods, and filled tubes will gain little to no rigidity and just add mass and cost.
 
 
 ### Printed Parts
 
-Rather not spend the time printing all the parts, you can buy a set here, [V1 Shop](https://www.v1e.com/products/lowrider-v4-printed-parts-with-aluminum-xz-plates){:target="_blank"}.
-
-Or print your own. No supports needed, keep the default orientation. PLA is recommended for ultimate rigidity, other 
+#### DIY
+No supports needed, keep the default orientation. PLA is recommended for ultimate rigidity, other 
 filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/CF.  You will need about 2.7kg of filament for a full set with tool mount and a board box.
 
 3 walls rectilinear or cubic infill for most parts. Thicker layers, since these are large parts, no more than 80% nozzle diameter to layer thickness ratio to keep steep walls working.
 
 200mmx200mmx190mm available build volume is needed to print these parts.
+
+#### Buy
+Rather not spend the time printing all the parts? You can buy a set here, [V1 Shop](https://www.v1e.com/products/lowrider-v4-printed-parts-with-aluminum-xz-plates){:target="_blank"}.
 
 
 !!! info 
@@ -149,7 +151,7 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
  * Brace note- Print Brace_Max_### and one Brace_### at 60% infill. These will be the end braces and benefit from added rigidity.
 
- * If a part name if followed by a version number use the highest one. V1, V2, V3... Means there was a fix or edit.
+ * If a part name if followed by a version number use the highest one. V1, V2, V3... Means there was a fix or edit Bigger number means newer part.
 
 !!! warning
     Cura based slicers seem to work a little different. Make sure the parts are aligned on your bed as they appear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way.
@@ -158,23 +160,22 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 
 ## Flat Parts
 
-#### Strut Plates
+### Strut Plates
 
 You can assemble the machine using the printed temp strut plates and then use the machine to cut its own strut plates. You will need a rigid material 6.35mm (1/4") or thinner. MDF or hardboard is a great easy to find option, plastics or metals are a premium option. Jamie, Vector76, made this easy to use site so you can have any size plates you can dream of. His site has all sorts of other helpful things linked on other Docs pages.
 
 [Vector76 Strut Generator](https://vector76.github.io/Web_OpenSCAD_Customizer/strut_plate.html){:target="_blank"}.
 
-The strut length comes from the calculator, but it will cut slightly smaller (0.5mm) by design.The Wings are referring to the parts that make the plate nearly touch the rails to fill in the gaps.
+The strut length comes from the calculator, but it will cut slightly smaller (0.5mm) by design. The Wings are referring to the parts that make the plate nearly touch the rails to fill in the gaps. A full sheet build normally has 7 braces.
 
 ![!LR4 strut plate Picture](../img/lr4/strut.png){: loading=lazy width="600"}
 
 
-#### XZ Plates
+### XZ Plates
 
-The Metal XZ plates can be purchased in the [V1E.com shop](https://www.v1e.com/products/lowrider-4-aluminium-xz-plates), or you can find the DXF to cut your own with the printed parts files linked above. Aluminum or steel 1/4" (6.35mm) thick material is suggested to work well with the hardware as is. If you want to use thicker or thinner material you will need to adjust the 16 M3x10mm screws to compensate. There is currently no printed option this time.
+The Metal XZ plates can be purchased in the [V1E.com shop](https://www.v1e.com/products/lowrider-4-aluminium-xz-plates), or you can find the DXF to cut your own with the printed parts files linked above. Aluminum or steel 1/4" (6.35mm) thick material is suggested to work well with the hardware as is. If you want to use thicker or thinner material you will need to adjust the 16 M3x10mm screws to compensate. There is currently no printed option for these two parts.
 
-
-### Specialty Parts
+## Specialty Parts
 
 You can buy most of the specialty parts and hardware here, [V1 Shop](https://www.v1e.com/products/lowrider-v4-hardware-kit){:target="_blank"}
 
@@ -250,7 +251,7 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
 *Not included in the hardware kit. 
 
 
-### Update and conversion info
+#### Update and conversion info
 ??? abstract "Click here for required hardware for converting older LowRiders or your MPCNC to an LR4"
 
     **LR3 to LR4 hardware differences for updating your build**
@@ -292,7 +293,7 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
     |61   |M3 x 10mm               |                                               |
     |2    |M2.5 x 12mm             |                                               |
     |1    |Endstop                 |                                               |
-    |1    |145mm+ Leadscrews       |You can use the one you have and add one       |
+    |1    |145mm+ Lead screws      |You can use the one you have and add one       |
     |1    |Coupler                 |8mm to 5mm                                     |
     |4    |Linear rails MGN        |MGN12H 150mm                                   |
     |set  |XZ Plates               |                                               |
@@ -307,14 +308,13 @@ This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or 
 
 Your table needs only be as fancy as a sheet of wood on a relatively flat, smooth surface. A CNC can self correct many of its own imperfections if needed. Typically, our tables only support the CNC and some material, so nothing heavy duty is required.
 
+![!LR4 overhead Picture](../img/lr4/Top.png){: loading=lazy width="600"}
+
 Any existing table that is large enough is fine. You can use its surface directly, or a more popular option is to add a waste board of some sort that is replaceable as it gets used and cut into.
 
 Next option would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better.
 
 If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. Here is a basic parametric set of plans that are easily configurable [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698/156?u=vicious1){:target="_blank"}.
-
-
-![!LR4 overhead Picture](../img/lr4/Top.png){: loading=lazy width="600"}
 
 [Calculator for table, rail, and belt lengths.](calculator.md){:target="_blank"}
 
@@ -1143,24 +1143,17 @@ That is nearly it...You are ready to plug it in and take it for a test ride. No 
 
 
 Setting the Z stub distance......coming soon
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TwWMBFpjfRU?si=-1p3vmnfCMOMpmL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-#### Initial Squaring
+### Initial Squaring
 
 To square the machine, it is easiest to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the rail. You will probably need to repeat this a couple of times to get it under 1mm difference. This is a multiplied error, so 1mm or less is very very good.
 
-You can cable tie a pen to the vacuum mount Or even easier is use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in your router to pop a tiny hole into some tape.
-
-You can also automate this process with Jamie's ["Squareness Marks"](https://vector76.github.io/gcode_tpgen/){:target="_blank"} test. 
- * Home the X and Y axis.
- * Start with G92 X0 Y0 Z0 - Check this box and where the tip is will be 0,0,0. I suggest starting the tip just above the paper.
- * Z level for tip-down - Make this number more negative if you find some of your marks are not hitting the paper, but you want as light a touch as possible.
- * Z level for tip-up - You can go as high as you need to not drag the pen tip.
- * Feedrate - This is set at a safe travel rate. The Default is safe.
- * Extents - This is where you set the dimensions of your table. The further apart the marks, the more accurate your table will be.
+You can use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in your router to pop a tiny hole into some tape, or cable tie a pen to the vacuum mount and mark some points/dots.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: loading=lazy width="400"}
 
@@ -1181,22 +1174,43 @@ You can also automate this process with Jamie's ["Squareness Marks"](https://vec
 
  * Now measure the diagonals to the best of your ability. Note the longer one, and subtract to find the difference. Under 1mm is very good.
 
-JackPot CNC Controller - In the WebUI you can add to your Y axis pull-off distance to correct any skew. Scroll all teh way down and hit save. Back on the main screen use the "Save" macro to make the changes stick after a re-boot.
+Corrections are made as follows if you are over 1mm of difference. A good first guess for your offset is the difference in your measurements.
 
-SKR Pro / Marlin - If you are over 1mm in difference you can use the terminal on your SKR Pro or a USB 
-connection and repetier host to add a homing offset. "M666 Y0.5" will move your Y1 
-stepper 0.5mm away from the stop block after it homes. "M666 Y-0.5" will move your 
-Y2 stepper away instead. You want to move the longer dimension side away from the 
-block. A good first guess is the difference in your measurements (or you can use a 
-trig calculator and add a bit because your end stops are further away than the 
-dots). Now Use "M500" to save it to the EEPROM. Re-home X and Y and test it again.
+=== "JackPot CNC Controller"
+
+    In the WebUI you can add to your Y axis pull-off distance to correct any skew. Scroll all the way down and hit 
+    save. Back on the main screen use the "Save" macro to make the changes stick after a re-boot. This is a little different on the UI V2 and V3, 
+    the important part is using the save macro.
+
+=== "SKR Pro / Marlin"
+
+    Use the terminal on your SKR Pro or a USB connection and repetier host to add a homing offset. "M666 Y0.5" will move your Y1 
+    stepper 0.5mm away from the stop block after it homes. "M666 Y-0.5" will move your Y2 stepper away instead. You want to move the longer dimension side away from the 
+    block. Now Use "M500" to save it to the EEPROM. Re-home X and Y and test it again.
+
+??? note "Jamie's Automated "Squareness Marks""
+
+    You can also automate this process with Jamie's ["Squareness Marks"](https://vector76.github.io/gcode_tpgen/){:target="_blank"} test.
+    
+    Home the X and Y axis.
+    
+    Start with G92 X0 Y0 Z0 - Check this box and where the tip is will be 0,0,0. I suggest starting the tip just above the paper.
+    
+    Z level for tip-down - Make this number more negative if you find some of your marks are not hitting the paper, but you want as light a touch as possible.
+    
+    Z level for tip-up - You can go as high as you need to not drag the pen tip.
+    
+    Feedrate - This is set at a safe travel rate. The Default is safe.
+    
+    Extents - This is where you set the dimensions of your table. The further apart the marks, the more accurate your table will be.
+
 
 Old Video of this on an SKR Pro
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w5H1AZ40YHk?si=GJcbqE_V3bhuVvV1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
-#### Z Leveling
+### Z Leveling
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (85).jpg){: loading=lazy width="400"}
 
@@ -1234,7 +1248,7 @@ Old Video of this on an SKR Pro
 
 ---
 
-#### Making the Strut plates
+### Making the Strut plates
 
 
 !!! warning 
@@ -1275,7 +1289,7 @@ You will want to cut each plate as close to the side of your build as you can to
 
 ---
 
-#### Temp to Custom Strut Plates
+### Temp to Custom Strut Plates
 
 ![!LR4 Belts](../img/lr4/sr1.jpg){: loading=lazy width="600"}
 
@@ -1320,7 +1334,7 @@ At this point you are done, you have a fully functional machine! How cool is tha
 
 ---
 
-### Build experience 
+## Build experience 
 
 [How did it go for you?](https://forum.v1e.com/t/lr4-how-many-hours-to-build-lr4/45641/1){:target="_blank"}
 
