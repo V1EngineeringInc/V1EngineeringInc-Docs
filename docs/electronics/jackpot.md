@@ -275,6 +275,8 @@ Some PC's will need USB drivers if your ESP32 is not recognized by the computer.
 
 After you have loaded the firmware you can use the file browser to load our configs and macros from here, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
+A great write-up with pictures can be found here: https://forum.v1e.com/t/setting-up-fluidnc/47097
+
 ??? example "More installing and update options"
     2- **OTA** - you can update the UI or the firmware in the interface itself. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware)
    
