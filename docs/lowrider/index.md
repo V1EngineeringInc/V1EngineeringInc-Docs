@@ -319,14 +319,205 @@ If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion 
 [Calculator for table, rail, and belt lengths.](calculator.md){:target="_blank"}
 
 
-## Assembly
+## Assemblies
+
+Ready to start your build? Relax, have fun, if you have issues just stop and ask in the forums. Taking a step back and asking a couple questions can save a ton of headaches. Hand tools only, power tools just get you into trouble here.
+
+![!LR4 Core assm](../img/lr4/cx.jpg){: loading=lazy width="600"}
+
+Step one will be building the Core.
+
+### Core Assembly
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KLDDJx-OUmQ?si=oM2-10K-UGxsQ31P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Here is a users build video showing this process.
+
+
+![!LR4 Core assm](../img/lr4/ca.jpg){: loading=lazy width="600"}
+
+ * Bearings should drop into the pockets
+ * Bolts get inserted in the direction shown
+ * Snug these two up just enough to seat the bolt heads, no need to crush anything, these are just bearing axles.
+
+---
+
+![!LR4 Core assm](../img/lr4/cb.jpg){: loading=lazy width="600"}
+
+ * Same thing again
+ * Bearings should drop into the pockets
+ * Bolts get inserted in the direction shown
+ * Snug these two up just enough to seat the bolt heads, no need to crush anything, these are just bearing axles.
+
+---
+
+![!LR4 Core assm](../img/lr4/cc.jpg){: loading=lazy width="600"}
+
+ * Third time
+ * Bearings should drop into the pockets
+ * Bolts get inserted in the direction shown
+ * Snug these two up just enough to seat the bolt heads, no need to crush anything, these are just bearing axles.
+
+---
+
+![!LR4 Core assm](../img/lr4/cd.jpg){: loading=lazy width="600"}
+
+ * Okay this time it's different
+ * Insert the bolts in the direction shown.
+ * This time do not snug these down!!
+ * These two bolts control the tension of the Core on the X rails.
+ * Leave these loose we will slowly tighten these when the machine is fully assembled.
+
+---
+
+![!LR4 Core assm](../img/lr4/ce.jpg){: loading=lazy width="600"}
+
+ * This step is using a piece of filament to lock in the tool holder nuts
+
+---
+
+![!LR4 Core assm](../img/lr4/cf.jpg){: loading=lazy width="600"}
+
+ * Insert the M5 nuts with the nylock side facing the back, (the side shown in this picture).
+ * For each side I prefer to cut the filament with a little angle to make it easier to feed into the lower hole.
+ * Slide the filament in making sure it seats all the way to the bottom of the second hole.
+ * Snip the top off flush with the core surface to avoid snags.
+
+---
+
+![!LR4 Core assm](../img/lr4/cg.jpg){: loading=lazy width="600"}
+
+ * On this side the angle it the other way
+
+---
+
+![!LR4 Core assm](../img/lr4/ch.jpg){: loading=lazy width="600"}
+
+ * Repeat for all 4 screws
+ * Make sure they are all snipped flush.
+
+---
+
+![!LR4 Core assm](../img/lr4/ci.jpg){: loading=lazy width="600"}
+
+ * Now is a good time to add your tool mount.
+ * This lets you make sure your nuts get seated well and nothing pushes out or gets cross threaded
+
+---
+
+![!LR4 Core assm](../img/lr4/cj.jpg){: loading=lazy width="600"}
+
+ * Snug these up real good, but don't break anything.
+ * Not sure if it matters for tool tramming but I always get all 4 screws close then fully tighten the left screws first on both top and bottom mounts
+ * If you do need to tram your tool later usually a couple layers of tape as a shim under these mounts will do the trick
+
+
+---
+
+![!LR4 Core assm](../img/lr4/ck.jpg){: loading=lazy width="600"}
+
+ * Optional Touch plate
+ * This can be added later or just ran behind the router, it does not have to use this hole.
+
+---
+
+![!LR4 Core assm](../img/lr4/cl.jpg){: loading=lazy width="600"}
+
+ * Leave at least 140mm (5.5") of free touch plate wire
+ * Run the rest through the hole.
+
+---
+
+![!LR4 Core assm](../img/lr4/cm.jpg){: loading=lazy width="600"}
+
+ * Run that wire through the tunnel in the core
+
+---
+
+![!LR4 Core assm](../img/lr4/co.jpg){: loading=lazy width="600"}
+
+ * From here you will want to run the X end stop wire as well.
+ * Some find it easier to run the thicker touchplate wire through first, some say the thinner wire first is easier.
+ * Take your time give it a little jiggle, they should slide right through
+ * Worst case you need to guide the black plug through the opening at the front side of the core.
+ * After you get the wires through to the front, you should label them.
+
+---
+
+![!LR4 Core assm](../img/lr4/cn.jpg){: loading=lazy width="600"}
+
+ * For these small end stop wires I like to actually fold the wire back and crimp them on this way.
+ * This is not "proper" form but for such small gauge wire it works very well.
+ * Testing these crimps for continuity is a good idea.
+
+---
+
+![!LR4 Core assm](../img/lr4/cp.jpg){: loading=lazy width="600"}
+
+ * Plug in the X endstop
+ * This uses the M2.5mm screws.
+
+--- 
+
+![!LR4 Core assm](../img/lr4/cq.jpg){: loading=lazy width="600"}
+
+ * Lever opens to the bottom
+ * Seat these tiny screws all the way but be very careful not to strip them out.
+
+---
+
+![!LR4 Core assm](../img/lr4/cr.jpg){: loading=lazy width="600"}
+
+ * Using the belt guide on the back of the core set the pulley on the X stepper shaft.
+ * Always tighten the set / grub screw on the shaft flat first, then the second screw.
+
+---
+
+![!LR4 Core assm](../img/lr4/cs.jpg){: loading=lazy width="600"}
+
+ * M3 screws will be used to attach the stepper
+ * If you insert the X belt now it saves a bit of work later
+ * Run all the wires together up from behind the stepper
+ * The wires should not be constricted
+
+---
+
+![!LR4 Core assm](../img/lr4/ct.jpg){: loading=lazy width="600"}
+
+ * Secure the wires up at the top of the core
+ * The next step is using the idlers and M5 hardware
+
+---
+
+![!LR4 Core assm](../img/lr4/cu.jpg){: loading=lazy width="600"}
+
+ * Insert the M5 nuts
+ * I can usually press them in with a flat headed screwdriver or needle nosed pliers.
+
+---
+
+![!LR4 Core assm](../img/lr4/cv.jpg){: loading=lazy width="600"}
+
+ * Add the idlers, and screws
+ * Using the holes in the top of the core drive the screws
+ * These just need to hit the nylocks, they do not need to be snug
+ * The idlers should be extremely free to rotate
+
+---
+
+![!LR4 Core assm](../img/lr4/cx.jpg){: loading=lazy width="600"}
+
+ * That's it, the core is ready for final assembly!
+ * Easy right?!
+
+---
 
 ### YZ Plate Assemblies
 
 Wonderful Video showing the process here.
 <iframe width="500" height="315" src="https://www.youtube.com/embed/p4FYVLI73Ss?si=-nDs4DK_aEjRvKrh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Start the assembly with the YZ plate. 
+Start the YZ plates. 
 
 ![!LR4 yz assm](../img/lr4/fullYZplate.jpg){: loading=lazy width="600"}
 
@@ -639,123 +830,8 @@ Start the assembly with the YZ plate.
 ![!LR4 yz assm](../img/lr4/fullYZplate.jpg){: loading=lazy width="600"}
 
  * How did you do, wanna yell at me or did you have fun?
- * Now is a great time to take a photo and share it on some social media.
+ * Now is a great time to take a photo and share it.
  * You are building a robot that will hold a power tool, everyone needs to hear about that.
-
----
-
-### Core Assembly
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KLDDJx-OUmQ?si=oM2-10K-UGxsQ31P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-![!LR4 Core assm](../img/lr4/cn1.jpg){: loading=lazy width="600"}
-
- * Insert the M5 Tool Holder nuts one at a time.
- * Get some filament ready
-
----
-
-![!LR4 Core assm](../img/lr4/cn2.jpg){: loading=lazy width="600"}
-
- * When you insert the filament it can help to cut it at an angle.
- * The angle is different for each side.
-
----
-
-![!LR4 Core assm](../img/lr4/cn3.jpg){: loading=lazy width="600"}
-
- * Make sure it is fully seated all the way into the lower hole.
-
----
-
-![!LR4 Core assm](../img/lr4/cn4.jpg){: loading=lazy width="600"}
-
- * Clip the filament just above the core's surface, so it can not snag on anything.
-
----
-
-![!LR4 Core assm](../img/lr4/ch1.jpg){: loading=lazy width="600"}
-
- * Insert the bearings, one at a time with its bolt
- * Snug up all but the two bolts that cross the seam at the top.
- * The top seam controls the core to rail tension, this stays loose for now.
-
----
-
-![!LR4 Core assm](../img/lr4/ch2.jpg){: loading=lazy width="600"}
-
- * The 4 bottom bolts have to have the heads up like shown
- * The top bolts can face whichever way you prefer, heads showing is favorable if you are using a vac hose.
-
----
-
-![!LR4 Core assm](../img/lr4/ch3.jpg){: loading=lazy width="600"}
-
- * Set the X pulley depth
- * Tighten the flat grub screw first then the other.
-
----
-
-![!LR4 Core assm](../img/lr4/ce2.jpg){: loading=lazy width="600"}
-
- * Optional Touch plate
- * Run the wires through 
- * 140mm - 5.5" hanging out is minimum.
-
----
-
-![!LR4 Core assm](../img/lr4/ce3.jpg){: loading=lazy width="600"}
-
- * Optional
- * Run the touch plate wires across
-
----
-
-![!LR4 Core assm](../img/lr4/ce1.jpg){: loading=lazy width="600"}
-
- * Run the Endstop wire though
- * Did you label both wires?
-
----
-
-![!LR4 Core assm](../img/lr4/ce4.jpg){: loading=lazy width="600"}
-
- * Optional
- * Run the touch plate wires through to the front
-
----
-
-![!LR4 Core assm](../img/lr4/ce5.jpg){: loading=lazy width="600"}
-
- * Secure the endstop, using M2.5x12mm screws, notice the trigger direction.
- * 99% of builds are going to use this endstop, homing to Xmin. The location for the endstop located at the left side of the core (when looking at it from behind) are for homing to Xmax (not recommended for beginners, needs changes to the config).
-
----
-
-![!LR4 Core assm](../img/lr4/cs1.jpg){: loading=lazy width="600"}
-
- * Snug up the X Stepper
-
----
-
-![!LR4 Core assm](../img/lr4/cs2.jpg){: loading=lazy width="600"}
-
- * Run the X belt
-
----
-
-![!LR4 Core assm](../img/lr4/cs3.jpg){: loading=lazy width="600"}
-
- * Insert the X idlers
-
----
-
-![!LR4 Core assm](../img/lr4/cs4.jpg){: loading=lazy width="600"}
-
- * Well, does it look like this?
- * If so precede to the next step
- * If not, take a break, take some pictures, head to the V1E.com forums. 
 
 ---
 
