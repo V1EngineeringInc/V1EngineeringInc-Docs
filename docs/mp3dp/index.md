@@ -61,6 +61,8 @@ If you want to make the Belt have a tighter or looser grip on the core bottom or
 If you want to export your own DXF’s this is where you find them.
 
 ![!DXF Export](../img/mp3dpv5/DXF%20Export.png){: width="600"}
+or you can use this svg
+[SVG Panel](../img/mp3dpv5/MP3DPv5_milled_Parts.svg)
 
 ## BOM
 
@@ -136,16 +138,60 @@ There are 20 total pieces of extrusion that need to be cut
 
 ### Bed Parts
 
+Bed is held by the two bed supports and a spacer of some sort.  It could be a couple 1/4" pieces of plywood or aluminum.  the heavier it is, the greater chance the bed will fall and power the electronics as it does so.  Countersunk holes in the spacer will allow the bed to lay flat.  A channel for the bed heater wires may be required at the top.
+
 ### Extruder
 
-
+Extruders are availble - [V1 shop](https://www.v1e.com/products/h2v2s-extruder)
 ### Frame
 
 2020 Extrusion - [Amazon](https://amzn.to/3P7TBCl)
 
 ### Electronics
 
+At the minimum, a control board with 6 channels is required: coreXY motors (2), self leveling Z movement motors (3), and Extruder (1).  An skr pro 1.2 is adequate.  A BTT octopus or manta with 6+ motor channels is also an option.  If using klipper, multiple boards can be used simultaneously... one could run A and B and another for the Z channels.
+
+#### Electronics part list
+|QTY |Part                                                 |V1 Shop link | alternate option|
+|----|-----------------------------------------------------|-----------|-----------------|
+|1   | 6 channel controller like skr 1.2 pro               |   [V1 Shop](https://www.v1e.com/products/skr-pro1-2-6x-2209-drivers-tft35-e3-v3)                    |  self source octopus, manta, or equivalent |
+|3   | endstop switches                                    |   [V1 Shop](https://www.v1e.com/products/limit-switch-endstop)   |  [Amazon Affiliate](https://amzn.to/396oRzi)      |
+|1  | bl touch or CR touch                                 |   [V1 Shop](https://www.v1e.com/products/micro-probe-v2-biqu)   |        |
+|1   | smart filament sensor (optional)                    |   [V1 Shop](https://www.v1e.com/products/smart-filament-sensor-v2-biqu)   |     |
+|1   | brake board for bed drop back-EMF prevention (optional)  |   [V1 Shop](https://www.v1e.com/products/orobs-stepper-brakes)   |  or use 3 [relays](https://www.v1e.com/products/24v-opto-isolation-relay-z-brake)      |
+|****|******if running klipper************************************************|******|*******|
+|1   | ADXL345 accelerometer for input shaping (optional)  |   self |source |
+|1   | raspberry pi pico for ADXL345 chip with USB to rpi below (optional) | self | source |
+|1   | raspberry pi or pc to host the klipper operating program | self | source|
+
+Firmware:  Marlin or Klipper are options.  See forum for firmware inquiries or help.
+
 ### Hardware
+
+#### Hardware Part list
+These parts are needed to assemble the belt train and motion components once the frame is built
+
+|QTY |Part                                                 |V1 Shop link | alternate option|
+|----|-----------------------------------------------------|-----------|-----------------|
+|8   | 20 tooth idlers, 5 mm bore                          |   [V1 Shop](https://www.v1e.com/products/idler-10mm-20t-5mm-bore)   |  [Amazon Affiliate]()      |
+|10  | smooth idlers,  5 mm bore                           |   [V1 Shop](https://www.v1e.com/products/20t-idler-gt2-10mm)   |  [Amazon Affiliate](https://amzn.to/37TNJWh)      |
+|5   | 16 tooth pulleys with 5 mm bore                     |   [V1 Shop](https://www.v1e.com/products/pulley-16-tooth-gt2-10mm)   |  [Amazon Affiliate](https://amzn.to/3n9mUGM)      |
+|1   | X linear rail and MGN12H trolley (bed width + 25 mm)|  self |  sourced      |
+|2   | Y linear rails and MGN12H trolly (y length + 50 mm) |  self |  sourced      |
+|3   | Z linear rails and MGN12H trolley (height + 50 mm)  |  self |  sourced      |
+|5   | NEMA 17 motors                                      |   [V1 Shop](https://www.v1e.com/products/nema-17-76oz-in-steppers)   |  [Amazon Affiliate](https://amzn.to/3hQKILc)      |
+|3   | meters of g2 10 mm belt (minimum)                   |   [V1 Shop](https://www.v1e.com/products/gt2-10mm-belt)   |  [Amazon Affiliate](https://amzn.to/2V5pfo8)      |
+|1   | kit of printed parts (listed above)                 |   user printed | [prinatables](https://www.printables.com/model/799513-mp3dp-v5)|
+|1   | kit of milled parts*                                |   [V1 Shop](https://www.v1e.com/products/mp3dp-v5-metal-plate-kit)   | Self Milled ([svg](../img/mp3dpv5/MP3DPv5_milled_Parts.svg) or dxf export listed above) |
+|31  | M5x35 bolts                                         |  self |  sourced      |
+|31  | M5 Nylock nuts                                      |  self |  sourced      |
+|3   | bed springs z movement to bed T-mount               |  self |  sourced      |
+|3   | washers for the bed springs                         |  self |  sourced      |
+|~90** | M3x10 screws for rails, milled parts and mgn12h   |  self |  sourced      |
+
+*milled parts can be milled from 5 mm - 6.35 mm (1/4") thick aluminum or even laser cut from 5 mm - 6.35 mm thick acrylic if desired.
+**M3 bolt count does not include extrusion structure and enclosure bolts.  These are for holding the motors and the motor mounts and printed and milled pieces as well as the linear rails and trolleys together.
+
 
 ## Assembly
 
