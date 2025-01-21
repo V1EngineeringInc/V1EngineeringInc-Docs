@@ -470,6 +470,7 @@ Here is a users build video showing this process.
 
  * Using the belt guide on the back of the core set the pulley on the X stepper shaft.
  * Always tighten the set / grub screw on the shaft flat first, then the second screw.
+ * Use loctite to make sure the grub screws do not come loose.
 
 ---
 
@@ -590,6 +591,7 @@ Start the YZ plates.
  * Use the alignment gauge on the top of the YZ plate to align the pulley.
  * Secure the pulley with the set/grub screw on the flat face first, then the other screw.
  * The little black fasteners are set screws or grub screws.
+ * Use loctite to make sure the grub screws do not come loose.
  * Notice the stepper is on the chamfered / endstop side.
 
 ---
@@ -691,6 +693,7 @@ Start the YZ plates.
  * Use the small furthest line
  * Make sure the stepper is on the endstop side of the plate.
  * Tighten the set/grub screw on the flat first, the other.
+ * Use loctite to make sure the grub screws do not come loose.
 
 ---
 
