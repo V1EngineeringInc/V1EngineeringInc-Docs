@@ -134,7 +134,7 @@ Rather not spend the time printing all the parts? You can buy a set here, [V1 Sh
 |1   |X_Belt                      |30%  |                                     |                                         |
 |4-6 |Brace_###                   |30%  | * See Brace note below              |                                         |
 |1   |Brace_Max_###               |60%  | * See Brace note below              |                                         |
-|4-6 |Hose_Hook_##                |30%  | Print one for each Brace            |                                         |
+|5-7 |Hose_Hook_##                |30%  | Print one for each Brace/Brace_Max  |                                         |
 |7-10|Y_Clip_###                  |30%  | No more than 300mm center to center |                                         |
 |4   | Temp Strut                 |15%  |                                     |                                         |
 |    |Tool Mount Set              |     |                                     |                                         |
