@@ -845,23 +845,34 @@ Start the YZ plates.
 
 ---
 
-![!LR4 Beam assm](../img/lr4/B2.jpg){: loading=lazy width="600"}
+![!LR4 Beam assm](../img/lr4/beam1.jpg){: loading=lazy width="600"}
 
- * Equally space your braces and snap in the rails.
- * Make sure the rails do not stick out bast your braces.
- * If you use the temp struts space the end 4 braces to fit.
- * If you already have your strut plate cut, now is your time to shine.
+ * Install and fully seat the X belt tensioner nut
+
+---
+
+![!LR4 Beam assm](../img/lr4/beam2.jpg){: loading=lazy width="600"}
+
+ * If you need to you can use the screw to fully seat it.
+ * Take the screw back out.
+
+---
+
+![!LR4 Beam assm](../img/lr4/beam3.jpg){: loading=lazy width="600"}
+
+ * Position the end braces to fit the temp struts, equally space your remaining braces and snap in the rails.
+ * Make sure the rails do not stick out past your braces. Double check with your calculator values for total brace width.
  * If you just finished cutting your own strut plate, you have already done this, you don't need my help.
 
 ---
 
-![!LR4 Beam assm](../img/lr4/B3.jpg){: loading=lazy width="600"}
+![!LR4 Beam assm](../img/lr4/beam4.jpg){: loading=lazy width="600"}
 
- * Install the (temp)strut plates.
+ * Install the temp strut plates, orientation is shown in teh following two steps.
  * Do not crush the front rail clamps.
  * As you tighten the screws you will feel the clamps start to engage, that is all you need.
  * Tubes will still be able to rotate, if you try hard enough you can pull them out.
- * Trust, just a tiny bit of tension is all you need. 
+ * Trust me, just a tiny bit of tension is all you need. 
  * The rails carry no sideways loads, do not overtightened them, it only causes issues.
 
 ---
@@ -878,40 +889,12 @@ Start the YZ plates.
 
 ---
 
-![!LR4 Beam assm](../img/lr4/B6.jpg){: loading=lazy width="600"}
+![!LR4 Beam assm](../img/lr4/beam5.jpg){: loading=lazy width="600"}
 
  * Install the bottom temp struts as well.
- * No specific orientation here.
+ * Pay attention to the small hole location.
 
 ---
-
-![!LR4 Beam assm](../img/lr4/B71.jpg){: loading=lazy width="600"}
-
- * Install and fully seat the X belt tensioner nut
-
----
-
-![!LR4 Beam assm](../img/lr4/B7.jpg){: loading=lazy width="600"}
-
- * If you need to you can use the screw to fully seat it.
- * Take the screw back out.
-
----
-
-![!LR4 Beam assm](../img/lr4/B8.jpg){: loading=lazy width="600"}
-
- * If you use a V1 board box you can use it to mark and then drill the holes in your strut plate
- * M3x10 to secure.
- * For the temp strut users you can set the box in place with the screws partially installed and it should not move while you cut your permanent strut plates.
-
----
-
-![!LR4 Beam assm](../img/lr4/B9.jpg){: loading=lazy width="600"}
-
- * Position is not critical, center is probably best though.
-
----
-
 
 ### Main Assembly
 
@@ -1349,14 +1332,20 @@ You will want to cut each plate as close to the side of your build as you can to
  * Getting ready to make your first cuts all starts with loading the material.
 
  * Make sure the edge is behind your Endmill in the Y direction and parallel with the edge in the X direction. 
- 
+
+---
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (89).jpg){: loading=lazy width="400"}
 
  * Checking the front and back edges relative to the table. (To the rail would be a more proper measurement)
 
+---
+
 ![!LR3 Fancy Picture](../img/lr3/LR3 (90).jpg){: loading=lazy width="400"}
 
  * Secure the material and make sure your means will not interfere with the core as it passes over. I use screws with large heads.
+
+---
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (91).jpg){: loading=lazy width="400"}
 
@@ -1367,22 +1356,28 @@ You will want to cut each plate as close to the side of your build as you can to
 
 ### Temp to Custom Strut Plates
 
-![!LR4 Belts](../img/lr4/sr1.jpg){: loading=lazy width="600"}
+![!Strut Plates](../img/lr4/sr1.jpg){: loading=lazy width="600"}
 
  * Swapping to the custom strut plates is pretty easy.
  * Start by removing the X belt, and both Y belts.
 
-![!LR4 Belts](../img/lr4/sr2.jpg){: loading=lazy width="600"}
+---
+
+![!Strut Plates](../img/lr4/sr2.jpg){: loading=lazy width="600"}
 
  * Loosen and remove all the front plate X rail screws.
  * Remove all four temp strut plates.
  * Raise the gantry up so the rail will clear the YZ plate
 
-![!LR4 Belts](../img/lr4/sr3.jpg){: loading=lazy width="600"}
+---
+
+![!Strut Plates](../img/lr4/sr3.jpg){: loading=lazy width="600"}
 
  * Slide the Top X rail out one section
 
-![!LR4 Belts](../img/lr4/sr4.jpg){: loading=lazy width="600"}
+---
+
+![!Strut Plates](../img/lr4/sr4.jpg){: loading=lazy width="600"}
 
  * Remove the core.
  * Add the custom strut plates keeping the screws loose.
@@ -1390,13 +1385,28 @@ You will want to cut each plate as close to the side of your build as you can to
  * Slide the top rail back into place
  * Snug up all the plate screws.
 
-![!LR4 main assm](../img/lr4/ht1.jpg){: loading=lazy width="600"}
+---
+
+![!Strut Plates](../img/lr4/B8.jpg){: loading=lazy width="600"}
+
+ * If you use a V1 board box you can use it to mark and then drill the holes in your strut plate
+ * M3x10 to secure.
+
+---
+
+![!Strut Plates](../img/lr4/B9.jpg){: loading=lazy width="600"}
+
+ * Position is not critical, center is probably best though.
+
+---
+
+![!Strut Plates](../img/lr4/ht1.jpg){: loading=lazy width="600"}
 
  * Okay now is a good time to double check your heal toe measurements are equal.
  * Simply measure across the front of your machine
 
 
-![!LR4 main assm](../img/lr4/ht2.jpg){: loading=lazy width="600"}
+![!Strut Plates](../img/lr4/ht2.jpg){: loading=lazy width="600"}
 
  * Now measure across the back
  * The two numbers should be identical.
