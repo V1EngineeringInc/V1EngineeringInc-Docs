@@ -313,11 +313,15 @@ Your table needs only be as fancy as a sheet of wood on a relatively flat, smoot
 
 ![!LR4 overhead Picture](../img/lr4/Top.png){: loading=lazy width="600"}
 
-Any existing table that is large enough is fine. You can use its surface directly, or a more popular option is to add a waste board of some sort that is replaceable as it gets used and cut into.
+Any existing table that is large enough is fine. You can use its surface directly, or a more popular option is to add a waste board of some sort on top that is replaceable as it gets used and cut into.
 
 Next option would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better.
 
-If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. Here is a basic parametric set of plans that are easily configurable [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698/156?u=vicious1){:target="_blank"}.
+If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. 
+
+ * ~$200 basic parametric plans, from V1E.com [LR4 easy table](https://forum.v1e.com/t/200-full-sized-lowrider-table-non-cnc-build/47947).
+ * Here is a basic parametric set of plans that are easily configurable, from Jonathan Jones [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698/156?u=vicious1){:target="_blank"}.
+
 
 [Calculator for table, rail, and belt lengths.](calculator.md){:target="_blank"}
 
