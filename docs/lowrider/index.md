@@ -90,6 +90,11 @@ You are looking for either 29.5mm, 30mm, or 32mm Outside Dimension steel tubes. 
 
 ### Printed Parts
 
+DIY or Buy?
+
+#### Buy
+Rather not spend the time printing all the parts? You can buy a set here, [V1 Shop](https://www.v1e.com/products/lowrider-v4-printed-parts-with-aluminum-xz-plates){:target="_blank"}.
+
 #### DIY
 No supports needed, keep the default orientation. PLA is recommended for ultimate rigidity, other 
 filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/CF.  You will need about 2.7kg of filament for a full set with tool mount and a board box.
@@ -97,10 +102,6 @@ filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/
 3 walls rectilinear or cubic infill for most parts. Thicker layers, since these are large parts, no more than 80% nozzle diameter to layer thickness ratio to keep steep walls working.
 
 200mmx200mmx190mm available build volume is needed to print these parts.
-
-#### Buy
-Rather not spend the time printing all the parts? You can buy a set here, [V1 Shop](https://www.v1e.com/products/lowrider-v4-printed-parts-with-aluminum-xz-plates){:target="_blank"}.
-
 
 !!! info 
 
@@ -147,14 +148,16 @@ Rather not spend the time printing all the parts? You can buy a set here, [V1 Sh
 [jac]: https://www.printables.com/model/1037842-jackpot-cnc-control-box-for-the-lowrider-4-cnc
 [skr]: https://www.printables.com/model/1051517-skr-pro-box-for-the-lowrider-4-cnc
 
+ * Wire sleeve is nice but not needed [Shop](https://www.v1e.com/products/wire-sleeve?_pos=1&_sid=1a54ba9cd&_ss=r), [Amazon](https://amzn.to/3EDzb1H).
+
  * "###" = various Sizes
 
  * Brace note- Print Brace_Max_### and one Brace_### at 60% infill. These will be the end braces and benefit from added rigidity.
 
- * If a part name if followed by a version number use the highest one. V1, V2, V3... Means there was a fix or edit Bigger number means newer part.
+ * If a part name if followed by a version number use the highest one. V1, V2, V3... Means there was a fix or edit, a bigger number means newer part.
 
 !!! warning
-    Cura based slicers seem to work a little different. Make sure the parts are aligned on your bed as they appear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way.
+    Repetier, Slic3r, Prusa Slicer, Orca, all seem to slice normally, Cura based slicers seem to work a little different. Make sure the parts are aligned on your bed as they appear in the Printables thumbnails. Bridging also seems to be a bit of an issue for some of the internal overhangs. It is best to check the "Dust Skirt" and "YZ_Plate" internal features after slicing to be certain the bridges are bridging the short way, not the long way.
     Repetier\PrusaSlicer based slicers have been tested to work as expected.
 
 
@@ -310,11 +313,15 @@ Your table needs only be as fancy as a sheet of wood on a relatively flat, smoot
 
 ![!LR4 overhead Picture](../img/lr4/Top.png){: loading=lazy width="600"}
 
-Any existing table that is large enough is fine. You can use its surface directly, or a more popular option is to add a waste board of some sort that is replaceable as it gets used and cut into.
+Any existing table that is large enough is fine. You can use its surface directly, or a more popular option is to add a waste board of some sort on top that is replaceable as it gets used and cut into.
 
 Next option would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better.
 
-If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. Here is a basic parametric set of plans that are easily configurable [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698/156?u=vicious1){:target="_blank"}.
+If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time. 
+
+ * ~$200 basic parametric plans, from V1E.com [LR4 easy table](https://forum.v1e.com/t/200-full-sized-lowrider-table-non-cnc-build/47947).
+ * Here is a basic parametric set of plans that are easily configurable, from Jonathan Jones [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698/156?u=vicious1){:target="_blank"}.
+
 
 [Calculator for table, rail, and belt lengths.](calculator.md){:target="_blank"}
 
@@ -898,7 +905,7 @@ Start the YZ plates.
 
 ### Main Assembly
 
-![!LR4 main assm](../img/lr4/ms1.jpg){: loading=lazy width="600"}
+![!LR4 main assm](../img/lr4/ma1.jpg){: loading=lazy width="600"}
 
  * Screw together the YZ max assembly to the beam.
  * These 3 screws get snugged down.
@@ -907,48 +914,63 @@ Start the YZ plates.
 
 ---
 
-![!LR4 main assm](../img/lr4/ms2.jpg){: loading=lazy width="600"}
+![!LR4 main assm](../img/lr4/ma2.jpg){: loading=lazy width="600"}
 
  * Looking good right, like you almost have a machine!
 
 ---
 
-![!LR4 main assm](../img/lr4/ms3.jpg){: loading=lazy width="600"}
+![!LR4 main assm](../img/lr4/ma3.jpg){: loading=lazy width="600"}
 
  * Slide on the core, be sure not to snag any wires.
- * Now is the best time to tension the top two core tension bolts.
- * You want these bolts seated and the core not to rattle when you wiggle it.
+ * Now is a good time to check the tension the top two core tension bolts.
+ * Start with the bolts loose, sometimes you do not need to tension them until after some use.
+ * You want these bolts seated and the core not to rattle when you wiggle it. Tiny adjustments if needed.
  * If you are too tight you will actually start to feel the core get tighter and looser as you cross over the braces.
- * The right tension is better than too tight or too loose.
+ * Loose here is better than too tight. It is simple to add tension later, difficult to replace a broken core.
 
 ---
 
-![!LR4 main assm](../img/lr4/ms4.jpg){: loading=lazy width="600"}
+![!LR4 main assm](../img/lr4/ma4.jpg){: loading=lazy width="600"}
 
  * Now you can add the YZ min assembly
 
 ---
 
-![!LR4 main assm](../img/lr4/ms5.jpg){: loading=lazy width="600"}
+![!LR4 main assm](../img/lr4/ma5.jpg){: loading=lazy width="600"}
 
- * Easy section, admire your work. Some people like to make robot sounds as they drive it around the table at this point.
+ * Easy section, admire your work.
 
 ---
 
-![!LR4 main assm](../img/lr4/ht1.jpg){: loading=lazy width="600"}
+![!LR4 main assm](../img/lr4/ma6.jpg){: loading=lazy width="600"}
+
+ * Double check that the lower X rail is not touching either metal XZ plate.
+ * If it touches your machine will most likely have driving or lifting issues.
+
+---
+
+![!LR4 main assm](../img/lr4/ma7.jpg){: loading=lazy width="600"}
+
+ * You can do a quick check with a square to see how your sides are angled.
+ * If you don't have a square this will get checked in the next section in another way.
+
+---
+
+![!LR4 main assm](../img/lr4/ma8.jpg){: loading=lazy width="600"}
 
  * Okay now is a good time to make sure your heal toe measurements are equal.
- * Simply measure across the front of your machine
+ * Roughly set the beam level by turning the Z axis leadscrews, one side is different so the side plates will be at different heights.
+ * Simply measure across the front of your machine from the side plates (not the wheels as those can move).
 
 ---
 
-![!LR4 main assm](../img/lr4/ht2.jpg){: loading=lazy width="600"}
+![!LR4 main assm](../img/lr4/ma9.jpg){: loading=lazy width="600"}
 
  * Now measure across the back
- * The two numbers should be identical.
+ * The two numbers should be nearly identical.
  * If they are not the machine can wander when not under power.
- * The adjustment would be to check your end braces to rail connection and to verify your lower X rail is not actually touching the XZ plate. If it is trim or file your rail a bit shorter. 
-
+ * The adjustment would be to check your end braces and if needed you can loosen your temp struts and straighten the sides out.
 ---
 
 ### Wire routing
@@ -958,6 +980,7 @@ Start the YZ plates.
  * It is easy to run your wires from the YZ assembly to the beam with the beam at full height.
  * Make sure the travel is free, clear, and smooth. The wires should have slack at all positions.
  * Cable ties to the braces work well.
+ * Wire cover is nice but not needed [Shop](https://www.v1e.com/products/wire-sleeve?_pos=1&_sid=1a54ba9cd&_ss=r), [Amazon](https://amzn.to/3EDzb1H).
 
 ---
 
@@ -998,7 +1021,6 @@ Start the YZ plates.
 
 ![!LR4 Wire Routing](../img/lr4/w7.jpg){: loading=lazy width="600"}
 
- * Wire cover is nice but not needed.
  * Leave a small loop at the far end of travel.
  * You will be securing it the the brace just past halfway.
 
