@@ -175,7 +175,7 @@ function reset_work() {
   const unit_convert = get_unit_convert();
   $("input[name=xwork]").val(clip(1220 * unit_convert));
   $("input[name=ywork]").val(clip(2440 * unit_convert));
-  $("input[name=xzplate]").val(clip(6.35 * unit_convert));
+  $("input[name=xzplate]").val(clip(6.5 * unit_convert));
   from_working();
 }
 
