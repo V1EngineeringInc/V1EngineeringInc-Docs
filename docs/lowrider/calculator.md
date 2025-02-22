@@ -17,9 +17,9 @@
 <input class="calc" type="number" onkeyup="from_working()" name="ywork" value="2440" size="6"><span class="units">mm</span> Y<br/>
 
 #### XZ Plate Thickness
-Shop Aluminum plates are 6.35mm (0.25").
+Shop Aluminum plates are 6.5mm (0.256").
 
-<input class="calc" type="number" onkeyup="from_working()" name="xzplate" value="6.35" size="6"><span class="units">mm</span> XZ Plate<br/>
+<input class="calc" type="number" onkeyup="from_working()" name="xzplate" value="6.5" size="6"><span class="units">mm</span> XZ Plate<br/>
 
 <p><a  class="btn btn-default" href="javascript:reset_work()">Reset</a></p>
 
@@ -83,12 +83,12 @@ function get_offsets() {
   const unit_convert = get_unit_convert();
 
   var v4 = {};
-  v4.xrail_core = 168 * unit_convert;
+  v4.xrail_core = 169 * unit_convert;
   v4.yrail_minus_work = 255 * unit_convert;
   v4.ytable_minus_work = 313 * unit_convert;
   v4.xbelt_extra = 180 * unit_convert;
   v4.ybelt_extra = 200 * unit_convert;
-  v4.xtable_extra = 107.5 * unit_convert;
+  v4.xtable_extra = 110 * unit_convert;
   v4.xrail_2mm = 2 * unit_convert;
   
   return v4;
