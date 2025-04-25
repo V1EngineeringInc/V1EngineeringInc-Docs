@@ -240,15 +240,16 @@ As an Amazon Associate, I earn from qualifying purchases.
 ### Hardware
 
 This is what is needed for a 4' x 8' (1.2m x 2.4m) build. You will need more or less depending on what size you build.
+M8 or 5/16 should be hex head bolts.
 
 |QTY  |Description             |US Equivalent                                  | 
 |-----|------------------------|-----------------------------------------------|
-|14   |M8 x 40mm               |5/16" x 1.5"                                   |
+|14   |M8 x 40mm Hex Head      |5/16" x 1.5"       Hex Head                    |
 |14   |M8 Nylock nuts          |5/16" Nylock                                   |
-|60   |M5 x 30mm               |Machine Screws                                 |
-|60   |M5 Nylock               |None                                           |
-|83   |M3 x 10mm               |Machine Screws                                 |
-|10   |M2.5 x 12mm             |Machine Screws                                 |
+|60   |M5 x 30mm Machine Screws, Button Head  |  Must be metric                |
+|60   |M5 Nylock               |Must be metric                                 |
+|83   |M3 x 10mm Machine Screws, Button Head  |  Must be metric                |
+|10   |M2.5 x 12mm Machine Screws, Button Head  |  Must be metric              |
 |*18  |M4 x 12mm+ Wood/metal   |#8 x 1/2"+ Screws to mount things to your table|
 
 *Not included in the hardware kit. 
@@ -1048,7 +1049,8 @@ Start the YZ plates.
 
  * First step to mounting the CNC to the table is setting the Y rail
  * Do your best to make a perfectly rectangular table, but once the rail is set that becomes your reference, and the table edges mean nothing.
- * The belt holders and Y_Clips all share the outer edge
+ * The belt holders and Y_Clips all share the outer edge, same refernce.
+ * The calculator "table measurement" gives you the exact outside dimensions of the belt holders as the footprint.
  * No more than 300mm gap is recommended.
 
 ---
