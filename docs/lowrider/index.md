@@ -323,6 +323,7 @@ If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion 
  * ~$200 basic parametric plans, from V1E.com [LR4 easy table](https://forum.v1e.com/t/200-full-sized-lowrider-table-non-cnc-build/47947).
  * Here is a basic parametric set of plans that are easily configurable, from Jonathan Jones [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698/156?u=vicious1){:target="_blank"}.
 
+Example [Quick and Dirty Table](https://www.v1engineering.com/table), good starter for smaller builds, but not suitable for full panel 4x8 builds.
 
 [Calculator for table, rail, and belt lengths.](calculator.md){:target="_blank"}
 
