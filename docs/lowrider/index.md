@@ -95,6 +95,8 @@ DIY or Buy?
 #### Buy
 Rather not spend the time printing all the parts? You can buy a set here, [V1 Shop](https://www.v1e.com/products/lowrider-v4-printed-parts-with-aluminum-xz-plates){:target="_blank"}.
 
+If you are in Germany or the EU, you can buy a set from [HaWiWe](https://hawiwe.de/produkt/lowrider-4-druckteile){:target="_blank"}.
+
 #### DIY
 No supports needed, keep the default orientation. PLA is recommended for ultimate rigidity, other 
 filaments With great rigidity and added heat resistance are PET-GF/CF and PC-GF/CF.  You will need about 2.7kg of filament for a full set with tool mount and a board box.
