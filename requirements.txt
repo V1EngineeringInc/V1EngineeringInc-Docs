@@ -1,4 +1,4 @@
 git+https://github.com/blueswen/mkdocs-glightbox
 git+https://github.com/ojacques/mkdocs-git-committers-plugin-2
 mkdocs>=1.6.1
-mkdocs-material>=9.5.49
+mkdocs-material>=9.6.16
