@@ -69,6 +69,7 @@ The Jackpot CNC Control board runs FluidNC which is fully GRBL compatible with e
         * No compiling to flash a board or change the configuration.
         * ~100% GRBL compatible
         * ESP3D-UI
+        * Or GRBLHal
     
 
     + Dimensions
@@ -141,9 +142,14 @@ We typically use the Jackpot board in AP mode (access point), this is a direct c
     You can also configure your device in STA mode, http://fluid.local, if you have a strong signal to your home WiFi network. This will get your board connected to your local network, meaning you will be connected to the Jackpot and the internet at the same time. This is advanced and not recommended unless you are very confident in your networking setup. It is not recommended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
 
 #### Other Control Options
-    The Jackpot Control board can use most any control software that supports GRBL such as CNC.js or Lightburn, although most people will likely use the built in WebUI's wireless connection. 
 
-    The default is to use the Jackpot with a direct wifi connection to a device with a web browser.
+The Jackpot Control board can use most any control software that supports GRBL such as CNC.js or Lightburn, although most people will likely use the built in WebUI's wireless connection. 
+
+ * The default is to use the Jackpot with a direct wifi connection to a device with a web browser.
+ * You can use STA mode if you have a good signal to your home wifi network
+ * For either of the previous two options you can add a bluetooth joypad (or keyboard if your device does not have one) to your device if you prefer some buttons. Button mapping is built in to the WebUI.
+ * You can add a hardwired always connected pendant for the basics, moving, starting a file, resuming. This would be a "FluidNC CYD pendant" or M5 Pendant
+ * You can also use a USB Direct connection to a computer to use one of the many GCode senders available that supports GRBL such as CNC.js or Lightburn. Or even switch to GRBLHal to use Gsender.
 
 ### Tests
 
@@ -213,53 +219,15 @@ Some screen shots needed here.
 
 Start, tool change, and ending gcode are all listed on the milling basics page, [here](../tools/milling-basics.md#gcode-start-tool-change-and-ending).
 
-## Laser Tips
-
-For the fastest raster etching, the most resource intensive thing we can do. Either use AP mode with a microSD card, or turn off the wifi and use only the USB with [Lightburn](https://lightburnsoftware.com/).
-
-**$Wifi/Mode=off** - if you are using the USB connection to Lightburn to use some of the built-in tools it has use this command to turn off the radio. It will come back after a power cycle. 
-
-If you have a laser defined in the config you are always in "laser" mode (M4). So you can either leave it defined and use M5 (turn off laser mode) in your starting gcode for non-laser CNC use, or just comment out the laser in the config. The Jackpot can have multiple config files stored on it. So the best way to do this is have config.yaml, and configlaser.yaml, if you want to use both. Then select the proper config and power cycle the board.
-
-Raster speed depends on dot size, for a 0.19mm resolution I am getting 70-120mm/s depending on the type of raster.
-
-### Laser Config.yaml Edits
-
-Replace the following section in your yaml file. Change any settings you need to, this scales the output from 1-1000 and must match lightburn's settings.
-
-```
-user_outputs:
-  analog0_pin: NO_PIN
-  analog1_pin: NO_PIN
-  analog2_pin: NO_PIN
-  analog3_pin: NO_PIN
-  analog0_hz: 5000
-  analog1_hz: 5000
-  analog2_hz: 5000
-  analog3_hz: 5000
-  digital0_pin: gpio.26
-  digital1_pin: NO_PIN
-  digital2_pin: NO_PIN
-  digital3_pin: NO_PIN
-
-Laser:
-  pwm_hz: 5000
-  output_pin: gpio.27
-  enable_pin: NO_PIN
-  disable_with_s0: false
-  s0_with_disable: true
-  tool_num: 0
-  speed_map: 0=0.000% 1000=100.000%
-  off_on_alarm: true
-```
-Quick note, **gpio.26** can have a quick pulse when starting. If you are using a 5V pin for your laser pin 27 is the better option for your enable pin.
-
 ## Firmware
-If you bought it from the V1E.com store it should be ready to go. This section is in case you want to update or start fresh.
+If you bought it from the V1E.com store it should be ready to go. This section is in case you want to update or start fresh. 
 
-V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). **The Current tested and confirmed files are in the V2 folder for your machine type and Board Version (Jackpot or Jackpot2)** You need to download these to load them after flashing.
+#### If you need to refresh or update
 
-FluidNC Firmware - **The Current tested and confirmed FluidNC version is 3.9.5**, use anything newer than this with caution. 11/1/2024- Configs updated as well, good idea to update them as well. Be sure to test homing after updates as some of the numbers have changed, also take note of your pull off values to keep things level and square after an update.
+FluidNC Firmware - **The Current tested and confirmed FluidNC version is {==3.9.5==}**, use anything newer than this with caution. Take note of all your pull off values to keep things level and square after an update.
+
+V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). **The Current tested and confirmed files are in the folder for your machine type, and Board Version (Jackpot or Jackpot2), then UI V2** You need to download these to load them after flashing. The UI V3 is still in testing, please do not use it unless you are familiar with your machine already.
+
 
 ### Updating / Installing Firmware
 
@@ -331,8 +299,51 @@ Some issues we have seen.
 
 -If you made any changes to the config use the web based tool, or fluid term, to watch the boot messages. You can also view them by typing $SS. If you do not understand it cut and paste the first half into the V1 forums.
 
--If you switch from the V2 to V3 of the interface, all the files need to be wiped and uploaded again from the V1 github repo.
+-If you switch from the V2 to V3 of the webui interface, all the files need to be wiped and uploaded again from the V1 github repo.
 
+-If this does not solve your issue, please make a new thread in the forums and if possible let us see the $SS output from the webui terminal.
+
+
+## Laser Tips
+
+For the fastest raster etching, the most resource intensive thing we can do. Either use AP mode with a microSD card, or turn off the wifi and use only the USB with [Lightburn](https://lightburnsoftware.com/).
+
+**$Wifi/Mode=off** - if you are using the USB connection to Lightburn to use some of the built-in tools it has use this command to turn off the radio. It will come back after a power cycle. 
+
+If you have a laser defined in the config you are always in "laser" mode (M4). So you can either leave it defined and use M5 (turn off laser mode) in your starting gcode for non-laser CNC use, or just comment out the laser in the config. The Jackpot can have multiple config files stored on it. So the best way to do this is have config.yaml, and configlaser.yaml, if you want to use both. Then select the proper config and power cycle the board.
+
+Raster speed depends on dot size, for a 0.19mm resolution I am getting 70-120mm/s depending on the type of raster.
+
+### Laser Config.yaml Edits
+
+Replace the following section in your yaml file. Change any settings you need to, this scales the output from 1-1000 and must match lightburn's settings.
+
+```
+user_outputs:
+  analog0_pin: NO_PIN
+  analog1_pin: NO_PIN
+  analog2_pin: NO_PIN
+  analog3_pin: NO_PIN
+  analog0_hz: 5000
+  analog1_hz: 5000
+  analog2_hz: 5000
+  analog3_hz: 5000
+  digital0_pin: gpio.26
+  digital1_pin: NO_PIN
+  digital2_pin: NO_PIN
+  digital3_pin: NO_PIN
+
+Laser:
+  pwm_hz: 5000
+  output_pin: gpio.27
+  enable_pin: NO_PIN
+  disable_with_s0: false
+  s0_with_disable: true
+  tool_num: 0
+  speed_map: 0=0.000% 1000=100.000%
+  off_on_alarm: true
+```
+Quick note, **gpio.26** can have a quick pulse when starting. If you are using a 5V pin for your laser pin 27 is the better option for your enable pin.
 
 ## Jackpot VS The SKR Pro
 
