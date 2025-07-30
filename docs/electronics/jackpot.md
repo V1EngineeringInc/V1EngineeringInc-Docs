@@ -133,15 +133,17 @@ Some browsers will then need to be pointed to http://192.168.0.1, best to bookma
 
 ![!WebUI](../img/jackpot/LUI.jpg){: loading=lazy width="500"}
 
-This Interface is from the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for any of the Jackpot’s outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settings all from the WebUI.You can wirelessly transfer your gcode files, but manually using the MicroSD card is still preferred. Most will probably never even plug the USB port in.
+This Interface is from the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for any of the Jackpot’s outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settings all from the WebUI.You can wirelessly transfer your gcode files, but manually using the MicroSD card is still preferred. Most will probably never even plug the USB port in. This can be used from most any device that has a web browser. If you are using a small touchscreen you can even zoom in so the buttons are easier to hit.
 
-??? example "Other Control Options"
-    The Jackpot Control board can use most any control software that supports GRBL such as CNC.js or Lightburn, although most people will likely use the built in WebUI's wireless connection. This can be used from most any device that has a web browser. If you are using a small touchscreen you can even zoom in so the buttons are easier to hit.
-
-We typically use the Jackpot board in AP mode (access point), this is a direct connection between your web enabled device and the board itself. No internet connection is used in this case, this is a direct connection to the Jackpot only. Touch screens work (with zoom), or keyboard and mouse will work just as well.
+We typically use the Jackpot board in AP mode (access point), this is a direct connection between your web enabled device and the board itself. No internet connection is used in this case, this is a direct connection to the Jackpot only. 
 
 ??? Info "Other Networking Options"
-    You can also configure your device in STA mode, http://fluid.local, if you have a strong signal to your home WiFi network. This will get your board connected to your local network. This is advanced and not recommended unless you are very confident in your networking setup. It is not recommended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
+    You can also configure your device in STA mode, http://fluid.local, if you have a strong signal to your home WiFi network. This will get your board connected to your local network, meaning you will be connected to the Jackpot and the internet at the same time. This is advanced and not recommended unless you are very confident in your networking setup. It is not recommended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
+
+#### Other Control Options
+    The Jackpot Control board can use most any control software that supports GRBL such as CNC.js or Lightburn, although most people will likely use the built in WebUI's wireless connection. 
+
+    The default is to use the Jackpot with a direct wifi connection to a device with a web browser.
 
 ### Tests
 
