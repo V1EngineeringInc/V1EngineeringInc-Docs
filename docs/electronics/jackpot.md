@@ -255,9 +255,9 @@ Quick note, **gpio.26** can have a quick pulse when starting. If you are using a
 ## Firmware
 If you bought it from the V1E.com store it should be ready to go. This section is in case you want to update or start fresh.
 
-V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). **The Current tested and confirmed files are in the V2 folder for your machine type** You need to download these to load them after flashing.
+V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). **The Current tested and confirmed files are in the V2 folder for your machine type and Board Version (Jackpot or Jackpot2)** You need to download these to load them after flashing.
 
-FluidNC Firmware - **The Current tested and confirmed FluidNC version is 3.9.1**, use anything newer than this with caution. 11/1/2024- Configs updated as well, good idea to update them as well. Be sure to test homing after updates as some of the numbers have changed, also take note of your pull off values to keep things level and square after an update.
+FluidNC Firmware - **The Current tested and confirmed FluidNC version is 3.9.5**, use anything newer than this with caution. 11/1/2024- Configs updated as well, good idea to update them as well. Be sure to test homing after updates as some of the numbers have changed, also take note of your pull off values to keep things level and square after an update.
 
 ### Updating / Installing Firmware
 
