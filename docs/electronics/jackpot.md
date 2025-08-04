@@ -224,10 +224,9 @@ If you bought it from the V1E.com store it should be ready to go. This section i
 
 #### If you need to refresh or update
 
-FluidNC Firmware - **The Current tested and confirmed FluidNC version is {==3.9.5==}**, use anything newer than this with caution. Take note of all your pull off values to keep things level and square after an update.
+FluidNC Firmware - **The Current tested and confirmed FluidNC version is {==3.9.5==}, and WebUI V2**, use anything newer than this with caution. Take note of all your pull off values to keep things level and square after an update.
 
-V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). **The Current tested and confirmed files are in the folder for your machine type, and Board Version (Jackpot or Jackpot2), then UI V2** You need to download these to load them after flashing. The UI V3 is still in testing, please do not use it unless you are familiar with your machine already.
-
+V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Releases page](https://github.com/V1EngineeringInc/FluidNC_Configs/releases). 
 
 ### Updating / Installing Firmware
 
@@ -235,15 +234,15 @@ V1 Engineering specific files - Keep an eye on this page or you can even subscri
 
 If the ESP32 is mounted to a Jackpot, then ensure Jackpot's main 24V power supply is powered **OFF** before connecting a USB cable between the ESP32 and computer.  The ESP32 can be updated while mounted, or removed from the Jackpot board.  
 
-If/when removing the ESP32 from Jackpot for flashing, be careful to not bend, or apply force to the ESP32's integrated antenna.
+Browse to [FluidNC Web Installer](https://installer.fluidnc.com/) using Chrome, or another [browser that supports Serial API](https://caniuse.com/web-serial). 
 
-Browse to [FluidNC Web Installer](https://installer.fluidnc.com/) ( created by [Joacim](https://github.com/breiler/fluid-installer) ) using Chrome, or another [browser that supports Serial API](https://caniuse.com/web-serial).  
+If you are updating you need to take note of your pull_off values to keep your auto-squaring and/or auto-leveling.
 
-Within FluidNC Web Installer, select _Connect_, and follow the prompts. It is best to always start fresh by using the erase option.
+Within FluidNC Web Installer, select _Connect_, select your com port, _Install_, select the current firmware version listed above, _esp32_, _wifi_, _fresh install_, select the WebUI version from above. You might need to hold the boot button to get to the next step.
 
-Some PC's will need USB drivers if your ESP32 is not recognized by the computer. If needed the ESP32 USB drivers are here [Silabs CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
+Some PC's will need USB drivers if your ESP32 is not recognized by the computer. If needed, the ESP32 USB drivers are here [Silabs CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
 
-After you have loaded the firmware you can use the file browser to load our configs and macros from here, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
+After you have loaded the firmware you can use the file browser to load our configs and macros from here, [Releases page](https://github.com/V1EngineeringInc/FluidNC_Configs/releases).
 
 A great write-up with pictures can be found here: https://forum.v1e.com/t/setting-up-fluidnc/47097
 
