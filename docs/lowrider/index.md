@@ -993,70 +993,107 @@ Start the YZ plates.
 
 ### Wire routing
 
+![!LR4 Wire Routing](../img/lr4/w1a.jpg){: loading=lazy width="600"}
+
+* Find a good home for your control board. The YZ_Min side as shown here is recommended.
+* The first bay makes wiring the easiest, as well as SD card access.
+
+---
+
 ![!LR4 Wire Routing](../img/lr4/w1.jpg){: loading=lazy width="600"}
 
-* It is easy to run your wires from the YZ assembly to the beam with the beam at full height.
-* Make sure the travel is free, clear, and smooth. The wires should have slack at all positions.
-* Cable ties to the braces work well.
+* Run your wires from the YZ assemblies to the beam with the beam at full height.
+* Feed the wires from the YZ assembly into the beam and secure them to the brace.
+* Make sure the travel is free, clear, and smooth. The wires should have slack at all positions, test this by moving the beam up and down.
+* Cable ties, wire ties, or tape to the braces work well to hold the wires in place.
 * Wire cover is nice but not needed [Shop](https://www.v1e.com/products/wire-sleeve?_pos=1&_sid=1a54ba9cd&_ss=r){:target="_blank"}, [Amazon](https://amzn.to/3EDzb1H){:target="_blank"}.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w2.jpg){: loading=lazy width="600"}
 
-* Add the extensions from the end furthest from the control board and the Core wires.
-* Fold the wires and get ready for tape.
+* Extensions are used from the YZ_Max side as well as from the Core, to reach the control board.
+* The extension connections need to be secured to remove any strain.
+* Fold the wires, leaving the connection straight, and get ready for tape.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w3.jpg){: loading=lazy width="600"}
 
-* Taping them like this takes all the strain off the connectors
+* Taping them like this takes all the strain off the connectors.
+* It is best to label this connection as well as the end of the extension.
+* Repeat for Y1 and Z1 Stepper and endstops, as well as The Core's X and X endstop.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w4.jpg){: loading=lazy width="600"}
 
 * This is an easy way to deal with the extra wire.
-* Run it all the way to the board, plug it in.
-* Secure all wires at each brace.
-* All the slack at the furthest section
+* Run it all the way to the control board and plug it in.
+* Secure all wires at each brace. Shown at the top of the braces here, but the bottoms work just as well.
+* Pull all the slack to the furthest section as shown.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w5.jpg){: loading=lazy width="600"}
 
-* Fold up on itself and make a nice bundle. Most builds will have much less extra than this.
+* Fold each wire up on itself secure and make a nice bundle. 
+
+---
+
+![!LR4 Wire Routing](../img/lr4/w5b.jpg){: loading=lazy width="600"}
+
+* Extensions secured into place.
+* Wires connected to the control board.
+* You can run the wires along the top as show, helps with dust management, or along the bottom.
+
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w6.jpg){: loading=lazy width="600"}
 
 * Get ready to run the Core wires.
-* Secure them to the top of the core.
+* Secure the wires neatly to the top of the core.
+* If you are using a vac hose later they will get combined and secured in the same place.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w7.jpg){: loading=lazy width="600"}
 
-* Leave a small loop at the far end of travel.
+* Move the core all the way to X_Max, the YZ_Max plate.
+* Leave a small loop in the wires at the far end of travel.
 * You will be securing it the the brace just past halfway.
+* Adding in the Hose_Hooks can make this part easier.
+* Later when the vac hose gets added the wires get secured to it. If you are not using a vac hose you should use some sort of wire management [Shop](https://www.v1e.com/products/wire-sleeve?_pos=1&_sid=1a54ba9cd&_ss=r){:target="_blank"}, [Amazon](https://amzn.to/3EDzb1H){:target="_blank"}. The "tape measure trick" will also work here.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w8.jpg){: loading=lazy width="600"}
 
-* Move the core to the far end to make sure your wires travel easily.
-* Run it back and forth to make sure it sits well.
-* If you use a vac hose you can try this again after that is installed.
+* The Core wires get ran to the half way point and then into the braces with the other wires.
+* They wires get plugged in and then bundled neatly.
+* Carefully make sure the Core reaches both ends without pulling on the wires.
+* Again, the wires will be easier to move when the vac hose gets installed later.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w9.jpg){: loading=lazy width="600"}
 
 * Run the YZ Min assembly wires.
-* The slack can get bundled on the side or ran behind the board box and bundled on the other side.
-* Leave the board box as open to breathe as possible, do not bundles wires inside.
+* The slack can get bundled on either side of the board box.
+* Leave the board box as open to breathe as possible.
+
+---
+
+![!LR4 Wire Routing](../img/lr4/w9b.jpg){: loading=lazy width="600"}
+
+* Leave the board box as open for air flow as possible.
+
+---
+
+![!LR4 Wire Routing](../img/lr4/w9c.jpg){: loading=lazy width="600"}
+
+* Temporary power supply mounting
 
 ---
 
