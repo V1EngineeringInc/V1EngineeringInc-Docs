@@ -993,70 +993,152 @@ Start the YZ plates.
 
 ### Wire routing
 
+![!LR4 Wire Routing](../img/lr4/w1a.jpg){: loading=lazy width="600"}
+
+* Find a good home for your control board. The YZ_Min side as shown here is recommended.
+* The first bay makes wiring the easiest, as well as SD card access.
+
+---
+
 ![!LR4 Wire Routing](../img/lr4/w1.jpg){: loading=lazy width="600"}
 
-* It is easy to run your wires from the YZ assembly to the beam with the beam at full height.
-* Make sure the travel is free, clear, and smooth. The wires should have slack at all positions.
-* Cable ties to the braces work well.
+* Run your wires from the YZ assemblies to the beam with the beam at full height.
+* Feed the wires from the YZ assembly into the beam and secure them to the brace.
+* Make sure the travel is free, clear, and smooth. The wires should have slack at all positions, test this by moving the beam up and down.
+* Cable ties, wire ties, or tape to the braces work well to hold the wires in place.
 * Wire cover is nice but not needed [Shop](https://www.v1e.com/products/wire-sleeve?_pos=1&_sid=1a54ba9cd&_ss=r){:target="_blank"}, [Amazon](https://amzn.to/3EDzb1H){:target="_blank"}.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w2.jpg){: loading=lazy width="600"}
 
-* Add the extensions from the end furthest from the control board and the Core wires.
-* Fold the wires and get ready for tape.
+* Extensions are used from the YZ_Max side as well as from the Core, to reach the control board.
+* The extension connections need to be secured to remove any strain.
+* Fold the wires, leaving the connection straight, and get ready for tape.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w3.jpg){: loading=lazy width="600"}
 
-* Taping them like this takes all the strain off the connectors
+* Taping them like this takes all the strain off the connectors.
+* It is best to label this connection as well as the end of the extension.
+* Repeat for Y1 and Z1 Stepper and endstops, as well as The Core's X and X endstop.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w4.jpg){: loading=lazy width="600"}
 
 * This is an easy way to deal with the extra wire.
-* Run it all the way to the board, plug it in.
-* Secure all wires at each brace.
-* All the slack at the furthest section
+* Run it all the way to the control board and plug it in.
+* Secure all wires at each brace. Shown at the top of the braces here, but the bottoms work just as well.
+* Pull all the slack to the furthest section as shown.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w5.jpg){: loading=lazy width="600"}
 
-* Fold up on itself and make a nice bundle. Most builds will have much less extra than this.
+* Fold each wire up on itself secure and make a nice bundle. 
+
+---
+
+![!LR4 Wire Routing](../img/lr4/w5b.jpg){: loading=lazy width="600"}
+
+* Extensions secured into place.
+* Wires connected to the control board.
+* You can run the wires along the top as show, helps with dust management, or along the bottom.
+
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w6.jpg){: loading=lazy width="600"}
 
-* Get ready to run the Core wires.
-* Secure them to the top of the core.
+* Info on running the Core wires.
+* You have several options here, for most builds bundling the wires with your Router power cord is the easiest.
+* If you do not plan to use a vac hose, or are not using a router you will need some sort of wire loom or cover to give it more rigidity.[Shop](https://www.v1e.com/products/wire-sleeve?_pos=1&_sid=1a54ba9cd&_ss=r){:target="_blank"}, [Amazon](https://amzn.to/3EDzb1H){:target="_blank"}. The "tape measure trick" will also work here.
+* Other options are split loom, split sleeve (show later), wire tape, or spiral wrap.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w7.jpg){: loading=lazy width="600"}
 
-* Leave a small loop at the far end of travel.
+* Move the core all the way to X_Max, the YZ_Max plate.
+* Secure your wires to the first position at the top of the Core.
+* Add in the Hose_Hooks to hold the wires. (new hose hooks, the longer ones go where the hose moves, short ones ho on eth middle and end brace)
+* The wires and hose get secured to your middle brace, the number of hose hooks vary depending on build size.
+* Leave a small loop in the wires at the max position.
 * You will be securing it the the brace just past halfway.
+* If you are using a router set it in the tool mount and run the power cord along with the wires. Leave a little cord room for router adjustment in the tool mount.
+* Later when the vac hose gets added the wires get secured to it.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w8.jpg){: loading=lazy width="600"}
 
-* Move the core to the far end to make sure your wires travel easily.
-* Run it back and forth to make sure it sits well.
-* If you use a vac hose you can try this again after that is installed.
+* The Core wires get ran to the half way point and then into the braces with the other wires.
+* They wires get plugged in and then bundled neatly.
+* Carefully make sure the Core reaches both ends without pulling on the wires.
+* You can add a little partial twist in the wire bundle to make them behave properly when the core moves.
+
+---
+
+![!LR4 Wire Routing](../img/lr4/w8b.jpg){: loading=lazy width="600"}
+
+* When adding in your vacuum hose connect it to your dust shoe, and up to the second mounting hole in the top of the Core.
+* The hose gets secured to your middle brace and the Hose Hook. If needed add a partial twist so your hose tracks properly to both extremes and does not fall over the front or the back of the CNC.
+* The picture shows an easy way to route the wires and hose together. The wires cross under the hose after the middle brace.
+* Secure the wires to the hose just after each hose hook. You can secure them either just above the hose hook or in the corner. Both are shown in this picture.
+* It is best to pass the wires under the hose at the middle position, not over as it can snag.
+* The hose and wires are secured to the middle hose hook part, cable ties or tape will work. 
+
+---
+
+![!LR4 Wire Routing](../img/lr4/w8c.jpg){: loading=lazy width="600"}
+
+* Test the wire and hose routing at both extremes.
+* This is much easier before the X belt is added.
+* Take your time and get this tracking well.
 
 ---
 
 ![!LR4 Wire Routing](../img/lr4/w9.jpg){: loading=lazy width="600"}
 
 * Run the YZ Min assembly wires.
-* The slack can get bundled on the side or ran behind the board box and bundled on the other side.
-* Leave the board box as open to breathe as possible, do not bundles wires inside.
+* The slack can get bundled on either side of the board box.
+* Leave the board box as open and uncluttered as possible for easy air flow.
+
+---
+
+![!LR4 Wire Routing](../img/lr4/w9b.jpg){: loading=lazy width="600"}
+
+* Leave the board box as open for air flow as possible.
+
+---
+
+![!LR4 Wire Routing](../img/lr4/w9c.jpg){: loading=lazy width="600"}
+
+* After the strut plates are cut the power supply will get mounted here.
+* Size your wires to give you some room to work. Connect to your control board and run the power cable.
+
+---
+
+![!LR4 Wire Routing](../img/lr4/w9d.jpg){: loading=lazy width="600"}
+
+* For now just flip the power supply to hold it in place on your hose hooks.
+* When the strut plates are done This will get more permanently mounted.
+
+---
+
+![!LR4 Wire Routing](../img/lr4/w9e.jpg){: loading=lazy width="600"}
+
+* Bonus tip!
+* You can either run your power supply and Router cords out with the vacuum hose, or you can run a single extension cord into the beam.
+* An extension cable makes Y motion cable management easier later, and if makes it easy to add an SSR for automated router control (advanced).
+
+---
+
+![!LR4 Wire Routing](../img/lr4/w9f.jpg){: loading=lazy width="600"}
+
+* All wired up and ready to move on!!!
 
 ---
 
@@ -1065,33 +1147,47 @@ Start the YZ plates.
 ![!LR4 Belts](../img/lr4/yr1.png){: loading=lazy width="600"}
 
 * First step to mounting the CNC to the table is setting the Y rail
-* Do your best to make a perfectly rectangular table, but once the rail is set that becomes your reference, and the table edges mean nothing.
-* The belt holders and Y_Clips all share the outer edge, same reference.
+* Do your best to make a perfectly rectangular table, but once the rail is set that becomes your reference, so do your best to make your rail parallel to your table edge.
+* The belt holders and Y_Clips all share the outer edge, using the same reference.
 * The [calculator](calculator.md){:target="_blank"} "table measurement" gives you the exact outside dimensions of the belt holders as the footprint.
-* No more than 300mm gap is recommended.
+* No more than 300mm gap is recommended between Y_Clips.
 
 ---
 
 ![!LR4 Belts](../img/lr4/yr2.png){: loading=lazy width="600"}
 
 * Pre-drilling is highly recommended so your parts lay flat on the table when screwed down.
-* You can draw a centerline down the table to make this easy.
-* There is +-1.5mm so it has a little wiggle room if you are not perfect.
-* Best to set both Y Max belt ends and the first and last Y clips.
+* You can draw a screw hole centerline down the table to make this easy.
+* There is +-1.5mm so each clip has a little wiggle room if your holes are not perfect.
+* Best to set both Y Max belt ends and the first and last Y clips on the table first.
 * Then measure the remaining gap and equally divide the rest of your clips.
 
 ---
 
 ![!LR4 Belts](../img/lr4/yr3.jpg){: loading=lazy width="600"}
 
-* Make sure both Y Min belt holders get a M3 screw fully inserted
-* This is for coarse Y squaring adjustment
+* Make sure both Y Min belt holders get an M3 screw fully inserted
+* This is for coarse Y squaring adjustment screw
+
+---
+
+![!LR4 Belts](../img/lr4/yr3a.jpg){: loading=lazy width="600"}
+
+* Trick for marking the holes is an over sharpened pencil
+
 
 ---
 
 ![!LR4 Belts](../img/lr4/yr4.jpg){: loading=lazy width="600"}
 
-* Both ends set and pre-drilled.
+* Both ends get set and pre-drilled.
+
+---
+
+
+![!LR4 Belts](../img/lr4/yr4b.jpg){: loading=lazy width="600"}
+
+* The first clip get attached directly next to the belt holders on both ends.
 
 ---
 
@@ -1351,7 +1447,7 @@ NEED INFO
 
 At this point you should be ready to make some cuts. To be certain it all goes as planned, you can
 make a test cut in high density foam, or simply make an air cut. To make an air cut you, just home
-your machine above the table and run the gcode. This lets you watch that it moves as you would
+your machine above the table and run the Gcode. This lets you watch that it moves as you would
 expect it to and doesn't snag or have any faults in the code.
 
 [Basic software setup](../software/estlcam-basics.md){:target="_blank"}
