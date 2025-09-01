@@ -692,6 +692,7 @@ Start the YZ plates.
 * Run the small wires through the wire keeper first
 * Then run the stepper wires to hold them all in.
 * If you are having a hard time do not pry the tab, simply push the wires in with your pulley allen key or a flat head screwdriver.
+* If you have any sort of wire covering on your stepper wires you will need to remove them. (some international direct kits)
 
 ---
 
