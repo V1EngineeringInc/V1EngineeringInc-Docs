@@ -150,7 +150,7 @@ extra:
     - icon: 'fontawesome/brands/reddit'
       link: 'https://www.reddit.com/r/mpcnc/'
     - icon: 'fontawesome/brands/discord'
-      link: 'https://discord.gg/hMaBvfe'
+      link: 'https://discord.gg/kY9tv2Gzgp'
     - icon: 'fontawesome/brands/patreon'
       link: 'https://www.patreon.com/V1Engineering'
 
@@ -205,3 +205,4 @@ markdown_extensions:
   - toc:
       permalink: true
  
+
