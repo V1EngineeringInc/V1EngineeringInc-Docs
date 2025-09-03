@@ -146,7 +146,9 @@ Printed parts files can be found at the links below
 |1   |X_Belt                      |30%  |                                     |                                         |
 |4-6 |Brace_###                   |30%  | * See Brace note below              |                                         |
 |1   |Brace_Max_###               |60%  | * See Brace note below              |                                         |
-|4-6 |Hose_Hook_##                |30%  | Print one for each Brace            |                                         |
+|1-2 |Hose_Hook_##                |30%  | 1 or 2 depending on your build      |                                         |
+|1-2 |Hose_Holder_Hook            |30%  | 1 or 2 depending on your build      |                                         |
+|2   |Hose_Holder_Shorty          |30%  |                                     |                                         |
 |7-10|Y_Clip_###                  |30%  | No more than 300mm center to center |                                         |
 |4   | Temp Strut                 |15%  |                                     |                                         |
 |    |Tool Mount Set              |     |                                     |                                         |
