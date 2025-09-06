@@ -59,6 +59,7 @@ nav:
 
  - Control:
    - Control Boards:
+     - Jackpot2 CNC Controller: electronics/jackpot2.md
      - Jackpot CNC Controller: electronics/jackpot.md
      - SKR Pro: electronics/skrpro.md
      - Ultimachine Boards: electronics/ultimachine.md
