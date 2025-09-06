@@ -7,9 +7,10 @@ The Jackpot2 CNC Controller is a 32bit dual-core 240mhz control board.
 - Built in wireless control software
 - WiFi, Bluetooth, or hardwired capable (esp32). 
 - 6x TMC2226 drivers
-- 7 inputs, 3x 5V or 24V(input level) outputs. *NO PWM*
+- 7 inputs, 3x 5V or 24V(PS input level) outputs. *NO PWM*
 - One expansion FluidNC module socket (more IO, or other specialty add on cards).
-- MicroSD card slot. 
+- MicroSD card slot.
+- Integrated RJ11 socket.
 
 The Jackpot2 CNC Control board runs FluidNC which is fully GRBL compatible, with extended features featuring easy configuration and updating or GRBLHal.
 
