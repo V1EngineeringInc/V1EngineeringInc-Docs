@@ -1258,7 +1258,7 @@ Start the YZ plates.
 ![!LR4 Belts](../img/lr4/yb8.jpg){: loading=lazy width="600"}
 
 * Setting the Y min distance can be done from the [calculator](calculator.md){:target="_blank"}, or
-* Using a piece of belt on the table to set a one belt gap width.
+* Using a piece of belt on the table to set a one belt gap width, making sure your end to end brace gap is set to the calculated width so nothing changes when you add your strut plate.
 * Mark and pre-drill all your holes.
 * I used a pencil sharpened by hand to get into the deep holes
 
@@ -1269,13 +1269,16 @@ Start the YZ plates.
 * Set the Y stop screw so the endstop triggers just before the LowRider hits the end
 * If the endstop gets past the screw there is a good chance you will pop or bend the endstop lever.
 * Take your time here. I get a trigger and about 4mm more travel.
+* You can very easily bend the tab so it sticks out further to trigger easier.
+* Some people have a hard time here, if you pull the LR all the way to the belt holders the endstop tab should not go past the screw. I suspect some endstop tabs are just more narrow, very easy to bend it out a little to catch the screw further out and earlier.
+* (Pro tip, if you do not like this method you can use the YMAX endstop location instead and just make a few edits to your firmware to make it home to YMAX, back of the table, instead of YMIN, front of the table.)
 
 ---
 
 ![!LR4 Belts](../img/lr4/yb9.jpg){: loading=lazy width="600"}
 
-* Finish this belt just like the max side
-* M3's to secure, correct tension
+* Finish this belt just like the max side.
+* M3's to secure the belt, set the correct tension.
 * Y axis squaring gets set later.
 
 ---
