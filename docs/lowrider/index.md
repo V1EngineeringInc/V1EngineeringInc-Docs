@@ -1232,6 +1232,7 @@ Start the YZ plates.
 ![!LR4 Belts](../img/lr4/yb5.jpg){: loading=lazy width="600"}
 
 * Sink the nut and insert the screw
+* The Nylock is closest the thin end.
 
 ---
 
