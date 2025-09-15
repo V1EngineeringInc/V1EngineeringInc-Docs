@@ -621,8 +621,9 @@ Start the YZ plates.
 
 ![!LR4 yz assm](../img/lr4/yzs2.jpg){: loading=lazy width="600"}
 
-* make sure to label the wire, Y0 or Y1.
+* Make sure to label the wire, Y0 or Y1.
 * Feed the wire through the channel, make sure you are on the larger side of the hole.
+* You are mounting the stepper with the wires nearest the channel / hole.
 
 ---
 
@@ -809,7 +810,9 @@ Start the YZ plates.
 ![!LR4 yz assm](../img/lr4/yzs7.jpg){: loading=lazy width="600"}
 
 * Snug in the Z stubs using the two M5 screws.
-* Leave out the cross tensioner screws for now.
+* For some this is tricky, Z Binding, the Z stubs should be perpendicular to the lead screw. If you have a tilt/twist, the Z screw can have some binding.
+* After you snug the Z stubs make sure the nut moves easy as you twist it up and down with your fingers with a little pressure on the metal plate.
+* Leave out the cross tensioner screws, most people will not use these.
 * Make sure the Z_nut is already in place.
 
 ---
@@ -895,7 +898,7 @@ Start the YZ plates.
 
 ![!LR4 Beam assm](../img/lr4/beam4.jpg){: loading=lazy width="600"}
 
-* Install the temp strut plates, orientation is shown in teh following two steps.
+* Install the temp strut plates, orientation is shown in the following two steps.
 * Do not crush the front rail clamps.
 * As you tighten the screws you will feel the clamps start to engage, that is all you need.
 * Tubes will still be able to rotate, if you try hard enough you can pull them out.
@@ -1000,6 +1003,7 @@ Start the YZ plates.
 
 * Find a good home for your control board. The YZ_Min side as shown here is recommended.
 * The first bay makes wiring the easiest, as well as SD card access.
+* [Jackpot Wiring](../electronics/jackpot.md/##wiring), Other boards will be similar. You will start routing the wires to your controller.
 
 ---
 
@@ -1283,42 +1287,11 @@ Start the YZ plates.
 
 ---
 
-![!LR4 Belts](../img/lr4/yh1.jpg){: loading=lazy width="600"}
-
-* If you are using a vacuum hose, it is best to set it before attaching the X belt.
-* Plug in the tool end
-* Route the hose up and cable tie / secure it to the top of the core
-
----
-
-![!LR4 Belts](../img/lr4/yh2.jpg){: loading=lazy width="600"}
-
-* Arrange the hose and wires starting at X max
-* Best to leave a slight curve even all the way at the end
-* If you work up against a wall make sure your hose does not touch the wall
-* Secure the hose again at just past the halfway point
-
----
-
-![!LR4 Belts](../img/lr4/yh3.jpg){: loading=lazy width="600"}
-
-* Move to X min, and back and forth to get the hose to behave for the entire range of motion
-* You may need to add a bit of a twist one way or the other
-* Make sure the hose is never pulled tight
-
----
-
-![!LR4 Belts](../img/lr4/yh4.jpg){: loading=lazy width="600"}
-
-* The hose should sit relaxed and always fall back in to the cradle.
-* Keep an eye on your wires as well, typically they move different from the hose so you can not attach them to each other.
-
----
-
 ![!LR4 Belts](../img/lr4/xb1.jpg){: loading=lazy width="600"}
 
 * Now the X belt
 * Wrap around an M3 screw
+* You can pinch the belt and hold it in the metal XZ plate as you work it in further.
 
 ---
 
@@ -1332,7 +1305,7 @@ Start the YZ plates.
 
 * Load the belt into the X Belt tensioner
 * Make sure to get the distance right
-* Move the core back and forth SLOWLY to make sure the belt is on teh pulley and idlers properly
+* Move the core back and forth SLOWLY to make sure the belt is on the pulley and idlers properly
 
 ---
 
@@ -1344,7 +1317,7 @@ Start the YZ plates.
 
 That is nearly it...You are ready to plug it in and take it for a test ride. No more making noises, it will do that itself!!
 
-Setting the Z stub distance......coming soon
+Making some moves with the [Jackpot CNC Controller](../electronics/jackpot.md/#onboard-controls), or a more [generic approach](../software/index.md/#testing). You are going to want to drive your machine around a bit, get a little familiar with it. You can do some test cuts in foam, or wood before any real calibration.
 
 ---
 
