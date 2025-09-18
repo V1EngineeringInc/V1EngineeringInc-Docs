@@ -58,7 +58,7 @@ More details to the loosened restrictions can be found here on [the home page](h
 
 ## Parts Needed
 
-### Table 
+#### Table 
 
 Your table needs only be as fancy as a sheet of wood on a relatively flat, smooth surface. A CNC machine can self correct many of its own imperfections if needed. Typically, our tables only support the CNC and some material, so nothing heavy duty is required. Stability is the main goal of your table.
 
@@ -75,7 +75,7 @@ If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion 
 
 ![!LR4 overhead Picture](../img/lr4/Top.png)
 
-### Rails
+#### Rails
 
 You are looking for either 29.5mm, 30mm, or 32mm Outside Dimension (OD) steel tubes. In the U.S. and parts of Canada this will be 1" EMT Conduit (29.5mm), off the shelf hardware store conduit (not "rigid" conduit). In other countries you will either be 30mm or 32mm OD.
 
@@ -88,7 +88,7 @@ If you want to find a different material for rails, look for:
 
 If your country does not use metal conduit, things to look for are: metal supply companies, closet rods, or boat suppliers tend to have stainless tubes.
 
-### Printed Parts
+#### Printed Parts
 
 DIY or Buy?
 
@@ -174,7 +174,7 @@ Printed parts files can be found at the links below
 
 ![!LR4 JJ's Picture](../img/lr4/JJs.jpeg){: loading=lazy width="600"}
 
-## Flat Parts
+### Flat Parts
 
 ### Strut Plates
 
@@ -217,7 +217,7 @@ You can cut your own metal plates with the DXF files found with the printed part
 
 There is a file for [printable XZ plates](https://https://www.printables.com/model/1047962-printable-xz-plates-for-lowrider-4-consider-alu-in) by member Aza, the idea being that you would only use them temporarily to cut metal plates. This is only recommended if you have experience with Aluminum cutting on a V1 CNC.
 
-## Specialty Parts
+### Specialty Parts
 
 You can buy most of the specialty parts and hardware here, [V1 Shop](https://www.v1e.com/products/lowrider-v4-hardware-kit){:target="_blank"}
 
@@ -997,7 +997,7 @@ Start the YZ plates.
 
 ---
 
-### Wire routing
+### Wire Routing
 
 ![!LR4 Wire Routing](../img/lr4/w1a.jpg){: loading=lazy width="600"}
 
@@ -1323,11 +1323,47 @@ Making some moves with the [Jackpot CNC Controller](../electronics/jackpot.md/#o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TwWMBFpjfRU?si=-1p3vmnfCMOMpmL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Initial Squaring
+## Initial Calibration
+
+#### Belt Calibration
+
+The first calibration you should run is a belt calibration. The GT2 belts actually very in pitch by a little bit. On smaller machines you might not even notice, on a full sheet machine it can show up more. Luckily it is a simple test and you only need to do it, on initial setup or if you change your belts. Over 2400mm it can vary up to +-6mm, or more rarely it will be perfect.
+
+You just need to mark a spot near the closest position on your table, move a know distance, and mark another point at the furthest point of your table. With this information you can change your steps per millimeter to match your belts. You should only need to do this on one axis, your longest for the most accuracy, and it will apply to both X and Y, provided you are using the same belts on both.
+
+The math looks like this, (Distance you told the machine to move / Distance it actually moved) * Steps per millimeter in your firmware = new steps per millimeter in your firmware.
+Example (2400mm/2394.2mm)*50steps=50.121steps
+
+In the Jackpot boards you can just go into the config.yaml and change both X and Y "steps_per_mm: 50.000" settings to the new value. Use the save macro, and reboot.
+
+Make sure to test the new settings.
+
+I prefer to use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in the router, but you can use the pen mount to mark a small dot as well.
+
+![!LR4 belt calibration](../img/lr4/belt1.jpg){: loading=lazy width="400"}
+
+* I use tape at each end, so I can be sure I am using the correct mark. Swap out the tape with each test.
+* Home the X and Y axis.
+* Use the Z axis to mark a small dot at near your table edge.
+* Move your machine to the far end of your table, keep track of how far you asked it to move, and make another mark.
+* Move the CNC out of the way.
+* Measure these marks to the best of your abilities.
+
+---
+
+![!LR4 belt calibration](../img/lr4/belt2.jpg){: loading=lazy width="400"}
+
+* Here is what the dot looks like from a V-bit
+* It is best to get a helper to hold one end while you read the other.
+* Verify your new settings, usually one try is all it takes and this should not change.
+
+---
+
+#### Squaring
 
 To square the machine, it is easiest to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the rail. You will probably need to repeat this a couple of times to get it under 1mm difference. This is a multiplied error, so 1mm or less is very very good.
 
-You can use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in your router to pop a tiny hole into some tape, or cable tie a pen to the vacuum mount and mark some points/dots.
+You can use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in your router to pop a tiny hole into some tape, or use a pen to the vacuum mount and mark some points/dots.
 
 ![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: loading=lazy width="400"}
 
@@ -1534,4 +1570,4 @@ At this point you are done, you have a fully functional machine! How cool is tha
 
 Now that you have a V1 Engineering CNC Machine how about you put a [little pin in our map](https://www.v1e.com/blogs/news/user-map)!?!
 
-## Go get it dirty, be safe, have fun!
+### Go get it dirty, be safe, have fun!
