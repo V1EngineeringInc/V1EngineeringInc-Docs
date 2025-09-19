@@ -23,7 +23,7 @@ This first build of mine has a 300x300x200 build area, running Klipper, **Costs 
 
 If you want a printer that is different than the standard build size, or has a custom extruder/hot end, you'll need to edit some parameters in the CAD file to generate the correct part sizes for your build.
 
-[CAD link - Fusion](https://myhub.autodesk360.com/ue29a24ab/g/shares/SH512d4QTec90decfa6e972762faaa11c772).
+[CAD link - Fusion](../img/mp3dpv5/V1E+V5.f3z), Fusion360 archive file.
 
 This is how you adjust the model. Open the modify menu, Change parameters Menu.
 ![!Open Parameters](../img/mp3dpv5/Parameters%20-%20open.png){: width="600"}
