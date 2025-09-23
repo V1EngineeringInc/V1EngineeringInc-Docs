@@ -1340,7 +1340,7 @@ Make sure to test the new settings.
 
 I prefer to use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in the router, but you can use the pen mount to mark a small dot as well.
 
-![!LR4 belt calibration](../img/lr4/belt1.jpg){: loading=lazy width="400"}
+![!LR4 belt calibration](../img/lr4/belt1.jpg){: loading=lazy width="600"}
 
 * I use tape at each end, so I can be sure I am using the correct mark. Swap out the tape with each test.
 * Home the X and Y axis.
@@ -1351,7 +1351,7 @@ I prefer to use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in t
 
 ---
 
-![!LR4 belt calibration](../img/lr4/belt2.jpg){: loading=lazy width="400"}
+![!LR4 belt calibration](../img/lr4/belt2.jpg){: loading=lazy width="600"}
 
 * Here is what the dot looks like from a V-bit
 * It is best to get a helper to hold one end while you read the other.
@@ -1361,57 +1361,95 @@ I prefer to use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in t
 
 #### Squaring
 
-To square the machine, it is easiest to mark 4 points and measure the diagonal. This is how we set the Y axis homing to square the machine relative to the rail. You will probably need to repeat this a couple of times to get it under 1mm difference. This is a multiplied error, so 1mm or less is very very good.
+To square the machine, it is easiest to mark 4 points and measure the diagonal. This is how we set the Y axis to square the machine relative to the rail every time you home. You will probably need to repeat this a couple of times to get it under 1mm difference. This is a multiplied error, so 1mm or less is very very good.
 
-You can use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in your router to pop a tiny hole into some tape, or use a pen to the vacuum mount and mark some points/dots.
+You can use a [V-Bit](https://www.v1e.com/products/1-8-45-degree-v-bit) in your router to pop a tiny hole into some tape, or use the pen mount to mark some points/dots. You can easily move the router manually or here is a sample Gcode you can edit to suit your build size and speed up the tests.
 
-![!LR3 Fancy Picture](../img/lr3/LR3 (81).jpg){: loading=lazy width="400"}
+```markdown
+$H ;Home all three axes
+G1 X30 Y30 F6000 ;Move to starting corner
+G1 Z-98 F6000 ;Move down to mark first hole
+G1 Z-78 F600 ;Lift Z axis up before it moves
+G1 X1190 F6000 ;Move to right side
+G1 Z-98 F600
+G1 Z-78
+G1 Y2400 F6000 ;Move to back right
+G1 Z-98 F600
+G1 Z-78
+G1 X30 F6000 ;Move to back left
+G1 Z-98 F600
+G1 Z-78
+G1 Y1200 Z0 F6000 ;Move out of the way so you can measure
+```
 
-* I use tape, so I can be sure I am using the correct mark.
+---
+
+![!LR4 squaring](../img/lr4/sq1.jpg){: loading=lazy width="600"}
+
+* I use tape, so I can change it out to be sure I am using the correct mark each time.
 * Home the X and Y axis. This step is important.
 * Use the Z axis to mark a small dot at 0,0.
 
-![!LR3 Fancy Picture](../img/lr3/LR3 (82).jpg){: loading=lazy width="400"}
+---
 
-* Now drive the machine to your X axis furthest point (or very close to it).
+![!LR4 squaring](../img/lr4/sq2.jpg){: loading=lazy width="600"}
+
+* Now drive the machine to your X axis furthest point (or close to it).
 * Use the Z to mark the dot.
 
-![!LR3 Fancy Picture](../img/lr3/LR3 (83).jpg){: loading=lazy width="400"}
+---
+
+![!LR4 squaring](../img/lr4/sq3.jpg){: loading=lazy width="600"}
 
 * Drive to the Y extreme and repeat the process for the back two corners.
 
-![!LR3 Fancy Picture](../img/lr3/LR3 (84).jpg){: loading=lazy width="400"}
+---
 
-* Now measure the diagonals to the best of your ability. Note the longer one, and subtract to find the difference. Under 1mm is very good.
+![!LR4 squaring](../img/lr4/sq4.jpg){: loading=lazy width="600"}
 
-Corrections are made as follows if you are over 1mm of difference. A good first guess for your offset is the difference in your measurements.
+* Now measure the diagonal to the best of your ability. 
+
+---
+
+![!LR4 squaring](../img/lr4/sq4.jpg){: loading=lazy width="600"}
+
+* Now measure the other diagonal to the best of your ability. Note the longer one, and subtract to find the difference. Under 1mm is very good.
+
+---
+
+If you have a difference, you have a parallelogram, instead of a rectangle. Corrections should be made if you are over 2mm of difference, depending on your use case. A good first guess for your offset is half the difference in your measurements.  The corner nearest the endstop that is associated with the longer of the two diagonals needs to move further from the Y hard stop. You do this in the firmware.
+
+Coarse adjustments can be made with the Y-axis endstop screws. Turning them too far in can lead to hitting the hard stops before the switches, too far out and you can run the risk of popping off the endstop levers.
 
 === "JackPot CNC Controller"
 
-In the WebUI you can add to your Y axis pull-off distance to correct any skew. Scroll all the way down and hit
-save. Back on the main screen use the "Save" macro to make the changes stick after a re-boot. This is a little different on the UI V2 and V3,
+In the WebUI you can add to your Y axis pull-off distance to correct any skew. Back on the main screen use the "Save" macro to make the changes stick after a re-boot. This is a little different on the UI V2 and V3,
 the important part is using the save macro.
+
 === "SKR Pro / Marlin"
 
 Use the terminal on your SKR Pro or a USB connection and repetier host to add a homing offset. "M666 Y0.5" will move your Y1
 stepper 0.5mm away from the stop block after it homes. "M666 Y-0.5" will move your Y2 stepper away instead. You want to move the longer dimension side away from the
 block. Now Use "M500" to save it to the EEPROM. Re-home X and Y and test it again.
-??? note "Jamie's Automated "Squareness Marks""
 
-You can also automate this process with Jamie's ["Squareness Marks"](https://vector76.github.io/gcode_tpgen/){:target="_blank"} test.
-
-Home the X and Y axis.
-
-Start with G92 X0 Y0 Z0 - Check this box and where the tip is will be 0,0,0. I suggest starting the tip just above the paper.
-
-Z level for tip-down - Make this number more negative if you find some of your marks are not hitting the paper, but you want as light a touch as possible.
-
-Z level for tip-up - You can go as high as you need to not drag the pen tip.
-
-Feedrate - This is set at a safe travel rate. The Default is safe.
-
-Extents - This is where you set the dimensions of your table. The further apart the marks, the more accurate your table will be.
-Old Video of this on an SKR Pro
+??? note "If you prefer to use a pen I suggest using Jamie's Automated "Squareness Marks""
+    -You can also automate this squaring process with Jamie's ["Squareness Marks"](https://vector76.github.io/gcode_tpgen/){:target="_blank"} test gcode generator.
+    
+    -Home the X and Y axis.
+    
+    -Start with G92 X0 Y0 Z0 - Check this box and where the tip is will be 0,0,0. I suggest starting the tip just above the paper.
+    
+    -Z level for tip-down - Make this number more negative if you find some of your marks are not hitting the paper, but you want as light a touch as possible.
+    
+    -Z level for tip-up - You can go as high as you need to not drag the pen tip.
+    
+    -Feedrate - This is set at a safe travel rate. The Default is safe.
+    
+    -Extents - This is where you set the dimensions of your table. The further apart the marks, the more accurate your table will be.
+    
+    -Please know the V bit method is a bit moe accurate because a pen can deflect slightly.
+  
+Old Video of this on an SKR Pro  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w5H1AZ40YHk?si=GJcbqE_V3bhuVvV1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
