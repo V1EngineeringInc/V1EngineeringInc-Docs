@@ -1,0 +1,11 @@
+name: V1-docs
+services:
+  web:
+    container_name: v1engineeringinc-docs
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/src/:rw
+    ports:
+      - "8080:8080"
