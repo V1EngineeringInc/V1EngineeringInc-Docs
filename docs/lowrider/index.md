@@ -1457,42 +1457,59 @@ Old Video of this on an SKR Pro
 
 ### Z Leveling
 
-![!LR3 Fancy Picture](../img/lr3/LR3 (85).jpg){: loading=lazy width="400"}
+Z Leveling is just making sure the Beam is level with the work surface. The Z endstops are adjustable so there can be slight differences in each side's homing location. This adjustment lets you dial in the Z home location at each end of the beam as compared to your table. Most people do not need crazy Z accuracy but you do want to make sure it is pretty close. Getting under 0.1mm difference is pretty easy with this method.  To take this a bit further most Z accuracy critical projects have you surfacing your material so this step is not critical as that will get the surface as flat as possible. 
 
-* Z leveling is a bit easier than the Y axis if you have a touch plate. You can also use any sort of block or piece of paper as a feeler gauge.
-* We are only looking for the difference here.
+You will need to do this again after you rebuild your beam with the strut plates but most likely it will still be very close. When the beam gets rebuilt you can surface your entire work surface to level the entire thing, but most reasonably flat tables do not need this to be done.
 
-![!LR3 Fancy Picture](../img/lr3/LR3 (86).jpg){: loading=lazy width="400"}
+The basics are take a few measurements at each end in the same place, average each side's position, then adjust the Z offset to account for the difference. The side with the more negative number gets adjusted. The more negative the number the higher that endstop is triggering. After the adjustments, save your config, reboot, and test it one more time. Again, this number is not as critical as it may seem to some.
 
-Steps
+This is a little gcode to automate some of this on the Jackpot board. Move to the x and Y location you want to probe at and run this to automate this a little. Run this several times at each position and average the position.
 
-1. Home all three of your axis.
-2. Get Readings
+```markdown
+$HZ
+G10 L2 P0 Z0 ;set Z to zero
+G1 Z-70 F800 ;move down fast
+G38.2 Z-100 F60 ;probe slow
+```
 
-   * Touch plate
-   * If you are using the touch plate, You can use the probe tab for the Jackpot CNC controller or for the SKR Pro / Marlin- you probe by using G38.2 Z0 in the terminal window.
-   * When it gets there, take note of the current Z position (top of the Jackpot screen or terminal-M114). Then move it up and over to your X axis extreme and probe again, taking note of the Z axis position. Take the difference and adjust the side that moved furthest.
-   * The way I have started to do this is Home and probe twice on each side. So G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114, Then move over G0 X1250, G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114. From there subtract the average of both sides, M666 Z0.5, M500. Then test again. G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114, Then move over G0 X1250, G28 Z0, G38.2 Z0, M114, G28 Z0, G38.2 Z0, M114.
-
-* Feeler Gauge
-  * You will drive your Z axis down until you just make contact with the touch plate and take note of the current Z axis position. Repeat this for the other end of the X axis. Take the difference and adjust the side that moved furthest.
-
-![!LR3 Fancy Picture](../img/lr3/LR3 (87).jpg){: loading=lazy width="400"}
-
-3. Make adjustments
-
-* Jackpot CNC Controller / FluidNC
-
-  * Adjust the Z pulloff in the settings tab.
-  * Save at the bottom of the screen
-  * Save macro on the home screen.
-* SKR Pro / Marlin
-
-  * You adjust by running "M666 Z0.5" the number is in millimeters. These numbers are counting down from 200, so 120 is further away than 130. Start by adjusting 0.2mm more than your difference.
-  * Save with M500 after each adjustment
-  * Home all three axis and check your work (go back to Step #2).
+The advanced way to do this in FluidNC is run [Jason's Gcode script](https://forum.v1e.com/t/gcode-variables-and-loops/41588/17?u=vicious1).
 
 ---
+
+![!LR4 squaring](../img/lr4/levelz1.jpg){: loading=lazy width="600"}
+
+* Z leveling is a bit easier than the Y axis if you have a touch plate. You can also use any sort of block or piece of paper as a feeler gauge.
+* I move 30-50mm in from each edge when I test, front and sides.
+* If you are using a touch plate you can tape it down to increase your accuracy.
+* Home the z-axis.
+* Set the Z position to 0, in FluidNC that is G10 L2 P0 Z0, in Marlin that is G92 Z0.
+* Very slowly, Probe to the touch plate (or whatever feeler gauge you are using).
+* In Fluid NC probe to a touchplate looks like this, G38.2 Z-100 F60, in Marlin it is G38.2 Z0
+* Make note of the current Z position, do this at least 3 times on each side and average the position.
+
+---
+
+![!LR4 squaring](../img/lr4/levelz3.png){: loading=lazy width="400"}
+
+* In FluidNC this is your current Z position
+* In marlin this will say on your LCD screen, or your gcode sender.
+
+---
+
+![!LR4 squaring](../img/lr4/levelz2.jpg){: loading=lazy width="600"}
+
+* Repeat this for the other side.
+* Make sure to always hold or tape down your touch plate during this test for the best accuracy.
+* Again, repeat 3 times and average your location.
+
+---
+
+At this point you take the difference and adjust the side that is more negative. If I got -97 for Z0, and -98 for Z1, The difference is 1mm. I would add 1mm to the pulloff setting for Z1. We use a 4mm pulloff in FluidNC as the default so in this case you would change that to 5mm. This will make the axis trigger and reverse 5mm from the endstop trigger point. We need at least 4mm for the trigger to reset so never make is smaller. Save your settings, power cycle your control board, then retest each side at the same locations one time to verify the settings are good (under 0.5mm difference for most common use).
+
+For Marlin you adjust your settings with M666 Z1 This moves the right side down, or M666 Z-1 or this moves the left side down. Then you need to do an M500 to save your settings. Power cycle and retest each end at the same positions.
+
+---
+
 
 ### Making the Strut plates
 
