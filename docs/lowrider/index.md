@@ -1513,49 +1513,71 @@ For Marlin you adjust your settings with M666 Z1 This moves the right side down,
 
 ### Making the Strut plates
 
-!!! warning
-NEED INFO
 
-At this point you should be ready to make some cuts. To be certain it all goes as planned, you can
-make a test cut in high density foam, or simply make an air cut. To make an air cut you, just home
-your machine above the table and run the Gcode. This lets you watch that it moves as you would
-expect it to and doesn't snag or have any faults in the code.
+At this point you should be ready to make some cuts, you should have made your own gcode and done a few test cuts to get familiar with everything. 
 
-[Basic software setup](../software/estlcam-basics.md){:target="_blank"}
+Those links in case you need to reference them. [Basic software setup](../software/estlcam-basics.md){:target="_blank"}, [Basic CAM settings](../tools/milling-basics.md){:target="_blank"}
 
-[Basic CAM settings](../tools/milling-basics.md){:target="_blank"}
+The two strut plates should be 6.35mm (1/4") or thinner of MDF or similarly rigid material, no 1/4" ply, that is just too soft. Plastic or metal are fine, just harder for a new CNC user to cut.
 
-TED-----Gcode making - TODO
+---
 
-The two strut plates should be 6.35mm (1/4") or thinner of MDF or similarly rigid material. Plastic or metal are fine.
-You will want to cut each plate as close to the side of your build as you can to assure your cut is as easy as possible. Meaning in the center of your table is NOT the best place to make cuts before you have strut plates, the sides closest the the YZ plates are the most rigid, especially when you do not have strut plates installed.
-
-![!LR3 Fancy Picture](../img/lr3/LR3 (88).jpg){: loading=lazy width="400"}
+![!LR4 Strut Plates](../img/lr4/splates1.jpg){: loading=lazy width="600"}
 
 * Getting ready to make your first cuts all starts with loading the material.
-* Make sure the edge is behind your Endmill in the Y direction and parallel with the edge in the X direction.
+* Check to make sure your material is relatively square on the machine, the larger your material the less you need to worry about this.
+* Secure the material and make sure your endmill will not hit as it passes near it. I use screws with large heads.
+
+---
+![!LR4 strut plate Picture](../img/lr4/strut.png){: loading=lazy width="600"}
+
+* Use [calculator](calculator.md) and the [Vector76 Strut Generator](https://vector76.github.io/Web_OpenSCAD_Customizer/strut_plate.html) output to make your custom file.
+* `strut_length` = value from the [calculator](calculator.md)
+* `num_braces` = leave at default
+* `size of dogbone...` = leave at 3.5 for a 1/8" (3mm) endmill
+* Check both `front_plate` and `bottom_plate`
+* `front_wing_size` = 11.5 for 29.5 mm (1" EMT conduit), or your conduit size if different.
+* Click `Render (Ctrl+Enter)` to create your strut plates
+* Click the link to download `strut_plate.svg`. More on what to do with this later!
+* His site has all sorts of other helpful things linked on other Docs pages.
 
 ---
 
-![!LR3 Fancy Picture](../img/lr3/LR3 (89).jpg){: loading=lazy width="400"}
+![!LR4 Strut Plates](../img/lr4/splates2.jpg){: loading=lazy width="600"}
 
-* Checking the front and back edges relative to the table. (To the rail would be a more proper measurement)
-
----
-
-![!LR3 Fancy Picture](../img/lr3/LR3 (90).jpg){: loading=lazy width="400"}
-
-* Secure the material and make sure your means will not interfere with the core as it passes over. I use screws with large heads.
+* In EstlCAM you can open that svg file using Millimeters.
+* You will need to rotate the drawing layer 90 degrees
+* Also move your Zero near the lower left corner.
+* The zero position is where you will move the machine to after homing your CNC.
 
 ---
 
-![!LR3 Fancy Picture](../img/lr3/LR3 (91).jpg){: loading=lazy width="400"}
+![!LR4 Strut Plates](../img/lr4/splates3.jpg){: loading=lazy width="600"}
 
-* This is what a finished cut looks like. All parts are held in place with small tabs of material that can be cut with a saw or utility knife.
+* Beginners should only cut one plate at a time, so you can adjust any settings if needed.
+* Drill all the holes first
+* Helical drill will get you those perfect larger diameter holes with the smaller endmill.
+
+---
+
+![!LR4 Strut Plates](../img/lr4/splates4.jpg){: loading=lazy width="600"}
+
+* Use "Part" to cut outside the line.
+* Make sure to use several "tabs" to keep your part in the material after it has been cut out.
+
+---
+
+![!LR4 Strut Plates](../img/lr4/splates5.jpg){: loading=lazy width="600"}
+
+* You can use the "Select" tool to drag a rectangle around the entire project and select all the paths
+* Now you can adjust all the setting to match. Depth of cut (at least 0.2mm further than your material), finishing path size and tool, and tab width and thickness.
+* Export your program and cut those parts!
 
 ---
 
 ### Temp to Custom Strut Plates
+
+Now to put the new strut plates on your CNC. I like this part as it gives you a second chance to clean up any sloppy wiring and finalizes the CNC.
 
 ![!Strut Plates](../img/lr4/sr1.jpg){: loading=lazy width="600"}
 
