@@ -1583,6 +1583,7 @@ Now to put the new strut plates on your CNC. I like this part as it gives you a 
 
 * Swapping to the custom strut plates is pretty easy.
 * Start by removing the X belt, and both Y belts.
+* Bundle and rubber band them to help prevent them with snagging.
 
 ---
 
@@ -1590,54 +1591,88 @@ Now to put the new strut plates on your CNC. I like this part as it gives you a 
 
 * Loosen and remove all the front plate X rail screws.
 * Remove all four temp strut plates.
-* Raise the gantry up so the rail will clear the YZ plate
 
 ---
 
 ![!Strut Plates](../img/lr4/sr3.jpg){: loading=lazy width="600"}
 
-* Slide the Top X rail out one section
+* To remove the Core, you can remove the whole side or just slide out the top rail enough to slip off the Core.
+* You can also slide the Core to the far end and shimmy the strut plates under it, to me that is a little harder.
 
 ---
 
 ![!Strut Plates](../img/lr4/sr4.jpg){: loading=lazy width="600"}
 
-* Remove the core.
-* Add the custom strut plates keeping the screws loose.
-* Put the Core back on
-* Slide the top rail back into place
-* Snug up all the plate screws.
+* Add the front strut plate, you will need to line up the braces.
+* It can be tight, some tips are put the plate straight in, if you try to wedge it top to bottom it is harder.
+* Do not push too hard or you can crack your plate.
+* If you are having issues you can pop the two rails out and that gives you more room to put the plate in, put the rails back before the screws.
+* Add the screws in. Keep them loose as you might need to shimmy things around a little. You will snug these later.
 
 ---
 
-![!Strut Plates](../img/lr4/B8.jpg){: loading=lazy width="600"}
+![!Strut Plates](../img/lr4/sr5.jpg){: loading=lazy width="600"}
+
+* Put the core back on.
+* Add the last two screws.
+
+---
+
+![!Strut Plates](../img/lr4/sr6.jpg){: loading=lazy width="600"}
+
+* Add the bottom plate, same as the front.
+* One tip here is to tip in the X min side first to get the edge under the M3 bearing block screws.
+* Once you get all the bottom screws and nuts in lightly, you can go back and snug these up.
+
+---
+
+![!Strut Plates](../img/lr4/sr7.jpg){: loading=lazy width="600"}
 
 * If you use a V1 board box you can use it to mark and then drill the holes in your strut plate
 * M3x10 to secure.
 
 ---
 
-![!Strut Plates](../img/lr4/B9.jpg){: loading=lazy width="600"}
-
-* Position is not critical, center is probably best though.
-
----
-
 ![!Strut Plates](../img/lr4/ht1.jpg){: loading=lazy width="600"}
 
 * Okay now is a good time to double check your heal toe measurements are equal.
-* Simply measure across the front of your machine
+* The last two screws on either side of the lower strut plate control your heal toe distance. This is just to make sure the front of your machine is the same width as the back of your machine.
+* Measure the YZ Plate, not the front or back wheel mounts since those can move.
+* Measure across the back of the yz Plates
+
+---
 
 ![!Strut Plates](../img/lr4/ht2.jpg){: loading=lazy width="600"}
 
-* Now measure across the back
-* The two numbers should be identical.
-* If they are not the machine can wander when not under power.
-* The adjustment would be to check your end braces to rail connection and to verify your lower X rail is not actually touching the XZ plate. If it is trim or file your rail a bit shorter.
+* Now measure across the front of the YZ Plate.
+* The two numbers should be as close as you can measure.
+* The adjustment would be to loosen the 2 or 4 screws on the lower strut plate and shift the plate a little bit, re-snug the screws.
+* The Pro-Tip here is if you can not get these right, chances are your lower X rail is too long. The lower X rail should not touch the metal XZ plate.
 
-It is best practice to verify your XY square and you Z beam level, they should not have changed unless something got bumped so always run a quick check.
+---
 
-At this point you are done, you have a fully functional machine! How cool is that!?!
+![!Strut Plates](../img/lr4/sr8.jpg){: loading=lazy width="600"}
+
+* Snug up all of the front plate screws. Remember not to crush the braces, there should be a visible gap in the brace clamp even when snug. These screws are just there to keep the plate snug to the braces, clamping the rails are not a big deal.
+* Go ahead and put your X belt back on
+
+---
+
+![!Strut Plates](../img/lr4/sr9.jpg){: loading=lazy width="600"}
+
+* Similar to the heal toe adjustment, you need to check the Z axis. The width across the top and bottom should be the same.
+* The adjustment is the front plate 2 screws on each end.
+
+---
+
+Now that your assembly and adjustments are done here is the last checklist.
+
+* Check your Y belt endstop position. Sometimes the width changes just a little bit. If you need to move the Min Y belt holder a little a pro tip here is just drill out the screw holes to give yourself more wiggle room. 
+* Recheck the machine square.
+* Recheck the machine Z level.
+
+
+At this point you are done, you have a fully functional machine! How cool is that!?! Before you go off into the wild world of CNC some advice I can give you is, make test cuts, all the included settings and instructions are extremely conservative, there is no such thing as perfect settings. Have fun and go get that thing dirty.
 
 ---
 
