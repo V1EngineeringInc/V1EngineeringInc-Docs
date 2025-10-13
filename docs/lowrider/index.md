@@ -775,6 +775,7 @@ Start the YZ plates.
 
 * Add the T8 Leadscrew to the coupler. Make sure the leadscrew is fully seated and touching the stepper shaft.
 * Snug both grub screws.
+* It is suggested to lubricate the leadscrew with a light lubricant at this time.  [Shop](https://www.v1e.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe)
 
 ---
 
