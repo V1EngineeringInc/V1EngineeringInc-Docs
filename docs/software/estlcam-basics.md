@@ -33,9 +33,9 @@ Install Estlcam. Using the default options in the installer, remove the one cont
 
  If you are using the Jackpot CNC controller select **"GRBL"** here.
 
- If you are using the SKR pro or tother older V1 boards select **"Marlin"** here.
+ If you are using the SKR pro or other older V1 boards select **"Marlin"** here.
 
- For now other than language it is best just to match all of the settings shown. Only change these later if you understand them completely and have completed a job on your own. If you as for help chances are we are going to ask to see this screen.
+ For now other than language it is best just to match all of the settings shown. Only change these later if you understand them completely and have completed a job on your own. If you ask for help chances are we are going to ask to see this screen.
 
 After you click okay close Estlcam and restart it to update the settings.
 
