@@ -251,7 +251,7 @@ Only happens if you change a tool during your job. It happens at each tool chang
 === "LowRider V3/4 - GRBL/Jackpot" 
     ```
     M63 P1 (turn off pin 27)
-    $HZ (Home Z)
+    $HZ
     G0 X0 Y10 F2520 
     M0 (MSG change tool, probe)
     G38.2 Z-110 F200 P0.5 (Probe set thickness)
