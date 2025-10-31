@@ -223,7 +223,7 @@ You can buy most of the specialty parts and hardware here, [V1 Shop](https://www
 
 |QTY  |Description             |Comment                                        |Link                        | 
 |-----|------------------------|-----------------------------------------------|----------------------------|
-|1    |Control Board           |5 driver minimum, Jackpot suggested            |[Shop][sh1] – [Elecrow][az1]|
+|1    |Control Board           |5 driver minimum, Jackpot variant suggested    |[Shop][sh1] – [Elecrow][az1]|
 |5    |Steppers, Nema17        |20mm+ shaft length                             |[Shop][sh2] – [Amazon][az2]|
 |3    |stepper wire extenders  |                                               |[Shop][sh3] – [Amazon][az3]|
 |3    |Pulleys 16T 10mm        |10mm GT2 16 Tooth                              |[Shop][sh4] – [Amazon][az4]|
@@ -239,7 +239,7 @@ You can buy most of the specialty parts and hardware here, [V1 Shop](https://www
 |*    |Lube                    |Optional for idlers and linear rails           |[Shop][sh14] – [Amazon][az14]|
 |*    |Vac Hose                |Optional 2.5" (70mm) OD Vacuum hose steel rib  | – [Amazon][az15]|
 
-[sh1]: https://www.v1e.com/products/jackpot-cnc-controller
+[sh1]: https://www.v1e.com/products/jackpot3-cnc-controller
 [sh2]: https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
 [sh3]: https://www.v1e.com/products/wiring-kit-1
 [sh4]: https://www.v1e.com/collections/3dprinter-parts/products/pulley-16-tooth-gt2-10mm
