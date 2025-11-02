@@ -224,7 +224,7 @@ If you bought it from the V1E.com store it should be ready to go. This section i
 
 #### If you need to refresh or update
 
-FluidNC Firmware - **The Current tested and confirmed FluidNC version is {==3.9.5==}, and WebUI V2**, use anything newer than this with caution. Take note of all your pull off values to keep things level and square after an update.
+FluidNC Firmware - **The Current tested and confirmed FluidNC version is {==3.9.9==}, and WebUI V3**, use anything newer than this with caution. Take note of all your pull off values to keep things level and square after an update.
 
 V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Releases page](https://github.com/V1EngineeringInc/FluidNC_Configs/releases). 
 
