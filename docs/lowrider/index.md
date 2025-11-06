@@ -215,7 +215,7 @@ Other options:
 
 You can cut your own metal plates with the DXF files found with the printed parts files linked above. Aluminum or steel 1/4" (6.35mm) thick material is suggested to work well with the hardware as is. If you want to use thicker or thinner material you will need to adjust the 16 M3x10mm screw length to compensate.
 
-There is a file for [printable XZ plates](https://https://www.printables.com/model/1047962-printable-xz-plates-for-lowrider-4-consider-alu-in) by member Aza, the idea being that you would only use them temporarily to cut metal plates. This is only recommended if you have experience with Aluminum cutting on a V1 CNC.
+There is a file for [printable XZ plates](https://www.printables.com/model/1047962-printable-xz-plates-for-lowrider-4-consider-alu-in) by member Aza, the idea being that you would only use them temporarily to cut metal plates. This is only recommended if you have experience with Aluminum cutting on a V1 CNC.
 
 ### Specialty Parts
 
