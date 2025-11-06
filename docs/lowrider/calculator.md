@@ -17,9 +17,9 @@
 <input class="calc" type="number" oninput="ywork_changed()" name="ywork" value="2440" size="6"><span class="units">mm</span> Y<br/>
 
 #### XZ Plate Thickness
-Shop Aluminum plates are 6.35mm (0.25").
+Shop Aluminum plates are 6.5mm (0.256").
 
-<input class="calc" type="number" oninput="xthickness_changed()" name="xzplate" value="6.35" size="6"><span class="units">mm</span> XZ Plate<br/>
+<input class="calc" type="number" oninput="xthickness_changed()" name="xzplate" value="6.5" size="6"><span class="units">mm</span> XZ Plate<br/>
 
 <p><a  class="btn btn-default" href="javascript:reset_work()">Reset</a></p>
 

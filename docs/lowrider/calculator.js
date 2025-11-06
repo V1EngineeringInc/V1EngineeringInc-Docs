@@ -6,12 +6,12 @@ const Units = Object.freeze({
 
 // object to hold offsets in a spot that is easy to edit
 const offsets = Object.freeze({
-    xrail_core: 168,
+    xrail_core: 169,
     yrail_minus_work: 255,
     ytable_minus_work: 313,
     xbelt_extra: 180,
     ybelt_extra: 200,
-    xtable_extra: 107.5,
+    xtable_extra: 110,
     xrail_cushion: 3
 });
 
