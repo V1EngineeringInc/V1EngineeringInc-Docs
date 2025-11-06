@@ -48,8 +48,7 @@ Shop Aluminum plates are 6.5mm (0.256").
 
 #### Table Size
 
-This output is the minimum table required. An extra 25-50mm (1"-2") or more on each dimension is nice if 
-you will be pushing it up against a wall or in a corner.
+This output is the minimum table required - belt holders will be installed flush with the outside corners.  An extra 25-50mm (1”-2”) or more on each dimension is nice if you will be pushing it up against a wall or in a corner and to provide some protection for the belt holders.
 
 |Length (<span class="units">mm</span>)| Name |
 |--------------------------------------|------|

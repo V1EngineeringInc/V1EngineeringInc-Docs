@@ -22,7 +22,7 @@ var displayUnit = Units.Metric;
 // variables instead of relying on the after-conversion number on display in the textboxes
 var xUsable = 1220;
 var yUsable = 2440;
-var xThickness = 6.35;
+var xThickness = 6.5;
 
 
 /**
@@ -151,7 +151,7 @@ function roundToNearest(value) {
 function reset_work() {
     xUsable = 1220;
     yUsable = 2440;
-    xThickness = 6.35;
+    xThickness = 6.5;
 
     switch (displayUnit) {
         case Units.Metric:
