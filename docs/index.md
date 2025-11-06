@@ -48,9 +48,6 @@ you will be guided to make the change and submit the changes back to the project
 "Pull Request". After that, your changes will be reviewed, approved, and merged into the documentation, and
 that way others can avoid the same problems you had.
 
-Before you go, make sure you add yourself to the [Contributors](index.md#Contributors) section below so that everyone knows how
-awesome you are for making a contribution.
-
 ??? "I want to develop more, faster, better, stronger"
 
     You can do some powerful things if you want to with mkdocs on your computer while editing the
@@ -61,18 +58,11 @@ awesome you are for making a contribution.
 ## Contributors
 
 This is a community project. Ryan Zellars started the whole thing with his MPCNC. His documentation and designs are the core of these instructions. Jeff Eberl worked to create
-the documentation infrastructure, and we would like to thank the following contributors and editors;
-
-Ryan Zellars (allted, vicious1) - Jeff Eberl (jeffeb3) - Mark Frost (fr0sty1) - Jamie (vector76) -
-Steve Nash (snash) - James Tokarsky (thejat) - RobinBennett - Ian (ianj001) - Gene Merritt
-(merrittgene) - Kenny (techguy682) - geechorama (?) - Adam Reineke (AdamTReineke) - Dan Roscigno
-(droscigno) - Dan Fontanesi - Kevin Selavko (kselavko) - Ryan Connolly (rynam0) - Clark Stephens
-(clarkspeed) - Thijs Triemstra (thijstriemstra) - Aaron Sethi (aaronse) - William Hunter (wjHunter) - 
-Peter H (bitingmidge) - Darwin M (Darwin) - Archie C (Sonosus) - Dave Latka (Davejavu) - Mike M (michmela44)
+the documentation infrastructure, and we would like to thank the contributors and editors show at the bottom of each page for their work.
 
 Special thanks to;
 
-The LowRider 4 CNC Beta Test Crew. Jonathan Jones (Jonathjon) - Philip (Tokoloshe) - orob - Jamie (vector76) - Doug Joseph (DougJoseph) - Dan (SupraGuy) - azab2c (Aza B2C) - MakerJim - Peter H (bitingmidge) - Last minute addition, RockinRiley. Thanks to all the rest of you that participated in the Lounge section, it was a wild ride, nearly 5K posts.
+The LowRider 4 CNC Beta Test Crew. Jonathan Jones (Jonathjon) - Philipp (Tokoloshe) - orob - Jamie (vector76) - Doug Joseph (DougJoseph) - Dan (SupraGuy) - azab2c (Aza B2C) - MakerJim - Peter H (bitingmidge) - Last minute addition, RockinRiley. Thanks to all the rest of you that participated in the Lounge section, it was a wild ride, nearly 5K posts.
 
 The MP3DP V5 Test Crew. Mike M (michmela44) - Jonathan Jones (Jonathjon)
 
@@ -87,7 +77,7 @@ Tim (timonjkl) - GP (gpagnozzi) - Barry (barry99705)
 ## License
 
 The documentation here at https://docs.v1engineering.com/ is under a 
-copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2024 V1 Engineering Inc."
+copyright: "[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) Copyright 2025 V1 Engineering Inc."
 
 The machine design files, logos, and images hosted on v1engineering.com have their own license
 here: https://www.v1e.com/pages/trademark-and-file-licenses

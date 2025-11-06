@@ -42,7 +42,7 @@ one jumper on the black (UART) pins. **There is no need to monkey with the tiny 
 
 ![!Highlighted UART pins](../img/old/2020/07/uart2-Arrows.jpg){: loading=lazy width="400"}
 
-The completed board looks like this. Notice there are no jumpers under the drivers. **Lowrider and MPCNC builds will have only 5 drivers**, MP3DP uses 6.
+The completed board looks like this. Notice there are no jumpers under the drivers. **LowRider and MPCNC builds will have only 5 drivers**, MP3DP uses 6.
 
 ![!UART pins](../img/old/2020/07/Uart-scaled.jpg){: loading=lazy width="400"}
 
@@ -61,7 +61,7 @@ Depending on what wires you are plugging in you can take them off the end stops 
 
 ## Wiring Steppers
 
-We have a few options for how the steppers get connected to this board. Here are the three most
+We have a few options for how the steppers get connected to this board. Here are the two most
 common ways we might use it.
 
 ### MPCNC and LowRider CNC
@@ -76,6 +76,7 @@ common ways we might use it.
 | Z1          | Jumpers stay in place |
 | E0          | X2 |
 | E1          | Y2 |
+| E2          | Not used |
 
 **LowRider CNC**
 
@@ -87,16 +88,9 @@ common ways we might use it.
 | Z1  | Jumpers stay in place |
 | E0  | Y2 |
 | E1  | Z2 |
+| E2  | Not used |
 
 ![!dual 0](../img/old/2020/07/dual2-scaled.jpg){: loading=lazy width="400"}
-
-### Reversing a stepper
-
-If your stepper is moving the wrong way you can power down, unplug the power, and flip the stepper plug over to change the
-direction of rotation. 
-
-![!flip 1](../img/old/2020/07/flip1-scaled.jpg){: loading=lazy width="400"}
-![!flip 2](../img/old/2020/07/flip2-scaled.jpg){: loading=lazy width="400"}
 
 ## Powering the board
 
@@ -115,39 +109,62 @@ the knob in for 3 seconds.**
 You do not need to use both; pay attention to the direction the wires are facing when connecting
 them.
 
-!!! You can kill your screen
-    Pay attention to the direction the wires are facing when connecting
-them. The single wire faces toward the drivers, 5V closest to the memory card.
+!!! Caution
+    Pay attention to the direction the wires are facing when connecting them. The single wire faces toward the drivers, 5V closest to the memory card. Getting this wrong can damage the board.
+
+#### Testing the motion
+
+You can now use the LCD to move the machine. The Motion Menu allow for .1, 1, 10, 100mm movements. Start small 1 mm at a time. Test each axis one at a time.
+
+* X positive should move Right, X negative should move Left,
+* Y positive is back or away from you, Y negative is towards you.
+* Z positive moves the z axis up, meaning the tool away from the work surface.
+
+If it doesn’t move as expected, unplug the power and USB, any axis that is moving the wrong way simply flip the plug. If one stepper is moving the wrong way power down and flip it’s plug. Power back up and test again.
+
+### Reversing a stepper
+
+If your stepper is moving the wrong way you can power down, unplug the power, and flip the stepper plug over to change the
+direction of rotation. 
+
+![!flip 1](../img/old/2020/07/flip1-scaled.jpg){: loading=lazy width="400"}
+![!flip 2](../img/old/2020/07/flip2-scaled.jpg){: loading=lazy width="400"}
+
 
 ## Touch plate
 
-All the V1 firmware is ready for a touch plate. Easy as plugging into the Z min port. Use Ground "G" and Signal  "S" pins, they are labeled on the back of the board.
+All the V1 Engineering firmware are ready for a touch plate. It is as easy as plugging into the Z min port. Use Ground "G" and Signal "S" pins, they are labeled on the back of the board.
 
 ![!Probe](../img/old/2020/07/Z-probe-scaled.jpg){: loading=lazy width="400"}
 
 ## Dual End Stops, End Stops
 
-If you are running the Current firmware you will need to have your endstops wired in Normally
-Closed (NC), this is the outer two tabs on the endstops, we do not use the middle one. You will plug into the Signal and Ground pins, **Do not use the + pins.** Use Ground "G" and Signal  "S" pins, they are labeled on the back of the board.
+If you are running the current firmware you will need to have your endstops wired as "Normally
+Closed" (NC), this is the outer two tabs on the endstops, we do not use the middle one. You will plug into the Signal and Ground pins on the SKR board, **Do not use the + pins.** Use the Ground "G" and Signal  "S" pins, they are labeled on the back of the board.
 
 Optical endstops are not recommended on a machine used for milling or routing. The debris can inhibit their function.
 
 !!! Troubleshooting End Stops
-    There is a known issue on SKR Pro1.2 boards where a small percentage of boards intermittently do not trigger a stop in the firmware. The technical reason is the on board circuit was designed with a voltage divider that is on the edge of the microprocessors HIGH/LOW signal limit. This results in random missing of the stop signal. A symtom of this is that one or more of the steppers keep driving after the limit switch triggers. You will find the stop LEDs on the SKR board will illuminate, but the firmware does not react. This is discussed in [this thread](https://forum.v1e.com/t/firmware-issues/39109/5) There are a few ways to address this: 1) Replace the SKR board. 2) Solder 1.5K ohm resistors on the bottom of the board. 3) Modify the end stop wires to add the 1.5K ohm resistor.
+    There is a known issue on **OLDER** SKR Pro1.2 boards where a small percentage of boards intermittently do not trigger a stop in the firmware. The technical reason is the on board circuit was designed with a voltage divider that is on the edge of the microprocessors HIGH/LOW signal limit. This results in random missing of the stop signal. A symptom of this is that one or more of the steppers keep driving after the limit switch triggers. You will find the stop LEDs on the SKR board will illuminate, but the firmware does not react. This is discussed in [this thread](https://forum.v1e.com/t/firmware-issues/39109/5) There are a few ways to address this: 1) Replace the SKR board. 2) Solder 1.5K ohm resistors on the bottom of the board. 3) Modify the end stop wires to add the 1.5K ohm resistor.
 
-### MPCNC Dual Endstops
+### MPCNC Endstops
 ![!endstops](../img/old/2020/07/endstops-scaled.jpg){: loading=lazy width="400"}
 
-### LowRider Dual endstops
+### LowRider endstops
 ![!LR3 endstops](../img/LR3_endstops.jpg){: loading=lazy width="400"}
 
 !!! note
-    Do not use the + (positive) pins or you will ruin your SKR Pro board. Unless you are running a different project with powered endstops.
+    Do not use the + (positive) pins or you will ruin your SKR Pro board. These are only used with powered endstops, and those are uncommon.
 
 ## Firmware
 
 The SKR Pro and TFT screen both can use a bin file to re-flash the firmware. This is as simple as
 placing some files directly on the memory card and rebooting them. The boards come already flashed from the store. This would only be used if you want to update.
+
+## CAM
+
+The [estlcam](../software/estlcam-basics.md) page has detailed instructions on what to do after your board is wired and tested.
+
 
 ### SKR Bin
 
@@ -165,7 +182,7 @@ When you unzip the file you have a .bin file. Rename to FIRMWARE.bin and save it
     Do not use a SKR Pro based machine with the microSD card in the SKR Pro board unless you are using the headless module. This seems to cause random performance issues otherwise.
 
 
-![!SKR file](../img/old/2020/08/SKR_Bin.jpg){: loading=lazy width="400"}
+![!SKR file](../img/SKR/SKR_Bin.jpg){: loading=lazy width="400"}
 
 The file will change extensions when a successful flash happens.
 
@@ -179,19 +196,17 @@ You also have the option to get the full Marlin source and edit and compile your
 
 Flashing the screen takes a .bin file, the config file, and usually the TFT35 folder (unzipped) on the root of the screens SD card.
 
-BIGTREE_TFT35_V3.0_E3.****.bin
-config.ini
-TFT35 (folder)
-
-![!TFT files](../img/old/2020/08/TFT35_bin.jpg){: loading=lazy width="400"}
-
-Now reset the screen (or board) and watch the screen update itself. You can double check and the files will have a new extension after a successful flash.
-
 The V1 Engineering CNC version of the TFT firmware is on this page, use the most recent and the files can be had under the assets drop down - [TFT Firmware](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/releases)
+
+Unzip the folder and load all the files on to the SD card like shown below.
+
+![!TFT files](../img/SKR/tft_files.png){: loading=lazy width="400"}
+
+Now reset the screen (or board) and watch the screen update itself. This should take several minutes.
 
 #### TFT Touch reset
 
-If you somehow mess up the touch calibration placing and empty reset.txt file on the card and resetting will trigger a re-calibration.
+If you somehow mess up the touch calibration placing and empty reset.txt file on the card and rebooting will trigger a re-calibration.
 
 ## Compile your own (source)
 
@@ -206,6 +221,14 @@ repo](https://github.com/V1EngineeringInc/BIGTREETECH-TouchScreenFirmware/releas
 
 ## Cases
 
+### SKR Pro Cases
+
+[LowRider V4 CNC Specific case](https://www.printables.com/model/1051517-skr-pro-box-for-the-lowrider-4-cnc)
+
+[LowRider V3 case](https://www.printables.com/model/209348-skr-pro-lr3-specific-case)
+
+[Generic mount and cover](https://www.printables.com/model/422342-skr-pro-wire-management-and-cover)
+
 
 ### TFT35 E3 V3 Case 
 
@@ -213,18 +236,11 @@ Box for the [TFT35 E3 V3](https://www.prusaprinters.org/prints/74330-tft35-e3-v3
 
 ![!TFT35 E3 V3 Case](../img/TFT_Case_Picture.jpg){: loading=lazy width="400"}
 
-### Flyfisher604 SKR Pro v1.2 and TFT E3 v3.0 Case
 
-A three-part case (lower box, top lid, and sloped TFT screen) that includes:
-
-- Ventilation on two sides of the lower box
-- Two fan mounts with integrated grates on the back of the sloped TFT screen
-- Built in standoffs for the SKR Pro board and TFT screen
-- Opening on TFT sloped screen mount exposing the SD card slot
-- Openings for DB25 and DB15 connectors (with mounting screw holes) to interface internal wiring to MPCNC (or use these as pass throughs)
+### Flyfisher604 SKR Pro v1.2 and TFT E3 v3.0 Case for the MPCNC
 
 Available [here](https://www.thingiverse.com/thing:4678675) on Thingiverse.
 
-![!Flyflisher604 SKR Pro Case](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case.jpg){: loading=lazy width="400"}
+![!Flyfisher604 SKR Pro Case](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case.jpg){: loading=lazy width="400"}
 
-![!Flyflisher604 SKR Pro Case Inside](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case_Inside.jpg){: loading=lazy width="400"}
+![!Flyfisher604 SKR Pro Case Inside](../img/Flyfisher604_SKR_Pro_v1.2_and_TFT_E3_v3.0_Case_Inside.jpg){: loading=lazy width="400"}

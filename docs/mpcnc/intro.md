@@ -27,7 +27,7 @@ Not easy to make a specs page when it can have almost any specs you want. The id
  
 ## Size
 
-- All axes can be any length you prefer, anything over ~3′ (1M) would be best to start with a LowRider CNC, of course smaller is better.  The kit comes with enough belt for up to 48″ of total outer X and Y axis dimensions (eg 24″x24″, 36″x12″ or any other combination).
+- All axes can be any length you prefer, anything over ~3′ (1M) would be best to start with a LowRider CNC, of course smaller is better.  The kit comes with 3M (118") of belt which is enough for 780mm (30.5") of X and Y workspace dimensions (e.g. 450mm x 330mm, 390mm x 390mm, 20" x 10", 15" x 15" or any other combination).
 
 - The smaller you make this the faster you can move it and the more rigid/accurate it will be, and more importantly the easier it will be to get the desired accuracy.
 

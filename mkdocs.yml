@@ -59,46 +59,48 @@ nav:
 
  - Control:
    - Control Boards:
+     - Jackpot3 CNC Controller: electronics/jackpot3.md
+     - Jackpot2 CNC Controller: electronics/jackpot2.md
      - Jackpot CNC Controller: electronics/jackpot.md
      - SKR Pro: electronics/skrpro.md
      - Ultimachine Boards: electronics/ultimachine.md
      - Ramps: electronics/ramps.md
-   - Wiring The Steppers: electronics/steppers.md
    - Setup: software/index.md
-   - Some Advanced Options:
-     - V1pi - Headless: electronics/v1pi.md
-     - Dual Endstops: electronics/dual-endstops.md
+     
+ - Tools:
+    - CNC Software Basics: learn/software_overview.md
+    - Milling:
+      - EstlCAM Setup: software/estlcam-basics.md
+      - Milling Basics: tools/milling-basics.md
+      - "Kiri:Moto Basics": software/kiri.md
+      - EstlCAM Intermediate (2.5d): software/estlcam-2p5d.md
+      - Inlays: software/Fengrave-vcarve-inlay.md
+    - Lasers:
+      - Main: tools/lasers.md
+      - Engraving Mirrors: tools/laser-engraving-mirrors.md
+    - Drag Knife/Vinyl: tools/drag-knife.md
+    - Needle Cutter: tools/foam-needle-cutter.md
 
- - Use:
-   - Tools:
-     - Milling:
-       - EstlCAM Setup: software/estlcam-basics.md
-       - Milling Basics: tools/milling-basics.md
-       - "Kiri:Moto Basics": software/kiri.md
-       - EstlCAM Intermediate (2.5d): software/estlcam-2p5d.md
-       - Milling Metal: tools/milling-metal.md
-       - Inlays: software/Fengrave-vcarve-inlay.md
-     - 3D Printing:
-       - Import Extruder: tools/import-extruder.md
-     - Lasers:
-       - Main: tools/lasers.md
-       - Engraving Mirrors: tools/laser-engraving-mirrors.md
-     - Drag Knife/Vinyl: tools/drag-knife.md
-     - Needle Cutter: tools/foam-needle-cutter.md
-   - Troubleshoot:
-     - Reversing a Stepper: software/reverse-motor.md
  - Learn:
     - FAQ's: learn/faq.md
     - Editing mkdocs: mkdocs_info.md
-    - Software Workflow: learn/software_overview.md
-    - Repetier-Host: software/repetier-host.md
     - Marlin Firmware: electronics/marlin-firmware.md
-    - XLoader: electronics/xloader.md
     - PlatformIO: learn/platformio.md
-    - Arduino: electronics/arduino.md
-    - G-code: learn/gcode.md
     - Motion: learn/motion.md
     - Coordinates: learn/coordinates.md
+    - Archive:
+      - Wiring The Steppers: electronics/steppers.md
+      - Dual Endstops: electronics/dual-endstops.md
+      - Milling Metal: tools/milling-metal.md
+      - Import Extruder: tools/import-extruder.md
+      - Reversing a Stepper: software/reverse-motor.md
+      - XLoader: electronics/xloader.md
+      - Repetier-Host: software/repetier-host.md
+      - Arduino: electronics/arduino.md
+      - G-code: learn/gcode.md
+      - V1pi - Headless: electronics/v1pi.md
+
+
 
 theme:
   font: false
@@ -119,12 +121,13 @@ theme:
       icon: material/brightness-4
       name: Switch to light mode    
   features:
-  - navigation.sections
+  - navigation.tracking
+  - navigation.instant
+  - navigation.top
   - toc.integrate
   - toc.follow
   - search.suggest
   - search.highlight
-  - navigation.instant
   - content.tabs.link
   - content.action.edit
   logo: "img/favicon.ico"
@@ -149,7 +152,7 @@ extra:
     - icon: 'fontawesome/brands/reddit'
       link: 'https://www.reddit.com/r/mpcnc/'
     - icon: 'fontawesome/brands/discord'
-      link: 'https://discord.gg/hMaBvfe'
+      link: 'https://discord.gg/kY9tv2Gzgp'
     - icon: 'fontawesome/brands/patreon'
       link: 'https://www.patreon.com/V1Engineering'
 
@@ -166,7 +169,12 @@ plugins:
   - glightbox
   - search
   - privacy
-
+  - git-committers:
+      repository: V1EngineeringInc/V1EngineeringInc-Docs
+      branch: master
+      token: !ENV ["CI_JOB_TOKEN"]
+      enabled: !ENV [CI, false]
+      
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -199,3 +207,4 @@ markdown_extensions:
   - toc:
       permalink: true
  
+

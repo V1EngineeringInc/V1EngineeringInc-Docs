@@ -4,13 +4,14 @@
 
 The Jackpot CNC Controller is a 32bit dual-core 240mhz control board.
 
+- Built in wireless control software
 - WiFi, Bluetooth, or hardwired capable (esp32). 
 - 6x TMC2209 driver ports
 - 7 inputs, 2x 5V outputs, 2x input level (9-24V) outputs.
-- one expansion module socket.
+- one expansion module socket (more IO, or other specialty add on cards).
 - MicroSD card slot. 
 
-The Jackpot CNC Control board runs FluidNC which is fully GRBL compatible with extended features and easy configuration and flashing.
+The Jackpot CNC Control board runs FluidNC which is fully GRBL compatible with extended features featuring easy configuration and updating.
 
 ??? abstract "Click here for full specifications"
 
@@ -68,6 +69,7 @@ The Jackpot CNC Control board runs FluidNC which is fully GRBL compatible with e
         * No compiling to flash a board or change the configuration.
         * ~100% GRBL compatible
         * ESP3D-UI
+        * Or GRBLHal
     
 
     + Dimensions
@@ -82,14 +84,12 @@ The Jackpot CNC Control board runs FluidNC which is fully GRBL compatible with e
 **Want to buy one?** Jackpot CNC Controller is available [here](https://www.v1e.com/products/jackpot-cnc-controller) in the shop.
 
 <figure markdown="span">
-![!Jackpot CNC controller](../img/jackpot/jp7.jpg){: width="800"}
+![!Jackpot CNC controller](../img/jackpot/jp7.jpg){: width="700"}
 </figure>
 
 
 ### Thanks
-First and foremost, thank you, Bart Dring, for the amazing design and custom firmware required to make this happen. This is based off the [6 Pack Universal CNC Controller Development Board](https://www.tindie.com/products/33366583/6-pack-universal-cnc-controller/), changes were made to accommodate all the use cases I have seen with the V1 CNC Machines except for 3D printing. 
-
-Also, Bart Dring and Mitch Bradley many thanks for GRBL-ESP32 and now [FluidNC](https://github.com/bdring/FluidNC).
+First and foremost, thank you, Bart Dring, for the amazing design and custom firmware required to make this happen. This is based off the [6 Pack Universal CNC Controller Development Board](https://www.tindie.com/products/33366583/6-pack-universal-cnc-controller/), changes were made to accommodate all the use cases I have seen with the V1 CNC Machines except for 3D printing. Also, Bart Dring and Mitch Bradley many thanks for GRBL-ESP32 and now [FluidNC](https://github.com/bdring/FluidNC).
 
 ## Initial Setup
 
@@ -97,45 +97,85 @@ Also, Bart Dring and Mitch Bradley many thanks for GRBL-ESP32 and now [FluidNC](
 
 Click on the images to enlarge them.
 
+<div class="grid" markdown>
+
 <figure markdown="span">
-![!Jackpot CNC mpcnc pins](../img/jackpot/MPCNC Labels.png){: loading=lazy  width="400"}
-<figcaption>MPCNC = X, Y, Z, X2(A), Y2(B)</figcaption>
+![!Jackpot CNC mpcnc pins](../img/jackpot/mpcnclabel.png){: loading=lazy  width="400"}
+<figcaption>MPCNC = X0, Y0, Z, X1(A), Y1(B)</figcaption>
 </figure>
 
 <figure markdown="span">
-![!Jackpot CNC LR pins](../img/jackpot/Lowrider labels.png){: loading=lazy  width="400"}
-<figcaption>LR = X, Y, Z, Y2(A), Z2(B)</figcaption>
+![!Jackpot CNC LR pins](../img/jackpot/lowriderlabel.png){: loading=lazy  width="400"}
+<figcaption>LR = X, Y0, Z0, Y1(A), Z1(B)</figcaption>
 </figure>
+
+</div>
 
 The probe/touchplate plugs into the last port (gpio.36), on either configuration.
 
-### Controls
+If you choose to use a case fan to cool your drivers you will typically wire the fan directly into the Jackpot main power so when the board is energized so is the fan. This means you need to get a fan that uses the same voltage as your power supply. We use a 24V power supply in the kit and sell a [24V fan](https://www.v1e.com/products/5015-12v-fan-blower) in the shop.
+
+#### Running the wires.
+
+![!Jackpot Clean Wires](../img/jackpot/cleanjpot.jpg){: loading=lazy  width="380"}
+
+Wires should always be ran beside or under the board. Always secure all connections to the board before they leave the board box so they do not wiggle or vibrate loose.
+
+![!Covered Antenna](../img/jackpot/covered_ant.jpg){: loading=lazy  width="380"}
+
+Never cross wires over the top of the Jackpot, this blocks the antenna signal and impedes cooling of the drivers and ESP32.
+
+### Onboard Controls
 If you bought your Jackpot CNC Controller from the [V1E.com](https://www.v1e.com/) store it should be ready to go. You should be able to log in directly to the WiFi SSID "FluidNC" and the password = 12345678 
 
 ![!Jackpot SSID](../img/jackpot/jackpotwifi.jpg){: loading=lazy  width="380"}
 
-(some browsers will then need to be pointed to http://192.168.0.1, best to bookmark that address). If you get a drop down message about no internet just hit "use this network anyway".
+Some browsers will then need to be pointed to http://192.168.0.1, best to bookmark that address. If you get a drop down message about no internet just hit "use this network anyway".
 
 ![!WebUI](../img/jackpot/LUI.jpg){: loading=lazy width="500"}
 
-This Interface is from the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for any of the Jackpot’s outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settings all from the WebUI.You can wirelessly transfer your gcode files, but manually using the MicoSD card is still preferred. Most will probably never even plug the USB port in.
+This Interface is from the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for any of the Jackpot’s outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settings all from the WebUI.You can wirelessly transfer your gcode files, but manually using the MicroSD card is still preferred. Most will probably never even plug the USB port in. This can be used from most any device that has a web browser. If you are using a small touchscreen you can even zoom in so the buttons are easier to hit.
 
-??? example "Control Options"
-    The Jackpot Control board can use most any control software that supports GRBL such as CNC.js or Lightburn, although most people will likely use the built in WebUI's wireless connection. This can be used from most any device that has a web browser. If you are using a small touchscreen you can even zoom in so the buttons are easier to hit.
-
-We typically use the Jackpot board in AP mode (access point), this is a direct connection between your web enabled device and the board itself. No internet conenction is used in this case, this is a direct connection to the Jackpot only. Touch screens work (with zoom), or keyboard and mouse will work just as well.
+We typically use the Jackpot board in AP mode (access point), this is a direct connection between your web enabled device and the board itself. No internet connection is used in this case, this is a direct connection to the Jackpot only. 
 
 ??? Info "Other Networking Options"
-    You can also configure your device in STA mode, http://fluid.local, if you have a strong signal to your home WiFi network. This will get your board connected to your local network. This is advanced and not reccomended unless you are very confident in your networking setup. It is not reccomended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
+    You can also configure your device in STA mode, http://fluid.local, if you have a strong signal to your home WiFi network. This will get your board connected to your local network, meaning you will be connected to the Jackpot and the internet at the same time. This is advanced and not recommended unless you are very confident in your networking setup. It is not recommended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
+
+#### Other Control Options
+
+The Jackpot Control board can use most any control software that supports GRBL such as CNC.js or Lightburn, although most people will likely use the built in WebUI's wireless connection. 
+
+ * The default is to use the Jackpot with a direct wifi connection to a device with a web browser.
+ * You can use STA mode if you have a good signal to your home wifi network
+ * For either of the previous two options you can add a bluetooth joypad (or keyboard if your device does not have one) to your device if you prefer some buttons. Button mapping is built in to the WebUI.
+ * You can add a hardwired always connected pendant for the basics, moving, starting a file, resuming. This would be a "FluidNC CYD pendant" or M5 Pendant
+ * You can also use a USB Direct connection to a computer to use one of the many GCode senders available that supports GRBL such as CNC.js or Lightburn. Or even switch to GRBLHal to use Gsender.
 
 ### Tests
+
+#### Motion
+
+You can now use the control in the manual tab to move the machine. The arrows allow for .1, 1, 10, 100mm movements. Start small 1 mm at a time. The arrows should move it in that direction.
+
+* X positive (Right arrow) should move Right, X negative should move Left,
+* Y positive (up arrow) is back or away from you, Y negative is towards you.
+* Z positive (Z up arrow) moves the z axis up, meaning the tool away from the work surface.
+
+If it doesn’t move as expected hit disconnect, unplug the power and USB, any axis that is moving the wrong way simply flip the plug. If one stepper is moving the wrong way power down and flip it’s plug. Power back up and test again.
+
+#### Endstops
+
 The onboard LED's test the wiring connections to your end stops. Our CNC standard is Normally Closed (NC) endstop wiring. This means you will have a lit LED when not triggered and not lit when triggered. The Probe is the opposite, lit when triggered.
 
 You can also test the firmware by running "$Limits" in the terminal windows of the WebUI, this will show a real time trigger display. "!" to exit that mode.
 
+!!! note
+
+    It is important to note the endstops are only active during the homing procedure for that axis, they will not stop a machine in motion or running g-code. You can set them to do that but that is an advanced topic.
+
 ### Auto Square
 
-Auto Square on this board no longer uses Gcode commands. You can edit each endstop indivdually directly from the "Config" section of the WebUI (or directly to the yaml file).
+Auto Square on this board is as easy as editing each endstop individually directly from the "Config" section of the WebUI (or directly to the yaml file).
 
 ![!CONFIG WebUI](../img/jackpot/confg.png){: loading=lazy width="400"}
 
@@ -143,7 +183,7 @@ From there you have a "pulloff_mm" setting for each endstop. This setting is how
 
 ![!CONFIG pulloff](../img/jackpot/pulloff.png){: loading=lazy width="400"}
 
-Be sure to **save** your edits at the bottom of the config screen, and then by also using the red save button (macro) on the homescreen!
+Be sure to **save** your edits at the bottom of the config screen, and then by also using the red save button (macro) on the home screen!
 
 ### Terminal Commands
 Here are some other useful terminal commands, for a full list please see the [FluidNC Wiki](http://wiki.fluidnc.com/).
@@ -163,13 +203,15 @@ Here are some other useful terminal commands, for a full list please see the [Fl
 
 ## CAM Settings
 
+The [estlcam](../software/estlcam-basics.md) page has more detailed instructions on what to do after your board is wired and tested.
+
 This section is setting up estlcam for GRBL/FluidNC
+
+...
 
 ![!Jackpot estlcam basics](../img/jackpot/esbasicsettings.jpg){: loading=lazy width="400"}
 
 Change the basic settings to GRBL.
-
-[Config file](../img/jackpot/FluidNC.pp) for V11, to install this file open EstlCAM, setup, CNC Programs, open settings at the bottom. This will import all the settings, feedrates, rapids, starting gcode, toolchange, and ending gcode sections. Everything in one file and it is ready to use. Below are the details of this file.
 
 Some screen shots needed here.
 
@@ -177,53 +219,14 @@ Some screen shots needed here.
 
 Start, tool change, and ending gcode are all listed on the milling basics page, [here](../tools/milling-basics.md#gcode-start-tool-change-and-ending).
 
-## Laser Tips
-
-For the fastest raster etching, the most resource intensive thing we can do. Either use AP mode with a microSD card, or turn off the wifi and use only the USB with [Lightburn](https://lightburnsoftware.com/).
-
-**$Wifi/Mode=off** - if you are using the USB connection to Lightburn to use some of the built-in tools it has use this command to turn off the radio. It will come back after a power cycle. 
-
-If you have a laser defined in the config you are always in "laser" mode (M4). So you can either leave it defined and use M5 (turn off laser mode) in your starting gcode for non-laser CNC use, or just comment out the laser in the config. The Jackpot can have multiple config files stored on it. So the best way to do this is have config.yaml, and configlaser.yaml, if you want to use both. Then select the proper config and power cycle the board.
-
-Raster speed depends on dot size, for a 0.19mm resolution I am getting 70-120mm/s depending on the type of raster.
-
-### Laser Config.yaml Edits
-
-Replace the following section in your yaml file. Change any settings you need to, this scales the output from 1-1000 and must match lightburn's settings.
-
-```
-user_outputs:
-  analog0_pin: NO_PIN
-  analog1_pin: NO_PIN
-  analog2_pin: NO_PIN
-  analog3_pin: NO_PIN
-  analog0_hz: 5000
-  analog1_hz: 5000
-  analog2_hz: 5000
-  analog3_hz: 5000
-  digital0_pin: gpio.26
-  digital1_pin: NO_PIN
-  digital2_pin: NO_PIN
-  digital3_pin: NO_PIN
-
-Laser:
-  pwm_hz: 5000
-  output_pin: gpio.27
-  enable_pin: NO_PIN
-  disable_with_s0: false
-  s0_with_disable: true
-  tool_num: 0
-  speed_map: 0=0.000% 1000=100.000%
-  off_on_alarm: true
-```
-Quick note, **gpio.26** can have a quick pulse when starting. If you are using a 5V pin for your laser pin 27 is the better option for your enable pin.
-
 ## Firmware
-If you bought it from the V1E.com store it should be ready to go. This section is in case you want to update or start fresh.
+If you bought it from the V1E.com store it should be ready to go. This section is in case you want to update or start fresh. 
 
-V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs). **The Current tested and confimed files are in the V2 folder for your machine type** You need to download these to load them after flashing.
+#### If you need to refresh or update
 
-FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.9.1**, use anything newer than this with caution. 11/1/2024- Configs updated as well, good idea to update them as well. Be sure to test homing after updates as some of the numbers have changed, also take note of your pull off values to keep things level and square after an update.
+FluidNC Firmware - **The Current tested and confirmed FluidNC version is {==3.9.9==}, and WebUI V3**, use anything newer than this with caution. Take note of all your pull off values to keep things level and square after an update.
+
+V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Releases page](https://github.com/V1EngineeringInc/FluidNC_Configs/releases). 
 
 ### Updating / Installing Firmware
 
@@ -231,15 +234,17 @@ FluidNC Firmware - **The Current tested and confimed FluidNC version is 3.9.1**,
 
 If the ESP32 is mounted to a Jackpot, then ensure Jackpot's main 24V power supply is powered **OFF** before connecting a USB cable between the ESP32 and computer.  The ESP32 can be updated while mounted, or removed from the Jackpot board.  
 
-If/when removing the ESP32 from Jackpot for flashing, be careful to not bend, or apply force to the ESP32's integrated antenna.
+Browse to [FluidNC Web Installer](https://installer.fluidnc.com/) using Chrome, or another [browser that supports Serial API](https://caniuse.com/web-serial). 
 
-Browse to [FluidNC Web Installer](https://installer.fluidnc.com/) ( created by [Joacim](https://github.com/breiler/fluid-installer) ) using Chrome, or another [browser that supports Serial API](https://caniuse.com/web-serial).  
+If you are updating you need to take note of your pull_off values to keep your auto-squaring and/or auto-leveling.
 
-Within FluidNC Web Installer, select _Connect_, and follow the prompts. It is best to always start fresh by using the erase option.
+Within FluidNC Web Installer, select _Connect_, select your com port, _Install_, select the current firmware version listed above, _esp32_, _wifi_, _fresh install_, select the WebUI version from above. You might need to hold the boot button to get to the next step.
 
-Some PC's will need USB drivers if your ESP32 is not recognized by the computer. If needed the ESP32 USB drivers are here [Silabs CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
+Some PC's will need USB drivers if your ESP32 is not recognized by the computer. If needed, the ESP32 USB drivers are here [Silabs CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
 
-After you have loaded the firmware you can use the file browser to load our configs and macros from here, [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs).
+After you have loaded the firmware you can use the file browser to load our configs and macros from here, [Releases page](https://github.com/V1EngineeringInc/FluidNC_Configs/releases).
+
+A great write-up with pictures can be found here: https://forum.v1e.com/t/setting-up-fluidnc/47097
 
 ??? example "More installing and update options"
     2- **OTA** - you can update the UI or the firmware in the interface itself. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware)
@@ -293,8 +298,51 @@ Some issues we have seen.
 
 -If you made any changes to the config use the web based tool, or fluid term, to watch the boot messages. You can also view them by typing $SS. If you do not understand it cut and paste the first half into the V1 forums.
 
--If you switch from the V2 to V3 of the interface, all the files need to be wiped and uploaded again from the V1 github repo.
+-If you switch from the V2 to V3 of the webui interface, all the files need to be wiped and uploaded again from the V1 github repo.
 
+-If this does not solve your issue, please make a new thread in the forums and if possible let us see the $SS output from the webui terminal.
+
+
+## Laser Tips
+
+For the fastest raster etching, the most resource intensive thing we can do. Either use AP mode with a microSD card, or turn off the wifi and use only the USB with [Lightburn](https://lightburnsoftware.com/).
+
+**$Wifi/Mode=off** - if you are using the USB connection to Lightburn to use some of the built-in tools it has use this command to turn off the radio. It will come back after a power cycle. 
+
+If you have a laser defined in the config you are always in "laser" mode (M4). So you can either leave it defined and use M5 (turn off laser mode) in your starting gcode for non-laser CNC use, or just comment out the laser in the config. The Jackpot can have multiple config files stored on it. So the best way to do this is have config.yaml, and configlaser.yaml, if you want to use both. Then select the proper config and power cycle the board.
+
+Raster speed depends on dot size, for a 0.19mm resolution I am getting 70-120mm/s depending on the type of raster.
+
+### Laser Config.yaml Edits
+
+Replace the following section in your yaml file. Change any settings you need to, this scales the output from 1-1000 and must match lightburn's settings.
+
+```
+user_outputs:
+  analog0_pin: NO_PIN
+  analog1_pin: NO_PIN
+  analog2_pin: NO_PIN
+  analog3_pin: NO_PIN
+  analog0_hz: 5000
+  analog1_hz: 5000
+  analog2_hz: 5000
+  analog3_hz: 5000
+  digital0_pin: gpio.26
+  digital1_pin: NO_PIN
+  digital2_pin: NO_PIN
+  digital3_pin: NO_PIN
+
+Laser:
+  pwm_hz: 5000
+  output_pin: gpio.27
+  enable_pin: NO_PIN
+  disable_with_s0: false
+  s0_with_disable: true
+  tool_num: 0
+  speed_map: 0=0.000% 1000=100.000%
+  off_on_alarm: true
+```
+Quick note, **gpio.26** can have a quick pulse when starting. If you are using a 5V pin for your laser pin 27 is the better option for your enable pin.
 
 ## Jackpot VS The SKR Pro
 
@@ -314,7 +362,7 @@ This can be a tough topic. It goes very deep but lets keep it simple, here are t
 #### SKR Pro
 * Has more onboard IO, this lets you plug more things in without an expansion port, but firmware edits, a recompile, and flash will be needed to use them.
 * When ordered from V1E.com comes with a wired LCD screen instead of using a web capable device.
-* Uses Marlin Firmware, tried and true, but a bit more complcated to edit if needed.
+* Uses Marlin Firmware, tried and true, but a bit more complicated to edit if needed.
 
 The Jackpot CNC Controller was developed by Bart Dring (FluidNC) and myself, with the biggest notable change being TMC2209 drivers using less I/O in FluidNC. The new board and FluidNC firmware revision were further refined with help from a lot of great community member here in the V1E.com forums. It has everything we need in one package with a few sensible extra ports. This is how you get the best bang for the buck in a 
 small footprint. If you ask me, I will honestly recommend the Jackpot, by far. The main feature people seem to buy the SKR for anymore is the wired LCD screen. The Jackpot can also have 
