@@ -8,7 +8,7 @@ The Beta team put in months of effort helping to refine and improve all aspects 
 
 ## Key Points
 
-* The average total build cost is easily under $800!!
+* The average total build cost is about $650, if you buy the full kit from the shop. The only thing not included in that price is a ~$120 router and a table to work on. If you print your own parts you can lower that price to just over $400. Most people can get cutting for under $800 USD.
 * Foams, wood, and plastic are easy, aluminum and other soft metals are no problem for an experienced user. A few users have even machined steel.
 * A lot of the parts are 3D printed. To save from shipping large parts, the machine can be partially assembled to cut them itself.
 * Easily removable from the table for storage.
@@ -58,24 +58,11 @@ More details to the loosened restrictions can be found here on [the home page](h
 
 ## Parts Needed
 
-#### Table 
-
-Your table needs only be as fancy as a sheet of wood on a relatively flat, smooth surface. A CNC machine can self correct many of its own imperfections if needed. Typically, our tables only support the CNC and some material, so nothing heavy duty is required. Stability is the main goal of your table.
-
-Any existing table that is large enough is fine. You can use its surface directly, or a more popular option is to add a waste board of some sort on top that is replaceable as it gets used and cut into.
-
-Next option would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better. A simple 2x4 table with an MDF/plywood/OSB table top is most common.
-
-If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time.
-
-* ~$200 basic parametric plans, from V1E.com [LR4 easy table](https://forum.v1e.com/t/200-full-sized-lowrider-table-non-cnc-build/47947).
-* Here is a basic parametric set of plans that are easily configurable, from Jonathan Jones [V1 LR Table](https://forum.v1e.com/t/parametric-table/37698/156?u=vicious1)
-
-[Calculator for table, rail, and belt lengths](calculator.md)
-
-![!LR4 overhead Picture](../img/lr4/Top.png)
+There have three options for getting your own CNC machine. You can self source and print your own parts, you can buy full kits or individual parts from [V1E.com](https://www.v1e.com/collections/lowrider-parts), or you can even buy a fully assembled LowRider 4 from [North Woods Custom Creations](https://northwoodscustomcreations.com/)
 
 #### Rails
+
+You will need to self source the rails.
 
 You are looking for either 29.5mm, 30mm, or 32mm Outside Dimension (OD) steel tubes. In the U.S. and parts of Canada this will be 1" EMT Conduit (29.5mm), off the shelf hardware store conduit (not "rigid" conduit). In other countries you will either be 30mm or 32mm OD.
 
@@ -118,7 +105,6 @@ Printed parts files can be found at the links below
 
     Printer Skew calibration is suggested, we are trying to make sure parts are true vertical (90 degrees) and not tilted, this can be done easily with a carpenters square and a tall printed part. Or [Vector3D](https://vector3d.shop/products/calilantern-calibration){:target="blank"}, makes a wonderful tool. Skew calibration is enough size calibration should not be needed.
     You can also print the two small parts, Z_Stub and Z_Nut to make sure they fit together easily and you can get the m5 nuts inserts before printing the larger parts.
-
 
 
 |QTY |File Name                   |Infill |Comment                              |Link                                     | 
@@ -292,6 +278,22 @@ M8 or 5/16 should be hex head bolts.
 | *18 | M4 x 12mm+ Wood/metal                   | #8 x 1/2"+ Screws to mount things to your table |
 
 _* Not included in the hardware kit. You might also want different lengths to accommodate different material thickness._ 
+
+#### Table 
+
+Your table needs only be as fancy as a sheet of wood on a relatively flat, smooth surface. A CNC machine can self correct many of its own imperfections if needed. Typically, our tables only support the CNC and some material, so nothing heavy duty is required. Stability is the main goal of your table.
+
+Any existing table that is large enough is fine. You can use its surface directly, or a more popular option is to add a waste board of some sort on top that is replaceable as it gets used and cut into.
+
+Next option would be to build a basic table with any material that is easy to source for you. Accuracy is not super important, but the more square and flat you make it, the better. A simple 2x4 table with an MDF/plywood/OSB table top is most common.
+
+If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time.
+
+* ~$200-$400 basic table plans, from the V1E.com forums [LR4 tables](hhttps://forum.v1e.com/tag/parametric-table).
+
+[Calculator for table, rail, and belt lengths](calculator.md)
+
+![!LR4 overhead Picture](../img/lr4/Top.png)
 
 #### Update and conversion info
 ??? abstract "Click here for required hardware for converting older LowRiders or your MPCNC to an LR4"
