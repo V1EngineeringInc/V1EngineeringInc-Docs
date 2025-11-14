@@ -263,32 +263,32 @@ GPIO 12 and 15 are shared with the RJ11 socket. If you use the socket make sure 
 
 Over all the Jackpot3 (JP3) just takes what we learned from the original Jackpot (JP) CNC Controller and made a few small quality of life and functionality improvements. For most there is no compelling reason to change from a Jackpot 1 to a Jackpot3, but going forward the Jackpot3 is a better value.
 
-**Drivers** 
-JP3 -  All 6 populated and integrated same functionality better heat transfer, three large thermal layers per driver.
+**Drivers**   
+JP3 -  All 6 populated and integrated same functionality better heat transfer, three large thermal layers per driver.  
 JP - Swappable drivers.
 
-**Outputs**
-JP3 - All 4 dedicated outputs are voltage selectable (input or 5V), easy to use plugs.
+**Outputs**  
+JP3 - All 4 dedicated outputs are voltage selectable (input or 5V), easy to use plugs.  
 JP - 2 "high" voltage, 2 5V ports only.
 
-**RJ11** for pendant or airedale
-JP3 - Included protected input RJ11 uses 2 module pins, lets you use 2 pin on a module and the RJ11 socket at the same time or all 4 module pins and no RJ11.
-JP - Add on card required, uses all four module pins.
+**RJ11** for pendant or airedale  
+JP3 - Included protected input RJ11 uses 2 module pins, lets you use 2 pin on a module and the RJ11 socket at the same time or all 4 module pins and no RJ11.  
+JP - Add on card required, uses all four module pins.  
 
-**USB**
-JP3 - Uses USB-C.
+**USB**  
+JP3 - Uses USB-C.  
 JP - Micro USB (delicate), most usb-c esp32 were poor quality.
 
-**Power**
-JP3 - New plug/socket, reverse polarity protection.
+**Power**  
+JP3 - New plug/socket, reverse polarity protection.  
 JP - Screw terminals that had over tightening issues for some.
 
-**ESP32**
-JP3 - Integrated esp32 for better heat transfer, overhanging antenna for better signal, USB only breakout pins.
+**ESP32**  
+JP3 - Integrated esp32 for better heat transfer, overhanging antenna for better signal, USB only breakout pins.  
 JP - People tended to burry the antenna under their wires for a poor signal, swappable.
 
-**Stepper Plugs**
-JP3 - Open 2.54 male headers for ease of use, fits more plugs without modification.
+**Stepper Plugs**  
+JP3 - Open 2.54 male headers for ease of use, fits more plugs without modification.  
 JP - Caged headers are secure but did not fit all plugs.
 
 
