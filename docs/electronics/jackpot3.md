@@ -321,4 +321,8 @@ Some issues we have seen.
 V0 - The initial release.
 ```
 
+## Source
 
+This project is released under [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+Here is an [EasyEDA link](https://u.easyeda.com/join?type=project&key=3cd4237e079f521e5dab17848f252ec5&inviter=077a66e731864c5cb238c7a4979f3b30) to the project that you can clone and work from.
