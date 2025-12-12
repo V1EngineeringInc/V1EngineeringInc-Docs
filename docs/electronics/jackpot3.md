@@ -66,7 +66,7 @@ The Jackpot3 CNC Control board runs FluidNC which is fully GRBL compatible with 
         * [CAD/Step link - needed](https://)
         * 80mmx100mm Board footprint
 
-**Want to buy one?** Jackpot3 CNC Controller is available [here](https://www.v1e.com/products/jackpot3-cnc-controller) in the shop.
+**Want to buy one?** Jackpot3 CNC Controller is available [here](https://www.v1e.com/products/jackpot3-cnc-controller) in the shop, or China direct from [Elecrow](https://www.elecrow.com/jackpot3-cnc-controller.html).
 
 <figure markdown="span">
 ![!Jackpot CNC controller](../img/jackpot/jackpot3/jackpot3.jpg){: width="700"}
