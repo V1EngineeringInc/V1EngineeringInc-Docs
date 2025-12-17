@@ -285,7 +285,7 @@ JP - Screw terminals that had over tightening issues for some.
 
 **ESP32**  
 JP3 - Integrated esp32 for better heat transfer, overhanging antenna for better signal, USB only breakout pins.  
-JP - People tended to burry the antenna under their wires for a poor signal, swappable.
+JP - People tended to bury the antenna under their wires for a poor signal, swappable.
 
 **Stepper Plugs**  
 JP3 - Open 2.54 male headers for ease of use, fits more plugs without modification.  
