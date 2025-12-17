@@ -161,7 +161,7 @@ From there you have a "pulloff_mm" setting for each endstop. This setting is how
 
 ![!CONFIG pulloff](../img/jackpot/save.jpg){: loading=lazy width="400"}
 
-Be sure to **save** your edits at the bottom of the config screen, and then by also using the red save button (macro) on the home screen!
+Be sure to **save** your edits at the bottom of the config screen, and then by also using the save button (macro) on the home screen!
 
 ### Terminal Commands
 Here are some other useful terminal commands, for a full list please see the [FluidNC Wiki](http://wiki.fluidnc.com/).
