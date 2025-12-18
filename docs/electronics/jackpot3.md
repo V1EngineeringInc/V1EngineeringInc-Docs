@@ -85,8 +85,8 @@ Click on the image to enlarge it. New image coming soon
 <div class="grid" markdown>
 
 <figure markdown="span">
-![!Jackpot2 CNC LR pins](../img/jackpot/jackpot2/jackpot2wire.jpg){: loading=lazy  width="400"}
-<figcaption>LR = X, Y0, Z0, Y1(A), Z1(B) MPCNC = X0, Y0, Z, X1(A), Y1(B)</figcaption>
+![!Jackpot2 CNC LR pins](../img/jackpot/jackpot3/jp3label.png){: loading=lazy  width="400"}
+<figcaption>Cooling fans are typically hardwired to the power input, always on</figcaption>
 </figure>
 
 </div>
