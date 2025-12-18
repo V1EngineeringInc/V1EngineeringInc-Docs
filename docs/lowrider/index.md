@@ -8,7 +8,7 @@ The Beta team put in months of effort helping to refine and improve all aspects 
 
 ## Key Points
 
-* The average total build cost is about $650, if you buy the full kit from the shop. The only thing not included in that price is a ~$120 router and a table to work on. If you print your own parts you can lower that price to just over $400. Most people can get cutting for under $800 USD.
+* The average total build cost is about $650, if you buy the full kit from the shop. The only thing not included in that price is a $120 router(approx) and a table to work on. If you print your own parts you can lower that price to just over $400. Most people can get cutting for under $800 USD.
 * Foams, wood, and plastic are easy, aluminum and other soft metals are no problem for an experienced user. A few users have even machined steel.
 * A lot of the parts are 3D printed. To save from shipping large parts, the machine can be partially assembled to cut them itself.
 * Easily removable from the table for storage.
