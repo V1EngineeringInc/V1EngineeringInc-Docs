@@ -153,15 +153,15 @@ You can also test the firmware by running "$Limits" in the terminal windows of t
 
 ### Auto Square
 
-Auto Square on this board is as easy as editing each endstop individually directly from the "Config" section of the WebUI (or directly to the yaml file).
+Auto Square on this board is as easy as editing each endstop individually directly from the Settings/Config section of the WebUI (or directly to the yaml file).
 
-![!CONFIG WebUI](../img/jackpot/confg.png){: loading=lazy width="400"}
+![!CONFIG WebUI](../img/jackpot/square.jpg){: loading=lazy width="400"}
 
 From there you have a "pulloff_mm" setting for each endstop. This setting is how far the machine backs away from the endstop after it triggers it. This needs to be far enough to reset the trigger at a minimum and if your values should be within 3mm of each other. If they are not it is best to move the endstop triggers.
 
-![!CONFIG pulloff](../img/jackpot/pulloff.png){: loading=lazy width="400"}
+![!CONFIG pulloff](../img/jackpot/save.jpg){: loading=lazy width="400"}
 
-Be sure to **save** your edits at the bottom of the config screen, and then by also using the red save button (macro) on the home screen!
+Be sure to **save** your edits at the bottom of the config screen, and then by also using the save button (macro) on the home screen!
 
 ### Terminal Commands
 Here are some other useful terminal commands, for a full list please see the [FluidNC Wiki](http://wiki.fluidnc.com/).
@@ -285,7 +285,7 @@ JP - Screw terminals that had over tightening issues for some.
 
 **ESP32**  
 JP3 - Integrated esp32 for better heat transfer, overhanging antenna for better signal, USB only breakout pins.  
-JP - People tended to burry the antenna under their wires for a poor signal, swappable.
+JP - People tended to bury the antenna under their wires for a poor signal, swappable.
 
 **Stepper Plugs**  
 JP3 - Open 2.54 male headers for ease of use, fits more plugs without modification.  
