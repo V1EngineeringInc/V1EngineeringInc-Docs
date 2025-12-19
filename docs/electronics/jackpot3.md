@@ -65,7 +65,7 @@ The Jackpot3 CNC Controller is an all in one CNC control board. This board allow
         * larger than 2gb needed
         * Fat32
         * 30 character or less file names, 100 character or less file location
-        * Class 10 cards work best
+        * Class 4 cards work best, up to Class 6, anything above that is a gamble.
 
     + Firmware
         * [FluidNC](https://github.com/bdring/FluidNC)
