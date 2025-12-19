@@ -8,7 +8,17 @@ nav:
  - Home: index.md
 
  - Build:
-   - MPCNC:
+   - LowRider CNC:
+     - LowRider CNC V4: lowrider/index.md
+     - LowRider V4 Calculator: lowrider/calculator.md
+     - Previous Versions:     
+       - LowRider CNC V3: lowrider/lowrider3.md
+       - LowRider V3 Calculator: lowrider/lr3calculator.md
+       - LR2 Assembly: lowrider/lrv2/indexv2.md
+       - LR2 Parts: lowrider/lrv2/partsv2.md
+       - LR2 Calculator: lowrider/lrv2/calculatorv2.md
+       - LR1: lowrider/lrv2/version1.md
+   - Mostly Printed CNC:
      - Introduction to The MPCNC: mpcnc/intro.md
      - MPCNC Primo Parts list: mpcnc/PParts.md
      - Calculator: mpcnc/calculator.md
@@ -33,17 +43,12 @@ nav:
          - Gantry: mpcnc/burly/gantry.md
          - Final: mpcnc/burly/final.md
          - Belts: mpcnc/burly/belts.md
-   - LowRider:
-     - LowRider CNC V4: lowrider/index.md
-     - LowRider V4 Calculator: lowrider/calculator.md
-     - Previous Versions:     
-       - LowRider CNC V3: lowrider/lowrider3.md
-       - LowRider V3 Calculator: lowrider/lr3calculator.md
-       - LR2 Assembly: lowrider/lrv2/indexv2.md
-       - LR2 Parts: lowrider/lrv2/partsv2.md
-       - LR2 Calculator: lowrider/lrv2/calculatorv2.md
-       - LR1: lowrider/lrv2/version1.md
-   - MP3DP - The Printer:
+   - ZenXY: 
+     - ZenXY v2: zenxy/index.md
+     - ZenXY v2 Build Calculator: zenxy/zen2calculator.md
+     - ZenXY v2 Assembly: zenxy/zen2assm1.md
+     - Previous Version: zenxy/og_zen.md
+   - Mostly Printed 3D Printer:
      - MP3DP v5: mp3dp/index.md
      - Previous Versions:
        - MP3DP v4: mp3dp/mp3dpv4.md
@@ -51,12 +56,6 @@ nav:
        - MP3DP v3 Assembly: mp3dp/version3assm.md
        - MP3DP v2: mp3dp/version2.md
        - MP3DP v1: mp3dp/version1.md
-   - ZenXY: 
-     - ZenXY v2: zenxy/index.md
-     - ZenXY v2 Build Calculator: zenxy/zen2calculator.md
-     - ZenXY v2 Assembly: zenxy/zen2assm1.md
-     - Previous Version: zenxy/og_zen.md
-
  - Control:
    - Control Boards:
      - Jackpot3 CNC Controller: electronics/jackpot3.md
@@ -65,8 +64,7 @@ nav:
      - SKR Pro: electronics/skrpro.md
      - Ultimachine Boards: electronics/ultimachine.md
      - Ramps: electronics/ramps.md
-   - Setup: software/index.md
-     
+   - Setup: software/index.md     
  - Tools:
     - CNC Software Basics: learn/software_overview.md
     - Milling:
@@ -80,7 +78,6 @@ nav:
       - Engraving Mirrors: tools/laser-engraving-mirrors.md
     - Drag Knife/Vinyl: tools/drag-knife.md
     - Needle Cutter: tools/foam-needle-cutter.md
-
  - Learn:
     - FAQ's: learn/faq.md
     - Editing mkdocs: mkdocs_info.md
@@ -100,7 +97,7 @@ nav:
       - G-code: learn/gcode.md
       - V1pi - Headless: electronics/v1pi.md
 
-
+copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA</a> Copyright 2026 V1Engineering Inc."
 
 theme:
   font: false
@@ -123,7 +120,11 @@ theme:
   features:
   - navigation.tracking
   - navigation.instant
+  - navigation.instant.prefetch
+  - navigation.instant.progress
   - navigation.top
+  - navigation.path
+  - navigation.prune
   - toc.integrate
   - toc.follow
   - search.suggest
@@ -162,13 +163,10 @@ extra_css:
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-  
-copyright: "<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA</a> Copyright 2024 V1Engineering Inc."
 
 plugins:
   - glightbox
   - search
-  - privacy
   - git-committers:
       repository: V1EngineeringInc/V1EngineeringInc-Docs
       branch: master
@@ -206,5 +204,3 @@ markdown_extensions:
   - smarty
   - toc:
       permalink: true
- 
-
