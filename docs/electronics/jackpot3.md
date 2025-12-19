@@ -2,85 +2,96 @@
 
 ## Jackpot3 Basics
 
-The Jackpot3 CNC Controller is a 32bit dual-core 240mhz control board.
+The Jackpot3 CNC Controller is an all in one CNC control board. This board allows you to wire up your Nema17 (or smaller) based CNC machine with nearly any peripherals and control it wirelessly with nearly any web enabled device.
 
-- Built in wireless control software
-- WiFi, Bluetooth, or hardwired capable (esp32). 
+<figure markdown="span">
+![!Jackpot CNC controller](../img/jackpot/jackpot3/jackpot3.jpg){: width="700"}
+</figure>
+
+#### Highlights
+
+- 32bit dual-core 240mhz control board
+- Built in wireless control software,  Wi-Fi (802.11b/g/n), Bluetooth LE (BLE), or hardwired capable.
 - 6x TMC2226 drivers (nearly identical to the 22209 with better heat transfer)
-- 7 inputs, 4x 5V(full PWM capable) or 24V(PS input level) outputs (only basic PWM).
+- 7 inputs, 
+- 4 Outputs, 5V(full PWM capable) or 24V(PS input level) outputs (only basic PWM).
 - One expansion FluidNC module socket (more IO, or other specialty add on cards).
-- MicroSD card slot.
 - Integrated RJ11 socket, for a pendant or Airedale expander.
+- MicroSD card slot.
+- FluidNC Firmware, optionally grblHAL
 
-The Jackpot3 CNC Control board runs FluidNC which is fully GRBL compatible with extended features featuring easy configuration and updating, or GRBLHal(upcoming).
 
 ??? abstract "Click here for full specifications"
 
     + ESP32-wroom-32 Based control board
         * 32bit dual-core 240mhz board.
-        * WiFi, USB Direct connection, or Bluetooth (rarely used).
-        * Can have Onboard antenna
+        * Wi-Fi (802.11b/g/n), USB Direct connection, or Bluetooth LE (BLE) (rarely used).
+        * Onboard antenna
         * USB-C
     
-    + 9-24VDC
+    + Power
+        * 9-24VDC Input voltage
         * Current required is a minimum of 19W (24Vx0.8A).
-        * If you plan on using the high current outputs adjust accordingly.
+        * If you plan on using the high current outputs adjust your power supply current accordingly.
 
     + 6x Integrated Stepper drivers
         * TMC2226 drivers in UART control mode only
         * The sockets are labeled XYZABC, but you can use any socket for any axis or motor number. The letters are for reference only.
         * **No Stallguard**
+        * Digital current control, no tiny potentiometers
 
     + 7x Inputs
         * All switch inputs are active low.
-        * They have a 10k pullup external to the ESP32. The signal pin (S) should be connected to the ground pin (G) to activate the switch. 
+        * inputs have a 10k pullup external to the ESP32. The signal pin (S) should be connected to the ground pin (G) to activate the switch. 
         * The input pins can be pins in the config file to use Normally Open or Normally Closed inputs.
 
-    + 4x 5V or Line level outputs (same as input voltage)
-        * Can be used to drive 2.5A continuously before they overheat. You can use them intermittently up to 3.5A.
+    + 4x 5V or 24V Outputs
+        * Can be used to drive 1A continuously. You can use them intermittently up to 2.5A.
         * They can be used with inductive loads (solenoids, relays, DC fans/motors)
         * See the "Spindle" section of the FluidNC wiki for common uses
-        * Full PWM on teh 5v port, basic/slow PWM only on the 24V port.
+        * Full PWM on the 5v port, basic/slow PWM only on the 24V port.
         
     + 1x Expansion Module socket
         * [6 PACK expansion module source](https://oshwlab.com/bdring?tab=project&page=1)
         * [Buy Them](https://www.tindie.com/stores/33366583/)
         * This should be able to use any CNC I/O module. Use an 11mm standoff or a 3D printed support in the mounting hole provided.
         * These Modules can be just about anything you need, pendant, more inputs, outputs, relays, spindle, VFD, Servo, OLED...
+        * 2 of the 4 expansion port IO pins are shared with the RJ11 socket.
+
+    + RJ11 expansion port
+        * The RJ11 port can be used with [pendants](http://wiki.fluidnc.com/en/hardware/official), or expansion boards like the [Airedale](http://wiki.fluidnc.com/en/hardware/official/airedale)    
 
     + 1x MicroSD card slot
         * larger than 2gb needed
         * Fat32
         * 30 character or less file names, 100 character or less file location
+        * Class 10 cards work best
 
     + Firmware
         * [FluidNC](https://github.com/bdring/FluidNC)
         * Text based config file for simple firmware edits.
         * No compiling to flash a board or change the configuration.
-        * ~100% GRBL compatible
+        * ~100% GRBL compatible, with many additions
         * ESP3D-UI
         * Or GRBLHal
     
 
     + Dimensions
-        * [CAD/Step link - needed](https://)
+        * [CAD/Step link](https://cad.onshape.com/documents/586d99f7fa62d842cf001ba3/w/06ccd3c368e4566fc8ce42b1/e/d7e89e27274d1ff902b13141?renderMode=0&uiState=6945655fd523d23f466e5b57)
         * 80mmx100mm Board footprint
 
 **Want to buy one?** Jackpot3 CNC Controller is available [here](https://www.v1e.com/products/jackpot3-cnc-controller) in the shop, or China direct from [Elecrow](https://www.elecrow.com/jackpot3-cnc-controller.html).
 
-<figure markdown="span">
-![!Jackpot CNC controller](../img/jackpot/jackpot3/jackpot3.jpg){: width="700"}
-</figure>
-
-
 ### Thanks
-First and foremost, thank you, Bart Dring, for the amazing design and custom firmware required to make this happen. This is based off the [6 Pack Universal CNC Controller Development Board](https://www.tindie.com/products/33366583/6-pack-universal-cnc-controller/), changes were made to accommodate all the use cases I have seen with the V1 CNC Machines except for 3D printing. Also, Bart Dring and Mitch Bradley many thanks for GRBL-ESP32 and now [FluidNC](https://github.com/bdring/FluidNC).
+First and foremost, thank you, Bart Dring and Mitch Bradley, for the amazing design and custom [Fluid NC firmware](https://github.com/bdring/FluidNC) required to make this happen. This was originally based off the [6 Pack Universal CNC Controller Development Board](https://www.tindie.com/products/33366583/6-pack-universal-cnc-controller/). 
+
+---
 
 ## Initial Setup
 
 ### Wiring
 
-Click on the image to enlarge it. New image coming soon
+Click on the image to enlarge it.
 
 <div class="grid" markdown>
 
@@ -93,7 +104,7 @@ Click on the image to enlarge it. New image coming soon
 
 The probe/touchplate plugs into the last port (gpio.36), on either configuration.
 
-If you choose to use a case fan to cool your drivers you will typically wire the fan directly into the Jackpot3 main power so when the board is energized so is the fan. This means you need to get a fan that uses the same voltage as your power supply. We use a 24V power supply in the kit and sell a [24V fan](https://www.v1e.com/products/5015-12v-fan-blower) in the shop.
+Case Fans, if you choose to use a case fan to cool your drivers you will typically wire the fan directly into the Jackpot3 main power so when the board is energized so is the fan. This means you need to get a fan that uses the same voltage as your power supply. We use a 24V power supply in the kit and sell a [24V fan](https://www.v1e.com/products/5015-12v-fan-blower) in the shop.
 
 #### Running the wires.
 
@@ -103,21 +114,24 @@ Wires should always be ran beside the board never over, proper airflow is essent
 
 Never cross wires over the top of the Jackpot3 antenna, this blocks the antenna signal.
 
-### Onboard Controls
-If you bought your Jackpot3 CNC Controller from the [V1E.com](https://www.v1e.com/) store it should be ready to go. You should be able to log in directly to the WiFi SSID "FluidNC" and the password = 12345678 
+### Onboard 
 
 ![!Jackpot3 SSID](../img/jackpot/jackpotwifi.jpg){: loading=lazy  width="380"}
 
-Some browsers will then need to be pointed to http://192.168.0.1, best to bookmark that address. If you get a drop down message about no internet just hit "use this network anyway".
+If you bought your Jackpot3 CNC Controller from the [V1E.com](https://www.v1e.com/) store it should be ready to go. You should be able to log in directly to the WiFi SSID "FluidNC" and the password = 12345678 
+
+Most browsers will then need to be told to "use this network as is" (upper right corner menu) and then navigate to http://192.168.0.1, best to bookmark that address. 
 
 ![!WebUI](../img/jackpot/LUI.jpg){: loading=lazy width="500"}
 
-This Interface is from the [ESP3D WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for any of the Jackpot3’s outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settings all from the WebUI.You can wirelessly transfer your gcode files, but manually using the MicroSD card is still preferred. Most will probably never even plug the USB port in. This can be used from most any device that has a web browser. If you are using a small touchscreen you can even zoom in so the buttons are easier to hit.
+This Interface is from the [ESP3D V3 WebUI project](https://github.com/luc-github/ESP3D-WEBUI). This interface allows for wireless machine jogging, custom macros, quick buttons for any of the Jackpot3’s outputs, terminal control, file system control, UI and board configs, all in one place. You can update the firmware, GUI, and board settings all from the WebUI.You can wirelessly transfer your gcode files, but manually using the MicroSD card is still preferred. This can be used from most any device that has a web browser. If you are using a small touchscreen you can even zoom in so the buttons are easier to hit.
 
-We typically use the Jackpot3 board in AP mode (access point), this is a direct connection between your web enabled device and the board itself. No internet connection is used in this case, this is a direct connection to the Jackpot3 only.
+We typically use the Jackpot3 board in AP mode (access point), this is a direct connection between your web enabled device and the board itself. No internet connection is used in this case, this is a direct connection to the Jackpot3 from your web enabled device.
 
-??? Info "Other Networking Options"
-    You can also configure your device in STA mode, http://fluid.local, if you have a strong signal to your home WiFi network. This will get your board connected to your local network, meaning you will be connected to the Jackpot3 and the internet at the same time. This is advanced and not recommended unless you are very confident in your networking setup. It is not recommended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
+??? Info "If your shop has a strong home network wifi signal..."
+    You can also configure your Jackpot in STA mode if you have a strong signal to your home WiFi network. This will get your board connected to your local network, meaning you will be connected to the Jackpot3 and the internet at the same time, you can now wirelessly transfer files to your Jackpot, and to connect you can either go to your board's IP address or just use http://fluid.local. 
+
+    This is advanced and not recommended unless you are very confident in your networking setup. It is not recommended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
 
 #### Other Control Options
 
@@ -126,10 +140,12 @@ The Jackpot3 Control board can use most any control software that supports GRBL 
  * The default is to use the Jackpot3 with a direct wifi connection to a device with a web browser.
  * You can use STA mode if you have a good signal to your home wifi network
  * For either of the previous two options you can add a bluetooth joypad (or keyboard if your device does not have one) to your device if you prefer some buttons. Button mapping is built in to the WebUI.
- * You can add a hardwired always connected pendant for the basics, moving, starting a file, resuming. This would be a "FluidNC CYD pendant" or M5 Pendant
+ * You can add a hardwired always connected pendant for the basics, moving, starting a file, resuming. This would be a "FluidNC CYD pendant" or "M5 Pendant", or Jason's [FluidTouch](https://jeyeager65.github.io/FluidTouch/).
  * You can also use a USB Direct connection to a computer to use one of the many GCode senders available that supports GRBL such as CNC.js or Lightburn. Or even switch to GRBLHal to use Gsender.
 
-### Tests
+---
+
+## Tests
 
 #### Motion
 
@@ -197,6 +213,8 @@ Some screen shots needed here.
 
 Start, tool change, and ending gcode are all listed on the milling basics page, [here](../tools/milling-basics.md#gcode-start-tool-change-and-ending).
 
+---
+
 ## Firmware
 If you bought it from the V1E.com store it should be ready to go. This section is in case you want to update or start fresh. 
 
@@ -259,6 +277,8 @@ GPIO 25, 33, 32 are inputs but can be changed to outputs if you need to. GPIO 35
 
 GPIO 12 and 15 are shared with the RJ11 socket. If you use the socket make sure to only use gpio 13 & 14 on the module port.
 
+---
+
 ## Jackpot3 versus Jackpot
 
 Over all the Jackpot3 (JP3) just takes what we learned from the original Jackpot (JP) CNC Controller and made a few small quality of life and functionality improvements. For most there is no compelling reason to change from a Jackpot 1 to a Jackpot3, but going forward the Jackpot3 is a better value.
@@ -291,11 +311,13 @@ JP - People tended to bury the antenna under their wires for a poor signal, swap
 JP3 - Open 2.54 male headers for ease of use, fits more plugs without modification.  
 JP - Caged headers are secure but did not fit all plugs.
 
+---
 
 ## FluidNC Details
 
 The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmware, with an excellent search bar. If you still get stuck you can of course turn to the [V1E.com forum](https://forum.v1e.com/) or there are links to a FluidNC specific discord in the wiki.
 
+---
 
 ## Troubleshooting
 Some issues we have seen.
@@ -304,9 +326,9 @@ Some issues we have seen.
 
 -Flashing issues - Pressing the boot button is needed on some boards. If that does not work use the manual method described above.
 
--No memory card showing up - Try a [class 6 card](https://amzn.to/3t4lVgF), or slower formatted in fat32. New fancy high speed cards are hit or miss. [A1 rated cards](https://amzn.to/3PRpYpx) seem particularly troublesome.
-
 -Some PC's will need USB drivers, if needed the ESP32 USB drivers are here [CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
+
+-No memory card showing up - Try a [class 6 card](https://amzn.to/3t4lVgF), or slower formatted in fat32. New fancy high speed cards are hit or miss. [A1 rated cards](https://amzn.to/3PRpYpx) seem particularly troublesome.
 
 -If you use STA mode and lose your Jackpot3 on the network you can find it's IP on your router, use the web installer's wifi tools.
 
@@ -315,6 +337,10 @@ Some issues we have seen.
 -If you switch from the V2 to V3 of the webui interface, all the files need to be wiped and uploaded again from the V1 github repo.
 
 -If this does not solve your issue, please make a new thread in the forums and if possible let us see the $SS output from the webui terminal.
+
+-If you can not scroll up or the WebUI does not seem to be working right, make sure you opened a new browser window after connection and went to http://192.168.0.1 Otherwise you are trapped in a browser "captive portal" and lose a lot of functionality.
+
+---
 
 ## Changelog
 ```

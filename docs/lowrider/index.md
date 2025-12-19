@@ -1006,7 +1006,7 @@ Start the YZ plates.
 
 * Find a good home for your control board. The YZ_Min side as shown here is recommended.
 * The first bay makes wiring the easiest, as well as SD card access.
-* [Jackpot Wiring](../electronics/jackpot.md/##wiring), Other boards will be similar. You will start routing the wires to your controller.
+* [Jackpot Wiring](../electronics/jackpot3.md/#wiring), Other boards will be similar. You will start routing the wires to your controller.
 
 ---
 
