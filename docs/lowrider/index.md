@@ -289,7 +289,7 @@ Next option would be to build a basic table with any material that is easy to so
 
 If you have a table saw, circular saw with a guide, or a CNC machine, a Torsion Box table is pretty easy to make and can lead to a very stable surface that will last a long time.
 
-* ~$200-$400 basic table plans, from the V1E.com forums [LR4 tables](hhttps://forum.v1e.com/tag/parametric-table).
+* ~$200-$400 basic table plans, from the V1E.com forums [LR4 tables](https://forum.v1e.com/tag/parametric-table).
 
 [Calculator for table, rail, and belt lengths](calculator.md)
 
