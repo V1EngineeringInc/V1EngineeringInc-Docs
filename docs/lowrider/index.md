@@ -139,13 +139,14 @@ Printed parts files can be found at the links below
 |4   | Temp Strut                 |15%  |                                     |                                         |
 |    |Tool Mount Set              |     |                                     |                                         |
 |1   |Makita, DeWalt, Kobalt      |30%  | Print info in the part description  |[Makita][mak] \| [DeWalt][dew] \| [Kobalt][kob]|
-|1   |Board Box                   |20%  |                                     |[Jackpot][jac] \| [SKR Pro][skr]            |
+|1   |Board Box                   |20%  |                                     |[Jackpot][jac] \| [Jackpot3][jac3] \|[SKR Pro][skr] |
  
 [mak]: https://www.printables.com/model/1033926-makita-701-tool-mount-and-dust-shoe-for-the-lowrid
 [dew]: https://www.printables.com/model/1034374-dewalt-611-tool-mount-and-dust-shoe-for-the-lowrid
 [kob]: https://www.printables.com/model/1034828-kobalt-tool-mount-and-dust-shoe-for-the-lowrider-c
 [jac]: https://www.printables.com/model/1037842-jackpot-cnc-control-box-for-the-lowrider-4-cnc
 [skr]: https://www.printables.com/model/1051517-skr-pro-box-for-the-lowrider-4-cnc
+[jac3]: https://www.printables.com/model/1434650-jackpot3-box
 
  * Wire sleeve is nice but not needed [Shop](https://www.v1e.com/products/wire-sleeve?_pos=1&_sid=1a54ba9cd&_ss=r), [Amazon](https://amzn.to/3EDzb1H).
 
