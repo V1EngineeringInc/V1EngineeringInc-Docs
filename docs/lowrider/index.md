@@ -1296,6 +1296,11 @@ Start the YZ plates.
 * Now the X belt
 * Wrap around an M3 screw
 * You can pinch the belt and hold it in the metal XZ plate as you work it in further.
+* [North Woods Custom Creations](https://northwoodscustomcreations.com/) made a video below.
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ksff8qEy1OY?si=HWEaKcWWbQVgDyTw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
