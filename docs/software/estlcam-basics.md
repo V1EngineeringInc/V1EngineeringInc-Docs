@@ -19,6 +19,8 @@ If you are unsure what a tool path or CAM is I suggest taking a look at this pag
 
 The installer starts in German, you will be able to change this later.
 
+Deselect option shown below.  We can't use this with Jackpot/SKR Control Boards.
+
 ---
 
 ![!controller deselect](../img/software/es2.jpg){: loading=lazy width="400"}
