@@ -129,7 +129,7 @@ This Interface is from the [ESP3D V3 WebUI project](https://github.com/luc-githu
 We typically use the Jackpot3 board in AP mode (access point), this is a direct connection between your web enabled device and the board itself. No internet connection is used in this case, this is a direct connection to the Jackpot3 from your web enabled device.
 
 ??? Info "If your shop has a strong home network wifi signal..."
-    You can also configure your Jackpot in STA mode if you have a strong signal to your home WiFi network. This will get your board connected to your local network, meaning you will be connected to the Jackpot3 and the internet at the same time, you can now wirelessly transfer files to your Jackpot, and to connect you can either go to your board's IP address or just use http://fluid.local. 
+    You can also configure your Jackpot in STA mode if you have a strong signal to your home WiFi network. This will get your board connected to your local network, meaning you will be connected to the Jackpot3 and the internet at the same time, you can now wirelessly transfer files to your Jackpot, and to connect you can either go to your board's IP address or just use http://fluidnc.local (you can edit this address). 
 
     This is advanced and not recommended unless you are very confident in your networking setup. It is not recommended to use STA mode until you are familiar with how the firmware and your machine work as it is very difficult to support and troubleshoot network issues. Please stick to AP mode until everything is stable with your workflow.
 
@@ -140,7 +140,8 @@ The Jackpot3 Control board can use most any control software that supports GRBL 
  * The default is to use the Jackpot3 with a direct wifi connection to a device with a web browser.
  * You can use STA mode if you have a good signal to your home wifi network
  * For either of the previous two options you can add a bluetooth joypad (or keyboard if your device does not have one) to your device if you prefer some buttons. Button mapping is built in to the WebUI.
- * You can add a hardwired always connected pendant for the basics, moving, starting a file, resuming. This would be a "FluidNC CYD pendant" or "M5 Pendant", or Jason's [FluidTouch](https://jeyeager65.github.io/FluidTouch/).
+ * You can add a hardwired always connected pendant for the basics, moving, starting a file, resuming. This would be a "FluidNC CYD pendant" or "M5 Pendant".
+ * Jason's wireless [FluidTouch](https://jeyeager65.github.io/FluidTouch/).
  * You can also use a USB Direct connection to a computer to use one of the many GCode senders available that supports GRBL such as CNC.js or Lightburn. Or even switch to GRBLHal to use Gsender.
 
 ---
