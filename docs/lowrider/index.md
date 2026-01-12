@@ -490,6 +490,7 @@ Here is a users build video showing this process.
 
 * Lever opens to the bottom
 * Seat these tiny screws all the way but be very careful not to strip them out.
+* 99% of builds are going to use this endstop, homing to Xmin. The locations for the endstop located on the other side of the core are only for those who want to home to Xmax (not recommended for beginners, needs changes to the config).
 
 ---
 
