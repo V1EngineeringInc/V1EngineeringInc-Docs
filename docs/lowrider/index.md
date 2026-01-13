@@ -196,7 +196,7 @@ A full sheet build normally has 7 braces.
 
 XZ Plates connect your X axis beam to your YZ plates.
 
-The easiest option for most people, are the metal XZ plates from the [V1E.com shop](https://www.v1e.com/products/lowrider-4-aluminium-xz-plates).
+The easiest option for most people, are the metal XZ plates from the [V1E.com shop](https://www.v1e.com/products/lowrider-4-aluminium-xz-plates) or, if you are in the EU, from [HaWiWe](https://hawiwe.de/produkt/aluminium-xz-platten/).
 
 Other options: 
 
