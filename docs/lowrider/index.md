@@ -241,7 +241,7 @@ You can buy most of the specialty parts and hardware here, [V1 Shop](https://www
 [sh13]: https://www.v1e.com/collections/3dprinter-parts/products/0-5ml-threadlocker-242
 [sh14]: https://www.v1e.com/collections/3dprinter-parts/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe 
 
-[az1]: https://www.elecrow.com/jackpot-cnc-controller.html
+[az1]: https://www.elecrow.com/jackpot3-cnc-controller.html
 [az2]: https://amzn.to/3FcxGlE
 [az3]: https://amzn.to/3BJMgov
 [az4]: https://amzn.to/3n9mUGM
