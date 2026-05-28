@@ -222,9 +222,9 @@ You can buy most of the specialty parts and hardware here, [V1 Shop](https://www
 |2    |Coupler                 |8mm to 5mm                                     |[Shop][sh10] – [Amazon][az10]|
 |4    |Linear rails MGN        |MGN12H 150mm                                   |[Shop][sh11] – [Amazon][az11]|
 |1    |Power Supply            |9-24V Board dependent 36W+                     |[Shop][sh12] – [Amazon][az12]|
-|*    |Thread locker           |Optional for grubs screws                      |[Shop][sh13] – [Amazon][az13]|
-|*    |Lube                    |Optional for idlers and linear rails           |[Shop][sh14] – [Amazon][az14]|
-|*    |Vac Hose                |Optional 2.5" (70mm) OD Vacuum hose steel rib  | – [Amazon][az15]|
+|*1    |Thread locker           |Optional for grubs screws                      |[Shop][sh13] – [Amazon][az13]|
+|*2    |Lube                    |Optional for idlers and linear rails           |[Shop][sh14] – [Amazon][az14]|
+|*3    |Vac Hose                |Optional 2.5" (70mm) OD Vacuum hose steel rib  | – [Amazon][az15]|
 
 [sh1]: https://www.v1e.com/products/jackpot3-cnc-controller
 [sh2]: https://www.v1e.com/collections/3dprinter-parts/products/nema-17-76oz-in-steppers
@@ -259,7 +259,9 @@ You can buy most of the specialty parts and hardware here, [V1 Shop](https://www
 
 As an Amazon Associate, I earn from qualifying purchases.
 
-* Vac Hoses need to be grounded at one end. Using a steel ribbed hose makes this very easy to use the ground port from your power source. If you use a non-conductive vac hose you can run a bare wire through the hose secure at one end and ground at the other. If you do not ground your hose static will build up and can damage your control board or other components.
+*1 Threadlocker is recommended for the pulley grub screws, it is not included in the kits due to import regulations.
+
+*3 Vac Hoses need to be grounded at one end. Using a steel ribbed hose makes this very easy to use the ground port from your power source. If you use a non-conductive vac hose you can run a bare wire through the hose secure at one end and ground at the other. If you do not ground your hose static will build up and can damage your control board or other components.
 
 
 ### Hardware
@@ -497,6 +499,7 @@ Here is a users build video showing this process.
 
 * Using the belt guide on the back of the core set the pulley on the X stepper shaft.
 * Always tighten the set / grub screw on the shaft flat first, then the second screw.
+* Thread locker is recommended for the grub screws.
 
 ---
 
@@ -617,6 +620,7 @@ Start the YZ plates.
 
 * Use the alignment gauge on the top of the YZ plate to align the pulley.
 * Secure the pulley with the set/grub screw on the flat face first, then the other screw.
+* Thread locker is recommended for the grub screws.
 * The little black fasteners are set screws or grub screws.
 * Notice the stepper is on the chamfered / endstop side.
 
@@ -722,6 +726,7 @@ Start the YZ plates.
 * Use the small furthest line
 * Make sure the stepper is on the endstop side of the plate.
 * Tighten the set/grub screw on the flat first, the other.
+* Thread locker is recommended for the grub screws.
 
 ---
 
@@ -778,6 +783,7 @@ Start the YZ plates.
 
 * Add the T8 Leadscrew to the coupler. Make sure the leadscrew is fully seated and touching the stepper shaft.
 * Snug both grub screws.
+* Thread locker is recommended for the grub screws.
 * It is suggested to lubricate the leadscrew with a light lubricant at this time.  [Shop](https://www.v1e.com/products/super-lube-silicone-lubricating-grease-with-syncolon-ptfe)
 
 ---
