@@ -303,7 +303,7 @@ uart2:
 ```
 GPIO 25, 33, 32 are inputs but can be changed to outputs if you need to. GPIO 35, 34, 39, 36 are input only.
 
-GPIO 12 and 15 are shared with the RJ11 socket. If you use the socket make sure to only use gpio 13 & 14 on the module port.
+GPIO 12 and 15 are shared with the RJ11 socket. If you use the socket, make sure to only use gpio 13 & 14 on the module port.
 
 ---
 
@@ -344,6 +344,10 @@ JP - Caged headers are secure but did not fit all plugs.
 ## FluidNC Details
 
 The [FluidNC Wiki](http://wiki.fluidnc.com/) has all the details of this firmware, with an excellent search bar. If you still get stuck you can of course turn to the [V1E.com forum](https://forum.v1e.com/) or there are links to a FluidNC specific discord in the wiki.
+
+---
+
+If you want to try some other use cases with the Jackpot 3, there is a [configuration wizard here](https://mitchbradley.github.io/FluidNC-config-wizard/?board=jackpot3).
 
 ---
 
