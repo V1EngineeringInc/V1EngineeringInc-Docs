@@ -1,0 +1,50 @@
+:root > * {
+  --md-typeset-a-color: #D60000;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #D60000;
+  --md-default-bg-color: #464646;
+  --md-primary-fg-color: #2a2a2a;
+}
+
+.md-grid {
+  max-width: 1200px; 
+}
+
+/* Reduce spacing in tables */
+th, td {
+  border: 1px solid var(--md-typeset-table-color);
+  border-spacing: 0;
+  border-bottom: none;
+  border-left: none;
+  border-top: none;
+}
+
+.md-typeset__table {
+  line-height: 1;
+}
+
+.md-typeset__table table:not([class]) {
+  font-size: .74rem;
+  border-right: none;
+}
+
+
+.md-typeset__table table:not([class]) td {
+  padding: 6px;
+}
+
+.md-typeset__table table:not([class]) th {
+  padding: 9px;
+}
+
+/* light mode alternating table bg colors */
+.md-typeset__table tr:nth-child(2n) {
+  background-color: #f6f6f6;
+}
+
+/* dark mode alternating table bg colors */
+[data-md-color-scheme="slate"] .md-typeset__table tr:nth-child(2n) {
+  background-color: #404040;
+}
