@@ -1,0 +1,7 @@
+site/
+venv/
+.venv
+.cache
+.git/
+.github/
+Dockerfile
