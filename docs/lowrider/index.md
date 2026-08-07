@@ -97,7 +97,7 @@ Printed parts files can be found at the links below
 
 * Do not use supports, keep the default orientation.
 * You will need about 2.7kg of filament for a full set with tool mount and a board box.
-* PLA is recommended for ultimate rigidity. Other filaments with great rigidity and added heat resistance are PET-GF/CF and PC-GF/CF.
+* PLA is recommended for ultimate rigidity. Other filaments with great rigidity and added heat resistance are PET-GF/CF and PC-GF/CF.  Want some info and inspiration for different part Colors to use?  If so, check out [this topic](https://forum.v1e.com/t/low-rider-printed-parts-color/54006) and others on the [friendly helpful forum](https://forum.v1e.com/search?q=part%20colors%20lowrider).
 * 3 walls rectilinear or cubic infill for most parts. Thicker layers, since these are large parts, no more than 80% nozzle diameter to layer thickness ratio to keep steep walls working. For newbies: the printer files downloaded from the links above should have these settings by default, but its best to verify.
 * 200mmx200mmx190mm available build volume is needed to print these parts.
 
