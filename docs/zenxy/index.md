@@ -24,22 +24,22 @@ software](https://liberapay.com/jeffeb3/)).
 |QTY  |Description             |Comment                                        |Link                        | 
 |-----|------------------------|-----------------------------------------------|----------------------------|
 |1    |Control Board           | 5 driver minimum, More info below             |[Shop][sh1] – [Elecrow][am1]|
-|1    |Extrusions              | More info below                               |[Shop][sh2] – [Elecrow][am2]|
+|2    |Extrusions              | Length info below - V-Slot 20/20              |[Shop][sh2] – [Elecrow][am2]|
 |2    |Steppers                | Nema 17, most any torque will work            |[Shop][sh3] – [Elecrow][am3]|
 |1    |Power Supply            | 12-24v (board dependant) ~0.5A+               |[Shop][sh4] – [Elecrow][am4]|
 |3    |V-Wheel Blocks          | 50mm                                          |[Shop][sh5] – [Elecrow][am5]|
-|x    |Pulleys                 | 6mm                                           |[Shop][sh6] – [Elecrow][am6]|
-|x    |Smooth Idlers           | 6mm                                           |[Shop][sh7] – [Elecrow][am7]|
-|x    |Toothed Idlers          | You can actually substitute smooth idlers     |[Shop][sh8] – [Elecrow][am8]|
-|1    |Belt                    | More info below                               |[Shop][sh9] – [Elecrow][am9]|
-|1    |Magnet                  |                                               |[Shop][sh10] – [Elecrow][am10]|
-|1    |Steel Ball              |                                               |[Shop][sh11] – [Elecrow][am11]|
-|x    |Cable Ties              |                                               |[Shop][sh12] – [Elecrow][am12]|
-|x    |Extrusion Screws        |                                               |[Shop][sh13] – [Elecrow][am13]|
-|x    |Extrusion T-Nuts        |                                               |[Shop][sh14] – [Elecrow][am14]|
-|x    |M3                      |                                               |[Shop][sh15] – [Elecrow][am15]|
-|x    |M5                      |                                               |[Shop][sh16] – [Elecrow][am16]|
-|x    |Attachment screws       |                                               |[Shop][sh17] – [Elecrow][am17]|
+|x    |Pulleys GT2             | 6mm width, 5mm bore, 16T+                     |[Shop][sh6] – [Elecrow][am6]|
+|x    |Smooth Idlers GT2       | 6mm width, 3mm bore, 20t                      |[Shop][sh7] – [Elecrow][am7]|
+|x    |Toothed Idlers GT2      | same as above, or use smooth idlers           |[Shop][sh8] – [Elecrow][am8]|
+|1    |Belt                    | GT2 6mm, More info below                      |[Shop][sh9] – [Elecrow][am9]|
+|1    |Magnet                  | 1/2" x 1/2" Neo                               |[Shop][sh10] – [Elecrow][am10]|
+|1    |Steel Ball              | 1/2"                                          |[Shop][sh11] – [Elecrow][am11]|
+|8+   |Cable Ties              | 40lb, 3.5mm                                   |[Shop][sh12] – [Elecrow][am12]|
+|4    |Extrusion Screws        | M5x10                                         |[Shop][sh13] – [Elecrow][am13]|
+|4    |Extrusion T-Nuts        | Fit 20 Series                                 |[Shop][sh14] – [Elecrow][am14]|
+|20   |M3x20                   | Phillips Pan Head                             |[Shop][sh15] – [Elecrow][am15]|
+|7    |M5x25                   | Phillips Pan Head                             |[Shop][sh16] – [Elecrow][am16]|
+|13   |Attachment screws       | Truss Head, Suited to your build and material |[Shop][sh17] – [Elecrow][am17]|
 |2    |Optical Endstops        |                                               |[Shop][sh18] – [Elecrow][am18]|
 |1    |                        |                                               |[Shop][sh19] – [Elecrow][am19]|
 
@@ -64,24 +64,24 @@ software](https://liberapay.com/jeffeb3/)).
 [sh19]: 
 
 [am1]: https://m.elecrow.com/pages/shop/product/details?id=207484&
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
-[am1]:
+[am2]: https://amzn.to/4hgWH5l
+[am3]: https://amzn.to/3UHJRnX
+[am4]: https://amzn.to/4heYojI
+[am5]: https://amzn.to/3ULxNC8
+[am6]: https://amzn.to/4d2j2RG
+[am7]: https://amzn.to/4r1Ycru
+[am8]: https://amzn.to/3VjA1J3
+[am9]: https://amzn.to/3TkLmIn
+[am10]: https://amzn.to/4r9L9Ew
+[am11]: https://amzn.to/4hi3iMQ
+[am12]: https://amzn.to/3UItYO6
+[am13]: https://amzn.to/4xpGNuw
+[am14]: https://amzn.to/4xpGNuw
+[am15]: https://amzn.to/3VjCkMd
+[am16]: https://amzn.to/4qXF51z
+[am17]: https://amzn.to/4yp4sMa
+[am18]: https://amzn.to/4gRmZJZ
+[am19]:
 
 ___
 
