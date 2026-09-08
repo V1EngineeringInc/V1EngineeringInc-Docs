@@ -1,90 +1,87 @@
-# ZenXY v2
+# ZenXY v3
 
-![!ZenXY_V2](https://cdn.shopify.com/s/files/1/1566/2831/files/PXL_20211029_205417321_1024x1024.jpg?v=1635739079){: loading=lazy width="450"}
-
-Inspired by the awesome Sisyphus Table by Bruce Shapiro, [http://www.sisyphus-industries.com/](http://www.sisyphus-industries.com/), Zen gardens that my mom loves, and the crazy CoreXY belting system.
-
-This is my second attempt at an automated Zen Garden (or whatever you might call it).
-
-![!ZenXY v2 Render](../img/old/2021/03/XZXY-V2F-squarer.jpg){: loading=lazy width="450"}
-
-[Rendered Animation](https://youtu.be/LmXAHtwVOIo)
+COMING SOON
 
 ## Pattern Software
 
 **Sandify**
+
 ![!Sandify](../img/old/2019/01/screenshot-2019-01-02-1546472560.png){: loading=lazy width="450"}
 
 Amazing patterns are easily possible by using [Sandify.org](https://sandify.org/), the back end is here [Sandify on GitHub](https://github.com/jeffeb3/sandify),
 This table would be nothing without this tool! ([feel free to show some appreciation for this amazing free piece of
 software](https://liberapay.com/jeffeb3/)).
 
-**Karl’s EstlEgg-ify**
-Karl’s way allows for some custom vector graphics to be easily drawn. Here in the [Forum](https://forum.v1e.com/t/artistic-designs-with-inkscape-eggbot-tools-and-estlcam/6302).
 
 ## Bill of Materials
 
-**[Printed Parts Sets](https://www.v1e.com/products/zenxy-v2-printed-parts-set)**
+1- You will need to buy or build a table, usually suited to fit two pieces of tempered glass.
 
-___
+2- A full set of printed parts, buy from the [V1 Shop](https://www.v1e.com/products/zenxy-v3-printed-parts-set), or 3D Print your own [Printables](link).
 
-| Printed Parts     | QTY. |
-|-------------------|------|
-| Truck 1A          | 1    |
-| Truck 1B          | 1    |
-| Truck 2A          | 1    |
-| Truck 2B          | 1    |
-| Power Corner Main | 1    |
-| Power Corner 2    | 1    |
-| Cross Corner 1A   | 1    |
-| Cross Corner 1B   | 1    |
-| Cross Corner 2A   | 1    |
-| Cross Corner 2B   | 1    |
-| Zen Center        | 1    |
-| Tension Block     | 1    |
-| Trigger           | 1    |
+3- You can buy most of the other specialty parts and hardware here, [V1 Shop](https://www.v1e.com/collections/zenxy){:target="_blank"}
 
-**Spacers**
+|QTY  |Description             |Comment                                        |Link                        | 
+|-----|------------------------|-----------------------------------------------|----------------------------|
+|1    |Control Board           | 5 driver minimum, More info below             |[Shop][sh1] – [Elecrow][am1]|
+|2    |Extrusions              | Length info below - V-Slot 20/20              |[Shop][sh2] – [Amazon][am2]|
+|2    |Steppers                | Nema 17, most any torque will work            |[Shop][sh3] – [Amazon][am3]|
+|1    |Power Supply            | 12-24v (board dependant) ~0.5A+               |[Shop][sh4] – [Amazon][am4]|
+|3    |V-Wheel Blocks          | 50mm                                          |[Shop][sh5] – [Amazon][am5]|
+|2    |Pulleys GT2             | 6mm width, 5mm bore, 16T+                     |[Shop][sh6] – [Amazon][am6]|
+|6    |Smooth Idlers GT2       | 6mm width, 3mm bore, 20t                      |[Shop][sh7] – [Amazon][am7]|
+|2    |Toothed Idlers GT2      | same as above, or use smooth idlers           |[Shop][sh8] – [Amazon][am8]|
+|1    |Belt                    | GT2 6mm, More info below                      |[Shop][sh9] – [Amazon][am9]|
+|1    |Magnet                  | 1/2" x 1/2" Neo                               |[Shop][sh10] – [Amazon][am10]|
+|1    |Steel Ball              | 1/2"                                          |[Shop][sh11] – [Amazon][am11]|
+|8+   |Cable Ties              | 40lb, 3.5mm                                   |[Shop][sh12] – [Amazon][am12]|
+|4    |Extrusion Screws        | M5x10                                         |[Shop][sh13] – [Amazon][am13]|
+|4    |Extrusion T-Nuts        | Fit 20 Series                                 |[Shop][sh14] – [Amazon][am14]|
+|20   |M3x20                   | Phillips Pan Head                             |[Shop][sh15] – [Amazon][am15]|
+|7    |M5x25                   | Phillips Pan Head                             |[Shop][sh16] – [Amazon][am16]|
+|13   |Attachment screws       | Truss Head, Suited to your build and material |[Shop][sh17] – [Amazon][am17]|
+|2    |Optical Endstops        |                                               |[Shop][sh18] – [Amazon][am18]|
+|1    |                        |                                               |[Shop][sh19] – [Amazon][am19]|
 
-The spacers are optional and only needed if your glass mounting hardware protrudes. The STL files are 1mm thick and can easily be scaled in the Z direction only up to about 7mm before the 12.7mm magnet might start to pose an issue. If needed, one magnet spacer and two of each corner spacer are used, all scaled to the same Z dimension.
+[sh1]: https://www.v1e.com/products/jackpot3-cnc-controller
+[sh2]: 
+[sh3]: https://www.v1e.com/products/nema-17-76oz-in-steppers
+[sh4]: https://www.v1e.com/products/24v-power-supply
+[sh5]: 
+[sh6]: 
+[sh7]: 
+[sh8]: 
+[sh9]: 
+[sh10]: https://www.v1e.com/products/1-2-x-1-2-magnet
+[sh11]: https://www.v1e.com/products/1-2d-steel-ball
+[sh12]: 
+[sh13]: 
+[sh14]: 
+[sh15]: 
+[sh16]: 
+[sh17]: 
+[sh18]: https://www.v1e.com/products/optical-endstop
+[sh19]: 
 
-If you glass is not mounted planer to your corners you can use a second magnet and stack them to reach your glass.
-
-Insert Picture of mounted glass
-
-
-**Printing Recommendations** 
-
-Most any semi-rigid material will work for printing these parts. PLA or PETG are highly recommended for accuracy, durability, and overall ease of use. 25% infill. **No support should be needed for any part I have designed.**
-
-| Files can be found at                             |                                                               |                                                     |
-|---------------------------------------------------|---------------------------------------------------------------|-----------------------------------------------------|
-| [GitHub + Step Files](https://github.com/V1EngineeringInc/ZenXY-v2) | [PrusaPrinters](https://www.prusaprinters.org/social/47417-ryan-z/prints) | [Thingiverse](https://www.thingiverse.com/allted/designs) |
-
-___
-
-[Hardware & Components kits](https://www.v1e.com/collections/zenxy/products/zenxy-v2-hardware-bundle) are available in the shop.
-
-| Hardware                          | QTY. |
-|-----------------------------------|------|
-| M5 x 0.8 x 30mm Phillips Pan Head | 34   |
-| M5 Locknut                        | 9    |
-| M3 x 0.5 x 10mm Phillips Pan Head  | 6    |
-| M2.5 x 12mm Phillips Pan Head     | 6    |
-| Y Rail Larger Diameter [Calc](zen2calculator.md)     | 2    |
-| X Rail Smaller Diameter [Calc](zen2calculator.md)    | 2    |
-
-
-| Components                       | QTY. |
-|----------------------------------|------|
-| [½” x ½” Magnet](https://www.v1e.com/collections/zenxy/products/1-2-x-1-2-magnet)                   | 1    |
-| [½” Steel Ball](https://www.v1e.com/collections/zenxy/products/1-2d-steel-ball)                   | 1    |
-| [Mini V Wheel](https://www.v1e.com/collections/zenxy/products/v-wheel)                    | 19   |
-| [GT2 10mm 16 Tooth Pulley](https://www.v1e.com/collections/zenxy/products/pulley-16-tooth-gt2-10mm)         | 2    |
-| [GT2 10mm 20t Idler](https://www.v1e.com/collections/zenxy/products/20t-idler-gt2-10mm)               | 8    |
-| [GT2 10mm Belt](https://www.v1e.com/collections/zenxy/products/gt2-10mm-belt)                    | [Calc](zen2calculator.md)    |
-| [NEMA 17 Stepper 22mm shaft (min)](https://www.v1e.com/collections/zenxy/products/nema-17-76oz-in-steppers) | 2    |
-| [Optical Endstop](https://www.v1e.com/collections/zenxy/products/optical-endstop)                  | 2    |
+[am1]: https://m.elecrow.com/pages/shop/product/details?id=207484&
+[am2]: https://amzn.to/4hgWH5l
+[am3]: https://amzn.to/3UHJRnX
+[am4]: https://amzn.to/4heYojI
+[am5]: https://amzn.to/3ULxNC8
+[am6]: https://amzn.to/4d2j2RG
+[am7]: https://amzn.to/4r1Ycru
+[am8]: https://amzn.to/3VjA1J3
+[am9]: https://amzn.to/3TkLmIn
+[am10]: https://amzn.to/4r9L9Ew
+[am11]: https://amzn.to/4hi3iMQ
+[am12]: https://amzn.to/3UItYO6
+[am13]: https://amzn.to/4xpGNuw
+[am14]: https://amzn.to/4xpGNuw
+[am15]: https://amzn.to/3VjCkMd
+[am16]: https://amzn.to/4qXF51z
+[am17]: https://amzn.to/4yp4sMa
+[am18]: https://amzn.to/4gRmZJZ
+[am19]:
 
 ___
 
@@ -96,73 +93,69 @@ Any board with two drivers or more with firmware capable of running CoreXY, and 
 
 **[TMC2209 Pen/Laser Controller](https://m.elecrow.com/pages/shop/product/details?id=207484&)** -  by Bart Dring, seems 
 to be a perfect match for the Zen. This board has the silent 2209 drivers, and the esp32 has a built-in web interface for wireless
-control and file transfer. You can sign in from any device that is within its WiFi range or add it to your own network for remote control.
+control and file transfer.
 
-## Firmware
+### Firmware
 
-This is running CoreXY belting and requires homing Y before X, as set in the firmware. All firmware will also need the exact size of your 
-build to be input before compiling as well.
+This is running CoreXY kinematics and requires homing Y before X, as set in the firmware. All firmware will also need the exact size of your 
+build's work area using soft limits to stop from crashing with bad gcode. The only other thing to set is homing and max speeds depending on what you prefer.
+
+Here is an example FluidNC TMC2209 Pen/Laser Controller Firmware config file [Semi Pre-Configured GitHub Repo](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
 
-Here is an example Marlin firmware [Firmware link](https://github.com/Allted/Marlin/tree/CHOOSE_VERSION)
+## Calculator for Extrusions, Belt, Glass
 
-Here is an example TMC2209 Pen/Laser Controller [Pre-Compiled Bin File](https://github.com/V1EngineeringInc/Grbl_Esp32/blob/V1EngineeringInc-AddBin/ZenXY_V2_BIN/firmware.bin) or [Pre-Configured GitHub Repo](https://github.com/V1EngineeringInc/Grbl_Esp32).
-
-## Wiring
-
-The stepper with the endstops on the same block gets plugged into the "X" port on the control board. If it does not move correctly, power 
-down unplug and flip them both over, or flip just one over. It is more confusing than the regular Cartesian troubleshooting. Guess and check
-seems to be the best way.
-
-The Y endstop is triggered along the larger dimeter tube. The X is the other one :smile:.
 
 ## Example table
 
-Pictures
+## Assembly
 
-![!Fusion CAD Render](../img/ZenTablev14.png){: loading=lazy width="450"}
+## Wiring
 
-Basic CAD file, [Fusion 360 version](https://a360.co/3wNh68T).
+ :smile:.
+
 
 ## Example Starting Gcode
 
-When using Sandify, or any other software you need to set the starting or homing Gcode. You can cut and paste what is below and adjust for your specific build's offset. This table uses hard mounted endstops and endstop triggers, so you need to home Y first and typically add some offsets to get to the starting point just where you want it.
+When using Sandify, or any other software you usually need to set the starting or homing Gcode. You can cut and paste what is below and adjust for your specific build if needed. 
 
-For GRBL you can use
+For FluidNC/GRBL you can use
 ```
 $HY
-G92 X0 Y0
-G0 Y-18.5
-G92 X0 Y0
 $HX
-G0 X-28
-G92 X0 Y0
-G1 X2 F2000
+G1 F2000
 ```
 
 For Marlin it would be
 ```
 G28 Y
-G92 X0 Y0
-G0 Y-18.5
-G92 X0 Y0
 G28 X
-G0 X-28
-G92 X0 Y0
-G1 X2 F2000
+G1 X1 F2000
 ```
 Here is a Human readable version of that
 ```
 Move the Y axis all the way to the trigger.
-Set the current location of X and Y to be zero.
-Move The Y axis in 18.5mm closer, past the flag.
 Move the X axis until it triggers.
-Move the X axis in 28mm further in past the flag.
-Set the current location to X=Zero and Y=Zero.
-Move out 2mm in the X axis direction at 2000mm/min (33mm/s). This is just in case you forget to set a speed in your Gcode, this assures the machine moves at a safe speed.
+Set the move speed to 2000mm/min (33mm/s). 
 ```
 
+## ZenXY v2 to ZenXY v3
+
+If you want to use your previous table and retrofit a new machine it is possible. The ZenXY v3 has a slightly smaller footprint so you can use the offset templates when installing the new corner parts to make it easy.
+
+You can use your same control board, steppers, end stops, magnet and ball, the rest of the printed parts and hardware are different.
+
+Parts link - 
+
+Picture - 
+
+## Adding WLED
+
+
+
 ## License
+
+If you like our work or want to sell sand tables your support is appreciated. Donation links, [Github Sponsor](https://github.com/sponsors/V1EngineeringInc), PayPal(https://www.paypal.com/donate/?hosted_button_id=LAXN6LWJMB3QS) 
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] 
 
