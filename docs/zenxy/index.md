@@ -24,24 +24,24 @@ software](https://liberapay.com/jeffeb3/)).
 |QTY  |Description             |Comment                                        |Link                        | 
 |-----|------------------------|-----------------------------------------------|----------------------------|
 |1    |Control Board           | 5 driver minimum, More info below             |[Shop][sh1] – [Elecrow][am1]|
-|2    |Extrusions              | Length info below - V-Slot 20/20              |[Shop][sh2] – [Elecrow][am2]|
-|2    |Steppers                | Nema 17, most any torque will work            |[Shop][sh3] – [Elecrow][am3]|
-|1    |Power Supply            | 12-24v (board dependant) ~0.5A+               |[Shop][sh4] – [Elecrow][am4]|
-|3    |V-Wheel Blocks          | 50mm                                          |[Shop][sh5] – [Elecrow][am5]|
-|x    |Pulleys GT2             | 6mm width, 5mm bore, 16T+                     |[Shop][sh6] – [Elecrow][am6]|
-|x    |Smooth Idlers GT2       | 6mm width, 3mm bore, 20t                      |[Shop][sh7] – [Elecrow][am7]|
-|x    |Toothed Idlers GT2      | same as above, or use smooth idlers           |[Shop][sh8] – [Elecrow][am8]|
-|1    |Belt                    | GT2 6mm, More info below                      |[Shop][sh9] – [Elecrow][am9]|
-|1    |Magnet                  | 1/2" x 1/2" Neo                               |[Shop][sh10] – [Elecrow][am10]|
-|1    |Steel Ball              | 1/2"                                          |[Shop][sh11] – [Elecrow][am11]|
-|8+   |Cable Ties              | 40lb, 3.5mm                                   |[Shop][sh12] – [Elecrow][am12]|
-|4    |Extrusion Screws        | M5x10                                         |[Shop][sh13] – [Elecrow][am13]|
-|4    |Extrusion T-Nuts        | Fit 20 Series                                 |[Shop][sh14] – [Elecrow][am14]|
-|20   |M3x20                   | Phillips Pan Head                             |[Shop][sh15] – [Elecrow][am15]|
-|7    |M5x25                   | Phillips Pan Head                             |[Shop][sh16] – [Elecrow][am16]|
-|13   |Attachment screws       | Truss Head, Suited to your build and material |[Shop][sh17] – [Elecrow][am17]|
-|2    |Optical Endstops        |                                               |[Shop][sh18] – [Elecrow][am18]|
-|1    |                        |                                               |[Shop][sh19] – [Elecrow][am19]|
+|2    |Extrusions              | Length info below - V-Slot 20/20              |[Shop][sh2] – [Amazon][am2]|
+|2    |Steppers                | Nema 17, most any torque will work            |[Shop][sh3] – [Amazon][am3]|
+|1    |Power Supply            | 12-24v (board dependant) ~0.5A+               |[Shop][sh4] – [Amazon][am4]|
+|3    |V-Wheel Blocks          | 50mm                                          |[Shop][sh5] – [Amazon][am5]|
+|2    |Pulleys GT2             | 6mm width, 5mm bore, 16T+                     |[Shop][sh6] – [Amazon][am6]|
+|6    |Smooth Idlers GT2       | 6mm width, 3mm bore, 20t                      |[Shop][sh7] – [Amazon][am7]|
+|2    |Toothed Idlers GT2      | same as above, or use smooth idlers           |[Shop][sh8] – [Amazon][am8]|
+|1    |Belt                    | GT2 6mm, More info below                      |[Shop][sh9] – [Amazon][am9]|
+|1    |Magnet                  | 1/2" x 1/2" Neo                               |[Shop][sh10] – [Amazon][am10]|
+|1    |Steel Ball              | 1/2"                                          |[Shop][sh11] – [Amazon][am11]|
+|8+   |Cable Ties              | 40lb, 3.5mm                                   |[Shop][sh12] – [Amazon][am12]|
+|4    |Extrusion Screws        | M5x10                                         |[Shop][sh13] – [Amazon][am13]|
+|4    |Extrusion T-Nuts        | Fit 20 Series                                 |[Shop][sh14] – [Amazon][am14]|
+|20   |M3x20                   | Phillips Pan Head                             |[Shop][sh15] – [Amazon][am15]|
+|7    |M5x25                   | Phillips Pan Head                             |[Shop][sh16] – [Amazon][am16]|
+|13   |Attachment screws       | Truss Head, Suited to your build and material |[Shop][sh17] – [Amazon][am17]|
+|2    |Optical Endstops        |                                               |[Shop][sh18] – [Amazon][am18]|
+|1    |                        |                                               |[Shop][sh19] – [Amazon][am19]|
 
 [sh1]: https://www.v1e.com/products/jackpot3-cnc-controller
 [sh2]: 
@@ -95,6 +95,14 @@ Any board with two drivers or more with firmware capable of running CoreXY, and 
 to be a perfect match for the Zen. This board has the silent 2209 drivers, and the esp32 has a built-in web interface for wireless
 control and file transfer.
 
+### Firmware
+
+This is running CoreXY kinematics and requires homing Y before X, as set in the firmware. All firmware will also need the exact size of your 
+build's work area using soft limits to stop from crashing with bad gcode. The only other thing to set is homing and max speeds depending on what you prefer.
+
+Here is an example FluidNC TMC2209 Pen/Laser Controller Firmware config file [Semi Pre-Configured GitHub Repo](https://github.com/V1EngineeringInc/FluidNC_Configs).
+
+
 ## Calculator for Extrusions, Belt, Glass
 
 
@@ -105,15 +113,6 @@ control and file transfer.
 ## Wiring
 
  :smile:.
-
-
-
-## Firmware
-
-This is running CoreXY kinematics and requires homing Y before X, as set in the firmware. All firmware will also need the exact size of your 
-build's work area using soft limits to stop from crashing with bad gcode. The only other thing to set is homing and max speeds depending on what you prefer.
-
-Here is an example FluidNC TMC2209 Pen/Laser Controller Firmware config file [Semi Pre-Configured GitHub Repo](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
 
 ## Example Starting Gcode
