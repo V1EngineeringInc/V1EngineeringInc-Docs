@@ -92,13 +92,15 @@ There are a lot of options.
 Any board with two drivers or more with firmware capable of running CoreXY, and TMC silent stepper drivers are highly recommended.
 
 **[TMC2209 Pen/Laser Controller](https://m.elecrow.com/pages/shop/product/details?id=207484&)** -  by Bart Dring, seems 
-to be a perfect match for the Zen. This board has the silent 2209 drivers, and the esp32 has a built-in web interface for wireless
+to be a great match for the Zen. This board is very small, has the silent 2209 drivers, and the esp32 has a built-in web interface for wireless
 control and file transfer.
+
+**Jackpot CNC Controller** - Any version of the Jackpot series boards will work great, they are just a bit larger than the Pen/Laser boards.
 
 ### Firmware
 
 This is running CoreXY kinematics and requires homing Y before X, as set in the firmware. All firmware will also need the exact size of your 
-build's work area using soft limits to stop from crashing with bad gcode. The only other thing to set is homing and max speeds depending on what you prefer.
+build's work area so you can use soft limits to stop from crashing with bad Gcode. The only other thing to set is homing and max working speeds.
 
 Here is an example FluidNC TMC2209 Pen/Laser Controller Firmware config file [Semi Pre-Configured GitHub Repo](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
@@ -107,6 +109,20 @@ Here is an example FluidNC TMC2209 Pen/Laser Controller Firmware config file [Se
 
 
 ## Example table
+
+The table is usually based on the size tempered glass you can get. From there a pocket to support the edges or a slat build takes care of the rest. The CAD has a few simple adjustable examples of basic tables in the "Table Types" folder.
+
+So far the cheapest small glass would be from Ikea, the BESTÅ. We were also told that for larger glass pinball suppliers carry new and used sheets.
+
+Two pieces of glass work best, but if you are in a pinch in a small table a thin 1/4" MDF sheet holds up for a while if your humidity is low.
+
+![!Simple ZenXY table](../img/zen/basicbox.jpg){: loading=lazy width="600"}
+
+![!Simple ZenXY table](../img/zen/basicbox2.jpg){: loading=lazy width="600"}
+
+![!Simple ZenXY table](../img/zen/bigbox.jpg){: loading=lazy width="600"}
+In this table with larger glass and LED's the edges of the glass have a subtle glow in a dim room.
+
 
 ## Assembly
 
