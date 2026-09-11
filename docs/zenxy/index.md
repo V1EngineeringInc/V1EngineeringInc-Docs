@@ -48,9 +48,9 @@ software](https://liberapay.com/jeffeb3/)).
 [sh3]: https://www.v1e.com/products/nema-17-76oz-in-steppers
 [sh4]: https://www.v1e.com/products/24v-power-supply
 [sh5]: 
-[sh6]: 
+[sh6]: https://www.v1e.com/products/16t-6mm-gt2-pulley
 [sh7]: 
-[sh8]: 
+[sh8]: https://www.v1e.com/products/16t-toothed-idler-6mm-gt2
 [sh9]: 
 [sh10]: https://www.v1e.com/products/1-2-x-1-2-magnet
 [sh11]: https://www.v1e.com/products/1-2d-steel-ball
@@ -112,7 +112,7 @@ Here is an example FluidNC TMC2209 Pen/Laser Controller Firmware config file [Se
 
 The table is usually based on the size tempered glass you can get. From there a pocket to support the edges or a slat build takes care of the rest. The CAD has a few simple adjustable examples of basic tables in the "Table Types" folder.
 
-So far the cheapest small glass would be from Ikea, the BESTÅ. We were also told that for larger glass pinball suppliers carry new and used sheets.
+So far the cheapest small glass would be from Ikea, the BESTÅ. We were also told that for larger glass pinball suppliers carry new and used sheets for a great price if you have a shop near you.
 
 Two pieces of glass work best, but if you are in a pinch in a small table a thin 1/4" MDF sheet holds up for a while if your humidity is low.
 
