@@ -47,16 +47,16 @@ software](https://liberapay.com/jeffeb3/)).
 [sh2]: 
 [sh3]: https://www.v1e.com/products/nema-17-76oz-in-steppers
 [sh4]: https://www.v1e.com/products/24v-power-supply
-[sh5]: 
+[sh5]: https://www.v1e.com/products/50mm-v-wheel-plate-set
 [sh6]: https://www.v1e.com/products/16t-6mm-gt2-pulley
 [sh7]: 
 [sh8]: https://www.v1e.com/products/16t-toothed-idler-6mm-gt2
-[sh9]: 
+[sh9]: https://www.v1e.com/products/6mm-gt2-belt
 [sh10]: https://www.v1e.com/products/1-2-x-1-2-magnet
 [sh11]: https://www.v1e.com/products/1-2d-steel-ball
 [sh12]: 
-[sh13]: 
-[sh14]: 
+[sh13]: https://www.v1e.com/products/m5x10mm-w-tnut-zenxy-v3-set
+[sh14]: https://www.v1e.com/products/m5x10mm-w-tnut-zenxy-v3-set
 [sh15]: 
 [sh16]: 
 [sh17]: 
@@ -125,6 +125,27 @@ In this table with larger glass and LED's the edges of the glass have a subtle g
 
 
 ## Assembly
+
+Let's start with assembling the smaller assemblies first.
+
+---
+
+![!ZenXY v3 corner assm](../img/zen/zen3corner.jpg){: loading=lazy width="600"}
+
+* Using the CornerMin printed part
+* The toothed idler is inserted first in the deeper spot.
+* The smooth idler is second.
+* Both are secure with an m3, but the screw will not get tight is is lightly threaded directly into the printed part.
+* If you prefer a tight hold you can use a drop of glue.
+
+---
+
+![!ZenXY v3 assm](../img/zen/zen3corner2.jpg){: loading=lazy width="600"}
+
+* Same steps for the CornerMax part.
+
+---
+
 
 ## Wiring
 
