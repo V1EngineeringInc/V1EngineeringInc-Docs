@@ -1,6 +1,9 @@
 # ZenXY v3
 
-COMING SOON
+---
+
+![!ZenXY v3 ](../img/zen/zen3.jpg){: loading=lazy width="800"}
+
 
 ## Pattern Software
 
@@ -107,6 +110,30 @@ Here is an example FluidNC TMC2209 Pen/Laser Controller Firmware config file [Se
 
 ## Calculator for Extrusions, Belt, Glass
 
+The size of your Glass typically sets all the other dimensions. So make sure you use your actual glass size and go from there.
+
+---
+
+![!ZenXY v3 parametric settings](../img/zen/parametric.jpg){: loading=lazy width="600"}
+
+* Open the Parametric glass size tab.
+* Set your glass size here to adjust all the examples and files to fit your glass.
+* Each table has other adjustable parameters to fit your material.
+
+---
+
+In the CAD file the "Table Types" tab has 3 basic examples to build from. Find the table closest to your build style and you will see the Y Extrusions, X extrusion cut length, and approximate Belt Length shown on the upper left.
+
+---
+
+I use the printed parts to mark the mounting screw locations to pre-drill, but you can use the CAD to do it as well. There are two surface mounting screw options as well as a side wall screw option. Two screws are needed, more is optional
+
+![!ZenXY v3 screw locations](../img/zen/screwholes.jpg){: loading=lazy width="600"}
+
+* How to find exactly where the mounting screws are from the table edge.
+* In the Zen Main tab, open the Table dims sketch.
+
+
 
 ## Example table
 
@@ -140,11 +167,82 @@ Let's start with assembling the smaller assemblies first.
 
 ---
 
-![!ZenXY v3 assm](../img/zen/zen3corner2.jpg){: loading=lazy width="600"}
+![!ZenXY v3 cornermax assm](../img/zen/zen3corner2.jpg){: loading=lazy width="600"}
 
 * Same steps for the CornerMax part.
 
 ---
+
+![!ZenXY v3 yblock 1 assm](../img/zen/yblock1.jpg){: loading=lazy width="600"}
+
+* Use the M3 screws to secure the smooth idlers.
+* Gravity  and the wheel block hold the screws in, they will only lightly thread into the printed part.
+* Do this for both Y_Block_Min and Max
+
+---
+
+![!ZenXY v3 yblock2 assm](../img/zen/yblock2.jpg){: loading=lazy width="600"}
+
+* Use the M5 screws to secure a 50mm wheel block to the Y_Block assembly.
+* Make sure the eccentric wheels are facing out, or away from the large flat tab.
+* Do the previous two steps for both Min and Max sides.
+* On the Y_Block_Min, make sure to add the Y trigger
+* The Y Trigger will get adjusted later but for now make sure it is sticking out about 10mm.
+
+---
+
+![!ZenXY v3 motor 1 assm](../img/zen/motor1.jpg){: loading=lazy width="600"}
+
+* Use the guide on the back of both MotorMin and MotorMax to align the pulley to the stepper.
+* The pulley can face either direction provided it fits
+
+---
+
+![!ZenXY v3 Motor 2 assm](../img/zen/motor2.jpg){: loading=lazy width="600"}
+
+* Use the M3 screws to secure the stepper to the printed part.
+* Make sure the wires faces in, they will get secure with cable ties or similar.
+
+---
+
+![!ZenXY v3 motor 3 assm](../img/zen/motor3.jpg){: loading=lazy width="600"}
+
+* On the MotorMin assembly add the two endstops with the plugs facing up.
+* Fold the wires and route them in to the wire channel and secure them with the stepper wires. 
+* There are wiring pictures later in the [wiring instructions section](#wiring).
+
+---
+
+![!ZenXY v3 core 1 assm](../img/zen/core1.jpg){: loading=lazy width="600"}
+
+* Insert the magnet into the top of the core.
+* Use an M5 to set the magnet gap after assembly. This gap should be as close to the table bottom as possible without touching. 
+* The smaller the gap the better the ball sticks and the faster you can move.
+
+---
+
+![!ZenXY v3 core 2 assm](../img/zen/core2.jpg){: loading=lazy width="600"}
+
+* Insert a small piece of the gt2 belt here, 35-40mm (1.5"). 
+* Do not push it all the way in, just get the bet into the slot.
+* This X trigger will get trimmed and angled later. This lets you adjust where the X axis stops, after the Y axis triggers.
+* Pushing it further in the slot means the X will trigger further into the corner, the length is dictated by the Y axis.
+* You will be able to see this later with the LED indicators on the endstops.
+
+---
+
+![!ZenXY v3 core 3 assm](../img/zen/core3.jpg){: loading=lazy width="600"}
+
+* Secure the wheel block with the M5 screws, eccentric wheels opposite the magnet.
+
+---
+
+![!ZenXY v3 assm](../img/zen/yblock1.jpg){: loading=lazy width="600"}
+
+* S
+
+---
+
 
 
 ## Wiring
@@ -186,9 +284,9 @@ Parts link -
 
 Picture - 
 
-## Adding WLED
+## Adding WLED controlled lighting effects
 
-
+[Esp32 devkit C in the V1E.com shop](https://www.v1e.com/products/esp32-devkit-c-copy)
 
 ## License
 
