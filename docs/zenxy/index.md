@@ -1,5 +1,6 @@
 # ZenXY v3
 
+Picture or gif needed
 ---
 
 ![!ZenXY v3 ](../img/zen/zen3.jpg){: loading=lazy width="800"}
@@ -27,7 +28,7 @@ software](https://liberapay.com/jeffeb3/)).
 |QTY  |Description             |Comment                                        |Link                        | 
 |-----|------------------------|-----------------------------------------------|----------------------------|
 |1    |Control Board           | 5 driver minimum, More info below             |[Shop][sh1] – [Elecrow][am1]|
-|2    |Extrusions              | Length info below - V-Slot 20/20              |[Shop][sh2] – [Amazon][am2]|
+|2    |Extrusions              | Length info below - V-Slot 20/20              | Shop       – [Amazon][am2]|
 |2    |Steppers                | Nema 17, most any torque will work            |[Shop][sh3] – [Amazon][am3]|
 |1    |Power Supply            | 12-24v (board dependant) ~0.5A+               |[Shop][sh4] – [Amazon][am4]|
 |3    |V-Wheel Blocks          | 50mm                                          |[Shop][sh5] – [Amazon][am5]|
@@ -37,12 +38,12 @@ software](https://liberapay.com/jeffeb3/)).
 |1    |Belt                    | GT2 6mm, More info below                      |[Shop][sh9] – [Amazon][am9]|
 |1    |Magnet                  | 1/2" x 1/2" Neo                               |[Shop][sh10] – [Amazon][am10]|
 |1    |Steel Ball              | 1/2"                                          |[Shop][sh11] – [Amazon][am11]|
-|8+   |Cable Ties              | 40lb, 3.5mm                                   |[Shop][sh12] – [Amazon][am12]|
+|8+   |Cable Ties              | 18lb, 2.4mm                                   | Shop        – [Amazon][am12]|
 |4    |Extrusion Screws        | M5x10                                         |[Shop][sh13] – [Amazon][am13]|
 |4    |Extrusion T-Nuts        | Fit 20 Series                                 |[Shop][sh14] – [Amazon][am14]|
 |20   |M3x20                   | Phillips Pan Head                             |[Shop][sh15] – [Amazon][am15]|
 |7    |M5x25                   | Phillips Pan Head                             |[Shop][sh16] – [Amazon][am16]|
-|13   |Attachment screws       | Truss Head, Suited to your build and material |[Shop][sh17] – [Amazon][am17]|
+|13   |Attachment screws       | Truss Head, Suited to your build and material | Shop        – [Amazon][am17]|
 |2    |Optical Endstops        |                                               |[Shop][sh18] – [Amazon][am18]|
 |1    |                        |                                               |[Shop][sh19] – [Amazon][am19]|
 
@@ -77,7 +78,7 @@ software](https://liberapay.com/jeffeb3/)).
 [am9]: https://amzn.to/3TkLmIn
 [am10]: https://amzn.to/4r9L9Ew
 [am11]: https://amzn.to/4hi3iMQ
-[am12]: https://amzn.to/3UItYO6
+[am12]: https://amzn.to/4rgZTkQ
 [am13]: https://amzn.to/4xpGNuw
 [am14]: https://amzn.to/4xpGNuw
 [am15]: https://amzn.to/3VjCkMd
@@ -108,9 +109,13 @@ build's work area so you can use soft limits to stop from crashing with bad Gcod
 Here is an example FluidNC TMC2209 Pen/Laser Controller Firmware config file [Semi Pre-Configured GitHub Repo](https://github.com/V1EngineeringInc/FluidNC_Configs).
 
 
-## Calculator for Extrusions, Belt, Glass
+## Calculator for Glass, Belt, Extrusions
 
-The size of your Glass typically sets all the other dimensions. So make sure you use your actual glass size and go from there.
+Glass - The size of your Glass typically sets all the other dimensions. So make sure you use your actual glass size and go from there.
+
+Belt - A over estimate for the total belt length is (X_glass+100)x4 + (Y_glass+100)x4. After the machine is built you can cut the belt to length.
+
+Extrusions - Over estimate X=glass width +15mm  Y=glass length +43mm. After you mount your corners you can measure your actual value or check the CAD. The Y extrusions have a lot of extra room, the X extrusions has about 8mm extra room, so the cuts do not need to be perfect but 2-5mm short makes for easy adjustments.
 
 ---
 
@@ -139,7 +144,7 @@ I use the printed parts to mark the mounting screw locations to pre-drill, but y
 
 The table is usually based on the size tempered glass you can get. From there a pocket to support the edges or a slat build takes care of the rest. The CAD has a few simple adjustable examples of basic tables in the "Table Types" folder.
 
-So far the cheapest small glass would be from Ikea, the BESTÅ. We were also told that for larger glass pinball suppliers carry new and used sheets for a great price if you have a shop near you.
+So far the cheapest small glass would be from Ikea, the BESTÅ. We were also told that for larger glass pinball suppliers carry new and used sheets for a great price if you have a shop near you. I personally got large tempered glass fence panels ordered in from my local big box store for a great price, some replacement shower doors with no holes would also work for larger tables.
 
 Two pieces of glass work best, but if you are in a pinch in a small table a thin 1/4" MDF sheet holds up for a while if your humidity is low.
 
@@ -151,7 +156,7 @@ Two pieces of glass work best, but if you are in a pinch in a small table a thin
 In this table with larger glass and LED's the edges of the glass have a subtle glow in a dim room.
 
 
-## Assembly
+## Component Assembly
 
 Let's start with assembling the smaller assemblies first.
 
@@ -237,6 +242,10 @@ Let's start with assembling the smaller assemblies first.
 
 ---
 
+## Final Assembly
+
+
+
 ![!ZenXY v3 assm](../img/zen/yblock1.jpg){: loading=lazy width="600"}
 
 * S
@@ -280,13 +289,19 @@ If you want to use your previous table and retrofit a new machine it is possible
 
 You can use your same control board, steppers, end stops, magnet and ball, the rest of the printed parts and hardware are different.
 
-Parts link - 
+Parts link - Offset adapter, link
 
-Picture - 
+Picture needed
 
 ## Adding WLED controlled lighting effects
 
+You can hook up an ESP32 flashed with [WLED](https://kno.wled.ge/) and trigger different patterns with your start and end Gcode, but most just wire it completely separately and choose independent WLED light patterns and playlists.
+
 [Esp32 devkit C in the V1E.com shop](https://www.v1e.com/products/esp32-devkit-c-copy)
+
+The leds get ran as far back as possible to keep them hidden.
+
+Picture needed
 
 ## License
 
