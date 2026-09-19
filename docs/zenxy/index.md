@@ -244,19 +244,58 @@ Let's start with assembling the smaller assemblies first.
 
 ## Final Assembly
 
-
-
-![!ZenXY v3 assm](../img/zen/yblock1.jpg){: loading=lazy width="600"}
-
-* S
+This section is about adding the minor assemblies to the table itself.
 
 ---
+
+![!ZenXY v3 screw locations](../img/zen/screwholes.jpg){: loading=lazy width="600"}
+
+* You can use the corner parts themselves to mark this out or use the CAD to be more precise.
+* There are sidewall and face mounting screws, chose two per corner, not all are needed.
+
+---
+
+![!ZenXY v3 assm](../img/zen/.jpg){: loading=lazy width="600"}
+
+* Min side
+
+---
+
+![!ZenXY v3 assm](../img/zen/.jpg){: loading=lazy width="600"}
+
+* Max Side
+
+---
+
+![!ZenXY v3 assm](../img/zen/.jpg){: loading=lazy width="600"}
+
+* Center
+
+---
+
+![!ZenXY v3 assm](../img/zen/.jpg){: loading=lazy width="600"}
+
+* Mount the belt silencer
+
+---
+
+![!ZenXY v3 assm](../img/zen/.jpg){: loading=lazy width="600"}
+
+* Run the belt
+
+---![!ZenXY v3 assm](../img/zen/.jpg){: loading=lazy width="600"}
+
+* Belt tension
 
 
 
 ## Wiring
 
  :smile:.
+
+ Picture of the wire routing
+
+ Rough set the endstops
 
 
 ## Example Starting Gcode
