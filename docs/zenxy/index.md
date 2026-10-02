@@ -1,5 +1,8 @@
 # ZenXY v3
 
+WORK in PROGRESS, feel free to ask questions in the forums if you are in the middle of a build and get stuck.
+
+
 Picture or gif needed
 ---
 
@@ -273,21 +276,45 @@ This section is about adding the minor assemblies to the table itself.
 
 ---
 
-![!ZenXY v3 assm](../img/zen/.jpg){: loading=lazy width="600"}
+![!ZenXY v3 assm](../img/zen/zenbeltsilencer.jpg){: loading=lazy width="600"}
 
-* Mount the belt silencer
+* Mount the belt silencer directly in the middle of the corners.
+* The belt will get routed around the lip.
 
 ---
 
-![!ZenXY v3 assm](../img/zen/.jpg){: loading=lazy width="600"}
+![!ZenXY v3 assm](../img/zen/zenbeltorder.jpg){: loading=lazy width="600"}
 
-* Run the belt
+* Run the belt in the order shown.
+* There is a half twist between 4-5, 8-9.
+* The twist should be made in the same direction on both belts
+* The teeth will face each other.
 
----![!ZenXY v3 assm](../img/zen/.jpg){: loading=lazy width="600"}
+---
 
-* Belt tension
+![!ZenXY v3 assm](../img/zen/zenbeltzips.jpg){: loading=lazy width="600"}
+
+* This part takes a few tries
+* Get the belt length right, fold it over.
+* You want the loop just past the corner, and just large enough for the tensioner zip tie.
+* lock the belt fold with a small cable tie it works better if it is positioned as shown.
+* Feed in the tensioner cable tie, leave it loose until both are in place.
+* Pro-tip, the belt ends can be removed from the core to get the length right.
+
+---
 
 
+![!ZenXY v3 assm](../img/zen/zenbeltrealzips.jpg){: loading=lazy width="600"}
+
+* Here is what it looks like on a real build.
+* The tension ties actually skew the gantry so be gentle.
+* The belt does not need to be very tight at all.
+* Move the gantry all the way to the Y minimum position and the core in the middle.
+* The right tension will have both y blocks touching the corner blocks.
+* Pro tip, if you get this wrong you can loosen the core and move the fixed belt to tweak it the other way.
+* Make sure the belt silencer splits the belt and keeps them from touching each other.
+
+---
 
 ## Wiring
 
