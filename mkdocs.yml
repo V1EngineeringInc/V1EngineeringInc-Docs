@@ -44,10 +44,12 @@ nav:
          - Final: mpcnc/burly/final.md
          - Belts: mpcnc/burly/belts.md
    - ZenXY: 
-     - ZenXY v2: zenxy/index.md
-     - ZenXY v2 Build Calculator: zenxy/zen2calculator.md
-     - ZenXY v2 Assembly: zenxy/zen2assm1.md
-     - Previous Version: zenxy/og_zen.md
+     - ZenXY v3: zenxy/index.md
+     - Previous Versions:
+       - ZenXY v2: zenxy/zen2.md
+       - ZenXY v2 Assembly: zenxy/zen2assm1.md
+       - ZenXY v2 Build Calculator: zenxy/zen2calculator.md
+       - ZenXY v1: zenxy/og_zen.md
    - Mostly Printed 3D Printer:
      - MP3DP v5: mp3dp/index.md
      - Previous Versions:
