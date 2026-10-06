@@ -24,14 +24,14 @@ software](https://liberapay.com/jeffeb3/)).
 
 1- You will need to buy or build a table, usually suited to fit two pieces of tempered glass.
 
-2- A full set of printed parts, buy from the [V1 Shop](https://www.v1e.com/products/zenxy-v3-printed-parts-set), or 3D Print your own [Printables](link).
+2- A full set of **printed parts**, buy from the [V1 Shop](https://www.v1e.com/products/zenxy-v3-printed-parts-set), or 3D Print your own [Printables](https://www.printables.com/model/1868285-zenxy-v3). These can be printed in most any material, and light to medium infill. No supports. Print one of each part.
 
 3- You can buy most of the other specialty parts and hardware here, [V1 Shop](https://www.v1e.com/collections/zenxy){:target="_blank"}
 
 |QTY  |Description             |Comment                                        |Link                        | 
 |-----|------------------------|-----------------------------------------------|----------------------------|
 |1    |Control Board           | 5 driver minimum, More info below             |[Shop][sh1] – [Elecrow][am1]|
-|2    |Extrusions              | Length info below - V-Slot 20/20              | Shop       – [Amazon][am2]|
+|2    |Extrusions              | Length info below - V-Slot 20/20              |        – [Amazon][am2]|
 |2    |Steppers                | Nema 17, most any torque will work            |[Shop][sh3] – [Amazon][am3]|
 |1    |Power Supply            | 12-24v (board dependant) ~0.5A+               |[Shop][sh4] – [Amazon][am4]|
 |3    |V-Wheel Blocks          | 50mm                                          |[Shop][sh5] – [Amazon][am5]|
@@ -41,17 +41,15 @@ software](https://liberapay.com/jeffeb3/)).
 |1    |Belt                    | GT2 6mm, More info below                      |[Shop][sh9] – [Amazon][am9]|
 |1    |Magnet                  | 1/2" x 1/2" Neo                               |[Shop][sh10] – [Amazon][am10]|
 |1    |Steel Ball              | 1/2"                                          |[Shop][sh11] – [Amazon][am11]|
-|8+   |Cable Ties              | 18lb, 2.4mm                                   | Shop        – [Amazon][am12]|
+|8+   |Cable Ties              | 18lb, 2.4mm                                   |         – [Amazon][am12]|
 |4    |Extrusion Screws        | M5x10                                         |[Shop][sh13] – [Amazon][am13]|
 |4    |Extrusion T-Nuts        | Fit 20 Series                                 |[Shop][sh14] – [Amazon][am14]|
-|20   |M3x20                   | Phillips Pan Head                             |[Shop][sh15] – [Amazon][am15]|
-|7    |M5x25                   | Phillips Pan Head                             |[Shop][sh16] – [Amazon][am16]|
-|13   |Attachment screws       | Truss Head, Suited to your build and material | Shop        – [Amazon][am17]|
+|20   |M3x20                   | Phillips Pan Head                             | – [Amazon][am15]|
+|7    |M5x25                   | Phillips Pan Head                             | – [Amazon][am16]|
+|13   |Attachment screws       | Truss Head, Suited to your build and material |         – [Amazon][am17]|
 |2    |Optical Endstops        |                                               |[Shop][sh18] – [Amazon][am18]|
-|1    |                        |                                               |[Shop][sh19] – [Amazon][am19]|
 
 [sh1]: https://www.v1e.com/products/jackpot3-cnc-controller
-[sh2]: 
 [sh3]: https://www.v1e.com/products/nema-17-76oz-in-steppers
 [sh4]: https://www.v1e.com/products/24v-power-supply
 [sh5]: https://www.v1e.com/products/50mm-v-wheel-plate-set
@@ -61,14 +59,9 @@ software](https://liberapay.com/jeffeb3/)).
 [sh9]: https://www.v1e.com/products/6mm-gt2-belt
 [sh10]: https://www.v1e.com/products/1-2-x-1-2-magnet
 [sh11]: https://www.v1e.com/products/1-2d-steel-ball
-[sh12]: 
 [sh13]: https://www.v1e.com/products/m5x10mm-w-tnut-zenxy-v3-set
 [sh14]: https://www.v1e.com/products/m5x10mm-w-tnut-zenxy-v3-set
-[sh15]: 
-[sh16]: 
-[sh17]: 
 [sh18]: https://www.v1e.com/products/optical-endstop
-[sh19]: 
 
 [am1]: https://m.elecrow.com/pages/shop/product/details?id=207484&
 [am2]: https://amzn.to/4hgWH5l
@@ -88,7 +81,7 @@ software](https://liberapay.com/jeffeb3/)).
 [am16]: https://amzn.to/4qXF51z
 [am17]: https://amzn.to/4yp4sMa
 [am18]: https://amzn.to/4gRmZJZ
-[am19]:
+
 
 ___
 
@@ -118,7 +111,7 @@ Glass - The size of your Glass typically sets all the other dimensions. So make 
 
 Belt - A over estimate for the total belt length is (X_glass+100)x4 + (Y_glass+100)x4. After the machine is built you can cut the belt to length.
 
-Extrusions - Over estimate X=glass width +15mm  Y=glass length +43mm. After you mount your corners you can measure your actual value or check the CAD. The Y extrusions have a lot of extra room, the X extrusions has about 8mm extra room, so the cuts do not need to be perfect but 2-5mm short makes for easy adjustments.
+Extrusions - Over estimate X=glass width +15mm  Y=glass length +43mm. After you mount your corners you can measure your actual value or check the [CAD](#cad). The Y extrusions have a lot of extra room, the X extrusions has about 8mm extra room, so the cuts do not need to be perfect but 2-5mm short makes for easy adjustments.
 
 ---
 
@@ -130,11 +123,11 @@ Extrusions - Over estimate X=glass width +15mm  Y=glass length +43mm. After you 
 
 ---
 
-In the CAD file the "Table Types" tab has 3 basic examples to build from. Find the table closest to your build style and you will see the Y Extrusions, X extrusion cut length, and approximate Belt Length shown on the upper left.
+In the [CAD](#cad) file the "Table Types" tab has 3 basic examples to build from. Find the table closest to your build style and you will see the Y Extrusions, X extrusion cut length, and approximate Belt Length shown on the upper left.
 
 ---
 
-I use the printed parts to mark the mounting screw locations to pre-drill, but you can use the CAD to do it as well. There are two surface mounting screw options as well as a side wall screw option. Two screws are needed, more is optional
+I use the printed parts to mark the mounting screw locations to pre-drill, but you can use the [CAD](#cad) to do it as well. There are two surface mounting screw options as well as a side wall screw option. Two screws are needed, more is optional
 
 ![!ZenXY v3 screw locations](../img/zen/screwholes.jpg){: loading=lazy width="600"}
 
@@ -142,10 +135,9 @@ I use the printed parts to mark the mounting screw locations to pre-drill, but y
 * In the Zen Main tab, open the Table dims sketch.
 
 
-
 ## Example table
 
-The table is usually based on the size tempered glass you can get. From there a pocket to support the edges or a slat build takes care of the rest. The CAD has a few simple adjustable examples of basic tables in the "Table Types" folder.
+The table is usually based on the size tempered glass you can get. From there a pocket to support the edges or a slat build takes care of the rest. The [CAD](#cad) has a few simple adjustable examples of basic tables in the "Table Types" folder.
 
 So far the cheapest small glass would be from Ikea, the BESTÅ. We were also told that for larger glass pinball suppliers carry new and used sheets for a great price if you have a shop near you. I personally got large tempered glass fence panels ordered in from my local big box store for a great price, some replacement shower doors with no holes would also work for larger tables.
 
@@ -253,7 +245,7 @@ This section is about adding the minor assemblies to the table itself.
 
 ![!ZenXY v3 screw locations](../img/zen/screwholes.jpg){: loading=lazy width="600"}
 
-* You can use the corner parts themselves to mark this out or use the CAD to be more precise.
+* You can use the corner parts themselves to mark this out or use the [CAD](#cad) to be more precise.
 * There are sidewall and face mounting screws, chose two per corner, not all are needed.
 
 ---
@@ -322,7 +314,11 @@ This section is about adding the minor assemblies to the table itself.
 
  Picture of the wire routing
 
- Rough set the endstops
+
+ set the endstops
+
+
+
 
 
 ## Example Starting Gcode
@@ -373,6 +369,7 @@ Picture needed
 
 If you like our work or want to sell sand tables your support is appreciated. Donation links, [Github Sponsor](https://github.com/sponsors/V1EngineeringInc), PayPal(https://www.paypal.com/donate/?hosted_button_id=LAXN6LWJMB3QS) 
 
+
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa] 
 
 This work is licensed under a
@@ -381,3 +378,7 @@ This work is licensed under a
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+## CAD
+
+CAD link, [Onshape](https://cad.onshape.com/documents/b281a4c301d75a6c37a1c519/w/d298b5e3219d2068f018b849/e/9c3e8751bd6338ae88990110)
