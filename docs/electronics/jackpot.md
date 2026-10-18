@@ -111,6 +111,7 @@ Click on the images to enlarge them.
 
 </div>
 
+The Stepper Pinouts are wired A+,A-,B+,B-.  For example looking at the above picture.  A+ would connect to the pin Just to the right of the X marked on the board, with A+,A-,B+,B-.  If the motor is spinning backwards, then you would reverse it B-,B+,A-,A+.
 The probe/touchplate plugs into the last port (gpio.36), on either configuration.
 
 If you choose to use a case fan to cool your drivers you will typically wire the fan directly into the Jackpot main power so when the board is energized so is the fan. This means you need to get a fan that uses the same voltage as your power supply. We use a 24V power supply in the kit and sell a [24V fan](https://www.v1e.com/products/5015-12v-fan-blower) in the shop.
