@@ -91,7 +91,7 @@ There are a lot of options.
 
 Any board with two drivers or more with firmware capable of running CoreXY, and TMC silent stepper drivers are highly recommended.
 
-**[TMC2209 Pen/Laser Controller](https://m.elecrow.com/pages/shop/product/details?id=207484&)** -  by Bart Dring, seems 
+**[TMC2209 Pen/Laser Controller](https://www.elecrow.com/tmc2209-pen-laser-fluidnc-cnc-controller.html)** -  by Bart Dring, seems 
 to be a great match for the Zen. This board is very small, has the silent 2209 drivers, and the esp32 has a built-in web interface for wireless
 control and file transfer.
 
