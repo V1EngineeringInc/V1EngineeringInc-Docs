@@ -54,7 +54,6 @@ software](https://liberapay.com/jeffeb3/)).
 [sh4]: https://www.v1e.com/products/24v-power-supply
 [sh5]: https://www.v1e.com/products/50mm-v-wheel-plate-set
 [sh6]: https://www.v1e.com/products/16t-6mm-gt2-pulley
-[sh7]: https://www.v1e.com/products/20t-idler-gt2-10mm
 [sh8]: https://www.v1e.com/products/16t-toothed-idler-6mm-gt2
 [sh9]: https://www.v1e.com/products/6mm-gt2-belt
 [sh10]: https://www.v1e.com/products/1-2-x-1-2-magnet
