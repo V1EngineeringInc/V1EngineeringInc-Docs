@@ -248,9 +248,9 @@ If you bought it from the V1E.com store it should be ready to go. This section i
 
 #### If you need to refresh or update
 
-FluidNC Firmware - **The Current tested and confirmed FluidNC version is {==3.9.9==}, and WebUI V3**, use anything newer than this with caution. Take note of all your pull off values to keep things level and square after an update.
+FluidNC Firmware - **The Current tested and confirmed FluidNC version is {==4.1.1==}, and WebUI V3 3.0.11**, use anything newer than this with caution. Take note of all your pull off values to keep things level and square after an update.
 
-V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Releases page](https://github.com/V1EngineeringInc/FluidNC_Configs/releases). 
+V1 Engineering specific files - Keep an eye on this page or you can even subscribe to updates to know anytime the configuration files have changed, [Releases page](https://github.com/V1EngineeringInc/FluidNC_Configs/releases). Pick your machine, your board version and upload all the files to your board.
 
 ### Updating / Installing Firmware
 
@@ -271,7 +271,7 @@ After you have loaded the firmware you can use the file browser to load our conf
 A great write-up with pictures can be found here: https://forum.v1e.com/t/setting-up-fluidnc/47097
 
 ??? example "More installing and update options"
-    2- **OTA** - you can update the UI or the firmware in the interface itself. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware)
+    2- **OTA** - You can update the UI or the firmware in the interface itself. [FluidNC Wiki - Update](http://wiki.fluidnc.com/en/installation#upgrading-firmware)
    
     3- **Manually** -
     [Firmware files are here](https://github.com/bdring/FluidNC/releases) , [Config and macros are here](https://github.com/V1EngineeringInc/FluidNC_Configs)
