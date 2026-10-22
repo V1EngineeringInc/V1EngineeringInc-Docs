@@ -253,6 +253,7 @@ Only happens if you change a tool during your job. It happens at each tool chang
 === "LowRider V3/4 - GRBL/Jackpot" 
     ```
     M63 P1 (turn off pin 27)
+    G4 P0 (finish move buffer before home Z)
     $HZ
     G0 X10 Y10 F2000 (move to probing location, match first location)
     M0 (MSG change tool, probe)
@@ -291,6 +292,7 @@ Happens directly after your last move from your job file.
 === "LowRider V3/4 - GRBL/Jackpot"
     ```
     M63 P1 (stop spindle pin27)
+    G4 P0 (finish move buffer before home Z)
     $HZ
     M30
     ```    
