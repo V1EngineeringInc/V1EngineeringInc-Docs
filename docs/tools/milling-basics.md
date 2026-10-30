@@ -162,7 +162,7 @@ What your machine will do **before** the job starts. The LowRider Configs show e
     G00 Z5.0000 F500 ; Raise Z 5mm at 8.3mm/s to clear clamps and screws
     G28 Z ; Home Z touchplate
     G92 Z0.5 ; Account for probe thickness (set your thickness)
-    G00 Z5.000 F500 ; Raise Z probe off of surface
+    G00 Z15.000 F500 ; Raise Z probe off of surface
     M00 ; Pause for LCD button press so you can remove the touchplate
     ```
 
@@ -176,7 +176,7 @@ What your machine will do **before** the job starts. The LowRider Configs show e
     G0 X10 Y10 F2000 (move to probing location)
     M0 (MSG Attach probe)
     G38.2 Z-110 F200 P0.5 (probe down set thickness )
-    G1 Z10 F900
+    G1 Z15 F900
     M0 (MSG Remove probe)
     M62 P1 (If used start spindle pin27 )
     ```    
@@ -188,7 +188,7 @@ What your machine will do **before** the job starts. The LowRider Configs show e
     M0 Attach probe ; Pause to connect touchplate
     G38.2 Z0 ; Probe down to touchplate
     G92 Z0.5 ; Set new Z position to thickness of touchplate
-    G1 Z2 F900 ; Lift off touchplate
+    G1 Z15 F900 ; Lift off touchplate
     M0 Remove probe ; Pause and wait for touchplate removal
     M106 ; This will turn on an IOT relay to start a router or vacuum
     ```
@@ -203,7 +203,7 @@ What your machine will do **before** the job starts. The LowRider Configs show e
     G0 X10 Y10 F2000 (move to probing location)
     M0 (MSG Attach probe)
     G38.2 Z-110 F200 P0.5 (probe down set thickness )
-    G1 Z10 F900
+    G1 Z15 F900
     M0 (MSG Remove probe)
     M62 P1 (If used start spindle pin27 )
     ```
@@ -219,7 +219,7 @@ Only happens if you change a tool during your job. It happens at each tool chang
     M00 ; Pause and wait for the tool change
     G28 Z ; Home the Z axis to establish the new Z position
     G92 Z0.5 ; Account for probe thickness (set your thickness)
-    G00 Z5.0000 F500 ; Lift off touchplate
+    G00 Z15.0000 F500 ; Lift off touchplate
     M00 ; Pause to remove the touchplate
     ```
 
@@ -232,7 +232,7 @@ Only happens if you change a tool during your job. It happens at each tool chang
     G0 X10 Y10 F2000 (move to probing location, match first location)
     M0 (MSG change tool, probe)
     G38.2 Z-110 F200 P0.5 (Probe set thickness)
-    G00 Z10.0000 F500 (Clearance)
+    G00 Z15.0000 F500 (Clearance)
     M0 (MSG remove probe)
     M62 P1 (turn on pin27)
     ```
@@ -245,7 +245,7 @@ Only happens if you change a tool during your job. It happens at each tool chang
     M00 change tool, probe ; Pause to change tool and attach probe.
     G38.2 Z0 ; Probe to touchplate
     G92 Z0.5 ; Set Z to touchplate thickness
-    G00 Z5.0000 F500 ; Lift off touchplate
+    G00 Z15.0000 F500 ; Lift off touchplate
     M00 remove probe ; Pause to remove touchplate
     M106 ; Turn fan 1 on IoT relay
     ```
@@ -258,7 +258,7 @@ Only happens if you change a tool during your job. It happens at each tool chang
     G0 X10 Y10 F2000 (move to probing location, match first location)
     M0 (MSG change tool, probe)
     G38.2 Z-110 F200 P0.5 (Probe set thickness)
-    G00 Z10.0000 F500 (Clearance)
+    G00 Z15.0000 F500 (Clearance)
     M0 (MSG remove probe)
     M62 P1 (turn on pin27)
     ```
