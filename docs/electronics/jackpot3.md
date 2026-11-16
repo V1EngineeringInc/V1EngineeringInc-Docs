@@ -16,7 +16,7 @@ The Jackpot3 CNC Controller is an all in one CNC control board. This board allow
 - 7 inputs, 
 - 4 Outputs, 5V(full PWM capable) or 24V(PS input level) outputs (only basic PWM).
 - One expansion FluidNC module socket (more IO, or other specialty add on cards).
-- Integrated RJ11 socket, for a pendant or Airedale expander.
+- Integrated RJ12 socket, for a pendant or Airedale expander.
 - MicroSD card slot.
 - FluidNC Firmware, optionally grblHAL
 
@@ -57,10 +57,10 @@ The Jackpot3 CNC Controller is an all in one CNC control board. This board allow
         * [Buy Them](https://www.tindie.com/stores/33366583/)
         * This should be able to use any CNC I/O module. Use an 11mm standoff or a 3D printed support in the mounting hole provided.
         * These Modules can be just about anything you need, pendant, more inputs, outputs, relays, spindle, VFD, Servo, OLED...
-        * 2 of the 4 expansion port IO pins are shared with the RJ11 socket.
+        * 2 of the 4 expansion port IO pins are shared with the RJ12 socket.
 
-    + RJ11 expansion port
-        * The RJ11 port can be used with [pendants](http://wiki.fluidnc.com/en/hardware/official), or expansion boards like the [Airedale](http://wiki.fluidnc.com/en/hardware/official/airedale)    
+    + RJ12 expansion port
+        * The RJ12 port can be used with [pendants](http://wiki.fluidnc.com/en/hardware/official), or expansion boards like the [Airedale](http://wiki.fluidnc.com/en/hardware/official/airedale)    
 
     + 1x MicroSD card slot
         * larger than 2gb needed
@@ -303,7 +303,7 @@ uart2:
 ```
 GPIO 25, 33, 32 are inputs but can be changed to outputs if you need to. GPIO 35, 34, 39, 36 are input only.
 
-GPIO 12 and 15 are shared with the RJ11 socket. If you use the socket, make sure to only use gpio 13 & 14 on the module port.
+GPIO 12 and 15 are shared with the RJ12 socket. If you use the socket, make sure to only use gpio 13 & 14 on the module port.
 
 ---
 
@@ -319,8 +319,8 @@ JP - Swappable drivers.
 JP3 - All 4 dedicated outputs are voltage selectable (input or 5V), easy to use plugs.  
 JP - 2 "high" voltage, 2 5V ports only.
 
-**RJ11** for pendant or airedale  
-JP3 - Included protected input RJ11 uses 2 module pins, lets you use 2 pin on a module and the RJ11 socket at the same time or all 4 module pins and no RJ11.  
+**RJ12** for pendant or airedale  
+JP3 - Included protected input RJ12 uses 2 module pins, lets you use 2 pin on a module and the RJ12 socket at the same time or all 4 module pins and no RJ12.  
 JP - Add on card required, uses all four module pins.  
 
 **USB**  
